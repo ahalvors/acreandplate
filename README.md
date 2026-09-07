@@ -4,7 +4,7 @@
 
 Static directory site listing ranches selling beef with traceable bloodlines direct to consumers.
 
-🔗 **[View Site](https://acreandplate.netlify.app)**
+🔗 **[View Site](https://acreandplate.com)**
 
 ---
 
