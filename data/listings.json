@@ -250,6 +250,20 @@
       "note": "Contact via email farm@vermontwagyu.com (phone not listed on public site)",
       "description": "Family-owned Spring-Rock Farm (est. 1790) raising Japanese Black Fullblood Wagyu in Vermont. No hormones, steroids, or unnecessary antibiotics. Farm-to-doorstep delivery.",
       "featured": false
+    },
+    {
+      "slug": "caroland-farms-wagyu",
+      "name": "Caroland Farms Wagyu",
+      "url": "https://carolandfarmswagyu.com/",
+      "state": "SC",
+      "city": "Landrum",
+      "genetics": "100% Full Blood Wagyu; every animal certified with the American Wagyu Association; born, raised, and finished on farm; 100% pure Japanese genetic heritage (never crossbred with Angus)",
+      "breeds": ["wagyu"],
+      "products": ["steaks", "ground", "burger patties", "roasts", "short ribs", "brisket", "bundles", "half/quarter steer (pickup only)"],
+      "shipping": "Ships nationwide (flat-rate shipping for retail cuts); half/quarter steer pickup only",
+      "phone": "864-747-8458",
+      "description": "Family farm in South Carolina raising 100% Full Blood Wagyu pasture-raised and finished on a proprietary feeding program. No hormones; antibiotics only as necessary. AWA-certified herd. DNA-verified products available.",
+      "featured": false
     }
   ]
 }

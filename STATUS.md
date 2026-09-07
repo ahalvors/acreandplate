@@ -1,17 +1,17 @@
 # Acre & Plate - Status
 
-**Last Updated:** September 6, 2026  
+**Last Updated:** September 7, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 19
+- **Total Ranches:** 20
 - **Active Deals:** 14
-- **Wagyu Ranches:** 12
+- **Wagyu Ranches:** 13
 - **Akaushi Ranches:** 5
 - **Heritage Breeds:** 3
 - **Texas Ranches:** 6
-- **Total Pages:** 27
+- **Total Pages:** 28
 
 ## Pages Built
 
@@ -22,14 +22,14 @@
 - ✅ About (`/about/`)
 
 ### Hub Pages
-- ✅ Wagyu hub (`/wagyu/`) - 11 ranches
+- ✅ Wagyu hub (`/wagyu/`) - 13 ranches
 - ✅ Akaushi hub (`/akaushi/`) - 5 ranches
 - ✅ Texas hub (`/texas/`) - 6 ranches
 
 ### Guide Pages
 - ✅ Wagyu vs Akaushi Guide (`/guides/wagyu-vs-akaushi/`)
 
-### Listing Pages (19 ranches)
+### Listing Pages (20 ranches)
 - ✅ Lone Mountain Wagyu (NM)
 - ✅ HeartBrand Beef (TX)
 - ✅ Long Hill Wagyu (TX)
@@ -49,6 +49,7 @@
 - ✅ Certified Piedmontese (NE)
 - ✅ Mahanaim Farms (UT)
 - ✅ Vermont Wagyu (VT)
+- ✅ Caroland Farms Wagyu (SC)
 
 ## Known Gaps & Notes
 
@@ -68,7 +69,7 @@
 ## Data Quality
 
 ### Verified Information
-All 19 ranch listings on Acre & Plate have been verified from:
+All 20 ranch listings on Acre & Plate have been verified from:
 - Public ranch websites
 - Direct product pages
 - Contact information pages
@@ -101,7 +102,7 @@ All 19 ranch listings on Acre & Plate have been verified from:
 python3 build.py
 ```
 
-**Output:** 26 static HTML pages + CSS
+**Output:** 28 static HTML pages + CSS
 
 **Publish Directory:** Root (all HTML files in root and subdirectories)
 
