@@ -7,11 +7,12 @@
 
 - **Total Ranches:** 20
 - **Active Deals:** 14
+- **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
 - **Wagyu Ranches:** 13
 - **Akaushi Ranches:** 5
 - **Heritage Breeds:** 3
 - **Texas Ranches:** 6
-- **Total Pages:** 28
+- **Total Pages:** 30
 
 ## Pages Built
 
@@ -19,6 +20,8 @@
 - ✅ Home (`index.html`)
 - ✅ All Listings (`/listings/`)
 - ✅ Seasonal Deals (`/deals/`) - 14 active deals
+- ✅ Featured Ranch (`/featured/`) - monetization landing page
+- ✅ Featured Ranch Thanks (`/featured/thanks/`) - post-checkout page
 - ✅ About (`/about/`)
 
 ### Hub Pages
@@ -96,13 +99,31 @@ All 20 ranch listings on Acre & Plate have been verified from:
 - ❌ Retail products without ranch attribution
 - ❌ Fake "sales" with inflated regular prices
 
+## Monetization: Featured Ranch
+
+**Status:** Live, ready for first subscribers  
+**Pricing:** 
+- Standard: $99/mo - featured on home + listings
+- Premium: $199/mo - home + listings + deals hub spotlight
+
+**Implementation:**
+- Payment via Stripe Payment Links (placeholders in `data/stripe.json` until real URLs added)
+- Featured placements tracked in `data/featured.json`
+- Active placements show "Featured Partner" badge
+- All outbound ranch links include UTM tracking (`utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=<listing_id>`)
+
+**To activate a featured ranch:**
+1. Ranch owner subscribes via `/featured/` page
+2. Add entry to `data/featured.json` with listing_id, tier, start/end dates
+3. Rebuild site - featured ranch appears with badge on home, listings, and (if premium) deals
+
 ## Build Process
 
 ```bash
 python3 build.py
 ```
 
-**Output:** 28 static HTML pages + CSS
+**Output:** 30 static HTML pages + CSS
 
 **Publish Directory:** Root (all HTML files in root and subdirectories)
 
@@ -120,9 +141,12 @@ python3 build.py
 **Data Sources:**
 - `data/listings.json` - Ranch listings
 - `data/deals.json` - Current deals
+- `data/featured.json` - Featured Ranch placements (paid)
+- `data/stripe.json` - Stripe payment link configuration
 
 **Template Engine:** `build.py` (Python)  
 **Styling:** `css/site.css`
 
 To add a ranch, see `ADDING_A_PAGE.md`.  
-To add a deal, see `ADDING_A_DEAL.md`.
+To add a deal, see `ADDING_A_DEAL.md`.  
+For Featured Ranch setup, see `FEATURED.md` (or `/featured/` page).

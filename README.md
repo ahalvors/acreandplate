@@ -17,7 +17,10 @@ A curated directory of 20 U.S. ranches selling:
 
 All direct-to-consumer. No retail "Wagyu" marketing. Every ranch has a public website with verifiable breed claims.
 
-**New:** Seasonal deals section tracking verified sale, clearance, and overstock pricing across ranches.
+**What's New:**
+- **Featured Ranch monetization:** Paid monthly placement for ranches (Standard $99/mo, Premium $199/mo)
+- **Seasonal deals section:** Tracking verified sale, clearance, and overstock pricing across ranches
+- **UTM tracking:** All outbound ranch links include tracking parameters for attribution
 
 ## Architecture
 
@@ -26,11 +29,14 @@ Static HTML site generated from `data/listings.json`:
 ```
 data/listings.json     # Source of truth: 20 ranch listings
 data/deals.json        # Current deals: 14 verified deals
+data/featured.json     # Featured Ranch placements (paid)
+data/stripe.json       # Stripe payment link config
 build.py              # Python generator: data → HTML pages
 css/site.css          # Styling
 index.html            # Home page (generated)
 listings/             # All ranch pages (generated)
 deals/                # Deals hub (generated)
+featured/             # Featured Ranch pages (generated)
 wagyu/                # Hub pages (generated)
 akaushi/              # Hub pages (generated)
 texas/                # Hub pages (generated)
@@ -39,14 +45,16 @@ about/                # About page (generated)
 ```
 
 **Build:** `python3 build.py`  
-**Output:** 28 static HTML pages
+**Output:** 30 static HTML pages
 
 ## Repository Structure
 
 ```
 ├── data/
 │   ├── listings.json          # 20 ranch listings (source of truth)
-│   └── deals.json             # 14 current deals (verified pricing)
+│   ├── deals.json             # 14 current deals (verified pricing)
+│   ├── featured.json          # Featured Ranch placements (paid)
+│   └── stripe.json            # Stripe payment link config
 ├── css/
 │   └── site.css              # Site styles
 ├── build.py                  # Static site generator
@@ -101,6 +109,19 @@ Quick version:
 3. Run `python3 build.py`
 4. Commit and push
 
+### Featured Ranch (Monetization)
+Ranches can purchase premium placement on the site:
+- **Standard** ($99/mo): Featured on home + listings with badge
+- **Premium** ($199/mo): Home + listings + deals hub spotlight
+
+**Setup:**
+1. Update `data/stripe.json` with real Stripe Payment Link URLs
+2. Ranch owners subscribe via `/featured/` page
+3. Add placement to `data/featured.json` with listing_id, tier, dates
+4. Rebuild and deploy
+
+All ranch links include UTM tracking for attribution.
+
 ## Data Quality
 
 All 20 ranches verified from public websites as of September 2026.
@@ -121,9 +142,11 @@ See [STATUS.md](STATUS.md) for known gaps and limitations.
 
 - 20 ranches
 - 14 active deals (verified Sept 5, 2026)
+- 0 featured placements (feature ready, awaiting first subscribers)
 - 13 Wagyu, 5 Akaushi, 3 heritage breeds
-- 28 total pages (home, listings, deals, hubs, guides)
+- 30 total pages (home, listings, deals, featured, hubs, guides)
 - Mobile-first, warm ranch/editorial design
+- UTM tracking on all outbound ranch links
 
 ## Technology
 
@@ -165,4 +188,4 @@ For directory questions or ranch additions: Open an issue on GitHub.
 ---
 
 **Last Updated:** September 7, 2026  
-**Ranches:** 20 | **Deals:** 14 | **Pages:** 28 | **Build:** ✅ Passing
+**Ranches:** 20 | **Deals:** 14 | **Featured:** 0 | **Pages:** 30 | **Build:** ✅ Passing
