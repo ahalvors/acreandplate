@@ -11,7 +11,7 @@
 
 ### For Ranch Owners
 
-1. Visit [acreandplate.netlify.app/featured/](https://acreandplate.netlify.app/featured/)
+1. Visit [acreandplate.com/featured/](https://acreandplate.com/featured/)
 2. Choose Standard or Premium tier
 3. Subscribe via Stripe Payment Link (monthly recurring)
 4. Placement activated within 24 hours
@@ -25,14 +25,14 @@
    - Create Product: "Featured Ranch - Standard" ($99/mo recurring)
    - Create Product: "Featured Ranch - Premium" ($199/mo recurring)
    - Generate Payment Links for each
-   - Set success URL to `https://acreandplate.netlify.app/featured/thanks/`
+   - Set success URL to `https://acreandplate.com/featured/thanks/`
 
 2. Update `data/stripe.json`:
    ```json
    {
      "standard_payment_link": "https://buy.stripe.com/YOUR_STANDARD_LINK",
      "premium_payment_link": "https://buy.stripe.com/YOUR_PREMIUM_LINK",
-     "success_url": "https://acreandplate.netlify.app/featured/thanks/",
+     "success_url": "https://acreandplate.com/featured/thanks/",
      "currency": "usd",
      "standard_price_display": "$99/mo",
      "premium_price_display": "$199/mo"
