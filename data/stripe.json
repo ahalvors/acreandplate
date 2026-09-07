@@ -1,0 +1,8 @@
+{
+  "standard_payment_link": "REPLACE_ME",
+  "premium_payment_link": "REPLACE_ME",
+  "success_url": "https://acreandplate.netlify.app/featured/thanks/",
+  "currency": "usd",
+  "standard_price_display": "$99/mo",
+  "premium_price_display": "$199/mo"
+}

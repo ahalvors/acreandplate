@@ -93,6 +93,7 @@ Check that the new ranch appears:
 - On `/listings/` (all ranches)
 - On relevant hub pages (`/wagyu/`, `/akaushi/`, `/texas/`, etc.)
 - Has its own detail page at `/listings/{slug}/`
+- All "Visit Ranch" links include UTM parameters: `?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=<slug>`
 
 ## Step 5: Update STATUS.md
 

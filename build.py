@@ -19,6 +19,15 @@ with open('data/deals.json', 'r') as f:
     deals_data = json.load(f)
     deals = deals_data['deals']
 
+# Load featured data
+with open('data/featured.json', 'r') as f:
+    featured_data = json.load(f)
+    featured_placements = featured_data['featured']
+
+# Load Stripe configuration
+with open('data/stripe.json', 'r') as f:
+    stripe_config = json.load(f)
+
 def ensure_dir(path: str):
     """Create directory if it doesn't exist"""
     Path(path).mkdir(parents=True, exist_ok=True)
@@ -57,6 +66,7 @@ def base_template(title: str, content: str, meta_description: str = "") -> str:
                 <li><a href="/akaushi/">Akaushi</a></li>
                 <li><a href="/texas/">Texas</a></li>
                 <li><a href="/guides/wagyu-vs-akaushi/">Guide</a></li>
+                <li><a href="/featured/">Featured</a></li>
                 <li><a href="/about/">About</a></li>
             </ul>
         </nav>
@@ -96,6 +106,42 @@ def breed_chip(breed: str) -> str:
         'piedmontese': 'Piedmontese'
     }
     return f'<span class="breed-chip breed-{breed}">{breed_map.get(breed, breed)}</span>'
+
+def add_utm_params(url: str, listing_id: str = None) -> str:
+    """Add UTM parameters to ranch URLs"""
+    separator = '&' if '?' in url else '?'
+    utm = f"{separator}utm_source=acreandplate&utm_medium=referral&utm_campaign=directory"
+    if listing_id:
+        utm += f"&utm_content={listing_id}"
+    return url + utm
+
+def get_active_featured_placements() -> List[Dict[str, Any]]:
+    """Get currently active featured placements with their listings"""
+    from datetime import datetime
+    
+    active = []
+    now = datetime.now().isoformat()
+    
+    for placement in featured_placements:
+        # Check if placement is active (within date range if specified)
+        is_active = True
+        
+        if placement.get('starts_at'):
+            is_active = is_active and now >= placement['starts_at']
+        
+        if placement.get('ends_at'):
+            is_active = is_active and now <= placement['ends_at']
+        
+        if is_active:
+            # Find the corresponding listing
+            listing = next((l for l in listings if l['slug'] == placement['listing_id']), None)
+            if listing:
+                active.append({
+                    'placement': placement,
+                    'listing': listing
+                })
+    
+    return active
 
 def get_best_deals_by_cut() -> Dict[str, Dict[str, Any]]:
     """Get the best deal for each cut type"""
@@ -142,12 +188,15 @@ def deal_card(deal: Dict[str, Any]) -> str:
     
     verified_date = deal.get('verified_at', '')
     
+    # Add UTM parameters to product URL
+    product_url = add_utm_params(deal['product_url'], deal.get('listing_id'))
+    
     return f"""<article class="deal-card">
         <div class="deal-header">
             <span class="season-badge">{deal['season_label']}</span>
             {discount_html}
         </div>
-        <h3><a href="{deal['product_url']}" target="_blank" rel="noopener">{deal['product_name']}</a></h3>
+        <h3><a href="{product_url}" target="_blank" rel="noopener">{deal['product_name']}</a></h3>
         <div class="ranch-name">{deal['ranch_name']}</div>
         <div class="cut-type">{deal['cut'].replace('-', ' ').title()}</div>
         <div class="deal-price">
@@ -159,11 +208,11 @@ def deal_card(deal: Dict[str, Any]) -> str:
         <div class="deal-verified">Verified {verified_date}</div>
         <div class="actions">
             {listing_link_html}
-            <a href="{deal['product_url']}" target="_blank" rel="noopener" class="btn-primary">View Deal →</a>
+            <a href="{product_url}" target="_blank" rel="noopener" class="btn-primary">View Deal →</a>
         </div>
     </article>"""
 
-def listing_card(listing: Dict[str, Any], show_full: bool = False) -> str:
+def listing_card(listing: Dict[str, Any], show_full: bool = False, featured_badge: bool = False) -> str:
     """Generate listing card HTML"""
     breeds_html = ''.join([breed_chip(b) for b in listing['breeds']])
     
@@ -180,7 +229,14 @@ def listing_card(listing: Dict[str, Any], show_full: bool = False) -> str:
     if 'note' in listing:
         note_html = f'<p class="note">{listing["note"]}</p>'
     
+    featured_html = ''
+    if featured_badge:
+        featured_html = '<div class="featured-badge">Featured Partner</div>'
+    
+    ranch_url = add_utm_params(listing['url'], listing['slug'])
+    
     return f"""<article class="listing-card">
+        {featured_html}
         <h3><a href="/listings/{listing['slug']}/">{listing['name']}</a></h3>
         <div class="location">{listing['city']}, {listing['state']}</div>
         <div class="breeds">{breeds_html}</div>
@@ -190,12 +246,38 @@ def listing_card(listing: Dict[str, Any], show_full: bool = False) -> str:
         {note_html}
         <div class="actions">
             <a href="/listings/{listing['slug']}/" class="btn-secondary">View Details</a>
-            <a href="{listing['url']}" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
+            <a href="{ranch_url}" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>"""
 
 def build_index():
     """Build home page"""
+    # Get active featured placements (paid)
+    active_featured = get_active_featured_placements()
+    premium_featured = [f for f in active_featured if f['placement']['tier'] == 'premium']
+    standard_featured = [f for f in active_featured if f['placement']['tier'] == 'standard']
+    
+    # Build featured ranch section if there are any active
+    featured_ranch_html = ''
+    if active_featured:
+        featured_cards = []
+        # Show premium first, then standard
+        for featured in premium_featured + standard_featured:
+            featured_cards.append(listing_card(featured['listing'], featured_badge=True))
+        
+        featured_ranch_html = f"""
+    <section class="featured-ranch-section">
+        <div class="container">
+            <h2>Featured Ranch Partners</h2>
+            <p class="section-intro">Premium ranch placements—ranches committed to traceable bloodlines and transparent sourcing. <a href="/featured/">Learn about Featured Ranch placement</a></p>
+            <div class="listings-grid">
+                {''.join(featured_cards[:4])}
+            </div>
+        </div>
+    </section>
+    """
+    
+    # Original featured ranches (editorial picks)
     featured = [l for l in listings if l.get('featured', False)]
     
     featured_html = '\n'.join([listing_card(l) for l in featured[:3]])
@@ -236,6 +318,8 @@ def build_index():
             </div>
         </div>
     </section>
+    
+    {featured_ranch_html}
     
     {deals_html}
     
@@ -366,7 +450,7 @@ def build_listing_detail(listing: Dict[str, Any]):
                 </div>
                 
                 <div class="cta">
-                    <a href="{listing['url']}" target="_blank" rel="noopener" class="btn-primary">Visit Ranch Website →</a>
+                    <a href="{add_utm_params(listing['url'], listing['slug'])}" target="_blank" rel="noopener" class="btn-primary">Visit Ranch Website →</a>
                 </div>
             </div>
             
@@ -469,6 +553,23 @@ def build_guide():
 
 def build_deals_page():
     """Build deals hub page"""
+    # Get active featured placements (premium tier gets spotlight on deals page)
+    active_featured = get_active_featured_placements()
+    premium_featured = [f for f in active_featured if f['placement']['tier'] == 'premium']
+    
+    featured_ranch_html = ''
+    if premium_featured:
+        featured_cards = [listing_card(f['listing'], featured_badge=True) for f in premium_featured[:2]]
+        featured_ranch_html = f"""
+        <div class="featured-ranch-spotlight">
+            <h2>Featured Ranch Spotlight</h2>
+            <p class="spotlight-intro">Premium ranch partners committed to traceable bloodlines and transparent sourcing.</p>
+            <div class="listings-grid">
+                {''.join(featured_cards)}
+            </div>
+        </div>
+        """
+    
     # Group deals by cut
     deals_by_cut = {}
     for deal in deals:
@@ -509,6 +610,8 @@ def build_deals_page():
     
     <section class="deals-section">
         <div class="container">
+            {featured_ranch_html}
+            
             <div class="deals-intro">
                 <h2>How This Works</h2>
                 <p>Acre & Plate scouts ranch websites for sale, clearance, and overstock inventory. When a ranch marks down ribeyes, ground beef, or other cuts, we verify the deal and list it here. <strong>Always confirm pricing and availability on the ranch website before ordering</strong>—deals change frequently.</p>
@@ -529,6 +632,170 @@ def build_deals_page():
     meta = f"Current seasonal deals and overstock on Wagyu, Akaushi, and heritage beef from ranch-direct sources. {len(deals)} active deals."
     html = base_template("Seasonal Deals & Overstock", content, meta)
     write_page('deals/index.html', html)
+
+def build_featured():
+    """Build Featured Ranch landing page"""
+    # Determine CTA based on Stripe config
+    standard_cta = ''
+    premium_cta = ''
+    
+    if stripe_config['standard_payment_link'] == 'REPLACE_ME':
+        standard_cta = '<a href="mailto:info@acreandplate.com?subject=Featured Ranch - Standard" class="btn-primary">Contact Us (Checkout Coming Soon)</a>'
+        premium_cta = '<a href="mailto:info@acreandplate.com?subject=Featured Ranch - Premium" class="btn-primary">Contact Us (Checkout Coming Soon)</a>'
+    else:
+        standard_cta = f'<a href="{stripe_config["standard_payment_link"]}" class="btn-primary">Get Featured - Standard</a>'
+        premium_cta = f'<a href="{stripe_config["premium_payment_link"]}" class="btn-primary">Get Featured - Premium</a>'
+    
+    content = f"""
+    <section class="hero">
+        <div class="container">
+            <h1>Featured Ranch Placement</h1>
+            <p class="tagline">Showcase your ranch to customers actively searching for traceable, ranch-direct beef. Get featured placement on Acre & Plate.</p>
+        </div>
+    </section>
+    
+    <section class="featured-info">
+        <div class="container">
+            <div class="featured-intro">
+                <h2>What is Featured Ranch?</h2>
+                <p>Featured Ranch gives your ranch premium visibility on Acre & Plate's directory. We connect you with customers who care about traceable bloodlines, named herds, and honest sourcing—people who are ready to buy ranch-direct beef.</p>
+                
+                <p><strong>Your listing already appears in the directory for free.</strong> Featured Ranch placement adds premium visibility to drive more traffic to your ranch website.</p>
+            </div>
+            
+            <div class="pricing-tiers">
+                <div class="tier tier-standard">
+                    <div class="tier-header">
+                        <h3>Standard</h3>
+                        <div class="price">{stripe_config['standard_price_display']}</div>
+                    </div>
+                    <div class="tier-features">
+                        <h4>What's Included:</h4>
+                        <ul>
+                            <li>✓ Featured placement on home page</li>
+                            <li>✓ Highlighted in all listings browse</li>
+                            <li>✓ "Featured Partner" badge on your listing</li>
+                            <li>✓ Priority placement in search results</li>
+                            <li>✓ Monthly traffic reports</li>
+                        </ul>
+                    </div>
+                    <div class="tier-cta">
+                        {standard_cta}
+                    </div>
+                </div>
+                
+                <div class="tier tier-premium">
+                    <div class="tier-header">
+                        <div class="popular-badge">Most Visible</div>
+                        <h3>Premium</h3>
+                        <div class="price">{stripe_config['premium_price_display']}</div>
+                    </div>
+                    <div class="tier-features">
+                        <h4>Everything in Standard, plus:</h4>
+                        <ul>
+                            <li>✓ Top placement on home page</li>
+                            <li>✓ Featured in Seasonal Deals hub</li>
+                            <li>✓ Spotlight section when deals are active</li>
+                            <li>✓ Social media mentions (when available)</li>
+                            <li>✓ Priority support for listing updates</li>
+                        </ul>
+                    </div>
+                    <div class="tier-cta">
+                        {premium_cta}
+                    </div>
+                </div>
+            </div>
+            
+            <div class="featured-faq">
+                <h2>How It Works</h2>
+                
+                <div class="faq-item">
+                    <h3>Who should get featured?</h3>
+                    <p>Ranches raising cattle with traceable bloodlines—Fullblood Wagyu, Akaushi, Japanese Black, heritage breeds. If you're already listed on Acre & Plate, Featured Ranch gives you premium visibility.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>What's the commitment?</h3>
+                    <p>Monthly subscription. Cancel anytime. Your free directory listing stays active regardless of Featured Ranch status.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>How do I track results?</h3>
+                    <p>We provide monthly traffic reports showing visits to your listing and clicks to your ranch website. All outbound links include UTM tracking so you can see Acre & Plate referrals in your own analytics.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>What if my ranch isn't listed yet?</h3>
+                    <p>Visit our <a href="/about/">About page</a> or check <a href="https://github.com/beefbot/genetic-beef">GitHub</a> for instructions on adding your ranch to the directory. Featured Ranch placement is available once your listing is live.</p>
+                </div>
+            </div>
+            
+            <div class="featured-cta-footer">
+                <h2>Ready to get featured?</h2>
+                <p>Choose your tier and start driving more customers to your ranch.</p>
+                <div class="cta-buttons">
+                    {standard_cta}
+                    {premium_cta}
+                </div>
+            </div>
+        </div>
+    </section>
+    """
+    
+    html = base_template("Featured Ranch Placement", content, "Get premium placement for your ranch on Acre & Plate. Featured Ranch drives traffic to ranches raising traceable Wagyu, Akaushi, and heritage beef.")
+    write_page('featured/index.html', html)
+
+def build_featured_thanks():
+    """Build Featured Ranch thank you page"""
+    content = """
+    <section class="hero">
+        <div class="container">
+            <h1>Thank You!</h1>
+            <p class="tagline">Your Featured Ranch placement is being set up. We'll be in touch within 24 hours to confirm your listing details and start date.</p>
+        </div>
+    </section>
+    
+    <section class="thanks-content">
+        <div class="container">
+            <div class="thanks-box">
+                <h2>What Happens Next?</h2>
+                
+                <div class="next-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Confirmation Email</h3>
+                        <p>You'll receive a confirmation email with your subscription details within a few minutes.</p>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>Setup & Launch</h3>
+                        <p>We'll activate your featured placement within 24 hours. Your listing will appear in featured sections across the site.</p>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Monthly Reports</h3>
+                        <p>You'll receive monthly traffic reports showing visits and clicks to your ranch website.</p>
+                    </div>
+                </div>
+                
+                <div class="contact-box">
+                    <h3>Questions?</h3>
+                    <p>Contact us at <a href="mailto:info@acreandplate.com">info@acreandplate.com</a> or check your listing status on <a href="https://github.com/beefbot/genetic-beef">GitHub</a>.</p>
+                </div>
+                
+                <div class="cta">
+                    <a href="/" class="btn-primary">Return to Home</a>
+                    <a href="/listings/" class="btn-secondary">Browse All Ranches</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    """
+    
+    html = base_template("Thank You - Featured Ranch", content)
+    write_page('featured/thanks/index.html', html)
 
 def build_about():
     """Build about page"""
@@ -630,6 +897,10 @@ def main():
     # Guide
     build_guide()
     
+    # Featured Ranch pages
+    build_featured()
+    build_featured_thanks()
+    
     # About
     build_about()
     
@@ -640,7 +911,8 @@ def main():
     print("✓ Built hub pages (wagyu, akaushi, texas)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
-    print(f"\n✨ Site build complete! Total pages: {len(listings) + 8}")
+    print("✓ Built featured ranch pages")
+    print(f"\n✨ Site build complete! Total pages: {len(listings) + 10}")
 
 if __name__ == '__main__':
     main()
