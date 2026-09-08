@@ -69,6 +69,7 @@ def base_template(title: str, content: str, meta_description: str = "") -> str:
                 <li><a href="/wagyu/">Wagyu</a></li>
                 <li><a href="/akaushi/">Akaushi</a></li>
                 <li><a href="/texas/">Texas</a></li>
+                <li><a href="/california/">California</a></li>
                 <li><a href="/guides/wagyu-vs-akaushi/">Guide</a></li>
                 <li><a href="/featured/">Featured</a></li>
                 <li><a href="/about/">About</a></li>
@@ -380,6 +381,7 @@ def build_index():
                 <a href="/wagyu/" class="hub-link">Wagyu <span class="count">({len([l for l in listings if 'wagyu' in l['breeds']])})</span></a>
                 <a href="/akaushi/" class="hub-link">Akaushi <span class="count">({len([l for l in listings if 'akaushi' in l['breeds']])})</span></a>
                 <a href="/texas/" class="hub-link">Texas <span class="count">({len([l for l in listings if l['state'] == 'TX'])})</span></a>
+                <a href="/california/" class="hub-link">California <span class="count">({len([l for l in listings if l['state'] == 'CA' or 'CA' in l.get('state', '')])})</span></a>
                 <a href="/guides/wagyu-vs-akaushi/" class="hub-link">Wagyu vs Akaushi →</a>
             </div>
         </div>
@@ -918,6 +920,13 @@ def main():
         "Texas ranches raising Wagyu, Akaushi, and other traceable-bloodline beef. Ranch-direct shipping available."
     )
     
+    build_hub_page(
+        "California Ranches",
+        "california",
+        lambda l: l['state'] == 'CA' or 'CA' in l.get('state', ''),
+        "California ranches with pasture-raised beef and regenerative grazing practices. Local pickup and shipping available."
+    )
+    
     # Guide
     build_guide()
     
@@ -932,7 +941,7 @@ def main():
     build_deals_page()
     
     print(f"\n✓ Built {len(listings)} listing pages")
-    print("✓ Built hub pages (wagyu, akaushi, texas)")
+    print("✓ Built hub pages (wagyu, akaushi, texas, california)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
     print("✓ Built featured ranch pages")
