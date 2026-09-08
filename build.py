@@ -858,7 +858,7 @@ def build_about():
                 
                 <div class="cta">
                     <a href="/listings/" class="btn-primary">Browse All Ranches</a>
-                    <a href="https://github.com/beefbot/genetic-beef" target="_blank" class="btn-secondary">GitHub</a>
+                    <a href="https://github.com/ahalvors/acreandplate" target="_blank" class="btn-secondary">GitHub</a>
                 </div>
             </article>
         </div>
