@@ -803,7 +803,7 @@ def build_featured_thanks():
                 
                 <div class="contact-box">
                     <h3>Questions?</h3>
-                    <p>Contact us at <a href="mailto:info@acreandplate.com">info@acreandplate.com</a> or check your listing status on <a href="https://github.com/ahalvors/acreandplate">GitHub</a>.</p>
+                    <p>Contact us at <a href="mailto:ranches@acreandplate.com">ranches@acreandplate.com</a> or check your listing status on <a href="https://github.com/ahalvors/acreandplate">GitHub</a>.</p>
                 </div>
                 
                 <div class="cta">
