@@ -84,7 +84,7 @@ def base_template(title: str, content: str, meta_description: str = "") -> str:
                 <a href="/about/">About This Directory</a> · 
                 <a href="/listings/">All Ranches</a> · 
                 <a href="mailto:hello@acreandplate.com">Contact</a> · 
-                <a href="https://github.com/beefbot/genetic-beef" target="_blank">GitHub</a>
+                <a href="https://github.com/ahalvors/acreandplate" target="_blank">GitHub</a>
             </p>
         </div>
     </footer>
@@ -727,7 +727,7 @@ def build_featured():
                 
                 <div class="faq-item">
                     <h3>What if my ranch isn't listed yet?</h3>
-                    <p>Visit our <a href="/about/">About page</a> or check <a href="https://github.com/beefbot/genetic-beef">GitHub</a> for instructions on adding your ranch to the directory. Featured Ranch placement is available once your listing is live.</p>
+                    <p>Visit our <a href="/about/">About page</a> or check <a href="https://github.com/ahalvors/acreandplate">GitHub</a> for instructions on adding your ranch to the directory. Featured Ranch placement is available once your listing is live.</p>
                 </div>
                 
                 <div class="faq-item">
@@ -789,7 +789,7 @@ def build_featured_thanks():
                 
                 <div class="contact-box">
                     <h3>Questions?</h3>
-                    <p>Contact us at <a href="mailto:info@acreandplate.com">info@acreandplate.com</a> or check your listing status on <a href="https://github.com/beefbot/genetic-beef">GitHub</a>.</p>
+                    <p>Contact us at <a href="mailto:info@acreandplate.com">info@acreandplate.com</a> or check your listing status on <a href="https://github.com/ahalvors/acreandplate">GitHub</a>.</p>
                 </div>
                 
                 <div class="cta">

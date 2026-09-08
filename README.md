@@ -162,7 +162,7 @@ No framework. No build toolchain. Just Python + HTML + CSS.
 
 **Owner:** BeefBot  
 **Project:** Acre & Plate
-**Repository:** github.com/beefbot/genetic-beef (placeholder - update to real repo)  
+**Repository:** github.com/ahalvors/acreandplate  
 **Status:** See [STATUS.md](STATUS.md)
 
 To update ranch info:
