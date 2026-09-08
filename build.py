@@ -83,6 +83,7 @@ def base_template(title: str, content: str, meta_description: str = "") -> str:
             <p class="links">
                 <a href="/about/">About This Directory</a> · 
                 <a href="/listings/">All Ranches</a> · 
+                <a href="mailto:hello@acreandplate.com">Contact</a> · 
                 <a href="https://github.com/beefbot/genetic-beef" target="_blank">GitHub</a>
             </p>
         </div>
@@ -728,6 +729,11 @@ def build_featured():
                     <h3>What if my ranch isn't listed yet?</h3>
                     <p>Visit our <a href="/about/">About page</a> or check <a href="https://github.com/beefbot/genetic-beef">GitHub</a> for instructions on adding your ranch to the directory. Featured Ranch placement is available once your listing is live.</p>
                 </div>
+                
+                <div class="faq-item">
+                    <h3>Questions about Featured Ranch?</h3>
+                    <p>Contact us at <a href="mailto:ranches@acreandplate.com">ranches@acreandplate.com</a> for questions about featured placement, listing updates, or custom packages.</p>
+                </div>
             </div>
             
             <div class="featured-cta-footer">
@@ -737,6 +743,7 @@ def build_featured():
                     {standard_cta}
                     {premium_cta}
                 </div>
+                <p style="margin-top: 1.5rem; text-align: center;">Questions? Email <a href="mailto:ranches@acreandplate.com">ranches@acreandplate.com</a></p>
             </div>
         </div>
     </section>
@@ -845,6 +852,9 @@ def build_about():
                 </ol>
                 
                 <p class="disclaimer"><strong>Disclaimer:</strong> We don't sell beef. We don't receive commissions. We list publicly available information. Contact ranches directly for orders. Verify claims independently if needed.</p>
+                
+                <h2>Contact</h2>
+                <p>Have questions or feedback? Reach out to us at <a href="mailto:hello@acreandplate.com">hello@acreandplate.com</a></p>
                 
                 <div class="cta">
                     <a href="/listings/" class="btn-primary">Browse All Ranches</a>
