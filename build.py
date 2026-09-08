@@ -655,8 +655,8 @@ def build_featured():
     premium_cta = ''
     
     if stripe_config['standard_payment_link'] == 'REPLACE_ME':
-        standard_cta = '<a href="mailto:info@acreandplate.com?subject=Featured Ranch - Standard" class="btn-primary">Contact Us (Checkout Coming Soon)</a>'
-        premium_cta = '<a href="mailto:info@acreandplate.com?subject=Featured Ranch - Premium" class="btn-primary">Contact Us (Checkout Coming Soon)</a>'
+        standard_cta = '<a href="mailto:ranches@acreandplate.com?subject=Featured Ranch - Standard" class="btn-primary">Contact Us (Checkout Coming Soon)</a>'
+        premium_cta = '<a href="mailto:ranches@acreandplate.com?subject=Featured Ranch - Premium" class="btn-primary">Contact Us (Checkout Coming Soon)</a>'
     else:
         standard_cta = f'<a href="{stripe_config["standard_payment_link"]}" class="btn-primary">Get Featured - Standard</a>'
         premium_cta = f'<a href="{stripe_config["premium_payment_link"]}" class="btn-primary">Get Featured - Premium</a>'
@@ -803,7 +803,7 @@ def build_featured_thanks():
                 
                 <div class="contact-box">
                     <h3>Questions?</h3>
-                    <p>Contact us at <a href="mailto:info@acreandplate.com">info@acreandplate.com</a> or check your listing status on <a href="https://github.com/ahalvors/acreandplate">GitHub</a>.</p>
+                    <p>Contact us at <a href="mailto:ranches@acreandplate.com">ranches@acreandplate.com</a> or check your listing status on <a href="https://github.com/ahalvors/acreandplate">GitHub</a>.</p>
                 </div>
                 
                 <div class="cta">
