@@ -51,13 +51,17 @@ def base_template(title: str, content: str, meta_description: str = "") -> str:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title} | Acre & Plate</title>
     <meta name="description" content="{meta_description}">
+    <link rel="icon" type="image/png" href="/assets/brand/rocking-ap-mark.png">
     <link rel="stylesheet" href="/css/site.css">
 </head>
 <body>
     <header>
         <nav class="container">
             <div class="logo">
-                <a href="/">Acre & Plate</a>
+                <a href="/" aria-label="Acre & Plate home">
+                    <img src="/assets/brand/rocking-ap-mark.png" alt="" width="54" height="56">
+                    <span><strong>Acre & Plate</strong><small>Pasture to plate</small></span>
+                </a>
             </div>
             <ul class="nav-links">
                 <li><a href="/listings/">All Listings</a></li>
@@ -309,13 +313,23 @@ def build_index():
     content = f"""
     <section class="hero">
         <div class="container">
-            <h1>Acre & Plate</h1>
-            <p class="tagline">Ranch-direct beef for people who care where dinner came from—local pasture, named herds, honest sourcing. Find Fullblood Wagyu, Akaushi, Japanese Black, and rare heritage breeds from ranches you can trace.</p>
-            <div class="hero-actions">
-                <a href="/listings/" class="btn-primary">Browse All Ranches</a>
-                <a href="/deals/" class="btn-secondary">Deals</a>
-                <a href="/wagyu/" class="btn-secondary">Wagyu</a>
-                <a href="/akaushi/" class="btn-secondary">Akaushi</a>
+            <div class="hero-copy">
+                <p class="eyebrow">Raised right <span>•</span> Cut with care</p>
+                <h1>Know the ranch<br>behind your beef.</h1>
+                <p class="tagline">Find exceptional ranch-direct beef from named herds with traceable genetics—from open pasture to your plate.</p>
+                <div class="hero-actions">
+                    <a href="/listings/" class="btn-primary">Find a Ranch</a>
+                    <a href="/deals/" class="btn-secondary">Shop Current Deals</a>
+                </div>
+                <div class="hero-proof" aria-label="Directory highlights">
+                    <span><strong>{len(listings)}</strong> verified ranches</span>
+                    <span><strong>3</strong> heritage categories</span>
+                    <span><strong>Direct</strong> from the source</span>
+                </div>
+            </div>
+            <div class="hero-mark" aria-hidden="true">
+                <img src="/assets/brand/rocking-ap-mark.png" alt="">
+                <p>Pasture to Plate</p>
             </div>
         </div>
     </section>
