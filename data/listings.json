@@ -264,6 +264,34 @@
       "phone": "864-747-8458",
       "description": "Family farm in South Carolina raising 100% Full Blood Wagyu pasture-raised and finished on a proprietary feeding program. No hormones; antibiotics only as necessary. AWA-certified herd. DNA-verified products available.",
       "featured": false
+    },
+    {
+      "slug": "koopmann-family-beef",
+      "name": "Koopmann Family Beef",
+      "url": "https://koopmannfamilybeef.com/",
+      "state": "CA",
+      "city": "Sunol",
+      "genetics": "All-natural pasture-raised; cattle spend over 90% of lives on Bay Area hills forage (grass); free of hormones and antibiotics; offers grass-fed and grass-raised grain-finished",
+      "breeds": [],
+      "products": ["individual cuts", "subscription boxes", "bulk shares (1/4, 1/2, whole)", "seasonings coming soon"],
+      "shipping": "Local pickup at ranch + shipping available (lower 48; ships Mon/Tue insulated dry ice, 1-2 day)",
+      "phone": "925-494-8063",
+      "note": "Ranch pickup at 9480 Koopmann Road, Sunol, CA 94586 (usually Mon & Fri 11am–3pm, subject to change). Also at Livermore farmers markets. Currently only taking bulk orders for 2025. Contact: koopmannfamilybeef@gmail.com",
+      "description": "Fifth-generation Bay Area cattle family (Clayton & Natalie Koopmann) selling ranch-direct all-natural beef grazed in Northern California / SF Bay hills. Managed grazing and conservation. Founded 2020 as retail brand."
+    },
+    {
+      "slug": "calhoun-sisters-ranch",
+      "name": "3 Calhoun Sisters' Ranch (Circle H Beef)",
+      "url": "https://www.3calhounsisters.com/grass-fed-beef/",
+      "state": "CA",
+      "city": "Livermore",
+      "genetics": "Grass-fed & grass-finished Angus; Audubon Certified Bird Friendly (first cattle ranch in Alameda County, May 2024); no hormones, antibiotic-free; regenerative grazing; five generations in Livermore Valley / Mines Road since 1900",
+      "breeds": [],
+      "products": ["quarter/half/whole beef shares", "hot dogs", "sausage", "jerky", "tallow (partner products)", "sampler packs when available"],
+      "shipping": "Local / ranch pickup & butcher pickup (Coffland Craft Butchery, Galt); custom-exempt processing for personal use",
+      "phone": "925-216-0468",
+      "note": "Contact Nancy Calhoun Mueller — call/text or email nancyjm1960@yahoo.com. Beef brand marketed as Circle H Beef; SOLD OUT for 2026 shares per ranch site. Distinct from Circle H Ranch Wagyu (WY/ID).",
+      "description": "Fifth-generation Livermore Valley ranch (Nancy, Merry, Susie Calhoun) selling grass-fed grass-finished Angus as Circle H Beef with Audubon bird-friendly certification and regenerative practices."
     }
   ]
 }
