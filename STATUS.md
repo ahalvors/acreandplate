@@ -5,21 +5,22 @@
 
 ## Site Statistics
 
-- **Total Ranches:** 20
-- **Active Deals:** 14
+- **Total Ranches:** 22
+- **Active Deals:** 1
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
 - **Wagyu Ranches:** 13
 - **Akaushi Ranches:** 5
 - **Heritage Breeds:** 3
 - **Texas Ranches:** 6
-- **Total Pages:** 30
+- **California Ranches:** 3
+- **Total Pages:** 32
 
 ## Pages Built
 
 ### Core Pages
 - ✅ Home (`index.html`)
 - ✅ All Listings (`/listings/`)
-- ✅ Seasonal Deals (`/deals/`) - 14 active deals
+- ✅ Seasonal Deals (`/deals/`) - 1 active deal
 - ✅ Featured Ranch (`/featured/`) - monetization landing page
 - ✅ Featured Ranch Thanks (`/featured/thanks/`) - post-checkout page
 - ✅ About (`/about/`)
@@ -28,11 +29,12 @@
 - ✅ Wagyu hub (`/wagyu/`) - 13 ranches
 - ✅ Akaushi hub (`/akaushi/`) - 5 ranches
 - ✅ Texas hub (`/texas/`) - 6 ranches
+- ✅ California hub (`/california/`) - 3 ranches
 
 ### Guide Pages
 - ✅ Wagyu vs Akaushi Guide (`/guides/wagyu-vs-akaushi/`)
 
-### Listing Pages (20 ranches)
+### Listing Pages (22 ranches)
 - ✅ Lone Mountain Wagyu (NM)
 - ✅ HeartBrand Beef (TX)
 - ✅ Long Hill Wagyu (TX)
@@ -53,6 +55,8 @@
 - ✅ Mahanaim Farms (UT)
 - ✅ Vermont Wagyu (VT)
 - ✅ Caroland Farms Wagyu (SC)
+- ✅ Koopmann Family Beef (CA)
+- ✅ 3 Calhoun Sisters' Ranch (CA)
 
 ## Known Gaps & Notes
 
@@ -79,11 +83,11 @@ All 20 ranch listings on Acre & Plate have been verified from:
 - Shipping policy pages
 
 ### Deals & Pricing
-- ✅ **14 active deals** verified from ranch websites (as of Sept 5, 2026)
+- ✅ **1 active deal** verified from ranch website (as of Sept 7, 2026)
 - ✅ Sale prices confirmed from ranch sales/clearance pages
 - ✅ Regular prices included when shown by ranch
 - ⚠️ Deals updated periodically—users should confirm current pricing on ranch sites
-- ⚠️ Certified Piedmontese Labor Day Sale ends Sep 7, 2026 midnight CST
+- 📅 **Sep 7, 2026 nightly ship:** Removed 13 stale deals (Piedmontese Labor Day sale ended, Pasture Prime summer boxes no longer listed, HeartBrand sale collection empty). Kept Long Hill ground beef bulk deal still active at $180 compare-at $195.
 
 ### What We Record
 - ✅ Ranch name and location
@@ -129,7 +133,8 @@ python3 build.py
 
 ## Next Steps / Future Enhancements
 
-- [ ] Add state hub pages (beyond Texas)
+- [x] Add California state hub page
+- [ ] Add more state hub pages (Florida, Wyoming, etc.)
 - [ ] Add heritage breeds hub page
 - [ ] Expand to more ranches (verified genetics only)
 - [ ] Add search/filter functionality (JavaScript)
