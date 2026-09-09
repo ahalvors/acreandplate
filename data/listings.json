@@ -292,6 +292,21 @@
       "phone": "925-216-0468",
       "note": "Contact Nancy Calhoun Mueller — call/text or email nancyjm1960@yahoo.com. Beef brand marketed as Circle H Beef; SOLD OUT for 2026 shares per ranch site. Distinct from Circle H Ranch Wagyu (WY/ID).",
       "description": "Fifth-generation Livermore Valley ranch (Nancy, Merry, Susie Calhoun) selling grass-fed grass-finished Angus as Circle H Beef with Audubon bird-friendly certification and regenerative practices."
+    },
+    {
+      "slug": "cross-creek-ranch",
+      "name": "Cross Creek Ranch Premium Meats",
+      "url": "https://ccrpremiummeats.com/",
+      "state": "CO",
+      "city": "Hesperus",
+      "genetics": "Full Blood Wagyu (elite Japanese genetics; MIJ-30 grading meeting or exceeding A4/A5) and American Wagyu (Wagyu × Angus); born and raised on ranch",
+      "breeds": ["wagyu"],
+      "products": ["steaks", "ground", "burger patties", "short ribs", "roasts"],
+      "shipping": "Continental US only (2-day air frozen via UPS); free shipping on orders $200+; $100 minimum order; local pickup at Cortez, CO processing facility",
+      "phone": "800-979-8322",
+      "note": "Ships Mon–Wed only (orders after 9am Wed MST ship following Monday). Dry-aged at least 21 days. No hormones or antibiotics per ranch FAQ.",
+      "description": "Family-owned ranch near Durango/Hesperus in the Colorado Rockies. Full Blood and American Wagyu raised, cut, and shipped by the ranch—processed on-site, delivered frozen, no middlemen.",
+      "featured": false
     }
   ]
 }

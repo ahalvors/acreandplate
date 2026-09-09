@@ -1,19 +1,19 @@
 # Acre & Plate - Status
 
-**Last Updated:** September 7, 2026  
+**Last Updated:** September 8, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 22
+- **Total Ranches:** 23
 - **Active Deals:** 1
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
-- **Wagyu Ranches:** 13
+- **Wagyu Ranches:** 14
 - **Akaushi Ranches:** 5
 - **Heritage Breeds:** 3
 - **Texas Ranches:** 6
 - **California Ranches:** 3
-- **Total Pages:** 32
+- **Total Pages:** 33
 
 ## Pages Built
 
@@ -26,7 +26,7 @@
 - ✅ About (`/about/`)
 
 ### Hub Pages
-- ✅ Wagyu hub (`/wagyu/`) - 13 ranches
+- ✅ Wagyu hub (`/wagyu/`) - 14 ranches
 - ✅ Akaushi hub (`/akaushi/`) - 5 ranches
 - ✅ Texas hub (`/texas/`) - 6 ranches
 - ✅ California hub (`/california/`) - 3 ranches
@@ -34,7 +34,7 @@
 ### Guide Pages
 - ✅ Wagyu vs Akaushi Guide (`/guides/wagyu-vs-akaushi/`)
 
-### Listing Pages (22 ranches)
+### Listing Pages (23 ranches)
 - ✅ Lone Mountain Wagyu (NM)
 - ✅ HeartBrand Beef (TX)
 - ✅ Long Hill Wagyu (TX)
@@ -57,6 +57,7 @@
 - ✅ Caroland Farms Wagyu (SC)
 - ✅ Koopmann Family Beef (CA)
 - ✅ 3 Calhoun Sisters' Ranch (CA)
+- ✅ Cross Creek Ranch Premium Meats (CO)
 
 ## Known Gaps & Notes
 
@@ -76,18 +77,18 @@
 ## Data Quality
 
 ### Verified Information
-All 20 ranch listings on Acre & Plate have been verified from:
+All 23 ranch listings on Acre & Plate have been verified from:
 - Public ranch websites
 - Direct product pages
 - Contact information pages
 - Shipping policy pages
 
 ### Deals & Pricing
-- ✅ **1 active deal** verified from ranch website (as of Sept 7, 2026)
+- ✅ **1 active deal** verified from ranch website (as of Sept 8, 2026)
 - ✅ Sale prices confirmed from ranch sales/clearance pages
 - ✅ Regular prices included when shown by ranch
 - ⚠️ Deals updated periodically—users should confirm current pricing on ranch sites
-- 📅 **Sep 7, 2026 nightly ship:** Removed 13 stale deals (Piedmontese Labor Day sale ended, Pasture Prime summer boxes no longer listed, HeartBrand sale collection empty). Kept Long Hill ground beef bulk deal still active at $180 compare-at $195.
+- 📅 **Sep 8, 2026 nightly ship:** Added Cross Creek Ranch Premium Meats (Hesperus, CO) — first Colorado ranch, Full Blood + American Wagyu. Re-verified Long Hill 15 lb ground bulk deal still active at $180. No new deals found tonight.
 
 ### What We Record
 - ✅ Ranch name and location
@@ -134,7 +135,7 @@ python3 build.py
 ## Next Steps / Future Enhancements
 
 - [x] Add California state hub page
-- [ ] Add more state hub pages (Florida, Wyoming, etc.)
+- [ ] Add more state hub pages (Colorado, Florida, Wyoming, etc.)
 - [ ] Add heritage breeds hub page
 - [ ] Expand to more ranches (verified genetics only)
 - [ ] Add search/filter functionality (JavaScript)
