@@ -307,6 +307,71 @@
       "note": "Ships Mon–Wed only (orders after 9am Wed MST ship following Monday). Dry-aged at least 21 days. No hormones or antibiotics per ranch FAQ.",
       "description": "Family-owned ranch near Durango/Hesperus in the Colorado Rockies. Full Blood and American Wagyu raised, cut, and shipped by the ranch—processed on-site, delivered frozen, no middlemen.",
       "featured": false
+    },
+    {
+      "slug": "3z-cattle-co",
+      "name": "3Z Cattle Co",
+      "url": "https://3zcattle.com/",
+      "state": "CA",
+      "city": "Morgan Hill",
+      "genetics": "American Wagyu F1-F4 (Wagyu-Angus cross) and fullblood Angus; grass-finished and pre-order non-GMO grain-finished; born and raised on ranch; no antibiotics, vaccines, or growth hormones in market animals",
+      "breeds": ["wagyu", "angus"],
+      "products": ["steaks", "ground", "roasts", "whole/half/quarter beef"],
+      "shipping": "Direct to doorstep delivery",
+      "phone": "408-646-2059",
+      "description": "First-generation ranch in Coyote Valley raising American Wagyu and Angus. Dry-aged 14-21 days, vacuum-wrapped and flash-frozen. Regenerative ranching practices with rotational grazing."
+    },
+    {
+      "slug": "midori-ranch",
+      "name": "Midori Ranch",
+      "url": "https://www.midoriranch.com/",
+      "state": "CA",
+      "city": "Paicines",
+      "genetics": "F1 Wagyu (50% Wagyu, 50% Angus) and Angus; grass-finished and non-GMO grain-finished options; born, raised, and finished on ranch",
+      "breeds": ["wagyu", "angus"],
+      "products": ["whole beef", "half beef"],
+      "shipping": "Bay Area/Peninsula delivery from Los Altos hub (Los Gatos to Burlingame); ranch pickup in Paicines; Hollister butcher pickup",
+      "note": "Contact sales@midoriranch.com for delivery inquiries. Ranch stays and events available.",
+      "description": "Regenerative ranch on 7,500 acres in Paicines offering premium pasture-raised F1 Wagyu and Angus beef. Custom cut sheets available with concierge service."
+    },
+    {
+      "slug": "nyland-herefords",
+      "name": "Nyland Herefords",
+      "url": "https://www.nylandherefords.com/",
+      "state": "CA",
+      "city": "San Juan Bautista",
+      "genetics": "Horned Hereford; nearly a century raising exceptional cattle with care and stewardship; pasture-raised in picturesque green pastures",
+      "breeds": ["hereford"],
+      "products": ["beef shares", "registered Hereford cattle"],
+      "shipping": "Contact for availability",
+      "phone": "925-597-3153",
+      "description": "Multi-generation horned Hereford operation in San Juan Bautista. Fourth generation Matthew Manning continues tradition of producing top-quality pasture-raised beef."
+    },
+    {
+      "slug": "morris-grassfed",
+      "name": "Morris Grassfed",
+      "url": "https://morrisgrassfed.com/",
+      "state": "CA",
+      "city": "San Juan Bautista",
+      "genetics": "100% pasture-raised; certified organic diet of fresh grass and legumes; no synthetic hormones or feed antibiotics; American Grassfed Association member",
+      "breeds": [],
+      "products": ["quarter cow (split-half)", "half beef", "subscription packs"],
+      "shipping": "Monthly delivery May-November from Monterey to Sacramento; FedEx Ground available for locations beyond truck routes",
+      "phone": "(831) 801-3798",
+      "description": "T.O. Cattle Company family operation dating back to 1850s San Francisco and Rancho Santa Margarita. 100% grassfed beef dry-aged and processed by artisan butchers. Audubon bird-friendly certified."
+    },
+    {
+      "slug": "connolly-ranch",
+      "name": "Connolly Ranch Natural Beef",
+      "url": "https://connollyranch.com/",
+      "state": "CA",
+      "city": "Tracy",
+      "genetics": "Black Angus; 100% grass-fed; no hormones, implants, antibiotics, or grain; born and raised on ranch in San Joaquin and Alameda counties",
+      "breeds": ["angus"],
+      "products": ["quarter-sides (~60-80 lbs mixed cuts and ground)"],
+      "shipping": "In-person pickup near ranch in Tracy (seasonal, July)",
+      "note": "2026 orders closed. Email crnb@connollyranch.com for questions. Established 1870.",
+      "description": "150-year-old family ranch where San Joaquin and Alameda counties meet. Sustainably managed rangeland with Black Angus cattle raised entirely on pasture. Each cut individually packaged, vacuum-sealed, labeled, and frozen."
     }
   ]
 }

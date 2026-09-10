@@ -1,20 +1,20 @@
 # Acre & Plate - Status
 
-**Last Updated:** September 9, 2026  
+**Last Updated:** September 10, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 23
+- **Total Ranches:** 28
 - **Active Deals:** 1
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
-- **Wagyu Ranches:** 14
+- **Wagyu Ranches:** 16
 - **Akaushi Ranches:** 5
 - **Heritage Breeds:** 3
 - **Texas Ranches:** 6
-- **California Ranches:** 3
+- **California Ranches:** 8
 - **Colorado Ranches:** 1
-- **Total Pages:** 34
+- **Total Pages:** 39
 
 ## Pages Built
 
@@ -27,16 +27,16 @@
 - ✅ About (`/about/`)
 
 ### Hub Pages
-- ✅ Wagyu hub (`/wagyu/`) - 14 ranches
+- ✅ Wagyu hub (`/wagyu/`) - 16 ranches
 - ✅ Akaushi hub (`/akaushi/`) - 5 ranches
 - ✅ Texas hub (`/texas/`) - 6 ranches
-- ✅ California hub (`/california/`) - 3 ranches
+- ✅ California hub (`/california/`) - 8 ranches
 - ✅ Colorado hub (`/colorado/`) - 1 ranch
 
 ### Guide Pages
 - ✅ Wagyu vs Akaushi Guide (`/guides/wagyu-vs-akaushi/`)
 
-### Listing Pages (23 ranches)
+### Listing Pages (28 ranches)
 - ✅ Lone Mountain Wagyu (NM)
 - ✅ HeartBrand Beef (TX)
 - ✅ Long Hill Wagyu (TX)
@@ -60,6 +60,11 @@
 - ✅ Koopmann Family Beef (CA)
 - ✅ 3 Calhoun Sisters' Ranch (CA)
 - ✅ Cross Creek Ranch Premium Meats (CO)
+- ✅ 3Z Cattle Co (CA)
+- ✅ Midori Ranch (CA)
+- ✅ Nyland Herefords (CA)
+- ✅ Morris Grassfed (CA)
+- ✅ Connolly Ranch Natural Beef (CA)
 
 ## Known Gaps & Notes
 
@@ -79,7 +84,7 @@
 ## Data Quality
 
 ### Verified Information
-All 23 ranch listings on Acre & Plate have been verified from:
+All 28 ranch listings on Acre & Plate have been verified from:
 - Public ranch websites
 - Direct product pages
 - Contact information pages
@@ -92,6 +97,7 @@ All 23 ranch listings on Acre & Plate have been verified from:
 - ⚠️ Deals updated periodically—users should confirm current pricing on ranch sites
 - 📅 **Sep 8, 2026 nightly ship:** Added Cross Creek Ranch Premium Meats (Hesperus, CO) — first Colorado ranch, Full Blood + American Wagyu. Re-verified Long Hill 15 lb ground bulk deal still active at $180. No new deals found tonight.
 - 📅 **Sep 9, 2026 nightly ship:** Added Colorado state hub at `/colorado/` listing Cross Creek Ranch (Hesperus). Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195). Colorado hub now wired in navigation and home page, mirroring California pattern. No new listings or deals added.
+- 📅 **Sep 10, 2026 Bay Area/Central Coast expansion:** Added 5 verified California ranches: 3Z Cattle Co (Morgan Hill - American Wagyu F1-F4 + Angus), Midori Ranch (Paicines - F1 Wagyu), Nyland Herefords (San Juan Bautista - horned Hereford), Morris Grassfed (San Juan Bautista - 100% grassfed), Connolly Ranch Natural Beef (Tracy - Black Angus). California hub now shows 8 ranches (up from 3). Total site count: 28 ranches, 39 pages.
 
 ### What We Record
 - ✅ Ranch name and location
