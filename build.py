@@ -64,15 +64,10 @@ def base_template(title: str, content: str, meta_description: str = "") -> str:
                 </a>
             </div>
             <ul class="nav-links">
-                <li><a href="/listings/">All Listings</a></li>
+                <li><a href="/listings/">Browse</a></li>
                 <li><a href="/deals/">Deals</a></li>
-                <li><a href="/wagyu/">Wagyu</a></li>
-                <li><a href="/akaushi/">Akaushi</a></li>
-                <li><a href="/texas/">Texas</a></li>
-                <li><a href="/california/">California</a></li>
-                <li><a href="/colorado/">Colorado</a></li>
+                <li><a href="https://acreandplate.printful.me/" target="_blank" rel="noopener noreferrer">Shop</a></li>
                 <li><a href="/guides/wagyu-vs-akaushi/">Guide</a></li>
-                <li><a href="/featured/">Featured</a></li>
                 <li><a href="/about/">About</a></li>
             </ul>
         </nav>
@@ -89,6 +84,7 @@ def base_template(title: str, content: str, meta_description: str = "") -> str:
             <p class="links">
                 <a href="/about/">About This Directory</a> · 
                 <a href="/listings/">All Ranches</a> · 
+                <a href="https://acreandplate.printful.me/" target="_blank" rel="noopener noreferrer">Shop</a> · 
                 <a href="mailto:hello@acreandplate.com">Contact</a> · 
                 <a href="https://github.com/ahalvors/acreandplate" target="_blank">GitHub</a>
             </p>
