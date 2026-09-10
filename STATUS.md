@@ -1,6 +1,6 @@
 # Acre & Plate - Status
 
-**Last Updated:** September 8, 2026  
+**Last Updated:** September 9, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
@@ -13,7 +13,8 @@
 - **Heritage Breeds:** 3
 - **Texas Ranches:** 6
 - **California Ranches:** 3
-- **Total Pages:** 33
+- **Colorado Ranches:** 1
+- **Total Pages:** 34
 
 ## Pages Built
 
@@ -30,6 +31,7 @@
 - ✅ Akaushi hub (`/akaushi/`) - 5 ranches
 - ✅ Texas hub (`/texas/`) - 6 ranches
 - ✅ California hub (`/california/`) - 3 ranches
+- ✅ Colorado hub (`/colorado/`) - 1 ranch
 
 ### Guide Pages
 - ✅ Wagyu vs Akaushi Guide (`/guides/wagyu-vs-akaushi/`)
@@ -89,6 +91,7 @@ All 23 ranch listings on Acre & Plate have been verified from:
 - ✅ Regular prices included when shown by ranch
 - ⚠️ Deals updated periodically—users should confirm current pricing on ranch sites
 - 📅 **Sep 8, 2026 nightly ship:** Added Cross Creek Ranch Premium Meats (Hesperus, CO) — first Colorado ranch, Full Blood + American Wagyu. Re-verified Long Hill 15 lb ground bulk deal still active at $180. No new deals found tonight.
+- 📅 **Sep 9, 2026 nightly ship:** Added Colorado state hub at `/colorado/` listing Cross Creek Ranch (Hesperus). Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195). Colorado hub now wired in navigation and home page, mirroring California pattern. No new listings or deals added.
 
 ### What We Record
 - ✅ Ranch name and location
@@ -135,7 +138,8 @@ python3 build.py
 ## Next Steps / Future Enhancements
 
 - [x] Add California state hub page
-- [ ] Add more state hub pages (Colorado, Florida, Wyoming, etc.)
+- [x] Add Colorado state hub page
+- [ ] Add more state hub pages (Florida, Wyoming, etc.)
 - [ ] Add heritage breeds hub page
 - [ ] Expand to more ranches (verified genetics only)
 - [ ] Add search/filter functionality (JavaScript)

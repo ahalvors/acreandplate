@@ -70,6 +70,7 @@ def base_template(title: str, content: str, meta_description: str = "") -> str:
                 <li><a href="/akaushi/">Akaushi</a></li>
                 <li><a href="/texas/">Texas</a></li>
                 <li><a href="/california/">California</a></li>
+                <li><a href="/colorado/">Colorado</a></li>
                 <li><a href="/guides/wagyu-vs-akaushi/">Guide</a></li>
                 <li><a href="/featured/">Featured</a></li>
                 <li><a href="/about/">About</a></li>
@@ -382,6 +383,7 @@ def build_index():
                 <a href="/akaushi/" class="hub-link">Akaushi <span class="count">({len([l for l in listings if 'akaushi' in l['breeds']])})</span></a>
                 <a href="/texas/" class="hub-link">Texas <span class="count">({len([l for l in listings if l['state'] == 'TX'])})</span></a>
                 <a href="/california/" class="hub-link">California <span class="count">({len([l for l in listings if l['state'] == 'CA' or 'CA' in l.get('state', '')])})</span></a>
+                <a href="/colorado/" class="hub-link">Colorado <span class="count">({len([l for l in listings if l['state'] == 'CO'])})</span></a>
                 <a href="/guides/wagyu-vs-akaushi/" class="hub-link">Wagyu vs Akaushi →</a>
             </div>
         </div>
@@ -927,6 +929,13 @@ def main():
         "California ranches with pasture-raised beef and regenerative grazing practices. Local pickup and shipping available."
     )
     
+    build_hub_page(
+        "Colorado Ranches",
+        "colorado",
+        lambda l: l['state'] == 'CO',
+        "Colorado ranches raising Wagyu and other traceable-bloodline beef in the Rocky Mountains. Ranch-direct shipping available."
+    )
+    
     # Guide
     build_guide()
     
@@ -941,11 +950,11 @@ def main():
     build_deals_page()
     
     print(f"\n✓ Built {len(listings)} listing pages")
-    print("✓ Built hub pages (wagyu, akaushi, texas, california)")
+    print("✓ Built hub pages (wagyu, akaushi, texas, california, colorado)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
     print("✓ Built featured ranch pages")
-    print(f"\n✨ Site build complete! Total pages: {len(listings) + 10}")
+    print(f"\n✨ Site build complete! Total pages: {len(listings) + 11}")
 
 if __name__ == '__main__':
     main()
