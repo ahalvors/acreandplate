@@ -318,6 +318,7 @@ def build_index():
                 <div class="hero-actions">
                     <a href="/listings/" class="btn-primary">Find a Ranch</a>
                     <a href="/deals/" class="btn-secondary">Shop Current Deals</a>
+                    <a href="https://acreandplate.printful.me/" target="_blank" rel="noopener noreferrer" class="btn-secondary">Shop Tees</a>
                 </div>
                 <div class="hero-proof" aria-label="Directory highlights">
                     <span><strong>{len(listings)}</strong> verified ranches</span>
