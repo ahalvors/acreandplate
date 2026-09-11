@@ -381,6 +381,7 @@ def build_index():
                 <a href="/texas/" class="hub-link">Texas <span class="count">({len([l for l in listings if l['state'] == 'TX'])})</span></a>
                 <a href="/california/" class="hub-link">California <span class="count">({len([l for l in listings if l['state'] == 'CA' or 'CA' in l.get('state', '')])})</span></a>
                 <a href="/colorado/" class="hub-link">Colorado <span class="count">({len([l for l in listings if l['state'] == 'CO'])})</span></a>
+                <a href="/florida/" class="hub-link">Florida <span class="count">({len([l for l in listings if l['state'] == 'FL'])})</span></a>
                 <a href="/guides/wagyu-vs-akaushi/" class="hub-link">Wagyu vs Akaushi →</a>
             </div>
         </div>
@@ -933,6 +934,13 @@ def main():
         "Colorado ranches raising Wagyu and other traceable-bloodline beef in the Rocky Mountains. Ranch-direct shipping available."
     )
     
+    build_hub_page(
+        "Florida Ranches",
+        "florida",
+        lambda l: l['state'] == 'FL',
+        "Florida ranches raising Wagyu with DNA-tested or grass-finished herds. Local pickup and Florida-only shipping available where applicable."
+    )
+    
     # Guide
     build_guide()
     
@@ -947,11 +955,11 @@ def main():
     build_deals_page()
     
     print(f"\n✓ Built {len(listings)} listing pages")
-    print("✓ Built hub pages (wagyu, akaushi, texas, california, colorado)")
+    print("✓ Built hub pages (wagyu, akaushi, texas, california, colorado, florida)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
     print("✓ Built featured ranch pages")
-    print(f"\n✨ Site build complete! Total pages: {len(listings) + 11}")
+    print(f"\n✨ Site build complete! Total pages: {len(listings) + 12}")
 
 if __name__ == '__main__':
     main()
