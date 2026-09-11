@@ -14,7 +14,8 @@
 - **Texas Ranches:** 6
 - **California Ranches:** 8
 - **Colorado Ranches:** 1
-- **Total Pages:** 39
+- **Florida Ranches:** 2
+- **Total Pages:** 40
 
 ## Pages Built
 
@@ -32,6 +33,7 @@
 - ✅ Texas hub (`/texas/`) - 6 ranches
 - ✅ California hub (`/california/`) - 8 ranches
 - ✅ Colorado hub (`/colorado/`) - 1 ranch
+- ✅ Florida hub (`/florida/`) - 2 ranches
 
 ### Guide Pages
 - ✅ Wagyu vs Akaushi Guide (`/guides/wagyu-vs-akaushi/`)
@@ -98,6 +100,7 @@ All 28 ranch listings on Acre & Plate have been verified from:
 - 📅 **Sep 8, 2026 nightly ship:** Added Cross Creek Ranch Premium Meats (Hesperus, CO) — first Colorado ranch, Full Blood + American Wagyu. Re-verified Long Hill 15 lb ground bulk deal still active at $180. No new deals found tonight.
 - 📅 **Sep 9, 2026 nightly ship:** Added Colorado state hub at `/colorado/` listing Cross Creek Ranch (Hesperus). Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195). Colorado hub now wired in navigation and home page, mirroring California pattern. No new listings or deals added.
 - 📅 **Sep 10, 2026 Bay Area/Central Coast expansion:** Added 5 verified California ranches: 3Z Cattle Co (Morgan Hill - American Wagyu F1-F4 + Angus), Midori Ranch (Paicines - F1 Wagyu), Nyland Herefords (San Juan Bautista - horned Hereford), Morris Grassfed (San Juan Bautista - 100% grassfed), Connolly Ranch Natural Beef (Tracy - Black Angus). California hub now shows 8 ranches (up from 3). Total site count: 28 ranches, 39 pages.
+- 📅 **Sep 10, 2026 evening ship:** Added Florida state hub at `/florida/` with 2 ranches (Pasture Prime Wagyu, Black Wagyu Beef Co.). Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195). Florida hub now wired into home page hub links. No new listings or deals added. Total site count: 28 ranches, 40 pages.
 
 ### What We Record
 - ✅ Ranch name and location
@@ -145,7 +148,8 @@ python3 build.py
 
 - [x] Add California state hub page
 - [x] Add Colorado state hub page
-- [ ] Add more state hub pages (Florida, Wyoming, etc.)
+- [x] Add Florida state hub page
+- [ ] Add more state hub pages (Wyoming, etc.)
 - [ ] Add heritage breeds hub page
 - [ ] Expand to more ranches (verified genetics only)
 - [ ] Add search/filter functionality (JavaScript)
