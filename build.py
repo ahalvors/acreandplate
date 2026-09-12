@@ -28,6 +28,11 @@ with open('data/featured.json', 'r') as f:
 with open('data/stripe.json', 'r') as f:
     stripe_config = json.load(f)
 
+# Load markets data
+with open('data/markets.json', 'r') as f:
+    markets_data = json.load(f)
+    markets = markets_data['markets']
+
 def ensure_dir(path: str):
     """Create directory if it doesn't exist"""
     Path(path).mkdir(parents=True, exist_ok=True)
@@ -66,6 +71,7 @@ def base_template(title: str, content: str, meta_description: str = "") -> str:
             <ul class="nav-links">
                 <li><a href="/listings/">Browse</a></li>
                 <li><a href="/deals/">Deals</a></li>
+                <li><a href="/markets/">Markets</a></li>
                 <li><a href="https://acreandplate.printful.me/" target="_blank" rel="noopener noreferrer">Shop</a></li>
                 <li><a href="/guides/wagyu-vs-akaushi/">Guide</a></li>
                 <li><a href="/about/">About</a></li>
@@ -336,6 +342,19 @@ def build_index():
     {featured_ranch_html}
     
     {deals_html}
+    
+    <section class="markets-teaser">
+        <div class="container">
+            <h2>Local Activity</h2>
+            <p class="section-intro">Find farmers markets where local ranchers sell beef from named herds—national scope, not just Bay Area.</p>
+            <div class="markets-preview">
+                {''.join([f'<div class="market-preview-item"><strong>{m["name"]}</strong><span>{m["city"]}, {m["state"]} — {m["schedule"].split(",")[0]}</span></div>' for m in markets[:3]])}
+            </div>
+            <div class="view-all">
+                <a href="/markets/" class="btn-primary">View All {len(markets)} Markets</a>
+            </div>
+        </div>
+    </section>
     
     <section class="how-it-works">
         <div class="container">
@@ -821,6 +840,91 @@ def build_featured_thanks():
     html = base_template("Thank You - Featured Ranch", content)
     write_page('featured/thanks/index.html', html)
 
+def market_card(market: Dict[str, Any]) -> str:
+    """Generate market card HTML"""
+    # Build beef vendors section
+    vendors_html = ''
+    if market.get('beef_vendors') and len(market['beef_vendors']) > 0:
+        vendors_list = []
+        for vendor in market['beef_vendors']:
+            vendor_text = vendor['name']
+            if vendor.get('origin'):
+                vendor_text += f" ({vendor['origin']})"
+            if vendor.get('note'):
+                vendor_text += f" — {vendor['note']}"
+            vendors_list.append(f'<li>{vendor_text}</li>')
+        vendors_html = f'<div class="market-vendors"><strong>Beef Vendors:</strong><ul>{"".join(vendors_list)}</ul></div>'
+    
+    # Build note section
+    note_html = ''
+    if market.get('note'):
+        note_html = f'<p class="note">{market["note"]}</p>'
+    
+    # Build operator section
+    operator_html = ''
+    if market.get('operator'):
+        operator_html = f'<p class="market-operator"><strong>Operated by:</strong> {market["operator"]}</p>'
+    
+    return f"""<article class="market-card">
+        <h3><a href="{market['url']}" target="_blank" rel="noopener">{market['name']}</a></h3>
+        <div class="location">{market['city']}, {market['state']}</div>
+        <div class="market-schedule"><strong>Schedule:</strong> {market['schedule']}</div>
+        <div class="market-location"><strong>Location:</strong> {market['location']}</div>
+        {operator_html}
+        {vendors_html}
+        {note_html}
+        <div class="market-verified">Verified {market['verified_at']}</div>
+        <div class="actions">
+            <a href="{market['url']}" target="_blank" rel="noopener" class="btn-primary">Visit Market Site →</a>
+        </div>
+    </article>"""
+
+def build_markets_page():
+    """Build markets hub page"""
+    # Group markets by city for organization
+    markets_by_city = {}
+    for market in markets:
+        city = market['city']
+        if city not in markets_by_city:
+            markets_by_city[city] = []
+        markets_by_city[city].append(market)
+    
+    # Generate all market cards
+    all_markets_html = '\n'.join([market_card(market) for market in markets])
+    
+    content = f"""
+    <section class="page-header">
+        <div class="container">
+            <h1>Local Activity</h1>
+            <p>Farmers markets and local venues featuring ranch-direct beef from named herds</p>
+            <p class="count">{len(markets)} verified markets</p>
+        </div>
+    </section>
+    
+    <section class="markets-section">
+        <div class="container">
+            <div class="markets-intro">
+                <h2>About These Markets</h2>
+                <p>Local farmers markets give ranchers a place to sell beef directly to the community. The markets listed here are verified from public sources and feature vendors offering ranch-direct beef with traceable genetics.</p>
+                <p><strong>Important:</strong> Vendor lineups change frequently. Always confirm current beef vendors at the market or on the market's website before visiting. Acre & Plate does not operate these markets—we simply list verified public information.</p>
+            </div>
+            
+            <h2 class="section-divider">All Markets</h2>
+            <div class="markets-grid">
+                {all_markets_html}
+            </div>
+            
+            <div class="markets-disclaimer">
+                <p><strong>National Scope:</strong> While we're starting with Bay Area markets, we're expanding nationwide. Know a farmers market where local ranchers sell traceable beef? <a href="mailto:hello@acreandplate.com">Let us know</a>.</p>
+            </div>
+        </div>
+    </section>
+    """
+    
+    meta = f"Find local farmers markets featuring ranch-direct beef from named herds. {len(markets)} verified markets nationwide."
+    html = base_template("Local Activity - Farmers Markets", content, meta)
+    write_page('markets/index.html', html)
+
 def build_about():
     """Build about page"""
     content = """
@@ -962,12 +1066,16 @@ def main():
     # Deals page
     build_deals_page()
     
+    # Markets page
+    build_markets_page()
+    
     print(f"\n✓ Built {len(listings)} listing pages")
     print("✓ Built hub pages (wagyu, akaushi, texas, california, colorado, florida, wyoming)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
+    print(f"✓ Built markets page with {len(markets)} markets")
     print("✓ Built featured ranch pages")
-    print(f"\n✨ Site build complete! Total pages: {len(listings) + 12}")
+    print(f"\n✨ Site build complete! Total pages: {len(listings) + 13}")
 
 if __name__ == '__main__':
     main()
