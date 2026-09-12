@@ -1,6 +1,6 @@
 # Acre & Plate - Status
 
-**Last Updated:** September 10, 2026  
+**Last Updated:** September 11, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
@@ -15,7 +15,8 @@
 - **California Ranches:** 8
 - **Colorado Ranches:** 1
 - **Florida Ranches:** 2
-- **Total Pages:** 40
+- **Wyoming Ranches:** 2
+- **Total Pages:** 41
 
 ## Pages Built
 
@@ -34,6 +35,7 @@
 - ✅ California hub (`/california/`) - 8 ranches
 - ✅ Colorado hub (`/colorado/`) - 1 ranch
 - ✅ Florida hub (`/florida/`) - 2 ranches
+- ✅ Wyoming hub (`/wyoming/`) - 2 ranches
 
 ### Guide Pages
 - ✅ Wagyu vs Akaushi Guide (`/guides/wagyu-vs-akaushi/`)
@@ -101,6 +103,7 @@ All 28 ranch listings on Acre & Plate have been verified from:
 - 📅 **Sep 9, 2026 nightly ship:** Added Colorado state hub at `/colorado/` listing Cross Creek Ranch (Hesperus). Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195). Colorado hub now wired in navigation and home page, mirroring California pattern. No new listings or deals added.
 - 📅 **Sep 10, 2026 Bay Area/Central Coast expansion:** Added 5 verified California ranches: 3Z Cattle Co (Morgan Hill - American Wagyu F1-F4 + Angus), Midori Ranch (Paicines - F1 Wagyu), Nyland Herefords (San Juan Bautista - horned Hereford), Morris Grassfed (San Juan Bautista - 100% grassfed), Connolly Ranch Natural Beef (Tracy - Black Angus). California hub now shows 8 ranches (up from 3). Total site count: 28 ranches, 39 pages.
 - 📅 **Sep 10, 2026 evening ship:** Added Florida state hub at `/florida/` with 2 ranches (Pasture Prime Wagyu, Black Wagyu Beef Co.). Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195). Florida hub now wired into home page hub links. No new listings or deals added. Total site count: 28 ranches, 40 pages.
+- 📅 **Sep 11, 2026 nightly ship:** Added Wyoming state hub at `/wyoming/` with 2 ranches (Hawks Hill Ranch - Cody, Circle H Ranch - Smoot/Geneva WY/ID). Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195). Wyoming hub now wired into home page hub links. No new listings or new deals found. Total site count: 28 ranches, 41 pages.
 
 ### What We Record
 - ✅ Ranch name and location
@@ -149,7 +152,8 @@ python3 build.py
 - [x] Add California state hub page
 - [x] Add Colorado state hub page
 - [x] Add Florida state hub page
-- [ ] Add more state hub pages (Wyoming, etc.)
+- [x] Add Wyoming state hub page
+- [ ] Add more state hub pages (as more ranches are added)
 - [ ] Add heritage breeds hub page
 - [ ] Expand to more ranches (verified genetics only)
 - [ ] Add search/filter functionality (JavaScript)
