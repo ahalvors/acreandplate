@@ -1,0 +1,51 @@
+{
+  "markets": [
+    {
+      "slug": "livermore-sunday",
+      "name": "Livermore Farmers Market (Sunday)",
+      "url": "https://www.livermorefarmersmarket.org/visit",
+      "city": "Livermore",
+      "state": "CA",
+      "schedule": "Sundays year-round, 9am–1pm, rain or shine",
+      "location": "Downtown Livermore — Second Street between South L and South J (listed address: 206 South J Street, Livermore, CA 94550)",
+      "beef_vendors": [],
+      "note": "Local certified farmers market; confirm current meat vendors on site or at info booth",
+      "verified_at": "2026-09-12",
+      "source_verified": true,
+      "additional_url": "https://www.livermoredowntown.com/do/sunday-farmers-market"
+    },
+    {
+      "slug": "livermore-thursday",
+      "name": "Livermore Thursday Night Farmers Market",
+      "url": "https://www.livermorefarmersmarket.org/visit",
+      "city": "Livermore",
+      "state": "CA",
+      "schedule": "Thursdays, April 9–October 8, 2026, 4pm–8pm, rain or shine",
+      "location": "Carnegie Park, 2155 3rd St, Livermore, CA 94550",
+      "beef_vendors": [],
+      "note": "Local certified farmers market; confirm current meat vendors on site or at info booth",
+      "verified_at": "2026-09-12",
+      "source_verified": true
+    },
+    {
+      "slug": "pleasanton",
+      "name": "Pleasanton Farmers Market",
+      "url": "https://www.pcfma.org/market/pleasanton-farmers-market",
+      "city": "Pleasanton",
+      "state": "CA",
+      "schedule": "Saturdays year-round, 9:00am–1:00pm",
+      "location": "46 W Angela St., Pleasanton, CA (downtown; West Angela between Main and First)",
+      "operator": "Pacific Coast Farmers Market Association (PCFMA)",
+      "beef_vendors": [
+        {
+          "name": "Engler Beef",
+          "origin": "Sonora, CA",
+          "note": "Verified on PCFMA Pleasanton vendor table"
+        }
+      ],
+      "note": "Vendor lineups may change; confirm current vendors at the market",
+      "verified_at": "2026-09-12",
+      "source_verified": true
+    }
+  ]
+}

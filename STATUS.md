@@ -1,12 +1,13 @@
 # Acre & Plate - Status
 
-**Last Updated:** September 11, 2026  
+**Last Updated:** September 12, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
 - **Total Ranches:** 28
 - **Active Deals:** 1
+- **Farmers Markets:** 3 (new feature!)
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
 - **Wagyu Ranches:** 16
 - **Akaushi Ranches:** 5
@@ -16,7 +17,7 @@
 - **Colorado Ranches:** 1
 - **Florida Ranches:** 2
 - **Wyoming Ranches:** 2
-- **Total Pages:** 41
+- **Total Pages:** 42
 
 ## Pages Built
 
@@ -24,6 +25,7 @@
 - ✅ Home (`index.html`)
 - ✅ All Listings (`/listings/`)
 - ✅ Seasonal Deals (`/deals/`) - 1 active deal
+- ✅ Local Activity - Markets (`/markets/`) - 3 verified farmers markets (NEW!)
 - ✅ Featured Ranch (`/featured/`) - monetization landing page
 - ✅ Featured Ranch Thanks (`/featured/thanks/`) - post-checkout page
 - ✅ About (`/about/`)
@@ -85,10 +87,31 @@
 - Several ranches list products as "sold out" seasonally
 - Availability changes frequently - users should verify on ranch sites
 
+## Markets Feature (NEW!)
+
+### Overview
+The new **Local Activity** section at `/markets/` showcases farmers markets where local farmers/ranchers sell beef from named herds. This is a national-scope feature, not limited to Bay Area.
+
+### Current Markets (3)
+- **Livermore Farmers Market (Sunday)** - Year-round, 9am–1pm
+- **Livermore Thursday Night Farmers Market** - Seasonal (April-October), 4pm–8pm
+- **Pleasanton Farmers Market** - Year-round Saturdays, 9am–1pm
+  - Verified beef vendor: **Engler Beef** (Sonora, CA) per PCFMA vendor table
+
+### Design Principles
+- No fake data: Only verified markets with public information
+- Vendor lineups noted as subject to change
+- Clear disclaimers: confirm vendors on-site
+- Extensible data structure for national expansion
+
+### Data Source
+- `data/markets.json` - Farmers markets data (schema: slug, name, url, city, state, schedule, location, beef_vendors[], note, verified_at, source_verified)
+- Generated via `build.py` (mirroring listings/deals pattern)
+
 ## Data Quality
 
 ### Verified Information
-All 28 ranch listings on Acre & Plate have been verified from:
+All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified from:
 - Public ranch websites
 - Direct product pages
 - Contact information pages
@@ -104,6 +127,7 @@ All 28 ranch listings on Acre & Plate have been verified from:
 - 📅 **Sep 10, 2026 Bay Area/Central Coast expansion:** Added 5 verified California ranches: 3Z Cattle Co (Morgan Hill - American Wagyu F1-F4 + Angus), Midori Ranch (Paicines - F1 Wagyu), Nyland Herefords (San Juan Bautista - horned Hereford), Morris Grassfed (San Juan Bautista - 100% grassfed), Connolly Ranch Natural Beef (Tracy - Black Angus). California hub now shows 8 ranches (up from 3). Total site count: 28 ranches, 39 pages.
 - 📅 **Sep 10, 2026 evening ship:** Added Florida state hub at `/florida/` with 2 ranches (Pasture Prime Wagyu, Black Wagyu Beef Co.). Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195). Florida hub now wired into home page hub links. No new listings or deals added. Total site count: 28 ranches, 40 pages.
 - 📅 **Sep 11, 2026 nightly ship:** Added Wyoming state hub at `/wyoming/` with 2 ranches (Hawks Hill Ranch - Cody, Circle H Ranch - Smoot/Geneva WY/ID). Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195). Wyoming hub now wired into home page hub links. No new listings or new deals found. Total site count: 28 ranches, 41 pages.
+- 📅 **Sep 12, 2026 - Markets Feature Launch:** Added **Local Activity** section at `/markets/` featuring farmers markets where local farmers/ranchers sell beef. National scope, data-driven from `data/markets.json`. Initial seed: 3 verified Bay Area markets (Livermore Sunday, Livermore Thursday, Pleasanton). Pleasanton market lists verified beef vendor: Engler Beef (Sonora, CA) confirmed on PCFMA vendor table. Markets integrated into main nav as "Markets" + home page teaser section. Design canon preserved (pasture to plate, no fake data). Total site count: 28 ranches, 3 markets, 42 pages.
 
 ### What We Record
 - ✅ Ranch name and location
@@ -165,6 +189,7 @@ python3 build.py
 **Data Sources:**
 - `data/listings.json` - Ranch listings
 - `data/deals.json` - Current deals
+- `data/markets.json` - Farmers markets (NEW!)
 - `data/featured.json` - Featured Ranch placements (paid)
 - `data/stripe.json` - Stripe payment link configuration
 
