@@ -86,7 +86,7 @@ def base_template(title: str, content: str, meta_description: str = "") -> str:
                 <a href="/listings/">All Ranches</a> · 
                 <a href="https://acreandplate.printful.me/" target="_blank" rel="noopener noreferrer">Shop</a> · 
                 <a href="mailto:hello@acreandplate.com">Contact</a> · 
-                <a href="https://github.com/ahalvors/acreandplate" target="_blank">GitHub</a>
+                <a href="https://www.instagram.com/acreandplate/" target="_blank" rel="noopener">Instagram</a>
             </p>
         </div>
     </footer>
