@@ -33,6 +33,11 @@ with open('data/markets.json', 'r') as f:
     markets_data = json.load(f)
     markets = markets_data['markets']
 
+# Load butchers data
+with open('data/butchers.json', 'r') as f:
+    butchers_data = json.load(f)
+    butchers = butchers_data['butchers']
+
 def ensure_dir(path: str):
     """Create directory if it doesn't exist"""
     Path(path).mkdir(parents=True, exist_ok=True)
@@ -346,12 +351,12 @@ def build_index():
     <section class="markets-teaser">
         <div class="container">
             <h2>Local Activity</h2>
-            <p class="section-intro">Find farmers markets where local ranchers sell beef from named herds—national scope, not just Bay Area.</p>
+            <p class="section-intro">Find farmers markets where local ranchers sell beef from named herds, plus butcher shops where Bay Area residents buy quality beef.</p>
             <div class="markets-preview">
                 {''.join([f'<div class="market-preview-item"><strong>{m["name"]}</strong><span>{m["city"]}, {m["state"]} — {m["schedule"].split(",")[0]}</span></div>' for m in markets[:3]])}
             </div>
             <div class="view-all">
-                <a href="/markets/" class="btn-primary">View All {len(markets)} Markets</a>
+                <a href="/markets/" class="btn-primary">View Markets & Butchers</a>
             </div>
         </div>
     </section>
@@ -879,8 +884,38 @@ def market_card(market: Dict[str, Any]) -> str:
         </div>
     </article>"""
 
+def butcher_card(butcher: Dict[str, Any]) -> str:
+    """Generate butcher card HTML"""
+    # Build note section
+    note_html = ''
+    if butcher.get('note'):
+        note_html = f'<p class="butcher-note">{butcher["note"]}</p>'
+    
+    # Build gaps section
+    gaps_html = ''
+    if butcher.get('gaps'):
+        gaps_html = f'<p class="note">{butcher["gaps"]}</p>'
+    
+    # Build specialties section
+    specialties_html = ''
+    if butcher.get('specialties') and len(butcher['specialties']) > 0:
+        specialties_list = '</li><li>'.join(butcher['specialties'])
+        specialties_html = f'<div class="butcher-specialties"><strong>Specialties:</strong><ul><li>{specialties_list}</li></ul></div>'
+    
+    return f"""<article class="butcher-card">
+        <h3><a href="{butcher['url']}" target="_blank" rel="noopener">{butcher['name']}</a></h3>
+        <div class="location">{butcher['city']}, {butcher['county']} County</div>
+        {note_html}
+        {specialties_html}
+        {gaps_html}
+        <div class="butcher-verified">Verified {butcher['verified_at']}</div>
+        <div class="actions">
+            <a href="{butcher['url']}" target="_blank" rel="noopener" class="btn-primary">Visit Website →</a>
+        </div>
+    </article>"""
+
 def build_markets_page():
-    """Build markets hub page"""
+    """Build markets hub page with farmers markets and butcher shops"""
     # Group markets by city for organization
     markets_by_city = {}
     for market in markets:
@@ -892,24 +927,49 @@ def build_markets_page():
     # Generate all market cards
     all_markets_html = '\n'.join([market_card(market) for market in markets])
     
+    # Group butchers by county
+    butchers_by_county = {}
+    for butcher in butchers:
+        county = butcher['county']
+        if county not in butchers_by_county:
+            butchers_by_county[county] = []
+        butchers_by_county[county].append(butcher)
+    
+    # Sort counties alphabetically
+    sorted_counties = sorted(butchers_by_county.keys())
+    
+    # Generate butcher sections by county
+    butchers_by_county_html = ''
+    for county in sorted_counties:
+        county_butchers = butchers_by_county[county]
+        county_cards_html = '\n'.join([butcher_card(butcher) for butcher in county_butchers])
+        butchers_by_county_html += f"""
+        <div class="butchers-by-county">
+            <h3 class="county-heading">{county} County ({len(county_butchers)})</h3>
+            <div class="butchers-grid">
+                {county_cards_html}
+            </div>
+        </div>
+        """
+    
     content = f"""
     <section class="page-header">
         <div class="container">
             <h1>Local Activity</h1>
-            <p>Farmers markets and local venues featuring ranch-direct beef from named herds</p>
-            <p class="count">{len(markets)} verified markets</p>
+            <p>Farmers markets and butcher shops where locals buy ranch-direct beef</p>
+            <p class="count">{len(markets)} farmers markets · {len(butchers)} butcher shops</p>
         </div>
     </section>
     
     <section class="markets-section">
         <div class="container">
             <div class="markets-intro">
-                <h2>About These Markets</h2>
+                <h2>Farmers Markets</h2>
                 <p>Local farmers markets give ranchers a place to sell beef directly to the community. The markets listed here are verified from public sources and feature vendors offering ranch-direct beef with traceable genetics.</p>
                 <p><strong>Important:</strong> Vendor lineups change frequently. Always confirm current beef vendors at the market or on the market's website before visiting. Acre & Plate does not operate these markets—we simply list verified public information.</p>
             </div>
             
-            <h2 class="section-divider">All Markets</h2>
+            <h3 class="section-divider">All Markets</h3>
             <div class="markets-grid">
                 {all_markets_html}
             </div>
@@ -919,10 +979,23 @@ def build_markets_page():
             </div>
         </div>
     </section>
+    
+    <section class="butchers-section">
+        <div class="container">
+            <div class="butchers-intro">
+                <h2>Butcher Shops</h2>
+                <p>Local butcher shops where Bay Area residents buy quality beef. These butcher shops are verified from public sources. We don't sell beef—butchers are where locals buy it.</p>
+                <p><strong>Note:</strong> Acre & Plate does not verify sourcing claims or grass-fed designations for butcher shops. Contact shops directly for details about their meat sources and practices.</p>
+            </div>
+            
+            <h3 class="section-divider">Butchers by County</h3>
+            {butchers_by_county_html}
+        </div>
+    </section>
     """
     
-    meta = f"Find local farmers markets featuring ranch-direct beef from named herds. {len(markets)} verified markets nationwide."
-    html = base_template("Local Activity - Farmers Markets", content, meta)
+    meta = f"Find local farmers markets and butcher shops in the Bay Area. {len(markets)} farmers markets and {len(butchers)} butcher shops verified."
+    html = base_template("Local Activity - Farmers Markets & Butcher Shops", content, meta)
     write_page('markets/index.html', html)
 
 def build_about():
@@ -1073,7 +1146,7 @@ def main():
     print("✓ Built hub pages (wagyu, akaushi, texas, california, colorado, florida, wyoming)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
-    print(f"✓ Built markets page with {len(markets)} markets")
+    print(f"✓ Built markets page with {len(markets)} farmers markets and {len(butchers)} butcher shops")
     print("✓ Built featured ranch pages")
     print(f"\n✨ Site build complete! Total pages: {len(listings) + 13}")
 

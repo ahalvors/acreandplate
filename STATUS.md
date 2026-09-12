@@ -7,7 +7,8 @@
 
 - **Total Ranches:** 28
 - **Active Deals:** 1
-- **Farmers Markets:** 3 (new feature!)
+- **Farmers Markets:** 3
+- **Butcher Shops:** 19 (new feature!)
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
 - **Wagyu Ranches:** 16
 - **Akaushi Ranches:** 5
@@ -25,7 +26,7 @@
 - ✅ Home (`index.html`)
 - ✅ All Listings (`/listings/`)
 - ✅ Seasonal Deals (`/deals/`) - 1 active deal
-- ✅ Local Activity - Markets (`/markets/`) - 3 verified farmers markets (NEW!)
+- ✅ Local Activity (`/markets/`) - 3 farmers markets + 19 butcher shops (UPDATED!)
 - ✅ Featured Ranch (`/featured/`) - monetization landing page
 - ✅ Featured Ranch Thanks (`/featured/thanks/`) - post-checkout page
 - ✅ About (`/about/`)
@@ -87,10 +88,12 @@
 - Several ranches list products as "sold out" seasonally
 - Availability changes frequently - users should verify on ranch sites
 
-## Markets Feature (NEW!)
+## Local Activity Feature
 
 ### Overview
-The new **Local Activity** section at `/markets/` showcases farmers markets where local farmers/ranchers sell beef from named herds. This is a national-scope feature, not limited to Bay Area.
+The **Local Activity** section at `/markets/` showcases:
+1. **Farmers markets** where local farmers/ranchers sell beef from named herds (national scope, not limited to Bay Area)
+2. **Butcher shops** where Bay Area residents buy quality beef (Bay Area focus)
 
 ### Current Markets (3)
 - **Livermore Farmers Market (Sunday)** - Year-round, 9am–1pm
@@ -98,14 +101,28 @@ The new **Local Activity** section at `/markets/` showcases farmers markets wher
 - **Pleasanton Farmers Market** - Year-round Saturdays, 9am–1pm
   - Verified beef vendor: **Engler Beef** (Sonora, CA) per PCFMA vendor table
 
-### Design Principles
-- No fake data: Only verified markets with public information
-- Vendor lineups noted as subject to change
-- Clear disclaimers: confirm vendors on-site
-- Extensible data structure for national expansion
+### Current Butcher Shops (19)
+Organized by county across the Bay Area:
+- **Alameda County (3):** Livermore Butcher Shop, Baron's Quality Meats & Seafood, The Local Butcher Shop
+- **Contra Costa County (2):** Brentwood Fine Meats, Diablo Foods
+- **Marin County (2):** Rocky's Quality Meats, Flannery Beef
+- **Napa County (2):** Fatted Calf, Browns Valley Meat
+- **San Francisco (2):** Avedano's Holly Park Meat Market, Olivier's Butchery
+- **San Mateo County (2):** Pape Meat Company, Gambrel & Co
+- **Santa Clara County (2):** Los Gatos Meats & Smokehouse, Custom Cut Butcher
+- **Sonoma County (3):** Sonoma County Meat Co., Willowside Meats, Bud's Custom Meats
+- **Solano County (1):** Gates Ranch Meat Company
 
-### Data Source
+### Design Principles
+- No fake data: Only verified locations with public information
+- Markets: Vendor lineups noted as subject to change
+- Butchers: No invented claims about grass-fed/ranch-direct sourcing
+- Clear disclaimers throughout
+- Extensible data structure for expansion
+
+### Data Sources
 - `data/markets.json` - Farmers markets data (schema: slug, name, url, city, state, schedule, location, beef_vendors[], note, verified_at, source_verified)
+- `data/butchers.json` - Butcher shops data (schema: slug, name, url, city, state, county, note, specialties[], gaps, verified_at, source_verified)
 - Generated via `build.py` (mirroring listings/deals pattern)
 
 ## Data Quality
@@ -128,6 +145,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Sep 10, 2026 evening ship:** Added Florida state hub at `/florida/` with 2 ranches (Pasture Prime Wagyu, Black Wagyu Beef Co.). Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195). Florida hub now wired into home page hub links. No new listings or deals added. Total site count: 28 ranches, 40 pages.
 - 📅 **Sep 11, 2026 nightly ship:** Added Wyoming state hub at `/wyoming/` with 2 ranches (Hawks Hill Ranch - Cody, Circle H Ranch - Smoot/Geneva WY/ID). Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195). Wyoming hub now wired into home page hub links. No new listings or new deals found. Total site count: 28 ranches, 41 pages.
 - 📅 **Sep 12, 2026 - Markets Feature Launch:** Added **Local Activity** section at `/markets/` featuring farmers markets where local farmers/ranchers sell beef. National scope, data-driven from `data/markets.json`. Initial seed: 3 verified Bay Area markets (Livermore Sunday, Livermore Thursday, Pleasanton). Pleasanton market lists verified beef vendor: Engler Beef (Sonora, CA) confirmed on PCFMA vendor table. Markets integrated into main nav as "Markets" + home page teaser section. Design canon preserved (pasture to plate, no fake data). Total site count: 28 ranches, 3 markets, 42 pages.
+- 📅 **Sep 12, 2026 evening - Butcher Shops Added:** Extended Local Activity (`/markets/`) with new **Butcher Shops** section. Added 19 verified Bay Area butcher shops organized by county (Alameda, Contra Costa, Marin, Napa, San Francisco, San Mateo, Santa Clara, Sonoma, Solano). Data in `data/butchers.json`. Page now shows two sections: Farmers Markets (3) and Butcher Shops (19). Design canon preserved—no fake phones/hours/grass-fed claims. Gaps noted for Rocky's Quality Meats, Pape Meat Company (Yelp only), and Gates Ranch Meat (by reservation only). Home page teaser updated to mention butchers. Total site count: 28 ranches, 3 markets, 19 butchers, 42 pages.
 
 ### What We Record
 - ✅ Ranch name and location
@@ -189,7 +207,8 @@ python3 build.py
 **Data Sources:**
 - `data/listings.json` - Ranch listings
 - `data/deals.json` - Current deals
-- `data/markets.json` - Farmers markets (NEW!)
+- `data/markets.json` - Farmers markets
+- `data/butchers.json` - Butcher shops (NEW!)
 - `data/featured.json` - Featured Ranch placements (paid)
 - `data/stripe.json` - Stripe payment link configuration
 
