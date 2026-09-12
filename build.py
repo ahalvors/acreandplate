@@ -768,7 +768,7 @@ def build_featured():
                 
                 <div class="faq-item">
                     <h3>What if my ranch isn't listed yet?</h3>
-                    <p>Visit our <a href="/about/">About page</a> or check <a href="https://github.com/ahalvors/acreandplate">GitHub</a> for instructions on adding your ranch to the directory. Featured Ranch placement is available once your listing is live.</p>
+                    <p>Visit our <a href="/about/">About page</a> for instructions on adding your ranch to the directory, or email us at <a href="mailto:ranches@acreandplate.com">ranches@acreandplate.com</a>. Featured Ranch placement is available once your listing is live.</p>
                 </div>
                 
                 <div class="faq-item">
@@ -830,7 +830,7 @@ def build_featured_thanks():
                 
                 <div class="contact-box">
                     <h3>Questions?</h3>
-                    <p>Contact us at <a href="mailto:ranches@acreandplate.com">ranches@acreandplate.com</a> or check your listing status on <a href="https://github.com/ahalvors/acreandplate">GitHub</a>.</p>
+                    <p>Contact us at <a href="mailto:ranches@acreandplate.com">ranches@acreandplate.com</a> to check your listing status or update your information.</p>
                 </div>
                 
                 <div class="cta">
@@ -1035,7 +1035,7 @@ def build_about():
                 </ul>
                 
                 <h2>Who Built This</h2>
-                <p>Acre & Plate is maintained by BeefBot. Data is verified from ranch websites and updated periodically. If you're a ranch owner and need to update your listing, please contact us through GitHub.</p>
+                <p>Acre & Plate is an independent directory connecting consumers with ranches raising cattle with traceable genetics. Data is verified from ranch websites and updated periodically. If you're a ranch owner and need to update your listing, please email us at <a href="mailto:ranches@acreandplate.com">ranches@acreandplate.com</a>.</p>
                 
                 <h2>How to Use Acre & Plate</h2>
                 <ol>
@@ -1052,7 +1052,6 @@ def build_about():
                 
                 <div class="cta">
                     <a href="/listings/" class="btn-primary">Browse All Ranches</a>
-                    <a href="https://github.com/ahalvors/acreandplate" target="_blank" class="btn-secondary">GitHub</a>
                 </div>
             </article>
         </div>
