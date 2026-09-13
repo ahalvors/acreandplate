@@ -402,6 +402,7 @@ def build_index():
             <div class="hub-links">
                 <a href="/wagyu/" class="hub-link">Wagyu <span class="count">({len([l for l in listings if 'wagyu' in l['breeds']])})</span></a>
                 <a href="/akaushi/" class="hub-link">Akaushi <span class="count">({len([l for l in listings if 'akaushi' in l['breeds']])})</span></a>
+                <a href="/heritage/" class="hub-link">Heritage Breeds <span class="count">({len([l for l in listings if 'heritage' in l.get('breeds', [])])})</span></a>
                 <a href="/texas/" class="hub-link">Texas <span class="count">({len([l for l in listings if l['state'] == 'TX'])})</span></a>
                 <a href="/california/" class="hub-link">California <span class="count">({len([l for l in listings if l['state'] == 'CA' or 'CA' in l.get('state', '')])})</span></a>
                 <a href="/colorado/" class="hub-link">Colorado <span class="count">({len([l for l in listings if l['state'] == 'CO'])})</span></a>
@@ -1125,6 +1126,13 @@ def main():
         "Wyoming ranches raising Fullblood Wagyu in the Greater Yellowstone area and beyond. Ranch-direct shipping available."
     )
     
+    build_hub_page(
+        "Heritage Breeds",
+        "heritage",
+        lambda l: 'heritage' in l.get('breeds', []),
+        "Heritage breed cattle including critically endangered Randall Lineback and rare Dexter breeds. Centuries-old genetics raised with regenerative practices."
+    )
+    
     # Guide
     build_guide()
     
@@ -1142,12 +1150,12 @@ def main():
     build_markets_page()
     
     print(f"\n✓ Built {len(listings)} listing pages")
-    print("✓ Built hub pages (wagyu, akaushi, texas, california, colorado, florida, wyoming)")
+    print("✓ Built hub pages (wagyu, akaushi, heritage, texas, california, colorado, florida, wyoming)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
     print(f"✓ Built markets page with {len(markets)} farmers markets and {len(butchers)} butcher shops")
     print("✓ Built featured ranch pages")
-    print(f"\n✨ Site build complete! Total pages: {len(listings) + 13}")
+    print(f"\n✨ Site build complete! Total pages: {len(listings) + 14}")
 
 if __name__ == '__main__':
     main()
