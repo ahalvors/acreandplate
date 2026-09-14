@@ -372,6 +372,19 @@
       "shipping": "In-person pickup near ranch in Tracy (seasonal, July)",
       "note": "2026 orders closed. Email crnb@connollyranch.com for questions. Established 1870.",
       "description": "150-year-old family ranch where San Joaquin and Alameda counties meet. Sustainably managed rangeland with Black Angus cattle raised entirely on pasture. Each cut individually packaged, vacuum-sealed, labeled, and frozen."
+    },
+    {
+      "slug": "stemple-creek-ranch",
+      "name": "Stemple Creek Ranch",
+      "url": "https://stemplecreek.com/",
+      "state": "CA",
+      "city": "Tomales",
+      "genetics": "100% grass-fed and grass-finished beef; no grain, soy, or other feed; variety of grasses and perennial plants",
+      "breeds": [],
+      "products": ["steaks", "ground", "roasts", "hot dogs", "subscription boxes"],
+      "shipping": "Ships to all 50 U.S. states; free shipping within California",
+      "phone": "415-883-8253",
+      "description": "Fourth-generation family ranch in West Marin working in sync with Mother Nature. Progressive carbon farming practices that build soil and strengthen ecosystems. Raised on pasture with rotational grazing."
     }
   ]
 }
