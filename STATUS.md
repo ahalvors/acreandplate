@@ -5,20 +5,20 @@
 
 ## Site Statistics
 
-- **Total Ranches:** 28
+- **Total Ranches:** 29
 - **Active Deals:** 1
 - **Farmers Markets:** 3
 - **Butcher Shops:** 19
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
 - **Wagyu Ranches:** 16
 - **Akaushi Ranches:** 5
-- **Heritage Breeds:** 2 (NEW hub!)
+- **Heritage Breeds:** 2
 - **Texas Ranches:** 6
-- **California Ranches:** 8
+- **California Ranches:** 9
 - **Colorado Ranches:** 1
 - **Florida Ranches:** 2
 - **Wyoming Ranches:** 2
-- **Total Pages:** 42
+- **Total Pages:** 43
 
 ## Pages Built
 
@@ -44,7 +44,7 @@
 ### Guide Pages
 - ✅ Wagyu vs Akaushi Guide (`/guides/wagyu-vs-akaushi/`)
 
-### Listing Pages (28 ranches)
+### Listing Pages (29 ranches)
 - ✅ Lone Mountain Wagyu (NM)
 - ✅ HeartBrand Beef (TX)
 - ✅ Long Hill Wagyu (TX)
@@ -73,6 +73,7 @@
 - ✅ Nyland Herefords (CA)
 - ✅ Morris Grassfed (CA)
 - ✅ Connolly Ranch Natural Beef (CA)
+- ✅ Stemple Creek Ranch (CA)
 
 ## Known Gaps & Notes
 
@@ -148,6 +149,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Sep 12, 2026 - Markets Feature Launch:** Added **Local Activity** section at `/markets/` featuring farmers markets where local farmers/ranchers sell beef. National scope, data-driven from `data/markets.json`. Initial seed: 3 verified Bay Area markets (Livermore Sunday, Livermore Thursday, Pleasanton). Pleasanton market lists verified beef vendor: Engler Beef (Sonora, CA) confirmed on PCFMA vendor table. Markets integrated into main nav as "Markets" + home page teaser section. Design canon preserved (pasture to plate, no fake data). Total site count: 28 ranches, 3 markets, 42 pages.
 - 📅 **Sep 12, 2026 evening - Butcher Shops Added:** Extended Local Activity (`/markets/`) with new **Butcher Shops** section. Added 19 verified Bay Area butcher shops organized by county (Alameda, Contra Costa, Marin, Napa, San Francisco, San Mateo, Santa Clara, Sonoma, Solano). Data in `data/butchers.json`. Page now shows two sections: Farmers Markets (3) and Butcher Shops (19). Design canon preserved—no fake phones/hours/grass-fed claims. Gaps noted for Rocky's Quality Meats, Pape Meat Company (Yelp only), and Gates Ranch Meat (by reservation only). Home page teaser updated to mention butchers. Total site count: 28 ranches, 3 markets, 19 butchers, 42 pages.
 - 📅 **Sep 13, 2026 nightly ship:** Added **Heritage Breeds hub** at `/heritage/` featuring 2 ranches: Chapel Hill Farm (VA - critically endangered Randall Lineback) and Mahanaim Farms (UT - rare Dexter cattle). Hub integrated into home page "Browse by Breed or State" section and main navigation pattern. All data compiled from existing verified listings. No new listings or deals added tonight. Total site count: 28 ranches, 1 active deal, 3 markets, 19 butchers, 42 pages.
+- 📅 **Sep 13, 2026 PT evening ship:** Added **Stemple Creek Ranch** (Tomales, CA) - fourth-generation West Marin ranch with 100% grass-fed and grass-finished beef. Ships to all 50 U.S. states with free CA shipping. Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195). California hub now shows 9 ranches (up from 8). No new deals found. Total site count: 29 ranches, 1 active deal, 3 markets, 19 butchers, 43 pages.
 
 ### What We Record
 - ✅ Ranch name and location
