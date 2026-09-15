@@ -385,6 +385,20 @@
       "shipping": "Ships to all 50 U.S. states; free shipping within California",
       "phone": "415-883-8253",
       "description": "Fourth-generation family ranch in West Marin working in sync with Mother Nature. Progressive carbon farming practices that build soil and strengthen ecosystems. Raised on pasture with rotational grazing."
+    },
+    {
+      "slug": "hufeisen-ranch",
+      "name": "The Hufeisen-Ranch (WYO Wagyu)",
+      "url": "https://www.realwagyubeef.com/",
+      "state": "WY",
+      "city": "Weston",
+      "genetics": "100% DNA-Verified Fullblood Japanese Black Wagyu",
+      "breeds": ["wagyu"],
+      "products": ["steaks", "ground", "roasts", "beef shares", "boxes"],
+      "shipping": "Ships nationwide (frozen)",
+      "phone": "307-680-6119",
+      "note": "Prefer text/email; ranch notes limited cell service. Preparing move from Wyoming to Florida — current DTC beef marketed as Wyoming Last Harvest / regenerative Fullblood. Confirm current ranch location and inventory on their site before ordering. Shop may also carry other product lines; directory claim is for their own Fullblood herd only.",
+      "description": "Woman-owned family ranch (WYO Wagyu) raising regeneratively pastured Fullblood Japanese Black Wagyu. Grass-fed with a managed fermented grain finish; no soy, no added hormones, no routine antibiotics per ranch site. USDA harvest, dry-aged 14–21 days, vacuum sealed, flash frozen, shipped ranch-direct."
     }
   ]
 }
