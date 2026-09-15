@@ -1,24 +1,24 @@
 # Acre & Plate - Status
 
-**Last Updated:** September 13, 2026  
+**Last Updated:** September 14, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 29
+- **Total Ranches:** 30
 - **Active Deals:** 1
 - **Farmers Markets:** 3
 - **Butcher Shops:** 19
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
-- **Wagyu Ranches:** 16
+- **Wagyu Ranches:** 17
 - **Akaushi Ranches:** 5
 - **Heritage Breeds:** 2
 - **Texas Ranches:** 6
 - **California Ranches:** 9
 - **Colorado Ranches:** 1
 - **Florida Ranches:** 2
-- **Wyoming Ranches:** 2
-- **Total Pages:** 43
+- **Wyoming Ranches:** 3
+- **Total Pages:** 44
 
 ## Pages Built
 
@@ -74,6 +74,7 @@
 - ✅ Morris Grassfed (CA)
 - ✅ Connolly Ranch Natural Beef (CA)
 - ✅ Stemple Creek Ranch (CA)
+- ✅ The Hufeisen-Ranch (WYO Wagyu) (WY)
 
 ## Known Gaps & Notes
 
@@ -150,6 +151,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Sep 12, 2026 evening - Butcher Shops Added:** Extended Local Activity (`/markets/`) with new **Butcher Shops** section. Added 19 verified Bay Area butcher shops organized by county (Alameda, Contra Costa, Marin, Napa, San Francisco, San Mateo, Santa Clara, Sonoma, Solano). Data in `data/butchers.json`. Page now shows two sections: Farmers Markets (3) and Butcher Shops (19). Design canon preserved—no fake phones/hours/grass-fed claims. Gaps noted for Rocky's Quality Meats, Pape Meat Company (Yelp only), and Gates Ranch Meat (by reservation only). Home page teaser updated to mention butchers. Total site count: 28 ranches, 3 markets, 19 butchers, 42 pages.
 - 📅 **Sep 13, 2026 nightly ship:** Added **Heritage Breeds hub** at `/heritage/` featuring 2 ranches: Chapel Hill Farm (VA - critically endangered Randall Lineback) and Mahanaim Farms (UT - rare Dexter cattle). Hub integrated into home page "Browse by Breed or State" section and main navigation pattern. All data compiled from existing verified listings. No new listings or deals added tonight. Total site count: 28 ranches, 1 active deal, 3 markets, 19 butchers, 42 pages.
 - 📅 **Sep 13, 2026 PT evening ship:** Added **Stemple Creek Ranch** (Tomales, CA) - fourth-generation West Marin ranch with 100% grass-fed and grass-finished beef. Ships to all 50 U.S. states with free CA shipping. Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195). California hub now shows 9 ranches (up from 8). No new deals found. Total site count: 29 ranches, 1 active deal, 3 markets, 19 butchers, 43 pages.
+- 📅 **Sep 14, 2026 PT nightly ship:** Added **The Hufeisen-Ranch (WYO Wagyu)** (Weston, WY) - woman-owned family ranch raising 100% DNA-Verified Fullblood Japanese Black Wagyu, regeneratively pastured with grass-fed and managed fermented grain finish. Ships nationwide frozen. Preparing move from Wyoming to Florida; current DTC beef marketed as Wyoming Last Harvest. Wyoming hub now shows 3 ranches (Circle H WY/ID, Hawks Hill, Hufeisen). Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195) and updated verified_at to 2026-09-14. No new deals added. Total site count: 30 ranches, 1 active deal, 3 markets, 19 butchers, 44 pages.
 
 ### What We Record
 - ✅ Ranch name and location
