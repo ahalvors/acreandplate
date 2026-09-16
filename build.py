@@ -54,7 +54,7 @@ def write_page(path: str, content: str):
         f.write(content)
     print(f"✓ {path}")
 
-def base_template(title: str, content: str, meta_description: str = "") -> str:
+def base_template(title: str, content: str, meta_description: str = "", og_tags: str = "") -> str:
     """Base HTML template for all pages"""
     if not meta_description:
         meta_description = "Find local, sustainable, ranch-direct beef—Fullblood Wagyu, Akaushi, Japanese Black, and rare heritage breeds from ranches you can trace."
@@ -66,6 +66,7 @@ def base_template(title: str, content: str, meta_description: str = "") -> str:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title} | Acre & Plate</title>
     <meta name="description" content="{meta_description}">
+    {og_tags}
     <link rel="icon" type="image/png" href="/assets/brand/rocking-ap-mark.png">
     <link rel="stylesheet" href="/css/site.css">
 </head>
@@ -921,7 +922,25 @@ def butcher_card(butcher: Dict[str, Any]) -> str:
         </div>
     </article>"""
 
-def news_card(item: Dict[str, Any]) -> str:
+def strip_html(html_text: str) -> str:
+    """Strip HTML tags and return plain text"""
+    import re
+    # Remove HTML tags
+    text = re.sub('<[^<]+?>', '', html_text)
+    # Replace common entities
+    text = text.replace('&nbsp;', ' ').replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>')
+    # Clean up whitespace
+    text = ' '.join(text.split())
+    return text
+
+def truncate_text(text: str, max_length: int = 155) -> str:
+    """Truncate text to max_length, breaking at word boundaries"""
+    if len(text) <= max_length:
+        return text
+    truncated = text[:max_length].rsplit(' ', 1)[0]
+    return truncated + '…'
+
+def news_card(item: Dict[str, Any], link_headline: bool = False) -> str:
     """Generate news card HTML"""
     # Parse ISO timestamp and format date for display
     from datetime import datetime
@@ -937,13 +956,19 @@ def news_card(item: Dict[str, Any]) -> str:
     # Get icon (emoji or path)
     icon = item.get('icon', '📰')
     
+    # Optionally link headline to story page
+    headline_html = item['headline']
+    if link_headline:
+        headline_html = f'<a href="/news/{item["id"]}/">{item["headline"]}</a>'
+    
     # Build absolute URL for this news item
-    item_url = f"https://acreandplate.com/news/#{item['id']}"
+    item_url = f"https://acreandplate.com/news/{item['id']}/"
     
     return f"""<article class="news-card" id="{item['id']}">
+
         <div class="news-header">
             <span class="news-icon">{icon}</span>
-            <h3>{item['headline']}</h3>
+            <h3>{headline_html}</h3>
         </div>
         <div class="news-body">
             {item['body']}
@@ -1016,13 +1041,13 @@ def build_news_page():
         
         grouped_news.append({'type': 'item', 'data': item})
     
-    # Generate HTML for grouped news
+    # Generate HTML for grouped news (with linked headlines)
     news_html = ''
     for entry in grouped_news:
         if entry['type'] == 'label':
             news_html += f'<h2 class="day-label">{entry["text"]}</h2>\n'
         else:
-            news_html += news_card(entry['data']) + '\n'
+            news_html += news_card(entry['data'], link_headline=True) + '\n'
     
     content = f"""
     <section class="page-header">
@@ -1047,6 +1072,105 @@ def build_news_page():
     meta = f"Latest news and updates from Acre & Plate—new ranches, markets, deals, and directory features."
     html = base_template("Cattle News", content, meta)
     write_page('news/index.html', html)
+
+def build_news_story(item: Dict[str, Any]):
+    """Build individual news story page with Open Graph tags"""
+    from datetime import datetime
+    
+    # Parse date for display
+    dt = datetime.fromisoformat(item['published_at'])
+    formatted_date = dt.strftime("%B %d, %Y")
+    
+    # Create plain text excerpt for og:description
+    plain_body = strip_html(item['body'])
+    og_description = truncate_text(plain_body, 155)
+    
+    # Determine og:image
+    og_image_url = item.get('image') or item.get('og_image') or 'https://acreandplate.com/assets/og-news-default.png'
+    if og_image_url.startswith('/'):
+        og_image_url = f"https://acreandplate.com{og_image_url}"
+    
+    # Build canonical URL
+    canonical_url = f"https://acreandplate.com/news/{item['id']}/"
+    
+    # Build Open Graph tags
+    og_tags = f"""<link rel="canonical" href="{canonical_url}">
+    <meta property="og:title" content="{item['headline']}">
+    <meta property="og:description" content="{og_description}">
+    <meta property="og:url" content="{canonical_url}">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="{og_image_url}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{item['headline']}">
+    <meta name="twitter:description" content="{og_description}">
+    <meta name="twitter:image" content="{og_image_url}">"""
+    
+    # Build optional image section
+    image_html = ''
+    if item.get('image'):
+        image_html = f'<div class="news-image"><img src="{item["image"]}" alt=""></div>'
+    
+    # Get icon
+    icon = item.get('icon', '📰')
+    
+    # Build action buttons (matching main's structure)
+    story_url = f"https://acreandplate.com/news/{item['id']}/"
+    actions_html = f'''<div class="news-actions">
+            <button class="news-action-btn favorite-btn" 
+                    data-news-id="{item['id']}" 
+                    aria-label="Favorite this news item" 
+                    aria-pressed="false">
+                <svg class="heart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+                <span class="btn-label">Favorite</span>
+            </button>
+            <button class="news-action-btn share-btn" 
+                    data-news-id="{item['id']}"
+                    data-news-url="{story_url}"
+                    data-news-title="{item['headline']}"
+                    aria-label="Share this news item">
+                <svg class="share-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="18" cy="5" r="3"></circle>
+                    <circle cx="6" cy="12" r="3"></circle>
+                    <circle cx="18" cy="19" r="3"></circle>
+                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                    <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                </svg>
+                <span class="btn-label">Share</span>
+            </button>
+        </div>'''
+    
+    content = f"""
+    <section class="page-header">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="/">Home</a> / <a href="/news/">News</a> / {item['headline']}
+            </div>
+            <h1><span class="news-icon">{icon}</span> {item['headline']}</h1>
+            <p><time datetime="{item['published_at']}">{formatted_date}</time></p>
+        </div>
+    </section>
+    
+    <section class="news-story">
+        <div class="container">
+            <article class="news-card news-card-full" data-id="{item['id']}">
+                <div class="news-body">
+                    {item['body']}
+                </div>
+                {image_html}
+                {actions_html}
+            </article>
+            <div class="news-story-footer">
+                <a href="/news/" class="btn-secondary">← Back to All News</a>
+            </div>
+        </div>
+    </section>
+    <script src="/assets/news.js"></script>
+    """
+    
+    html = base_template(item['headline'], content, og_description, og_tags)
+    write_page(f"news/{item['id']}/index.html", html)
 
 def build_markets_page():
     """Build markets hub page with farmers markets and butcher shops"""
@@ -1285,14 +1409,19 @@ def main():
     # News page
     build_news_page()
     
+    # Individual news story pages
+    for item in news_items:
+        build_news_story(item)
+    
     print(f"\n✓ Built {len(listings)} listing pages")
     print("✓ Built hub pages (wagyu, akaushi, heritage, texas, california, colorado, florida, wyoming)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
     print(f"✓ Built markets page with {len(markets)} farmers markets and {len(butchers)} butcher shops")
     print(f"✓ Built news page with {len(news_items)} updates")
+    print(f"✓ Built {len(news_items)} individual news story pages")
     print("✓ Built featured ranch pages")
-    print(f"\n✨ Site build complete! Total pages: {len(listings) + 15}")
+    print(f"\n✨ Site build complete! Total pages: {len(listings) + len(news_items) + 15}")
 
 if __name__ == '__main__':
     main()
