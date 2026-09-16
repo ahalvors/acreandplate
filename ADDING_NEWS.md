@@ -35,19 +35,33 @@ Each news item in `data/news.json` has these fields:
 
 ### What to Post
 
-News items should cover **real, verifiable Acre & Plate progress**:
+News items should cover **real, verifiable Acre & Plate progress** or **cited cattle/beef market news**:
 
+**Directory Updates:**
 - New ranch listings added to the directory
 - New features or sections launched (markets, deals, guides)
 - Directory milestones (ranch count, geographic coverage)
 - Significant updates to existing features
 
+**Cattle Market Briefs:**
+- Cattle futures, cash markets, or boxed beef price movements
+- USDA reports (WASDE, cattle inventory, beef production forecasts)
+- Feed grain markets as they relate to cattle costs
+- Industry trends affecting ranch-direct supply or pricing
+
+**Important for market briefs:**
+- Always cite public sources with inline `<a href>` links (USDA, CME, IndexBox, trade press)
+- Never copy paywalled articles verbatim—write original summaries citing the facts
+- Never invent CME futures prices, USDA data, or wholesale beef cutout values
+- Include one sentence connecting the news to ranch-direct buyers (feed costs, supply, etc.)
+
 ### What NOT to Post
 
-- Invented market data or futures prices (unless cited from public sources like USDA/CME)
-- Speculative content or projections
+- Invented market data or futures prices (unless cited from public sources like USDA/CME with links)
+- Speculative content or projections without attribution
 - Individual ranch news (direct customers to ranch websites)
 - Personal opinions or commentary
+- Verbatim copies of paywalled articles (write original summaries citing facts)
 
 ### Tone & Style
 
@@ -188,6 +202,26 @@ The image displays full-width below the body text.
   "source_name": "USDA Agricultural Marketing Service"
 }
 ```
+
+### Cattle market brief with cited sources
+
+```json
+{
+  "id": "cattle-futures-firm-sept-15",
+  "published_at": "2026-09-15T16:30:00-07:00",
+  "headline": "Cattle futures push higher as corn digests WASDE",
+  "body": "<p>Live cattle futures rallied to start the week, with cash trade firming to around <a href=\"https://www.agricultureofamerica.com/2026/09/15/cattle-rally-builds-momentum-as-grains-digest-wasde-hogs-and-dairy-stay-under-pressure/\" target=\"_blank\" rel=\"noopener\">$222 in the North and $226 in the South</a> according to analysts on Monday. The rally follows a technical breakout from a declining wedge pattern earlier this month.</p><p>Wholesale beef values held steady, with USDA boxed beef cutouts showing <a href=\"https://www.indexbox.io/blog/usda-boxed-beef-cutout-report-choice-values-above-select-on-september-15-2026/\" target=\"_blank\" rel=\"noopener\">Choice at $376.08 and Select at $356.36</a> per hundredweight on September 15.</p><p>For ranch-direct buyers, the firming cash market reflects tighter cattle supply heading into fall. Corn futures settled into a post-WASDE holding pattern after Friday's yield cut, which could ease feed costs for ranchers finishing cattle on grain.</p>",
+  "icon": "📈",
+  "tags": ["cattle-markets", "futures", "prices"]
+}
+```
+
+**Key points for market briefs:**
+- Cite every data point with inline links to public sources (USDA AMS, Agriculture of America, CME, IndexBox, etc.)
+- Write original summaries—never copy paywalled articles verbatim
+- Never invent futures prices, cash cattle values, or USDA data
+- Include connection to ranch-direct buyers (feed costs, supply, pricing context)
+- Use `target="_blank" rel="noopener"` for external links
 
 ---
 
