@@ -399,6 +399,20 @@
       "phone": "307-680-6119",
       "note": "Prefer text/email; ranch notes limited cell service. Preparing move from Wyoming to Florida — current DTC beef marketed as Wyoming Last Harvest / regenerative Fullblood. Confirm current ranch location and inventory on their site before ordering. Shop may also carry other product lines; directory claim is for their own Fullblood herd only.",
       "description": "Woman-owned family ranch (WYO Wagyu) raising regeneratively pastured Fullblood Japanese Black Wagyu. Grass-fed with a managed fermented grain finish; no soy, no added hormones, no routine antibiotics per ranch site. USDA harvest, dry-aged 14–21 days, vacuum sealed, flash frozen, shipped ranch-direct."
+    },
+    {
+      "slug": "rascal-ranch-farms",
+      "name": "Rascal Ranch Farms",
+      "url": "https://www.rascalranchfarms.com/",
+      "state": "CA",
+      "city": "Yolo County",
+      "genetics": "Purebred Akaushi (Red Wagyu) and American F1 Akaushi; also specialty Black Wagyu; registered foundational genetics (e.g. D&H Rueshaw Jr. and other listed FB-registered sires on genetics page)",
+      "breeds": ["akaushi", "wagyu"],
+      "products": ["cattle shares (quarter/half/whole)", "Wagyu beef", "pasture-raised lamb"],
+      "shipping": "Local delivery within ~60 miles (greater Sacramento, Yolo, Solano, East Bay / parts of Bay Area) for a small fee; butcher pickup also offered. Not nationwide.",
+      "phone": "925-595-3766",
+      "note": "Visits by appointment only. Order via website / Barn2Door store (https://app.barn2door.com/QyR0R). Email: rascalranchfarms@gmail.com. Ranch publishes processing fees paid to butcher separately (~$1.60–$2.00/lb hanging weight) for shares — confirm current pricing and inventory on their store. Specific street city beyond Yolo County not published on main public pages.",
+      "description": "Family ranch (Janice & Mike Hester; Tyler & Megan Hester) in the Yolo-Solano region raising hormone- and antibiotic-free Akaushi and Black Wagyu with regenerative practices (ranch compost, rotational grazing, spent brewers' grains and surplus farm produce in finishing). Sells ranch-direct 100% Wagyu beef via cattle shares and an online store."
     }
   ]
 }
