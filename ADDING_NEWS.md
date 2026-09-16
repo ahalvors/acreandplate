@@ -1,228 +1,201 @@
-# Adding a News Item
+# Adding News Stories to Acre & Plate
 
-This guide explains how to add a news update to the Acre & Plate news feed.
+This guide explains how to add news stories to the Cattle News section of Acre & Plate.
 
-## Overview
+## Quick Start
 
-News items are stored in `data/news.json` and displayed at `/news/` with automatic grouping by day and time (e.g., "Monday afternoon").
+1. Edit `/data/news.json`
+2. Add a new entry to the `news` array
+3. Run `python3 build.py` to rebuild the site
+4. Test the story page at `/news/<id>/`
 
-## News Schema
+## News Item Structure
 
-Each news item in `data/news.json` has these fields:
-
-```json
-{
-  "id": "unique-slug",
-  "published_at": "2026-09-12T14:30:00-07:00",
-  "headline": "Concise headline (8-12 words)",
-  "body": "<p>HTML paragraph content with optional <a href=\"/path/\">inline links</a>.</p><p>Multiple paragraphs supported.</p>",
-  "icon": "🐂",
-  "tags": ["optional", "tags"]
-}
-```
-
-### Field Details
-
-- **id**: Unique slug identifier (lowercase, hyphens)
-- **published_at**: ISO 8601 timestamp with Pacific timezone offset (`-07:00` for PDT, `-08:00` for PST)
-- **headline**: Brief, descriptive headline (appears with icon in card header)
-- **body**: HTML content using `<p>` tags for paragraphs; use `<a href="">` for inline links (styled in blue)
-- **icon**: Single emoji or path to icon image (appears beside headline)
-- **image** (optional): Full URL or path to image (displays full-width below body)
-- **tags** (optional): Array of tags for categorization
-
-## Content Guidelines
-
-### What to Post
-
-News items should cover **real, verifiable Acre & Plate progress** or **cited cattle/beef market news**:
-
-**Directory Updates:**
-- New ranch listings added to the directory
-- New features or sections launched (markets, deals, guides)
-- Directory milestones (ranch count, geographic coverage)
-- Significant updates to existing features
-
-**Cattle Market Briefs:**
-- Cattle futures, cash markets, or boxed beef price movements
-- USDA reports (WASDE, cattle inventory, beef production forecasts)
-- Feed grain markets as they relate to cattle costs
-- Industry trends affecting ranch-direct supply or pricing
-
-**Important for market briefs:**
-- Always cite public sources with inline `<a href>` links (USDA, CME, IndexBox, trade press)
-- Never copy paywalled articles verbatim—write original summaries citing the facts
-- Never invent CME futures prices, USDA data, or wholesale beef cutout values
-- Include one sentence connecting the news to ranch-direct buyers (feed costs, supply, etc.)
-
-### What NOT to Post
-
-- Invented market data or futures prices (unless cited from public sources like USDA/CME with links)
-- Speculative content or projections without attribution
-- Individual ranch news (direct customers to ranch websites)
-- Personal opinions or commentary
-- Verbatim copies of paywalled articles (write original summaries citing facts)
-
-### Tone & Style
-
-- **Factual and direct**: State what happened, when, and why it matters
-- **User-focused**: Explain how the update helps customers find ranch-direct beef
-- **Links**: Include inline links to relevant sections (`/markets/`, `/deals/`, `/listings/`)
-- **Brevity**: 2-4 short paragraphs per item
-
-## Adding a News Item
-
-### 1. Edit data/news.json
-
-Open `data/news.json` and add your entry to the `news` array:
+Each news item in `/data/news.json` requires these fields:
 
 ```json
 {
-  "news": [
-    {
-      "id": "new-feature-launch",
-      "published_at": "2026-09-15T10:30:00-07:00",
-      "headline": "New feature makes finding local ranches easier",
-      "body": "<p>We've launched a <a href=\"/state-filter/\">state filter</a> making it simple to find ranches near you. Browse by California, Texas, Wyoming, and more.</p><p>The directory now groups ranches by state with shipping details clearly noted. Local pickup options are highlighted for customers who prefer to visit ranch properties.</p>",
-      "icon": "🗺️",
-      "tags": ["launch", "features"]
-    },
-    // ... existing items
-  ]
-}
-```
-
-**Note on dates**: The feed groups items by day and time automatically. Use Pacific timezone timestamps. Items are sorted newest-first.
-
-### 2. Validate JSON
-
-Run Python's JSON validator to catch syntax errors:
-
-```bash
-python3 -m json.tool data/news.json > /dev/null && echo "JSON is valid"
-```
-
-If you see errors, check for:
-- Missing or extra commas
-- Unescaped quotes in HTML (use `\"` inside JSON strings)
-- Unclosed brackets or braces
-
-### 3. Rebuild the site
-
-```bash
-python3 build.py
-```
-
-This regenerates `/news/index.html` with your new item.
-
-### 4. Preview locally
-
-```bash
-python3 -m http.server 8000
-open http://localhost:8000/news/
-```
-
-Check:
-- Day-part grouping label appears correctly ("Thursday morning", etc.)
-- Icon displays beside headline
-- Inline links are styled in blue
-- Content is readable on mobile and desktop
-
-### 5. Commit and deploy
-
-```bash
-git add data/news.json
-git commit -m "Add news: [headline]"
-git push
-```
-
-Netlify auto-deploys on push to `main`.
-
-## Optional: Adding Images
-
-To add an image to a news item:
-
-1. Place the image in `/assets/news/` (create folder if needed)
-2. Add the `image` field to your news item:
-
-```json
-{
-  "id": "feature-with-image",
-  "published_at": "2026-09-15T14:00:00-07:00",
-  "headline": "Visual guide to ranch directory",
-  "body": "<p>See how to find ranches by breed, state, and shipping options.</p>",
-  "icon": "📸",
-  "image": "/assets/news/directory-screenshot.jpg"
-}
-```
-
-The image displays full-width below the body text.
-
-## Troubleshooting
-
-**Build fails with JSON error**:
-- Run `python3 -m json.tool data/news.json` to identify syntax issues
-- Check for smart quotes (`"` instead of `"`) in headlines or body content
-- Ensure commas separate array items (but no trailing comma after last item)
-
-**Day label doesn't match expected time**:
-- Verify your `published_at` timestamp includes timezone offset (`-07:00`)
-- Timestamp uses the hour to determine "morning" (5-11), "afternoon" (12-16), "evening" (17-20), "night" (21-4)
-
-**Icon doesn't display**:
-- Use a single emoji character (most common emojis work)
-- Alternatively, provide a path to an image file
-
-## Examples
-
-### Simple announcement
-
-```json
-{
-  "id": "wyoming-ranches-added",
-  "published_at": "2026-09-18T09:00:00-07:00",
-  "headline": "Wyoming ranches join the directory",
-  "body": "<p>Three new <a href=\"/wyoming/\">Wyoming ranches</a> are now listed, bringing Greater Yellowstone Wagyu and heritage beef to the directory. All three offer nationwide shipping.</p>",
-  "icon": "🏔️",
-  "tags": ["wyoming", "new-listings"]
-}
-```
-
-### Multi-paragraph with external link
-
-```json
-{
-  "id": "usda-beef-report",
-  "published_at": "2026-09-20T14:30:00-07:00",
-  "headline": "USDA reports record demand for grass-fed beef",
-  "body": "<p>The USDA's <a href=\"https://www.ams.usda.gov/reports/\" target=\"_blank\" rel=\"noopener\">latest market report</a> shows a 23% year-over-year increase in grass-fed beef sales, with ranch-direct channels leading growth.</p><p>This aligns with what we're seeing on Acre & Plate: more ranches reporting sold-out inventory and longer lead times for quarter-cow shares. The directory now lists 20 ranches, with half offering waitlist signups for popular cuts.</p>",
-  "icon": "📊",
-  "tags": ["market-data", "usda"],
-  "source_url": "https://www.ams.usda.gov/reports/",
-  "source_name": "USDA Agricultural Marketing Service"
-}
-```
-
-### Cattle market brief with cited sources
-
-```json
-{
-  "id": "cattle-futures-firm-sept-15",
+  "id": "unique-slug-here",
   "published_at": "2026-09-15T16:30:00-07:00",
-  "headline": "Cattle futures push higher as corn digests WASDE",
-  "body": "<p>Live cattle futures rallied to start the week, with cash trade firming to around <a href=\"https://www.agricultureofamerica.com/2026/09/15/cattle-rally-builds-momentum-as-grains-digest-wasde-hogs-and-dairy-stay-under-pressure/\" target=\"_blank\" rel=\"noopener\">$222 in the North and $226 in the South</a> according to analysts on Monday. The rally follows a technical breakout from a declining wedge pattern earlier this month.</p><p>Wholesale beef values held steady, with USDA boxed beef cutouts showing <a href=\"https://www.indexbox.io/blog/usda-boxed-beef-cutout-report-choice-values-above-select-on-september-15-2026/\" target=\"_blank\" rel=\"noopener\">Choice at $376.08 and Select at $356.36</a> per hundredweight on September 15.</p><p>For ranch-direct buyers, the firming cash market reflects tighter cattle supply heading into fall. Corn futures settled into a post-WASDE holding pattern after Friday's yield cut, which could ease feed costs for ranchers finishing cattle on grain.</p>",
+  "headline": "Story headline goes here",
+  "body": "<p>Story body with HTML...</p>",
   "icon": "📈",
-  "tags": ["cattle-markets", "futures", "prices"]
+  "tags": ["tag1", "tag2"]
 }
 ```
 
-**Key points for market briefs:**
-- Cite every data point with inline links to public sources (USDA AMS, Agriculture of America, CME, IndexBox, etc.)
-- Write original summaries—never copy paywalled articles verbatim
-- Never invent futures prices, cash cattle values, or USDA data
-- Include connection to ranch-direct buyers (feed costs, supply, pricing context)
-- Use `target="_blank" rel="noopener"` for external links
+### Required Fields
 
----
+- **`id`** (string): Unique identifier, used in URL (`/news/<id>/`). Use lowercase with hyphens, e.g., `cattle-futures-firm-sept-15`
+- **`published_at`** (ISO 8601 datetime): Publication timestamp with timezone, e.g., `2026-09-15T16:30:00-07:00`
+- **`headline`** (string): Story headline (appears in `<h3>` and OG tags)
+- **`body`** (HTML string): Full story content with HTML markup
+- **`icon`** (string): Emoji or icon for the story (appears next to headline)
+- **`tags`** (array of strings): Categories/keywords for filtering (not currently displayed)
 
-**Questions?** Open an issue on GitHub or email hello@acreandplate.com.
+### Optional Fields
+
+- **`image`** (string): Path or URL to a story image. Shows in the story card and used for Open Graph previews
+  - Can be absolute URL: `"https://example.com/image.jpg"`
+  - Or site path: `"/assets/news/story-image.jpg"`
+  - Recommended size: 1200×630 pixels minimum
+  
+- **`og_image`** (string): Override image specifically for Open Graph/social previews
+  - Falls back to `image` if not set
+  - Falls back to default branded image if neither is set
+
+## Adding Images to News Stories
+
+### Option 1: External Images (Easiest)
+
+Use a direct URL to an image hosted elsewhere:
+
+```json
+{
+  "id": "cattle-rally-sept-15",
+  "headline": "Cattle futures rally continues",
+  "body": "<p>Story content...</p>",
+  "image": "https://example.com/cattle-chart.jpg",
+  "icon": "📈",
+  "published_at": "2026-09-15T10:00:00-07:00",
+  "tags": ["markets"]
+}
+```
+
+### Option 2: Local Images (Better)
+
+1. Save the image to `/assets/news/` (create the directory if needed)
+2. Use a site-rooted path in the JSON:
+
+```json
+{
+  "id": "ranch-feature-sept-20",
+  "headline": "Featured Ranch: Texas Wagyu Co.",
+  "body": "<p>Story content...</p>",
+  "image": "/assets/news/texas-wagyu-ranch.jpg",
+  "icon": "🐂",
+  "published_at": "2026-09-20T14:00:00-07:00",
+  "tags": ["ranches", "texas"]
+}
+```
+
+### Image Guidelines
+
+- **Format:** JPEG or PNG
+- **Dimensions:** At least 1200×630 pixels (Open Graph standard)
+- **File size:** Keep under 500KB for fast loading
+- **Content:** Relevant to the story; should work in small previews
+
+### Stories Without Images
+
+Stories without an `image` field will use the default branded Open Graph image (`/assets/og-news-default.png`). This is fine for most text-based news updates.
+
+## Open Graph Preview Behavior
+
+When someone shares a news story link:
+
+- **Headline** → `og:title` and Twitter card title
+- **Plain-text excerpt** (first ~155 chars of body) → `og:description`
+- **Image** → `og:image` (custom image, or falls back to default)
+- **URL** → `https://acreandplate.com/news/<id>/`
+
+Test previews with:
+- [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/)
+- [Twitter Card Validator](https://cards-dev.twitter.com/validator)
+- [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/)
+
+## HTML in Story Body
+
+The `body` field accepts HTML. Common patterns:
+
+```html
+<p>Paragraph text with <a href="https://example.com" target="_blank" rel="noopener">a link</a>.</p>
+<p><strong>Bold text</strong> and <em>italic text</em>.</p>
+<ul>
+  <li>Bullet point one</li>
+  <li>Bullet point two</li>
+</ul>
+```
+
+Keep it simple: paragraphs, links, bold/italic, lists. Avoid complex styling.
+
+## Date/Time Format
+
+Use ISO 8601 with timezone:
+
+```
+2026-09-15T16:30:00-07:00
+         ↑   ↑   ↑    ↑
+       date time mins timezone (PDT = -07:00)
+```
+
+Pacific times:
+- **PDT** (summer): `-07:00`
+- **PST** (winter): `-08:00`
+
+## Icon Selection
+
+Choose an emoji that fits the story:
+
+- 📈 Market/price movements
+- 🐂 Cattle/ranch stories
+- 💰 Deals/pricing
+- 🏪 Markets/butchers
+- 🗺️ Geography/locations
+- 📰 General news
+- ⚠️ Warnings/important notices
+
+## Example: Complete News Item with Image
+
+```json
+{
+  "id": "usda-beef-report-oct-2026",
+  "published_at": "2026-10-12T09:00:00-07:00",
+  "headline": "USDA reports record beef exports in Q3",
+  "body": "<p>The USDA released its quarterly beef export data today, showing <strong>record exports</strong> for Q3 2026. Total beef shipments reached 780 million pounds, up 12% year-over-year.</p><p>Key markets driving growth include <a href=\"https://example.com\" target=\"_blank\" rel=\"noopener\">Japan and South Korea</a>, which increased purchases of high-quality U.S. beef.</p><p>For ranch-direct sellers, this signals continued strong demand for premium domestic beef as international buyers compete for supply.</p>",
+  "image": "/assets/news/usda-beef-exports-chart.jpg",
+  "icon": "📈",
+  "tags": ["usda", "exports", "markets"]
+}
+```
+
+## Testing
+
+After editing `data/news.json`:
+
+1. Run the build script:
+   ```bash
+   python3 build.py
+   ```
+
+2. Check the news hub: `/news/index.html`
+   - Headline should link to the story page
+   - Story appears in chronological order
+
+3. Check the story page: `/news/<id>/index.html`
+   - Full content displays
+   - Share button works
+   - View source to confirm OG tags
+
+4. Test Open Graph preview with sharing debuggers (links above)
+
+## Common Issues
+
+**Story doesn't appear:**
+- Check JSON syntax (commas, quotes)
+- Verify `id` is unique
+- Ensure `published_at` is valid ISO 8601
+
+**Image doesn't show:**
+- Verify path is correct (site-rooted `/assets/...` or absolute `https://...`)
+- Check file exists and is readable
+- Confirm image dimensions (at least 1200×630)
+
+**OG preview shows wrong image:**
+- Clear cache on social platforms (use sharing debuggers)
+- Verify `og_image` or `image` field is set correctly
+- Default image fallback should always work
+
+## Questions?
+
+Contact the Acre & Plate team or check the repository documentation.
