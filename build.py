@@ -85,7 +85,7 @@ def base_template(title: str, content: str, meta_description: str = "", og_tags:
                 <li><a href="/markets/">Markets</a></li>
                 <li><a href="/news/">News</a></li>
                 <li><a href="https://acreandplate.printful.me/" target="_blank" rel="noopener noreferrer">Shop</a></li>
-                <li class="nav-hide-sm"><a href="/guides/wagyu-vs-akaushi/">Guide</a></li>
+                <li><a href="/guides/wagyu-vs-akaushi/">Guide</a></li>
                 <li><a href="/about/">About</a></li>
             </ul>
         </nav>
