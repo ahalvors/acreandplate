@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** September 15, 2026  
+**Last Updated:** September 16, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 31
+- **Total Ranches:** 33
 - **Active Deals:** 1
 - **Farmers Markets:** 3
 - **Butcher Shops:** 19
@@ -14,11 +14,11 @@
 - **Akaushi Ranches:** 6
 - **Heritage Breeds:** 2
 - **Texas Ranches:** 6
-- **California Ranches:** 10
+- **California Ranches:** 12
 - **Colorado Ranches:** 1
 - **Florida Ranches:** 2
 - **Wyoming Ranches:** 3
-- **Total Pages:** 52
+- **Total Pages:** 54
 
 ## Pages Built
 
@@ -44,7 +44,7 @@
 ### Guide Pages
 - ✅ Wagyu vs Akaushi Guide (`/guides/wagyu-vs-akaushi/`)
 
-### Listing Pages (29 ranches)
+### Listing Pages (33 ranches)
 - ✅ Lone Mountain Wagyu (NM)
 - ✅ HeartBrand Beef (TX)
 - ✅ Long Hill Wagyu (TX)
@@ -76,8 +76,13 @@
 - ✅ Stemple Creek Ranch (CA)
 - ✅ The Hufeisen-Ranch (WYO Wagyu) (WY)
 - ✅ Rascal Ranch Farms (CA)
+- ✅ Ells Cattle Ranch (CA)
+- ✅ Kirk Cattle Company (CA)
 
 ## Known Gaps & Notes
+
+### Parked Ranches (Pending Verification)
+- **Good Life Beef (German Lepe)** - Noted on Livermore Livestock Instagram card as est. 2022, claiming grass-fed/finished, USDA inspected, Bay Area delivery. Multiple web searches found NO verifiable CA direct-to-consumer operation. GoodLife Beef (Nebraska) and Good Life Beef (Australia) are different businesses. Parked pending website or verifiable primary source contact.
 
 ### Limited Shipping
 - **Black Wagyu Beef Co.** - Florida only (beta testing)
@@ -154,6 +159,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Sep 13, 2026 PT evening ship:** Added **Stemple Creek Ranch** (Tomales, CA) - fourth-generation West Marin ranch with 100% grass-fed and grass-finished beef. Ships to all 50 U.S. states with free CA shipping. Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195). California hub now shows 9 ranches (up from 8). No new deals found. Total site count: 29 ranches, 1 active deal, 3 markets, 19 butchers, 43 pages.
 - 📅 **Sep 14, 2026 PT nightly ship:** Added **The Hufeisen-Ranch (WYO Wagyu)** (Weston, WY) - woman-owned family ranch raising 100% DNA-Verified Fullblood Japanese Black Wagyu, regeneratively pastured with grass-fed and managed fermented grain finish. Ships nationwide frozen. Preparing move from Wyoming to Florida; current DTC beef marketed as Wyoming Last Harvest. Wyoming hub now shows 3 ranches (Circle H WY/ID, Hawks Hill, Hufeisen). Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195) and updated verified_at to 2026-09-14. No new deals added. Total site count: 30 ranches, 1 active deal, 3 markets, 19 butchers, 44 pages.
 - 📅 **Sep 15, 2026 PT nightly ship:** Added **Rascal Ranch Farms** (Yolo County, CA) - family ranch (Janice & Mike Hester; Tyler & Megan Hester) raising Purebred Akaushi (Red Wagyu), American F1 Akaushi, and specialty Black Wagyu with regenerative practices. Offers cattle shares (quarter/half/whole) and pasture-raised lamb via Barn2Door store. Local delivery within ~60 miles of greater Sacramento/Yolo/Solano/East Bay; butcher pickup available. Registered foundational genetics including D&H Rueshaw Jr. California hub now shows 10 ranches (up from 9); Akaushi hub shows 6 ranches (up from 5); Wagyu hub shows 18 ranches (up from 17). Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195) and updated verified_at to 2026-09-15. No new deals added. Total site count: 31 ranches, 1 active deal, 3 markets, 19 butchers, 52 pages.
+- 📅 **Sep 16, 2026 - Livermore Livestock Leads:** Added 2 verified ranches from Livermore Livestock Instagram directory cards. **Ells Cattle Ranch** (Paicines, San Benito County) - small family ranch raising 100% Black Angus, pasture-raised and grain-finished (barley/oats/corn), no hormones or antibiotics; half beef shares with butcher pickup at Los Gatos Meats or Freedom Meats. **Kirk Cattle Company** (Gilroy) - conservation grazing and certified natural beef (whole/half shares, grass-fed or grain-finished options); contact via Santa Clara County Cattlemen's Association listing. Parked **Good Life Beef (German Lepe)** pending website verification - no verifiable CA DTC operation found despite Livermore card claims. California hub now shows 12 ranches (up from 10). No new deals added. Total site count: 33 ranches, 1 active deal, 3 markets, 19 butchers, 54 pages.
 
 ### What We Record
 - ✅ Ranch name and location
