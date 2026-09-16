@@ -38,6 +38,11 @@ with open('data/butchers.json', 'r') as f:
     butchers_data = json.load(f)
     butchers = butchers_data['butchers']
 
+# Load news data
+with open('data/news.json', 'r') as f:
+    news_data = json.load(f)
+    news_items = news_data['news']
+
 def ensure_dir(path: str):
     """Create directory if it doesn't exist"""
     Path(path).mkdir(parents=True, exist_ok=True)
@@ -77,6 +82,7 @@ def base_template(title: str, content: str, meta_description: str = "") -> str:
                 <li><a href="/listings/">Browse</a></li>
                 <li><a href="/deals/">Deals</a></li>
                 <li><a href="/markets/">Markets</a></li>
+                <li><a href="/news/">News</a></li>
                 <li><a href="https://acreandplate.printful.me/" target="_blank" rel="noopener noreferrer">Shop</a></li>
                 <li><a href="/guides/wagyu-vs-akaushi/">Guide</a></li>
                 <li><a href="/about/">About</a></li>
@@ -915,6 +921,103 @@ def butcher_card(butcher: Dict[str, Any]) -> str:
         </div>
     </article>"""
 
+def news_card(item: Dict[str, Any]) -> str:
+    """Generate news card HTML"""
+    # Parse ISO timestamp and format date for display
+    from datetime import datetime
+    
+    dt = datetime.fromisoformat(item['published_at'])
+    formatted_date = dt.strftime("%B %d, %Y")
+    
+    # Build optional image section
+    image_html = ''
+    if item.get('image'):
+        image_html = f'<div class="news-image"><img src="{item["image"]}" alt=""></div>'
+    
+    # Get icon (emoji or path)
+    icon = item.get('icon', '📰')
+    
+    return f"""<article class="news-card">
+        <div class="news-header">
+            <span class="news-icon">{icon}</span>
+            <h3>{item['headline']}</h3>
+        </div>
+        <div class="news-body">
+            {item['body']}
+        </div>
+        {image_html}
+        <div class="news-meta">
+            <time datetime="{item['published_at']}">{formatted_date}</time>
+        </div>
+    </article>"""
+
+def build_news_page():
+    """Build news hub page with time-grouped feed"""
+    from datetime import datetime, timezone, timedelta
+    
+    # Sort news by published date (newest first)
+    sorted_news = sorted(news_items, key=lambda x: x['published_at'], reverse=True)
+    
+    # Group news by day-part labels (like "Monday afternoon")
+    # Use Pacific timezone (UTC-7 or UTC-8)
+    pacific_offset = timedelta(hours=-7)  # PDT
+    grouped_news = []
+    current_label = None
+    
+    for item in sorted_news:
+        dt = datetime.fromisoformat(item['published_at'])
+        
+        # Generate day-part label
+        day_name = dt.strftime("%A")
+        hour = dt.hour
+        
+        if 5 <= hour < 12:
+            time_part = "morning"
+        elif 12 <= hour < 17:
+            time_part = "afternoon"
+        elif 17 <= hour < 21:
+            time_part = "evening"
+        else:
+            time_part = "night"
+        
+        label = f"{day_name} {time_part}"
+        
+        if label != current_label:
+            grouped_news.append({'type': 'label', 'text': label})
+            current_label = label
+        
+        grouped_news.append({'type': 'item', 'data': item})
+    
+    # Generate HTML for grouped news
+    news_html = ''
+    for entry in grouped_news:
+        if entry['type'] == 'label':
+            news_html += f'<h2 class="day-label">{entry["text"]}</h2>\n'
+        else:
+            news_html += news_card(entry['data']) + '\n'
+    
+    content = f"""
+    <section class="page-header">
+        <div class="container">
+            <h1>Cattle News</h1>
+            <p>Updates from the ranch-direct beef directory</p>
+            <p class="count">{len(news_items)} updates</p>
+        </div>
+    </section>
+    
+    <section class="news-section">
+        <div class="container">
+            <div class="news-feed">
+                {news_html}
+            </div>
+        </div>
+    </section>
+    """
+    
+    meta = f"Latest news and updates from Acre & Plate—new ranches, markets, deals, and directory features."
+    html = base_template("Cattle News", content, meta)
+    write_page('news/index.html', html)
+
 def build_markets_page():
     """Build markets hub page with farmers markets and butcher shops"""
     # Group markets by city for organization
@@ -1149,13 +1252,17 @@ def main():
     # Markets page
     build_markets_page()
     
+    # News page
+    build_news_page()
+    
     print(f"\n✓ Built {len(listings)} listing pages")
     print("✓ Built hub pages (wagyu, akaushi, heritage, texas, california, colorado, florida, wyoming)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
     print(f"✓ Built markets page with {len(markets)} farmers markets and {len(butchers)} butcher shops")
+    print(f"✓ Built news page with {len(news_items)} updates")
     print("✓ Built featured ranch pages")
-    print(f"\n✨ Site build complete! Total pages: {len(listings) + 14}")
+    print(f"\n✨ Site build complete! Total pages: {len(listings) + 15}")
 
 if __name__ == '__main__':
     main()
