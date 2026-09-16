@@ -413,6 +413,32 @@
       "phone": "925-595-3766",
       "note": "Visits by appointment only. Order via website / Barn2Door store (https://app.barn2door.com/QyR0R). Email: rascalranchfarms@gmail.com. Ranch publishes processing fees paid to butcher separately (~$1.60–$2.00/lb hanging weight) for shares — confirm current pricing and inventory on their store. Specific street city beyond Yolo County not published on main public pages.",
       "description": "Family ranch (Janice & Mike Hester; Tyler & Megan Hester) in the Yolo-Solano region raising hormone- and antibiotic-free Akaushi and Black Wagyu with regenerative practices (ranch compost, rotational grazing, spent brewers' grains and surplus farm produce in finishing). Sells ranch-direct 100% Wagyu beef via cattle shares and an online store."
+    },
+    {
+      "slug": "ells-cattle-ranch",
+      "name": "Ells Cattle Ranch",
+      "url": "https://ellscattleranch.com/",
+      "state": "CA",
+      "city": "Paicines",
+      "genetics": "100% Black Angus; pasture-raised on oak-studded San Benito County rangeland, grain-finished on barley, oats, and corn plus alfalfa; no hormones or antibiotics",
+      "breeds": ["angus"],
+      "products": ["half beef shares"],
+      "shipping": "Butcher pickup at Los Gatos Meats (Los Gatos) or Freedom Meats after 14-21 day dry-aging",
+      "note": "Family operation near Paicines. Cattle born south of ranch, hand-selected steers at 7-8 months, rotational grazing on three pastures. $5.25/lb live weight + ~$2.65/lb processing fee paid to butcher. 2026 reservations available. Half share ~700 lbs live weight. Contact via website. Instagram: @ellscattleranch",
+      "description": "Small family ranch between the Gabilan and Diablo Mountain ranges raising 100% Black Angus in open pastures. Hand-selected steers enjoy rotational grazing before grain finishing at 18-20 months. Dry-aged beef processed at Los Gatos Meats or Freedom Meats."
+    },
+    {
+      "slug": "kirk-cattle-company",
+      "name": "Kirk Cattle Company",
+      "url": "https://santaclaracountycattlemens.org/cattlemen-resources/",
+      "state": "CA",
+      "city": "Gilroy",
+      "genetics": "Certified natural beef; grass-fed or grain-finished options available",
+      "breeds": [],
+      "products": ["whole beef", "half beef"],
+      "shipping": "Contact for availability",
+      "note": "Conservation grazing services alongside locally raised beef. Contact Brent Kirk at kirkcattle@verizon.net. Listed via Santa Clara County Cattlemen's Association. No direct consumer website currently.",
+      "description": "Conservation grazing and certified natural beef operation in Gilroy. Offers whole or half beef shares in grass-fed or grain-finished options. Contact via email for current availability and ordering."
     }
   ]
 }
