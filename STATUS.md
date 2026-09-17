@@ -6,7 +6,7 @@
 ## Site Statistics
 
 - **Total Ranches:** 34
-- **Active Deals:** 1
+- **Active Deals:** 3
 - **Farmers Markets:** 3
 - **Butcher Shops:** 19
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
@@ -25,7 +25,7 @@
 ### Core Pages
 - ✅ Home (`index.html`)
 - ✅ All Listings (`/listings/`)
-- ✅ Seasonal Deals (`/deals/`) - 1 active deal
+- ✅ Seasonal Deals (`/deals/`) - 3 active deals
 - ✅ Local Activity (`/markets/`) - 3 farmers markets + 19 butcher shops (UPDATED!)
 - ✅ Featured Ranch (`/featured/`) - monetization landing page
 - ✅ Featured Ranch Thanks (`/featured/thanks/`) - post-checkout page
@@ -145,7 +145,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - Shipping policy pages
 
 ### Deals & Pricing
-- ✅ **1 active deal** verified from ranch website (as of Sept 8, 2026)
+- ✅ **3 active deals** verified from ranch websites (as of Sept 17, 2026)
 - ✅ Sale prices confirmed from ranch sales/clearance pages
 - ✅ Regular prices included when shown by ranch
 - ⚠️ Deals updated periodically—users should confirm current pricing on ranch sites
@@ -162,6 +162,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Sep 15, 2026 PT nightly ship:** Added **Rascal Ranch Farms** (Yolo County, CA) - family ranch (Janice & Mike Hester; Tyler & Megan Hester) raising Purebred Akaushi (Red Wagyu), American F1 Akaushi, and specialty Black Wagyu with regenerative practices. Offers cattle shares (quarter/half/whole) and pasture-raised lamb via Barn2Door store. Local delivery within ~60 miles of greater Sacramento/Yolo/Solano/East Bay; butcher pickup available. Registered foundational genetics including D&H Rueshaw Jr. California hub now shows 10 ranches (up from 9); Akaushi hub shows 6 ranches (up from 5); Wagyu hub shows 18 ranches (up from 17). Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195) and updated verified_at to 2026-09-15. No new deals added. Total site count: 31 ranches, 1 active deal, 3 markets, 19 butchers, 52 pages.
 - 📅 **Sep 16, 2026 - Livermore Livestock Leads:** Added 2 verified ranches from Livermore Livestock Instagram directory cards. **Ells Cattle Ranch** (Paicines, San Benito County) - small family ranch raising 100% Black Angus, pasture-raised and grain-finished (barley/oats/corn), no hormones or antibiotics; half beef shares with butcher pickup at Los Gatos Meats or Freedom Meats. **Kirk Cattle Company** (Gilroy) - conservation grazing and certified natural beef (whole/half shares, grass-fed or grain-finished options); contact via Santa Clara County Cattlemen's Association listing. Parked **Good Life Beef (German Lepe)** pending website verification - no verifiable CA DTC operation found despite Livermore card claims. California hub now shows 12 ranches (up from 10). No new deals added. Total site count: 33 ranches, 1 active deal, 3 markets, 19 butchers, 54 pages.
 - 📅 **Sep 16, 2026 PT nightly ship:** Added **Salmon Creek Ranch** (Bodega, CA) - Sonoma coast ranch raising 100% grass-fed and grass-finished beef on certified organic pasture, including Scottish Highland and other British breeds. Retail cuts ship continental USA; whole/half/quarter beef for Sonoma County local pickup; on-farm store pickup and Santa Rosa Farmers Market (Saturdays). California hub now shows 13 ranches (up from 12); Heritage Breeds hub shows 3 ranches (up from 2). Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195) and updated verified_at to 2026-09-16. Long Hill 1 lb ground NOT added—no sale price currently, only regular $12.99. Total site count: 34 ranches, 1 active deal, 3 markets, 19 butchers, 55 pages.
+- 📅 **Sep 17, 2026 - Deal Hunt:** Systematically checked 30+ ranch websites for verified sales/clearance/overstock deals. Found 2 new genuine deals: **Hufeisen Ranch (WYO Wagyu)** "The Last Harvest Fullblood Wagyu Box" (Family Box) at $199 (regular $299, save $100) - final Wyoming harvest clearance before ranch relocation to Florida, only 6 steers available, ~10-12 lbs mixed cuts; **Mossyrock Wagyu** "WAGYU BBQ BOX" at $395 (regular $475, save $80). Re-verified Long Hill Wagyu 15 lb ground bulk still active at $180 (regular $195). Checked but found no current sales at: Lone Mountain, HeartBrand, Cross Creek Ranch, Stemple Creek, Koopmann Family Beef, 3Z Cattle, Salmon Creek Ranch, Hook & Cleaver (has bundle pricing but not clearance sales), Circle H Ranch, Hawks Hill Ranch, Certified Piedmontese, Vermont Wagyu, Caroland Farms, Slickhorn Ranch, Pasture Prime Wagyu, Rutledge Ryan Ranch, Quinn Beef, Tribe Ranch, Ranch & Trail (Mahan). Updated deals.json with all 3 verified deals. Total site count: 34 ranches, 3 active deals, 3 markets, 19 butchers, 55 pages.
 
 ### What We Record
 - ✅ Ranch name and location
