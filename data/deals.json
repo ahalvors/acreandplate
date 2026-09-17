@@ -14,7 +14,41 @@
       "unit": "15 lb bundle",
       "season_label": "Bulk Deal",
       "reason": "100% Fullblood Wagyu ground beef bulk pricing",
-      "verified_at": "2026-09-16",
+      "verified_at": "2026-09-17",
+      "gaps": null
+    },
+    {
+      "id": "hufeisen-last-harvest-box",
+      "listing_id": "hufeisen-ranch",
+      "ranch_name": "The Hufeisen-Ranch (WYO Wagyu)",
+      "website": "https://www.realwagyubeef.com/",
+      "product_url": "https://www.realwagyubeef.com/products/the-last-harvest-fullblood-wagyu-box",
+      "cut": "mixed",
+      "product_name": "The Last Harvest Fullblood Wagyu Box (Family Box)",
+      "regular_price": 299,
+      "sale_price": 199,
+      "currency": "USD",
+      "unit": "~10-12 lb box",
+      "season_label": "Ranch Clearance",
+      "reason": "Final Wyoming harvest clearance before ranch relocation to Florida - only 6 steers available",
+      "verified_at": "2026-09-17",
+      "gaps": null
+    },
+    {
+      "id": "mossyrock-bbq-box",
+      "listing_id": "mossyrock",
+      "ranch_name": "Mossyrock Wagyu",
+      "website": "https://www.mossyrockwagyu.com/",
+      "product_url": "https://www.mossyrockwagyu.com/",
+      "cut": "mixed",
+      "product_name": "WAGYU BBQ BOX",
+      "regular_price": 475,
+      "sale_price": 395,
+      "currency": "USD",
+      "unit": "box",
+      "season_label": "Sale",
+      "reason": "100% Fullblood Wagyu BBQ bundle on sale",
+      "verified_at": "2026-09-17",
       "gaps": null
     }
   ]
