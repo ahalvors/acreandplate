@@ -439,6 +439,20 @@
       "shipping": "Contact for availability",
       "note": "Conservation grazing services alongside locally raised beef. Contact Brent Kirk at kirkcattle@verizon.net. Listed via Santa Clara County Cattlemen's Association. No direct consumer website currently.",
       "description": "Conservation grazing and certified natural beef operation in Gilroy. Offers whole or half beef shares in grass-fed or grain-finished options. Contact via email for current availability and ordering."
+    },
+    {
+      "slug": "salmon-creek-ranch",
+      "name": "Salmon Creek Ranch",
+      "url": "https://salmoncreekranch.com/",
+      "state": "CA",
+      "city": "Bodega",
+      "genetics": "British breeds including Scottish Highland cattle; 100% grass-fed and grass-finished on certified organic pasture; ranch sells only beef from their own cattle",
+      "breeds": ["heritage"],
+      "products": ["steaks", "roasts", "ground", "whole beef", "half beef", "quarter beef"],
+      "shipping": "Retail cuts ship continental USA; whole/half/quarter for Sonoma County local pickup; on-farm store pickup in Bodega; also Santa Rosa Certified Farmers Market Saturdays (Luther Burbank Center)",
+      "phone": "707-775-9604",
+      "note": "Order via online store, email info@salmoncreekranch.com, or phone/text. Address published as PO Box 266, 1400 Bay Hill Rd, Bodega, CA 94922. Dry-aged 14-21 days, USDA-inspected vacuum-packed retail cuts. Confirm current inventory and pricing on their beef price list / store before ordering.",
+      "description": "Sonoma coast ranch in Bodega raising 100% grass-fed and grass-finished beef on certified organic pasture, including Scottish Highland and other British breeds suited to steep coastal hills. Family operation selling ranch-direct retail cuts nationwide and local beef shares for Sonoma County pickup."
     }
   ]
 }
