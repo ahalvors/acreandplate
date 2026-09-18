@@ -453,6 +453,20 @@
       "phone": "707-775-9604",
       "note": "Order via online store, email info@salmoncreekranch.com, or phone/text. Address published as PO Box 266, 1400 Bay Hill Rd, Bodega, CA 94922. Dry-aged 14-21 days, USDA-inspected vacuum-packed retail cuts. Confirm current inventory and pricing on their beef price list / store before ordering.",
       "description": "Sonoma coast ranch in Bodega raising 100% grass-fed and grass-finished beef on certified organic pasture, including Scottish Highland and other British breeds suited to steep coastal hills. Family operation selling ranch-direct retail cuts nationwide and local beef shares for Sonoma County pickup."
+    },
+    {
+      "slug": "marin-coast-ranch",
+      "name": "Marin Coast Ranch",
+      "url": "https://marincoastranch.com/",
+      "state": "CA",
+      "city": "Tomales",
+      "genetics": "Selectively Angus herd; USDA Certified Grassfed and Certified Natural; 100% grass-fed and grass-finished (no grain); regenerative family ranch",
+      "breeds": ["angus"],
+      "products": ["steaks", "ground", "roasts", "beef shares", "micro-shares", "lamb"],
+      "shipping": "Ships (recommend 8+ lb for long distance); local delivery in eligible Marin/Sonoma zip codes; ranch pickup in Tomales by pre-order (Sundays or by appointment)",
+      "phone": "707-878-2181",
+      "note": "Address: 900 Cerini Road, Tomales, CA — visits by appointment only. Email: marincoastranch@gmail.com. Spring 2026 beef shares sold out as of 2025-04-25 per ranch site; accepting deposits for Spring 2027 harvest starting 1/1/27. Confirm current retail cut inventory and pricing on their store before ordering.",
+      "description": "Sixth-generation Northern California family ranch in West Marin raising USDA Certified Grassfed, Certified Natural Angus beef on coastal pasture. Cattle are grass-fed and grass-finished with dry-aged, vacuum-sealed cuts. Also sells grass-fed lamb; offers ranch hikes, picnics, and tours."
     }
   ]
 }
