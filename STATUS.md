@@ -5,7 +5,7 @@
 
 ## Site Statistics
 
-- **Total Ranches:** 34
+- **Total Ranches:** 35
 - **Active Deals:** 3
 - **Farmers Markets:** 3
 - **Butcher Shops:** 19
@@ -14,11 +14,11 @@
 - **Akaushi Ranches:** 6
 - **Heritage Breeds:** 3
 - **Texas Ranches:** 6
-- **California Ranches:** 13
+- **California Ranches:** 14
 - **Colorado Ranches:** 1
 - **Florida Ranches:** 2
 - **Wyoming Ranches:** 3
-- **Total Pages:** 55
+- **Total Pages:** 56
 
 ## Pages Built
 
@@ -36,7 +36,7 @@
 - ✅ Akaushi hub (`/akaushi/`) - 5 ranches
 - ✅ Heritage Breeds hub (`/heritage/`) - 2 ranches (NEW!)
 - ✅ Texas hub (`/texas/`) - 6 ranches
-- ✅ California hub (`/california/`) - 8 ranches
+- ✅ California hub (`/california/`) - 14 ranches
 - ✅ Colorado hub (`/colorado/`) - 1 ranch
 - ✅ Florida hub (`/florida/`) - 2 ranches
 - ✅ Wyoming hub (`/wyoming/`) - 2 ranches
@@ -44,7 +44,7 @@
 ### Guide Pages
 - ✅ Wagyu vs Akaushi Guide (`/guides/wagyu-vs-akaushi/`)
 
-### Listing Pages (33 ranches)
+### Listing Pages (35 ranches)
 - ✅ Lone Mountain Wagyu (NM)
 - ✅ HeartBrand Beef (TX)
 - ✅ Long Hill Wagyu (TX)
@@ -79,6 +79,7 @@
 - ✅ Ells Cattle Ranch (CA)
 - ✅ Kirk Cattle Company (CA)
 - ✅ Salmon Creek Ranch (CA)
+- ✅ Marin Coast Ranch (CA)
 
 ## Known Gaps & Notes
 
@@ -163,6 +164,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Sep 16, 2026 - Livermore Livestock Leads:** Added 2 verified ranches from Livermore Livestock Instagram directory cards. **Ells Cattle Ranch** (Paicines, San Benito County) - small family ranch raising 100% Black Angus, pasture-raised and grain-finished (barley/oats/corn), no hormones or antibiotics; half beef shares with butcher pickup at Los Gatos Meats or Freedom Meats. **Kirk Cattle Company** (Gilroy) - conservation grazing and certified natural beef (whole/half shares, grass-fed or grain-finished options); contact via Santa Clara County Cattlemen's Association listing. Parked **Good Life Beef (German Lepe)** pending website verification - no verifiable CA DTC operation found despite Livermore card claims. California hub now shows 12 ranches (up from 10). No new deals added. Total site count: 33 ranches, 1 active deal, 3 markets, 19 butchers, 54 pages.
 - 📅 **Sep 16, 2026 PT nightly ship:** Added **Salmon Creek Ranch** (Bodega, CA) - Sonoma coast ranch raising 100% grass-fed and grass-finished beef on certified organic pasture, including Scottish Highland and other British breeds. Retail cuts ship continental USA; whole/half/quarter beef for Sonoma County local pickup; on-farm store pickup and Santa Rosa Farmers Market (Saturdays). California hub now shows 13 ranches (up from 12); Heritage Breeds hub shows 3 ranches (up from 2). Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195) and updated verified_at to 2026-09-16. Long Hill 1 lb ground NOT added—no sale price currently, only regular $12.99. Total site count: 34 ranches, 1 active deal, 3 markets, 19 butchers, 55 pages.
 - 📅 **Sep 17, 2026 - Deal Hunt:** Systematically checked 30+ ranch websites for verified sales/clearance/overstock deals. Found 2 new genuine deals: **Hufeisen Ranch (WYO Wagyu)** "The Last Harvest Fullblood Wagyu Box" (Family Box) at $199 (regular $299, save $100) - final Wyoming harvest clearance before ranch relocation to Florida, only 6 steers available, ~10-12 lbs mixed cuts; **Mossyrock Wagyu** "WAGYU BBQ BOX" at $395 (regular $475, save $80). Re-verified Long Hill Wagyu 15 lb ground bulk still active at $180 (regular $195). Checked but found no current sales at: Lone Mountain, HeartBrand, Cross Creek Ranch, Stemple Creek, Koopmann Family Beef, 3Z Cattle, Salmon Creek Ranch, Hook & Cleaver (has bundle pricing but not clearance sales), Circle H Ranch, Hawks Hill Ranch, Certified Piedmontese, Vermont Wagyu, Caroland Farms, Slickhorn Ranch, Pasture Prime Wagyu, Rutledge Ryan Ranch, Quinn Beef, Tribe Ranch, Ranch & Trail (Mahan). Updated deals.json with all 3 verified deals. Total site count: 34 ranches, 3 active deals, 3 markets, 19 butchers, 55 pages.
+- 📅 **Sep 17, 2026 PT evening ship:** Added **Marin Coast Ranch** (Tomales, CA) - sixth-generation Northern California family ranch in West Marin raising USDA Certified Grassfed, Certified Natural Angus beef on coastal pasture. Ships nationwide (recommend 8+ lb for long distance); local delivery in eligible Marin/Sonoma zip codes; ranch pickup in Tomales by pre-order. Also sells grass-fed lamb. Re-verified all 3 active deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395. California hub now shows 14 ranches (up from 13). Good Life Beef still parked pending website verification. Total site count: 35 ranches, 3 active deals, 3 markets, 19 butchers, 56 pages.
 
 ### What We Record
 - ✅ Ranch name and location
