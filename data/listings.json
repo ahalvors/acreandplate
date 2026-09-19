@@ -467,6 +467,20 @@
       "phone": "707-878-2181",
       "note": "Address: 900 Cerini Road, Tomales, CA — visits by appointment only. Email: marincoastranch@gmail.com. Spring 2026 beef shares sold out as of 2025-04-25 per ranch site; accepting deposits for Spring 2027 harvest starting 1/1/27. Confirm current retail cut inventory and pricing on their store before ordering.",
       "description": "Sixth-generation Northern California family ranch in West Marin raising USDA Certified Grassfed, Certified Natural Angus beef on coastal pasture. Cattle are grass-fed and grass-finished with dry-aged, vacuum-sealed cuts. Also sells grass-fed lamb; offers ranch hikes, picnics, and tours."
+    },
+    {
+      "slug": "starwalker-organic-farms",
+      "name": "StarWalker Organic Farms",
+      "url": "https://starwalkerorganicfarms.com/",
+      "state": "CA",
+      "city": "Fort Jones",
+      "genetics": "Regenerative Organic Certified® grass-fed and grass-finished beef; cattle on pasture 365 days; no feedlots, no grain, no confinement; ranch markets as first Regenerative Organic Certified® beef and pork producers in America; USDA/CCOF organic",
+      "breeds": [],
+      "products": ["steaks", "ground", "brisket", "ribs", "boxes", "jerky"],
+      "shipping": "Ships nationwide including Alaska and Hawaii (frozen with insulation and dry ice; perishable orders ship Mon–Thu; free shipping on frozen orders $325+ per ranch FAQ; AK/HI via FedEx Priority Overnight and not eligible for free shipping)",
+      "phone": "530-841-7164",
+      "note": "Also sells Regenerative Organic Certified® heritage pork and organic chicken; directory focus is ranch-direct beef. Email: customerservice@starwalkerorganicfarms.com. Confirm current inventory and pricing on their store. Do not invent sale prices.",
+      "description": "Third-generation Walker family farm in Fort Jones, California (est. 1970) raising Regenerative Organic Certified® grass-fed and grass-finished beef on pasture year-round. Ranch-direct retail cuts, boxes, and snacks shipped frozen nationwide."
     }
   ]
 }
