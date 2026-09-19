@@ -6,6 +6,7 @@
 ## Site Statistics
 
 - **Total Ranches:** 36
+- **Ranch Contact Sheet:** 27 of 36 have public business emails (75%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
 - **Butcher Shops:** 19
@@ -223,13 +224,47 @@ python3 build.py
 - [ ] Weekly/monthly deal verification cron
 - [ ] Consider RSS feed for new listings and deals
 
+## Ranch Outreach Contact Sheet
+
+**File:** `data/ranch-contacts.json`  
+**Status:** Complete  
+**Coverage:** 36 ranches (all current listings)  
+**Harvestable Emails:** 27 of 36 (75%)
+
+### Purpose
+Contact sheet for Featured Ranch outbound drip campaign. Contains verified business contact emails suitable for B2B outreach.
+
+### Email Quality
+- ✅ 27 ranches have public business emails (info@, sales@, hello@, ranch-specific)
+- ✅ All emails verified from public website contact pages, footers, or about pages
+- ⚠️ 9 ranches have no public email (contact forms only or phone-only)
+- ✅ Zero invented emails - nulls are honest nulls
+
+### Missing Emails (9 ranches)
+- Long Hill Wagyu (TX) - contact form only
+- Hawks Hill Ranch (WY) - no public email
+- Slickhorn Ranch (Northern Rockies) - no public email
+- Chapel Hill Farm (VA) - no public email
+- Certified Piedmontese (NE) - contact form only
+- Mahanaim Farms (UT) - no contact info (local pickup only)
+- Cross Creek Ranch (CO) - contact form only
+- Nyland Herefords (CA) - no public email
+- Hufeisen-Ranch (WY) - no public email
+- Ells Cattle Ranch (CA) - minimal website, no contact info
+
+### Notes
+- Personal emails (Gmail/Yahoo) used only when no business email exists (e.g., smaller family operations)
+- Phone numbers included when publicly available
+- All data verified 2026-09-19
+
 ## Maintenance
 
 **Data Sources:**
 - `data/listings.json` - Ranch listings
+- `data/ranch-contacts.json` - Ranch contact sheet for outreach (NEW!)
 - `data/deals.json` - Current deals
 - `data/markets.json` - Farmers markets
-- `data/butchers.json` - Butcher shops (NEW!)
+- `data/butchers.json` - Butcher shops
 - `data/featured.json` - Featured Ranch placements (paid)
 - `data/stripe.json` - Stripe payment link configuration
 
