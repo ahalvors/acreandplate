@@ -5,7 +5,7 @@
 
 ## Site Statistics
 
-- **Total Ranches:** 35
+- **Total Ranches:** 36
 - **Active Deals:** 3
 - **Farmers Markets:** 3
 - **Butcher Shops:** 19
@@ -14,11 +14,11 @@
 - **Akaushi Ranches:** 6
 - **Heritage Breeds:** 3
 - **Texas Ranches:** 6
-- **California Ranches:** 14
+- **California Ranches:** 15
 - **Colorado Ranches:** 1
 - **Florida Ranches:** 2
 - **Wyoming Ranches:** 3
-- **Total Pages:** 56
+- **Total Pages:** 57
 
 ## Pages Built
 
@@ -44,7 +44,7 @@
 ### Guide Pages
 - ✅ Wagyu vs Akaushi Guide (`/guides/wagyu-vs-akaushi/`)
 
-### Listing Pages (35 ranches)
+### Listing Pages (36 ranches)
 - ✅ Lone Mountain Wagyu (NM)
 - ✅ HeartBrand Beef (TX)
 - ✅ Long Hill Wagyu (TX)
@@ -80,6 +80,7 @@
 - ✅ Kirk Cattle Company (CA)
 - ✅ Salmon Creek Ranch (CA)
 - ✅ Marin Coast Ranch (CA)
+- ✅ StarWalker Organic Farms (CA)
 
 ## Known Gaps & Notes
 
@@ -165,6 +166,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Sep 16, 2026 PT nightly ship:** Added **Salmon Creek Ranch** (Bodega, CA) - Sonoma coast ranch raising 100% grass-fed and grass-finished beef on certified organic pasture, including Scottish Highland and other British breeds. Retail cuts ship continental USA; whole/half/quarter beef for Sonoma County local pickup; on-farm store pickup and Santa Rosa Farmers Market (Saturdays). California hub now shows 13 ranches (up from 12); Heritage Breeds hub shows 3 ranches (up from 2). Re-verified Long Hill Wagyu 15 lb ground bulk deal still active at $180 (regular $195) and updated verified_at to 2026-09-16. Long Hill 1 lb ground NOT added—no sale price currently, only regular $12.99. Total site count: 34 ranches, 1 active deal, 3 markets, 19 butchers, 55 pages.
 - 📅 **Sep 17, 2026 - Deal Hunt:** Systematically checked 30+ ranch websites for verified sales/clearance/overstock deals. Found 2 new genuine deals: **Hufeisen Ranch (WYO Wagyu)** "The Last Harvest Fullblood Wagyu Box" (Family Box) at $199 (regular $299, save $100) - final Wyoming harvest clearance before ranch relocation to Florida, only 6 steers available, ~10-12 lbs mixed cuts; **Mossyrock Wagyu** "WAGYU BBQ BOX" at $395 (regular $475, save $80). Re-verified Long Hill Wagyu 15 lb ground bulk still active at $180 (regular $195). Checked but found no current sales at: Lone Mountain, HeartBrand, Cross Creek Ranch, Stemple Creek, Koopmann Family Beef, 3Z Cattle, Salmon Creek Ranch, Hook & Cleaver (has bundle pricing but not clearance sales), Circle H Ranch, Hawks Hill Ranch, Certified Piedmontese, Vermont Wagyu, Caroland Farms, Slickhorn Ranch, Pasture Prime Wagyu, Rutledge Ryan Ranch, Quinn Beef, Tribe Ranch, Ranch & Trail (Mahan). Updated deals.json with all 3 verified deals. Total site count: 34 ranches, 3 active deals, 3 markets, 19 butchers, 55 pages.
 - 📅 **Sep 17, 2026 PT evening ship:** Added **Marin Coast Ranch** (Tomales, CA) - sixth-generation Northern California family ranch in West Marin raising USDA Certified Grassfed, Certified Natural Angus beef on coastal pasture. Ships nationwide (recommend 8+ lb for long distance); local delivery in eligible Marin/Sonoma zip codes; ranch pickup in Tomales by pre-order. Also sells grass-fed lamb. Re-verified all 3 active deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395. California hub now shows 14 ranches (up from 13). Good Life Beef still parked pending website verification. Total site count: 35 ranches, 3 active deals, 3 markets, 19 butchers, 56 pages.
+- 📅 **Sep 19, 2026:** Added **StarWalker Organic Farms** (Fort Jones, CA) - multi-generation family farm in Siskiyou County raising the first Regenerative Organic Certified® beef in America. Kristina & Jason Walker (with children Cobi and Calii, third generation) since 1970. 100% grass-fed and grass-finished on pasture 365 days a year with rotational grazing. Ships nationwide (frozen); farm store in Yreka; farmers markets in Mt Shasta, Ashland, Medford, and Etna. Real Organic Project certified. California hub now shows 15 ranches (up from 14). Total site count: 36 ranches, 3 active deals, 3 markets, 19 butchers, 57 pages.
 
 ### What We Record
 - ✅ Ranch name and location
