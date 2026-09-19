@@ -711,6 +711,8 @@ def build_featured():
                 <p>Featured Ranch gives your ranch premium visibility on Acre & Plate's directory. We connect you with customers who care about traceable bloodlines, named herds, and honest sourcing—people who are ready to buy ranch-direct beef.</p>
                 
                 <p><strong>Your listing already appears in the directory for free.</strong> Featured Ranch placement adds premium visibility to drive more traffic to your ranch website.</p>
+                
+                <p style="margin-top: 1rem; font-size: 0.9rem; color: #666;"><a href="/featured/one-pager.pdf" style="color: #666; text-decoration: underline;">Download one-pager (PDF)</a></p>
             </div>
             
             <div class="pricing-tiers">
