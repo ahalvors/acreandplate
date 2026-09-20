@@ -14,7 +14,7 @@
       "unit": "15 lb bundle",
       "season_label": "Bulk Deal",
       "reason": "100% Fullblood Wagyu ground beef bulk pricing",
-      "verified_at": "2026-09-18",
+      "verified_at": "2026-09-19",
       "gaps": null
     },
     {
@@ -31,7 +31,7 @@
       "unit": "~10-12 lb box",
       "season_label": "Ranch Clearance",
       "reason": "Final Wyoming harvest clearance before ranch relocation to Florida - only 6 steers available",
-      "verified_at": "2026-09-18",
+      "verified_at": "2026-09-19",
       "gaps": null
     },
     {
@@ -48,7 +48,24 @@
       "unit": "box",
       "season_label": "Sale",
       "reason": "100% Fullblood Wagyu BBQ bundle on sale",
-      "verified_at": "2026-09-18",
+      "verified_at": "2026-09-19",
+      "gaps": null
+    },
+    {
+      "id": "oreganic-crockpot-comfort-box",
+      "listing_id": "oreganic-beef",
+      "ranch_name": "Oreganic Beef Co. (Rocker 3 Ranch)",
+      "website": "https://oreganicbeef.com/",
+      "product_url": "https://oreganicbeef.com/product/crockpot-comfort-box/",
+      "cut": "mixed",
+      "product_name": "USDA Certified Organic Crockpot Comfort Box",
+      "regular_price": 229,
+      "sale_price": 199,
+      "currency": "USD",
+      "unit": "18+ lb box",
+      "season_label": "Sale",
+      "reason": "Crockpot comfort box on sale (2× bone-in chuck roast 3+ lb, 6 packs short ribs, 4 packs beef shanks)",
+      "verified_at": "2026-09-19",
       "gaps": null
     }
   ]

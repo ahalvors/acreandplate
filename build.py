@@ -414,6 +414,7 @@ def build_index():
                 <a href="/california/" class="hub-link">California <span class="count">({len([l for l in listings if l['state'] == 'CA' or 'CA' in l.get('state', '')])})</span></a>
                 <a href="/colorado/" class="hub-link">Colorado <span class="count">({len([l for l in listings if l['state'] == 'CO'])})</span></a>
                 <a href="/florida/" class="hub-link">Florida <span class="count">({len([l for l in listings if l['state'] == 'FL'])})</span></a>
+                <a href="/oregon/" class="hub-link">Oregon <span class="count">({len([l for l in listings if l['state'] == 'OR'])})</span></a>
                 <a href="/wyoming/" class="hub-link">Wyoming <span class="count">({len([l for l in listings if 'WY' in l.get('state', '')])})</span></a>
                 <a href="/guides/wagyu-vs-akaushi/" class="hub-link">Wagyu vs Akaushi →</a>
             </div>
@@ -1386,6 +1387,13 @@ def main():
     )
     
     build_hub_page(
+        "Oregon Ranches",
+        "oregon",
+        lambda l: l['state'] == 'OR',
+        "Oregon ranches raising USDA Certified Organic, grass-fed and grass-finished beef with traceable herds. Ranch-direct shipping available."
+    )
+    
+    build_hub_page(
         "Heritage Breeds",
         "heritage",
         lambda l: 'heritage' in l.get('breeds', []),
@@ -1416,7 +1424,7 @@ def main():
         build_news_story(item)
     
     print(f"\n✓ Built {len(listings)} listing pages")
-    print("✓ Built hub pages (wagyu, akaushi, heritage, texas, california, colorado, florida, wyoming)")
+    print("✓ Built hub pages (wagyu, akaushi, heritage, texas, california, colorado, florida, oregon, wyoming)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
     print(f"✓ Built markets page with {len(markets)} farmers markets and {len(butchers)} butcher shops")
