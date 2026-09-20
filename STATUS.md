@@ -1,12 +1,12 @@
 # Acre & Plate - Status
 
-**Last Updated:** September 19, 2026  
+**Last Updated:** September 20, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 37
-- **Ranch Contact Sheet:** 27 of 36 have public business emails (75%)
+- **Total Ranches:** 38
+- **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 4
 - **Farmers Markets:** 3
 - **Butcher Shops:** 19
@@ -15,7 +15,7 @@
 - **Akaushi Ranches:** 6
 - **Heritage Breeds:** 3
 - **Texas Ranches:** 6
-- **California Ranches:** 15
+- **California Ranches:** 16
 - **Colorado Ranches:** 1
 - **Florida Ranches:** 2
 - **Oregon Ranches:** 1
@@ -38,7 +38,7 @@
 - ✅ Akaushi hub (`/akaushi/`) - 5 ranches
 - ✅ Heritage Breeds hub (`/heritage/`) - 2 ranches (NEW!)
 - ✅ Texas hub (`/texas/`) - 6 ranches
-- ✅ California hub (`/california/`) - 14 ranches
+- ✅ California hub (`/california/`) - 16 ranches
 - ✅ Colorado hub (`/colorado/`) - 1 ranch
 - ✅ Florida hub (`/florida/`) - 2 ranches
 - ✅ Oregon hub (`/oregon/`) - 1 ranch (NEW!)
@@ -47,7 +47,7 @@
 ### Guide Pages
 - ✅ Wagyu vs Akaushi Guide (`/guides/wagyu-vs-akaushi/`)
 
-### Listing Pages (35 ranches)
+### Listing Pages (38 ranches)
 - ✅ Lone Mountain Wagyu (NM)
 - ✅ HeartBrand Beef (TX)
 - ✅ Long Hill Wagyu (TX)
@@ -85,6 +85,7 @@
 - ✅ Marin Coast Ranch (CA)
 - ✅ StarWalker Organic Farms (CA)
 - ✅ Oreganic Beef Co. (Rocker 3 Ranch) (OR)
+- ✅ Yocha Dehe Ranch (CA)
 
 ## Known Gaps & Notes
 
@@ -172,6 +173,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Sep 17, 2026 PT evening ship:** Added **Marin Coast Ranch** (Tomales, CA) - sixth-generation Northern California family ranch in West Marin raising USDA Certified Grassfed, Certified Natural Angus beef on coastal pasture. Ships nationwide (recommend 8+ lb for long distance); local delivery in eligible Marin/Sonoma zip codes; ranch pickup in Tomales by pre-order. Also sells grass-fed lamb. Re-verified all 3 active deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395. California hub now shows 14 ranches (up from 13). Good Life Beef still parked pending website verification. Total site count: 35 ranches, 3 active deals, 3 markets, 19 butchers, 56 pages.
 - 📅 **Sep 18, 2026 PT nightly ship:** Added **StarWalker Organic Farms** (Fort Jones, CA) - third-generation Walker family farm (est. 1970) raising Regenerative Organic Certified® grass-fed and grass-finished beef on pasture year-round, marketed as first Regenerative Organic Certified® beef and pork producers in America; USDA/CCOF organic. Ships nationwide including Alaska and Hawaii (frozen; free shipping on frozen orders $325+). Also sells Regenerative Organic Certified® heritage pork and organic chicken. Re-verified all 3 active deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395 (updated verified_at to 2026-09-18). California hub now shows 15 ranches (up from 14). Good Life Beef still parked pending website verification. Total site count: 36 ranches, 3 active deals, 3 markets, 19 butchers, 57 pages.
 - 📅 **Sep 19, 2026 PT nightly ship:** Added **Oreganic Beef Co. (Rocker 3 Ranch)** (Madras, OR) - family-owned Central Oregon ranch selling ranch-direct USDA Certified Organic, 100% grass-fed and grass-finished beef. GAP4 certified, fully traceable herd logs, dry-aged prime cuts 30+ days. Ships nationwide with free shipping on orders over $199 for OR/WA/CA/ID/NV. Processed at Mark's Meat Co., Canby, OR. Added Oregon state hub at `/oregon/` - first Oregon ranch on directory. Added new deal: Oreganic Crockpot Comfort Box at $199 (regular $229) - 18+ lb box with roasts, short ribs, and shanks. Re-verified all 3 existing deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395 (updated verified_at to 2026-09-19). Oregon hub now wired into home page hub links and navigation. Good Life Beef still parked pending website verification. Total site count: 37 ranches, 4 active deals, 3 markets, 19 butchers, 59 pages.
+- 📅 **Sep 20, 2026:** Added **Yocha Dehe Ranch** (Capay Valley / Brooks, CA) - Yocha Dehe Wintun Nation ranch raising premium Angus beef on 20,000 acres of tribal lands in California's Capay Valley. 800 head of cattle raised on open pastures with sustainable grazing practices; finished with oats, barley, and corn for 45-60 days. Beef available exclusively through Séka Hills Beef Club (quarterly pickup-only packages at Capay Valley Tasting Room in Brooks). Contact Club@sekahills.com for club inquiries or info@yochadehe.gov for general ranch questions. Marketed under Séka Hills brand alongside olive oil, wine, and honey. California hub now shows 16 ranches (up from 15). Re-verified all 4 active deals. Total site count: 38 ranches, 4 active deals, 3 markets, 19 butchers, 59 pages.
 
 ### What We Record
 - ✅ Ranch name and location
