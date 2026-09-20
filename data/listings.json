@@ -496,6 +496,20 @@
       "note": "Brand Oreganic Beef Co. markets beef from Rocker 3 Ranch (Madras, OR; family ranch est. ~1991; DTC brand launched ~2019). Processed at Mark's Meat Co., Canby, OR (USDA organic certified butcher). Emails published: Info@OreganicBeef.com / Devin@OreganicBeef.com. Ranch visits by appointment. Confirm current inventory and pricing on their shop before ordering.",
       "description": "Family-owned Central Oregon ranch (Rocker 3 Ranch in Madras) selling ranch-direct USDA Certified Organic, 100% grass-fed and grass-finished beef under the Oreganic Beef Co. brand. GAP4 certified, fully traceable, dry-aged prime cuts 30+ days.",
       "featured": false
+    },
+    {
+      "slug": "yocha-dehe-ranch",
+      "name": "Yocha Dehe Ranch",
+      "url": "https://yochadeheranch.com/",
+      "state": "CA",
+      "city": "Capay Valley / Brooks",
+      "genetics": "Ranch-raised Angus on tribal lands; 800 head of cattle on 20,000 acres of open rangeland in Capay Valley; sustainable grazing program; finished with oats, barley, and corn for 45-60 days",
+      "breeds": ["angus"],
+      "products": ["steaks", "ground", "patties", "jerky", "sticks"],
+      "shipping": "Pickup only at Séka Hills Capay Valley Tasting Room (Brooks, CA); Beef Club delivers quarterly packages",
+      "phone": "530-796-2810",
+      "note": "Beef available exclusively through Séka Hills Beef Club (quarterly pickup-only packages at Capay Valley Tasting Room). Contact Club@sekahills.com for club inquiries or info@yochadehe.gov for general ranch questions. Marketed under Séka Hills brand alongside olive oil, wine, and honey from the Yocha Dehe Wintun Nation.",
+      "description": "Yocha Dehe Wintun Nation ranch raising premium Angus beef on tribal lands in California's Capay Valley. Cattle are raised on open pastures across 20,000 acres with sustainable grazing practices that reflect generations of land stewardship. Available through Séka Hills Beef Club with quarterly pickup at the tasting room in Brooks."
     }
   ]
 }
