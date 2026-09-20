@@ -1,13 +1,13 @@
 # Acre & Plate - Status
 
-**Last Updated:** September 18, 2026  
+**Last Updated:** September 19, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 36
+- **Total Ranches:** 37
 - **Ranch Contact Sheet:** 27 of 36 have public business emails (75%)
-- **Active Deals:** 3
+- **Active Deals:** 4
 - **Farmers Markets:** 3
 - **Butcher Shops:** 19
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
@@ -18,15 +18,16 @@
 - **California Ranches:** 15
 - **Colorado Ranches:** 1
 - **Florida Ranches:** 2
+- **Oregon Ranches:** 1
 - **Wyoming Ranches:** 3
-- **Total Pages:** 57
+- **Total Pages:** 59
 
 ## Pages Built
 
 ### Core Pages
 - ✅ Home (`index.html`)
 - ✅ All Listings (`/listings/`)
-- ✅ Seasonal Deals (`/deals/`) - 3 active deals
+- ✅ Seasonal Deals (`/deals/`) - 4 active deals
 - ✅ Local Activity (`/markets/`) - 3 farmers markets + 19 butcher shops (UPDATED!)
 - ✅ Featured Ranch (`/featured/`) - monetization landing page
 - ✅ Featured Ranch Thanks (`/featured/thanks/`) - post-checkout page
@@ -40,6 +41,7 @@
 - ✅ California hub (`/california/`) - 14 ranches
 - ✅ Colorado hub (`/colorado/`) - 1 ranch
 - ✅ Florida hub (`/florida/`) - 2 ranches
+- ✅ Oregon hub (`/oregon/`) - 1 ranch (NEW!)
 - ✅ Wyoming hub (`/wyoming/`) - 2 ranches
 
 ### Guide Pages
@@ -82,6 +84,7 @@
 - ✅ Salmon Creek Ranch (CA)
 - ✅ Marin Coast Ranch (CA)
 - ✅ StarWalker Organic Farms (CA)
+- ✅ Oreganic Beef Co. (Rocker 3 Ranch) (OR)
 
 ## Known Gaps & Notes
 
@@ -148,7 +151,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - Shipping policy pages
 
 ### Deals & Pricing
-- ✅ **3 active deals** verified from ranch websites (as of Sept 17, 2026)
+- ✅ **4 active deals** verified from ranch websites (as of Sept 19, 2026)
 - ✅ Sale prices confirmed from ranch sales/clearance pages
 - ✅ Regular prices included when shown by ranch
 - ⚠️ Deals updated periodically—users should confirm current pricing on ranch sites
@@ -168,6 +171,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Sep 17, 2026 - Deal Hunt:** Systematically checked 30+ ranch websites for verified sales/clearance/overstock deals. Found 2 new genuine deals: **Hufeisen Ranch (WYO Wagyu)** "The Last Harvest Fullblood Wagyu Box" (Family Box) at $199 (regular $299, save $100) - final Wyoming harvest clearance before ranch relocation to Florida, only 6 steers available, ~10-12 lbs mixed cuts; **Mossyrock Wagyu** "WAGYU BBQ BOX" at $395 (regular $475, save $80). Re-verified Long Hill Wagyu 15 lb ground bulk still active at $180 (regular $195). Checked but found no current sales at: Lone Mountain, HeartBrand, Cross Creek Ranch, Stemple Creek, Koopmann Family Beef, 3Z Cattle, Salmon Creek Ranch, Hook & Cleaver (has bundle pricing but not clearance sales), Circle H Ranch, Hawks Hill Ranch, Certified Piedmontese, Vermont Wagyu, Caroland Farms, Slickhorn Ranch, Pasture Prime Wagyu, Rutledge Ryan Ranch, Quinn Beef, Tribe Ranch, Ranch & Trail (Mahan). Updated deals.json with all 3 verified deals. Total site count: 34 ranches, 3 active deals, 3 markets, 19 butchers, 55 pages.
 - 📅 **Sep 17, 2026 PT evening ship:** Added **Marin Coast Ranch** (Tomales, CA) - sixth-generation Northern California family ranch in West Marin raising USDA Certified Grassfed, Certified Natural Angus beef on coastal pasture. Ships nationwide (recommend 8+ lb for long distance); local delivery in eligible Marin/Sonoma zip codes; ranch pickup in Tomales by pre-order. Also sells grass-fed lamb. Re-verified all 3 active deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395. California hub now shows 14 ranches (up from 13). Good Life Beef still parked pending website verification. Total site count: 35 ranches, 3 active deals, 3 markets, 19 butchers, 56 pages.
 - 📅 **Sep 18, 2026 PT nightly ship:** Added **StarWalker Organic Farms** (Fort Jones, CA) - third-generation Walker family farm (est. 1970) raising Regenerative Organic Certified® grass-fed and grass-finished beef on pasture year-round, marketed as first Regenerative Organic Certified® beef and pork producers in America; USDA/CCOF organic. Ships nationwide including Alaska and Hawaii (frozen; free shipping on frozen orders $325+). Also sells Regenerative Organic Certified® heritage pork and organic chicken. Re-verified all 3 active deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395 (updated verified_at to 2026-09-18). California hub now shows 15 ranches (up from 14). Good Life Beef still parked pending website verification. Total site count: 36 ranches, 3 active deals, 3 markets, 19 butchers, 57 pages.
+- 📅 **Sep 19, 2026 PT nightly ship:** Added **Oreganic Beef Co. (Rocker 3 Ranch)** (Madras, OR) - family-owned Central Oregon ranch selling ranch-direct USDA Certified Organic, 100% grass-fed and grass-finished beef. GAP4 certified, fully traceable herd logs, dry-aged prime cuts 30+ days. Ships nationwide with free shipping on orders over $199 for OR/WA/CA/ID/NV. Processed at Mark's Meat Co., Canby, OR. Added Oregon state hub at `/oregon/` - first Oregon ranch on directory. Added new deal: Oreganic Crockpot Comfort Box at $199 (regular $229) - 18+ lb box with roasts, short ribs, and shanks. Re-verified all 3 existing deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395 (updated verified_at to 2026-09-19). Oregon hub now wired into home page hub links and navigation. Good Life Beef still parked pending website verification. Total site count: 37 ranches, 4 active deals, 3 markets, 19 butchers, 59 pages.
 
 ### What We Record
 - ✅ Ranch name and location
@@ -217,6 +221,7 @@ python3 build.py
 - [x] Add Colorado state hub page
 - [x] Add Florida state hub page
 - [x] Add Wyoming state hub page
+- [x] Add Oregon state hub page (SHIPPED!)
 - [x] Add heritage breeds hub page (SHIPPED!)
 - [ ] Add more state hub pages (as more ranches are added)
 - [ ] Expand to more ranches (verified genetics only)

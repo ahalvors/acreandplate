@@ -394,5 +394,16 @@
     "notes": "Regenerative Organic Certified; third-generation Walker family farm",
     "outreach_status": "not_contacted",
     "verified_at": "2026-09-19"
+  },
+  {
+    "slug": "oreganic-beef",
+    "name": "Oreganic Beef Co. (Rocker 3 Ranch)",
+    "website": "https://oreganicbeef.com/",
+    "email": "Info@OreganicBeef.com",
+    "email_source": "https://oreganicbeef.com/",
+    "phone": "541-777-3636",
+    "notes": "USDA Certified Organic; GAP4 certified; Rocker 3 Ranch in Madras, OR; also Devin@OreganicBeef.com available",
+    "outreach_status": "not_contacted",
+    "verified_at": "2026-09-19"
   }
 ]

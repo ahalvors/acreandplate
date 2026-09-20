@@ -481,6 +481,21 @@
       "phone": "530-841-7164",
       "note": "Also sells Regenerative Organic Certified® heritage pork and organic chicken; directory focus is ranch-direct beef. Email: customerservice@starwalkerorganicfarms.com. Confirm current inventory and pricing on their store. Do not invent sale prices.",
       "description": "Third-generation Walker family farm in Fort Jones, California (est. 1970) raising Regenerative Organic Certified® grass-fed and grass-finished beef on pasture year-round. Ranch-direct retail cuts, boxes, and snacks shipped frozen nationwide."
+    },
+    {
+      "slug": "oreganic-beef",
+      "name": "Oreganic Beef Co. (Rocker 3 Ranch)",
+      "url": "https://oreganicbeef.com/",
+      "state": "OR",
+      "city": "Madras",
+      "genetics": "USDA Certified Organic; 100% grass-fed and grass-finished; GAP4 (Global Animal Partnership Step 4); third-party verified; fully traceable herd logs (birth/harvest); Oregon-grown organic forage; no synthetic hormones, pesticides, or GMO feed per ranch FAQ",
+      "breeds": [],
+      "products": ["steaks", "ground", "roasts", "short ribs", "shanks", "boxes", "burger patties"],
+      "shipping": "Live-rate shipping nationwide; weekly ship Tuesday (orders before 8:00 AM Tuesday); free shipping on orders over $199 for OR, WA, CA, ID, and NV residents; vacuum-packed IQF; delivery within 72 hours of shipment per FAQ",
+      "phone": "541-777-3636",
+      "note": "Brand Oreganic Beef Co. markets beef from Rocker 3 Ranch (Madras, OR; family ranch est. ~1991; DTC brand launched ~2019). Processed at Mark's Meat Co., Canby, OR (USDA organic certified butcher). Emails published: Info@OreganicBeef.com / Devin@OreganicBeef.com. Ranch visits by appointment. Confirm current inventory and pricing on their shop before ordering.",
+      "description": "Family-owned Central Oregon ranch (Rocker 3 Ranch in Madras) selling ranch-direct USDA Certified Organic, 100% grass-fed and grass-finished beef under the Oreganic Beef Co. brand. GAP4 certified, fully traceable, dry-aged prime cuts 30+ days.",
+      "featured": false
     }
   ]
 }
