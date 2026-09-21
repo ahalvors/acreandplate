@@ -5,7 +5,7 @@
 
 ## Site Statistics
 
-- **Total Ranches:** 38
+- **Total Ranches:** 39
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 4
 - **Farmers Markets:** 3
@@ -15,12 +15,12 @@
 - **Akaushi Ranches:** 6
 - **Heritage Breeds:** 3
 - **Texas Ranches:** 6
-- **California Ranches:** 16
+- **California Ranches:** 17
 - **Colorado Ranches:** 1
 - **Florida Ranches:** 2
 - **Oregon Ranches:** 1
 - **Wyoming Ranches:** 3
-- **Total Pages:** 60
+- **Total Pages:** 61
 
 ## Pages Built
 
@@ -38,7 +38,7 @@
 - ✅ Akaushi hub (`/akaushi/`) - 5 ranches
 - ✅ Heritage Breeds hub (`/heritage/`) - 2 ranches (NEW!)
 - ✅ Texas hub (`/texas/`) - 6 ranches
-- ✅ California hub (`/california/`) - 16 ranches
+- ✅ California hub (`/california/`) - 17 ranches
 - ✅ Colorado hub (`/colorado/`) - 1 ranch
 - ✅ Florida hub (`/florida/`) - 2 ranches
 - ✅ Oregon hub (`/oregon/`) - 1 ranch
@@ -87,6 +87,7 @@
 - ✅ StarWalker Organic Farms (CA)
 - ✅ Oreganic Beef Co. (Rocker 3 Ranch) (OR)
 - ✅ Yocha Dehe Ranch (CA)
+- ✅ Mariposa Ranch (CA)
 
 ## Known Gaps & Notes
 
@@ -176,6 +177,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Sep 19, 2026 PT nightly ship:** Added **Oreganic Beef Co. (Rocker 3 Ranch)** (Madras, OR) - family-owned Central Oregon ranch selling ranch-direct USDA Certified Organic, 100% grass-fed and grass-finished beef. GAP4 certified, fully traceable herd logs, dry-aged prime cuts 30+ days. Ships nationwide with free shipping on orders over $199 for OR/WA/CA/ID/NV. Processed at Mark's Meat Co., Canby, OR. Added Oregon state hub at `/oregon/` - first Oregon ranch on directory. Added new deal: Oreganic Crockpot Comfort Box at $199 (regular $229) - 18+ lb box with roasts, short ribs, and shanks. Re-verified all 3 existing deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395 (updated verified_at to 2026-09-19). Oregon hub now wired into home page hub links and navigation. Good Life Beef still parked pending website verification. Total site count: 37 ranches, 4 active deals, 3 markets, 19 butchers, 59 pages.
 - 📅 **Sep 20, 2026:** Added **Yocha Dehe Ranch** (Capay Valley / Brooks, CA) - Yocha Dehe Wintun Nation ranch raising premium Angus beef on 20,000 acres of tribal lands in California's Capay Valley. 800 head of cattle raised on open pastures with sustainable grazing practices; finished with oats, barley, and corn for 45-60 days. Beef available exclusively through Séka Hills Beef Club (quarterly pickup-only packages at Capay Valley Tasting Room in Brooks). Contact Club@sekahills.com for club inquiries or info@yochadehe.gov for general ranch questions. Marketed under Séka Hills brand alongside olive oil, wine, and honey. California hub now shows 16 ranches (up from 15). Re-verified all 4 active deals. Total site count: 38 ranches, 4 active deals, 3 markets, 19 butchers, 59 pages.
 - 📅 **Sep 20, 2026 PT nightly ship:** Added **Washington state hub** at `/washington/` featuring Mossyrock Wagyu (Mossyrock, WA) - 100% Fullblood Japanese Black Wagyu raised in the Klickitat Valley between Mt. Rainier and Mt. St. Helens. Washington hub now wired into home page hub links and navigation, mirroring Oregon/Colorado pattern. Re-verified all 4 active deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395, Oreganic Crockpot Comfort Box at $199 (updated verified_at to 2026-09-20). No new ranches found tonight that met honesty criteria. Good Life Beef still parked pending website verification. Total site count: 38 ranches, 4 active deals, 3 markets, 19 butchers, 60 pages.
+- 📅 **Sep 21, 2026 PT follow-up ship:** Added **Mariposa Ranch** (Mariposa, CA) - Seth & Mica Nitschke family ranchers in Central California (Mariposa County) raising 100% grass-fed and grass-finished beef since 2006. Cattle grown and finished entirely on pasture with no hormones, no antibiotics, no grains, and no herbicides/pesticides/fertilizers. Ships frozen nationwide with free shipping on orders over $150 in CA, NV, AZ. Offers subscription boxes, retail cuts (steaks, ground, roasts), organ meats, bones, and whole/half/quarter cow. Originally founded as Open Space Meats in 2006, rebranded to Mariposa Ranch in 2017 for transparency. Phone: 209-771-0399; Email: service@mariposaranch.com; Ranch location: 3132 Spengler Way, Mariposa, CA 95380. California hub now shows 17 ranches (up from 16). Re-verified all 4 active deals still live. Research notes: 1902 Ranch (Whidbey Island, WA) reviewed but all products currently sold out; Kauboi Ranch (Redmond, OR) and Lone Crow Ranch (Eltopia, WA) reviewed as candidates. Good Life Beef still parked. Total site count: 39 ranches, 4 active deals, 3 markets, 19 butchers, 61 pages.
 
 ### What We Record
 - ✅ Ranch name and location
