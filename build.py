@@ -415,6 +415,7 @@ def build_index():
                 <a href="/colorado/" class="hub-link">Colorado <span class="count">({len([l for l in listings if l['state'] == 'CO'])})</span></a>
                 <a href="/florida/" class="hub-link">Florida <span class="count">({len([l for l in listings if l['state'] == 'FL'])})</span></a>
                 <a href="/oregon/" class="hub-link">Oregon <span class="count">({len([l for l in listings if l['state'] == 'OR'])})</span></a>
+                <a href="/washington/" class="hub-link">Washington <span class="count">({len([l for l in listings if l['state'] == 'WA'])})</span></a>
                 <a href="/wyoming/" class="hub-link">Wyoming <span class="count">({len([l for l in listings if 'WY' in l.get('state', '')])})</span></a>
                 <a href="/guides/wagyu-vs-akaushi/" class="hub-link">Wagyu vs Akaushi →</a>
             </div>
@@ -1394,6 +1395,13 @@ def main():
     )
     
     build_hub_page(
+        "Washington Ranches",
+        "washington",
+        lambda l: l['state'] == 'WA',
+        "Washington ranches raising 100% Fullblood Wagyu in the Pacific Northwest. Ranch-direct beef from the Klickitat Valley."
+    )
+    
+    build_hub_page(
         "Heritage Breeds",
         "heritage",
         lambda l: 'heritage' in l.get('breeds', []),
@@ -1424,14 +1432,14 @@ def main():
         build_news_story(item)
     
     print(f"\n✓ Built {len(listings)} listing pages")
-    print("✓ Built hub pages (wagyu, akaushi, heritage, texas, california, colorado, florida, oregon, wyoming)")
+    print("✓ Built hub pages (wagyu, akaushi, heritage, texas, california, colorado, florida, oregon, washington, wyoming)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
     print(f"✓ Built markets page with {len(markets)} farmers markets and {len(butchers)} butcher shops")
     print(f"✓ Built news page with {len(news_items)} updates")
     print(f"✓ Built {len(news_items)} individual news story pages")
     print("✓ Built featured ranch pages")
-    print(f"\n✨ Site build complete! Total pages: {len(listings) + len(news_items) + 15}")
+    print(f"\n✨ Site build complete! Total pages: {len(listings) + len(news_items) + 16}")
 
 if __name__ == '__main__':
     main()
