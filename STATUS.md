@@ -1,6 +1,6 @@
 # Acre & Plate - Status
 
-**Last Updated:** September 20, 2026  
+**Last Updated:** September 21, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
@@ -20,7 +20,7 @@
 - **Florida Ranches:** 2
 - **Oregon Ranches:** 1
 - **Wyoming Ranches:** 3
-- **Total Pages:** 59
+- **Total Pages:** 60
 
 ## Pages Built
 
@@ -41,8 +41,9 @@
 - ✅ California hub (`/california/`) - 16 ranches
 - ✅ Colorado hub (`/colorado/`) - 1 ranch
 - ✅ Florida hub (`/florida/`) - 2 ranches
-- ✅ Oregon hub (`/oregon/`) - 1 ranch (NEW!)
-- ✅ Wyoming hub (`/wyoming/`) - 2 ranches
+- ✅ Oregon hub (`/oregon/`) - 1 ranch
+- ✅ Washington hub (`/washington/`) - 1 ranch (NEW!)
+- ✅ Wyoming hub (`/wyoming/`) - 3 ranches
 
 ### Guide Pages
 - ✅ Wagyu vs Akaushi Guide (`/guides/wagyu-vs-akaushi/`)
@@ -174,6 +175,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Sep 18, 2026 PT nightly ship:** Added **StarWalker Organic Farms** (Fort Jones, CA) - third-generation Walker family farm (est. 1970) raising Regenerative Organic Certified® grass-fed and grass-finished beef on pasture year-round, marketed as first Regenerative Organic Certified® beef and pork producers in America; USDA/CCOF organic. Ships nationwide including Alaska and Hawaii (frozen; free shipping on frozen orders $325+). Also sells Regenerative Organic Certified® heritage pork and organic chicken. Re-verified all 3 active deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395 (updated verified_at to 2026-09-18). California hub now shows 15 ranches (up from 14). Good Life Beef still parked pending website verification. Total site count: 36 ranches, 3 active deals, 3 markets, 19 butchers, 57 pages.
 - 📅 **Sep 19, 2026 PT nightly ship:** Added **Oreganic Beef Co. (Rocker 3 Ranch)** (Madras, OR) - family-owned Central Oregon ranch selling ranch-direct USDA Certified Organic, 100% grass-fed and grass-finished beef. GAP4 certified, fully traceable herd logs, dry-aged prime cuts 30+ days. Ships nationwide with free shipping on orders over $199 for OR/WA/CA/ID/NV. Processed at Mark's Meat Co., Canby, OR. Added Oregon state hub at `/oregon/` - first Oregon ranch on directory. Added new deal: Oreganic Crockpot Comfort Box at $199 (regular $229) - 18+ lb box with roasts, short ribs, and shanks. Re-verified all 3 existing deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395 (updated verified_at to 2026-09-19). Oregon hub now wired into home page hub links and navigation. Good Life Beef still parked pending website verification. Total site count: 37 ranches, 4 active deals, 3 markets, 19 butchers, 59 pages.
 - 📅 **Sep 20, 2026:** Added **Yocha Dehe Ranch** (Capay Valley / Brooks, CA) - Yocha Dehe Wintun Nation ranch raising premium Angus beef on 20,000 acres of tribal lands in California's Capay Valley. 800 head of cattle raised on open pastures with sustainable grazing practices; finished with oats, barley, and corn for 45-60 days. Beef available exclusively through Séka Hills Beef Club (quarterly pickup-only packages at Capay Valley Tasting Room in Brooks). Contact Club@sekahills.com for club inquiries or info@yochadehe.gov for general ranch questions. Marketed under Séka Hills brand alongside olive oil, wine, and honey. California hub now shows 16 ranches (up from 15). Re-verified all 4 active deals. Total site count: 38 ranches, 4 active deals, 3 markets, 19 butchers, 59 pages.
+- 📅 **Sep 20, 2026 PT nightly ship:** Added **Washington state hub** at `/washington/` featuring Mossyrock Wagyu (Mossyrock, WA) - 100% Fullblood Japanese Black Wagyu raised in the Klickitat Valley between Mt. Rainier and Mt. St. Helens. Washington hub now wired into home page hub links and navigation, mirroring Oregon/Colorado pattern. Re-verified all 4 active deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395, Oreganic Crockpot Comfort Box at $199 (updated verified_at to 2026-09-20). No new ranches found tonight that met honesty criteria. Good Life Beef still parked pending website verification. Total site count: 38 ranches, 4 active deals, 3 markets, 19 butchers, 60 pages.
 
 ### What We Record
 - ✅ Ranch name and location
