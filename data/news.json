@@ -1,6 +1,14 @@
 {
   "news": [
     {
+      "id": "directory-milestone-39-ranches",
+      "published_at": "2026-09-21T09:00:00-07:00",
+      "headline": "Directory now lists 39 verified ranches",
+      "body": "<p>The Acre & Plate directory has grown to <strong>39</strong> ranches across the U.S. selling beef with traceable bloodlines: Fullblood Wagyu, Akaushi, and heritage breeds like Randall Lineback and Dexter. Each ranch is verified from public websites with documented genetics claims.</p><p>Home and the ranch index already show the live count. This milestone notes the jump past thirty — more named herds, more states, same rule: not grocery-store Wagyu marketing. These are working ranches with DNA-tested or registered cattle, selling direct to people who care where dinner came from.</p><p>Browse by breed and state at <a href=\"/listings/\">acreandplate.com/listings</a>. Ranch partners who want premium placement can see Featured Ranch at <a href=\"/featured/\">acreandplate.com/featured</a> (one-pager: <a href=\"/featured/one-pager.pdf\">PDF</a>).</p>",
+      "icon": "🐂",
+      "tags": ["directory", "milestone"]
+    },
+    {
       "id": "cattle-futures-firm-sept-15",
       "published_at": "2026-09-15T16:30:00-07:00",
       "headline": "Cattle futures push higher as corn digests WASDE",
