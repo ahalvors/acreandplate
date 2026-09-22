@@ -1,17 +1,17 @@
 # Acre & Plate - Status
 
-**Last Updated:** September 21, 2026  
+**Last Updated:** September 22, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 39
+- **Total Ranches:** 40
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 4
 - **Farmers Markets:** 3
 - **Butcher Shops:** 19
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
-- **Wagyu Ranches:** 18
+- **Wagyu Ranches:** 19
 - **Akaushi Ranches:** 6
 - **Heritage Breeds:** 3
 - **Texas Ranches:** 6
@@ -19,8 +19,9 @@
 - **Colorado Ranches:** 1
 - **Florida Ranches:** 2
 - **Oregon Ranches:** 1
+- **Washington Ranches:** 2
 - **Wyoming Ranches:** 3
-- **Total Pages:** 61
+- **Total Pages:** 63
 
 ## Pages Built
 
@@ -42,13 +43,13 @@
 - ✅ Colorado hub (`/colorado/`) - 1 ranch
 - ✅ Florida hub (`/florida/`) - 2 ranches
 - ✅ Oregon hub (`/oregon/`) - 1 ranch
-- ✅ Washington hub (`/washington/`) - 1 ranch (NEW!)
+- ✅ Washington hub (`/washington/`) - 2 ranches
 - ✅ Wyoming hub (`/wyoming/`) - 3 ranches
 
 ### Guide Pages
 - ✅ Wagyu vs Akaushi Guide (`/guides/wagyu-vs-akaushi/`)
 
-### Listing Pages (38 ranches)
+### Listing Pages (40 ranches)
 - ✅ Lone Mountain Wagyu (NM)
 - ✅ HeartBrand Beef (TX)
 - ✅ Long Hill Wagyu (TX)
@@ -88,6 +89,7 @@
 - ✅ Oreganic Beef Co. (Rocker 3 Ranch) (OR)
 - ✅ Yocha Dehe Ranch (CA)
 - ✅ Mariposa Ranch (CA)
+- ✅ Lone Crow Ranch (WA)
 
 ## Known Gaps & Notes
 
@@ -178,6 +180,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Sep 20, 2026:** Added **Yocha Dehe Ranch** (Capay Valley / Brooks, CA) - Yocha Dehe Wintun Nation ranch raising premium Angus beef on 20,000 acres of tribal lands in California's Capay Valley. 800 head of cattle raised on open pastures with sustainable grazing practices; finished with oats, barley, and corn for 45-60 days. Beef available exclusively through Séka Hills Beef Club (quarterly pickup-only packages at Capay Valley Tasting Room in Brooks). Contact Club@sekahills.com for club inquiries or info@yochadehe.gov for general ranch questions. Marketed under Séka Hills brand alongside olive oil, wine, and honey. California hub now shows 16 ranches (up from 15). Re-verified all 4 active deals. Total site count: 38 ranches, 4 active deals, 3 markets, 19 butchers, 59 pages.
 - 📅 **Sep 20, 2026 PT nightly ship:** Added **Washington state hub** at `/washington/` featuring Mossyrock Wagyu (Mossyrock, WA) - 100% Fullblood Japanese Black Wagyu raised in the Klickitat Valley between Mt. Rainier and Mt. St. Helens. Washington hub now wired into home page hub links and navigation, mirroring Oregon/Colorado pattern. Re-verified all 4 active deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395, Oreganic Crockpot Comfort Box at $199 (updated verified_at to 2026-09-20). No new ranches found tonight that met honesty criteria. Good Life Beef still parked pending website verification. Total site count: 38 ranches, 4 active deals, 3 markets, 19 butchers, 60 pages.
 - 📅 **Sep 21, 2026 PT follow-up ship:** Added **Mariposa Ranch** (Mariposa, CA) - Seth & Mica Nitschke family ranchers in Central California (Mariposa County) raising 100% grass-fed and grass-finished beef since 2006. Cattle grown and finished entirely on pasture with no hormones, no antibiotics, no grains, and no herbicides/pesticides/fertilizers. Ships frozen nationwide with free shipping on orders over $150 in CA, NV, AZ. Offers subscription boxes, retail cuts (steaks, ground, roasts), organ meats, bones, and whole/half/quarter cow. Originally founded as Open Space Meats in 2006, rebranded to Mariposa Ranch in 2017 for transparency. Phone: 209-771-0399; Email: service@mariposaranch.com; Ranch location: 3132 Spengler Way, Mariposa, CA 95380. California hub now shows 17 ranches (up from 16). Re-verified all 4 active deals still live. Research notes: 1902 Ranch (Whidbey Island, WA) reviewed but all products currently sold out; Kauboi Ranch (Redmond, OR) and Lone Crow Ranch (Eltopia, WA) reviewed as candidates. Good Life Beef still parked. Total site count: 39 ranches, 4 active deals, 3 markets, 19 butchers, 61 pages.
+- 📅 **Sep 21, 2026 PT nightly ship:** Added **Lone Crow Ranch** (Eltopia, WA) - first-generation vertically integrated ranch (Cody & Jen Hoseth) raising Wagyu and Angus with own USDA butcher shop in Connell. 1,000 head of cattle, pasture-raised with grain-finished and grass-finished options; no added hormones; diet formulated by certified animal nutritionist with locally sourced non-GMO feed (wheat, apples, potatoes). Ships to WA, OR, ID, CA; delivery in Spokane, Tri-Cities, Seattle areas. Phone: 360-509-3835; Email: orders@lonecrowranch.com. Gap: Wagyu genetics percentage not specified on public site. Washington hub now shows 2 ranches (up from 1). Wagyu hub shows 19 ranches (up from 18). Re-verified all 4 active deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395, Oreganic Crockpot Comfort Box at $199 (updated verified_at to 2026-09-21). Good Life Beef still parked. Total site count: 40 ranches, 4 active deals, 3 markets, 19 butchers, 63 pages.
 
 ### What We Record
 - ✅ Ranch name and location

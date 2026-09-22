@@ -524,6 +524,20 @@
       "phone": "209-771-0399",
       "note": "Originally founded as Open Space Meats in 2006, rebranded to Mariposa Ranch in 2017 for transparency. Seth & Mica Nitschke family operation with 3 kids. Ranch location: 3132 Spengler Way, Mariposa, CA 95380. Contact: service@mariposaranch.com",
       "description": "Family ranchers in Central California (Mariposa County) raising 100% grass-fed and grass-finished beef since 2006. Cattle raised on open pastures with dry oak trees, with great respect for the environment and animals. Ranch-direct delivery from pasture to table with subscription boxes and retail cuts."
+    },
+    {
+      "slug": "lone-crow-ranch",
+      "name": "Lone Crow Ranch",
+      "url": "https://www.lonecrowranch.com/",
+      "state": "WA",
+      "city": "Eltopia",
+      "genetics": "Wagyu and Angus; pasture-raised with grain-finished and grass-finished options; no added hormones; diet formulated by certified animal nutritionist",
+      "breeds": ["wagyu", "angus"],
+      "products": ["steaks", "roasts", "ground", "whole/half/quarter beef shares", "boxes"],
+      "shipping": "Ships to WA, OR, ID, CA; delivery available in Spokane, Tri-Cities, Seattle areas",
+      "phone": "360-509-3835",
+      "note": "First-generation vertically integrated ranch with own USDA butcher shop in Connell. Wagyu genetics percentage not specified on public site.",
+      "description": "First-generation ranch (Cody & Jen Hoseth) in Eltopia raising Wagyu and Angus cattle with own USDA butcher shop in Connell. 1,000 head of cattle with no added hormones, diet formulated by certified animal nutritionist. Locally sourced feed including non-GMO wheat, apples, and potatoes."
     }
   ]
 }
