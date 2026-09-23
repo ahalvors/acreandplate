@@ -538,6 +538,20 @@
       "phone": "360-509-3835",
       "note": "First-generation vertically integrated ranch with own USDA butcher shop in Connell. Wagyu genetics percentage not specified on public site.",
       "description": "First-generation ranch (Cody & Jen Hoseth) in Eltopia raising Wagyu and Angus cattle with own USDA butcher shop in Connell. 1,000 head of cattle with no added hormones, diet formulated by certified animal nutritionist. Locally sourced feed including non-GMO wheat, apples, and potatoes."
+    },
+    {
+      "slug": "kauboi-ranch",
+      "name": "Kauboi Ranch",
+      "url": "https://kauboiranch.com/",
+      "state": "OR",
+      "city": "Redmond",
+      "genetics": "Grass-fed and grass-finished Angus and American Wagyu (cross between Japanese Wagyu and American breeds); carefully bred using elite Wagyu-influenced genetics; raised without hormones; animals requiring antibiotics removed from program",
+      "breeds": ["wagyu", "angus"],
+      "products": ["steaks", "roasts", "ground", "gift boxes", "subscription boxes", "bulk ground beef"],
+      "shipping": "Ships direct to consumer; free Central Oregon delivery on orders $99+; free Portland delivery on orders $199+",
+      "phone": "541-699-3141",
+      "note": "Formerly Keystone Natural Beef. Ranch pickup available at 655 SW 7th St., Redmond, OR 97756 (Mon-Fri 10am-5pm). Contact: keystonecattle@outlook.com",
+      "description": "Fifth-generation Oregon rancher Billy Buchanan continuing a family legacy spanning over 100 years. Grass-fed and grass-finished Angus and American Wagyu raised in Central Oregon's high desert with ranching legacy and modern Wagyu genetics."
     }
   ]
 }
