@@ -5,23 +5,23 @@
 
 ## Site Statistics
 
-- **Total Ranches:** 40
+- **Total Ranches:** 41
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 4
 - **Farmers Markets:** 3
 - **Butcher Shops:** 19
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
-- **Wagyu Ranches:** 19
+- **Wagyu Ranches:** 20
 - **Akaushi Ranches:** 6
 - **Heritage Breeds:** 3
 - **Texas Ranches:** 6
 - **California Ranches:** 17
 - **Colorado Ranches:** 1
 - **Florida Ranches:** 2
-- **Oregon Ranches:** 1
+- **Oregon Ranches:** 2
 - **Washington Ranches:** 2
 - **Wyoming Ranches:** 3
-- **Total Pages:** 63
+- **Total Pages:** 64
 
 ## Pages Built
 
@@ -90,6 +90,7 @@
 - ✅ Yocha Dehe Ranch (CA)
 - ✅ Mariposa Ranch (CA)
 - ✅ Lone Crow Ranch (WA)
+- ✅ Kauboi Ranch (OR)
 
 ## Known Gaps & Notes
 
@@ -181,6 +182,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Sep 20, 2026 PT nightly ship:** Added **Washington state hub** at `/washington/` featuring Mossyrock Wagyu (Mossyrock, WA) - 100% Fullblood Japanese Black Wagyu raised in the Klickitat Valley between Mt. Rainier and Mt. St. Helens. Washington hub now wired into home page hub links and navigation, mirroring Oregon/Colorado pattern. Re-verified all 4 active deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395, Oreganic Crockpot Comfort Box at $199 (updated verified_at to 2026-09-20). No new ranches found tonight that met honesty criteria. Good Life Beef still parked pending website verification. Total site count: 38 ranches, 4 active deals, 3 markets, 19 butchers, 60 pages.
 - 📅 **Sep 21, 2026 PT follow-up ship:** Added **Mariposa Ranch** (Mariposa, CA) - Seth & Mica Nitschke family ranchers in Central California (Mariposa County) raising 100% grass-fed and grass-finished beef since 2006. Cattle grown and finished entirely on pasture with no hormones, no antibiotics, no grains, and no herbicides/pesticides/fertilizers. Ships frozen nationwide with free shipping on orders over $150 in CA, NV, AZ. Offers subscription boxes, retail cuts (steaks, ground, roasts), organ meats, bones, and whole/half/quarter cow. Originally founded as Open Space Meats in 2006, rebranded to Mariposa Ranch in 2017 for transparency. Phone: 209-771-0399; Email: service@mariposaranch.com; Ranch location: 3132 Spengler Way, Mariposa, CA 95380. California hub now shows 17 ranches (up from 16). Re-verified all 4 active deals still live. Research notes: 1902 Ranch (Whidbey Island, WA) reviewed but all products currently sold out; Kauboi Ranch (Redmond, OR) and Lone Crow Ranch (Eltopia, WA) reviewed as candidates. Good Life Beef still parked. Total site count: 39 ranches, 4 active deals, 3 markets, 19 butchers, 61 pages.
 - 📅 **Sep 21, 2026 PT nightly ship:** Added **Lone Crow Ranch** (Eltopia, WA) - first-generation vertically integrated ranch (Cody & Jen Hoseth) raising Wagyu and Angus with own USDA butcher shop in Connell. 1,000 head of cattle, pasture-raised with grain-finished and grass-finished options; no added hormones; diet formulated by certified animal nutritionist with locally sourced non-GMO feed (wheat, apples, potatoes). Ships to WA, OR, ID, CA; delivery in Spokane, Tri-Cities, Seattle areas. Phone: 360-509-3835; Email: orders@lonecrowranch.com. Gap: Wagyu genetics percentage not specified on public site. Washington hub now shows 2 ranches (up from 1). Wagyu hub shows 19 ranches (up from 18). Re-verified all 4 active deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395, Oreganic Crockpot Comfort Box at $199 (updated verified_at to 2026-09-21). Good Life Beef still parked. Total site count: 40 ranches, 4 active deals, 3 markets, 19 butchers, 63 pages.
+- 📅 **Sep 22, 2026 PT nightly ship:** Added **Kauboi Ranch** (Redmond, OR) - fifth-generation Oregon rancher Billy Buchanan continuing a family legacy spanning over 100 years (formerly Keystone Natural Beef). Grass-fed and grass-finished Angus and American Wagyu (cross between Japanese Wagyu and American breeds) raised in Central Oregon's high desert with carefully bred elite Wagyu-influenced genetics. No hormones; animals requiring antibiotics removed from program. Ships direct to consumer with free Central Oregon delivery on orders $99+, free Portland delivery on orders $199+. Ranch pickup available at 655 SW 7th St., Redmond, OR 97756 (Mon-Fri 10am-5pm). Phone: 541-699-3141; Email: keystonecattle@outlook.com. Oregon hub now shows 2 ranches (up from 1 - Oreganic Beef Co.). Wagyu hub shows 20 ranches (up from 19). No new deals found tonight; all 4 existing deals re-verified as still active. Good Life Beef still parked. Total site count: 41 ranches, 4 active deals, 3 markets, 19 butchers, 64 pages.
 
 ### What We Record
 - ✅ Ranch name and location
