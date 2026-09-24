@@ -552,6 +552,19 @@
       "phone": "541-699-3141",
       "note": "Formerly Keystone Natural Beef. Ranch pickup available at 655 SW 7th St., Redmond, OR 97756 (Mon-Fri 10am-5pm). Contact: keystonecattle@outlook.com",
       "description": "Fifth-generation Oregon rancher Billy Buchanan continuing a family legacy spanning over 100 years. Grass-fed and grass-finished Angus and American Wagyu raised in Central Oregon's high desert with ranching legacy and modern Wagyu genetics."
+    },
+    {
+      "slug": "alderspring-ranch",
+      "name": "Alderspring Ranch",
+      "url": "https://www.alderspring.com/",
+      "state": "ID",
+      "city": "May",
+      "genetics": "100% grass-fed and grass-finished Black Angus; USDA certified organic and Real Organic Project certified; regeneratively raised on wild mountain pastures; no hormones, no GMOs; antibiotics only for sick animals — those animals never sold as organic",
+      "breeds": ["angus"],
+      "products": ["steaks", "ground", "roasts", "brisket", "organ meats", "boxes", "sixteenths", "sausage"],
+      "shipping": "Ships frozen via UPS to 48 contiguous states (no AK/HI); Western orders under $250 flat $29, over $250 free ground; Eastern/Midwest higher live UPS rates; ships every other Monday from Salmon, ID warehouse",
+      "note": "Family ranch (Glenn & Caryl Elzinga and daughters) in Pahsimeroi Valley, May, ID 83253 (7073 Custer Road). Online store: https://shopalderspring.com/. Email: help@alderspring.com. Phone intentionally not published on ranch site (request callback by email). Also sells organic lamb, pastured poultry/pork, dairy seasonally — directory focus is ranch-direct beef. Confirm current inventory and pricing on shop before ordering.",
+      "description": "Family ranch in Idaho's Pahsimeroi Valley raising certified organic, 100% grass-fed and grass-finished Black Angus on wild mountain pastures and home-ranch forage. Ranch-direct since 2005; ships frozen organic beef nationwide (lower 48)."
     }
   ]
 }
