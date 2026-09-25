@@ -565,6 +565,20 @@
       "shipping": "Ships frozen via UPS to 48 contiguous states (no AK/HI); Western orders under $250 flat $29, over $250 free ground; Eastern/Midwest higher live UPS rates; ships every other Monday from Salmon, ID warehouse",
       "note": "Family ranch (Glenn & Caryl Elzinga and daughters) in Pahsimeroi Valley, May, ID 83253 (7073 Custer Road). Online store: https://shopalderspring.com/. Email: help@alderspring.com. Phone intentionally not published on ranch site (request callback by email). Also sells organic lamb, pastured poultry/pork, dairy seasonally — directory focus is ranch-direct beef. Confirm current inventory and pricing on shop before ordering.",
       "description": "Family ranch in Idaho's Pahsimeroi Valley raising certified organic, 100% grass-fed and grass-finished Black Angus on wild mountain pastures and home-ranch forage. Ranch-direct since 2005; ships frozen organic beef nationwide (lower 48)."
+    },
+    {
+      "slug": "darlington-ranch",
+      "name": "Darlington Ranch Co.",
+      "url": "https://darlingtonranch.com/",
+      "state": "MT",
+      "city": "Big Sandy",
+      "genetics": "Pasture-raised with light grain finish using home-grown barley; cattle never see a feedlot or confined spaces; roam native grasslands and drink from spring-fed reservoirs; antibiotic-free and hormone-free",
+      "breeds": [],
+      "products": ["steaks", "ground", "boxes", "Pasture-to-Porch Club subscription"],
+      "shipping": "Ships beef nationwide (frozen, ranch-direct to porch)",
+      "phone": "406-930-0632",
+      "note": "Fifth-generation ranchers Colter and Lauren Darlington; historic Darlington Ranch founded 1916. Contact: lauren@darlingtonranch.com. Exact cattle breed not prominently stated on public homepage — do not invent breed. Confirm current Pasture-to-Porch Club and box pricing on shop before ordering.",
+      "description": "Fifth-generation Big Sandy, Montana family ranch (founded 1916) selling pasture-raised, light barley grain-finished beef ranch-direct. Antibiotic-free and hormone-free; ships nationwide."
     }
   ]
 }
