@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** September 23, 2026  
+**Last Updated:** September 24, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 42
+- **Total Ranches:** 43
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 4
 - **Farmers Markets:** 3
@@ -19,10 +19,11 @@
 - **Colorado Ranches:** 1
 - **Florida Ranches:** 2
 - **Idaho Ranches:** 2
+- **Montana Ranches:** 1
 - **Oregon Ranches:** 2
 - **Washington Ranches:** 2
 - **Wyoming Ranches:** 3
-- **Total Pages:** 66
+- **Total Pages:** 68
 
 ## Pages Built
 
@@ -44,6 +45,7 @@
 - ✅ Colorado hub (`/colorado/`) - 1 ranch
 - ✅ Florida hub (`/florida/`) - 2 ranches
 - ✅ Idaho hub (`/idaho/`) - 2 ranches
+- ✅ Montana hub (`/montana/`) - 1 ranch
 - ✅ Oregon hub (`/oregon/`) - 2 ranches
 - ✅ Washington hub (`/washington/`) - 2 ranches
 - ✅ Wyoming hub (`/wyoming/`) - 3 ranches
@@ -94,6 +96,7 @@
 - ✅ Lone Crow Ranch (WA)
 - ✅ Kauboi Ranch (OR)
 - ✅ Alderspring Ranch (ID)
+- ✅ Darlington Ranch Co. (MT)
 
 ## Known Gaps & Notes
 
@@ -187,6 +190,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Sep 21, 2026 PT nightly ship:** Added **Lone Crow Ranch** (Eltopia, WA) - first-generation vertically integrated ranch (Cody & Jen Hoseth) raising Wagyu and Angus with own USDA butcher shop in Connell. 1,000 head of cattle, pasture-raised with grain-finished and grass-finished options; no added hormones; diet formulated by certified animal nutritionist with locally sourced non-GMO feed (wheat, apples, potatoes). Ships to WA, OR, ID, CA; delivery in Spokane, Tri-Cities, Seattle areas. Phone: 360-509-3835; Email: orders@lonecrowranch.com. Gap: Wagyu genetics percentage not specified on public site. Washington hub now shows 2 ranches (up from 1). Wagyu hub shows 19 ranches (up from 18). Re-verified all 4 active deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395, Oreganic Crockpot Comfort Box at $199 (updated verified_at to 2026-09-21). Good Life Beef still parked. Total site count: 40 ranches, 4 active deals, 3 markets, 19 butchers, 63 pages.
 - 📅 **Sep 22, 2026 PT nightly ship:** Added **Kauboi Ranch** (Redmond, OR) - fifth-generation Oregon rancher Billy Buchanan continuing a family legacy spanning over 100 years (formerly Keystone Natural Beef). Grass-fed and grass-finished Angus and American Wagyu (cross between Japanese Wagyu and American breeds) raised in Central Oregon's high desert with carefully bred elite Wagyu-influenced genetics. No hormones; animals requiring antibiotics removed from program. Ships direct to consumer with free Central Oregon delivery on orders $99+, free Portland delivery on orders $199+. Ranch pickup available at 655 SW 7th St., Redmond, OR 97756 (Mon-Fri 10am-5pm). Phone: 541-699-3141; Email: keystonecattle@outlook.com. Oregon hub now shows 2 ranches (up from 1 - Oreganic Beef Co.). Wagyu hub shows 20 ranches (up from 19). No new deals found tonight; all 4 existing deals re-verified as still active. Good Life Beef still parked. Total site count: 41 ranches, 4 active deals, 3 markets, 19 butchers, 64 pages.
 - 📅 **Sep 23, 2026 PT nightly ship:** Added **Alderspring Ranch** (May, ID) — first Idaho-primary ranch: USDA certified organic + Real Organic Project, 100% grass-fed/finished Black Angus, ships lower 48. Added Idaho state hub at `/idaho/` (includes Alderspring Ranch and Circle H Ranch WY/ID). Re-verified all 4 active deals still live (updated verified_at to 2026-09-23). Rechecked 1902 Ranch (Whidbey Island) — still sold out, not added. Good Life Beef still parked. Total: 42 ranches, 4 deals, 3 markets, 19 butchers, 66 pages.
+- 📅 **Sep 24, 2026 PT nightly ship:** Added **Darlington Ranch Co.** (Big Sandy, MT) — fifth-generation Montana family ranch (founded 1916) selling pasture-raised, light barley grain-finished beef ranch-direct; antibiotic-free and hormone-free; ships nationwide. First Montana ranch on directory. Added Montana state hub at `/montana/`. Re-verified all 4 active deals still live (updated verified_at to 2026-09-24). Gaps noted: cattle breed not clearly named on homepage (breeds field empty); dedicated shipping-policy URL returned 404. Good Life Beef and 1902 Ranch still parked. Total: 43 ranches, 4 deals, 3 markets, 19 butchers, 68 pages.
 
 ### What We Record
 - ✅ Ranch name and location
