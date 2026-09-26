@@ -554,6 +554,19 @@
       "description": "Fifth-generation Oregon rancher Billy Buchanan continuing a family legacy spanning over 100 years. Grass-fed and grass-finished Angus and American Wagyu raised in Central Oregon's high desert with ranching legacy and modern Wagyu genetics."
     },
     {
+      "slug": "pacific-rogue-wagyu",
+      "name": "Pacific Rogue Wagyu",
+      "url": "https://www.pacificroguewagyu.com/",
+      "state": "OR",
+      "city": "Gold Beach",
+      "genetics": "100% full-blood Japanese Wagyu and F1 Wagyu (50% Angus, 50% Wagyu); pioneer American Wagyu family herd since 1992/1993; full-blood animals finished on a 500+ day Japanese-style grain ration after pasture raise; F1s grain-fed ~250-300 days",
+      "breeds": ["wagyu"],
+      "products": ["steaks", "ground", "roasts", "organ meats", "hot dogs", "jerky", "boxes", "full/half/quarter carcasses"],
+      "shipping": "Ships contiguous United States (frozen, vacuum-sealed; dry ice or gel packs); orders ship Tuesdays (order by 7am PT Tuesday to ship that day); free shipping on orders over $225 for qualifying locations per shop; farm-store pickup in Gold Beach, OR",
+      "note": "Contact: pacificroguewagyu@gmail.com. Mailing: PO Box 194, Wedderburn, OR 97491. No public phone listed on ranch site — do not invent one. Knox family ranch (est. ~1930s by Robert Myron Knox; Wagyu program from 1992/1993). Site also shows occasional sale items (e.g. Flat Iron / Bavette 20% off, London Broil Sampler Box); confirm current sale pricing before adding any deal card. Local Love Box is local pickup only and was sold out when checked 2026-09-25.",
+      "description": "Fifth-generation coastal Oregon family ranch near Gold Beach raising 100% full-blood and F1 Wagyu since the early 1990s. Pasture-raised then grain-finished; no growth hormones or implants; antibiotics only for sick animals. Ranch-direct online shop ships contiguous US; farm store pickup in Gold Beach."
+    },
+    {
       "slug": "alderspring-ranch",
       "name": "Alderspring Ranch",
       "url": "https://www.alderspring.com/",
