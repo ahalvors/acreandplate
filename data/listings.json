@@ -11,7 +11,8 @@
       "products": ["steaks", "roasts", "ground", "boxes", "subscription club"],
       "shipping": "Ships nationwide",
       "featured": true,
-      "description": "Full-blood wagyu beef raised at our New Mexico cattle ranch. Hormone and antibiotic-free, with exceptional marbling and flavor."
+      "description": "Full-blood wagyu beef raised at our New Mexico cattle ranch. Hormone and antibiotic-free, with exceptional marbling and flavor.",
+      "last_checked": "2026-09-26"
     },
     {
       "slug": "heartbrand-beef",
@@ -24,7 +25,8 @@
       "products": ["steaks", "ground", "brisket", "bundles", "quarter cow", "half cow"],
       "shipping": "Continental US",
       "featured": true,
-      "description": "Fifth generation ranch with the largest herd of Akaushi cattle in the country. All HeartBrand Certified Akaushi Beef is USDA Prime quality grade."
+      "description": "Fifth generation ranch with the largest herd of Akaushi cattle in the country. All HeartBrand Certified Akaushi Beef is USDA Prime quality grade.",
+      "last_checked": "2026-09-26"
     },
     {
       "slug": "long-hill-wagyu",
@@ -322,19 +324,6 @@
       "description": "First-generation ranch in Coyote Valley raising American Wagyu and Angus. Dry-aged 14-21 days, vacuum-wrapped and flash-frozen. Regenerative ranching practices with rotational grazing."
     },
     {
-      "slug": "midori-ranch",
-      "name": "Midori Ranch",
-      "url": "https://www.midoriranch.com/",
-      "state": "CA",
-      "city": "Paicines",
-      "genetics": "F1 Wagyu (50% Wagyu, 50% Angus) and Angus; grass-finished and non-GMO grain-finished options; born, raised, and finished on ranch",
-      "breeds": ["wagyu", "angus"],
-      "products": ["whole beef", "half beef"],
-      "shipping": "Bay Area/Peninsula delivery from Los Altos hub (Los Gatos to Burlingame); ranch pickup in Paicines; Hollister butcher pickup",
-      "note": "Contact sales@midoriranch.com for delivery inquiries. Ranch stays and events available.",
-      "description": "Regenerative ranch on 7,500 acres in Paicines offering premium pasture-raised F1 Wagyu and Angus beef. Custom cut sheets available with concierge service."
-    },
-    {
       "slug": "nyland-herefords",
       "name": "Nyland Herefords",
       "url": "https://www.nylandherefords.com/",
@@ -592,6 +581,21 @@
       "phone": "406-930-0632",
       "note": "Fifth-generation ranchers Colter and Lauren Darlington; historic Darlington Ranch founded 1916. Contact: lauren@darlingtonranch.com. Exact cattle breed not prominently stated on public homepage — do not invent breed. Confirm current Pasture-to-Porch Club and box pricing on shop before ordering.",
       "description": "Fifth-generation Big Sandy, Montana family ranch (founded 1916) selling pasture-raised, light barley grain-finished beef ranch-direct. Antibiotic-free and hormone-free; ships nationwide."
+    },
+    {
+      "slug": "arizona-grass-raised-beef",
+      "name": "Arizona Grass Raised Beef",
+      "url": "https://azgrassraisedbeef.com/",
+      "state": "AZ",
+      "city": "Arizona",
+      "genetics": "100% grass-fed and grass-finished on millions of acres of Arizona open range land; Native grasses; no antibiotics, steroids, mRNA, or added growth hormones",
+      "breeds": [],
+      "products": ["steaks", "ground", "roasts", "burgers", "boxes", "bulk shares"],
+      "shipping": "Ships nationwide including California, Colorado, Utah, and Texas",
+      "phone": "928-525-4441",
+      "note": "USDA inspected facility in Arizona. Cattle spend their lives on open range land eating native grasses and flowers. Contact via phone or website.",
+      "description": "Arizona ranch providing true ranch-to-plate 100% grass-fed and grass-finished beef raised on millions of acres of open range in Arizona. USDA inspected facility ensures quality and freshness. Ships frozen direct to your door.",
+      "last_checked": "2026-09-26"
     }
   ]
 }
