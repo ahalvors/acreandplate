@@ -11,7 +11,8 @@
       "products": ["steaks", "roasts", "ground", "boxes", "subscription club"],
       "shipping": "Ships nationwide",
       "featured": true,
-      "description": "Full-blood wagyu beef raised at our New Mexico cattle ranch. Hormone and antibiotic-free, with exceptional marbling and flavor."
+      "description": "Full-blood wagyu beef raised at our New Mexico cattle ranch. Hormone and antibiotic-free, with exceptional marbling and flavor.",
+      "last_checked": "2026-09-26"
     },
     {
       "slug": "heartbrand-beef",
@@ -24,7 +25,8 @@
       "products": ["steaks", "ground", "brisket", "bundles", "quarter cow", "half cow"],
       "shipping": "Continental US",
       "featured": true,
-      "description": "Fifth generation ranch with the largest herd of Akaushi cattle in the country. All HeartBrand Certified Akaushi Beef is USDA Prime quality grade."
+      "description": "Fifth generation ranch with the largest herd of Akaushi cattle in the country. All HeartBrand Certified Akaushi Beef is USDA Prime quality grade.",
+      "last_checked": "2026-09-26"
     },
     {
       "slug": "long-hill-wagyu",
@@ -579,6 +581,21 @@
       "phone": "406-930-0632",
       "note": "Fifth-generation ranchers Colter and Lauren Darlington; historic Darlington Ranch founded 1916. Contact: lauren@darlingtonranch.com. Exact cattle breed not prominently stated on public homepage — do not invent breed. Confirm current Pasture-to-Porch Club and box pricing on shop before ordering.",
       "description": "Fifth-generation Big Sandy, Montana family ranch (founded 1916) selling pasture-raised, light barley grain-finished beef ranch-direct. Antibiotic-free and hormone-free; ships nationwide."
+    },
+    {
+      "slug": "arizona-grass-raised-beef",
+      "name": "Arizona Grass Raised Beef",
+      "url": "https://azgrassraisedbeef.com/",
+      "state": "AZ",
+      "city": "Arizona",
+      "genetics": "100% grass-fed and grass-finished on millions of acres of Arizona open range land; Native grasses; no antibiotics, steroids, mRNA, or added growth hormones",
+      "breeds": [],
+      "products": ["steaks", "ground", "roasts", "burgers", "boxes", "bulk shares"],
+      "shipping": "Ships nationwide including California, Colorado, Utah, and Texas",
+      "phone": "928-525-4441",
+      "note": "USDA inspected facility in Arizona. Cattle spend their lives on open range land eating native grasses and flowers. Contact via phone or website.",
+      "description": "Arizona ranch providing true ranch-to-plate 100% grass-fed and grass-finished beef raised on millions of acres of open range in Arizona. USDA inspected facility ensures quality and freshness. Ships frozen direct to your door.",
+      "last_checked": "2026-09-26"
     }
   ]
 }
