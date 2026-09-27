@@ -1326,9 +1326,49 @@ def build_about():
     html = base_template("About", content, "How Acre & Plate works and what makes it different from grocery store 'Wagyu' marketing.")
     write_page('about/index.html', html)
 
+def prune_orphaned_listings():
+    """Remove orphaned listing directories not in listings.json"""
+    import os
+    import shutil
+    
+    # Get all current listing slugs from data
+    current_slugs = {listing['slug'] for listing in listings}
+    
+    # Get all directories in listings/
+    listings_dir = Path('listings')
+    if not listings_dir.exists():
+        return
+    
+    orphaned = []
+    for item in listings_dir.iterdir():
+        if not item.is_dir():
+            continue
+        
+        dir_name = item.name
+        
+        # Check if this directory is orphaned (not in current listings)
+        if dir_name not in current_slugs:
+            # Verify it only contains an index.html (our generated file)
+            contents = list(item.iterdir())
+            if len(contents) == 1 and contents[0].name == 'index.html':
+                print(f"🗑️  Pruning orphaned listing: {dir_name}")
+                shutil.rmtree(item)
+                orphaned.append(dir_name)
+            else:
+                print(f"⚠️  Skipping {dir_name} (contains unexpected files)")
+    
+    if orphaned:
+        print(f"\n✓ Pruned {len(orphaned)} orphaned listing(s): {', '.join(orphaned)}")
+    else:
+        print("\n✓ No orphaned listings found")
+
 def main():
     """Build all pages"""
     print("Building Acre & Plate...\n")
+    
+    # Prune orphaned listing directories before building
+    prune_orphaned_listings()
+    print()
     
     # Home page
     build_index()

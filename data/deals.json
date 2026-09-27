@@ -18,23 +18,6 @@
       "gaps": null
     },
     {
-      "id": "hufeisen-last-harvest-box",
-      "listing_id": "hufeisen-ranch",
-      "ranch_name": "The Hufeisen-Ranch (WYO Wagyu)",
-      "website": "https://www.realwagyubeef.com/",
-      "product_url": "https://www.realwagyubeef.com/products/the-last-harvest-fullblood-wagyu-box",
-      "cut": "mixed",
-      "product_name": "The Last Harvest Fullblood Wagyu Box (Family Box)",
-      "regular_price": 299,
-      "sale_price": 199,
-      "currency": "USD",
-      "unit": "~10-12 lb box",
-      "season_label": "Ranch Clearance",
-      "reason": "Final Wyoming harvest clearance before ranch relocation to Florida - only 6 steers available",
-      "verified_at": "2026-09-26",
-      "gaps": null
-    },
-    {
       "id": "mossyrock-bbq-box",
       "listing_id": "mossyrock",
       "ranch_name": "Mossyrock Wagyu",
