@@ -322,19 +322,6 @@
       "description": "First-generation ranch in Coyote Valley raising American Wagyu and Angus. Dry-aged 14-21 days, vacuum-wrapped and flash-frozen. Regenerative ranching practices with rotational grazing."
     },
     {
-      "slug": "midori-ranch",
-      "name": "Midori Ranch",
-      "url": "https://www.midoriranch.com/",
-      "state": "CA",
-      "city": "Paicines",
-      "genetics": "F1 Wagyu (50% Wagyu, 50% Angus) and Angus; grass-finished and non-GMO grain-finished options; born, raised, and finished on ranch",
-      "breeds": ["wagyu", "angus"],
-      "products": ["whole beef", "half beef"],
-      "shipping": "Bay Area/Peninsula delivery from Los Altos hub (Los Gatos to Burlingame); ranch pickup in Paicines; Hollister butcher pickup",
-      "note": "Contact sales@midoriranch.com for delivery inquiries. Ranch stays and events available.",
-      "description": "Regenerative ranch on 7,500 acres in Paicines offering premium pasture-raised F1 Wagyu and Angus beef. Custom cut sheets available with concierge service."
-    },
-    {
       "slug": "nyland-herefords",
       "name": "Nyland Herefords",
       "url": "https://www.nylandherefords.com/",
