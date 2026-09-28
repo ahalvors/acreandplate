@@ -278,8 +278,9 @@
       "products": ["individual cuts", "subscription boxes", "bulk shares (1/4, 1/2, whole)", "seasonings coming soon"],
       "shipping": "Local pickup at ranch + shipping available (lower 48; ships Mon/Tue insulated dry ice, 1-2 day)",
       "phone": "925-494-8063",
-      "note": "Ranch pickup at 9480 Koopmann Road, Sunol, CA 94586 (usually Mon & Fri 11am–3pm, subject to change). Also at Livermore farmers markets. Currently only taking bulk orders for 2025. Contact: koopmannfamilybeef@gmail.com",
-      "description": "Fifth-generation Bay Area cattle family (Clayton & Natalie Koopmann) selling ranch-direct all-natural beef grazed in Northern California / SF Bay hills. Managed grazing and conservation. Founded 2020 as retail brand."
+      "note": "Ranch pickup at 9480 Koopmann Road, Sunol, CA 94586 (usually Mon & Fri 11am–3pm, subject to change). Also at Livermore farmers markets. Shop open for individual cuts and bulk shares; some items sold out. Contact: koopmannfamilybeef@gmail.com",
+      "description": "Fifth-generation Bay Area cattle family (Clayton & Natalie Koopmann) selling ranch-direct all-natural beef grazed in Northern California / SF Bay hills. Managed grazing and conservation. Founded 2020 as retail brand.",
+      "last_checked": "2026-09-27"
     },
     {
       "slug": "calhoun-sisters-ranch",
@@ -293,7 +294,8 @@
       "shipping": "Local / ranch pickup & butcher pickup (Coffland Craft Butchery, Galt); custom-exempt processing for personal use",
       "phone": "925-216-0468",
       "note": "Contact Nancy Calhoun Mueller — call/text or email nancyjm1960@yahoo.com. Beef brand marketed as Circle H Beef; SOLD OUT for 2026 shares per ranch site. Distinct from Circle H Ranch Wagyu (WY/ID).",
-      "description": "Fifth-generation Livermore Valley ranch (Nancy, Merry, Susie Calhoun) selling grass-fed grass-finished Angus as Circle H Beef with Audubon bird-friendly certification and regenerative practices."
+      "description": "Fifth-generation Livermore Valley ranch (Nancy, Merry, Susie Calhoun) selling grass-fed grass-finished Angus as Circle H Beef with Audubon bird-friendly certification and regenerative practices.",
+      "last_checked": "2026-09-27"
     },
     {
       "slug": "cross-creek-ranch",
@@ -454,8 +456,9 @@
       "products": ["steaks", "ground", "roasts", "beef shares", "micro-shares", "lamb"],
       "shipping": "Ships (recommend 8+ lb for long distance); local delivery in eligible Marin/Sonoma zip codes; ranch pickup in Tomales by pre-order (Sundays or by appointment)",
       "phone": "707-878-2181",
-      "note": "Address: 900 Cerini Road, Tomales, CA — visits by appointment only. Email: marincoastranch@gmail.com. Spring 2026 beef shares sold out as of 2025-04-25 per ranch site; accepting deposits for Spring 2027 harvest starting 1/1/27. Confirm current retail cut inventory and pricing on their store before ordering.",
-      "description": "Sixth-generation Northern California family ranch in West Marin raising USDA Certified Grassfed, Certified Natural Angus beef on coastal pasture. Cattle are grass-fed and grass-finished with dry-aged, vacuum-sealed cuts. Also sells grass-fed lamb; offers ranch hikes, picnics, and tours."
+      "note": "Address: 900 Cerini Road, Tomales, CA — visits by appointment only. Email: marincoastranch@gmail.com. All retail beef cuts currently sold out; beef shares available Spring 2027. Confirm current inventory on their store before ordering.",
+      "description": "Sixth-generation Northern California family ranch in West Marin raising USDA Certified Grassfed, Certified Natural Angus beef on coastal pasture. Cattle are grass-fed and grass-finished with dry-aged, vacuum-sealed cuts. Also sells grass-fed lamb; offers ranch hikes, picnics, and tours.",
+      "last_checked": "2026-09-27"
     },
     {
       "slug": "starwalker-organic-farms",
