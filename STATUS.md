@@ -288,6 +288,7 @@ Contact sheet for Featured Ranch outbound drip campaign. Contains verified busin
 - Personal emails (Gmail/Yahoo) used only when no business email exists (e.g., smaller family operations)
 - Phone numbers included when publicly available
 - All data verified 2026-09-19
+- 2026-09-27: Re-verified koopmann-family-beef, calhoun-sisters-ranch, marin-coast-ranch (updated ordering notes, all still operational)
 
 ## Maintenance
 
