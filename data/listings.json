@@ -39,7 +39,8 @@
       "products": ["steaks", "ground", "bundles", "reserve collection"],
       "shipping": "Ships nationwide",
       "featured": true,
-      "description": "Hand-picked herd of 100% Wagyu cattle, blending slow natural approach with modern nutritional science."
+      "description": "Hand-picked herd of 100% Wagyu cattle, blending slow natural approach with modern nutritional science.",
+      "last_checked": "2026-09-27"
     },
     {
       "slug": "circle-h-ranch",
@@ -52,7 +53,8 @@
       "products": ["steaks", "ground", "boxes", "whole/half/quarter beef"],
       "shipping": "Ships nationwide (UPS Second Day Air)",
       "phone": "307-690-0389",
-      "description": "Grass-finished, no antibiotics, no hormones, no grains. Raised on two ranches between Wyoming and Idaho."
+      "description": "Grass-finished, no antibiotics, no hormones, no grains. Raised on two ranches between Wyoming and Idaho.",
+      "last_checked": "2026-09-27"
     },
     {
       "slug": "hawks-hill",
@@ -596,6 +598,20 @@
       "note": "USDA inspected facility in Arizona. Cattle spend their lives on open range land eating native grasses and flowers. Contact via phone or website.",
       "description": "Arizona ranch providing true ranch-to-plate 100% grass-fed and grass-finished beef raised on millions of acres of open range in Arizona. USDA inspected facility ensures quality and freshness. Ships frozen direct to your door.",
       "last_checked": "2026-09-26"
+    },
+    {
+      "slug": "parker-pastures",
+      "name": "Parker Pastures",
+      "url": "https://parkerpastures.com/",
+      "state": "CO",
+      "city": "Gunnison",
+      "genetics": "100% grass-fed and grass-finished; regeneratively grazed on Colorado mountain pastures; no hormones, no antibiotics",
+      "breeds": [],
+      "products": ["steaks", "ground", "roasts", "boxes", "subscription", "organ meats"],
+      "shipping": "Ships to all 50 states",
+      "note": "Family ranch founded 2006 by Bill and Kelli Parker, now led by CEO Cloe Parker. Leases 400+ acres near Gunnison using holistic land management. Contact: info@parkerpastures.com. Cattle breed not specified on public site.",
+      "description": "Family ranch in Gunnison Valley founded in 2006 by Bill and Kelli Parker, now led by daughter Cloe Parker as CEO. 100% grass-fed and grass-finished beef raised with regenerative agriculture practices on Colorado's high mesa.",
+      "last_checked": "2026-09-27"
     }
   ]
 }
