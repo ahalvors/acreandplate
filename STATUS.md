@@ -1,13 +1,13 @@
 # Acre & Plate - Status
 
-**Last Updated:** September 26, 2026  
+**Last Updated:** September 27, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 44
+- **Total Ranches:** 45
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
-- **Active Deals:** 4
+- **Active Deals:** 3
 - **Farmers Markets:** 3
 - **Butcher Shops:** 19
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
@@ -17,21 +17,21 @@
 - **Arizona Ranches:** 1
 - **Texas Ranches:** 6
 - **California Ranches:** 16
-- **Colorado Ranches:** 1
+- **Colorado Ranches:** 2
 - **Florida Ranches:** 2
 - **Idaho Ranches:** 2
 - **Montana Ranches:** 1
 - **Oregon Ranches:** 3
 - **Washington Ranches:** 2
 - **Wyoming Ranches:** 3
-- **Total Pages:** 68
+- **Total Pages:** 69
 
 ## Pages Built
 
 ### Core Pages
 - ✅ Home (`index.html`)
 - ✅ All Listings (`/listings/`)
-- ✅ Seasonal Deals (`/deals/`) - 4 active deals
+- ✅ Seasonal Deals (`/deals/`) - 3 active deals
 - ✅ Local Activity (`/markets/`) - 3 farmers markets + 19 butcher shops (UPDATED!)
 - ✅ Featured Ranch (`/featured/`) - monetization landing page
 - ✅ Featured Ranch Thanks (`/featured/thanks/`) - post-checkout page
@@ -44,7 +44,7 @@
 - ✅ Arizona hub (`/arizona/`) - 1 ranch
 - ✅ Texas hub (`/texas/`) - 6 ranches
 - ✅ California hub (`/california/`) - 16 ranches
-- ✅ Colorado hub (`/colorado/`) - 1 ranch
+- ✅ Colorado hub (`/colorado/`) - 2 ranches
 - ✅ Florida hub (`/florida/`) - 2 ranches
 - ✅ Idaho hub (`/idaho/`) - 2 ranches
 - ✅ Montana hub (`/montana/`) - 1 ranch
@@ -55,7 +55,7 @@
 ### Guide Pages
 - ✅ Wagyu vs Akaushi Guide (`/guides/wagyu-vs-akaushi/`)
 
-### Listing Pages (44 ranches)
+### Listing Pages (45 ranches)
 - ✅ Lone Mountain Wagyu (NM)
 - ✅ HeartBrand Beef (TX)
 - ✅ Long Hill Wagyu (TX)
@@ -100,6 +100,7 @@
 - ✅ Alderspring Ranch (ID)
 - ✅ Darlington Ranch Co. (MT)
 - ✅ Arizona Grass Raised Beef (AZ)
+- ✅ Parker Pastures (CO)
 
 ## Known Gaps & Notes
 
@@ -197,6 +198,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Sep 25, 2026 PT nightly ship:** Added **Pacific Rogue Wagyu** (Gold Beach / Wedderburn, OR) — fifth-generation coastal Oregon family ranch raising 100% full-blood and F1 Wagyu since 1992/1993; pasture-raised then grain-finished; ships contiguous US with farm store pickup in Gold Beach. Knox family pioneer American Wagyu herd. Oregon hub now shows 3 ranches (up from 2). Wagyu hub shows 21 ranches (up from 20). Re-verified all 4 active deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395, Oreganic Crockpot Comfort Box at $199 (updated verified_at to 2026-09-25). No new deals added; Pacific Rogue site shows occasional sales but no clear current sale with both regular and sale prices live tonight. Good Life Beef and 1902 Ranch still parked. Total: 44 ranches, 4 deals, 3 markets, 19 butchers, 67 pages.
 - 📅 **Sep 26, 2026 PT nightly ship:** Removed **Midori Ranch** (Paicines, CA) — domain parked, no MX, Barn2Door closed, Instagram gone per research file. Andy-approved 2026-09-25. Added **Arizona Grass Raised Beef** (Arizona) — first Arizona-primary listing: 100% grass-fed and grass-finished on millions of acres of Arizona open range; USDA inspected facility in Arizona; ships nationwide; phone (928) 525-4441. Added **Arizona state hub** at `/arizona/` wired like other state hubs (home + nav pattern). California hub now 16 ranches (down from 17, Midori removed). Re-verified all 4 active deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395, Oreganic Crockpot Comfort Box at $199 (updated verified_at to 2026-09-26). No new deals added (AZ BOGO tallow lacks both regular+sale prices visible; Alderspring email mentioned restock but no explicit sale prices found). Re-checked **Lone Mountain Wagyu** (NM) and **HeartBrand Beef** (TX) — both still operational, websites and shops active; set last_checked: "2026-09-26" on both listings. Total: 44 ranches, 4 deals, 3 markets, 19 butchers, 68 pages.
 - 📅 **Sep 26, 2026 follow-up:** Removed Hufeisen Ranch "Last Harvest Fullblood Wagyu Box" deal (all variants sold out per product API verification). Added orphaned listing directory pruning to build.py. Total: 44 ranches, 3 deals, 68 pages.
+- 📅 **Sep 27, 2026 PT nightly ship:** Added **Parker Pastures** (Gunnison, CO) — family ranch founded 2006 by Bill and Kelli Parker, now led by CEO Cloe Parker; 100% grass-fed and grass-finished beef raised with regenerative agriculture practices on Colorado's high mesa; ships to all 50 states. Colorado hub now shows 2 ranches (up from 1). Re-verified all 3 active deals still live: Long Hill 15 lb ground at $180, Mossyrock WAGYU BBQ BOX at $395, Oreganic Crockpot Comfort Box at $199 (updated verified_at to 2026-09-27). Re-checked **Long Hill Wagyu** (TX) and **Circle H Ranch** (WY/ID) — both still operational, websites and shops active, valid MX records; set last_checked: "2026-09-27" on both listings. Total: 45 ranches, 3 deals, 3 markets, 19 butchers, 69 pages.
 
 ### What We Record
 - ✅ Ranch name and location
