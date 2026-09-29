@@ -1,6 +1,14 @@
 {
   "news": [
     {
+      "id": "directory-milestone-46-ranches",
+      "published_at": "2026-09-29T08:10:00-07:00",
+      "headline": "Directory now lists 46 verified ranches",
+      "body": "<p>The Acre & Plate directory has grown to <strong>46</strong> ranches across the U.S. selling beef from named herds: Fullblood Wagyu, Akaushi, heritage breeds, and grass-fed family ranches. Each ranch is verified from its public website.</p><p>One new verified ranch since the <a href=\"/news/directory-milestone-45-ranches/\">45 milestone</a>: <a href=\"/listings/didier-ranch/\">Didier Ranch</a> (Thomas, Oklahoma; USDA Choice Black Angus, grass-fed and grain-finished on crops grown on the ranch). It is the first Oklahoma listing in the directory.</p><p>Same rule as always: not grocery-store marketing, just working ranches selling direct to people who care where dinner came from. Browse by breed and state at <a href=\"/listings/\">acreandplate.com/listings</a>. Ranch partners who want premium placement can see Featured Ranch at <a href=\"/featured/\">acreandplate.com/featured</a> (one-pager: <a href=\"/featured/one-pager.pdf\">PDF</a>).</p>",
+      "icon": "🐂",
+      "tags": ["directory", "milestone"]
+    },
+    {
       "id": "directory-milestone-45-ranches",
       "published_at": "2026-09-28T08:03:00-07:00",
       "headline": "Directory now lists 45 verified ranches",
