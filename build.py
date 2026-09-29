@@ -417,6 +417,7 @@ def build_index():
                 <a href="/florida/" class="hub-link">Florida <span class="count">({len([l for l in listings if l['state'] == 'FL'])})</span></a>
                 <a href="/idaho/" class="hub-link">Idaho <span class="count">({len([l for l in listings if 'ID' in l.get('state', '')])})</span></a>
                 <a href="/montana/" class="hub-link">Montana <span class="count">({len([l for l in listings if l.get('state') == 'MT'])})</span></a>
+                <a href="/oklahoma/" class="hub-link">Oklahoma <span class="count">({len([l for l in listings if l.get('state') == 'OK'])})</span></a>
                 <a href="/oregon/" class="hub-link">Oregon <span class="count">({len([l for l in listings if l['state'] == 'OR'])})</span></a>
                 <a href="/washington/" class="hub-link">Washington <span class="count">({len([l for l in listings if l['state'] == 'WA'])})</span></a>
                 <a href="/wyoming/" class="hub-link">Wyoming <span class="count">({len([l for l in listings if 'WY' in l.get('state', '')])})</span></a>
@@ -1472,6 +1473,13 @@ def main():
         "Arizona ranches raising 100% grass-fed and grass-finished beef on open range land with nationwide shipping."
     )
     
+    build_hub_page(
+        "Oklahoma Ranches",
+        "oklahoma",
+        lambda l: l.get('state') == 'OK',
+        "Oklahoma ranches raising premium Black Angus beef, born and raised on family ranches with nationwide shipping."
+    )
+    
     # Guide
     build_guide()
     
@@ -1496,14 +1504,14 @@ def main():
         build_news_story(item)
     
     print(f"\n✓ Built {len(listings)} listing pages")
-    print("✓ Built hub pages (wagyu, akaushi, heritage, arizona, texas, california, colorado, florida, idaho, montana, oregon, washington, wyoming)")
+    print("✓ Built hub pages (wagyu, akaushi, heritage, arizona, oklahoma, texas, california, colorado, florida, idaho, montana, oregon, washington, wyoming)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
     print(f"✓ Built markets page with {len(markets)} farmers markets and {len(butchers)} butcher shops")
     print(f"✓ Built news page with {len(news_items)} updates")
     print(f"✓ Built {len(news_items)} individual news story pages")
     print("✓ Built featured ranch pages")
-    print(f"\n✨ Site build complete! Total pages: {len(listings) + len(news_items) + 16}")
+    print(f"\n✨ Site build complete! Total pages: {len(listings) + len(news_items) + 17}")
 
 if __name__ == '__main__':
     main()
