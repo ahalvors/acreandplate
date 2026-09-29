@@ -67,7 +67,8 @@
       "products": ["steaks", "roasts", "ground", "hot dogs", "ribs"],
       "shipping": "Lower 48 states",
       "phone": "307-527-6006",
-      "description": "Raised in the Greater Yellowstone Ecosystem since 2015. Dry-aged 14-18 days, USDA graded and certified."
+      "description": "Raised in the Greater Yellowstone Ecosystem since 2015. Dry-aged 14-18 days, USDA graded and certified.",
+      "last_checked": "2026-09-28"
     },
     {
       "slug": "slickhorn",
@@ -80,7 +81,8 @@
       "products": ["steaks", "roasts", "ground", "dry-aged USDA Prime"],
       "shipping": "48 contiguous states",
       "phone": "801-215-9211",
-      "description": "Raised on 600,000+ acres of Northern Rockies rangeland. Diamond grading system for marbling levels."
+      "description": "Raised on 600,000+ acres of Northern Rockies rangeland. Diamond grading system for marbling levels.",
+      "last_checked": "2026-09-28"
     },
     {
       "slug": "prime-wagyu-farm",
@@ -615,6 +617,20 @@
       "note": "Family ranch founded 2006 by Bill and Kelli Parker, now led by CEO Cloe Parker. Leases 400+ acres near Gunnison using holistic land management. Contact: info@parkerpastures.com. Cattle breed not specified on public site.",
       "description": "Family ranch in Gunnison Valley founded in 2006 by Bill and Kelli Parker, now led by daughter Cloe Parker as CEO. 100% grass-fed and grass-finished beef raised with regenerative agriculture practices on Colorado's high mesa.",
       "last_checked": "2026-09-27"
+    },
+    {
+      "slug": "didier-ranch",
+      "name": "Didier Ranch",
+      "url": "https://didierranch.com/",
+      "state": "OK",
+      "city": "Thomas",
+      "genetics": "USDA Choice Black Angus; grass-fed and grain-finished on crops grown on ranch; pasture-raised; no added hormones, no mRNA vaccines",
+      "breeds": ["angus"],
+      "products": ["beef boxes", "ribeye", "NY strip", "filet", "ground beef", "steak burgers"],
+      "shipping": "Ships nationwide (frozen and insulated)",
+      "note": "Family-owned since 1902 (4th generation, founded by Pierre Didier from South France). Cattle born, raised, and finished on one family ranch in Oklahoma—never outsourced. Dry-aged 21-28 days. Email: Didierranch1902@gmail.com; Mailing: P.O. Box 808, Thomas, OK 73669. No public phone listed.",
+      "description": "Fourth-generation family ranch in Thomas, Oklahoma, founded in 1902 by Pierre Didier. Premium USDA Choice Black Angus beef, born, raised, and finished on one ranch. Grass-fed in their pastures and grain-finished on crops grown on the ranch. Dry-aged 21-28 days and shipped frozen nationwide.",
+      "last_checked": "2026-09-28"
     }
   ]
 }

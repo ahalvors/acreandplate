@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** September 27, 2026  
+**Last Updated:** September 28, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 45
+- **Total Ranches:** 46
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -21,10 +21,11 @@
 - **Florida Ranches:** 2
 - **Idaho Ranches:** 2
 - **Montana Ranches:** 1
+- **Oklahoma Ranches:** 1
 - **Oregon Ranches:** 3
 - **Washington Ranches:** 2
 - **Wyoming Ranches:** 3
-- **Total Pages:** 69
+- **Total Pages:** 71
 
 ## Pages Built
 
@@ -48,7 +49,8 @@
 - ✅ Florida hub (`/florida/`) - 2 ranches
 - ✅ Idaho hub (`/idaho/`) - 2 ranches
 - ✅ Montana hub (`/montana/`) - 1 ranch
-- ✅ Oregon hub (`/oregon/`) - 2 ranches
+- ✅ Oklahoma hub (`/oklahoma/`) - 1 ranch
+- ✅ Oregon hub (`/oregon/`) - 3 ranches
 - ✅ Washington hub (`/washington/`) - 2 ranches
 - ✅ Wyoming hub (`/wyoming/`) - 3 ranches
 
@@ -101,6 +103,7 @@
 - ✅ Darlington Ranch Co. (MT)
 - ✅ Arizona Grass Raised Beef (AZ)
 - ✅ Parker Pastures (CO)
+- ✅ Didier Ranch (OK)
 
 ## Known Gaps & Notes
 
@@ -199,6 +202,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Sep 26, 2026 PT nightly ship:** Removed **Midori Ranch** (Paicines, CA) — domain parked, no MX, Barn2Door closed, Instagram gone per research file. Andy-approved 2026-09-25. Added **Arizona Grass Raised Beef** (Arizona) — first Arizona-primary listing: 100% grass-fed and grass-finished on millions of acres of Arizona open range; USDA inspected facility in Arizona; ships nationwide; phone (928) 525-4441. Added **Arizona state hub** at `/arizona/` wired like other state hubs (home + nav pattern). California hub now 16 ranches (down from 17, Midori removed). Re-verified all 4 active deals still live: Long Hill 15 lb ground at $180, Hufeisen Last Harvest Family Box at $199, Mossyrock WAGYU BBQ BOX at $395, Oreganic Crockpot Comfort Box at $199 (updated verified_at to 2026-09-26). No new deals added (AZ BOGO tallow lacks both regular+sale prices visible; Alderspring email mentioned restock but no explicit sale prices found). Re-checked **Lone Mountain Wagyu** (NM) and **HeartBrand Beef** (TX) — both still operational, websites and shops active; set last_checked: "2026-09-26" on both listings. Total: 44 ranches, 4 deals, 3 markets, 19 butchers, 68 pages.
 - 📅 **Sep 26, 2026 follow-up:** Removed Hufeisen Ranch "Last Harvest Fullblood Wagyu Box" deal (all variants sold out per product API verification). Added orphaned listing directory pruning to build.py. Total: 44 ranches, 3 deals, 68 pages.
 - 📅 **Sep 27, 2026 PT nightly ship:** Added **Parker Pastures** (Gunnison, CO) — family ranch founded 2006 by Bill and Kelli Parker, now led by CEO Cloe Parker; 100% grass-fed and grass-finished beef raised with regenerative agriculture practices on Colorado's high mesa; ships to all 50 states. Colorado hub now shows 2 ranches (up from 1). Re-verified all 3 active deals still live: Long Hill 15 lb ground at $180, Mossyrock WAGYU BBQ BOX at $395, Oreganic Crockpot Comfort Box at $199 (updated verified_at to 2026-09-27). Re-checked **Long Hill Wagyu** (TX) and **Circle H Ranch** (WY/ID) — both still operational, websites and shops active, valid MX records; set last_checked: "2026-09-27" on both listings. Total: 45 ranches, 3 deals, 3 markets, 19 butchers, 69 pages.
+- 📅 **Sep 28, 2026 PT nightly ship:** Added **Didier Ranch** (Thomas, OK) — fourth-generation family ranch founded 1902 by Pierre Didier from South France; Premium USDA Choice Black Angus beef born, raised, and finished on one family ranch in Oklahoma; grass-fed and grain-finished on crops grown on ranch; dry-aged 21-28 days; no added hormones or mRNA vaccines; ships nationwide frozen. First Oklahoma ranch on directory. Added Oklahoma state hub at `/oklahoma/` wired like other state hubs (home + nav pattern). Re-verified all 3 active deals still live: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-09-28. Re-checked **Hawks Hill Ranch** (WY) and **Slickhorn Ranch** (Northern Rockies) — both still operational, websites and shops active, valid MX records; set last_checked: "2026-09-28" on both listings. Total: 46 ranches, 3 deals, 3 markets, 19 butchers, 71 pages.
 
 ### What We Record
 - ✅ Ranch name and location
