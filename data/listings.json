@@ -26,7 +26,7 @@
       "shipping": "Continental US",
       "featured": true,
       "description": "Fifth generation ranch with the largest herd of Akaushi cattle in the country. All HeartBrand Certified Akaushi Beef is USDA Prime quality grade.",
-      "last_checked": "2026-09-26"
+      "last_checked": "2026-09-29"
     },
     {
       "slug": "long-hill-wagyu",
@@ -602,7 +602,7 @@
       "phone": "928-525-4441",
       "note": "USDA inspected facility in Arizona. Cattle spend their lives on open range land eating native grasses and flowers. Contact via phone or website.",
       "description": "Arizona ranch providing true ranch-to-plate 100% grass-fed and grass-finished beef raised on millions of acres of open range in Arizona. USDA inspected facility ensures quality and freshness. Ships frozen direct to your door.",
-      "last_checked": "2026-09-26"
+      "last_checked": "2026-09-29"
     },
     {
       "slug": "parker-pastures",
@@ -631,6 +631,21 @@
       "note": "Family-owned since 1902 (4th generation, founded by Pierre Didier from South France). Cattle born, raised, and finished on one family ranch in Oklahoma—never outsourced. Dry-aged 21-28 days. Email: Didierranch1902@gmail.com; Mailing: P.O. Box 808, Thomas, OK 73669. No public phone listed.",
       "description": "Fourth-generation family ranch in Thomas, Oklahoma, founded in 1902 by Pierre Didier. Premium USDA Choice Black Angus beef, born, raised, and finished on one ranch. Grass-fed in their pastures and grain-finished on crops grown on the ranch. Dry-aged 21-28 days and shipped frozen nationwide.",
       "last_checked": "2026-09-28"
+    },
+    {
+      "slug": "wholly-cow-market",
+      "name": "Wholly Cow Market",
+      "url": "https://whollycowmarket.com/",
+      "state": "KS",
+      "city": "Johnson City",
+      "genetics": "100% grass-fed and grass-finished; pasture rotation method; no hormones, no antibiotics, no grain; cattle raised on pastures free of chemicals and GMOs",
+      "breeds": [],
+      "products": ["steaks", "ground", "roasts", "subscription boxes", "pastured chicken"],
+      "shipping": "Ships nationwide (meat ships Mondays and Tuesdays only); free shipping on orders over $175",
+      "phone": "620-353-8344",
+      "note": "Fifth-generation family ranch (Matt and Michelle Canny) in Stanton County, rural Kansas. Regenerative ranching with pasture rotation. Also operates farm-to-table restaurant at 112 South Main Street. Contact: hello@whollycowmarket.com. Address: 303 South Main St. Johnson, KS 67855.",
+      "description": "Fifth-generation Kansas family ranch raising 100% grass-fed and grass-finished beef with regenerative practices. Cattle never given hormones, antibiotics, or grain. Ships nationwide from Johnson City with farm-to-table transparency.",
+      "last_checked": "2026-09-29"
     }
   ]
 }
