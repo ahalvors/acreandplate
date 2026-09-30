@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** September 28, 2026  
+**Last Updated:** September 29, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 46
+- **Total Ranches:** 47
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -15,6 +15,7 @@
 - **Akaushi Ranches:** 6
 - **Heritage Breeds:** 3
 - **Arizona Ranches:** 1
+- **Kansas Ranches:** 2
 - **Texas Ranches:** 6
 - **California Ranches:** 16
 - **Colorado Ranches:** 2
@@ -25,7 +26,7 @@
 - **Oregon Ranches:** 3
 - **Washington Ranches:** 2
 - **Wyoming Ranches:** 3
-- **Total Pages:** 71
+- **Total Pages:** 73
 
 ## Pages Built
 
@@ -43,6 +44,7 @@
 - ✅ Akaushi hub (`/akaushi/`) - 5 ranches
 - ✅ Heritage Breeds hub (`/heritage/`) - 2 ranches
 - ✅ Arizona hub (`/arizona/`) - 1 ranch
+- ✅ Kansas hub (`/kansas/`) - 2 ranches
 - ✅ Texas hub (`/texas/`) - 6 ranches
 - ✅ California hub (`/california/`) - 16 ranches
 - ✅ Colorado hub (`/colorado/`) - 2 ranches
@@ -57,7 +59,7 @@
 ### Guide Pages
 - ✅ Wagyu vs Akaushi Guide (`/guides/wagyu-vs-akaushi/`)
 
-### Listing Pages (45 ranches)
+### Listing Pages (47 ranches)
 - ✅ Lone Mountain Wagyu (NM)
 - ✅ HeartBrand Beef (TX)
 - ✅ Long Hill Wagyu (TX)
@@ -104,6 +106,7 @@
 - ✅ Arizona Grass Raised Beef (AZ)
 - ✅ Parker Pastures (CO)
 - ✅ Didier Ranch (OK)
+- ✅ Wholly Cow Market (KS)
 
 ## Known Gaps & Notes
 
@@ -203,6 +206,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Sep 26, 2026 follow-up:** Removed Hufeisen Ranch "Last Harvest Fullblood Wagyu Box" deal (all variants sold out per product API verification). Added orphaned listing directory pruning to build.py. Total: 44 ranches, 3 deals, 68 pages.
 - 📅 **Sep 27, 2026 PT nightly ship:** Added **Parker Pastures** (Gunnison, CO) — family ranch founded 2006 by Bill and Kelli Parker, now led by CEO Cloe Parker; 100% grass-fed and grass-finished beef raised with regenerative agriculture practices on Colorado's high mesa; ships to all 50 states. Colorado hub now shows 2 ranches (up from 1). Re-verified all 3 active deals still live: Long Hill 15 lb ground at $180, Mossyrock WAGYU BBQ BOX at $395, Oreganic Crockpot Comfort Box at $199 (updated verified_at to 2026-09-27). Re-checked **Long Hill Wagyu** (TX) and **Circle H Ranch** (WY/ID) — both still operational, websites and shops active, valid MX records; set last_checked: "2026-09-27" on both listings. Total: 45 ranches, 3 deals, 3 markets, 19 butchers, 69 pages.
 - 📅 **Sep 28, 2026 PT nightly ship:** Added **Didier Ranch** (Thomas, OK) — fourth-generation family ranch founded 1902 by Pierre Didier from South France; Premium USDA Choice Black Angus beef born, raised, and finished on one family ranch in Oklahoma; grass-fed and grain-finished on crops grown on ranch; dry-aged 21-28 days; no added hormones or mRNA vaccines; ships nationwide frozen. First Oklahoma ranch on directory. Added Oklahoma state hub at `/oklahoma/` wired like other state hubs (home + nav pattern). Re-verified all 3 active deals still live: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-09-28. Re-checked **Hawks Hill Ranch** (WY) and **Slickhorn Ranch** (Northern Rockies) — both still operational, websites and shops active, valid MX records; set last_checked: "2026-09-28" on both listings. Total: 46 ranches, 3 deals, 3 markets, 19 butchers, 71 pages.
+- 📅 **Sep 29, 2026 PT nightly ship:** Added **Wholly Cow Market** (Johnson City, KS) — fifth-generation family ranch (Matt and Michelle Canny) raising 100% grass-fed and grass-finished beef with regenerative practices; pasture rotation method; no hormones, no antibiotics, no grain; cattle on chemical-free and GMO-free pastures; ships nationwide (meat ships Mondays and Tuesdays only); free shipping on orders over $175. Second Kansas ranch on directory. Added Kansas state hub at `/kansas/` wired like other state hubs (home + nav pattern). Kansas now has 2 ranches (Grant Cattle Company + Wholly Cow Market). Re-verified all 3 active deals still live: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-09-29. Re-checked **Arizona Grass Raised Beef** (AZ) and **HeartBrand Beef** (TX) — both still operational, websites and shops active; set last_checked: "2026-09-29" on both listings. Total: 47 ranches, 3 deals, 3 markets, 19 butchers, 73 pages.
 
 ### What We Record
 - ✅ Ranch name and location
