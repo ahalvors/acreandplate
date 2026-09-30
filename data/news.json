@@ -1,6 +1,14 @@
 {
   "news": [
     {
+      "id": "directory-milestone-47-ranches",
+      "published_at": "2026-09-30T08:10:00-07:00",
+      "headline": "Directory now lists 47 verified ranches",
+      "body": "<p>The Acre & Plate directory has grown to <strong>47</strong> ranches across the U.S. selling beef from named herds: Fullblood Wagyu, Akaushi, heritage breeds, and grass-fed family ranches. Each ranch is verified from its public website.</p><p>One new verified ranch since the <a href=\"/news/directory-milestone-46-ranches/\">46 milestone</a>: <a href=\"/listings/wholly-cow-market/\">Wholly Cow Market</a>. The listing header says Johnson City, KS, and the same page prints 303 South Main St. Johnson, KS 67855 (100% grass-fed and grass-finished; no hormones, no antibiotics, no grain).</p><p>Same rule as always: not grocery-store marketing, just working ranches selling direct to people who care where dinner came from. Browse by breed and state at <a href=\"/listings/\">acreandplate.com/listings</a>. Ranch partners who want premium placement can see Featured Ranch at <a href=\"/featured/\">acreandplate.com/featured</a> (one-pager: <a href=\"/featured/one-pager.pdf\">PDF</a>).</p>",
+      "icon": "🐂",
+      "tags": ["directory", "milestone"]
+    },
+    {
       "id": "directory-milestone-46-ranches",
       "published_at": "2026-09-29T08:10:00-07:00",
       "headline": "Directory now lists 46 verified ranches",
