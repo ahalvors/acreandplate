@@ -1,6 +1,17 @@
 {
   "news": [
     {
+      "id": "directory-milestone-48-ranches",
+      "published_at": "2026-10-01T08:15:00-07:00",
+      "headline": "Directory now lists 48 verified ranches",
+      "body": "<p>The Acre & Plate directory has grown to <strong>48</strong> ranches across the U.S. selling beef from named herds: Fullblood Wagyu, Akaushi, heritage breeds, and grass-fed family ranches. Each ranch is verified from its public website.</p><p>One new verified ranch since the <a href=\"/news/directory-milestone-47-ranches/\">47 milestone</a>: <a href=\"/listings/sunset-ridge-beef/\">Sunset Ridge Beef</a>. The listing header says Morris, NY, and the same page also says New York's Butternut Valley and Zrowka Family Ranch (all-natural premium Angus; pasture-raised, free to roam with no confinement; fed native grasses only; no hormones or antibiotics; New York Grown & Certified).</p><p>Same rule as always: not grocery-store marketing, just working ranches selling direct to people who care where dinner came from. Browse by breed and state at <a href=\"/listings/\">acreandplate.com/listings</a>. Ranch partners who want premium placement can see Featured Ranch at <a href=\"/featured/\">acreandplate.com/featured</a> (one-pager: <a href=\"/featured/one-pager.pdf\">PDF</a>).</p>",
+      "icon": "🐂",
+      "tags": [
+        "directory",
+        "milestone"
+      ]
+    },
+    {
       "id": "directory-milestone-47-ranches",
       "published_at": "2026-09-30T08:10:00-07:00",
       "headline": "Directory now lists 47 verified ranches",
