@@ -4,8 +4,8 @@
 
 ## Pricing Tiers
 
-- **Standard** — $99/mo — Featured on home page + all listings browse
-- **Premium** — $199/mo — Home + listings + seasonal deals hub spotlight
+- **Standard** — $49/mo — Featured on home page + all listings browse
+- **Premium** — $99/mo — Home + listings + seasonal deals hub spotlight
 
 ## How It Works
 
@@ -22,8 +22,8 @@
 
 1. Create Stripe Payment Links:
    - Log into Stripe Dashboard
-   - Create Product: "Featured Ranch - Standard" ($99/mo recurring)
-   - Create Product: "Featured Ranch - Premium" ($199/mo recurring)
+   - Create Product: "Featured Ranch - Standard" ($49/mo recurring)
+   - Create Product: "Featured Ranch - Premium" ($99/mo recurring)
    - Generate Payment Links for each
    - Set success URL to `https://acreandplate.com/featured/thanks/`
 
@@ -34,8 +34,8 @@
      "premium_payment_link": "https://buy.stripe.com/YOUR_PREMIUM_LINK",
      "success_url": "https://acreandplate.com/featured/thanks/",
      "currency": "usd",
-     "standard_price_display": "$99/mo",
-     "premium_price_display": "$199/mo"
+     "standard_price_display": "$49/mo",
+     "premium_price_display": "$99/mo"
    }
    ```
 

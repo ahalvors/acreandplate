@@ -18,7 +18,7 @@ A curated directory of 20 U.S. ranches selling:
 All direct-to-consumer. No retail "Wagyu" marketing. Every ranch has a public website with verifiable breed claims.
 
 **What's New:**
-- **Featured Ranch monetization:** Paid monthly placement for ranches (Standard $99/mo, Premium $199/mo)
+- **Featured Ranch monetization:** Paid monthly placement for ranches (Standard $49/mo, Premium $99/mo)
 - **Seasonal deals section:** Tracking verified sale, clearance, and overstock pricing across ranches
 - **UTM tracking:** All outbound ranch links include tracking parameters for attribution
 
@@ -111,8 +111,8 @@ Quick version:
 
 ### Featured Ranch (Monetization)
 Ranches can purchase premium placement on the site:
-- **Standard** ($99/mo): Featured on home + listings with badge
-- **Premium** ($199/mo): Home + listings + deals hub spotlight
+- **Standard** ($49/mo): Featured on home + listings with badge
+- **Premium** ($99/mo): Home + listings + deals hub spotlight
 
 **Setup:**
 1. Update `data/stripe.json` with real Stripe Payment Link URLs

@@ -1,9 +1,9 @@
 {
-  "standard_payment_link": "https://buy.stripe.com/7sYfZa0Bceuz3PL9EBdwc0r",
-  "premium_payment_link": "https://buy.stripe.com/14AdR297I9afae9185dwc0q",
+  "standard_payment_link": "https://buy.stripe.com/7sY8wI4Rseuzcmhg2Zdwc0s",
+  "premium_payment_link": "https://buy.stripe.com/9B66oA83Eeuz1HD5oldwc0t",
   "success_url": "https://acreandplate.com/featured/thanks/",
   "currency": "usd",
-  "standard_price_display": "$99/mo",
-  "premium_price_display": "$199/mo",
+  "standard_price_display": "$49/mo",
+  "premium_price_display": "$99/mo",
   "stripe_account": "Andrew Halvorsen"
 }
