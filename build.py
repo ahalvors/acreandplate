@@ -412,6 +412,7 @@ def build_index():
                 <a href="/heritage/" class="hub-link">Heritage Breeds <span class="count">({len([l for l in listings if 'heritage' in l.get('breeds', [])])})</span></a>
                 <a href="/arizona/" class="hub-link">Arizona <span class="count">({len([l for l in listings if l.get('state') == 'AZ'])})</span></a>
                 <a href="/kansas/" class="hub-link">Kansas <span class="count">({len([l for l in listings if l.get('state') == 'KS'])})</span></a>
+                <a href="/new-york/" class="hub-link">New York <span class="count">({len([l for l in listings if l.get('state') == 'NY'])})</span></a>
                 <a href="/texas/" class="hub-link">Texas <span class="count">({len([l for l in listings if l['state'] == 'TX'])})</span></a>
                 <a href="/california/" class="hub-link">California <span class="count">({len([l for l in listings if l['state'] == 'CA' or 'CA' in l.get('state', '')])})</span></a>
                 <a href="/colorado/" class="hub-link">Colorado <span class="count">({len([l for l in listings if l['state'] == 'CO'])})</span></a>
@@ -1486,6 +1487,13 @@ def main():
         "oklahoma",
         lambda l: l.get('state') == 'OK',
         "Oklahoma ranches raising premium Black Angus beef, born and raised on family ranches with nationwide shipping."
+    )
+    
+    build_hub_page(
+        "New York Ranches",
+        "new-york",
+        lambda l: l.get('state') == 'NY',
+        "New York ranches raising all-natural, pasture-raised Angus beef with USDA Certification and nationwide shipping."
     )
     
     # Guide
