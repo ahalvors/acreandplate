@@ -327,7 +327,8 @@
       "products": ["steaks", "ground", "roasts", "whole/half/quarter beef"],
       "shipping": "Direct to doorstep delivery",
       "phone": "408-646-2059",
-      "description": "First-generation ranch in Coyote Valley raising American Wagyu and Angus. Dry-aged 14-21 days, vacuum-wrapped and flash-frozen. Regenerative ranching practices with rotational grazing."
+      "description": "First-generation ranch in Coyote Valley raising American Wagyu and Angus. Dry-aged 14-21 days, vacuum-wrapped and flash-frozen. Regenerative ranching practices with rotational grazing.",
+      "last_checked": "2026-09-30"
     },
     {
       "slug": "nyland-herefords",
@@ -573,7 +574,8 @@
       "products": ["steaks", "ground", "roasts", "brisket", "organ meats", "boxes", "sixteenths", "sausage"],
       "shipping": "Ships frozen via UPS to 48 contiguous states (no AK/HI); Western orders under $250 flat $29, over $250 free ground; Eastern/Midwest higher live UPS rates; ships every other Monday from Salmon, ID warehouse",
       "note": "Family ranch (Glenn & Caryl Elzinga and daughters) in Pahsimeroi Valley, May, ID 83253 (7073 Custer Road). Online store: https://shopalderspring.com/. Email: help@alderspring.com. Phone intentionally not published on ranch site (request callback by email). Also sells organic lamb, pastured poultry/pork, dairy seasonally — directory focus is ranch-direct beef. Confirm current inventory and pricing on shop before ordering.",
-      "description": "Family ranch in Idaho's Pahsimeroi Valley raising certified organic, 100% grass-fed and grass-finished Black Angus on wild mountain pastures and home-ranch forage. Ranch-direct since 2005; ships frozen organic beef nationwide (lower 48)."
+      "description": "Family ranch in Idaho's Pahsimeroi Valley raising certified organic, 100% grass-fed and grass-finished Black Angus on wild mountain pastures and home-ranch forage. Ranch-direct since 2005; ships frozen organic beef nationwide (lower 48).",
+      "last_checked": "2026-09-30"
     },
     {
       "slug": "darlington-ranch",
@@ -646,6 +648,21 @@
       "note": "Fifth-generation family ranch (Matt and Michelle Canny) in Stanton County, rural Kansas. Regenerative ranching with pasture rotation. Also operates farm-to-table restaurant at 112 South Main Street. Contact: hello@whollycowmarket.com. Address: 303 South Main St. Johnson, KS 67855.",
       "description": "Fifth-generation Kansas family ranch raising 100% grass-fed and grass-finished beef with regenerative practices. Cattle never given hormones, antibiotics, or grain. Ships nationwide from Johnson City with farm-to-table transparency.",
       "last_checked": "2026-09-29"
+    },
+    {
+      "slug": "sunset-ridge-beef",
+      "name": "Sunset Ridge Beef",
+      "url": "https://sunsetridgebeef.com/",
+      "state": "NY",
+      "city": "Morris",
+      "genetics": "All-natural premium Angus; pasture-raised, free to roam with no confinement; fed native grasses only; no hormones or antibiotics; New York Grown & Certified",
+      "breeds": ["angus"],
+      "products": ["steaks", "burger patties", "bulk beef shares"],
+      "shipping": "Free shipping east of Mississippi; nationwide shipping available; local pickup at farm; free home delivery for locals",
+      "phone": "607-285-4070",
+      "note": "Zrowka Family Ranch in New York's Butternut Valley. USDA Certified. Rotational grazing for sustainable ranching. Flash-frozen cryovacked beef products vacuum-sealed. 1/8, 1/4, 1/2, and whole beef shares available.",
+      "description": "Family ranch in New York's Butternut Valley raising USDA Certified, New York Grown & Certified all-natural Angus beef. Pasture-raised with rotational grazing, handled with low stress for better quality meat. Processed and vacuum-sealed, shipped frozen nationwide.",
+      "last_checked": "2026-09-30"
     }
   ]
 }
