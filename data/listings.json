@@ -162,7 +162,8 @@
       "shipping": "Florida only (free delivery within 100 miles of ranch; free pickup at ranch)",
       "phone": "813-212-2333",
       "note": "Florida-only shipping at this time (beta testing)",
-      "description": "Multi-family operation on 130 acres in horse country between Ocala and Gainesville. Cattle live entire lives on pasture."
+      "description": "Multi-family operation on 130 acres in horse country between Ocala and Gainesville. Cattle live entire lives on pasture.",
+      "last_checked": "2026-10-01"
     },
     {
       "slug": "quinn",
@@ -269,7 +270,8 @@
       "shipping": "Ships nationwide (flat-rate shipping for retail cuts); half/quarter steer pickup only",
       "phone": "864-747-8458",
       "description": "Family farm in South Carolina raising 100% Full Blood Wagyu pasture-raised and finished on a proprietary feeding program. No hormones; antibiotics only as necessary. AWA-certified herd. DNA-verified products available.",
-      "featured": false
+      "featured": false,
+      "last_checked": "2026-10-01"
     },
     {
       "slug": "koopmann-family-beef",
@@ -663,6 +665,21 @@
       "note": "Zrowka Family Ranch in New York's Butternut Valley. USDA Certified. Rotational grazing for sustainable ranching. Flash-frozen cryovacked beef products vacuum-sealed. 1/8, 1/4, 1/2, and whole beef shares available.",
       "description": "Family ranch in New York's Butternut Valley raising USDA Certified, New York Grown & Certified all-natural Angus beef. Pasture-raised with rotational grazing, handled with low stress for better quality meat. Processed and vacuum-sealed, shipped frozen nationwide.",
       "last_checked": "2026-09-30"
+    },
+    {
+      "slug": "wagyu-legacy",
+      "name": "Wagyu Legacy",
+      "url": "https://wagyulegacy.com/",
+      "state": "TN",
+      "city": "Fairview",
+      "genetics": "American Wagyu; free-range, hormone-free, organically-fed; producing since 2015; distinct marbling, unsaturated fat, lower cholesterol",
+      "breeds": ["wagyu"],
+      "products": ["steaks", "ground", "burger patties", "sampler boxes"],
+      "shipping": "Ships to clients nationwide in temperature-controlled packaging; local pickup and delivery available in Middle Tennessee",
+      "phone": "615-504-9784",
+      "note": "The Legacy Cattle Company. USDA inspected and approved. Pickup location: 2671 Fairview, Suite 105, Fairview, TN 37062. Contact for orders: (615) 504-9784.",
+      "description": "Middle Tennessee ranch producing American Wagyu beef since 2015. Free-range, hormone-free, organically-fed cattle raised with care. USDA inspected cuts professionally packaged and shipped in air-tight, temperature-controlled packaging to clients nationwide.",
+      "last_checked": "2026-10-01"
     }
   ]
 }
