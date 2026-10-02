@@ -424,6 +424,7 @@ def build_index():
                 <a href="/tennessee/" class="hub-link">Tennessee <span class="count">({len([l for l in listings if l.get('state') == 'TN'])})</span></a>
                 <a href="/washington/" class="hub-link">Washington <span class="count">({len([l for l in listings if l['state'] == 'WA'])})</span></a>
                 <a href="/wyoming/" class="hub-link">Wyoming <span class="count">({len([l for l in listings if 'WY' in l.get('state', '')])})</span></a>
+                <a href="/guides/cattle-breeds/" class="hub-link">Cattle Breeds Guide →</a>
                 <a href="/guides/wagyu-vs-akaushi/" class="hub-link">Wagyu vs Akaushi →</a>
             </div>
         </div>
@@ -601,6 +602,7 @@ def build_guide():
                 <div class="cta">
                     <a href="/wagyu/" class="btn-primary">Browse Wagyu Ranches</a>
                     <a href="/akaushi/" class="btn-primary">Browse Akaushi Ranches</a>
+                    <a href="/guides/cattle-breeds/" class="btn-secondary">Cattle Breeds Overview</a>
                 </div>
             </article>
         </div>
