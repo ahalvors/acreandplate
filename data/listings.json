@@ -96,7 +96,8 @@
       "shipping": "Ships throughout US; Saturday farm pickup 9-11am",
       "phone": "352-266-9504",
       "note": "Family farm since 1976, also offers Berkshire pork and pastured poultry",
-      "description": "Among a handful of farms producing 100% grass-fed & finished Wagyu. Saturday pickups available at the farm."
+      "description": "Among a handful of farms producing 100% grass-fed & finished Wagyu. Saturday pickups available at the farm.",
+      "last_checked": "2026-10-02"
     },
     {
       "slug": "rutledge-ryan",
@@ -109,7 +110,8 @@
       "products": ["steaks", "ground", "hot dogs", "jerky", "whole/half/quarter beef"],
       "shipping": "Ships nationwide",
       "phone": "903-647-3006",
-      "description": "Dry-aged for peak flavor. No steroids, growth hormones, or unnecessary antibiotics."
+      "description": "Dry-aged for peak flavor. No steroids, growth hormones, or unnecessary antibiotics.",
+      "last_checked": "2026-10-02"
     },
     {
       "slug": "mahan",
@@ -694,6 +696,19 @@
       "phone": "801-913-0016",
       "note": "Family farm since 1908 with over three generations of experience. Custom cuts prepared by USDA-certified butcher. Dry-aged 14-21 days. Location: 1212 W. 400 N., Lehi, UT 84043. Contact: info@lewislivestock.com",
       "description": "Family farm in Lehi, Utah producing locally raised beef since 1908. Grass-fed and grain-finished cattle raised with care, without unnecessary antibiotics or hormones. Custom cuts prepared and vacuum-sealed by a USDA-certified butcher, dry-aged for 14-21 days for superior tenderness and flavor.",
+      "last_checked": "2026-10-02"
+    },
+    {
+      "slug": "grand-view-beef",
+      "name": "Grand View Beef",
+      "url": "https://www.grandviewbeef.com/",
+      "state": "IA",
+      "city": "Clarion",
+      "genetics": "100% grass-fed and grass-finished; AGA third-party verified; regenerative rotational grazing; no grain, antibiotics, or added hormones ever; dry-aged 14 days",
+      "breeds": [],
+      "products": ["steaks", "ground", "roasts", "boxes", "beef shares", "subscription club", "beef sticks", "pastured chicken"],
+      "shipping": "Ships nationwide Tuesdays via UPS frozen with dry ice; flat-rate $20–$59 continental US, $120 AK/HI",
+      "description": "Fifth-generation family farm (Knute & Amanda Severson) in Clarion, Iowa raising 100% grass-fed and grass-finished beef since 2017. American Grassfed Association third-party verified. Dry-aged 14 days. Regenerative farming with intensive rotational grazing builds soil health, captures carbon, and restores wildlife habitat.",
       "last_checked": "2026-10-02"
     }
   ]
