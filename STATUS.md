@@ -1,20 +1,21 @@
 # Acre & Plate - Status
 
-**Last Updated:** September 29, 2026  
+**Last Updated:** October 2, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 49
+- **Total Ranches:** 50
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
-- **Butcher Shops:** 19
+- **Butcher Shops:** 20
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
 - **Wagyu Ranches:** 22
 - **Akaushi Ranches:** 6
 - **Heritage Breeds:** 3
 - **Arizona Ranches:** 1
+- **Iowa Ranches:** 1
 - **Kansas Ranches:** 2
 - **Texas Ranches:** 6
 - **California Ranches:** 16
@@ -26,9 +27,10 @@
 - **Oklahoma Ranches:** 1
 - **Oregon Ranches:** 3
 - **Tennessee Ranches:** 1
+- **Utah Ranches:** 2
 - **Washington Ranches:** 2
 - **Wyoming Ranches:** 3
-- **Total Pages:** 77
+- **Total Pages:** 80
 
 ## Pages Built
 
@@ -46,6 +48,7 @@
 - ✅ Akaushi hub (`/akaushi/`) - 5 ranches
 - ✅ Heritage Breeds hub (`/heritage/`) - 2 ranches
 - ✅ Arizona hub (`/arizona/`) - 1 ranch
+- ✅ Iowa hub (`/iowa/`) - 1 ranch
 - ✅ Kansas hub (`/kansas/`) - 2 ranches
 - ✅ Texas hub (`/texas/`) - 6 ranches
 - ✅ California hub (`/california/`) - 16 ranches
@@ -56,6 +59,8 @@
 - ✅ New York hub (`/new-york/`) - 1 ranch
 - ✅ Oklahoma hub (`/oklahoma/`) - 1 ranch
 - ✅ Oregon hub (`/oregon/`) - 3 ranches
+- ✅ Tennessee hub (`/tennessee/`) - 1 ranch
+- ✅ Utah hub (`/utah/`) - 2 ranches
 - ✅ Washington hub (`/washington/`) - 2 ranches
 - ✅ Wyoming hub (`/wyoming/`) - 3 ranches
 
@@ -112,6 +117,8 @@
 - ✅ Wholly Cow Market (KS)
 - ✅ Sunset Ridge Beef (NY)
 - ✅ Wagyu Legacy (TN)
+- ✅ Lewis Livestock (UT)
+- ✅ Grand View Beef (IA)
 
 ## Known Gaps & Notes
 
@@ -214,6 +221,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Sep 29, 2026 PT nightly ship:** Added **Wholly Cow Market** (Johnson City, KS) — fifth-generation family ranch (Matt and Michelle Canny) raising 100% grass-fed and grass-finished beef with regenerative practices; pasture rotation method; no hormones, no antibiotics, no grain; cattle on chemical-free and GMO-free pastures; ships nationwide (meat ships Mondays and Tuesdays only); free shipping on orders over $175. Second Kansas ranch on directory. Added Kansas state hub at `/kansas/` wired like other state hubs (home + nav pattern). Kansas now has 2 ranches (Grant Cattle Company + Wholly Cow Market). Re-verified all 3 active deals still live: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-09-29. Re-checked **Arizona Grass Raised Beef** (AZ) and **HeartBrand Beef** (TX) — both still operational, websites and shops active; set last_checked: "2026-09-29" on both listings. Total: 47 ranches, 3 deals, 3 markets, 19 butchers, 73 pages.
 - 📅 **Sep 30, 2026 PT nightly ship / Oct 1 UTC:** Added **Sunset Ridge Beef** (Morris, NY) — first New York ranch on directory: Zrowka Family Ranch in Butternut Valley raising USDA Certified, New York Grown & Certified all-natural Angus beef; pasture-raised with rotational grazing, fed native grasses only, no hormones or antibiotics; free shipping east of Mississippi, nationwide shipping available; phone 607-285-4070. Added New York state hub at `/new-york/` wired like other state hubs. Re-verified all 3 active deals still live with both regular and sale prices showing: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBB BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-09-30. Checked Yocha Dehe Ranch newsletter lead (Beef Polish Sausage 20% off) — product not visible on live shop page at https://yochadeheranch.com/beef, no deal added (either sold out or not currently listed). Re-checked **3Z Cattle Co** (CA) and **Alderspring Ranch** (ID) — both still operational, websites and shops active, valid MX records; set last_checked: "2026-09-30" on both listings. Total: 48 ranches, 3 deals, 3 markets, 19 butchers, 75 pages.
 - 📅 **Oct 1, 2026 PT nightly ship / Oct 2 UTC:** Added **Wagyu Legacy** (Fairview, TN) — first Tennessee ranch on directory: American Wagyu cattle producing since 2015, free-range, hormone-free, organically-fed; USDA inspected; ships to clients nationwide in temperature-controlled packaging; phone 615-504-9784. Added Tennessee state hub at `/tennessee/` wired like other state hubs. Re-verified all 3 active deals still live with both regular and sale prices showing: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-01. Checked newsletter leads (Yocha Dehe Polish Sausage special not visible on live beef shop page; Lone Mountain recipe email had no sale pricing; Alderspring newsletter had no sale pricing) — no new deals added. Re-checked **Black Wagyu Beef Co.** (FL) and **Caroland Farms Wagyu** (SC) — both operational, websites and shops active, valid MX records; set last_checked: "2026-10-01" on both listings. Total: 49 ranches, 3 deals, 3 markets, 19 butchers, 77 pages.
+- 📅 **Oct 2, 2026 PT nightly ship / Oct 3 UTC:** Added **Grand View Beef** (Clarion, IA) — first Iowa ranch on directory: Fifth-generation family farm (Knute & Amanda Severson) raising 100% grass-fed and grass-finished beef since 2017; AGA third-party verified; regenerative rotational grazing; dry-aged 14 days; ships nationwide Tuesdays via UPS frozen; flat-rate $20–$59 continental, $120 AK/HI. Added Iowa state hub at `/iowa/` wired like other state hubs. Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-02. Checked newsletter leads: Alderspring FREEZERSTOCKUP code not showing with both prices visible; Yocha Dehe Polish Sausage not on live shop page; no new deals added. Re-checked **Pasture Prime Wagyu** (FL) and **Rutledge Ryan Ranch** (TX) — both operational, websites and shops active, valid MX records; set last_checked: "2026-10-02" on both listings. Total: 50 ranches, 3 deals, 3 markets, 20 butchers, 80 pages.
 
 ### What We Record
 - ✅ Ranch name and location
