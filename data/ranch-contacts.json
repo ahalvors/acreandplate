@@ -405,5 +405,16 @@
     "notes": "Beef Club inquiries: Club@sekahills.com; General Yocha Dehe Wintun Nation: info@yochadehe.gov, 530-796-3400; Séka Hills Tasting Room: 530-796-2810; Capay Valley location",
     "outreach_status": "not_contacted",
     "verified_at": "2026-09-20"
+  },
+  {
+    "slug": "lewis-livestock",
+    "name": "Lewis Livestock",
+    "website": "https://www.lewislivestock.com/",
+    "email": "info@lewislivestock.com",
+    "email_source": "https://www.lewislivestock.com/",
+    "phone": "801-913-0016",
+    "notes": "Family farm in Lehi, Utah since 1908; grass-fed, grain-finished; custom cuts by USDA-certified butcher; dry-aged 14-21 days; shipping on products 20 lb and under",
+    "outreach_status": "not_contacted",
+    "verified_at": "2026-10-02"
   }
 ]
