@@ -422,6 +422,7 @@ def build_index():
                 <a href="/oklahoma/" class="hub-link">Oklahoma <span class="count">({len([l for l in listings if l.get('state') == 'OK'])})</span></a>
                 <a href="/oregon/" class="hub-link">Oregon <span class="count">({len([l for l in listings if l['state'] == 'OR'])})</span></a>
                 <a href="/tennessee/" class="hub-link">Tennessee <span class="count">({len([l for l in listings if l.get('state') == 'TN'])})</span></a>
+                <a href="/utah/" class="hub-link">Utah <span class="count">({len([l for l in listings if l.get('state') == 'UT'])})</span></a>
                 <a href="/washington/" class="hub-link">Washington <span class="count">({len([l for l in listings if l['state'] == 'WA'])})</span></a>
                 <a href="/wyoming/" class="hub-link">Wyoming <span class="count">({len([l for l in listings if 'WY' in l.get('state', '')])})</span></a>
                 <a href="/guides/cattle-breeds/" class="hub-link">Cattle Breeds Guide →</a>
@@ -1506,6 +1507,13 @@ def main():
         "Tennessee ranches raising American Wagyu beef with free-range, hormone-free practices and nationwide shipping."
     )
     
+    build_hub_page(
+        "Utah Ranches",
+        "utah",
+        lambda l: l.get('state') == 'UT',
+        "Utah ranches raising locally raised beef with family farm traditions and ranch-direct delivery."
+    )
+    
     # Guide
     build_guide()
     
@@ -1530,7 +1538,7 @@ def main():
         build_news_story(item)
     
     print(f"\n✓ Built {len(listings)} listing pages")
-    print("✓ Built hub pages (wagyu, akaushi, heritage, arizona, kansas, new-york, oklahoma, tennessee, texas, california, colorado, florida, idaho, montana, oregon, washington, wyoming)")
+    print("✓ Built hub pages (wagyu, akaushi, heritage, arizona, kansas, new-york, oklahoma, tennessee, texas, utah, california, colorado, florida, idaho, montana, oregon, washington, wyoming)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
     print(f"✓ Built markets page with {len(markets)} farmers markets and {len(butchers)} butcher shops")

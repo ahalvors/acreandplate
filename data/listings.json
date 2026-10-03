@@ -680,6 +680,21 @@
       "note": "The Legacy Cattle Company. USDA inspected and approved. Pickup location: 2671 Fairview, Suite 105, Fairview, TN 37062. Contact for orders: (615) 504-9784.",
       "description": "Middle Tennessee ranch producing American Wagyu beef since 2015. Free-range, hormone-free, organically-fed cattle raised with care. USDA inspected cuts professionally packaged and shipped in air-tight, temperature-controlled packaging to clients nationwide.",
       "last_checked": "2026-10-01"
+    },
+    {
+      "slug": "lewis-livestock",
+      "name": "Lewis Livestock",
+      "url": "https://www.lewislivestock.com/",
+      "state": "UT",
+      "city": "Lehi",
+      "genetics": "Grass-fed and grain-finished; no unnecessary antibiotics or hormones",
+      "breeds": [],
+      "products": ["ground", "burger patties", "quarter beef share", "half beef share", "whole beef share"],
+      "shipping": "Shipping available on products 20 lbs and under; delivery to your doorstep",
+      "phone": "801-913-0016",
+      "note": "Family farm since 1908 with over three generations of experience. Custom cuts prepared by USDA-certified butcher. Dry-aged 14-21 days. Location: 1212 W. 400 N., Lehi, UT 84043. Contact: info@lewislivestock.com",
+      "description": "Family farm in Lehi, Utah producing locally raised beef since 1908. Grass-fed and grain-finished cattle raised with care, without unnecessary antibiotics or hormones. Custom cuts prepared and vacuum-sealed by a USDA-certified butcher, dry-aged for 14-21 days for superior tenderness and flavor.",
+      "last_checked": "2026-10-02"
     }
   ]
 }
