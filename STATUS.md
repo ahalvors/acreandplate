@@ -5,18 +5,19 @@
 
 ## Site Statistics
 
-- **Total Ranches:** 50
+- **Total Ranches:** 51
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
 - **Butcher Shops:** 20
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
-- **Wagyu Ranches:** 22
+- **Wagyu Ranches:** 23
 - **Akaushi Ranches:** 6
 - **Heritage Breeds:** 3
 - **Arizona Ranches:** 1
 - **Iowa Ranches:** 1
 - **Kansas Ranches:** 2
+- **Michigan Ranches:** 1
 - **Texas Ranches:** 6
 - **California Ranches:** 16
 - **Colorado Ranches:** 2
@@ -30,7 +31,7 @@
 - **Utah Ranches:** 2
 - **Washington Ranches:** 2
 - **Wyoming Ranches:** 3
-- **Total Pages:** 80
+- **Total Pages:** 82
 
 ## Pages Built
 
@@ -67,7 +68,7 @@
 ### Guide Pages
 - ✅ Wagyu vs Akaushi Guide (`/guides/wagyu-vs-akaushi/`)
 
-### Listing Pages (48 ranches)
+### Listing Pages (49 ranches)
 - ✅ Lone Mountain Wagyu (NM)
 - ✅ HeartBrand Beef (TX)
 - ✅ Long Hill Wagyu (TX)
@@ -119,6 +120,7 @@
 - ✅ Wagyu Legacy (TN)
 - ✅ Lewis Livestock (UT)
 - ✅ Grand View Beef (IA)
+- ✅ Whispering Pines Ranch (MI)
 
 ## Known Gaps & Notes
 
@@ -222,6 +224,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Sep 30, 2026 PT nightly ship / Oct 1 UTC:** Added **Sunset Ridge Beef** (Morris, NY) — first New York ranch on directory: Zrowka Family Ranch in Butternut Valley raising USDA Certified, New York Grown & Certified all-natural Angus beef; pasture-raised with rotational grazing, fed native grasses only, no hormones or antibiotics; free shipping east of Mississippi, nationwide shipping available; phone 607-285-4070. Added New York state hub at `/new-york/` wired like other state hubs. Re-verified all 3 active deals still live with both regular and sale prices showing: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBB BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-09-30. Checked Yocha Dehe Ranch newsletter lead (Beef Polish Sausage 20% off) — product not visible on live shop page at https://yochadeheranch.com/beef, no deal added (either sold out or not currently listed). Re-checked **3Z Cattle Co** (CA) and **Alderspring Ranch** (ID) — both still operational, websites and shops active, valid MX records; set last_checked: "2026-09-30" on both listings. Total: 48 ranches, 3 deals, 3 markets, 19 butchers, 75 pages.
 - 📅 **Oct 1, 2026 PT nightly ship / Oct 2 UTC:** Added **Wagyu Legacy** (Fairview, TN) — first Tennessee ranch on directory: American Wagyu cattle producing since 2015, free-range, hormone-free, organically-fed; USDA inspected; ships to clients nationwide in temperature-controlled packaging; phone 615-504-9784. Added Tennessee state hub at `/tennessee/` wired like other state hubs. Re-verified all 3 active deals still live with both regular and sale prices showing: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-01. Checked newsletter leads (Yocha Dehe Polish Sausage special not visible on live beef shop page; Lone Mountain recipe email had no sale pricing; Alderspring newsletter had no sale pricing) — no new deals added. Re-checked **Black Wagyu Beef Co.** (FL) and **Caroland Farms Wagyu** (SC) — both operational, websites and shops active, valid MX records; set last_checked: "2026-10-01" on both listings. Total: 49 ranches, 3 deals, 3 markets, 19 butchers, 77 pages.
 - 📅 **Oct 2, 2026 PT nightly ship / Oct 3 UTC:** Added **Grand View Beef** (Clarion, IA) — first Iowa ranch on directory: Fifth-generation family farm (Knute & Amanda Severson) raising 100% grass-fed and grass-finished beef since 2017; AGA third-party verified; regenerative rotational grazing; dry-aged 14 days; ships nationwide Tuesdays via UPS frozen; flat-rate $20–$59 continental, $120 AK/HI. Added Iowa state hub at `/iowa/` wired like other state hubs. Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-02. Checked newsletter leads: Alderspring FREEZERSTOCKUP code not showing with both prices visible; Yocha Dehe Polish Sausage not on live shop page; no new deals added. Re-checked **Pasture Prime Wagyu** (FL) and **Rutledge Ryan Ranch** (TX) — both operational, websites and shops active, valid MX records; set last_checked: "2026-10-02" on both listings. Total: 50 ranches, 3 deals, 3 markets, 20 butchers, 80 pages.
+- 📅 **Oct 3, 2026 PT nightly ship:** Added **Whispering Pines Ranch** (Laingsburg, MI) — first Michigan ranch on directory: family-owned ranch in Shiawassee County raising Full-blood Wagyu and Belted Galloway on open pastures; pasture-raised, no hormones or growth hormones; USDA-processed beef shares (whole/half/quarter); free delivery within 50 miles of Laingsburg, delivery to select neighboring states; phone 608-963-2385. Added Michigan state hub at `/michigan/` wired like other state hubs. Wagyu hub now shows 23 ranches (up from 22). Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-03. Checked newsletter leads: Alderspring 16ths10off code applies at checkout (not both prices visible on page); Yocha Dehe Polish Sausage not on live shop page; Lone Mountain recipe email no sale pricing — no new deals added. Re-checked **Certified Piedmontese** (NE) and **Chapel Hill Farm** (VA) — both operational, websites and shops active, valid MX records; set last_checked: "2026-10-03" on both listings. Total: 51 ranches, 3 deals, 3 markets, 20 butchers, 82 pages.
 
 ### What We Record
 - ✅ Ranch name and location
