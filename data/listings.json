@@ -217,7 +217,8 @@
       "shipping": "Ships nationwide; local pickup in DC/MD/VA",
       "phone": "540-227-4450",
       "featured": true,
-      "description": "100% pasture-based. Deep, rich flavor without heavy intramuscular fat. Mission to save critically endangered Randall Lineback breed."
+      "description": "100% pasture-based. Deep, rich flavor without heavy intramuscular fat. Mission to save critically endangered Randall Lineback breed.",
+      "last_checked": "2026-10-03"
     },
     {
       "slug": "certified-piedmontese",
@@ -231,7 +232,8 @@
       "shipping": "Ships nationwide including Alaska & Hawaii",
       "phone": "800-414-3487",
       "featured": true,
-      "description": "Grass-finished, Non-GMO verified. Lean and tender without relying on fatty marbling. Raised on family ranches across the Midwest."
+      "description": "Grass-finished, Non-GMO verified. Lean and tender without relying on fatty marbling. Raised on family ranches across the Midwest.",
+      "last_checked": "2026-10-03"
     },
     {
       "slug": "mahanaim-dexter",
@@ -710,6 +712,21 @@
       "shipping": "Ships nationwide Tuesdays via UPS frozen with dry ice; flat-rate $20–$59 continental US, $120 AK/HI",
       "description": "Fifth-generation family farm (Knute & Amanda Severson) in Clarion, Iowa raising 100% grass-fed and grass-finished beef since 2017. American Grassfed Association third-party verified. Dry-aged 14 days. Regenerative farming with intensive rotational grazing builds soil health, captures carbon, and restores wildlife habitat.",
       "last_checked": "2026-10-02"
+    },
+    {
+      "slug": "whispering-pines-ranch",
+      "name": "Whispering Pines Ranch",
+      "url": "https://whisperingpinesranchllc.com/",
+      "state": "MI",
+      "city": "Laingsburg",
+      "genetics": "Full-blood Wagyu; pasture-raised and pasture-finished on open Michigan pastures; also raise Belted Galloway; optional grain finish available",
+      "breeds": ["wagyu"],
+      "products": ["whole beef", "half beef", "quarter beef"],
+      "shipping": "Free delivery within 50 miles of Laingsburg, Michigan; delivery to select neighboring states; contact for options",
+      "phone": "608-963-2385",
+      "note": "USDA processed beef shares with custom cuts. Deposit-based ordering ($10/lb hanging weight). Beef processed within 48-72 hours of butcher date. Contact via email riley@whisperingpinesranchllc.com for orders and cut sheets.",
+      "description": "Family-owned ranch in Shiawassee County raising Full-blood Wagyu and Belted Galloway cattle on open pastures. Pasture-raised with natural diet, no hormones or growth hormones, low-stress environment. Rotational grazing for sustainable farming. USDA-processed beef delivered or available for pickup.",
+      "last_checked": "2026-10-03"
     }
   ]
 }
