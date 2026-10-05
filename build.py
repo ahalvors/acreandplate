@@ -1454,6 +1454,13 @@ def main():
     )
     
     build_hub_page(
+        "Wisconsin Ranches",
+        "wisconsin",
+        lambda l: l['state'] == 'WI',
+        "Wisconsin ranches offering 100% grass-fed and grass-finished beef from farmer-owned cooperatives. Ranch-direct shipping available."
+    )
+    
+    build_hub_page(
         "Heritage Breeds",
         "heritage",
         lambda l: 'heritage' in l.get('breeds', []),
@@ -1554,14 +1561,14 @@ def main():
         build_news_story(item)
     
     print(f"\n✓ Built {len(listings)} listing pages")
-    print("✓ Built hub pages (wagyu, akaushi, heritage, arizona, iowa, kansas, michigan, new-york, oklahoma, tennessee, texas, utah, california, colorado, florida, idaho, montana, oregon, washington, wyoming)")
+    print("✓ Built hub pages (wagyu, akaushi, heritage, arizona, iowa, kansas, michigan, new-york, oklahoma, tennessee, texas, utah, california, colorado, florida, idaho, montana, oregon, washington, wisconsin, wyoming)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
     print(f"✓ Built markets page with {len(markets)} farmers markets and {len(butchers)} butcher shops")
     print(f"✓ Built news page with {len(news_items)} updates")
     print(f"✓ Built {len(news_items)} individual news story pages")
     print("✓ Built featured ranch pages")
-    print(f"\n✨ Site build complete! Total pages: {len(listings) + len(news_items) + 17}")
+    print(f"\n✨ Site build complete! Total pages: {len(listings) + len(news_items) + 18}")
 
 if __name__ == '__main__':
     main()
