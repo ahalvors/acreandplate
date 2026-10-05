@@ -1,6 +1,50 @@
 {
   "news": [
     {
+      "id": "directory-milestone-53-ranches",
+      "published_at": "2026-10-06T08:15:00-07:00",
+      "headline": "Directory now lists 53 verified ranches",
+      "body": "<p>The Acre & Plate directory has grown to <strong>53</strong> ranches across the U.S. selling beef from named herds: Fullblood Wagyu, Akaushi, heritage breeds, and grass-fed family ranches. Each ranch is verified from its public website.</p><p>One new verified ranch since the <a href=\"/news/directory-milestone-52-ranches/\">52 milestone</a>: <a href=\"/listings/wisconsin-meadows/\">Wisconsin Meadows</a>. The listing header says Viroqua, WI, and the same page also says Wisconsin Grass-fed Beef Cooperative of 230+ Wisconsin family farms (100% grass-fed and grass-finished; rotational grazing; no antibiotics, growth hormones, GMOs, or pesticides; breeds proven hearty on all-forage diet). It is the first Wisconsin listing in the directory.</p><p>Same rule as always: not grocery-store marketing, just working ranches selling direct to people who care where dinner came from. Browse by breed and state at <a href=\"/listings/\">acreandplate.com/listings</a>. Ranch partners who want premium placement can see Featured Ranch at <a href=\"/featured/\">acreandplate.com/featured</a> (one-pager: <a href=\"/featured/one-pager.pdf\">PDF</a>).</p>",
+      "icon": "🐂",
+      "tags": [
+        "directory",
+        "milestone"
+      ]
+    },
+    {
+      "id": "directory-milestone-52-ranches",
+      "published_at": "2026-10-05T08:15:00-07:00",
+      "headline": "Directory now lists 52 verified ranches",
+      "body": "<p>The Acre & Plate directory has grown to <strong>52</strong> ranches across the U.S. selling beef from named herds: Fullblood Wagyu, Akaushi, heritage breeds, and grass-fed family ranches. Each ranch is verified from its public website.</p><p>One new verified ranch since the <a href=\"/news/directory-milestone-51-ranches/\">51 milestone</a>: <a href=\"/listings/whispering-pines-ranch/\">Whispering Pines Ranch</a>. The listing header says Laingsburg, MI, and the same page also says Shiawassee County (Full-blood Wagyu; pasture-raised and pasture-finished on open Michigan pastures; also raise Belted Galloway; optional grain finish available). It is the first Michigan listing in the directory.</p><p>Same rule as always: not grocery-store marketing, just working ranches selling direct to people who care where dinner came from. Browse by breed and state at <a href=\"/listings/\">acreandplate.com/listings</a>. Ranch partners who want premium placement can see Featured Ranch at <a href=\"/featured/\">acreandplate.com/featured</a> (one-pager: <a href=\"/featured/one-pager.pdf\">PDF</a>).</p>",
+      "icon": "🐂",
+      "tags": [
+        "directory",
+        "milestone"
+      ]
+    },
+    {
+      "id": "directory-milestone-51-ranches",
+      "published_at": "2026-10-04T08:15:00-07:00",
+      "headline": "Directory now lists 51 verified ranches",
+      "body": "<p>The Acre & Plate directory has grown to <strong>51</strong> ranches across the U.S. selling beef from named herds: Fullblood Wagyu, Akaushi, heritage breeds, and grass-fed family ranches. Each ranch is verified from its public website.</p><p>One new verified ranch since the <a href=\"/news/directory-milestone-50-ranches/\">50 milestone</a>: <a href=\"/listings/grand-view-beef/\">Grand View Beef</a>. The listing header says Clarion, IA, and the same page also says Clarion, Iowa (100% grass-fed and grass-finished; AGA third-party verified; regenerative rotational grazing; no grain, antibiotics, or added hormones ever; dry-aged 14 days). It is the first Iowa listing in the directory.</p><p>Same rule as always: not grocery-store marketing, just working ranches selling direct to people who care where dinner came from. Browse by breed and state at <a href=\"/listings/\">acreandplate.com/listings</a>. Ranch partners who want premium placement can see Featured Ranch at <a href=\"/featured/\">acreandplate.com/featured</a> (one-pager: <a href=\"/featured/one-pager.pdf\">PDF</a>).</p>",
+      "icon": "🐂",
+      "tags": [
+        "directory",
+        "milestone"
+      ]
+    },
+    {
+      "id": "directory-milestone-50-ranches",
+      "published_at": "2026-10-03T08:15:00-07:00",
+      "headline": "Directory now lists 50 verified ranches",
+      "body": "<p>The Acre & Plate directory has grown to <strong>50</strong> ranches across the U.S. selling beef from named herds: Fullblood Wagyu, Akaushi, heritage breeds, and grass-fed family ranches. Each ranch is verified from its public website.</p><p>One new verified ranch since the <a href=\"/news/directory-milestone-49-ranches/\">49 milestone</a>: <a href=\"/listings/lewis-livestock/\">Lewis Livestock</a>. The listing header says Lehi, UT, and the same page also says Lehi, Utah (grass-fed and grain-finished; no unnecessary antibiotics or hormones).</p><p>Same rule as always: not grocery-store marketing, just working ranches selling direct to people who care where dinner came from. Browse by breed and state at <a href=\"/listings/\">acreandplate.com/listings</a>. Ranch partners who want premium placement can see Featured Ranch at <a href=\"/featured/\">acreandplate.com/featured</a> (one-pager: <a href=\"/featured/one-pager.pdf\">PDF</a>).</p>",
+      "icon": "🐂",
+      "tags": [
+        "directory",
+        "milestone"
+      ]
+    },
+    {
       "id": "directory-milestone-49-ranches",
       "published_at": "2026-10-02T08:15:00-07:00",
       "headline": "Directory now lists 49 verified ranches",
