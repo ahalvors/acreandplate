@@ -123,7 +123,8 @@
       "breeds": ["wagyu"],
       "products": ["steaks", "roasts", "ground"],
       "shipping": "Ships nationwide (2-4 business days)",
-      "description": "2,500-acre ranch at the edge of Palo Duro Canyon. Grass-fed, grain-finished, dry-aged 14-21 days."
+      "description": "2,500-acre ranch at the edge of Palo Duro Canyon. Grass-fed, grain-finished, dry-aged 14-21 days.",
+      "last_checked": "2026-10-04"
     },
     {
       "slug": "mossyrock",
@@ -136,7 +137,8 @@
       "products": ["steaks", "roasts", "ground", "whole/half/quarter shares"],
       "shipping": "Ships nationwide",
       "phone": "602-625-0844",
-      "description": "Raised in the Klickitat Valley between Mt. Rainier and Mt. St. Helens. Never use hormones or antibiotics."
+      "description": "Raised in the Klickitat Valley between Mt. Rainier and Mt. St. Helens. Never use hormones or antibiotics.",
+      "last_checked": "2026-10-04"
     },
     {
       "slug": "grant-cattle",
@@ -727,6 +729,20 @@
       "note": "USDA processed beef shares with custom cuts. Deposit-based ordering ($10/lb hanging weight). Beef processed within 48-72 hours of butcher date. Contact via email riley@whisperingpinesranchllc.com for orders and cut sheets.",
       "description": "Family-owned ranch in Shiawassee County raising Full-blood Wagyu and Belted Galloway cattle on open pastures. Pasture-raised with natural diet, no hormones or growth hormones, low-stress environment. Rotational grazing for sustainable farming. USDA-processed beef delivered or available for pickup.",
       "last_checked": "2026-10-03"
+    },
+    {
+      "slug": "wisconsin-meadows",
+      "name": "Wisconsin Meadows",
+      "url": "https://wisconsinmeadows.com/",
+      "state": "WI",
+      "city": "Viroqua",
+      "genetics": "100% grass-fed and grass-finished; Wisconsin Grass-fed Beef Cooperative of 230+ Wisconsin family farms; rotational grazing; no antibiotics, growth hormones, GMOs, or pesticides; breeds proven hearty on all-forage diet",
+      "breeds": [],
+      "products": ["steaks", "roasts", "ground", "bundles", "whole beef", "half beef", "subscription boxes"],
+      "shipping": "Ships nationwide with free shipping on one-time purchases; free delivery of whole/half beef in SE Wisconsin only",
+      "phone": "800-745-9093",
+      "description": "Farmer-owned cooperative of 230+ Wisconsin family farms raising 100% grass-fed and grass-finished beef with regenerative practices. Low-stress handling and rotational grazing protect soil and water resources. All business decisions made by member farmers, profits returned to farmers. Cryovac-sealed, frozen, and delivered to your door.",
+      "last_checked": "2026-10-04"
     }
   ]
 }
