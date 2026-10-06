@@ -760,6 +760,19 @@
       "note": "On-farm store Monday-Friday 7:30AM-5:30PM, Saturday 9AM-4PM. Carbondale Farmers Market Saturdays 8am-12pm (April-Nov). Processor pickup available in Anna, IL. Also sells pastured heritage pork (Red Wattle and Tamworth breeds).",
       "description": "Small family farm (David Brubaker) in Southern Illinois raising 100% grass-fed and grass-finished beef with regenerative practices. Cattle on non-GMO pastures with rotational grazing. Antibiotic-free, hormone-free, mRNA-free, GMO-free, corn-free, soy-free. Ships nationwide via UPS or local delivery, with on-farm store and farmers market presence.",
       "last_checked": "2026-10-05"
+    },
+    {
+      "slug": "flying-b-beef",
+      "name": "Flying B Beef",
+      "url": "https://flyingbbeef.com/",
+      "state": "CA",
+      "city": "Catheys Valley",
+      "genetics": "Black Angus; bred, born, raised, grazed, and finished in California; 100% grass-fed and pasture-raised in central California foothills; grain-finished year-round (grain mix, alfalfa, oat hay for ~130-145 days) or grass-finished whole shares (once yearly, May-June); rotational grazing",
+      "breeds": [],
+      "products": ["beef boxes (Urbanite, Ranchette, Doublewide, Burger Box, Homesteader, Baron Box)", "bulk shares (quarter/half/whole)"],
+      "shipping": "Local pickup at Mae It Be Home, downtown Mariposa, CA; free delivery on orders $1,000+ within ~1 hour of Catheys Valley (approx. Clovis to Modesto area)",
+      "note": "USDA-inspected processing in Atwater, CA; cut and wrapped at Western Meats, Modesto. Quarter share (Baron Box) is pre-packaged; half and whole shares include custom cut sheet.",
+      "description": "Family-owned beef operation (Austin and Lauren Miller) in Catheys Valley, Mariposa County, California. Black Angus cattle raised in the central California foothills with rotational grazing. Grain-finished and grass-finished options available."
     }
   ]
 }
