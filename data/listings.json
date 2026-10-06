@@ -760,6 +760,19 @@
       "note": "On-farm store Monday-Friday 7:30AM-5:30PM, Saturday 9AM-4PM. Carbondale Farmers Market Saturdays 8am-12pm (April-Nov). Processor pickup available in Anna, IL. Also sells pastured heritage pork (Red Wattle and Tamworth breeds).",
       "description": "Small family farm (David Brubaker) in Southern Illinois raising 100% grass-fed and grass-finished beef with regenerative practices. Cattle on non-GMO pastures with rotational grazing. Antibiotic-free, hormone-free, mRNA-free, GMO-free, corn-free, soy-free. Ships nationwide via UPS or local delivery, with on-farm store and farmers market presence.",
       "last_checked": "2026-10-05"
+    },
+    {
+      "slug": "flying-b-beef",
+      "name": "Flying B Beef",
+      "url": "https://flyingbbeef.com/",
+      "state": "CA",
+      "city": "Catheys Valley",
+      "genetics": "Black Angus; bred, born, raised, grazed, and finished in California; 100% pasture-raised in the central California foothills with rotational grazing; all grass-fed, with beef boxes grain-finished (grain mix, alfalfa, oat hay ~130–145 days); grass-finished whole shares once a year (spring reservations, ready May–June)",
+      "breeds": [],
+      "products": ["beef boxes (Urbanite, Ranchette, Doublewide, Burger Box, Homesteader, Baron Box)", "bulk shares (quarter/half/whole)"],
+      "shipping": "Free pickup at Mae It Be Home in downtown Mariposa, CA; bulk shares: free delivery within ~1 hour of Catheys Valley (approx. Clovis to Modesto); beef boxes: local delivery on orders $1,000+ within same area",
+      "note": "USDA-inspected processing in Atwater, CA; cut and wrapped at Western Meats, Modesto. Quarter share (Baron Box) is pre-packaged; half and whole shares include custom cut sheet.",
+      "description": "Family-owned beef operation (Austin and Lauren Miller) in Catheys Valley, Mariposa County, California. Black Angus cattle raised in the central California foothills with rotational grazing. All cattle grass-fed; beef boxes use grain-finished cattle, grass-finished whole shares available once yearly."
     }
   ]
 }
