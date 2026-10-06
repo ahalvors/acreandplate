@@ -152,7 +152,8 @@
       "shipping": "Contact for pricing and availability",
       "phone": "405-612-4575",
       "note": "Veteran-owned ranch; cattle raised and finished on-site, never sent to feedlot",
-      "description": "Family-run, veteran-owned ranch raising Fullblood and American Wagyu. Raised and finished right on our ranch."
+      "description": "Family-run, veteran-owned ranch raising Fullblood and American Wagyu. Raised and finished right on our ranch.",
+      "last_checked": "2026-10-05"
     },
     {
       "slug": "black-wagyu-beef-co",
@@ -180,7 +181,8 @@
       "products": ["steaks", "ground", "roasts", "quarter/half/whole beef"],
       "shipping": "Ships nationwide or local pickup",
       "phone": "682-239-6447",
-      "description": "Family operation raising DNA-verified Akaushi cattle on all-natural ration formulated specifically for the breed."
+      "description": "Family operation raising DNA-verified Akaushi cattle on all-natural ration formulated specifically for the breed.",
+      "last_checked": "2026-10-05"
     },
     {
       "slug": "tribe",
@@ -743,6 +745,21 @@
       "phone": "800-745-9093",
       "description": "Farmer-owned cooperative of 230+ Wisconsin family farms raising 100% grass-fed and grass-finished beef with regenerative practices. Low-stress handling and rotational grazing protect soil and water resources. All business decisions made by member farmers, profits returned to farmers. Cryovac-sealed, frozen, and delivered to your door.",
       "last_checked": "2026-10-04"
+    },
+    {
+      "slug": "log-cabin-ranch",
+      "name": "The Log Cabin Ranch",
+      "url": "https://thelogcabinranch.com/",
+      "state": "IL",
+      "city": "Ina",
+      "genetics": "100% grass-fed and grass-finished; regenerative rotational grazing (move cattle to new pasture several times a week, sometimes daily); no Roundup, pesticides, or fungicides; non-GMO pastures; natural free-choice minerals; non-pasteurized apple cider vinegar as probiotic; late weaning (10+ months)",
+      "breeds": [],
+      "products": ["steaks", "roasts", "ground", "stew meat", "brisket", "boxes", "beef shares"],
+      "shipping": "Ships nationwide via UPS or Farmstead Foods (contiguous 48 states); overnight or 2-day shipping; orders by Tuesday midnight ship before weekend",
+      "phone": "618-927-7711",
+      "note": "On-farm store Monday-Friday 7:30AM-5:30PM, Saturday 9AM-4PM. Carbondale Farmers Market Saturdays 8am-12pm (April-Nov). Processor pickup available in Anna, IL. Also sells pastured heritage pork (Red Wattle and Tamworth breeds).",
+      "description": "Small family farm (David Brubaker) in Southern Illinois raising 100% grass-fed and grass-finished beef with regenerative practices. Cattle on non-GMO pastures with rotational grazing. Antibiotic-free, hormone-free, mRNA-free, GMO-free, corn-free, soy-free. Ships nationwide via UPS or local delivery, with on-farm store and farmers market presence.",
+      "last_checked": "2026-10-05"
     }
   ]
 }
