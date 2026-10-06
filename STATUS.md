@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** October 4, 2026  
+**Last Updated:** October 5, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 52
+- **Total Ranches:** 53
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -15,6 +15,7 @@
 - **Akaushi Ranches:** 6
 - **Heritage Breeds:** 3
 - **Arizona Ranches:** 1
+- **Illinois Ranches:** 1
 - **Iowa Ranches:** 1
 - **Kansas Ranches:** 2
 - **Michigan Ranches:** 1
@@ -32,7 +33,7 @@
 - **Washington Ranches:** 2
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
-- **Total Pages:** 83
+- **Total Pages:** 85
 
 ## Pages Built
 
@@ -50,6 +51,7 @@
 - ✅ Akaushi hub (`/akaushi/`) - 5 ranches
 - ✅ Heritage Breeds hub (`/heritage/`) - 2 ranches
 - ✅ Arizona hub (`/arizona/`) - 1 ranch
+- ✅ Illinois hub (`/illinois/`) - 1 ranch
 - ✅ Iowa hub (`/iowa/`) - 1 ranch
 - ✅ Kansas hub (`/kansas/`) - 2 ranches
 - ✅ Texas hub (`/texas/`) - 6 ranches
@@ -124,6 +126,7 @@
 - ✅ Grand View Beef (IA)
 - ✅ Whispering Pines Ranch (MI)
 - ✅ Wisconsin Meadows (WI)
+- ✅ The Log Cabin Ranch (IL)
 
 ## Known Gaps & Notes
 
@@ -229,6 +232,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Oct 2, 2026 PT nightly ship / Oct 3 UTC:** Added **Grand View Beef** (Clarion, IA) — first Iowa ranch on directory: Fifth-generation family farm (Knute & Amanda Severson) raising 100% grass-fed and grass-finished beef since 2017; AGA third-party verified; regenerative rotational grazing; dry-aged 14 days; ships nationwide Tuesdays via UPS frozen; flat-rate $20–$59 continental, $120 AK/HI. Added Iowa state hub at `/iowa/` wired like other state hubs. Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-02. Checked newsletter leads: Alderspring FREEZERSTOCKUP code not showing with both prices visible; Yocha Dehe Polish Sausage not on live shop page; no new deals added. Re-checked **Pasture Prime Wagyu** (FL) and **Rutledge Ryan Ranch** (TX) — both operational, websites and shops active, valid MX records; set last_checked: "2026-10-02" on both listings. Total: 50 ranches, 3 deals, 3 markets, 20 butchers, 80 pages.
 - 📅 **Oct 3, 2026 PT nightly ship:** Added **Whispering Pines Ranch** (Laingsburg, MI) — first Michigan ranch on directory: family-owned ranch in Shiawassee County raising Full-blood Wagyu and Belted Galloway on open pastures; pasture-raised, no hormones or growth hormones; USDA-processed beef shares (whole/half/quarter); free delivery within 50 miles of Laingsburg, delivery to select neighboring states; phone 608-963-2385. Added Michigan state hub at `/michigan/` wired like other state hubs. Wagyu hub now shows 23 ranches (up from 22). Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-03. Checked newsletter leads: Alderspring 16ths10off code applies at checkout (not both prices visible on page); Yocha Dehe Polish Sausage not on live shop page; Lone Mountain recipe email no sale pricing — no new deals added. Re-checked **Certified Piedmontese** (NE) and **Chapel Hill Farm** (VA) — both operational, websites and shops active, valid MX records; set last_checked: "2026-10-03" on both listings. Total: 51 ranches, 3 deals, 3 markets, 20 butchers, 82 pages.
 - 📅 **Oct 4, 2026 nightly ship:** Added **Wisconsin Meadows** (Viroqua, WI) — first Wisconsin ranch on directory: farmer-owned cooperative of 230+ Wisconsin family farms raising 100% grass-fed and grass-finished beef with regenerative practices; rotational grazing; no antibiotics, growth hormones, GMOs, or pesticides; ships nationwide with free shipping on one-time purchases; phone 800-745-9093, email support@wisconsinmeadows.com. Added Wisconsin state hub at `/wisconsin/` wired like other state hubs. Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-04 and corrected Mossyrock product URL. Checked Alderspring lead from Oct 2 email (16ths10off code for sixteenth shares): sixteenths page does show both regular and sale prices directly (e.g., Family Box Sixteenth at $240 sale from $300 regular), but these appear to be standard ongoing prices for non-certified beef, not a new promotional deal — no new deal added. Re-checked **Mahan Wagyu (Ranch & Trail)** (TX) and **Mossyrock Wagyu** (WA) — both operational, websites and shops active, valid MX records; set last_checked: "2026-10-04" on both listings. Total: 52 ranches, 3 deals, 3 markets, 20 butchers, 83 pages.
+- 📅 **Oct 5, 2026 nightly ship:** Added **The Log Cabin Ranch** (Ina, IL) — first Illinois ranch on directory: small family farm (David Brubaker) raising 100% grass-fed and grass-finished beef with regenerative rotational grazing (move cattle to new pasture several times a week, sometimes daily); non-GMO pastures with no Roundup, pesticides, or fungicides; natural free-choice minerals; antibiotic-free, hormone-free, mRNA-free, GMO-free, corn-free, soy-free; ships nationwide via UPS or Farmstead Foods (contiguous 48 states), overnight or 2-day shipping; orders by Tuesday midnight ship before weekend; phone 618-927-7711; on-farm store Monday-Friday 7:30AM-5:30PM, Saturday 9AM-4PM; Carbondale Farmers Market Saturdays 8am-12pm (April-Nov). Added Illinois state hub at `/illinois/` wired like other state hubs. Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-05. No new deals found tonight. Re-checked **Grant Cattle Company** (KS) and **Quinn Beef** (TX) — both operational, websites and shops active, valid MX records; set last_checked: "2026-10-05" on both listings. Total: 53 ranches, 3 deals, 3 markets, 20 butchers, 85 pages.
 
 ### What We Record
 - ✅ Ranch name and location

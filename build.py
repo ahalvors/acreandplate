@@ -411,6 +411,7 @@ def build_index():
                 <a href="/akaushi/" class="hub-link">Akaushi <span class="count">({len([l for l in listings if 'akaushi' in l['breeds']])})</span></a>
                 <a href="/heritage/" class="hub-link">Heritage Breeds <span class="count">({len([l for l in listings if 'heritage' in l.get('breeds', [])])})</span></a>
                 <a href="/arizona/" class="hub-link">Arizona <span class="count">({len([l for l in listings if l.get('state') == 'AZ'])})</span></a>
+                <a href="/illinois/" class="hub-link">Illinois <span class="count">({len([l for l in listings if l.get('state') == 'IL'])})</span></a>
                 <a href="/iowa/" class="hub-link">Iowa <span class="count">({len([l for l in listings if l.get('state') == 'IA'])})</span></a>
                 <a href="/kansas/" class="hub-link">Kansas <span class="count">({len([l for l in listings if l.get('state') == 'KS'])})</span></a>
                 <a href="/michigan/" class="hub-link">Michigan <span class="count">({len([l for l in listings if l.get('state') == 'MI'])})</span></a>
@@ -1493,6 +1494,13 @@ def main():
         "iowa",
         lambda l: l.get('state') == 'IA',
         "Iowa ranches raising 100% grass-fed and grass-finished beef with regenerative farming practices and nationwide shipping."
+    )
+    
+    build_hub_page(
+        "Illinois Ranches",
+        "illinois",
+        lambda l: l.get('state') == 'IL',
+        "Illinois ranches raising 100% grass-fed and grass-finished beef with regenerative practices and nationwide shipping."
     )
     
     build_hub_page(
