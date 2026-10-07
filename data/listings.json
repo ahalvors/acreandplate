@@ -185,6 +185,21 @@
       "last_checked": "2026-10-05"
     },
     {
+      "slug": "sugar-hill-farm-pa",
+      "name": "Sugar Hill Farm",
+      "url": "https://sugarhillfarmpa.com/",
+      "state": "PA",
+      "city": "St. Marys",
+      "genetics": "100% grass-fed and grass-finished Scottish Highland cattle; heritage breed; no grain finishing ever; pasture-raised year-round on rotational grazing",
+      "breeds": ["heritage", "scottish-highland"],
+      "products": ["steaks", "roasts", "ground", "beef boxes", "bulk cow shares"],
+      "shipping": "Ships nationwide; free shipping on orders over $76; local pickup at farm in St. Marys, PA",
+      "phone": "814-594-9686",
+      "note": "Founded 2020. Flash-frozen at peak freshness and vacuum-sealed. USDA inspected processing. Farm pickup or nationwide shipping. Contact: sugarhillfarmpa@gmail.com",
+      "description": "Pennsylvania family farm in St. Marys raising Scottish Highland cattle on open pasture year-round. 100% grass-fed from birth through finishing—no grain, ever. Regenerative farming with rotational grazing. Ranch-direct delivery from farm to door.",
+      "last_checked": "2026-10-06"
+    },
+    {
       "slug": "tribe",
       "name": "Tribe Ranch",
       "url": "https://triberanch.net/",
@@ -194,7 +209,8 @@
       "breeds": ["akaushi"],
       "products": ["steaks", "ground", "bundles", "quarter cow"],
       "shipping": "48 contiguous states (free shipping on orders $300+); local delivery within 100 miles",
-      "description": "Grass-fed, grain-finished. All-natural with no hormones. Registered with American Akaushi Association."
+      "description": "Grass-fed, grain-finished. All-natural with no hormones. Registered with American Akaushi Association.",
+      "last_checked": "2026-10-06"
     },
     {
       "slug": "hook-cleaver",
@@ -207,7 +223,8 @@
       "products": ["steaks", "ground", "roasts - retail locations"],
       "shipping": "Walk-in retail shops (Temecula, Murrieta, Lake Havasu); also ships nationwide",
       "phone": "888-879-2498",
-      "description": "Free-range on 250,000 acres of Idaho pasture. Three retail butcher shop locations, Mon-Fri 10am-5pm."
+      "description": "Free-range on 250,000 acres of Idaho pasture. Three retail butcher shop locations, Mon-Fri 10am-5pm.",
+      "last_checked": "2026-10-06"
     },
     {
       "slug": "chapel-hill",

@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** October 5, 2026  
+**Last Updated:** October 6, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 55
+- **Total Ranches:** 56
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -13,7 +13,7 @@
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
 - **Wagyu Ranches:** 23
 - **Akaushi Ranches:** 6
-- **Heritage Breeds:** 3
+- **Heritage Breeds:** 4
 - **Arizona Ranches:** 1
 - **Illinois Ranches:** 1
 - **Iowa Ranches:** 1
@@ -28,12 +28,13 @@
 - **New York Ranches:** 1
 - **Oklahoma Ranches:** 1
 - **Oregon Ranches:** 3
+- **Pennsylvania Ranches:** 1
 - **Tennessee Ranches:** 1
 - **Utah Ranches:** 2
 - **Washington Ranches:** 2
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
-- **Total Pages:** 90
+- **Total Pages:** 92
 
 ## Pages Built
 
@@ -49,7 +50,7 @@
 ### Hub Pages
 - ✅ Wagyu hub (`/wagyu/`) - 16 ranches
 - ✅ Akaushi hub (`/akaushi/`) - 5 ranches
-- ✅ Heritage Breeds hub (`/heritage/`) - 2 ranches
+- ✅ Heritage Breeds hub (`/heritage/`) - 3 ranches
 - ✅ Arizona hub (`/arizona/`) - 1 ranch
 - ✅ Illinois hub (`/illinois/`) - 1 ranch
 - ✅ Iowa hub (`/iowa/`) - 1 ranch
@@ -63,6 +64,7 @@
 - ✅ New York hub (`/new-york/`) - 1 ranch
 - ✅ Oklahoma hub (`/oklahoma/`) - 1 ranch
 - ✅ Oregon hub (`/oregon/`) - 3 ranches
+- ✅ Pennsylvania hub (`/pennsylvania/`) - 1 ranch
 - ✅ Tennessee hub (`/tennessee/`) - 1 ranch
 - ✅ Utah hub (`/utah/`) - 2 ranches
 - ✅ Washington hub (`/washington/`) - 2 ranches
@@ -128,6 +130,7 @@
 - ✅ Wisconsin Meadows (WI)
 - ✅ The Log Cabin Ranch (IL)
 - ✅ Flying B Beef (CA)
+- ✅ Sugar Hill Farm (PA)
 
 ## Known Gaps & Notes
 
@@ -234,7 +237,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Oct 3, 2026 PT nightly ship:** Added **Whispering Pines Ranch** (Laingsburg, MI) — first Michigan ranch on directory: family-owned ranch in Shiawassee County raising Full-blood Wagyu and Belted Galloway on open pastures; pasture-raised, no hormones or growth hormones; USDA-processed beef shares (whole/half/quarter); free delivery within 50 miles of Laingsburg, delivery to select neighboring states; phone 608-963-2385. Added Michigan state hub at `/michigan/` wired like other state hubs. Wagyu hub now shows 23 ranches (up from 22). Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-03. Checked newsletter leads: Alderspring 16ths10off code applies at checkout (not both prices visible on page); Yocha Dehe Polish Sausage not on live shop page; Lone Mountain recipe email no sale pricing — no new deals added. Re-checked **Certified Piedmontese** (NE) and **Chapel Hill Farm** (VA) — both operational, websites and shops active, valid MX records; set last_checked: "2026-10-03" on both listings. Total: 51 ranches, 3 deals, 3 markets, 20 butchers, 82 pages.
 - 📅 **Oct 4, 2026 nightly ship:** Added **Wisconsin Meadows** (Viroqua, WI) — first Wisconsin ranch on directory: farmer-owned cooperative of 230+ Wisconsin family farms raising 100% grass-fed and grass-finished beef with regenerative practices; rotational grazing; no antibiotics, growth hormones, GMOs, or pesticides; ships nationwide with free shipping on one-time purchases; phone 800-745-9093, email support@wisconsinmeadows.com. Added Wisconsin state hub at `/wisconsin/` wired like other state hubs. Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-04 and corrected Mossyrock product URL. Checked Alderspring lead from Oct 2 email (16ths10off code for sixteenth shares): sixteenths page does show both regular and sale prices directly (e.g., Family Box Sixteenth at $240 sale from $300 regular), but these appear to be standard ongoing prices for non-certified beef, not a new promotional deal — no new deal added. Re-checked **Mahan Wagyu (Ranch & Trail)** (TX) and **Mossyrock Wagyu** (WA) — both operational, websites and shops active, valid MX records; set last_checked: "2026-10-04" on both listings. Total: 52 ranches, 3 deals, 3 markets, 20 butchers, 83 pages.
 - 📅 **Oct 5, 2026 nightly ship:** Added **The Log Cabin Ranch** (Ina, IL) — first Illinois ranch on directory: small family farm (David Brubaker) raising 100% grass-fed and grass-finished beef with regenerative rotational grazing (move cattle to new pasture several times a week, sometimes daily); non-GMO pastures with no Roundup, pesticides, or fungicides; natural free-choice minerals; antibiotic-free, hormone-free, mRNA-free, GMO-free, corn-free, soy-free; ships nationwide via UPS or Farmstead Foods (contiguous 48 states), overnight or 2-day shipping; orders by Tuesday midnight ship before weekend; phone 618-927-7711; on-farm store Monday-Friday 7:30AM-5:30PM, Saturday 9AM-4PM; Carbondale Farmers Market Saturdays 8am-12pm (April-Nov). Added Illinois state hub at `/illinois/` wired like other state hubs. Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-05. No new deals found tonight. Re-checked **Grant Cattle Company** (KS) and **Quinn Beef** (TX) — both operational, websites and shops active, valid MX records; set last_checked: "2026-10-05" on both listings. Total: 53 ranches, 3 deals, 3 markets, 20 butchers, 85 pages.
-- 📅 **Oct 6, 2026:** Added **Flying B Beef** (Catheys Valley, CA) — family-owned beef operation (Austin and Lauren Miller) in Mariposa County raising Black Angus cattle bred, born, raised, grazed, and finished in California; 100% pasture-raised in the central California foothills with rotational grazing; all grass-fed, with beef boxes grain-finished (grain mix, alfalfa, oat hay ~130–145 days) and grass-finished whole shares once a year (spring reservations, ready May–June); USDA-inspected processing in Atwater, CA, cut and wrapped at Western Meats, Modesto; beef boxes (Urbanite, Ranchette, Doublewide, Burger Box, Homesteader, Baron Box) and bulk shares (quarter/half/whole); free pickup at Mae It Be Home in downtown Mariposa; bulk shares get free delivery within ~1 hour of Catheys Valley (approx. Clovis to Modesto), beef boxes get local delivery on orders $1,000+ within same area. California hub now shows 17 ranches (up from 16). Total: 55 ranches, 3 deals, 3 markets, 20 butchers, 90 pages.
+- 📅 **Oct 6, 2026:** Added **Sugar Hill Farm** (St. Marys, PA) — first Pennsylvania ranch on directory: 100% grass-fed and grass-finished Scottish Highland cattle raised on rotational grazing; no grain finishing ever; heritage breed; USDA inspected; ships nationwide with free shipping on orders over $76; local farm pickup available. Pennsylvania is the 24th state represented in the directory. Added Pennsylvania state hub at `/pennsylvania/`. Heritage Breeds hub now shows 4 ranches (up from 3). Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-06. Checked Yocha Dehe Ranch lead from Oct 6 email (20% off 2-Pack Filet Mignon): individual filet mignon product shows "from $26.00" but no specific 2-pack product or sale pricing visible on live site; no deal added per canon requiring both regular and sale prices visible. Re-checked **Tribe Ranch** (AR) and **Hook & Cleaver Ranch** (CA/AZ) — both operational, websites and shops active, valid MX records; set last_checked: "2026-10-06" on both listings. Total: 56 ranches, 3 deals, 3 markets, 20 butchers, 92 pages.
 
 ### What We Record
 - ✅ Ranch name and location
