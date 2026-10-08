@@ -805,6 +805,21 @@
       "note": "Partnership between third-generation family farmer, 90-year-old family-owned USDA-inspected artisan butcher shop (Conger Meat Market), and several seasoned ranchers. Dry-aged 10-14 days. Genetics: American Wagyu (not specified if F1, F2, etc.). Address: P.O Box 368 Conger Minnesota 56020. Contact: info@fellersranch.com.",
       "description": "South-central Minnesota ranch producing American Wagyu beef raised in low-stress environment with custom diet. Partnership between local family farmers and 90-year-old USDA-inspected butcher shop. Dry-aged 10-14 days for tenderness and flavor. No hormones or antibiotics. Ships nationwide from Conger, MN (population 158).",
       "last_checked": "2026-10-07"
+    },
+    {
+      "slug": "white-oak-pastures",
+      "name": "White Oak Pastures",
+      "url": "https://whiteoakpastures.com/",
+      "state": "GA",
+      "city": "Bluffton",
+      "genetics": "All cattle are grass-fed and grass-finished; Certified Grassfed by American Grassfed Association; no antibiotics, steroids, or added growth hormones",
+      "breeds": [],
+      "products": ["steaks", "roasts", "ground", "brisket", "bones", "organs", "bundles"],
+      "shipping": "Ships to 48 contiguous states; on-farm pickup available",
+      "phone": "229-641-2081",
+      "note": "Six-generation family farm established 1866. On-farm USDA-inspected abattoir with zero-waste processing. On-farm store open 7 days a week (Mon-Fri 7:00 AM - 8:00 PM, Sat 8:00 AM - 8:00 PM, Sun 9:00 AM - 5:00 PM). Also sells pastured chicken, heritage pork, grassfed lamb, grassfed goat, and more. Free shipping on ground orders over $249; $15 perishable shipping on orders over $149. Farmer Will Harris wrote 'A Bold Return To Giving A Damn'. Email: info@whiteoakpastures.com. Address: 101 Church Street, Bluffton, GA 39824.",
+      "description": "White Oak Pastures is a six-generation family farm in Bluffton, Georgia, established in 1866. Focus on regenerative land management, humane animal husbandry, and rural revitalization. All cattle are grass-fed and grass-finished, certified by the American Grassfed Association. Processed in on-farm USDA-inspected abattoir with zero-waste practices. Hand-butchered beef available direct to consumers nationwide.",
+      "last_checked": "2026-10-08"
     }
   ]
 }
