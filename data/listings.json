@@ -689,7 +689,7 @@
       "phone": "607-285-4070",
       "note": "Zrowka Family Ranch in New York's Butternut Valley. USDA Certified. Rotational grazing for sustainable ranching. Flash-frozen cryovacked beef products vacuum-sealed. 1/8, 1/4, 1/2, and whole beef shares available.",
       "description": "Family ranch in New York's Butternut Valley raising USDA Certified, New York Grown & Certified all-natural Angus beef. Pasture-raised with rotational grazing, handled with low stress for better quality meat. Processed and vacuum-sealed, shipped frozen nationwide.",
-      "last_checked": "2026-09-30"
+      "last_checked": "2026-10-07"
     },
     {
       "slug": "wagyu-legacy",
@@ -704,7 +704,7 @@
       "phone": "615-504-9784",
       "note": "The Legacy Cattle Company. USDA inspected and approved. Pickup location: 2671 Fairview, Suite 105, Fairview, TN 37062. Contact for orders: (615) 504-9784.",
       "description": "Middle Tennessee ranch producing American Wagyu beef since 2015. Free-range, hormone-free, organically-fed cattle raised with care. USDA inspected cuts professionally packaged and shipped in air-tight, temperature-controlled packaging to clients nationwide.",
-      "last_checked": "2026-10-01"
+      "last_checked": "2026-10-07"
     },
     {
       "slug": "lewis-livestock",
@@ -790,6 +790,21 @@
       "shipping": "Free pickup at Mae It Be Home in downtown Mariposa, CA; bulk shares: free delivery within ~1 hour of Catheys Valley (approx. Clovis to Modesto); beef boxes: local delivery on orders $1,000+ within same area",
       "note": "USDA-inspected processing in Atwater, CA; cut and wrapped at Western Meats, Modesto. Quarter share (Baron Box) is pre-packaged; half and whole shares include custom cut sheet.",
       "description": "Family-owned beef operation (Austin and Lauren Miller) in Catheys Valley, Mariposa County, California. Black Angus cattle raised in the central California foothills with rotational grazing. All cattle grass-fed; beef boxes use grain-finished cattle, grass-finished whole shares available once yearly."
+    },
+    {
+      "slug": "fellers-ranch",
+      "name": "Fellers Ranch",
+      "url": "https://fellersranch.com/",
+      "state": "MN",
+      "city": "Conger",
+      "genetics": "American Wagyu from Japanese breed mixed with other breeds over 10,000 years; raised slow in low-stress environment with custom diet; no hormones or antibiotics",
+      "breeds": ["wagyu"],
+      "products": ["steaks", "roasts", "ground", "burgers", "brisket", "beef jerky", "bundles"],
+      "shipping": "Ships nationwide; local hand delivery available in South-Central Minnesota",
+      "phone": "507-265-3340",
+      "note": "Partnership between third-generation family farmer, 90-year-old family-owned USDA-inspected artisan butcher shop (Conger Meat Market), and several seasoned ranchers. Dry-aged 10-14 days. Genetics: American Wagyu (not specified if F1, F2, etc.). Address: P.O Box 368 Conger Minnesota 56020. Contact: info@fellersranch.com.",
+      "description": "South-central Minnesota ranch producing American Wagyu beef raised in low-stress environment with custom diet. Partnership between local family farmers and 90-year-old USDA-inspected butcher shop. Dry-aged 10-14 days for tenderness and flavor. No hormones or antibiotics. Ships nationwide from Conger, MN (population 158).",
+      "last_checked": "2026-10-07"
     }
   ]
 }

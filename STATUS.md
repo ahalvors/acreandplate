@@ -1,17 +1,17 @@
 # Acre & Plate - Status
 
-**Last Updated:** October 6, 2026  
+**Last Updated:** October 7, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 56
+- **Total Ranches:** 57
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
 - **Butcher Shops:** 20
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
-- **Wagyu Ranches:** 23
+- **Wagyu Ranches:** 24
 - **Akaushi Ranches:** 6
 - **Heritage Breeds:** 4
 - **Arizona Ranches:** 1
@@ -19,6 +19,7 @@
 - **Iowa Ranches:** 1
 - **Kansas Ranches:** 2
 - **Michigan Ranches:** 1
+- **Minnesota Ranches:** 1
 - **Texas Ranches:** 6
 - **California Ranches:** 17
 - **Colorado Ranches:** 2
@@ -34,7 +35,7 @@
 - **Washington Ranches:** 2
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
-- **Total Pages:** 92
+- **Total Pages:** 95
 
 ## Pages Built
 
@@ -130,6 +131,7 @@
 - ✅ Wisconsin Meadows (WI)
 - ✅ The Log Cabin Ranch (IL)
 - ✅ Flying B Beef (CA)
+- ✅ Fellers Ranch (MN)
 - ✅ Sugar Hill Farm (PA)
 
 ## Known Gaps & Notes
@@ -238,6 +240,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Oct 4, 2026 nightly ship:** Added **Wisconsin Meadows** (Viroqua, WI) — first Wisconsin ranch on directory: farmer-owned cooperative of 230+ Wisconsin family farms raising 100% grass-fed and grass-finished beef with regenerative practices; rotational grazing; no antibiotics, growth hormones, GMOs, or pesticides; ships nationwide with free shipping on one-time purchases; phone 800-745-9093, email support@wisconsinmeadows.com. Added Wisconsin state hub at `/wisconsin/` wired like other state hubs. Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-04 and corrected Mossyrock product URL. Checked Alderspring lead from Oct 2 email (16ths10off code for sixteenth shares): sixteenths page does show both regular and sale prices directly (e.g., Family Box Sixteenth at $240 sale from $300 regular), but these appear to be standard ongoing prices for non-certified beef, not a new promotional deal — no new deal added. Re-checked **Mahan Wagyu (Ranch & Trail)** (TX) and **Mossyrock Wagyu** (WA) — both operational, websites and shops active, valid MX records; set last_checked: "2026-10-04" on both listings. Total: 52 ranches, 3 deals, 3 markets, 20 butchers, 83 pages.
 - 📅 **Oct 5, 2026 nightly ship:** Added **The Log Cabin Ranch** (Ina, IL) — first Illinois ranch on directory: small family farm (David Brubaker) raising 100% grass-fed and grass-finished beef with regenerative rotational grazing (move cattle to new pasture several times a week, sometimes daily); non-GMO pastures with no Roundup, pesticides, or fungicides; natural free-choice minerals; antibiotic-free, hormone-free, mRNA-free, GMO-free, corn-free, soy-free; ships nationwide via UPS or Farmstead Foods (contiguous 48 states), overnight or 2-day shipping; orders by Tuesday midnight ship before weekend; phone 618-927-7711; on-farm store Monday-Friday 7:30AM-5:30PM, Saturday 9AM-4PM; Carbondale Farmers Market Saturdays 8am-12pm (April-Nov). Added Illinois state hub at `/illinois/` wired like other state hubs. Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-05. No new deals found tonight. Re-checked **Grant Cattle Company** (KS) and **Quinn Beef** (TX) — both operational, websites and shops active, valid MX records; set last_checked: "2026-10-05" on both listings. Total: 53 ranches, 3 deals, 3 markets, 20 butchers, 85 pages.
 - 📅 **Oct 6, 2026:** Added **Sugar Hill Farm** (St. Marys, PA) — first Pennsylvania ranch on directory: 100% grass-fed and grass-finished Scottish Highland cattle raised on rotational grazing; no grain finishing ever; heritage breed; USDA inspected; ships nationwide with free shipping on orders over $76; local farm pickup available. Pennsylvania is the 24th state represented in the directory. Added Pennsylvania state hub at `/pennsylvania/`. Heritage Breeds hub now shows 4 ranches (up from 3). Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-06. Checked Yocha Dehe Ranch lead from Oct 6 email (20% off 2-Pack Filet Mignon): individual filet mignon product shows "from $26.00" but no specific 2-pack product or sale pricing visible on live site; no deal added per canon requiring both regular and sale prices visible. Re-checked **Tribe Ranch** (AR) and **Hook & Cleaver Ranch** (CA/AZ) — both operational, websites and shops active, valid MX records; set last_checked: "2026-10-06" on both listings. Total: 56 ranches, 3 deals, 3 markets, 20 butchers, 92 pages.
+- 📅 **Oct 7, 2026 nightly ship:** Added **Fellers Ranch** (Conger, MN) — first Minnesota ranch on directory: American Wagyu raised in low-stress environment with custom diet; partnership between third-generation family farmer and 90-year-old family-owned USDA-inspected artisan butcher shop (Conger Meat Market); dry-aged 10-14 days; no hormones or antibiotics; ships nationwide from Conger, MN (population 158); phone 507-265-3340, email info@fellersranch.com. Minnesota is the 25th state represented in the directory. Added Minnesota state hub at `/minnesota/`. Wagyu hub now shows 24 ranches (up from 23). Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-07. No new deals found tonight. Re-checked **Mahanaim Farms** (UT) and **Vermont Wagyu** (VT) — both operational, websites and shops active, valid MX records; set last_checked: "2026-10-07" on both listings. Total: 57 ranches, 3 deals, 3 markets, 20 butchers, 95 pages.
 
 ### What We Record
 - ✅ Ranch name and location
