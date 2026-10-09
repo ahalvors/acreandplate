@@ -1,6 +1,39 @@
 {
   "news": [
     {
+      "id": "directory-milestone-59-ranches",
+      "published_at": "2026-10-09T09:30:00-07:00",
+      "headline": "Directory now lists 59 verified ranches",
+      "body": "<p>The Acre & Plate directory has grown to <strong>59</strong> ranches across the U.S. selling beef from named herds: Fullblood Wagyu, Akaushi, heritage breeds, and grass-fed family ranches. Each ranch is verified from its public website.</p><p>One new verified ranch since the <a href=\"/news/directory-milestone-58-ranches/\">58 milestone</a>: <a href=\"/listings/hiroshi-ranch/\">Hiroshi Ranch</a>, a family-owned Fullblood Wagyu farm in Kaiser, Missouri, founded in 2016 (100% Fullblood Wagyu, never crossbred; fed a blend that includes molasses, organic cacao powder, flaxseed oil, and pirella oil for a subtle chocolate note). It ships nationwide, and its beef is served in local Lake Ozark restaurants. It is the first Missouri listing in the directory.</p><p>Same rule as always: not grocery-store marketing, just working ranches selling direct to people who care where dinner came from. Browse by breed and state at <a href=\"/listings/\">acreandplate.com/listings</a>. Ranch partners who want premium placement can see Featured Ranch at <a href=\"/featured/\">acreandplate.com/featured</a> (one-pager: <a href=\"/featured/one-pager.pdf\">PDF</a>).</p>",
+      "icon": "🐂",
+      "tags": [
+        "directory",
+        "milestone"
+      ]
+    },
+    {
+      "id": "directory-milestone-58-ranches",
+      "published_at": "2026-10-09T09:15:00-07:00",
+      "headline": "Directory now lists 58 verified ranches",
+      "body": "<p>The Acre & Plate directory has grown to <strong>58</strong> ranches across the U.S. selling beef from named herds: Fullblood Wagyu, Akaushi, heritage breeds, and grass-fed family ranches. Each ranch is verified from its public website.</p><p>One new verified ranch since the <a href=\"/news/directory-milestone-57-ranches/\">57 milestone</a>: <a href=\"/listings/white-oak-pastures/\">White Oak Pastures</a>, a six-generation family farm in Bluffton, Georgia, established in 1866 (all cattle grass-fed and grass-finished; Certified Grassfed by the American Grassfed Association; no antibiotics, steroids, or added growth hormones; processed in the farm's own USDA-inspected, zero-waste abattoir). It ships to the 48 contiguous states and offers on-farm pickup. It is the first Georgia listing in the directory.</p><p>Same rule as always: not grocery-store marketing, just working ranches selling direct to people who care where dinner came from. Browse by breed and state at <a href=\"/listings/\">acreandplate.com/listings</a>. Ranch partners who want premium placement can see Featured Ranch at <a href=\"/featured/\">acreandplate.com/featured</a> (one-pager: <a href=\"/featured/one-pager.pdf\">PDF</a>).</p>",
+      "icon": "🐂",
+      "tags": [
+        "directory",
+        "milestone"
+      ]
+    },
+    {
+      "id": "directory-milestone-57-ranches",
+      "published_at": "2026-10-09T09:00:00-07:00",
+      "headline": "Directory now lists 57 verified ranches",
+      "body": "<p>The Acre & Plate directory has grown to <strong>57</strong> ranches across the U.S. selling beef from named herds: Fullblood Wagyu, Akaushi, heritage breeds, and grass-fed family ranches. Each ranch is verified from its public website.</p><p>One new verified ranch since the <a href=\"/news/directory-milestone-56-ranches/\">56 milestone</a>: <a href=\"/listings/fellers-ranch/\">Fellers Ranch</a>, a partnership of family farmers and a 90-year-old, family-owned, USDA-inspected butcher shop in Conger, Minnesota (Wagyu raised slow, about 26 months, on a custom diet in a low-stress environment, with no hormones or antibiotics; every animal processed and dry-aged at the Conger butcher shop). It ships to the lower 48 states, with local hand delivery in south-central Minnesota. It is the first Minnesota listing in the directory.</p><p>Same rule as always: not grocery-store marketing, just working ranches selling direct to people who care where dinner came from. Browse by breed and state at <a href=\"/listings/\">acreandplate.com/listings</a>. Ranch partners who want premium placement can see Featured Ranch at <a href=\"/featured/\">acreandplate.com/featured</a> (one-pager: <a href=\"/featured/one-pager.pdf\">PDF</a>).</p>",
+      "icon": "🐂",
+      "tags": [
+        "directory",
+        "milestone"
+      ]
+    },
+    {
       "id": "directory-milestone-56-ranches",
       "published_at": "2026-10-07T08:45:00-07:00",
       "headline": "Directory now lists 56 verified ranches",
