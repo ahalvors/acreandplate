@@ -7,8 +7,16 @@
       "state": "NM",
       "city": "New Mexico",
       "genetics": "100% Fullblood Wagyu; DNA-certified Japanese lineage",
-      "breeds": ["wagyu"],
-      "products": ["steaks", "roasts", "ground", "boxes", "subscription club"],
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground",
+        "boxes",
+        "subscription club"
+      ],
       "shipping": "Ships nationwide",
       "featured": true,
       "description": "Full-blood wagyu beef raised at our New Mexico cattle ranch. Hormone and antibiotic-free, with exceptional marbling and flavor.",
@@ -20,9 +28,18 @@
       "url": "https://heartbrandbeef.com/",
       "state": "TX",
       "city": "Texas",
-      "genetics": "Certified Akaushi Beef® - only company with this certification",
-      "breeds": ["akaushi"],
-      "products": ["steaks", "ground", "brisket", "bundles", "quarter cow", "half cow"],
+      "genetics": "Certified Akaushi Beef\u00ae - only company with this certification",
+      "breeds": [
+        "akaushi"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "brisket",
+        "bundles",
+        "quarter cow",
+        "half cow"
+      ],
       "shipping": "Continental US",
       "featured": true,
       "description": "Fifth generation ranch with the largest herd of Akaushi cattle in the country. All HeartBrand Certified Akaushi Beef is USDA Prime quality grade.",
@@ -35,8 +52,15 @@
       "state": "TX",
       "city": "Luling",
       "genetics": "100% Fullblood Japanese Black",
-      "breeds": ["wagyu"],
-      "products": ["steaks", "ground", "bundles", "reserve collection"],
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "bundles",
+        "reserve collection"
+      ],
       "shipping": "Ships nationwide",
       "featured": true,
       "description": "Hand-picked herd of 100% Wagyu cattle, blending slow natural approach with modern nutritional science.",
@@ -49,8 +73,15 @@
       "state": "WY/ID",
       "city": "Smoot, WY & Geneva, ID",
       "genetics": "100% Fullblood Wagyu",
-      "breeds": ["wagyu"],
-      "products": ["steaks", "ground", "boxes", "whole/half/quarter beef"],
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "boxes",
+        "whole/half/quarter beef"
+      ],
       "shipping": "Ships nationwide (UPS Second Day Air)",
       "phone": "307-690-0389",
       "description": "Grass-finished, no antibiotics, no hormones, no grains. Raised on two ranches between Wyoming and Idaho.",
@@ -63,8 +94,16 @@
       "state": "WY",
       "city": "Cody",
       "genetics": "100% Fullblood Wagyu; DNA-tested Japanese lineage",
-      "breeds": ["wagyu"],
-      "products": ["steaks", "roasts", "ground", "hot dogs", "ribs"],
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground",
+        "hot dogs",
+        "ribs"
+      ],
       "shipping": "Lower 48 states",
       "phone": "307-527-6006",
       "description": "Raised in the Greater Yellowstone Ecosystem since 2015. Dry-aged 14-18 days, USDA graded and certified.",
@@ -77,8 +116,15 @@
       "state": "Northern Rockies",
       "city": "Logan, UT (business)",
       "genetics": "Fullblood Wagyu - 100% traceable Japanese lineage",
-      "breeds": ["wagyu"],
-      "products": ["steaks", "roasts", "ground", "dry-aged USDA Prime"],
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground",
+        "dry-aged USDA Prime"
+      ],
       "shipping": "48 contiguous states",
       "phone": "801-215-9211",
       "description": "Raised on 600,000+ acres of Northern Rockies rangeland. Diamond grading system for marbling levels.",
@@ -91,8 +137,14 @@
       "state": "FL",
       "city": "Oxford",
       "genetics": "100% grass-fed & finished Wagyu",
-      "breeds": ["wagyu"],
-      "products": ["steaks", "ground", "variety boxes"],
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "variety boxes"
+      ],
       "shipping": "Ships throughout US; Saturday farm pickup 9-11am",
       "phone": "352-266-9504",
       "note": "Family farm since 1976, also offers Berkshire pork and pastured poultry",
@@ -106,8 +158,16 @@
       "state": "TX",
       "city": "Whitesboro",
       "genetics": "100% Fullblood Wagyu; tracked genetic lineages from Japan",
-      "breeds": ["wagyu"],
-      "products": ["steaks", "ground", "hot dogs", "jerky", "whole/half/quarter beef"],
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "hot dogs",
+        "jerky",
+        "whole/half/quarter beef"
+      ],
       "shipping": "Ships nationwide",
       "phone": "903-647-3006",
       "description": "Dry-aged for peak flavor. No steroids, growth hormones, or unnecessary antibiotics.",
@@ -120,8 +180,14 @@
       "state": "TX",
       "city": "Silverton (near Palo Duro Canyon)",
       "genetics": "100% Fullblood Japanese Wagyu; registered with American Wagyu Association",
-      "breeds": ["wagyu"],
-      "products": ["steaks", "roasts", "ground"],
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground"
+      ],
       "shipping": "Ships nationwide (2-4 business days)",
       "description": "2,500-acre ranch at the edge of Palo Duro Canyon. Grass-fed, grain-finished, dry-aged 14-21 days.",
       "last_checked": "2026-10-04"
@@ -133,8 +199,15 @@
       "state": "WA",
       "city": "Mossyrock",
       "genetics": "100% Fullblood Japanese Wagyu",
-      "breeds": ["wagyu"],
-      "products": ["steaks", "roasts", "ground", "whole/half/quarter shares"],
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground",
+        "whole/half/quarter shares"
+      ],
       "shipping": "Ships nationwide",
       "phone": "602-625-0844",
       "description": "Raised in the Klickitat Valley between Mt. Rainier and Mt. St. Helens. Never use hormones or antibiotics.",
@@ -147,8 +220,13 @@
       "state": "KS",
       "city": "Caney",
       "genetics": "Fullblood Wagyu and American Wagyu (F1)",
-      "breeds": ["wagyu"],
-      "products": ["whole/half/quarter cow", "custom cuts"],
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "whole/half/quarter cow",
+        "custom cuts"
+      ],
       "shipping": "Contact for pricing and availability",
       "phone": "405-612-4575",
       "note": "Veteran-owned ranch; cattle raised and finished on-site, never sent to feedlot",
@@ -162,8 +240,14 @@
       "state": "FL",
       "city": "Micanopy",
       "genetics": "American Wagyu (minimum 83% Wagyu) and Fullblood Japanese Wagyu; DNA-tested",
-      "breeds": ["wagyu"],
-      "products": ["steaks", "ground", "roasts"],
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "roasts"
+      ],
       "shipping": "Florida only (free delivery within 100 miles of ranch; free pickup at ranch)",
       "phone": "813-212-2333",
       "note": "Florida-only shipping at this time (beta testing)",
@@ -177,8 +261,15 @@
       "state": "TX",
       "city": "Weatherford",
       "genetics": "DNA-verified Akaushi",
-      "breeds": ["akaushi"],
-      "products": ["steaks", "ground", "roasts", "quarter/half/whole beef"],
+      "breeds": [
+        "akaushi"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "roasts",
+        "quarter/half/whole beef"
+      ],
       "shipping": "Ships nationwide or local pickup",
       "phone": "682-239-6447",
       "description": "Family operation raising DNA-verified Akaushi cattle on all-natural ration formulated specifically for the breed.",
@@ -191,12 +282,21 @@
       "state": "PA",
       "city": "St. Marys",
       "genetics": "100% grass-fed and grass-finished Scottish Highland cattle; heritage breed; no grain finishing ever; pasture-raised year-round on rotational grazing",
-      "breeds": ["heritage", "scottish-highland"],
-      "products": ["steaks", "roasts", "ground", "beef boxes", "bulk cow shares"],
+      "breeds": [
+        "heritage",
+        "scottish-highland"
+      ],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground",
+        "beef boxes",
+        "bulk cow shares"
+      ],
       "shipping": "Ships nationwide; free shipping on orders over $76; local pickup at farm in St. Marys, PA",
       "phone": "814-594-9686",
       "note": "Founded 2020. Flash-frozen at peak freshness and vacuum-sealed. USDA inspected processing. Farm pickup or nationwide shipping. Contact: sugarhillfarmpa@gmail.com",
-      "description": "Pennsylvania family farm in St. Marys raising Scottish Highland cattle on open pasture year-round. 100% grass-fed from birth through finishing—no grain, ever. Regenerative farming with rotational grazing. Ranch-direct delivery from farm to door.",
+      "description": "Pennsylvania family farm in St. Marys raising Scottish Highland cattle on open pasture year-round. 100% grass-fed from birth through finishing\u2014no grain, ever. Regenerative farming with rotational grazing. Ranch-direct delivery from farm to door.",
       "last_checked": "2026-10-06"
     },
     {
@@ -206,8 +306,15 @@
       "state": "AR",
       "city": "Hot Springs / Bonnerdale",
       "genetics": "Registered-certified Japanese Akaushi Wagyu",
-      "breeds": ["akaushi"],
-      "products": ["steaks", "ground", "bundles", "quarter cow"],
+      "breeds": [
+        "akaushi"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "bundles",
+        "quarter cow"
+      ],
       "shipping": "48 contiguous states (free shipping on orders $300+); local delivery within 100 miles",
       "description": "Grass-fed, grain-finished. All-natural with no hormones. Registered with American Akaushi Association.",
       "last_checked": "2026-10-06"
@@ -219,8 +326,14 @@
       "state": "CA/AZ",
       "city": "Temecula & Murrieta, CA; Lake Havasu City, AZ",
       "genetics": "American Akaushi Wagyu; DNA-tested and registered",
-      "breeds": ["akaushi"],
-      "products": ["steaks", "ground", "roasts - retail locations"],
+      "breeds": [
+        "akaushi"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "roasts - retail locations"
+      ],
       "shipping": "Walk-in retail shops (Temecula, Murrieta, Lake Havasu); also ships nationwide",
       "phone": "888-879-2498",
       "description": "Free-range on 250,000 acres of Idaho pasture. Three retail butcher shop locations, Mon-Fri 10am-5pm.",
@@ -233,8 +346,15 @@
       "state": "VA",
       "city": "Berryville",
       "genetics": "Critically endangered Randall Lineback heritage breed (genetics date to 1600s)",
-      "breeds": ["heritage", "randall-lineback"],
-      "products": ["steaks", "ground", "roasts"],
+      "breeds": [
+        "heritage",
+        "randall-lineback"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "roasts"
+      ],
       "shipping": "Ships nationwide; local pickup in DC/MD/VA",
       "phone": "540-227-4450",
       "featured": true,
@@ -248,8 +368,15 @@
       "state": "NE",
       "city": "Lincoln",
       "genetics": "Piedmontese cattle (unique myostatin gene for lean, tender beef)",
-      "breeds": ["piedmontese"],
-      "products": ["steaks", "ground", "roasts", "beef club subscriptions"],
+      "breeds": [
+        "piedmontese"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "roasts",
+        "beef club subscriptions"
+      ],
       "shipping": "Ships nationwide including Alaska & Hawaii",
       "phone": "800-414-3487",
       "featured": true,
@@ -263,8 +390,15 @@
       "state": "UT",
       "city": "Salt Lake City area",
       "genetics": "Heritage Dexter cattle (rare, centuries-old breed)",
-      "breeds": ["heritage", "dexter"],
-      "products": ["steaks", "roasts", "ground"],
+      "breeds": [
+        "heritage",
+        "dexter"
+      ],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground"
+      ],
       "shipping": "Pickup only in Salt Lake City (no shipping currently)",
       "note": "Local pickup only - no shipping",
       "description": "100% grass-fed and grass-finished. Regenerative family farm. Dexter cattle known for exceptional marbling and rich flavor."
@@ -276,8 +410,15 @@
       "state": "VT",
       "city": "Springfield",
       "genetics": "100% Fullblood Wagyu; DNA parent-verified by the American Wagyu Association; Certified Authentic Wagyu Beef label",
-      "breeds": ["wagyu"],
-      "products": ["steaks", "ground", "subscription club", "gift cards"],
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "subscription club",
+        "gift cards"
+      ],
       "shipping": "Ships nationwide",
       "note": "Contact via email farm@vermontwagyu.com (phone not listed on public site)",
       "description": "Family-owned Spring-Rock Farm (est. 1790) raising Japanese Black Fullblood Wagyu in Vermont. No hormones, steroids, or unnecessary antibiotics. Farm-to-doorstep delivery.",
@@ -290,8 +431,19 @@
       "state": "SC",
       "city": "Landrum",
       "genetics": "100% Full Blood Wagyu; every animal certified with the American Wagyu Association; born, raised, and finished on farm; 100% pure Japanese genetic heritage (never crossbred with Angus)",
-      "breeds": ["wagyu"],
-      "products": ["steaks", "ground", "burger patties", "roasts", "short ribs", "brisket", "bundles", "half/quarter steer (pickup only)"],
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "burger patties",
+        "roasts",
+        "short ribs",
+        "brisket",
+        "bundles",
+        "half/quarter steer (pickup only)"
+      ],
       "shipping": "Ships nationwide (flat-rate shipping for retail cuts); half/quarter steer pickup only",
       "phone": "864-747-8458",
       "description": "Family farm in South Carolina raising 100% Full Blood Wagyu pasture-raised and finished on a proprietary feeding program. No hormones; antibiotics only as necessary. AWA-certified herd. DNA-verified products available.",
@@ -306,10 +458,15 @@
       "city": "Sunol",
       "genetics": "All-natural pasture-raised; cattle spend over 90% of lives on Bay Area hills forage (grass); free of hormones and antibiotics; offers grass-fed and grass-raised grain-finished",
       "breeds": [],
-      "products": ["individual cuts", "subscription boxes", "bulk shares (1/4, 1/2, whole)", "seasonings coming soon"],
+      "products": [
+        "individual cuts",
+        "subscription boxes",
+        "bulk shares (1/4, 1/2, whole)",
+        "seasonings coming soon"
+      ],
       "shipping": "Local pickup at ranch + shipping available (lower 48; ships Mon/Tue insulated dry ice, 1-2 day)",
       "phone": "925-494-8063",
-      "note": "Ranch pickup at 9480 Koopmann Road, Sunol, CA 94586 (usually Mon & Fri 11am–3pm, subject to change). Also at Livermore farmers markets. Shop open for individual cuts and bulk shares; some items sold out. Contact: koopmannfamilybeef@gmail.com",
+      "note": "Ranch pickup at 9480 Koopmann Road, Sunol, CA 94586 (usually Mon & Fri 11am\u20133pm, subject to change). Also at Livermore farmers markets. Shop open for individual cuts and bulk shares; some items sold out. Contact: koopmannfamilybeef@gmail.com",
       "description": "Fifth-generation Bay Area cattle family (Clayton & Natalie Koopmann) selling ranch-direct all-natural beef grazed in Northern California / SF Bay hills. Managed grazing and conservation. Founded 2020 as retail brand.",
       "last_checked": "2026-09-27"
     },
@@ -321,10 +478,17 @@
       "city": "Livermore",
       "genetics": "Grass-fed & grass-finished Angus; Audubon Certified Bird Friendly (first cattle ranch in Alameda County, May 2024); no hormones, antibiotic-free; regenerative grazing; five generations in Livermore Valley / Mines Road since 1900",
       "breeds": [],
-      "products": ["quarter/half/whole beef shares", "hot dogs", "sausage", "jerky", "tallow (partner products)", "sampler packs when available"],
+      "products": [
+        "quarter/half/whole beef shares",
+        "hot dogs",
+        "sausage",
+        "jerky",
+        "tallow (partner products)",
+        "sampler packs when available"
+      ],
       "shipping": "Local / ranch pickup & butcher pickup (Coffland Craft Butchery, Galt); custom-exempt processing for personal use",
       "phone": "925-216-0468",
-      "note": "Contact Nancy Calhoun Mueller — call/text or email nancyjm1960@yahoo.com. Beef brand marketed as Circle H Beef; SOLD OUT for 2026 shares per ranch site. Distinct from Circle H Ranch Wagyu (WY/ID).",
+      "note": "Contact Nancy Calhoun Mueller \u2014 call/text or email nancyjm1960@yahoo.com. Beef brand marketed as Circle H Beef; SOLD OUT for 2026 shares per ranch site. Distinct from Circle H Ranch Wagyu (WY/ID).",
       "description": "Fifth-generation Livermore Valley ranch (Nancy, Merry, Susie Calhoun) selling grass-fed grass-finished Angus as Circle H Beef with Audubon bird-friendly certification and regenerative practices.",
       "last_checked": "2026-09-27"
     },
@@ -334,13 +498,21 @@
       "url": "https://ccrpremiummeats.com/",
       "state": "CO",
       "city": "Hesperus",
-      "genetics": "Full Blood Wagyu (elite Japanese genetics; MIJ-30 grading meeting or exceeding A4/A5) and American Wagyu (Wagyu × Angus); born and raised on ranch",
-      "breeds": ["wagyu"],
-      "products": ["steaks", "ground", "burger patties", "short ribs", "roasts"],
+      "genetics": "Full Blood Wagyu (elite Japanese genetics; MIJ-30 grading meeting or exceeding A4/A5) and American Wagyu (Wagyu \u00d7 Angus); born and raised on ranch",
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "burger patties",
+        "short ribs",
+        "roasts"
+      ],
       "shipping": "Continental US only (2-day air frozen via UPS); free shipping on orders $200+; $100 minimum order; local pickup at Cortez, CO processing facility",
       "phone": "800-979-8322",
-      "note": "Ships Mon–Wed only (orders after 9am Wed MST ship following Monday). Dry-aged at least 21 days. No hormones or antibiotics per ranch FAQ.",
-      "description": "Family-owned ranch near Durango/Hesperus in the Colorado Rockies. Full Blood and American Wagyu raised, cut, and shipped by the ranch—processed on-site, delivered frozen, no middlemen.",
+      "note": "Ships Mon\u2013Wed only (orders after 9am Wed MST ship following Monday). Dry-aged at least 21 days. No hormones or antibiotics per ranch FAQ.",
+      "description": "Family-owned ranch near Durango/Hesperus in the Colorado Rockies. Full Blood and American Wagyu raised, cut, and shipped by the ranch\u2014processed on-site, delivered frozen, no middlemen.",
       "featured": false
     },
     {
@@ -350,8 +522,16 @@
       "state": "CA",
       "city": "Morgan Hill",
       "genetics": "American Wagyu F1-F4 (Wagyu-Angus cross) and fullblood Angus; grass-finished and pre-order non-GMO grain-finished; born and raised on ranch; no antibiotics, vaccines, or growth hormones in market animals",
-      "breeds": ["wagyu", "angus"],
-      "products": ["steaks", "ground", "roasts", "whole/half/quarter beef"],
+      "breeds": [
+        "wagyu",
+        "angus"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "roasts",
+        "whole/half/quarter beef"
+      ],
       "shipping": "Direct to doorstep delivery",
       "phone": "408-646-2059",
       "description": "First-generation ranch in Coyote Valley raising American Wagyu and Angus. Dry-aged 14-21 days, vacuum-wrapped and flash-frozen. Regenerative ranching practices with rotational grazing.",
@@ -364,8 +544,13 @@
       "state": "CA",
       "city": "San Juan Bautista",
       "genetics": "Horned Hereford; nearly a century raising exceptional cattle with care and stewardship; pasture-raised in picturesque green pastures",
-      "breeds": ["hereford"],
-      "products": ["beef shares", "registered Hereford cattle"],
+      "breeds": [
+        "hereford"
+      ],
+      "products": [
+        "beef shares",
+        "registered Hereford cattle"
+      ],
       "shipping": "Contact for availability",
       "phone": "925-597-3153",
       "description": "Multi-generation horned Hereford operation in San Juan Bautista. Fourth generation Matthew Manning continues tradition of producing top-quality pasture-raised beef."
@@ -378,7 +563,11 @@
       "city": "San Juan Bautista",
       "genetics": "100% pasture-raised; certified organic diet of fresh grass and legumes; no synthetic hormones or feed antibiotics; American Grassfed Association member",
       "breeds": [],
-      "products": ["quarter cow (split-half)", "half beef", "subscription packs"],
+      "products": [
+        "quarter cow (split-half)",
+        "half beef",
+        "subscription packs"
+      ],
       "shipping": "Monthly delivery May-November from Monterey to Sacramento; FedEx Ground available for locations beyond truck routes",
       "phone": "(831) 801-3798",
       "description": "T.O. Cattle Company family operation dating back to 1850s San Francisco and Rancho Santa Margarita. 100% grassfed beef dry-aged and processed by artisan butchers. Audubon bird-friendly certified."
@@ -390,11 +579,16 @@
       "state": "CA",
       "city": "Tracy",
       "genetics": "Black Angus; 100% grass-fed; no hormones, implants, antibiotics, or grain; born and raised on ranch in San Joaquin and Alameda counties",
-      "breeds": ["angus"],
-      "products": ["quarter-sides (~60-80 lbs mixed cuts and ground)"],
+      "breeds": [
+        "angus"
+      ],
+      "products": [
+        "quarter-sides (~60-80 lbs mixed cuts and ground)"
+      ],
       "shipping": "In-person pickup near ranch in Tracy (seasonal, July)",
       "note": "2026 orders closed. Email crnb@connollyranch.com for questions. Established 1870.",
-      "description": "150-year-old family ranch where San Joaquin and Alameda counties meet. Sustainably managed rangeland with Black Angus cattle raised entirely on pasture. Each cut individually packaged, vacuum-sealed, labeled, and frozen."
+      "description": "150-year-old family ranch where San Joaquin and Alameda counties meet. Sustainably managed rangeland with Black Angus cattle raised entirely on pasture. Each cut individually packaged, vacuum-sealed, labeled, and frozen.",
+      "last_checked": "2026-10-08"
     },
     {
       "slug": "stemple-creek-ranch",
@@ -404,7 +598,13 @@
       "city": "Tomales",
       "genetics": "100% grass-fed and grass-finished beef; no grain, soy, or other feed; variety of grasses and perennial plants",
       "breeds": [],
-      "products": ["steaks", "ground", "roasts", "hot dogs", "subscription boxes"],
+      "products": [
+        "steaks",
+        "ground",
+        "roasts",
+        "hot dogs",
+        "subscription boxes"
+      ],
       "shipping": "Ships to all 50 U.S. states; free shipping within California",
       "phone": "415-883-8253",
       "description": "Fourth-generation family ranch in West Marin working in sync with Mother Nature. Progressive carbon farming practices that build soil and strengthen ecosystems. Raised on pasture with rotational grazing."
@@ -416,12 +616,20 @@
       "state": "WY",
       "city": "Weston",
       "genetics": "100% DNA-Verified Fullblood Japanese Black Wagyu",
-      "breeds": ["wagyu"],
-      "products": ["steaks", "ground", "roasts", "beef shares", "boxes"],
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "roasts",
+        "beef shares",
+        "boxes"
+      ],
       "shipping": "Ships nationwide (frozen)",
       "phone": "307-680-6119",
-      "note": "Prefer text/email; ranch notes limited cell service. Preparing move from Wyoming to Florida — current DTC beef marketed as Wyoming Last Harvest / regenerative Fullblood. Confirm current ranch location and inventory on their site before ordering. Shop may also carry other product lines; directory claim is for their own Fullblood herd only.",
-      "description": "Woman-owned family ranch (WYO Wagyu) raising regeneratively pastured Fullblood Japanese Black Wagyu. Grass-fed with a managed fermented grain finish; no soy, no added hormones, no routine antibiotics per ranch site. USDA harvest, dry-aged 14–21 days, vacuum sealed, flash frozen, shipped ranch-direct."
+      "note": "Prefer text/email; ranch notes limited cell service. Preparing move from Wyoming to Florida \u2014 current DTC beef marketed as Wyoming Last Harvest / regenerative Fullblood. Confirm current ranch location and inventory on their site before ordering. Shop may also carry other product lines; directory claim is for their own Fullblood herd only.",
+      "description": "Woman-owned family ranch (WYO Wagyu) raising regeneratively pastured Fullblood Japanese Black Wagyu. Grass-fed with a managed fermented grain finish; no soy, no added hormones, no routine antibiotics per ranch site. USDA harvest, dry-aged 14\u201321 days, vacuum sealed, flash frozen, shipped ranch-direct."
     },
     {
       "slug": "rascal-ranch-farms",
@@ -430,11 +638,18 @@
       "state": "CA",
       "city": "Yolo County",
       "genetics": "Purebred Akaushi (Red Wagyu) and American F1 Akaushi; also specialty Black Wagyu; registered foundational genetics (e.g. D&H Rueshaw Jr. and other listed FB-registered sires on genetics page)",
-      "breeds": ["akaushi", "wagyu"],
-      "products": ["cattle shares (quarter/half/whole)", "Wagyu beef", "pasture-raised lamb"],
+      "breeds": [
+        "akaushi",
+        "wagyu"
+      ],
+      "products": [
+        "cattle shares (quarter/half/whole)",
+        "Wagyu beef",
+        "pasture-raised lamb"
+      ],
       "shipping": "Local delivery within ~60 miles (greater Sacramento, Yolo, Solano, East Bay / parts of Bay Area) for a small fee; butcher pickup also offered. Not nationwide.",
       "phone": "925-595-3766",
-      "note": "Visits by appointment only. Order via website / Barn2Door store (https://app.barn2door.com/QyR0R). Email: rascalranchfarms@gmail.com. Ranch publishes processing fees paid to butcher separately (~$1.60–$2.00/lb hanging weight) for shares — confirm current pricing and inventory on their store. Specific street city beyond Yolo County not published on main public pages.",
+      "note": "Visits by appointment only. Order via website / Barn2Door store (https://app.barn2door.com/QyR0R). Email: rascalranchfarms@gmail.com. Ranch publishes processing fees paid to butcher separately (~$1.60\u2013$2.00/lb hanging weight) for shares \u2014 confirm current pricing and inventory on their store. Specific street city beyond Yolo County not published on main public pages.",
       "description": "Family ranch (Janice & Mike Hester; Tyler & Megan Hester) in the Yolo-Solano region raising hormone- and antibiotic-free Akaushi and Black Wagyu with regenerative practices (ranch compost, rotational grazing, spent brewers' grains and surplus farm produce in finishing). Sells ranch-direct 100% Wagyu beef via cattle shares and an online store."
     },
     {
@@ -444,11 +659,16 @@
       "state": "CA",
       "city": "Paicines",
       "genetics": "100% Black Angus; pasture-raised on oak-studded San Benito County rangeland, grain-finished on barley, oats, and corn plus alfalfa; no hormones or antibiotics",
-      "breeds": ["angus"],
-      "products": ["half beef shares"],
+      "breeds": [
+        "angus"
+      ],
+      "products": [
+        "half beef shares"
+      ],
       "shipping": "Butcher pickup at Los Gatos Meats (Los Gatos) or Freedom Meats after 14-21 day dry-aging",
       "note": "Family operation near Paicines. Cattle born south of ranch, hand-selected steers at 7-8 months, rotational grazing on three pastures. $5.25/lb live weight + ~$2.65/lb processing fee paid to butcher. 2026 reservations available. Half share ~700 lbs live weight. Contact via website. Instagram: @ellscattleranch",
-      "description": "Small family ranch between the Gabilan and Diablo Mountain ranges raising 100% Black Angus in open pastures. Hand-selected steers enjoy rotational grazing before grain finishing at 18-20 months. Dry-aged beef processed at Los Gatos Meats or Freedom Meats."
+      "description": "Small family ranch between the Gabilan and Diablo Mountain ranges raising 100% Black Angus in open pastures. Hand-selected steers enjoy rotational grazing before grain finishing at 18-20 months. Dry-aged beef processed at Los Gatos Meats or Freedom Meats.",
+      "last_checked": "2026-10-08"
     },
     {
       "slug": "kirk-cattle-company",
@@ -458,10 +678,14 @@
       "city": "Gilroy",
       "genetics": "Certified natural beef; grass-fed or grain-finished options available",
       "breeds": [],
-      "products": ["whole beef", "half beef"],
+      "products": [
+        "whole beef",
+        "half beef"
+      ],
       "shipping": "Contact for availability",
       "note": "Conservation grazing services alongside locally raised beef. Contact Brent Kirk at kirkcattle@verizon.net. Listed via Santa Clara County Cattlemen's Association. No direct consumer website currently.",
-      "description": "Conservation grazing and certified natural beef operation in Gilroy. Offers whole or half beef shares in grass-fed or grain-finished options. Contact via email for current availability and ordering."
+      "description": "Conservation grazing and certified natural beef operation in Gilroy. Offers whole or half beef shares in grass-fed or grain-finished options. Contact via email for current availability and ordering.",
+      "last_checked": "2026-10-08"
     },
     {
       "slug": "salmon-creek-ranch",
@@ -470,8 +694,17 @@
       "state": "CA",
       "city": "Bodega",
       "genetics": "British breeds including Scottish Highland cattle; 100% grass-fed and grass-finished on certified organic pasture; ranch sells only beef from their own cattle",
-      "breeds": ["heritage"],
-      "products": ["steaks", "roasts", "ground", "whole beef", "half beef", "quarter beef"],
+      "breeds": [
+        "heritage"
+      ],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground",
+        "whole beef",
+        "half beef",
+        "quarter beef"
+      ],
       "shipping": "Retail cuts ship continental USA; whole/half/quarter for Sonoma County local pickup; on-farm store pickup in Bodega; also Santa Rosa Certified Farmers Market Saturdays (Luther Burbank Center)",
       "phone": "707-775-9604",
       "note": "Order via online store, email info@salmoncreekranch.com, or phone/text. Address published as PO Box 266, 1400 Bay Hill Rd, Bodega, CA 94922. Dry-aged 14-21 days, USDA-inspected vacuum-packed retail cuts. Confirm current inventory and pricing on their beef price list / store before ordering.",
@@ -484,11 +717,20 @@
       "state": "CA",
       "city": "Tomales",
       "genetics": "Selectively Angus herd; USDA Certified Grassfed and Certified Natural; 100% grass-fed and grass-finished (no grain); regenerative family ranch",
-      "breeds": ["angus"],
-      "products": ["steaks", "ground", "roasts", "beef shares", "micro-shares", "lamb"],
+      "breeds": [
+        "angus"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "roasts",
+        "beef shares",
+        "micro-shares",
+        "lamb"
+      ],
       "shipping": "Ships (recommend 8+ lb for long distance); local delivery in eligible Marin/Sonoma zip codes; ranch pickup in Tomales by pre-order (Sundays or by appointment)",
       "phone": "707-878-2181",
-      "note": "Address: 900 Cerini Road, Tomales, CA — visits by appointment only. Email: marincoastranch@gmail.com. All retail beef cuts currently sold out; beef shares available Spring 2027. Confirm current inventory on their store before ordering.",
+      "note": "Address: 900 Cerini Road, Tomales, CA \u2014 visits by appointment only. Email: marincoastranch@gmail.com. All retail beef cuts currently sold out; beef shares available Spring 2027. Confirm current inventory on their store before ordering.",
       "description": "Sixth-generation Northern California family ranch in West Marin raising USDA Certified Grassfed, Certified Natural Angus beef on coastal pasture. Cattle are grass-fed and grass-finished with dry-aged, vacuum-sealed cuts. Also sells grass-fed lamb; offers ranch hikes, picnics, and tours.",
       "last_checked": "2026-09-27"
     },
@@ -498,13 +740,20 @@
       "url": "https://starwalkerorganicfarms.com/",
       "state": "CA",
       "city": "Fort Jones",
-      "genetics": "Regenerative Organic Certified® grass-fed and grass-finished beef; cattle on pasture 365 days; no feedlots, no grain, no confinement; ranch markets as first Regenerative Organic Certified® beef and pork producers in America; USDA/CCOF organic",
+      "genetics": "Regenerative Organic Certified\u00ae grass-fed and grass-finished beef; cattle on pasture 365 days; no feedlots, no grain, no confinement; ranch markets as first Regenerative Organic Certified\u00ae beef and pork producers in America; USDA/CCOF organic",
       "breeds": [],
-      "products": ["steaks", "ground", "brisket", "ribs", "boxes", "jerky"],
-      "shipping": "Ships nationwide including Alaska and Hawaii (frozen with insulation and dry ice; perishable orders ship Mon–Thu; free shipping on frozen orders $325+ per ranch FAQ; AK/HI via FedEx Priority Overnight and not eligible for free shipping)",
+      "products": [
+        "steaks",
+        "ground",
+        "brisket",
+        "ribs",
+        "boxes",
+        "jerky"
+      ],
+      "shipping": "Ships nationwide including Alaska and Hawaii (frozen with insulation and dry ice; perishable orders ship Mon\u2013Thu; free shipping on frozen orders $325+ per ranch FAQ; AK/HI via FedEx Priority Overnight and not eligible for free shipping)",
       "phone": "530-841-7164",
-      "note": "Also sells Regenerative Organic Certified® heritage pork and organic chicken; directory focus is ranch-direct beef. Email: customerservice@starwalkerorganicfarms.com. Confirm current inventory and pricing on their store. Do not invent sale prices.",
-      "description": "Third-generation Walker family farm in Fort Jones, California (est. 1970) raising Regenerative Organic Certified® grass-fed and grass-finished beef on pasture year-round. Ranch-direct retail cuts, boxes, and snacks shipped frozen nationwide."
+      "note": "Also sells Regenerative Organic Certified\u00ae heritage pork and organic chicken; directory focus is ranch-direct beef. Email: customerservice@starwalkerorganicfarms.com. Confirm current inventory and pricing on their store. Do not invent sale prices.",
+      "description": "Third-generation Walker family farm in Fort Jones, California (est. 1970) raising Regenerative Organic Certified\u00ae grass-fed and grass-finished beef on pasture year-round. Ranch-direct retail cuts, boxes, and snacks shipped frozen nationwide."
     },
     {
       "slug": "oreganic-beef",
@@ -514,7 +763,15 @@
       "city": "Madras",
       "genetics": "USDA Certified Organic; 100% grass-fed and grass-finished; GAP4 (Global Animal Partnership Step 4); third-party verified; fully traceable herd logs (birth/harvest); Oregon-grown organic forage; no synthetic hormones, pesticides, or GMO feed per ranch FAQ",
       "breeds": [],
-      "products": ["steaks", "ground", "roasts", "short ribs", "shanks", "boxes", "burger patties"],
+      "products": [
+        "steaks",
+        "ground",
+        "roasts",
+        "short ribs",
+        "shanks",
+        "boxes",
+        "burger patties"
+      ],
       "shipping": "Live-rate shipping nationwide; weekly ship Tuesday (orders before 8:00 AM Tuesday); free shipping on orders over $199 for OR, WA, CA, ID, and NV residents; vacuum-packed IQF; delivery within 72 hours of shipment per FAQ",
       "phone": "541-777-3636",
       "note": "Brand Oreganic Beef Co. markets beef from Rocker 3 Ranch (Madras, OR; family ranch est. ~1991; DTC brand launched ~2019). Processed at Mark's Meat Co., Canby, OR (USDA organic certified butcher). Emails published: Info@OreganicBeef.com / Devin@OreganicBeef.com. Ranch visits by appointment. Confirm current inventory and pricing on their shop before ordering.",
@@ -528,12 +785,20 @@
       "state": "CA",
       "city": "Capay Valley / Brooks",
       "genetics": "Ranch-raised Angus on tribal lands; 800 head of cattle on 20,000 acres of open rangeland in Capay Valley; sustainable grazing program; finished with oats, barley, and corn for 45-60 days",
-      "breeds": ["angus"],
-      "products": ["steaks", "ground", "patties", "jerky", "sticks"],
-      "shipping": "Pickup only at Séka Hills Capay Valley Tasting Room (Brooks, CA); Beef Club delivers quarterly packages",
+      "breeds": [
+        "angus"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "patties",
+        "jerky",
+        "sticks"
+      ],
+      "shipping": "Pickup only at S\u00e9ka Hills Capay Valley Tasting Room (Brooks, CA); Beef Club delivers quarterly packages",
       "phone": "530-796-2810",
-      "note": "Beef available exclusively through Séka Hills Beef Club (quarterly pickup-only packages at Capay Valley Tasting Room). Contact Club@sekahills.com for club inquiries or info@yochadehe.gov for general ranch questions. Marketed under Séka Hills brand alongside olive oil, wine, and honey from the Yocha Dehe Wintun Nation.",
-      "description": "Yocha Dehe Wintun Nation ranch raising premium Angus beef on tribal lands in California's Capay Valley. Cattle are raised on open pastures across 20,000 acres with sustainable grazing practices that reflect generations of land stewardship. Available through Séka Hills Beef Club with quarterly pickup at the tasting room in Brooks."
+      "note": "Beef available exclusively through S\u00e9ka Hills Beef Club (quarterly pickup-only packages at Capay Valley Tasting Room). Contact Club@sekahills.com for club inquiries or info@yochadehe.gov for general ranch questions. Marketed under S\u00e9ka Hills brand alongside olive oil, wine, and honey from the Yocha Dehe Wintun Nation.",
+      "description": "Yocha Dehe Wintun Nation ranch raising premium Angus beef on tribal lands in California's Capay Valley. Cattle are raised on open pastures across 20,000 acres with sustainable grazing practices that reflect generations of land stewardship. Available through S\u00e9ka Hills Beef Club with quarterly pickup at the tasting room in Brooks."
     },
     {
       "slug": "mariposa-ranch",
@@ -543,7 +808,15 @@
       "city": "Mariposa",
       "genetics": "100% grass-fed and grass-finished beef; cattle grown and finished entirely on pasture; no hormones, no antibiotics, no grains; no herbicides, pesticides, or commercial fertilizers on pastures",
       "breeds": [],
-      "products": ["steaks", "ground", "roasts", "subscription boxes", "whole/half/quarter cow", "organ meats", "bones"],
+      "products": [
+        "steaks",
+        "ground",
+        "roasts",
+        "subscription boxes",
+        "whole/half/quarter cow",
+        "organ meats",
+        "bones"
+      ],
       "shipping": "Ships frozen nationwide with insulated containers and gel packs; free shipping on orders over $150 in CA, NV, AZ",
       "phone": "209-771-0399",
       "note": "Originally founded as Open Space Meats in 2006, rebranded to Mariposa Ranch in 2017 for transparency. Seth & Mica Nitschke family operation with 3 kids. Ranch location: 3132 Spengler Way, Mariposa, CA 95380. Contact: service@mariposaranch.com",
@@ -556,8 +829,17 @@
       "state": "WA",
       "city": "Eltopia",
       "genetics": "Wagyu and Angus; pasture-raised with grain-finished and grass-finished options; no added hormones; diet formulated by certified animal nutritionist",
-      "breeds": ["wagyu", "angus"],
-      "products": ["steaks", "roasts", "ground", "whole/half/quarter beef shares", "boxes"],
+      "breeds": [
+        "wagyu",
+        "angus"
+      ],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground",
+        "whole/half/quarter beef shares",
+        "boxes"
+      ],
       "shipping": "Ships to WA, OR, ID, CA; delivery available in Spokane, Tri-Cities, Seattle areas",
       "phone": "360-509-3835",
       "note": "First-generation vertically integrated ranch with own USDA butcher shop in Connell. Wagyu genetics percentage not specified on public site.",
@@ -570,8 +852,18 @@
       "state": "OR",
       "city": "Redmond",
       "genetics": "Grass-fed and grass-finished Angus and American Wagyu (cross between Japanese Wagyu and American breeds); carefully bred using elite Wagyu-influenced genetics; raised without hormones; animals requiring antibiotics removed from program",
-      "breeds": ["wagyu", "angus"],
-      "products": ["steaks", "roasts", "ground", "gift boxes", "subscription boxes", "bulk ground beef"],
+      "breeds": [
+        "wagyu",
+        "angus"
+      ],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground",
+        "gift boxes",
+        "subscription boxes",
+        "bulk ground beef"
+      ],
       "shipping": "Ships direct to consumer; free Central Oregon delivery on orders $99+; free Portland delivery on orders $199+",
       "phone": "541-699-3141",
       "note": "Formerly Keystone Natural Beef. Ranch pickup available at 655 SW 7th St., Redmond, OR 97756 (Mon-Fri 10am-5pm). Contact: keystonecattle@outlook.com",
@@ -584,10 +876,21 @@
       "state": "OR",
       "city": "Gold Beach",
       "genetics": "100% full-blood Japanese Wagyu and F1 Wagyu (50% Angus, 50% Wagyu); pioneer American Wagyu family herd since 1992/1993; full-blood animals finished on a 500+ day Japanese-style grain ration after pasture raise; F1s grain-fed ~250-300 days",
-      "breeds": ["wagyu"],
-      "products": ["steaks", "ground", "roasts", "organ meats", "hot dogs", "jerky", "boxes", "full/half/quarter carcasses"],
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "roasts",
+        "organ meats",
+        "hot dogs",
+        "jerky",
+        "boxes",
+        "full/half/quarter carcasses"
+      ],
       "shipping": "Ships contiguous United States (frozen, vacuum-sealed; dry ice or gel packs); orders ship Tuesdays (order by 7am PT Tuesday to ship that day); free shipping on orders over $225 for qualifying locations per shop; farm-store pickup in Gold Beach, OR",
-      "note": "Contact: pacificroguewagyu@gmail.com. Mailing: PO Box 194, Wedderburn, OR 97491. No public phone listed on ranch site — do not invent one. Knox family ranch (est. ~1930s by Robert Myron Knox; Wagyu program from 1992/1993). Site also shows occasional sale items (e.g. Flat Iron / Bavette 20% off, London Broil Sampler Box); confirm current sale pricing before adding any deal card. Local Love Box is local pickup only and was sold out when checked 2026-09-25.",
+      "note": "Contact: pacificroguewagyu@gmail.com. Mailing: PO Box 194, Wedderburn, OR 97491. No public phone listed on ranch site \u2014 do not invent one. Knox family ranch (est. ~1930s by Robert Myron Knox; Wagyu program from 1992/1993). Site also shows occasional sale items (e.g. Flat Iron / Bavette 20% off, London Broil Sampler Box); confirm current sale pricing before adding any deal card. Local Love Box is local pickup only and was sold out when checked 2026-09-25.",
       "description": "Fifth-generation coastal Oregon family ranch near Gold Beach raising 100% full-blood and F1 Wagyu since the early 1990s. Pasture-raised then grain-finished; no growth hormones or implants; antibiotics only for sick animals. Ranch-direct online shop ships contiguous US; farm store pickup in Gold Beach."
     },
     {
@@ -596,11 +899,22 @@
       "url": "https://www.alderspring.com/",
       "state": "ID",
       "city": "May",
-      "genetics": "100% grass-fed and grass-finished Black Angus; USDA certified organic and Real Organic Project certified; regeneratively raised on wild mountain pastures; no hormones, no GMOs; antibiotics only for sick animals — those animals never sold as organic",
-      "breeds": ["angus"],
-      "products": ["steaks", "ground", "roasts", "brisket", "organ meats", "boxes", "sixteenths", "sausage"],
+      "genetics": "100% grass-fed and grass-finished Black Angus; USDA certified organic and Real Organic Project certified; regeneratively raised on wild mountain pastures; no hormones, no GMOs; antibiotics only for sick animals \u2014 those animals never sold as organic",
+      "breeds": [
+        "angus"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "roasts",
+        "brisket",
+        "organ meats",
+        "boxes",
+        "sixteenths",
+        "sausage"
+      ],
       "shipping": "Ships frozen via UPS to 48 contiguous states (no AK/HI); Western orders under $250 flat $29, over $250 free ground; Eastern/Midwest higher live UPS rates; ships every other Monday from Salmon, ID warehouse",
-      "note": "Family ranch (Glenn & Caryl Elzinga and daughters) in Pahsimeroi Valley, May, ID 83253 (7073 Custer Road). Online store: https://shopalderspring.com/. Email: help@alderspring.com. Phone intentionally not published on ranch site (request callback by email). Also sells organic lamb, pastured poultry/pork, dairy seasonally — directory focus is ranch-direct beef. Confirm current inventory and pricing on shop before ordering.",
+      "note": "Family ranch (Glenn & Caryl Elzinga and daughters) in Pahsimeroi Valley, May, ID 83253 (7073 Custer Road). Online store: https://shopalderspring.com/. Email: help@alderspring.com. Phone intentionally not published on ranch site (request callback by email). Also sells organic lamb, pastured poultry/pork, dairy seasonally \u2014 directory focus is ranch-direct beef. Confirm current inventory and pricing on shop before ordering.",
       "description": "Family ranch in Idaho's Pahsimeroi Valley raising certified organic, 100% grass-fed and grass-finished Black Angus on wild mountain pastures and home-ranch forage. Ranch-direct since 2005; ships frozen organic beef nationwide (lower 48).",
       "last_checked": "2026-09-30"
     },
@@ -612,10 +926,15 @@
       "city": "Big Sandy",
       "genetics": "Pasture-raised with light grain finish using home-grown barley; cattle never see a feedlot or confined spaces; roam native grasslands and drink from spring-fed reservoirs; antibiotic-free and hormone-free",
       "breeds": [],
-      "products": ["steaks", "ground", "boxes", "Pasture-to-Porch Club subscription"],
+      "products": [
+        "steaks",
+        "ground",
+        "boxes",
+        "Pasture-to-Porch Club subscription"
+      ],
       "shipping": "Ships beef nationwide (frozen, ranch-direct to porch)",
       "phone": "406-930-0632",
-      "note": "Fifth-generation ranchers Colter and Lauren Darlington; historic Darlington Ranch founded 1916. Contact: lauren@darlingtonranch.com. Exact cattle breed not prominently stated on public homepage — do not invent breed. Confirm current Pasture-to-Porch Club and box pricing on shop before ordering.",
+      "note": "Fifth-generation ranchers Colter and Lauren Darlington; historic Darlington Ranch founded 1916. Contact: lauren@darlingtonranch.com. Exact cattle breed not prominently stated on public homepage \u2014 do not invent breed. Confirm current Pasture-to-Porch Club and box pricing on shop before ordering.",
       "description": "Fifth-generation Big Sandy, Montana family ranch (founded 1916) selling pasture-raised, light barley grain-finished beef ranch-direct. Antibiotic-free and hormone-free; ships nationwide."
     },
     {
@@ -626,7 +945,14 @@
       "city": "Arizona",
       "genetics": "100% grass-fed and grass-finished on millions of acres of Arizona open range land; Native grasses; no antibiotics, steroids, mRNA, or added growth hormones",
       "breeds": [],
-      "products": ["steaks", "ground", "roasts", "burgers", "boxes", "bulk shares"],
+      "products": [
+        "steaks",
+        "ground",
+        "roasts",
+        "burgers",
+        "boxes",
+        "bulk shares"
+      ],
       "shipping": "Ships nationwide including California, Colorado, Utah, and Texas",
       "phone": "928-525-4441",
       "note": "USDA inspected facility in Arizona. Cattle spend their lives on open range land eating native grasses and flowers. Contact via phone or website.",
@@ -641,7 +967,14 @@
       "city": "Gunnison",
       "genetics": "100% grass-fed and grass-finished; regeneratively grazed on Colorado mountain pastures; no hormones, no antibiotics",
       "breeds": [],
-      "products": ["steaks", "ground", "roasts", "boxes", "subscription", "organ meats"],
+      "products": [
+        "steaks",
+        "ground",
+        "roasts",
+        "boxes",
+        "subscription",
+        "organ meats"
+      ],
       "shipping": "Ships to all 50 states",
       "note": "Family ranch founded 2006 by Bill and Kelli Parker, now led by CEO Cloe Parker. Leases 400+ acres near Gunnison using holistic land management. Contact: info@parkerpastures.com. Cattle breed not specified on public site.",
       "description": "Family ranch in Gunnison Valley founded in 2006 by Bill and Kelli Parker, now led by daughter Cloe Parker as CEO. 100% grass-fed and grass-finished beef raised with regenerative agriculture practices on Colorado's high mesa.",
@@ -654,10 +987,19 @@
       "state": "OK",
       "city": "Thomas",
       "genetics": "USDA Choice Black Angus; grass-fed and grain-finished on crops grown on ranch; pasture-raised; no added hormones, no mRNA vaccines",
-      "breeds": ["angus"],
-      "products": ["beef boxes", "ribeye", "NY strip", "filet", "ground beef", "steak burgers"],
+      "breeds": [
+        "angus"
+      ],
+      "products": [
+        "beef boxes",
+        "ribeye",
+        "NY strip",
+        "filet",
+        "ground beef",
+        "steak burgers"
+      ],
       "shipping": "Ships nationwide (frozen and insulated)",
-      "note": "Family-owned since 1902 (4th generation, founded by Pierre Didier from South France). Cattle born, raised, and finished on one family ranch in Oklahoma—never outsourced. Dry-aged 21-28 days. Email: Didierranch1902@gmail.com; Mailing: P.O. Box 808, Thomas, OK 73669. No public phone listed.",
+      "note": "Family-owned since 1902 (4th generation, founded by Pierre Didier from South France). Cattle born, raised, and finished on one family ranch in Oklahoma\u2014never outsourced. Dry-aged 21-28 days. Email: Didierranch1902@gmail.com; Mailing: P.O. Box 808, Thomas, OK 73669. No public phone listed.",
       "description": "Fourth-generation family ranch in Thomas, Oklahoma, founded in 1902 by Pierre Didier. Premium USDA Choice Black Angus beef, born, raised, and finished on one ranch. Grass-fed in their pastures and grain-finished on crops grown on the ranch. Dry-aged 21-28 days and shipped frozen nationwide.",
       "last_checked": "2026-09-28"
     },
@@ -669,7 +1011,13 @@
       "city": "Johnson City",
       "genetics": "100% grass-fed and grass-finished; pasture rotation method; no hormones, no antibiotics, no grain; cattle raised on pastures free of chemicals and GMOs",
       "breeds": [],
-      "products": ["steaks", "ground", "roasts", "subscription boxes", "pastured chicken"],
+      "products": [
+        "steaks",
+        "ground",
+        "roasts",
+        "subscription boxes",
+        "pastured chicken"
+      ],
       "shipping": "Ships nationwide (meat ships Mondays and Tuesdays only); free shipping on orders over $175",
       "phone": "620-353-8344",
       "note": "Fifth-generation family ranch (Matt and Michelle Canny) in Stanton County, rural Kansas. Regenerative ranching with pasture rotation. Also operates farm-to-table restaurant at 112 South Main Street. Contact: hello@whollycowmarket.com. Address: 303 South Main St. Johnson, KS 67855.",
@@ -683,8 +1031,14 @@
       "state": "NY",
       "city": "Morris",
       "genetics": "All-natural premium Angus; pasture-raised, free to roam with no confinement; fed native grasses only; no hormones or antibiotics; New York Grown & Certified",
-      "breeds": ["angus"],
-      "products": ["steaks", "burger patties", "bulk beef shares"],
+      "breeds": [
+        "angus"
+      ],
+      "products": [
+        "steaks",
+        "burger patties",
+        "bulk beef shares"
+      ],
       "shipping": "Free shipping east of Mississippi; nationwide shipping available; local pickup at farm; free home delivery for locals",
       "phone": "607-285-4070",
       "note": "Zrowka Family Ranch in New York's Butternut Valley. USDA Certified. Rotational grazing for sustainable ranching. Flash-frozen cryovacked beef products vacuum-sealed. 1/8, 1/4, 1/2, and whole beef shares available.",
@@ -698,8 +1052,15 @@
       "state": "TN",
       "city": "Fairview",
       "genetics": "American Wagyu; free-range, hormone-free, organically-fed; producing since 2015; distinct marbling, unsaturated fat, lower cholesterol",
-      "breeds": ["wagyu"],
-      "products": ["steaks", "ground", "burger patties", "sampler boxes"],
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "burger patties",
+        "sampler boxes"
+      ],
       "shipping": "Ships to clients nationwide in temperature-controlled packaging; local pickup and delivery available in Middle Tennessee",
       "phone": "615-504-9784",
       "note": "The Legacy Cattle Company. USDA inspected and approved. Pickup location: 2671 Fairview, Suite 105, Fairview, TN 37062. Contact for orders: (615) 504-9784.",
@@ -714,7 +1075,13 @@
       "city": "Lehi",
       "genetics": "Grass-fed and grain-finished; no unnecessary antibiotics or hormones",
       "breeds": [],
-      "products": ["ground", "burger patties", "quarter beef share", "half beef share", "whole beef share"],
+      "products": [
+        "ground",
+        "burger patties",
+        "quarter beef share",
+        "half beef share",
+        "whole beef share"
+      ],
       "shipping": "Shipping available on products 20 lbs and under; delivery to your doorstep",
       "phone": "801-913-0016",
       "note": "Family farm since 1908 with over three generations of experience. Custom cuts prepared by USDA-certified butcher. Dry-aged 14-21 days. Location: 1212 W. 400 N., Lehi, UT 84043. Contact: info@lewislivestock.com",
@@ -729,8 +1096,17 @@
       "city": "Clarion",
       "genetics": "100% grass-fed and grass-finished; AGA third-party verified; regenerative rotational grazing; no grain, antibiotics, or added hormones ever; dry-aged 14 days",
       "breeds": [],
-      "products": ["steaks", "ground", "roasts", "boxes", "beef shares", "subscription club", "beef sticks", "pastured chicken"],
-      "shipping": "Ships nationwide Tuesdays via UPS frozen with dry ice; flat-rate $20–$59 continental US, $120 AK/HI",
+      "products": [
+        "steaks",
+        "ground",
+        "roasts",
+        "boxes",
+        "beef shares",
+        "subscription club",
+        "beef sticks",
+        "pastured chicken"
+      ],
+      "shipping": "Ships nationwide Tuesdays via UPS frozen with dry ice; flat-rate $20\u2013$59 continental US, $120 AK/HI",
       "description": "Fifth-generation family farm (Knute & Amanda Severson) in Clarion, Iowa raising 100% grass-fed and grass-finished beef since 2017. American Grassfed Association third-party verified. Dry-aged 14 days. Regenerative farming with intensive rotational grazing builds soil health, captures carbon, and restores wildlife habitat.",
       "last_checked": "2026-10-02"
     },
@@ -741,8 +1117,14 @@
       "state": "MI",
       "city": "Laingsburg",
       "genetics": "Full-blood Wagyu; pasture-raised and pasture-finished on open Michigan pastures; also raise Belted Galloway; optional grain finish available",
-      "breeds": ["wagyu"],
-      "products": ["whole beef", "half beef", "quarter beef"],
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "whole beef",
+        "half beef",
+        "quarter beef"
+      ],
       "shipping": "Free delivery within 50 miles of Laingsburg, Michigan; delivery to select neighboring states; contact for options",
       "phone": "608-963-2385",
       "note": "USDA processed beef shares with custom cuts. Deposit-based ordering ($10/lb hanging weight). Beef processed within 48-72 hours of butcher date. Contact via email riley@whisperingpinesranchllc.com for orders and cut sheets.",
@@ -757,7 +1139,15 @@
       "city": "Viroqua",
       "genetics": "100% grass-fed and grass-finished; Wisconsin Grass-fed Beef Cooperative of 230+ Wisconsin family farms; rotational grazing; no antibiotics, growth hormones, GMOs, or pesticides; breeds proven hearty on all-forage diet",
       "breeds": [],
-      "products": ["steaks", "roasts", "ground", "bundles", "whole beef", "half beef", "subscription boxes"],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground",
+        "bundles",
+        "whole beef",
+        "half beef",
+        "subscription boxes"
+      ],
       "shipping": "Ships nationwide with free shipping on one-time purchases; free delivery of whole/half beef in SE Wisconsin only",
       "phone": "800-745-9093",
       "description": "Farmer-owned cooperative of 230+ Wisconsin family farms raising 100% grass-fed and grass-finished beef with regenerative practices. Low-stress handling and rotational grazing protect soil and water resources. All business decisions made by member farmers, profits returned to farmers. Cryovac-sealed, frozen, and delivered to your door.",
@@ -771,7 +1161,15 @@
       "city": "Ina",
       "genetics": "100% grass-fed and grass-finished; regenerative rotational grazing (move cattle to new pasture several times a week, sometimes daily); no Roundup, pesticides, or fungicides; non-GMO pastures; natural free-choice minerals; non-pasteurized apple cider vinegar as probiotic; late weaning (10+ months)",
       "breeds": [],
-      "products": ["steaks", "roasts", "ground", "stew meat", "brisket", "boxes", "beef shares"],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground",
+        "stew meat",
+        "brisket",
+        "boxes",
+        "beef shares"
+      ],
       "shipping": "Ships nationwide via UPS or Farmstead Foods (contiguous 48 states); overnight or 2-day shipping; orders by Tuesday midnight ship before weekend",
       "phone": "618-927-7711",
       "note": "On-farm store Monday-Friday 7:30AM-5:30PM, Saturday 9AM-4PM. Carbondale Farmers Market Saturdays 8am-12pm (April-Nov). Processor pickup available in Anna, IL. Also sells pastured heritage pork (Red Wattle and Tamworth breeds).",
@@ -784,9 +1182,12 @@
       "url": "https://flyingbbeef.com/",
       "state": "CA",
       "city": "Catheys Valley",
-      "genetics": "Black Angus; bred, born, raised, grazed, and finished in California; 100% pasture-raised in the central California foothills with rotational grazing; all grass-fed, with beef boxes grain-finished (grain mix, alfalfa, oat hay ~130–145 days); grass-finished whole shares once a year (spring reservations, ready May–June)",
+      "genetics": "Black Angus; bred, born, raised, grazed, and finished in California; 100% pasture-raised in the central California foothills with rotational grazing; all grass-fed, with beef boxes grain-finished (grain mix, alfalfa, oat hay ~130\u2013145 days); grass-finished whole shares once a year (spring reservations, ready May\u2013June)",
       "breeds": [],
-      "products": ["beef boxes (Urbanite, Ranchette, Doublewide, Burger Box, Homesteader, Baron Box)", "bulk shares (quarter/half/whole)"],
+      "products": [
+        "beef boxes (Urbanite, Ranchette, Doublewide, Burger Box, Homesteader, Baron Box)",
+        "bulk shares (quarter/half/whole)"
+      ],
       "shipping": "Free pickup at Mae It Be Home in downtown Mariposa, CA; bulk shares: free delivery within ~1 hour of Catheys Valley (approx. Clovis to Modesto); beef boxes: local delivery on orders $1,000+ within same area",
       "note": "USDA-inspected processing in Atwater, CA; cut and wrapped at Western Meats, Modesto. Quarter share (Baron Box) is pre-packaged; half and whole shares include custom cut sheet.",
       "description": "Family-owned beef operation (Austin and Lauren Miller) in Catheys Valley, Mariposa County, California. Black Angus cattle raised in the central California foothills with rotational grazing. All cattle grass-fed; beef boxes use grain-finished cattle, grass-finished whole shares available once yearly."
@@ -798,8 +1199,18 @@
       "state": "MN",
       "city": "Conger",
       "genetics": "American Wagyu from Japanese breed mixed with other breeds over 10,000 years; raised slow in low-stress environment with custom diet; no hormones or antibiotics",
-      "breeds": ["wagyu"],
-      "products": ["steaks", "roasts", "ground", "burgers", "brisket", "beef jerky", "bundles"],
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground",
+        "burgers",
+        "brisket",
+        "beef jerky",
+        "bundles"
+      ],
       "shipping": "Ships nationwide; local hand delivery available in South-Central Minnesota",
       "phone": "507-265-3340",
       "note": "Partnership between third-generation family farmer, 90-year-old family-owned USDA-inspected artisan butcher shop (Conger Meat Market), and several seasoned ranchers. Dry-aged 10-14 days. Genetics: American Wagyu (not specified if F1, F2, etc.). Address: P.O Box 368 Conger Minnesota 56020. Contact: info@fellersranch.com.",
@@ -814,11 +1225,43 @@
       "city": "Bluffton",
       "genetics": "All cattle are grass-fed and grass-finished; Certified Grassfed by American Grassfed Association; no antibiotics, steroids, or added growth hormones",
       "breeds": [],
-      "products": ["steaks", "roasts", "ground", "brisket", "bones", "organs", "bundles"],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground",
+        "brisket",
+        "bones",
+        "organs",
+        "bundles"
+      ],
       "shipping": "Ships to 48 contiguous states; on-farm pickup available",
       "phone": "229-641-2081",
       "note": "Six-generation family farm established 1866. On-farm USDA-inspected abattoir with zero-waste processing. On-farm store open 7 days a week (Mon-Fri 7:00 AM - 8:00 PM, Sat 8:00 AM - 8:00 PM, Sun 9:00 AM - 5:00 PM). Also sells pastured chicken, heritage pork, grassfed lamb, grassfed goat, and more. Free shipping on ground orders over $249; $15 perishable shipping on orders over $149. Farmer Will Harris wrote 'A Bold Return To Giving A Damn'. Email: info@whiteoakpastures.com. Address: 101 Church Street, Bluffton, GA 39824.",
       "description": "White Oak Pastures is a six-generation family farm in Bluffton, Georgia, established in 1866. Focus on regenerative land management, humane animal husbandry, and rural revitalization. All cattle are grass-fed and grass-finished, certified by the American Grassfed Association. Processed in on-farm USDA-inspected abattoir with zero-waste practices. Hand-butchered beef available direct to consumers nationwide.",
+      "last_checked": "2026-10-08"
+    },
+    {
+      "slug": "hiroshi-ranch",
+      "name": "Hiroshi Ranch",
+      "url": "https://www.hiroshiranch.com/",
+      "state": "MO",
+      "city": "Kaiser",
+      "genetics": "100% Fullblood Wagyu; unique diet with organic cacao powder, flaxseed oil, and pirella oil for distinct flavor; free-range with pasture access",
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground",
+        "brisket",
+        "hot dogs",
+        "bacon",
+        "sausages"
+      ],
+      "shipping": "Ships nationwide (continental US)",
+      "phone": "573-505-0021",
+      "description": "Family-owned Fullblood Wagyu farm in Central Missouri founded in 2016. Cattle fed unique diet including organic cacao powder creating subtle chocolate essence. Supplies local Lake Ozark restaurants and ships nationwide.",
       "last_checked": "2026-10-08"
     }
   ]
