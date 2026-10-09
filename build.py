@@ -1376,6 +1376,51 @@ def prune_orphaned_listings():
     else:
         print("\n✓ No orphaned listings found")
 
+SITE_URL = 'https://acreandplate.com'
+# Generated pages that should not be in sitemap.xml (post-checkout thank-you page)
+SITEMAP_EXCLUDE = {'featured/thanks/index.html'}
+
+def build_sitemap():
+    """Write sitemap.xml listing every public */index.html page on the site"""
+    from xml.sax.saxutils import escape
+    news_dates = {}
+    for item in news_items:
+        day = (item.get('published_at') or '')[:10]
+        if day and day <= get_build_date_iso():
+            news_dates[f"news/{item['id']}/index.html"] = day
+    pages = []
+    for root, dirs, files in os.walk('.'):
+        dirs[:] = sorted(d for d in dirs if not d.startswith(('.', '_')) and d != 'node_modules')
+        if 'index.html' not in files:
+            continue
+        rel = os.path.relpath(os.path.join(root, 'index.html'), '.').replace(os.sep, '/')
+        if rel in SITEMAP_EXCLUDE:
+            continue
+        with open(rel, 'r', encoding='utf-8', errors='ignore') as f:
+            head = f.read(4000).lower()
+        if 'noindex' in head:
+            continue
+        pages.append(rel)
+    pages.sort(key=lambda r: (r != 'index.html', r))
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for rel in pages:
+        path = '/' if rel == 'index.html' else '/' + rel[:-len('index.html')]
+        lines.append('  <url>')
+        lines.append(f'    <loc>{escape(SITE_URL + path)}</loc>')
+        if rel in news_dates:
+            lines.append(f'    <lastmod>{news_dates[rel]}</lastmod>')
+        lines.append('  </url>')
+    lines.append('</urlset>')
+    with open('sitemap.xml', 'w') as f:
+        f.write('\n'.join(lines) + '\n')
+    print(f"✓ sitemap.xml ({len(pages)} URLs)")
+
+def get_build_date_iso() -> str:
+    """Today's date (YYYY-MM-DD), used to skip future lastmod values"""
+    from datetime import date
+    return date.today().isoformat()
+
 def main():
     """Build all pages"""
     print("Building Acre & Plate...\n")
@@ -1608,6 +1653,8 @@ def main():
     print(f"✓ Built news page with {len(news_items)} updates")
     print(f"✓ Built {len(news_items)} individual news story pages")
     print("✓ Built featured ranch pages")
+    # Sitemap (after all pages are written)
+    build_sitemap()
     print(f"\n✨ Site build complete! Total pages: {len(listings) + len(news_items) + 18}")
 
 if __name__ == '__main__':
