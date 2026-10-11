@@ -418,6 +418,7 @@ def build_index():
                 <a href="/minnesota/" class="hub-link">Minnesota <span class="count">({len([l for l in listings if l.get('state') == 'MN'])})</span></a>
                 <a href="/missouri/" class="hub-link">Missouri <span class="count">({len([l for l in listings if l.get('state') == 'MO'])})</span></a>
                 <a href="/new-york/" class="hub-link">New York <span class="count">({len([l for l in listings if l.get('state') == 'NY'])})</span></a>
+                <a href="/north-carolina/" class="hub-link">North Carolina <span class="count">({len([l for l in listings if l.get('state') == 'NC'])})</span></a>
                 <a href="/ohio/" class="hub-link">Ohio <span class="count">({len([l for l in listings if l.get('state') == 'OH'])})</span></a>
                 <a href="/texas/" class="hub-link">Texas <span class="count">({len([l for l in listings if l['state'] == 'TX'])})</span></a>
                 <a href="/california/" class="hub-link">California <span class="count">({len([l for l in listings if l['state'] == 'CA' or 'CA' in l.get('state', '')])})</span></a>
@@ -1603,6 +1604,13 @@ def main():
     )
     
     build_hub_page(
+        "North Carolina Ranches",
+        "north-carolina",
+        lambda l: l.get('state') == 'NC',
+        "North Carolina ranches raising pasture-raised Hereford & Angus beef in the Appalachian Mountains with dry-aging and nationwide shipping."
+    )
+    
+    build_hub_page(
         "Tennessee Ranches",
         "tennessee",
         lambda l: l.get('state') == 'TN',
@@ -1654,7 +1662,7 @@ def main():
         build_news_story(item)
     
     print(f"\n✓ Built {len(listings)} listing pages")
-    print("✓ Built hub pages (wagyu, akaushi, heritage, arizona, iowa, kansas, michigan, minnesota, missouri, new-york, ohio, oklahoma, pennsylvania, tennessee, texas, utah, california, colorado, florida, georgia, idaho, montana, oregon, washington, wisconsin, wyoming)")
+    print("✓ Built hub pages (wagyu, akaushi, heritage, arizona, iowa, kansas, michigan, minnesota, missouri, new-york, north-carolina, ohio, oklahoma, pennsylvania, tennessee, texas, utah, california, colorado, florida, georgia, idaho, montana, oregon, washington, wisconsin, wyoming)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
     print(f"✓ Built markets page with {len(markets)} farmers markets and {len(butchers)} butcher shops")

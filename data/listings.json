@@ -630,7 +630,8 @@
       "shipping": "Ships nationwide (frozen)",
       "phone": "307-680-6119",
       "note": "Prefer text/email; ranch notes limited cell service. Preparing move from Wyoming to Florida — current DTC beef marketed as Wyoming Last Harvest / regenerative Fullblood. Confirm current ranch location and inventory on their site before ordering. Shop may also carry other product lines; directory claim is for their own Fullblood herd only.",
-      "description": "Woman-owned family ranch (WYO Wagyu) raising regeneratively pastured Fullblood Japanese Black Wagyu. Grass-fed with a managed fermented grain finish; no soy, no added hormones, no routine antibiotics per ranch site. USDA harvest, dry-aged 14–21 days, vacuum sealed, flash frozen, shipped ranch-direct."
+      "description": "Woman-owned family ranch (WYO Wagyu) raising regeneratively pastured Fullblood Japanese Black Wagyu. Grass-fed with a managed fermented grain finish; no soy, no added hormones, no routine antibiotics per ranch site. USDA harvest, dry-aged 14–21 days, vacuum sealed, flash frozen, shipped ranch-direct.",
+      "last_checked": "2026-10-10"
     },
     {
       "slug": "rascal-ranch-farms",
@@ -844,7 +845,8 @@
       "shipping": "Ships to WA, OR, ID, CA; delivery available in Spokane, Tri-Cities, Seattle areas",
       "phone": "360-509-3835",
       "note": "First-generation vertically integrated ranch with own USDA butcher shop in Connell. Wagyu genetics percentage not specified on public site.",
-      "description": "First-generation ranch (Cody & Jen Hoseth) in Eltopia raising Wagyu and Angus cattle with own USDA butcher shop in Connell. 1,000 head of cattle with no added hormones, diet formulated by certified animal nutritionist. Locally sourced feed including non-GMO wheat, apples, and potatoes."
+      "description": "First-generation ranch (Cody & Jen Hoseth) in Eltopia raising Wagyu and Angus cattle with own USDA butcher shop in Connell. 1,000 head of cattle with no added hormones, diet formulated by certified animal nutritionist. Locally sourced feed including non-GMO wheat, apples, and potatoes.",
+      "last_checked": "2026-10-10"
     },
     {
       "slug": "kauboi-ranch",
@@ -868,7 +870,8 @@
       "shipping": "Ships direct to consumer; free Central Oregon delivery on orders $99+; free Portland delivery on orders $199+",
       "phone": "541-699-3141",
       "note": "Formerly Keystone Natural Beef. Ranch pickup available at 655 SW 7th St., Redmond, OR 97756 (Mon-Fri 10am-5pm). Contact: keystonecattle@outlook.com",
-      "description": "Fifth-generation Oregon rancher Billy Buchanan continuing a family legacy spanning over 100 years. Grass-fed and grass-finished Angus and American Wagyu raised in Central Oregon's high desert with ranching legacy and modern Wagyu genetics."
+      "description": "Fifth-generation Oregon rancher Billy Buchanan continuing a family legacy spanning over 100 years. Grass-fed and grass-finished Angus and American Wagyu raised in Central Oregon's high desert with ranching legacy and modern Wagyu genetics.",
+      "last_checked": "2026-10-10"
     },
     {
       "slug": "pacific-rogue-wagyu",
@@ -1291,6 +1294,31 @@
       "note": "Cattle managed on leased land in Holmes County, Ohio; farm store and pickup at Canton location. Also sells pasture-raised chicken, woodland pork, A2 milk, and dairy products. 100% of profits reinvested into regenerative farming practices. Email: zoefarmsohio@gmail.com. Address: 5676 Faircrest ST SW, Canton, OH 44706.",
       "description": "Family-owned regenerative farm run by Dustin and Erin Schnabel raising single-origin 100% grass-fed and grass-finished beef in Holmes County, Ohio. Cattle managed with holistic rotational grazing practices on leased pastureland. Ships next-day across Ohio with farm store pickup available in Canton.",
       "last_checked": "2026-10-09"
+    },
+    {
+      "slug": "shipley-farms",
+      "name": "Shipley Farms Signature Beef",
+      "url": "https://shipleyfarmsbeef.com/",
+      "state": "NC",
+      "city": "Vilas",
+      "genetics": "Hereford & Angus cattle; pasture-raised on mountain pastures in the Southern Appalachians; supplemented with balanced vegetable-based feed; no added hormones; never treated with antibiotics except when medically necessary; dry-aged in-house for flavor and tenderness",
+      "breeds": [
+        "hereford",
+        "angus"
+      ],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground",
+        "sausages",
+        "boxes",
+        "whole/half/quarter/eighth beef shares"
+      ],
+      "shipping": "Ships nationwide frozen; farm store pickup Wednesday-Saturday 10 AM-5 PM",
+      "phone": "828-484-1872",
+      "note": "Fifth-generation family farm established 1872; W.E. Shipley brought first registered Hereford bull to NC from Virginia in 1897; NC Century Farm Certified; farm store address: 1699 Linville Creek Rd., Vilas, NC 28692; Email: beef@shipleyfarmsbeef.com. Also offers farm tours and historic farmhouse stays (Valley View).",
+      "description": "Five generations of family farming in the Appalachian Mountains of Vilas, North Carolina since 1872. Pasture-raised Hereford & Angus beef, dry-aged on the farm for deep flavor and exceptional tenderness. No added hormones. Ships frozen nationwide with farm store pickup available.",
+      "last_checked": "2026-10-10"
     }
   ]
 }
