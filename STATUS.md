@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** October 10, 2026  
+**Last Updated:** October 11, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 61
+- **Total Ranches:** 62
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -17,6 +17,7 @@
 - **Arizona Ranches:** 1
 - **Georgia Ranches:** 1
 - **Illinois Ranches:** 1
+- **Indiana Ranches:** 1
 - **Iowa Ranches:** 1
 - **Kansas Ranches:** 2
 - **Michigan Ranches:** 1
@@ -40,7 +41,7 @@
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 100
+- **Total Pages:** 102
 
 ## Pages Built
 
@@ -59,6 +60,7 @@
 - ✅ Heritage Breeds hub (`/heritage/`) - 3 ranches
 - ✅ Arizona hub (`/arizona/`) - 1 ranch
 - ✅ Illinois hub (`/illinois/`) - 1 ranch
+- ✅ Indiana hub (`/indiana/`) - 1 ranch
 - ✅ Iowa hub (`/iowa/`) - 1 ranch
 - ✅ Kansas hub (`/kansas/`) - 2 ranches
 - ✅ Missouri hub (`/missouri/`) - 1 ranch
@@ -146,6 +148,7 @@
 - ✅ Hiroshi Ranch (MO)
 - ✅ ZOE Farms (OH)
 - ✅ Shipley Farms Signature Beef (NC)
+- ✅ Tyner Pond Farm (IN)
 
 ## Known Gaps & Notes
 
@@ -258,6 +261,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Oct 8/9, 2026 PT nightly ship:** Added **Hiroshi Ranch** (Kaiser, MO) — first Missouri ranch on directory: family-owned 100% Fullblood Wagyu farm founded 2016 in Central Missouri; unique diet with organic cacao powder, flaxseed oil, and pirella oil creating subtle chocolate essence; free-range with pasture access; ships nationwide (continental US); supplies local Lake Ozark restaurants (Roxie's, Michaels Steak Chalet); phone 573-505-0021, email info@hiroshiranch.com. Missouri is the 27th state represented in the directory. Added Missouri state hub at `/missouri/` wired like other state hubs (home + nav pattern). Wagyu hub now shows 25 ranches (up from 24). Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-08. Checked newsletter leads: Alderspring Oct 8 email (restock/marketing, no sale with both prices visible), Yocha Dehe Oct 6 (20% off 2-Pack Filets not visible on live beef shop page), Alderspring 16ths10off code (checkout code, not both prices on page) — no new deals added. Re-checked **Connolly Ranch Natural Beef** (CA), **Kirk Cattle Company** (CA), and **Ells Cattle Ranch** (CA) — all operational, websites/listings active, valid contact methods; set last_checked: "2026-10-08" on all three listings. Total: 59 ranches, 3 deals, 3 markets, 20 butchers, 96 pages.
 - 📅 **Oct 9, 2026 PT nightly ship:** Added **ZOE Farms** (Canton, OH) — first Ohio ranch on directory: family-owned regenerative farm run by Dustin and Erin Schnabel raising single-origin 100% grass-fed and grass-finished beef in Holmes County with holistic rotational grazing; ships next-day across all of Ohio (Tuesday/Wednesday); farm store pickup in Canton; nine food hub pickup points across Northeast Ohio; phone 330-942-4668, email zoefarmsohio@gmail.com. Ohio is the 28th state represented in the directory. Added Ohio state hub at `/ohio/` wired like other state hubs (home + nav pattern). Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-09. Checked newsletter leads: Yocha Dehe Oct 6 (20% off 2-Pack Filets not visible on live beef shop page), Alderspring Oct 8 restock/16ths10off (expired Oct 4 or checkout codes only), Lone Mountain Oct 9 holiday gifts (no sale with both prices visible) — no new deals added. Re-checked **Cross Creek Ranch Premium Meats** (CO), **Darlington Ranch Co.** (MT), and **Flying B Beef** (CA) — all operational, websites and shops active, valid MX records; set last_checked: "2026-10-09" on all three listings. Total: 60 ranches, 3 deals, 3 markets, 20 butchers, 98 pages.
 - 📅 **Oct 10, 2026 PT nightly ship:** Added **Shipley Farms Signature Beef** (Vilas, NC) — first North Carolina ranch on directory: fifth-generation family farm established 1872 raising pasture-raised Hereford & Angus beef in the Appalachian Mountains; dry-aged on the farm for deep flavor and tenderness; no added hormones; ships nationwide frozen with farm store pickup available Wednesday-Saturday 10 AM-5 PM; phone 828-484-1872, email beef@shipleyfarmsbeef.com; NC Century Farm Certified; W.E. Shipley brought first registered Hereford bull to NC from Virginia in 1897. North Carolina is the 29th state represented in the directory. Added North Carolina state hub at `/north-carolina/` wired like other state hubs (home + nav pattern). Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-10. Checked newsletter inbox leads: Alderspring Oct 10 marketing/restock email ("fill your freezer" storytelling only, no explicit dual-price sale); Lone Mountain Oct 9 holiday gifts (no sale with both prices visible); Yocha Dehe Oct 6 "Two Filets. 20% Off" not visible on live beef shop page — no new deals added. Re-checked **The Hufeisen-Ranch (WYO Wagyu)** (WY), **Kauboi Ranch** (OR), and **Lone Crow Ranch** (WA) — all operational, websites and shops active; set last_checked: "2026-10-10" on all three listings. Total: 61 ranches, 3 deals, 3 markets, 20 butchers, 100 pages.
+- 📅 **Oct 11, 2026 PT nightly ship:** Added **Tyner Pond Farm** (Greenfield, IN) — first Indiana ranch on directory: family farm raising 100% grass-fed and grass-finished beef using South Poll and Corriente genetics specifically developed for ultra-high-density rotational grazing; American Grassfed Association certified; no antibiotics, hormones, vaccines, or grain; 16 years of regenerative soil health work; ships to continental United States; contact amber@farmersmarket.com. Indiana is the 30th state represented in the directory. Added Indiana state hub at `/indiana/` wired like other state hubs (home + nav pattern). Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-11. Checked newsletter inbox leads: Alderspring (checkout codes ORGANICBUNDLE/GRASSFEDGROUND, not both prices visible on page); Lone Mountain Oct 9 holiday gifts (no sale with both prices visible); Yocha Dehe Oct 6 "Two Filets. 20% Off" still not visible on live beef shop page — no new deals added per canon requiring both prices visible on product page. Re-checked **Mahanaim Farms** (UT), **Vermont Wagyu** (VT), and **Nyland Herefords** (CA) — all operational, websites and shops active, valid MX records; set last_checked: "2026-10-11" on all three listings. Total: 62 ranches, 3 deals, 3 markets, 20 butchers, 102 pages.
 
 ### What We Record
 - ✅ Ranch name and location
