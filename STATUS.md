@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** October 12, 2026  
+**Last Updated:** October 13, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 63
+- **Total Ranches:** 64
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -13,7 +13,7 @@
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
 - **Wagyu Ranches:** 25
 - **Akaushi Ranches:** 6
-- **Heritage Breeds:** 5
+- **Heritage Breeds:** 6
 - **Arizona Ranches:** 1
 - **Georgia Ranches:** 1
 - **Illinois Ranches:** 1
@@ -25,6 +25,7 @@
 - **Minnesota Ranches:** 1
 - **Missouri Ranches:** 1
 - **North Carolina Ranches:** 1
+- **South Dakota Ranches:** 1
 - **Texas Ranches:** 6
 - **California Ranches:** 17
 - **Colorado Ranches:** 2
@@ -32,7 +33,6 @@
 - **Idaho Ranches:** 2
 - **Montana Ranches:** 1
 - **New York Ranches:** 1
-- **North Carolina Ranches:** 1
 - **Oklahoma Ranches:** 1
 - **Oregon Ranches:** 3
 - **Pennsylvania Ranches:** 1
@@ -42,7 +42,7 @@
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 104
+- **Total Pages:** 106
 
 ## Pages Built
 
@@ -58,7 +58,7 @@
 ### Hub Pages
 - ✅ Wagyu hub (`/wagyu/`) - 16 ranches
 - ✅ Akaushi hub (`/akaushi/`) - 5 ranches
-- ✅ Heritage Breeds hub (`/heritage/`) - 4 ranches
+- ✅ Heritage Breeds hub (`/heritage/`) - 5 ranches
 - ✅ Arizona hub (`/arizona/`) - 1 ranch
 - ✅ Illinois hub (`/illinois/`) - 1 ranch
 - ✅ Indiana hub (`/indiana/`) - 1 ranch
@@ -78,6 +78,7 @@
 - ✅ Oklahoma hub (`/oklahoma/`) - 1 ranch
 - ✅ Oregon hub (`/oregon/`) - 3 ranches
 - ✅ Pennsylvania hub (`/pennsylvania/`) - 1 ranch
+- ✅ South Dakota hub (`/south-dakota/`) - 1 ranch
 - ✅ Tennessee hub (`/tennessee/`) - 1 ranch
 - ✅ Utah hub (`/utah/`) - 2 ranches
 - ✅ Washington hub (`/washington/`) - 2 ranches
@@ -152,6 +153,7 @@
 - ✅ Shipley Farms Signature Beef (NC)
 - ✅ Tyner Pond Farm (IN)
 - ✅ England Ranch (KY)
+- ✅ Svec Farm (SD)
 
 ## Known Gaps & Notes
 
@@ -266,6 +268,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Oct 10, 2026 PT nightly ship:** Added **Shipley Farms Signature Beef** (Vilas, NC) — first North Carolina ranch on directory: fifth-generation family farm established 1872 raising pasture-raised Hereford & Angus beef in the Appalachian Mountains; dry-aged on the farm for deep flavor and tenderness; no added hormones; ships nationwide frozen with farm store pickup available Wednesday-Saturday 10 AM-5 PM; phone 828-484-1872, email beef@shipleyfarmsbeef.com; NC Century Farm Certified; W.E. Shipley brought first registered Hereford bull to NC from Virginia in 1897. North Carolina is the 29th state represented in the directory. Added North Carolina state hub at `/north-carolina/` wired like other state hubs (home + nav pattern). Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-10. Checked newsletter inbox leads: Alderspring Oct 10 marketing/restock email ("fill your freezer" storytelling only, no explicit dual-price sale); Lone Mountain Oct 9 holiday gifts (no sale with both prices visible); Yocha Dehe Oct 6 "Two Filets. 20% Off" not visible on live beef shop page — no new deals added. Re-checked **The Hufeisen-Ranch (WYO Wagyu)** (WY), **Kauboi Ranch** (OR), and **Lone Crow Ranch** (WA) — all operational, websites and shops active; set last_checked: "2026-10-10" on all three listings. Total: 61 ranches, 3 deals, 3 markets, 20 butchers, 100 pages.
 - 📅 **Oct 11, 2026 PT nightly ship:** Added **Tyner Pond Farm** (Greenfield, IN) — first Indiana ranch on directory: family farm raising 100% grass-fed and grass-finished beef using South Poll and Corriente genetics specifically developed for ultra-high-density rotational grazing; American Grassfed Association certified; no antibiotics, hormones, vaccines, or grain; 16 years of regenerative soil health work; ships to continental United States; contact amber@farmersmarket.com. Indiana is the 30th state represented in the directory. Added Indiana state hub at `/indiana/` wired like other state hubs (home + nav pattern). Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-11. Checked newsletter inbox leads: Alderspring (checkout codes ORGANICBUNDLE/GRASSFEDGROUND, not both prices visible on page); Lone Mountain Oct 9 holiday gifts (no sale with both prices visible); Yocha Dehe Oct 6 "Two Filets. 20% Off" still not visible on live beef shop page — no new deals added per canon requiring both prices visible on product page. Re-checked **Mahanaim Farms** (UT), **Vermont Wagyu** (VT), and **Nyland Herefords** (CA) — all operational, websites and shops active, valid MX records; set last_checked: "2026-10-11" on all three listings. Total: 62 ranches, 3 deals, 3 markets, 20 butchers, 102 pages.
 - 📅 **Oct 12, 2026 PT nightly ship:** Added **England Ranch** (Edmonton, KY) — first Kentucky ranch on directory: ADCA Registered Heritage Dexter cattle with documented lineage; 100% grass-fed and grass-finished; 3 years to mature (double the age of feedlot cattle); no routine antibiotics or growth hormones; certified organic feed, no-soy; rotational grazing on chemical-free pasture; family operation started 2021; direct delivery to Nashville TN, Louisville KY, Lexington KY, Cincinnati OH, Northern Kentucky, Bowling Green KY using own freezer-equipped trailers; ranch pickup in Edmonton; phone (270) 606-7758, email TheRanch@EnglandRanch.com. Kentucky is the 31st state represented in the directory. Added Kentucky state hub at `/kentucky/` wired like other state hubs (home + nav pattern). Heritage Breeds hub now shows 5 ranches (up from 4). Re-verified all 3 active deals still live with both regular and sale prices: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-12. No new deals found tonight. Re-checked **mahanaim-dexter** (UT), **morris-grassfed** (CA), **stemple-creek-ranch** (CA), and **rascal-ranch-farms** (CA) — all operational, websites and shops active, valid contact methods; **IMPORTANT BUG FIX:** These 4 listings were missing last_checked field entirely (previous nightly runs claimed to set it but changes never persisted to listings.json). Root cause: last_checked field was added in-memory during script runs but never committed to git. Fixed by directly updating listings.json and committing changes; set last_checked: "2026-10-12" on all four listings and verified persistence. Total: 63 ranches, 3 deals, 3 markets, 20 butchers, 104 pages.
+- 📅 **Oct 13, 2026 PT nightly ship:** Added **Svec Farm** (Estelline, SD) — first South Dakota ranch on directory: fifth-generation family farm raising heritage breed Belted Galloway cattle on tallgrass prairie; grassfed and grass-finished; never given corn, soy, grains, antibiotics, GMOs, growth hormones, or mRNA vaccines; USDA processed, CryoVac sealed, sold frozen; products include steaks, roasts, ground, organ meats, bundles, and beef shares (whole/half/quarter/eighth); pickup only at multiple South Dakota locations (on-farm in Estelline, Brookings at Gilkerson Gardens, Sioux Falls at Food Co-op, Watertown at Tractor Supply); phone 605-873-4770, email info@svecfarm.com. South Dakota is the 32nd state represented in the directory. Added South Dakota state hub at `/south-dakota/` wired like other state hubs (home + nav pattern). Heritage Breeds hub now shows 6 ranches (up from 5, added Belted Galloway). Re-verified all 3 active deals still live with both regular and sale prices visible: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-13. Re-checked **Salmon Creek Ranch** (CA), **StarWalker Organic Farms** (CA), and **Oreganic Beef Co.** (OR) — all operational with live Oct 2026 news/content; set last_checked: "2026-10-13" on all three listings. No new deals found tonight. Good Life Beef and 1902 Ranch still parked. Total: 64 ranches, 3 deals, 3 markets, 20 butchers, 106 pages.
 
 ### What We Record
 - ✅ Ranch name and location

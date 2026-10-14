@@ -716,7 +716,8 @@
       "shipping": "Retail cuts ship continental USA; whole/half/quarter for Sonoma County local pickup; on-farm store pickup in Bodega; also Santa Rosa Certified Farmers Market Saturdays (Luther Burbank Center)",
       "phone": "707-775-9604",
       "note": "Order via online store, email info@salmoncreekranch.com, or phone/text. Address published as PO Box 266, 1400 Bay Hill Rd, Bodega, CA 94922. Dry-aged 14-21 days, USDA-inspected vacuum-packed retail cuts. Confirm current inventory and pricing on their beef price list / store before ordering.",
-      "description": "Sonoma coast ranch in Bodega raising 100% grass-fed and grass-finished beef on certified organic pasture, including Scottish Highland and other British breeds suited to steep coastal hills. Family operation selling ranch-direct retail cuts nationwide and local beef shares for Sonoma County pickup."
+      "description": "Sonoma coast ranch in Bodega raising 100% grass-fed and grass-finished beef on certified organic pasture, including Scottish Highland and other British breeds suited to steep coastal hills. Family operation selling ranch-direct retail cuts nationwide and local beef shares for Sonoma County pickup.",
+      "last_checked": "2026-10-13"
     },
     {
       "slug": "marin-coast-ranch",
@@ -761,7 +762,8 @@
       "shipping": "Ships nationwide including Alaska and Hawaii (frozen with insulation and dry ice; perishable orders ship Mon–Thu; free shipping on frozen orders $325+ per ranch FAQ; AK/HI via FedEx Priority Overnight and not eligible for free shipping)",
       "phone": "530-841-7164",
       "note": "Also sells Regenerative Organic Certified® heritage pork and organic chicken; directory focus is ranch-direct beef. Email: customerservice@starwalkerorganicfarms.com. Confirm current inventory and pricing on their store. Do not invent sale prices.",
-      "description": "Third-generation Walker family farm in Fort Jones, California (est. 1970) raising Regenerative Organic Certified® grass-fed and grass-finished beef on pasture year-round. Ranch-direct retail cuts, boxes, and snacks shipped frozen nationwide."
+      "description": "Third-generation Walker family farm in Fort Jones, California (est. 1970) raising Regenerative Organic Certified® grass-fed and grass-finished beef on pasture year-round. Ranch-direct retail cuts, boxes, and snacks shipped frozen nationwide.",
+      "last_checked": "2026-10-13"
     },
     {
       "slug": "five-marys-ranch",
@@ -808,7 +810,8 @@
       "phone": "541-777-3636",
       "note": "Brand Oreganic Beef Co. markets beef from Rocker 3 Ranch (Madras, OR; family ranch est. ~1991; DTC brand launched ~2019). Processed at Mark's Meat Co., Canby, OR (USDA organic certified butcher). Emails published: Info@OreganicBeef.com / Devin@OreganicBeef.com. Ranch visits by appointment. Confirm current inventory and pricing on their shop before ordering.",
       "description": "Family-owned Central Oregon ranch (Rocker 3 Ranch in Madras) selling ranch-direct USDA Certified Organic, 100% grass-fed and grass-finished beef under the Oreganic Beef Co. brand. GAP4 certified, fully traceable, dry-aged prime cuts 30+ days.",
-      "featured": false
+      "featured": false,
+      "last_checked": "2026-10-13"
     },
     {
       "slug": "yocha-dehe-ranch",
@@ -1396,6 +1399,31 @@
       "description": "100% grass-fed and grass-finished Heritage Dexter cattle raised on chemical-free pasture. No routine antibiotics or growth hormones. Family operation using freezer-equipped trailers for direct delivery to select markets.",
       "note": "Regional delivery only (Nashville, Louisville, Lexington, Cincinnati, Northern KY, Bowling Green); ranch pickup available. Started 2021.",
       "last_checked": "2026-10-12"
+    },
+    {
+      "slug": "svec-farm",
+      "name": "Svec Farm",
+      "url": "https://www.svecfarm.com/",
+      "state": "SD",
+      "city": "Estelline",
+      "genetics": "Heritage breed Belted Galloway cattle; grassfed and grass-finished on tallgrass prairie; never given corn, soy, or grains; no antibiotics, GMOs, growth hormones, or mRNA vaccines",
+      "breeds": [
+        "heritage",
+        "belted-galloway"
+      ],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground",
+        "organ meats",
+        "beef shares (whole/half/quarter/eighth)",
+        "bundles"
+      ],
+      "shipping": "Pickup only - no shipping; on-farm pickup in Estelline, SD; Brookings pickup at Gilkerson Gardens Farm Store; Sioux Falls pickup at Sioux Falls Food Co-op; Watertown pickup at Tractor Supply Co.",
+      "phone": "605-873-4770",
+      "note": "Fifth-generation family farm. Pickup only at multiple SD locations - does not ship. USDA processed, CryoVac sealed, sold frozen.",
+      "description": "Fifth-generation family farm in Eastern South Dakota raising heritage breed Belted Galloway cattle on tallgrass prairie. 100% grassfed and grass-finished with no corn, soy, or grains. Cattle spend summers grazing mixed native grass prairies and winters fed hay raised on farm. USDA processed and sold frozen.",
+      "last_checked": "2026-10-13"
     }
   ]
 }
