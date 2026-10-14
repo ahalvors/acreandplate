@@ -5,7 +5,7 @@
 
 ## Site Statistics
 
-- **Total Ranches:** 64
+- **Total Ranches:** 65
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
