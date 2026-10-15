@@ -1443,6 +1443,26 @@
       "note": "Fifth-generation family farm. Pickup only at multiple SD locations - does not ship. USDA processed, CryoVac sealed, sold frozen.",
       "description": "Fifth-generation family farm in Eastern South Dakota raising heritage breed Belted Galloway cattle on tallgrass prairie. 100% grassfed and grass-finished with no corn, soy, or grains. Cattle spend summers grazing mixed native grass prairies and winters fed hay raised on farm. USDA processed and sold frozen.",
       "last_checked": "2026-10-13"
+    },
+    {
+      "slug": "stillwater-ranch",
+      "name": "Stillwater Ranch",
+      "url": "https://www.stillwatermurraygreys.com/",
+      "state": "MT",
+      "city": "Manhattan",
+      "genetics": "Purebred, registered Murray Grey herd (American Murray Grey Association); 70+ pairs on high elevation grass without creep; converted from commercial Angus to regeneratively grazed Murray Grey grass-finished program in 2015",
+      "breeds": [],
+      "products": [
+        "whole beef",
+        "half beef",
+        "quarter beef"
+      ],
+      "shipping": "",
+      "phone": "+1 (406) 600-3378",
+      "email": "stillwatermurraygreys@gmail.com",
+      "description": "Purebred Murray Grey cattle raised on diverse native grass meadows in Manhattan, Montana. Grass-fed and grass-finished with no grain, creep, molasses, urea, or growing hormones. Rotationally grazed from calving to harvest. Full buy back guarantee. Contact to be put on order list for spring and fall availability.",
+      "note": "PO Box 141, Manhattan, MT 59741. Available spring and fall—contact to be put on order list. Full buy back guarantee.",
+      "last_checked": "2026-10-14"
     }
   ]
 }
