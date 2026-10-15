@@ -833,7 +833,8 @@
       "shipping": "Pickup only at Séka Hills Capay Valley Tasting Room (Brooks, CA); Beef Club delivers quarterly packages",
       "phone": "530-796-2810",
       "note": "Beef available exclusively through Séka Hills Beef Club (quarterly pickup-only packages at Capay Valley Tasting Room). Contact Club@sekahills.com for club inquiries or info@yochadehe.gov for general ranch questions. Marketed under Séka Hills brand alongside olive oil, wine, and honey from the Yocha Dehe Wintun Nation.",
-      "description": "Yocha Dehe Wintun Nation ranch raising premium Angus beef on tribal lands in California's Capay Valley. Cattle are raised on open pastures across 20,000 acres with sustainable grazing practices that reflect generations of land stewardship. Available through Séka Hills Beef Club with quarterly pickup at the tasting room in Brooks."
+      "description": "Yocha Dehe Wintun Nation ranch raising premium Angus beef on tribal lands in California's Capay Valley. Cattle are raised on open pastures across 20,000 acres with sustainable grazing practices that reflect generations of land stewardship. Available through Séka Hills Beef Club with quarterly pickup at the tasting room in Brooks.",
+      "last_checked": "2026-10-14"
     },
     {
       "slug": "mariposa-ranch",
@@ -855,7 +856,8 @@
       "shipping": "Ships frozen nationwide with insulated containers and gel packs; free shipping on orders over $150 in CA, NV, AZ",
       "phone": "209-771-0399",
       "note": "Originally founded as Open Space Meats in 2006, rebranded to Mariposa Ranch in 2017 for transparency. Seth & Mica Nitschke family operation with 3 kids. Ranch location: 3132 Spengler Way, Mariposa, CA 95380. Contact: service@mariposaranch.com",
-      "description": "Family ranchers in Central California (Mariposa County) raising 100% grass-fed and grass-finished beef since 2006. Cattle raised on open pastures with dry oak trees, with great respect for the environment and animals. Ranch-direct delivery from pasture to table with subscription boxes and retail cuts."
+      "description": "Family ranchers in Central California (Mariposa County) raising 100% grass-fed and grass-finished beef since 2006. Cattle raised on open pastures with dry oak trees, with great respect for the environment and animals. Ranch-direct delivery from pasture to table with subscription boxes and retail cuts.",
+      "last_checked": "2026-10-14"
     },
     {
       "slug": "lone-crow-ranch",
@@ -928,7 +930,8 @@
       ],
       "shipping": "Ships contiguous United States (frozen, vacuum-sealed; dry ice or gel packs); orders ship Tuesdays (order by 7am PT Tuesday to ship that day); free shipping on orders over $225 for qualifying locations per shop; farm-store pickup in Gold Beach, OR",
       "note": "Contact: pacificroguewagyu@gmail.com. Mailing: PO Box 194, Wedderburn, OR 97491. No public phone listed on ranch site — do not invent one. Knox family ranch (est. ~1930s by Robert Myron Knox; Wagyu program from 1992/1993). Site also shows occasional sale items (e.g. Flat Iron / Bavette 20% off, London Broil Sampler Box); confirm current sale pricing before adding any deal card. Local Love Box is local pickup only and was sold out when checked 2026-09-25.",
-      "description": "Fifth-generation coastal Oregon family ranch near Gold Beach raising 100% full-blood and F1 Wagyu since the early 1990s. Pasture-raised then grain-finished; no growth hormones or implants; antibiotics only for sick animals. Ranch-direct online shop ships contiguous US; farm store pickup in Gold Beach."
+      "description": "Fifth-generation coastal Oregon family ranch near Gold Beach raising 100% full-blood and F1 Wagyu since the early 1990s. Pasture-raised then grain-finished; no growth hormones or implants; antibiotics only for sick animals. Ranch-direct online shop ships contiguous US; farm store pickup in Gold Beach.",
+      "last_checked": "2026-10-14"
     },
     {
       "slug": "alderspring-ranch",
@@ -1040,6 +1043,22 @@
       "note": "Family-owned since 1902 (4th generation, founded by Pierre Didier from South France). Cattle born, raised, and finished on one family ranch in Oklahoma—never outsourced. Dry-aged 21-28 days. Email: Didierranch1902@gmail.com; Mailing: P.O. Box 808, Thomas, OK 73669. No public phone listed.",
       "description": "Fourth-generation family ranch in Thomas, Oklahoma, founded in 1902 by Pierre Didier. Premium USDA Choice Black Angus beef, born, raised, and finished on one ranch. Grass-fed in their pastures and grain-finished on crops grown on the ranch. Dry-aged 21-28 days and shipped frozen nationwide.",
       "last_checked": "2026-09-28"
+    },
+    {
+      "slug": "dry-creek-meats",
+      "name": "Dry Creek Meats",
+      "url": "https://drycreekmeats.com/",
+      "state": "OK",
+      "city": "Leedey",
+      "genetics": "100% grass-fed and grass-finished; zero corn, soy, or grain by-products; regenerative ranching; cattle graze freely on a 23,000-acre ranch in New Mexico then finish at the western Oklahoma ranch; no antibiotics, no growth hormones; grazing acres never treated with chemical fertilizers or herbicides (site claims)",
+      "breeds": [],
+      "products": ["retail cuts (steaks, ground, roasts, organ meats)", "beef shares (quarter/half/whole)", "custom/pre-selected boxes and bundles", "subscriptions (weekly/bi-weekly/monthly/quarterly)"],
+      "shipping": "Nationwide shipping; ranch pickup in Leedey, OK; local delivery near Oklahoma City and surrounding areas",
+      "phone": "580-449-1526",
+      "note": "Riley family (Bret and Kelly); three-generation regenerative ranch across New Mexico and Oklahoma. Retail cuts aged 28 days. Cattle breed not named on the public website — leave breeds empty. Address listed: 901 Dewey Avenue, Leedey, OK 73654.",
+      "description": "Three-generation Riley family regenerative ranch raising 100% grass-fed and grass-finished beef across New Mexico and western Oklahoma (Leedey). Ranch-direct retail cuts, beef shares, boxes, and subscriptions with nationwide shipping, OKC-area delivery, and ranch pickup.",
+      "featured": false,
+      "last_checked": "2026-10-14"
     },
     {
       "slug": "wholly-cow-market",
