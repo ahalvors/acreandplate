@@ -5,7 +5,7 @@
 
 ## Site Statistics
 
-- **Total Ranches:** 67
+- **Total Ranches:** 68
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -27,7 +27,7 @@
 - **North Carolina Ranches:** 1
 - **South Dakota Ranches:** 1
 - **Texas Ranches:** 6
-- **California Ranches:** 17
+- **California Ranches:** 18
 - **Colorado Ranches:** 2
 - **Florida Ranches:** 2
 - **Idaho Ranches:** 2
@@ -42,7 +42,7 @@
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 108
+- **Total Pages:** 109
 
 ## Pages Built
 
@@ -67,7 +67,7 @@
 - ✅ Kentucky hub (`/kentucky/`) - 1 ranch
 - ✅ Missouri hub (`/missouri/`) - 1 ranch
 - ✅ Texas hub (`/texas/`) - 6 ranches
-- ✅ California hub (`/california/`) - 16 ranches
+- ✅ California hub (`/california/`) - 17 ranches
 - ✅ Colorado hub (`/colorado/`) - 2 ranches
 - ✅ Florida hub (`/florida/`) - 2 ranches
 - ✅ Georgia hub (`/georgia/`) - 1 ranch
@@ -273,6 +273,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Oct 13, 2026 PT nightly ship:** Added **Svec Farm** (Estelline, SD) — first South Dakota ranch on directory: fifth-generation family farm raising heritage breed Belted Galloway cattle on tallgrass prairie; grassfed and grass-finished; never given corn, soy, grains, antibiotics, GMOs, growth hormones, or mRNA vaccines; USDA processed, CryoVac sealed, sold frozen; products include steaks, roasts, ground, organ meats, bundles, and beef shares (whole/half/quarter/eighth); pickup only at multiple South Dakota locations (on-farm in Estelline, Brookings at Gilkerson Gardens, Sioux Falls at Food Co-op, Watertown at Tractor Supply); phone 605-873-4770, email info@svecfarm.com. South Dakota is the 32nd state represented in the directory. Added South Dakota state hub at `/south-dakota/` wired like other state hubs (home + nav pattern). Heritage Breeds hub now shows 6 ranches (up from 5, added Belted Galloway). Re-verified all 3 active deals still live with both regular and sale prices visible: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-13. Re-checked **Salmon Creek Ranch** (CA), **StarWalker Organic Farms** (CA), and **Oreganic Beef Co.** (OR) — all operational with live Oct 2026 news/content; set last_checked: "2026-10-13" on all three listings. No new deals found tonight. Good Life Beef and 1902 Ranch still parked. Total: 64 ranches, 3 deals, 3 markets, 20 butchers, 106 pages.
 - 📅 **Oct 14, 2026 PT nightly ship:** Added **Dry Creek Meats** (Leedey, OK) — second Oklahoma ranch on directory: three-generation Riley family (Bret and Kelly) regenerative ranch raising 100% grass-fed and grass-finished beef across 23,000-acre New Mexico ranch and western Oklahoma finish ranch; zero corn, soy, or grain by-products; no antibiotics or growth hormones; grazing acres never treated with chemical fertilizers or herbicides per site claims; retail cuts aged 28 days; ships nationwide with ranch pickup in Leedey and local OKC-area delivery; phone 580-449-1526. Oklahoma hub now shows 2 ranches (Didier Ranch + Dry Creek Meats). Cattle breed not named on public website — breeds field empty per honesty canon. Re-verified all 3 active deals still live with both regular and sale prices visible: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-14. Re-checked **Yocha Dehe Ranch** (CA), **Mariposa Ranch** (CA), and **Pacific Rogue Wagyu** (OR) — all operational, websites and shops active; set last_checked: "2026-10-14" on all three listings (these were previously missing last_checked field). No new deals added tonight (Dry Creek site shows Weekend BBQ Bundle and Grill Master's Box with sale pricing but product URLs not stable/verified). Good Life Beef and 1902 Ranch still parked. Total: 66 ranches, 3 deals, 3 markets, 20 butchers, 109 pages.
 - 📅 **Oct 15, 2026:** Added **Stillwater Ranch** (Manhattan, MT) — second Montana ranch on directory: purebred, registered Murray Grey herd (American Murray Grey Association); 70+ pairs on high elevation grass without creep; converted from commercial Angus to regeneratively grazed Murray Grey grass-finished program in 2015. Grass-fed and grass-finished on diverse native grass meadows with no grain, creep, molasses, urea, or growing hormones. Rotationally grazed from calving to harvest. Sells whole, half, quarter shares; available spring and fall; contact to be put on order list. Full buy back guarantee. Phone: +1 (406) 600-3378; Email: stillwatermurraygreys@gmail.com; PO Box 141, Manhattan, MT 59741. Montana hub now shows 2 ranches (Darlington Ranch + Stillwater Ranch). Total: 67 ranches, 3 deals, 3 markets, 20 butchers, 108 pages.
+- 📅 **Oct 15, 2026:** Added **Shining B Cattle Co.** (Pleasanton, CA) — 18th California ranch on directory: four generations of family ranching; naturally raised beef—grass-grazed, grain-finished with custom grain program developed with beef nutritionist; hormone free, ethically raised. Quarter/half/whole beef shares (deposits $500/$1,000/$1,500, currently sold out). Half beef $3,270 including processing and cut & wrap. Harvested summer and fall. Average yields: whole 400-425 lb, half 200-225 lb, quarter 100-115 lb. Individual cuts sold in online store. Pickup only - no shipping: Livermore (Highland Rd, CA 94551) and Lepe's Meat Co., 3659 Standish Ave, Santa Rosa, CA 95407. Phone: 925-998-0151; Email: info@shiningbcattleco.com; Instagram: @shiningbcattleco_. California hub now shows 18 ranches (up from 17). Total: 68 ranches, 3 deals, 3 markets, 20 butchers, 109 pages.
 
 ### What We Record
 - ✅ Ranch name and location
