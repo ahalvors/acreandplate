@@ -5,7 +5,7 @@
 
 ## Site Statistics
 
-- **Total Ranches:** 69
+- **Total Ranches:** 70
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -31,6 +31,7 @@
 - **Colorado Ranches:** 2
 - **Florida Ranches:** 2
 - **Idaho Ranches:** 2
+- **Mississippi Ranches:** 1
 - **Montana Ranches:** 2
 - **New York Ranches:** 1
 - **Oklahoma Ranches:** 2
@@ -42,7 +43,7 @@
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 110
+- **Total Pages:** 113
 
 ## Pages Built
 
@@ -65,6 +66,7 @@
 - ✅ Iowa hub (`/iowa/`) - 1 ranch
 - ✅ Kansas hub (`/kansas/`) - 2 ranches
 - ✅ Kentucky hub (`/kentucky/`) - 1 ranch
+- ✅ Mississippi hub (`/mississippi/`) - 1 ranch
 - ✅ Missouri hub (`/missouri/`) - 1 ranch
 - ✅ Texas hub (`/texas/`) - 6 ranches
 - ✅ California hub (`/california/`) - 19 ranches
@@ -75,7 +77,7 @@
 - ✅ Montana hub (`/montana/`) - 2 ranches
 - ✅ New York hub (`/new-york/`) - 1 ranch
 - ✅ North Carolina hub (`/north-carolina/`) - 1 ranch
-- ✅ Oklahoma hub (`/oklahoma/`) - 1 ranch
+- ✅ Oklahoma hub (`/oklahoma/`) - 2 ranches
 - ✅ Oregon hub (`/oregon/`) - 3 ranches
 - ✅ Pennsylvania hub (`/pennsylvania/`) - 1 ranch
 - ✅ South Dakota hub (`/south-dakota/`) - 1 ranch
@@ -156,6 +158,7 @@
 - ✅ England Ranch (KY)
 - ✅ Svec Farm (SD)
 - ✅ Stillwater Ranch (MT)
+- ✅ Home Place Pastures (MS)
 
 ## Known Gaps & Notes
 
@@ -275,6 +278,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Oct 15, 2026:** Added **Stillwater Ranch** (Manhattan, MT) — second Montana ranch on directory: purebred, registered Murray Grey herd (American Murray Grey Association); 70+ pairs on high elevation grass without creep; converted from commercial Angus to regeneratively grazed Murray Grey grass-finished program in 2015. Grass-fed and grass-finished on diverse native grass meadows with no grain, creep, molasses, urea, or growing hormones. Rotationally grazed from calving to harvest. Sells whole, half, quarter shares; available spring and fall; contact to be put on order list. Full buy back guarantee. Phone: +1 (406) 600-3378; Email: stillwatermurraygreys@gmail.com; PO Box 141, Manhattan, MT 59741. Montana hub now shows 2 ranches (Darlington Ranch + Stillwater Ranch). Total: 67 ranches, 3 deals, 3 markets, 20 butchers, 108 pages.
 - 📅 **Oct 15, 2026:** Added **Shining B Cattle Co.** (Pleasanton, CA) — 18th California ranch on directory: four generations of family ranching; naturally raised beef—grass-grazed, grain-finished with custom grain program developed with beef nutritionist; hormone free, ethically raised. Quarter/half/whole beef shares (deposits $500/$1,000/$1,500, currently sold out). Half beef $3,270 including processing and cut & wrap. Harvested summer and fall. Average yields: whole 400-425 lb, half 200-225 lb, quarter 100-115 lb. Individual cuts sold in online store. Pickup only - no shipping: Livermore (Highland Rd, CA 94551) and Lepe's Meat Co., 3659 Standish Ave, Santa Rosa, CA 95407. Phone: 925-998-0151; Email: info@shiningbcattleco.com; Instagram: @shiningbcattleco_. California hub now shows 18 ranches (up from 17). Total: 68 ranches, 3 deals, 3 markets, 20 butchers, 109 pages.
 - 📅 **Oct 15, 2026:** Added **Sharp Farms & Cattle Co.** (Mariposa, CA) — 19th California ranch on directory: women-owned & operated family ranch established 2022 in the Sierra Foothills; run by Lacey & Alyssa Sharp; 100% grass-fed beef with no chemical dewormers and no vaccines—ever; regenerative grazing methods inspired by the Savory Institute, using frequent pasture moves; GMO-free, free range. Quarter beef $840 (~60 lb), Half $1,687.50 (~125 lb), Whole $3,125 (~250 lb), $12.50/lb custom cuts; Gourmet Ground Beef Box $165 (15 lb). Processed at USDA processor Sanders Meats, Turlock, CA. Personal delivery same day direct from processor to your door; no shipping. Phone: 979-229-3608; Email: lacey@sharpfarmscattleco.com; Instagram: @sharpfarmsandcattleco. California hub now shows 19 ranches (up from 18). Total: 69 ranches, 3 deals, 3 markets, 20 butchers, 110 pages.
+- 📅 **Oct 15, 2026 PT nightly ship:** Added **Home Place Pastures** (Como, MS) — first Mississippi ranch on directory: fifth-generation family farm (150+ years on the land) raising 100% grass-fed and grass-finished beef with regenerative grazing systems; one of the only farms in the country operating its own on-farm USDA slaughter and processing facility; no antibiotics, no hormones; ships nationwide frozen (free delivery across Southeast, small flat-rate charge outside Southeast); farm store and restaurant open Tuesday-Saturday; phone 662-426-6191; email info@homeplacepastures.com. Mississippi is the 33rd state represented in the directory. Added Mississippi state hub at `/mississippi/` wired into home page and navigation. Re-verified Lone Mountain Wagyu (NM) and Long Hill Wagyu (TX) — both operational, websites and shops active; updated last_checked to 2026-10-15. Re-verified all 3 active deals still live with visible sale pricing: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-15. No new deals found tonight. States still with no listings: AL, AK, CT, DE, HI, LA, ME, MD, MA, NV, NH, NJ, ND, RI, WV. Total: 70 ranches, 3 deals, 3 markets, 20 butchers, 113 pages.
 
 ### What We Record
 - ✅ Ranch name and location

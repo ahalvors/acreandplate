@@ -20,7 +20,7 @@
       "shipping": "Ships nationwide",
       "featured": true,
       "description": "Full-blood wagyu beef raised at our New Mexico cattle ranch. Hormone and antibiotic-free, with exceptional marbling and flavor.",
-      "last_checked": "2026-09-26"
+      "last_checked": "2026-10-15"
     },
     {
       "slug": "heartbrand-beef",
@@ -64,7 +64,7 @@
       "shipping": "Ships nationwide",
       "featured": true,
       "description": "Hand-picked herd of 100% Wagyu cattle, blending slow natural approach with modern nutritional science.",
-      "last_checked": "2026-09-27"
+      "last_checked": "2026-10-15"
     },
     {
       "slug": "circle-h-ranch",
@@ -1505,6 +1505,27 @@
       "email": "lacey@sharpfarmscattleco.com",
       "description": "Women-owned & operated family ranch established 2022 in the Sierra Foothills of Mariposa, California. Run by Lacey & Alyssa Sharp. 100% grass-fed beef with no chemical dewormers and no vaccines—ever. Regenerative grazing methods inspired by the Savory Institute, using frequent pasture moves.",
       "note": "Processed at USDA processor Sanders Meats, Turlock, CA. Paid in full at order; 60-90 days typical. Personal delivery same day from processor. Delivery radius not stated. Instagram: @sharpfarmsandcattleco",
+      "last_checked": "2026-10-15"
+    },
+    {
+      "slug": "home-place-pastures",
+      "name": "Home Place Pastures",
+      "url": "https://homeplacepastures.com/",
+      "state": "MS",
+      "city": "Como",
+      "genetics": "100% grass-fed and grass-finished beef; regenerative grazing systems; no antibiotics, ever; no hormones; own USDA-inspected slaughter and processing facility on-farm",
+      "breeds": [],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground",
+        "subscription boxes"
+      ],
+      "shipping": "Ships nationwide frozen; free delivery across the Southeast, small flat-rate charge outside Southeast",
+      "phone": "662-426-6191",
+      "email": "info@homeplacepastures.com",
+      "description": "Fifth-generation family farm in Como, Mississippi, rooted to the land for over 150 years. Transitioned from row crops to regenerative grazing a decade ago. One of the only farms in the country operating its own on-farm USDA slaughter and processing facility. 100% grass-fed and grass-finished beef raised in regenerative grazing systems that build soil health. Also runs farm store and restaurant open Tuesday-Saturday.",
+      "note": "Address: 1630 Home Place Rd, Como, MS 38619. Farm store open Tuesday-Saturday 8am-5pm, serving lunch 11am-3pm. Also offers processing services to other local farmers. Cattle breed not specified on public site.",
       "last_checked": "2026-10-15"
     }
   ]
