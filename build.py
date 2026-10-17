@@ -302,9 +302,56 @@ def listing_card(listing: Dict[str, Any], show_full: bool = False, featured_badg
     
     badges_html = ''.join(badges)
     
-    # Get first sentence of description for card
-    description = listing.get('description', '')
-    first_sentence = description.split('.')[0] + '.' if description else ''
+    # Get 1-2 sentence summary for card
+    def extract_summary(listing):
+        """Extract 1-2 sentences, handling abbreviations, capped at ~200 chars"""
+        import re
+        description = listing.get('description', '')
+        genetics = listing.get('genetics', '')
+        
+        def get_sentences(text, count=2, max_chars=200):
+            if not text:
+                return ''
+            
+            # Split on sentence boundaries (period/question/exclamation followed by space and capital)
+            sentences = re.split(r'(?<=[.!?])\s+(?=[A-Z])', text)
+            
+            # Take sentences until we hit max chars or count
+            result_sentences = []
+            total_len = 0
+            
+            for i, sent in enumerate(sentences[:count]):
+                sent_len = len(sent)
+                # If first sentence is already over max, truncate it
+                if i == 0 and sent_len > max_chars:
+                    return sent[:max_chars-3] + '...'
+                # If adding this sentence would exceed max and we already have content, stop
+                if result_sentences and total_len + sent_len + 1 > max_chars:
+                    break
+                result_sentences.append(sent)
+                total_len += sent_len + 1  # +1 for space
+            
+            return ' '.join(result_sentences).strip()
+        
+        # Try description first
+        if description:
+            summary = get_sentences(description, 2, 200)
+            if len(summary) >= 30:
+                return summary
+        
+        # Fall back to genetics
+        if genetics:
+            summary = get_sentences(genetics, 1, 150)
+            if len(summary) >= 20:
+                return summary
+            # If genetics is too short, just use it
+            if len(genetics) <= 150:
+                return genetics
+            return genetics[:147] + '...'
+        
+        return description or genetics or ''
+    
+    first_sentence = extract_summary(listing)
     
     # Build breed chips
     breed_chips = []
@@ -326,8 +373,10 @@ def listing_card(listing: Dict[str, Any], show_full: bool = False, featured_badg
     if len(listing['products']) > 4:
         products_list += ' …'
     
-    # City, State
+    # City, State - handle multi-state codes
     location = f"{listing['city']}, {listing['state']}"
+    state_code = listing['state']
+    state_class = ' class="multi"' if '/' in state_code or len(state_code) > 2 else ''
     
     # Format verified date
     verified_date = format_date(listing['last_checked'])
@@ -342,7 +391,7 @@ def listing_card(listing: Dict[str, Any], show_full: bool = False, featured_badg
     
     return f"""<article class="listing-card">
 {featured_html}
-<div class="card-id"><div class="card-st">{html.escape(listing['state'])}</div><div><h3><a href="/listings/{listing['slug']}/">{html.escape(listing['name'])}</a></h3><div class="card-loc">{html.escape(location)} {breed_html}</div></div></div>
+<div class="card-id"><div{state_class} class="card-st">{html.escape(state_code)}</div><div><h3><a href="/listings/{listing['slug']}/">{html.escape(listing['name'])}</a></h3><div class="card-loc">{html.escape(location)} {breed_html}</div></div></div>
 <div class="card-mid"><div class="card-badges">{badges_html}</div><p class="card-desc">{html.escape(first_sentence)}</p>{deal_html}<div class="card-sells"><b>Sells</b> {html.escape(products_list)}</div></div>
 <div class="card-act"><a href="{ranch_url}" target="_blank" rel="noopener" class="card-primary">Visit ranch →</a><a href="/listings/{listing['slug']}/" class="card-link">Details</a><span class="card-ver">{icons["check"]}Checked {verified_date}</span></div>
 </article>"""

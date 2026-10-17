@@ -1,0 +1,28 @@
+## Badge Field Derivation Summary
+
+**Total listings**: 71
+
+- With **finish** badge: 42
+- With **ships_scope** badge: 65
+- With **pickup** badge: 30
+- With **certs** badge: 10
+- With **no badges**: 2
+
+### Finish Badge Distribution
+
+- **grain-finished**: 1 listings
+- **grass-finished**: 27 listings
+- **grass-or-grain**: 1 listings
+- **mostly-grass-fed**: 13 listings
+
+### Certifications Found
+
+- **AGA Certified Grassfed**: 3 listings
+- **Audubon Bird Friendly**: 1 listings
+- **Non-GMO Verified**: 1 listings
+- **USDA Organic**: 5 listings
+
+### Listings with No Badges
+
+- Grant Cattle Company (grant-cattle)
+- Nyland Herefords (nyland-herefords)
