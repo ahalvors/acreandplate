@@ -234,42 +234,118 @@ def deal_card(deal: Dict[str, Any]) -> str:
     </article>"""
 
 def listing_card(listing: Dict[str, Any], show_full: bool = False, featured_badge: bool = False) -> str:
-    """Generate listing card HTML"""
-    breeds_html = ''.join([breed_chip(b) for b in listing['breeds']])
+    """Generate listing card HTML (Option C: Directory Row)"""
+    import html
+    from datetime import datetime
     
-    products_text = ', '.join(listing['products'][:3])
-    if len(listing['products']) > 3:
-        products_text += '…'
+    def format_date(date_str):
+        """Format date as 'Mon YYYY'"""
+        dt = datetime.strptime(date_str, '%Y-%m-%d')
+        return dt.strftime('%b %Y')
     
-    shipping_class = ''
-    shipping_text = listing['shipping']
-    if 'pickup' in shipping_text.lower() or 'florida only' in shipping_text.lower():
-        shipping_class = ' limited'
+    # SVG icons
+    icons = {
+        'grass': '<svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M3 14c0-4 1-7 3-9M8 14c0-5 0-8 0-11M13 14c0-4-1-7-3-9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>',
+        'truck': '<svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M1 4h9v7H1zM10 7h3l2 2v2h-5z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><circle cx="4" cy="12.5" r="1.4" fill="currentColor"/><circle cx="12" cy="12.5" r="1.4" fill="currentColor"/></svg>',
+        'pin': '<svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M8 15s5-5 5-9A5 5 0 0 0 3 6c0 4 5 9 5 9z" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="8" cy="6" r="1.7" fill="currentColor"/></svg>',
+        'tag': '<svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M1.5 8.5V2h6.5l6.5 6.5-6.5 6.5z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><circle cx="5" cy="5.3" r="1.2" fill="currentColor"/></svg>',
+        'check': '<svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+        'seal': '<svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M5.5 8.2l1.8 1.8 3.3-3.6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>',
+        'pet': '<svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><circle cx="5" cy="4" r="1.5" fill="currentColor"/><circle cx="11" cy="4" r="1.5" fill="currentColor"/><circle cx="8" cy="2" r="1.5" fill="currentColor"/><path d="M8 6c-2 0-4 2-4 4s2 4 4 4 4-2 4-4-2-4-4-4z" fill="currentColor"/></svg>'
+    }
     
-    note_html = ''
-    if 'note' in listing:
-        note_html = f'<p class="note">{listing["note"]}</p>'
+    # Get deal if exists
+    deal = next((d for d in deals if d.get('listing_id') == listing['slug']), None)
     
-    featured_html = ''
-    if featured_badge:
-        featured_html = '<div class="featured-badge">Featured Partner</div>'
+    # Build badge HTML
+    badges = []
     
+    # Deal badge (first if present)
+    if deal:
+        discount = deal['regular_price'] - deal['sale_price']
+        badges.append(f'<span class="card-badge badge-deal">{icons["tag"]}Deal −${discount:.0f}</span>')
+    
+    # Finish badge
+    finish_map = {
+        'grass-finished': ('Grass-finished', 'grass'),
+        'mostly-grass-fed': ('Mostly grass-fed', 'mixed'),
+        'grain-finished': ('Grain-finished', 'mixed'),
+        'grass-or-grain': ('Grass or grain — ask', 'mixed')
+    }
+    if listing.get('finish') in finish_map:
+        label, badge_type = finish_map[listing['finish']]
+        badges.append(f'<span class="card-badge badge-{badge_type}">{icons["grass"]}{html.escape(label)}</span>')
+    
+    # Ships badge
+    ships_map = {
+        'nationwide': 'Ships nationwide',
+        'lower-48': 'Ships lower 48',
+        'regional': 'Ships regional',
+    }
+    if listing.get('ships_scope') in ships_map:
+        label = ships_map[listing['ships_scope']]
+        badges.append(f'<span class="card-badge badge-ship">{icons["truck"]}{label}</span>')
+    
+    # Pickup badge
+    if listing.get('pickup'):
+        pickup_text = listing['pickup'] if isinstance(listing['pickup'], str) else 'Pickup'
+        badges.append(f'<span class="card-badge badge-pick">{icons["pin"]}{html.escape(pickup_text)}</span>')
+    
+    # Pet products badge (if set)
+    if listing.get('pet_products'):
+        badges.append(f'<span class="card-badge badge-pet">{icons["pet"]}Pet food & treats</span>')
+    
+    # Certification badges
+    if listing.get('certs'):
+        for cert in listing['certs']:
+            badges.append(f'<span class="card-badge badge-cert">{icons["seal"]}{html.escape(cert)}</span>')
+    
+    badges_html = ''.join(badges)
+    
+    # Get first sentence of description for card
+    description = listing.get('description', '')
+    first_sentence = description.split('.')[0] + '.' if description else ''
+    
+    # Build breed chips
+    breed_chips = []
+    for breed in listing.get('breeds', []):
+        breed_label = breed.replace('-', ' ').title()
+        # Special cases
+        if breed in ('wagyu', 'akaushi'):
+            breed_label = breed.title()
+        breed_chips.append(f'<span class="card-breed">{html.escape(breed_label)}</span>')
+    breed_html = ''.join(breed_chips)
+    
+    # Build deal strip
+    deal_html = ''
+    if deal:
+        deal_html = f'''<div class="card-deal">{icons["tag"]}{html.escape(deal["product_name"])} — <s>${deal["regular_price"]}</s> <b>${deal["sale_price"]}</b></div>'''
+    
+    # Build sells line
+    products_list = ' · '.join(listing['products'][:4])
+    if len(listing['products']) > 4:
+        products_list += ' …'
+    
+    # City, State
+    location = f"{listing['city']}, {listing['state']}"
+    
+    # Format verified date
+    verified_date = format_date(listing['last_checked'])
+    
+    # Build ranch URL with UTM
     ranch_url = add_utm_params(listing['url'], listing['slug'])
     
+    # Featured badge
+    featured_html = ''
+    if featured_badge:
+        featured_html = '<div class="featured-badge" style="position:absolute;top:-0.5rem;right:1rem;">Featured Partner</div>'
+    
     return f"""<article class="listing-card">
-        {featured_html}
-        <h3><a href="/listings/{listing['slug']}/">{listing['name']}</a></h3>
-        <div class="location">{listing['city']}, {listing['state']}</div>
-        <div class="breeds">{breeds_html}</div>
-        <p class="genetics">{listing['genetics']}</p>
-        <p class="products"><strong>Products:</strong> {products_text}</p>
-        <p class="shipping{shipping_class}"><strong>Shipping:</strong> {shipping_text}</p>
-        {note_html}
-        <div class="actions">
-            <a href="/listings/{listing['slug']}/" class="btn-secondary">View Details</a>
-            <a href="{ranch_url}" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
-        </div>
-    </article>"""
+{featured_html}
+<div class="card-id"><div class="card-st">{html.escape(listing['state'])}</div><div><h3><a href="/listings/{listing['slug']}/">{html.escape(listing['name'])}</a></h3><div class="card-loc">{html.escape(location)} {breed_html}</div></div></div>
+<div class="card-mid"><div class="card-badges">{badges_html}</div><p class="card-desc">{html.escape(first_sentence)}</p>{deal_html}<div class="card-sells"><b>Sells</b> {html.escape(products_list)}</div></div>
+<div class="card-act"><a href="{ranch_url}" target="_blank" rel="noopener" class="card-primary">Visit ranch →</a><a href="/listings/{listing['slug']}/" class="card-link">Details</a><span class="card-ver">{icons["check"]}Checked {verified_date}</span></div>
+</article>"""
 
 def build_index():
     """Build home page"""

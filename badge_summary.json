@@ -1,0 +1,590 @@
+[
+  {
+    "slug": "lone-mountain-wagyu",
+    "name": "Lone Mountain Wagyu",
+    "finish": null,
+    "ships_scope": "nationwide",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "heartbrand-beef",
+    "name": "HeartBrand Beef",
+    "finish": null,
+    "ships_scope": "lower-48",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "long-hill-wagyu",
+    "name": "Long Hill Wagyu",
+    "finish": null,
+    "ships_scope": "nationwide",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "circle-h-ranch",
+    "name": "Circle H Ranch",
+    "finish": "grass-finished",
+    "ships_scope": "nationwide",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "hawks-hill",
+    "name": "Hawks Hill Ranch",
+    "finish": null,
+    "ships_scope": "lower-48",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "slickhorn",
+    "name": "Slickhorn Ranch",
+    "finish": null,
+    "ships_scope": "lower-48",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "prime-wagyu-farm",
+    "name": "Pasture Prime Wagyu",
+    "finish": null,
+    "ships_scope": null,
+    "pickup": "On-farm pickup",
+    "certs": null
+  },
+  {
+    "slug": "rutledge-ryan",
+    "name": "Rutledge Ryan Ranch",
+    "finish": null,
+    "ships_scope": "nationwide",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "mahan",
+    "name": "Mahan Wagyu (Ranch & Trail)",
+    "finish": "mostly-grass-fed",
+    "ships_scope": "nationwide",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "mossyrock",
+    "name": "Mossyrock Wagyu",
+    "finish": null,
+    "ships_scope": "nationwide",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "grant-cattle",
+    "name": "Grant Cattle Company",
+    "finish": null,
+    "ships_scope": null,
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "black-wagyu-beef-co",
+    "name": "Black Wagyu Beef Co.",
+    "finish": null,
+    "ships_scope": "regional",
+    "pickup": true,
+    "certs": null
+  },
+  {
+    "slug": "quinn",
+    "name": "Quinn Beef",
+    "finish": null,
+    "ships_scope": "nationwide",
+    "pickup": "Local pickup",
+    "certs": null
+  },
+  {
+    "slug": "sugar-hill-farm-pa",
+    "name": "Sugar Hill Farm",
+    "finish": "grass-finished",
+    "ships_scope": "nationwide",
+    "pickup": "On-farm pickup",
+    "certs": null
+  },
+  {
+    "slug": "tribe",
+    "name": "Tribe Ranch",
+    "finish": "mostly-grass-fed",
+    "ships_scope": "lower-48",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "hook-cleaver",
+    "name": "Hook & Cleaver Ranch",
+    "finish": null,
+    "ships_scope": "nationwide",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "chapel-hill",
+    "name": "Chapel Hill Farm",
+    "finish": null,
+    "ships_scope": "nationwide",
+    "pickup": "Local pickup",
+    "certs": null
+  },
+  {
+    "slug": "certified-piedmontese",
+    "name": "Certified Piedmontese",
+    "finish": "grass-finished",
+    "ships_scope": "nationwide",
+    "pickup": null,
+    "certs": [
+      "Non-GMO Verified"
+    ]
+  },
+  {
+    "slug": "mahanaim-dexter",
+    "name": "Mahanaim Farms",
+    "finish": "grass-finished",
+    "ships_scope": "none",
+    "pickup": "Pickup only",
+    "certs": null
+  },
+  {
+    "slug": "vermont-wagyu",
+    "name": "Vermont Wagyu",
+    "finish": null,
+    "ships_scope": "nationwide",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "caroland-farms-wagyu",
+    "name": "Caroland Farms Wagyu",
+    "finish": null,
+    "ships_scope": "nationwide",
+    "pickup": "Pickup only",
+    "certs": null
+  },
+  {
+    "slug": "koopmann-family-beef",
+    "name": "Koopmann Family Beef",
+    "finish": "mostly-grass-fed",
+    "ships_scope": "lower-48",
+    "pickup": "Local pickup",
+    "certs": null
+  },
+  {
+    "slug": "calhoun-sisters-ranch",
+    "name": "3 Calhoun Sisters' Ranch (Circle H Beef)",
+    "finish": "grass-finished",
+    "ships_scope": "regional",
+    "pickup": "Ranch pickup",
+    "certs": [
+      "Audubon Bird Friendly"
+    ]
+  },
+  {
+    "slug": "cross-creek-ranch",
+    "name": "Cross Creek Ranch Premium Meats",
+    "finish": null,
+    "ships_scope": "lower-48",
+    "pickup": "Local pickup",
+    "certs": null
+  },
+  {
+    "slug": "3z-cattle-co",
+    "name": "3Z Cattle Co",
+    "finish": "grain-finished",
+    "ships_scope": "regional",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "nyland-herefords",
+    "name": "Nyland Herefords",
+    "finish": null,
+    "ships_scope": null,
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "morris-grassfed",
+    "name": "Morris Grassfed",
+    "finish": null,
+    "ships_scope": "regional",
+    "pickup": null,
+    "certs": [
+      "AGA Certified Grassfed"
+    ]
+  },
+  {
+    "slug": "connolly-ranch",
+    "name": "Connolly Ranch Natural Beef",
+    "finish": null,
+    "ships_scope": "none",
+    "pickup": true,
+    "certs": null
+  },
+  {
+    "slug": "stemple-creek-ranch",
+    "name": "Stemple Creek Ranch",
+    "finish": "grass-finished",
+    "ships_scope": "regional",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "hufeisen-ranch",
+    "name": "The Hufeisen-Ranch (WYO Wagyu)",
+    "finish": null,
+    "ships_scope": "nationwide",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "rascal-ranch-farms",
+    "name": "Rascal Ranch Farms",
+    "finish": null,
+    "ships_scope": "nationwide",
+    "pickup": true,
+    "certs": null
+  },
+  {
+    "slug": "ells-cattle-ranch",
+    "name": "Ells Cattle Ranch",
+    "finish": "mostly-grass-fed",
+    "ships_scope": "none",
+    "pickup": true,
+    "certs": null
+  },
+  {
+    "slug": "kirk-cattle-company",
+    "name": "Kirk Cattle Company",
+    "finish": "mostly-grass-fed",
+    "ships_scope": null,
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "salmon-creek-ranch",
+    "name": "Salmon Creek Ranch",
+    "finish": "grass-finished",
+    "ships_scope": "lower-48",
+    "pickup": "Local pickup",
+    "certs": [
+      "USDA Organic"
+    ]
+  },
+  {
+    "slug": "marin-coast-ranch",
+    "name": "Marin Coast Ranch",
+    "finish": "grass-finished",
+    "ships_scope": "regional",
+    "pickup": "Ranch pickup",
+    "certs": null
+  },
+  {
+    "slug": "starwalker-organic-farms",
+    "name": "StarWalker Organic Farms",
+    "finish": "grass-finished",
+    "ships_scope": "nationwide",
+    "pickup": null,
+    "certs": [
+      "USDA Organic"
+    ]
+  },
+  {
+    "slug": "five-marys-ranch",
+    "name": "Five Marys Ranch",
+    "finish": null,
+    "ships_scope": "lower-48",
+    "pickup": "Local pickup",
+    "certs": null
+  },
+  {
+    "slug": "oreganic-beef",
+    "name": "Oreganic Beef Co. (Rocker 3 Ranch)",
+    "finish": "grass-finished",
+    "ships_scope": "nationwide",
+    "pickup": null,
+    "certs": [
+      "USDA Organic"
+    ]
+  },
+  {
+    "slug": "yocha-dehe-ranch",
+    "name": "Yocha Dehe Ranch",
+    "finish": "mostly-grass-fed",
+    "ships_scope": "lower-48",
+    "pickup": null,
+    "certs": [
+      "USDA Organic"
+    ]
+  },
+  {
+    "slug": "mariposa-ranch",
+    "name": "Mariposa Ranch",
+    "finish": "grass-finished",
+    "ships_scope": "nationwide",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "lone-crow-ranch",
+    "name": "Lone Crow Ranch",
+    "finish": "mostly-grass-fed",
+    "ships_scope": "regional",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "kauboi-ranch",
+    "name": "Kauboi Ranch",
+    "finish": "grass-finished",
+    "ships_scope": "regional",
+    "pickup": "Ranch pickup",
+    "certs": null
+  },
+  {
+    "slug": "pacific-rogue-wagyu",
+    "name": "Pacific Rogue Wagyu",
+    "finish": "mostly-grass-fed",
+    "ships_scope": "lower-48",
+    "pickup": "Pickup only",
+    "certs": null
+  },
+  {
+    "slug": "alderspring-ranch",
+    "name": "Alderspring Ranch",
+    "finish": "grass-finished",
+    "ships_scope": "lower-48",
+    "pickup": null,
+    "certs": [
+      "USDA Organic"
+    ]
+  },
+  {
+    "slug": "darlington-ranch",
+    "name": "Darlington Ranch Co.",
+    "finish": "mostly-grass-fed",
+    "ships_scope": "nationwide",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "arizona-grass-raised-beef",
+    "name": "Arizona Grass Raised Beef",
+    "finish": "grass-finished",
+    "ships_scope": "nationwide",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "parker-pastures",
+    "name": "Parker Pastures",
+    "finish": "grass-finished",
+    "ships_scope": null,
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "didier-ranch",
+    "name": "Didier Ranch",
+    "finish": "mostly-grass-fed",
+    "ships_scope": "nationwide",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "dry-creek-meats",
+    "name": "Dry Creek Meats",
+    "finish": "grass-finished",
+    "ships_scope": "nationwide",
+    "pickup": "Ranch pickup",
+    "certs": null
+  },
+  {
+    "slug": "wholly-cow-market",
+    "name": "Wholly Cow Market",
+    "finish": "grass-finished",
+    "ships_scope": "nationwide",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "sunset-ridge-beef",
+    "name": "Sunset Ridge Beef",
+    "finish": null,
+    "ships_scope": "nationwide",
+    "pickup": "Local pickup",
+    "certs": null
+  },
+  {
+    "slug": "wagyu-legacy",
+    "name": "Wagyu Legacy",
+    "finish": null,
+    "ships_scope": "nationwide",
+    "pickup": "Local pickup",
+    "certs": null
+  },
+  {
+    "slug": "lewis-livestock",
+    "name": "Lewis Livestock",
+    "finish": "mostly-grass-fed",
+    "ships_scope": "regional",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "grand-view-beef",
+    "name": "Grand View Beef",
+    "finish": "grass-finished",
+    "ships_scope": "lower-48",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "whispering-pines-ranch",
+    "name": "Whispering Pines Ranch",
+    "finish": null,
+    "ships_scope": "regional",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "wisconsin-meadows",
+    "name": "Wisconsin Meadows",
+    "finish": "grass-finished",
+    "ships_scope": "nationwide",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "log-cabin-ranch",
+    "name": "The Log Cabin Ranch",
+    "finish": "grass-finished",
+    "ships_scope": "lower-48",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "flying-b-beef",
+    "name": "Flying B Beef",
+    "finish": "mostly-grass-fed",
+    "ships_scope": "regional",
+    "pickup": true,
+    "certs": null
+  },
+  {
+    "slug": "fellers-ranch",
+    "name": "Fellers Ranch",
+    "finish": null,
+    "ships_scope": "lower-48",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "white-oak-pastures",
+    "name": "White Oak Pastures",
+    "finish": "grass-finished",
+    "ships_scope": "lower-48",
+    "pickup": "On-farm pickup",
+    "certs": [
+      "AGA Certified Grassfed"
+    ]
+  },
+  {
+    "slug": "hiroshi-ranch",
+    "name": "Hiroshi Ranch",
+    "finish": null,
+    "ships_scope": "lower-48",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "zoe-farms",
+    "name": "ZOE Farms",
+    "finish": "grass-finished",
+    "ships_scope": "regional",
+    "pickup": true,
+    "certs": null
+  },
+  {
+    "slug": "shipley-farms",
+    "name": "Shipley Farms Signature Beef",
+    "finish": null,
+    "ships_scope": "nationwide",
+    "pickup": true,
+    "certs": null
+  },
+  {
+    "slug": "tyner-pond-farm",
+    "name": "Tyner Pond Farm",
+    "finish": "grass-finished",
+    "ships_scope": "regional",
+    "pickup": "On-farm pickup",
+    "certs": [
+      "AGA Certified Grassfed"
+    ]
+  },
+  {
+    "slug": "england-ranch",
+    "name": "England Ranch",
+    "finish": "grass-finished",
+    "ships_scope": "none",
+    "pickup": "Ranch pickup",
+    "certs": null
+  },
+  {
+    "slug": "svec-farm",
+    "name": "Svec Farm",
+    "finish": "grass-finished",
+    "ships_scope": "none",
+    "pickup": "Pickup only",
+    "certs": null
+  },
+  {
+    "slug": "stillwater-ranch",
+    "name": "Stillwater Ranch",
+    "finish": "grass-finished",
+    "ships_scope": null,
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "shining-b-cattle-co",
+    "name": "Shining B Cattle Co.",
+    "finish": "mostly-grass-fed",
+    "ships_scope": "none",
+    "pickup": "Pickup only",
+    "certs": null
+  },
+  {
+    "slug": "sharp-farms-cattle-co",
+    "name": "Sharp Farms & Cattle Co.",
+    "finish": null,
+    "ships_scope": "regional",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "home-place-pastures",
+    "name": "Home Place Pastures",
+    "finish": "grass-finished",
+    "ships_scope": "nationwide",
+    "pickup": null,
+    "certs": null
+  },
+  {
+    "slug": "rafter-9-ranch",
+    "name": "Rafter 9 Ranch",
+    "finish": "grass-or-grain",
+    "ships_scope": "regional",
+    "pickup": "Local pickup",
+    "certs": null
+  }
+]

@@ -1,0 +1,437 @@
+
+Lone Mountain Wagyu (lone-mountain-wagyu)
+  finish: None
+  ships_scope: nationwide
+  pickup: None
+  certs: None
+
+HeartBrand Beef (heartbrand-beef)
+  finish: None
+  ships_scope: lower-48
+  pickup: None
+  certs: None
+
+Long Hill Wagyu (long-hill-wagyu)
+  finish: None
+  ships_scope: nationwide
+  pickup: None
+  certs: None
+
+Circle H Ranch (circle-h-ranch)
+  finish: grass-finished
+  ships_scope: nationwide
+  pickup: None
+  certs: None
+
+Hawks Hill Ranch (hawks-hill)
+  finish: None
+  ships_scope: lower-48
+  pickup: None
+  certs: None
+
+Slickhorn Ranch (slickhorn)
+  finish: None
+  ships_scope: lower-48
+  pickup: None
+  certs: None
+
+Pasture Prime Wagyu (prime-wagyu-farm)
+  finish: None
+  ships_scope: None
+  pickup: On-farm pickup
+  certs: None
+
+Rutledge Ryan Ranch (rutledge-ryan)
+  finish: None
+  ships_scope: nationwide
+  pickup: None
+  certs: None
+
+Mahan Wagyu (Ranch & Trail) (mahan)
+  finish: grain-finished
+  ships_scope: nationwide
+  pickup: None
+  certs: None
+
+Mossyrock Wagyu (mossyrock)
+  finish: None
+  ships_scope: nationwide
+  pickup: None
+  certs: None
+
+Grant Cattle Company (grant-cattle)
+  finish: None
+  ships_scope: None
+  pickup: None
+  certs: None
+  ℹ️  No badges derived
+
+Black Wagyu Beef Co. (black-wagyu-beef-co)
+  finish: None
+  ships_scope: regional
+  pickup: True
+  certs: None
+
+Quinn Beef (quinn)
+  finish: None
+  ships_scope: nationwide
+  pickup: Local pickup
+  certs: None
+
+Sugar Hill Farm (sugar-hill-farm-pa)
+  finish: grass-finished
+  ships_scope: nationwide
+  pickup: On-farm pickup
+  certs: None
+
+Tribe Ranch (tribe)
+  finish: grain-finished
+  ships_scope: lower-48
+  pickup: None
+  certs: None
+
+Hook & Cleaver Ranch (hook-cleaver)
+  finish: None
+  ships_scope: nationwide
+  pickup: None
+  certs: None
+
+Chapel Hill Farm (chapel-hill)
+  finish: None
+  ships_scope: nationwide
+  pickup: Local pickup
+  certs: None
+
+Certified Piedmontese (certified-piedmontese)
+  finish: grass-finished
+  ships_scope: nationwide
+  pickup: None
+  certs: ['Non-GMO Verified']
+
+Mahanaim Farms (mahanaim-dexter)
+  finish: grass-finished
+  ships_scope: none
+  pickup: Pickup only
+  certs: None
+
+Vermont Wagyu (vermont-wagyu)
+  finish: None
+  ships_scope: nationwide
+  pickup: None
+  certs: None
+
+Caroland Farms Wagyu (caroland-farms-wagyu)
+  finish: None
+  ships_scope: nationwide
+  pickup: Pickup only
+  certs: None
+
+Koopmann Family Beef (koopmann-family-beef)
+  finish: grain-finished
+  ships_scope: lower-48
+  pickup: Local pickup
+  certs: None
+
+3 Calhoun Sisters' Ranch (Circle H Beef) (calhoun-sisters-ranch)
+  finish: grass-finished
+  ships_scope: regional
+  pickup: Ranch pickup
+  certs: ['Audubon Bird Friendly']
+
+Cross Creek Ranch Premium Meats (cross-creek-ranch)
+  finish: None
+  ships_scope: lower-48
+  pickup: Local pickup
+  certs: None
+
+3Z Cattle Co (3z-cattle-co)
+  finish: grass-finished
+  ships_scope: regional
+  pickup: None
+  certs: None
+
+Nyland Herefords (nyland-herefords)
+  finish: None
+  ships_scope: None
+  pickup: None
+  certs: None
+  ℹ️  No badges derived
+
+Morris Grassfed (morris-grassfed)
+  finish: None
+  ships_scope: regional
+  pickup: None
+  certs: ['AGA Certified Grassfed']
+
+Connolly Ranch Natural Beef (connolly-ranch)
+  finish: None
+  ships_scope: none
+  pickup: True
+  certs: None
+
+Stemple Creek Ranch (stemple-creek-ranch)
+  finish: grass-finished
+  ships_scope: regional
+  pickup: None
+  certs: None
+
+The Hufeisen-Ranch (WYO Wagyu) (hufeisen-ranch)
+  finish: None
+  ships_scope: nationwide
+  pickup: None
+  certs: None
+
+Rascal Ranch Farms (rascal-ranch-farms)
+  finish: None
+  ships_scope: nationwide
+  pickup: True
+  certs: None
+
+Ells Cattle Ranch (ells-cattle-ranch)
+  finish: grain-finished
+  ships_scope: none
+  pickup: True
+  certs: None
+
+Kirk Cattle Company (kirk-cattle-company)
+  finish: grain-finished
+  ships_scope: None
+  pickup: None
+  certs: None
+
+Salmon Creek Ranch (salmon-creek-ranch)
+  finish: grass-finished
+  ships_scope: lower-48
+  pickup: Local pickup
+  certs: None
+
+Marin Coast Ranch (marin-coast-ranch)
+  finish: grass-finished
+  ships_scope: regional
+  pickup: Ranch pickup
+  certs: None
+
+StarWalker Organic Farms (starwalker-organic-farms)
+  finish: grass-finished
+  ships_scope: nationwide
+  pickup: None
+  certs: None
+
+Five Marys Ranch (five-marys-ranch)
+  finish: None
+  ships_scope: lower-48
+  pickup: Local pickup
+  certs: None
+
+Oreganic Beef Co. (Rocker 3 Ranch) (oreganic-beef)
+  finish: grass-finished
+  ships_scope: nationwide
+  pickup: None
+  certs: ['USDA Organic']
+
+Yocha Dehe Ranch (yocha-dehe-ranch)
+  finish: grass-finished
+  ships_scope: lower-48
+  pickup: None
+  certs: None
+
+Mariposa Ranch (mariposa-ranch)
+  finish: grass-finished
+  ships_scope: nationwide
+  pickup: None
+  certs: None
+
+Lone Crow Ranch (lone-crow-ranch)
+  finish: grass-finished
+  ships_scope: regional
+  pickup: None
+  certs: None
+
+Kauboi Ranch (kauboi-ranch)
+  finish: grass-finished
+  ships_scope: regional
+  pickup: Ranch pickup
+  certs: None
+
+Pacific Rogue Wagyu (pacific-rogue-wagyu)
+  finish: grain-finished
+  ships_scope: lower-48
+  pickup: Pickup only
+  certs: None
+
+Alderspring Ranch (alderspring-ranch)
+  finish: grass-finished
+  ships_scope: lower-48
+  pickup: None
+  certs: None
+
+Darlington Ranch Co. (darlington-ranch)
+  finish: grain-finished
+  ships_scope: nationwide
+  pickup: None
+  certs: None
+
+Arizona Grass Raised Beef (arizona-grass-raised-beef)
+  finish: grass-finished
+  ships_scope: nationwide
+  pickup: None
+  certs: None
+
+Parker Pastures (parker-pastures)
+  finish: grass-finished
+  ships_scope: None
+  pickup: None
+  certs: None
+
+Didier Ranch (didier-ranch)
+  finish: grain-finished
+  ships_scope: nationwide
+  pickup: None
+  certs: None
+
+Dry Creek Meats (dry-creek-meats)
+  finish: grass-finished
+  ships_scope: nationwide
+  pickup: Ranch pickup
+  certs: None
+
+Wholly Cow Market (wholly-cow-market)
+  finish: grass-finished
+  ships_scope: nationwide
+  pickup: None
+  certs: None
+
+Sunset Ridge Beef (sunset-ridge-beef)
+  finish: None
+  ships_scope: nationwide
+  pickup: Local pickup
+  certs: None
+
+Wagyu Legacy (wagyu-legacy)
+  finish: None
+  ships_scope: nationwide
+  pickup: Local pickup
+  certs: None
+
+Lewis Livestock (lewis-livestock)
+  finish: grain-finished
+  ships_scope: regional
+  pickup: None
+  certs: None
+
+Grand View Beef (grand-view-beef)
+  finish: grass-finished
+  ships_scope: lower-48
+  pickup: None
+  certs: None
+
+Whispering Pines Ranch (whispering-pines-ranch)
+  finish: None
+  ships_scope: regional
+  pickup: None
+  certs: None
+
+Wisconsin Meadows (wisconsin-meadows)
+  finish: grass-finished
+  ships_scope: nationwide
+  pickup: None
+  certs: None
+
+The Log Cabin Ranch (log-cabin-ranch)
+  finish: grass-finished
+  ships_scope: lower-48
+  pickup: None
+  certs: None
+
+Flying B Beef (flying-b-beef)
+  finish: grass-finished
+  ships_scope: regional
+  pickup: True
+  certs: None
+
+Fellers Ranch (fellers-ranch)
+  finish: None
+  ships_scope: lower-48
+  pickup: None
+  certs: None
+
+White Oak Pastures (white-oak-pastures)
+  finish: grass-finished
+  ships_scope: lower-48
+  pickup: On-farm pickup
+  certs: ['AGA Certified Grassfed']
+
+Hiroshi Ranch (hiroshi-ranch)
+  finish: None
+  ships_scope: lower-48
+  pickup: None
+  certs: None
+
+ZOE Farms (zoe-farms)
+  finish: grass-finished
+  ships_scope: regional
+  pickup: True
+  certs: None
+
+Shipley Farms Signature Beef (shipley-farms)
+  finish: None
+  ships_scope: nationwide
+  pickup: True
+  certs: None
+
+Tyner Pond Farm (tyner-pond-farm)
+  finish: grass-finished
+  ships_scope: regional
+  pickup: On-farm pickup
+  certs: ['AGA Certified Grassfed']
+
+England Ranch (england-ranch)
+  finish: grass-finished
+  ships_scope: none
+  pickup: Ranch pickup
+  certs: None
+
+Svec Farm (svec-farm)
+  finish: grass-finished
+  ships_scope: none
+  pickup: Pickup only
+  certs: None
+
+Stillwater Ranch (stillwater-ranch)
+  finish: grass-finished
+  ships_scope: None
+  pickup: None
+  certs: None
+
+Shining B Cattle Co. (shining-b-cattle-co)
+  finish: grain-finished
+  ships_scope: none
+  pickup: Pickup only
+  certs: None
+
+Sharp Farms & Cattle Co. (sharp-farms-cattle-co)
+  finish: None
+  ships_scope: regional
+  pickup: None
+  certs: None
+
+Home Place Pastures (home-place-pastures)
+  finish: grass-finished
+  ships_scope: nationwide
+  pickup: None
+  certs: None
+
+Rafter 9 Ranch (rafter-9-ranch)
+  finish: grass-finished
+  ships_scope: regional
+  pickup: Local pickup
+  certs: None
+
+
+=== SUMMARY ===
+Total listings: 71
+With finish: 42
+With ships_scope: 65
+With pickup: 30
+With certs: 6
+With no badges: 2
