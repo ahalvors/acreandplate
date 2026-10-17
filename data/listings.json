@@ -85,7 +85,7 @@
       "shipping": "Ships nationwide (UPS Second Day Air)",
       "phone": "307-690-0389",
       "description": "Grass-finished, no antibiotics, no hormones, no grains. Raised on two ranches between Wyoming and Idaho.",
-      "last_checked": "2026-09-27"
+      "last_checked": "2026-10-16"
     },
     {
       "slug": "hawks-hill",
@@ -467,10 +467,10 @@
         "seasonings coming soon"
       ],
       "shipping": "Local pickup at ranch + shipping available (lower 48; ships Mon/Tue insulated dry ice, 1-2 day)",
-      "phone": "925-494-8063",
-      "note": "Ranch pickup at 9480 Koopmann Road, Sunol, CA 94586 (usually Mon & Fri 11am–3pm, subject to change). Also at Livermore farmers markets. Shop open for individual cuts and bulk shares; some items sold out. Contact: koopmannfamilybeef@gmail.com",
+      "phone": "916-208-1722",
+      "note": "Ranch pickup at 9480 Koopmann Road, Sunol, CA 94586 (usually Mon & Fri 11am–3pm, subject to change). Also at Livermore farmers markets. Shop open for individual cuts and bulk shares; some items sold out. Contact: koopmannfamilybeef@gmail.com. Oct 16, 2026 re-check: site header and contact page list (916) 208-1722, and the header banner still reads \"Currently only taking bulk orders for 2025\"; confirm current availability with the ranch.",
       "description": "Fifth-generation Bay Area cattle family (Clayton & Natalie Koopmann) selling ranch-direct all-natural beef grazed in Northern California / SF Bay hills. Managed grazing and conservation. Founded 2020 as retail brand.",
-      "last_checked": "2026-09-27"
+      "last_checked": "2026-10-16"
     },
     {
       "slug": "calhoun-sisters-ranch",
@@ -1052,7 +1052,12 @@
       "city": "Leedey",
       "genetics": "100% grass-fed and grass-finished; zero corn, soy, or grain by-products; regenerative ranching; cattle graze freely on a 23,000-acre ranch in New Mexico then finish at the western Oklahoma ranch; no antibiotics, no growth hormones; grazing acres never treated with chemical fertilizers or herbicides (site claims)",
       "breeds": [],
-      "products": ["retail cuts (steaks, ground, roasts, organ meats)", "beef shares (quarter/half/whole)", "custom/pre-selected boxes and bundles", "subscriptions (weekly/bi-weekly/monthly/quarterly)"],
+      "products": [
+        "retail cuts (steaks, ground, roasts, organ meats)",
+        "beef shares (quarter/half/whole)",
+        "custom/pre-selected boxes and bundles",
+        "subscriptions (weekly/bi-weekly/monthly/quarterly)"
+      ],
       "shipping": "Nationwide shipping; ranch pickup in Leedey, OK; local delivery near Oklahoma City and surrounding areas",
       "phone": "580-449-1526",
       "note": "Riley family (Bret and Kelly); three-generation regenerative ranch across New Mexico and Oklahoma. Retail cuts aged 28 days. Cattle breed not named on the public website — leave breeds empty. Address listed: 901 Dewey Avenue, Leedey, OK 73654.",
@@ -1527,6 +1532,30 @@
       "description": "Fifth-generation family farm in Como, Mississippi, rooted to the land for over 150 years. Transitioned from row crops to regenerative grazing a decade ago. One of the only farms in the country operating its own on-farm USDA slaughter and processing facility. 100% grass-fed and grass-finished beef raised in regenerative grazing systems that build soil health. Also runs farm store and restaurant open Tuesday-Saturday.",
       "note": "Address: 1630 Home Place Rd, Como, MS 38619. Farm store open Tuesday-Saturday 8am-5pm, serving lunch 11am-3pm. Also offers processing services to other local farmers. Cattle breed not specified on public site.",
       "last_checked": "2026-10-15"
+    },
+    {
+      "slug": "rafter-9-ranch",
+      "name": "Rafter 9 Ranch",
+      "url": "https://rafter9.ag/beef/",
+      "state": "NV",
+      "city": "Fallon",
+      "genetics": "100% Registered Black Angus seedstock herd; every cow AI-bred every year; beef comes from the same cattle kept for the ranch's show and sale bulls (2026 Great Basin Bull Sale champion)",
+      "breeds": [
+        "angus"
+      ],
+      "products": [
+        "1/8, 1/4 and 1/2 beef shares",
+        "sampler and select boxes",
+        "steaks",
+        "roasts",
+        "ground"
+      ],
+      "shipping": "Local pickup in Fallon; delivery to Reno/Tahoe, Salt Lake City, Boise, June Lake and San Diego; UPS 2-day ground frozen elsewhere in CA, NV, OR, ID, UT and AZ where it arrives cold (ZIP checker on site)",
+      "phone": "775-217-2325",
+      "email": "mark@rafter9.ag",
+      "description": "Family Black Angus seedstock ranch in Fallon (Churchill County), Nevada, run by owner and operator Mark Hyde and re-established in 2020. Cattle are raised 18 to 24 months on alfalfa hay and irrigated Fallon pasture, processed USDA-inspected at Lahontan Valley Meats in Fallon, and dry-aged 14 to 21 days. Shares are billed on finished (take-home) weight, not hanging weight, and come as a set balanced mix of steaks, roasts and ground.",
+      "note": "Finish: the beef page says both grass-finished and grain-finished are offered (ask which is available), while the homepage describes the beef as grass-raised and grain-finished. No added hormones per site. Shares sell out each season; deposits at checkout, balance on finished weight.",
+      "last_checked": "2026-10-16"
     }
   ]
 }
