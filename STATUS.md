@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** October 15, 2026  
+**Last Updated:** October 16, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 70
+- **Total Ranches:** 71
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -32,6 +32,7 @@
 - **Florida Ranches:** 2
 - **Idaho Ranches:** 2
 - **Mississippi Ranches:** 1
+- **Nevada Ranches:** 1
 - **Montana Ranches:** 2
 - **New York Ranches:** 1
 - **Oklahoma Ranches:** 2
@@ -43,7 +44,7 @@
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 113
+- **Total Pages:** 114
 
 ## Pages Built
 
@@ -68,6 +69,7 @@
 - ✅ Kentucky hub (`/kentucky/`) - 1 ranch
 - ✅ Mississippi hub (`/mississippi/`) - 1 ranch
 - ✅ Missouri hub (`/missouri/`) - 1 ranch
+- ✅ Nevada hub (`/nevada/`) - 1 ranch
 - ✅ Texas hub (`/texas/`) - 6 ranches
 - ✅ California hub (`/california/`) - 19 ranches
 - ✅ Colorado hub (`/colorado/`) - 2 ranches
@@ -159,6 +161,7 @@
 - ✅ Svec Farm (SD)
 - ✅ Stillwater Ranch (MT)
 - ✅ Home Place Pastures (MS)
+- ✅ Rafter 9 Ranch (NV)
 
 ## Known Gaps & Notes
 
@@ -279,6 +282,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Oct 15, 2026:** Added **Shining B Cattle Co.** (Pleasanton, CA) — 18th California ranch on directory: four generations of family ranching; naturally raised beef—grass-grazed, grain-finished with custom grain program developed with beef nutritionist; hormone free, ethically raised. Quarter/half/whole beef shares (deposits $500/$1,000/$1,500, currently sold out). Half beef $3,270 including processing and cut & wrap. Harvested summer and fall. Average yields: whole 400-425 lb, half 200-225 lb, quarter 100-115 lb. Individual cuts sold in online store. Pickup only - no shipping: Livermore (Highland Rd, CA 94551) and Lepe's Meat Co., 3659 Standish Ave, Santa Rosa, CA 95407. Phone: 925-998-0151; Email: info@shiningbcattleco.com; Instagram: @shiningbcattleco_. California hub now shows 18 ranches (up from 17). Total: 68 ranches, 3 deals, 3 markets, 20 butchers, 109 pages.
 - 📅 **Oct 15, 2026:** Added **Sharp Farms & Cattle Co.** (Mariposa, CA) — 19th California ranch on directory: women-owned & operated family ranch established 2022 in the Sierra Foothills; run by Lacey & Alyssa Sharp; 100% grass-fed beef with no chemical dewormers and no vaccines—ever; regenerative grazing methods inspired by the Savory Institute, using frequent pasture moves; GMO-free, free range. Quarter beef $840 (~60 lb), Half $1,687.50 (~125 lb), Whole $3,125 (~250 lb), $12.50/lb custom cuts; Gourmet Ground Beef Box $165 (15 lb). Processed at USDA processor Sanders Meats, Turlock, CA. Personal delivery same day direct from processor to your door; no shipping. Phone: 979-229-3608; Email: lacey@sharpfarmscattleco.com; Instagram: @sharpfarmsandcattleco. California hub now shows 19 ranches (up from 18). Total: 69 ranches, 3 deals, 3 markets, 20 butchers, 110 pages.
 - 📅 **Oct 15, 2026 PT nightly ship:** Added **Home Place Pastures** (Como, MS) — first Mississippi ranch on directory: fifth-generation family farm (150+ years on the land) raising 100% grass-fed and grass-finished beef with regenerative grazing systems; one of the only farms in the country operating its own on-farm USDA slaughter and processing facility; no antibiotics, no hormones; ships nationwide frozen (free delivery across Southeast, small flat-rate charge outside Southeast); farm store and restaurant open Tuesday-Saturday; phone 662-426-6191; email info@homeplacepastures.com. Mississippi is the 33rd state represented in the directory. Added Mississippi state hub at `/mississippi/` wired into home page and navigation. Re-verified Lone Mountain Wagyu (NM) and Long Hill Wagyu (TX) — both operational, websites and shops active; updated last_checked to 2026-10-15. Re-verified all 3 active deals still live with visible sale pricing: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-15. No new deals found tonight. States still with no listings: AL, AK, CT, DE, HI, LA, ME, MD, MA, NV, NH, NJ, ND, RI, WV. Total: 70 ranches, 3 deals, 3 markets, 20 butchers, 113 pages.
+- 📅 **Oct 16, 2026 PT nightly ship:** Added **Rafter 9 Ranch** (Fallon, NV) — first Nevada ranch on directory: family Black Angus seedstock program (owner/operator Mark Hyde, re-established 2020) with a 100% Registered Black Angus herd, every cow AI-bred every year, and beef from the same cattle kept for its show and sale bulls (2026 Great Basin Bull Sale champion). Raised 18–24 months on alfalfa hay and irrigated Fallon pasture; USDA-inspected processing at Lahontan Valley Meats (Fallon); dry-aged 14–21 days; no added hormones per site. Sells 1/8, 1/4, 1/2 shares plus Sampler/Select boxes, billed on finished (take-home) weight. Local pickup in Fallon; delivery to Reno/Tahoe, Salt Lake City, Boise, June Lake, San Diego; UPS 2-day frozen elsewhere in CA/NV/OR/ID/UT/AZ. Phone 775-217-2325, email mark@rafter9.ag. Gap: finish wording differs (beef page says grass- and grain-finished both offered; homepage says grain-finished) — noted on listing. Nevada is the 34th state hub. Added Nevada state hub at `/nevada/` wired into home page hub links. Re-checked **Circle H Ranch** (WY/ID) and **Koopmann Family Beef** (CA) — both sites live; set last_checked 2026-10-16. Koopmann phone corrected to (916) 208-1722 per its site (925-494-8063 no longer listed); its banner still says "Currently only taking bulk orders for 2025" (noted). Re-verified all 3 active deals still live with both prices visible: Long Hill 15 lb ground $180 (reg $195), Mossyrock WAGYU BBQ BOX $395 (reg $475), Oreganic Crockpot Comfort Box $199 (reg $229) — verified_at 2026-10-16. No new deals. States still with no listings: AL, AK, CT, DE, HI, LA, ME, MD, MA, NH, NJ, ND, RI, WV. Total: 71 ranches, 3 deals, 3 markets, 20 butchers, 114 pages.
 
 ### What We Record
 - ✅ Ranch name and location
