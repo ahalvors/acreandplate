@@ -42,8 +42,55 @@
     
     <section class="listings-section">
         <div class="container">
+            
+    <div class="filter-bar">
+        <div class="filter-header">
+            <button class="filter-toggle" aria-expanded="false">
+                <svg viewBox="0 0 16 16" class="icon" aria-hidden="true">
+                    <path d="M2 3h12M6 8h4M8 13h0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="5" cy="3" r="1.5" fill="currentColor"/>
+                    <circle cx="11" cy="8" r="1.5" fill="currentColor"/>
+                    <circle cx="8" cy="13" r="1.5" fill="currentColor"/>
+                </svg>
+                Filter
+            </button>
+            <div class="filter-summary">
+                <span class="filter-count">Showing <strong id="shown-count">1</strong> of <strong id="total-count">1</strong> ranches</span>
+                <button class="filter-clear" style="display:none;">Clear filters</button>
+            </div>
+        </div>
+        <div class="filter-panel">
+            
+        <div class="filter-group">
+            <label class="filter-label">Search</label>
+            <input type="text" id="filter-search" class="filter-search" placeholder="Ranch name, town, or breed…">
+        </div>
+    
+            <div class="filter-group">
+                <label class="filter-label">Finish</label>
+                <div class="filter-chips"><button class="filter-chip" data-filter="finish" data-value="grass-finished">Grass-finished <span class="count">(1)</span></button></div>
+            </div>
+        
+            <div class="filter-group">
+                <label class="filter-label">Shipping</label>
+                <div class="filter-chips"><button class="filter-chip" data-filter="ships" data-value="none">No shipping <span class="count">(1)</span></button></div>
+            </div>
+        
+            <div class="filter-group">
+                <label class="filter-label">Pickup</label>
+                <div class="filter-chips">
+                    <button class="filter-chip" data-filter="pickup" data-value="true">Local/ranch pickup <span class="count">(1)</span></button>
+                </div>
+            </div>
+        
+        </div>
+        <div class="filter-empty" style="display:none;">
+            <p>No ranches match your filters. <button class="filter-clear-inline">Clear filters</button> to see all listings.</p>
+        </div>
+    </div>
+    
             <div class="listings-grid">
-                <article class="listing-card">
+                <article class="listing-card" data-name="svec farm" data-city="estelline" data-state="SD" data-breeds="heritage belted-galloway" data-finish="grass-finished" data-ships="none" data-pickup="true" >
 
 <div class="card-id"><div class="card-st">SD</div><div><h3><a href="/listings/svec-farm/">Svec Farm</a></h3><div class="card-loc">Estelline, SD <span class="card-breed">Heritage</span><span class="card-breed">Belted Galloway</span></div></div></div>
 <div class="card-mid"><div class="card-badges"><span class="card-badge badge-grass"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M3 14c0-4 1-7 3-9M8 14c0-5 0-8 0-11M13 14c0-4-1-7-3-9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Grass-finished</span><span class="card-badge badge-pick"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M8 15s5-5 5-9A5 5 0 0 0 3 6c0 4 5 9 5 9z" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="8" cy="6" r="1.7" fill="currentColor"/></svg>Pickup only</span></div><p class="card-desc">Fifth-generation family farm in Eastern South Dakota raising heritage breed Belted Galloway cattle on tallgrass prairie. 100% grassfed and grass-finished with no corn, soy, or grains.</p><div class="card-sells"><b>Sells</b> steaks · roasts · ground · organ meats …</div></div>
@@ -68,5 +115,6 @@
             </p>
         </div>
     </footer>
+    <script src="/js/filter.js"></script>
 </body>
 </html>

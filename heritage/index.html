@@ -42,38 +42,90 @@
     
     <section class="listings-section">
         <div class="container">
+            
+    <div class="filter-bar">
+        <div class="filter-header">
+            <button class="filter-toggle" aria-expanded="false">
+                <svg viewBox="0 0 16 16" class="icon" aria-hidden="true">
+                    <path d="M2 3h12M6 8h4M8 13h0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="5" cy="3" r="1.5" fill="currentColor"/>
+                    <circle cx="11" cy="8" r="1.5" fill="currentColor"/>
+                    <circle cx="8" cy="13" r="1.5" fill="currentColor"/>
+                </svg>
+                Filter
+            </button>
+            <div class="filter-summary">
+                <span class="filter-count">Showing <strong id="shown-count">6</strong> of <strong id="total-count">6</strong> ranches</span>
+                <button class="filter-clear" style="display:none;">Clear filters</button>
+            </div>
+        </div>
+        <div class="filter-panel">
+            
+        <div class="filter-group">
+            <label class="filter-label">Search</label>
+            <input type="text" id="filter-search" class="filter-search" placeholder="Ranch name, town, or breed…">
+        </div>
+    
+            <div class="filter-group">
+                <label class="filter-label">Finish</label>
+                <div class="filter-chips"><button class="filter-chip" data-filter="finish" data-value="grass-finished">Grass-finished <span class="count">(5)</span></button></div>
+            </div>
+        
+            <div class="filter-group">
+                <label class="filter-label">Shipping</label>
+                <div class="filter-chips"><button class="filter-chip" data-filter="ships" data-value="nationwide">Ships nationwide <span class="count">(2)</span></button><button class="filter-chip" data-filter="ships" data-value="lower-48">Ships lower 48 <span class="count">(1)</span></button><button class="filter-chip" data-filter="ships" data-value="none">No shipping <span class="count">(3)</span></button></div>
+            </div>
+        
+            <div class="filter-group">
+                <label class="filter-label">Pickup</label>
+                <div class="filter-chips">
+                    <button class="filter-chip" data-filter="pickup" data-value="true">Local/ranch pickup <span class="count">(6)</span></button>
+                </div>
+            </div>
+        
+            <div class="filter-group">
+                <label class="filter-label">Certifications</label>
+                <div class="filter-chips"><button class="filter-chip" data-filter="cert" data-value="USDA Organic">Organic <span class="count">(1)</span></button></div>
+            </div>
+        
+        </div>
+        <div class="filter-empty" style="display:none;">
+            <p>No ranches match your filters. <button class="filter-clear-inline">Clear filters</button> to see all listings.</p>
+        </div>
+    </div>
+    
             <div class="listings-grid">
-                <article class="listing-card">
+                <article class="listing-card" data-name="sugar hill farm" data-city="st. marys" data-state="PA" data-breeds="heritage scottish-highland" data-finish="grass-finished" data-ships="nationwide" data-pickup="true" >
 
 <div class="card-id"><div class="card-st">PA</div><div><h3><a href="/listings/sugar-hill-farm-pa/">Sugar Hill Farm</a></h3><div class="card-loc">St. Marys, PA <span class="card-breed">Heritage</span><span class="card-breed">Scottish Highland</span></div></div></div>
 <div class="card-mid"><div class="card-badges"><span class="card-badge badge-grass"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M3 14c0-4 1-7 3-9M8 14c0-5 0-8 0-11M13 14c0-4-1-7-3-9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Grass-finished</span><span class="card-badge badge-ship"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M1 4h9v7H1zM10 7h3l2 2v2h-5z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><circle cx="4" cy="12.5" r="1.4" fill="currentColor"/><circle cx="12" cy="12.5" r="1.4" fill="currentColor"/></svg>Ships nationwide</span><span class="card-badge badge-pick"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M8 15s5-5 5-9A5 5 0 0 0 3 6c0 4 5 9 5 9z" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="8" cy="6" r="1.7" fill="currentColor"/></svg>On-farm pickup</span></div><p class="card-desc">Pennsylvania family farm in St. Marys raising Scottish Highland cattle on open pasture year-round. 100% grass-fed from birth through finishing—no grain, ever.</p><div class="card-sells"><b>Sells</b> steaks · roasts · ground · beef boxes …</div></div>
 <div class="card-act"><a href="https://sugarhillfarmpa.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=sugar-hill-farm-pa" target="_blank" rel="noopener" class="card-primary">Visit ranch →</a><a href="/listings/sugar-hill-farm-pa/" class="card-link">Details</a><span class="card-ver"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Checked Oct 2026</span></div>
 </article>
-<article class="listing-card">
+<article class="listing-card" data-name="chapel hill farm" data-city="berryville" data-state="VA" data-breeds="heritage randall-lineback" data-ships="nationwide" data-pickup="true" >
 
 <div class="card-id"><div class="card-st">VA</div><div><h3><a href="/listings/chapel-hill/">Chapel Hill Farm</a></h3><div class="card-loc">Berryville, VA <span class="card-breed">Heritage</span><span class="card-breed">Randall Lineback</span></div></div></div>
 <div class="card-mid"><div class="card-badges"><span class="card-badge badge-ship"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M1 4h9v7H1zM10 7h3l2 2v2h-5z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><circle cx="4" cy="12.5" r="1.4" fill="currentColor"/><circle cx="12" cy="12.5" r="1.4" fill="currentColor"/></svg>Ships nationwide</span><span class="card-badge badge-pick"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M8 15s5-5 5-9A5 5 0 0 0 3 6c0 4 5 9 5 9z" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="8" cy="6" r="1.7" fill="currentColor"/></svg>Local pickup</span></div><p class="card-desc">100% pasture-based. Deep, rich flavor without heavy intramuscular fat.</p><div class="card-sells"><b>Sells</b> steaks · ground · roasts</div></div>
 <div class="card-act"><a href="https://randalllineback.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=chapel-hill" target="_blank" rel="noopener" class="card-primary">Visit ranch →</a><a href="/listings/chapel-hill/" class="card-link">Details</a><span class="card-ver"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Checked Oct 2026</span></div>
 </article>
-<article class="listing-card">
+<article class="listing-card" data-name="mahanaim farms" data-city="salt lake city area" data-state="UT" data-breeds="heritage dexter" data-finish="grass-finished" data-ships="none" data-pickup="true" >
 
 <div class="card-id"><div class="card-st">UT</div><div><h3><a href="/listings/mahanaim-dexter/">Mahanaim Farms</a></h3><div class="card-loc">Salt Lake City area, UT <span class="card-breed">Heritage</span><span class="card-breed">Dexter</span></div></div></div>
 <div class="card-mid"><div class="card-badges"><span class="card-badge badge-grass"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M3 14c0-4 1-7 3-9M8 14c0-5 0-8 0-11M13 14c0-4-1-7-3-9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Grass-finished</span><span class="card-badge badge-pick"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M8 15s5-5 5-9A5 5 0 0 0 3 6c0 4 5 9 5 9z" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="8" cy="6" r="1.7" fill="currentColor"/></svg>Pickup only</span></div><p class="card-desc">100% grass-fed and grass-finished. Regenerative family farm.</p><div class="card-sells"><b>Sells</b> steaks · roasts · ground</div></div>
 <div class="card-act"><a href="https://www.mahanaimfarms.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=mahanaim-dexter" target="_blank" rel="noopener" class="card-primary">Visit ranch →</a><a href="/listings/mahanaim-dexter/" class="card-link">Details</a><span class="card-ver"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Checked Oct 2026</span></div>
 </article>
-<article class="listing-card">
+<article class="listing-card" data-name="salmon creek ranch" data-city="bodega" data-state="CA" data-breeds="heritage" data-finish="grass-finished" data-ships="lower-48" data-pickup="true" data-certs="USDA Organic" >
 
 <div class="card-id"><div class="card-st">CA</div><div><h3><a href="/listings/salmon-creek-ranch/">Salmon Creek Ranch</a></h3><div class="card-loc">Bodega, CA <span class="card-breed">Heritage</span></div></div></div>
 <div class="card-mid"><div class="card-badges"><span class="card-badge badge-grass"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M3 14c0-4 1-7 3-9M8 14c0-5 0-8 0-11M13 14c0-4-1-7-3-9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Grass-finished</span><span class="card-badge badge-ship"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M1 4h9v7H1zM10 7h3l2 2v2h-5z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><circle cx="4" cy="12.5" r="1.4" fill="currentColor"/><circle cx="12" cy="12.5" r="1.4" fill="currentColor"/></svg>Ships lower 48</span><span class="card-badge badge-pick"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M8 15s5-5 5-9A5 5 0 0 0 3 6c0 4 5 9 5 9z" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="8" cy="6" r="1.7" fill="currentColor"/></svg>Local pickup</span><span class="card-badge badge-cert"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M5.5 8.2l1.8 1.8 3.3-3.6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>USDA Organic</span></div><p class="card-desc">Sonoma coast ranch in Bodega raising 100% grass-fed and grass-finished beef on certified organic pasture, including Scottish Highland and other British breeds suited to steep coastal hills.</p><div class="card-sells"><b>Sells</b> steaks · roasts · ground · whole beef …</div></div>
 <div class="card-act"><a href="https://salmoncreekranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=salmon-creek-ranch" target="_blank" rel="noopener" class="card-primary">Visit ranch →</a><a href="/listings/salmon-creek-ranch/" class="card-link">Details</a><span class="card-ver"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Checked Oct 2026</span></div>
 </article>
-<article class="listing-card">
+<article class="listing-card" data-name="england ranch" data-city="edmonton" data-state="KY" data-breeds="heritage dexter" data-finish="grass-finished" data-ships="none" data-pickup="true" >
 
 <div class="card-id"><div class="card-st">KY</div><div><h3><a href="/listings/england-ranch/">England Ranch</a></h3><div class="card-loc">Edmonton, KY <span class="card-breed">Heritage</span><span class="card-breed">Dexter</span></div></div></div>
 <div class="card-mid"><div class="card-badges"><span class="card-badge badge-grass"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M3 14c0-4 1-7 3-9M8 14c0-5 0-8 0-11M13 14c0-4-1-7-3-9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Grass-finished</span><span class="card-badge badge-pick"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M8 15s5-5 5-9A5 5 0 0 0 3 6c0 4 5 9 5 9z" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="8" cy="6" r="1.7" fill="currentColor"/></svg>Ranch pickup</span></div><p class="card-desc">100% grass-fed and grass-finished Heritage Dexter cattle raised on chemical-free pasture. No routine antibiotics or growth hormones.</p><div class="card-sells"><b>Sells</b> beef shares · quarter/half/whole beef</div></div>
 <div class="card-act"><a href="https://www.englandranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=england-ranch" target="_blank" rel="noopener" class="card-primary">Visit ranch →</a><a href="/listings/england-ranch/" class="card-link">Details</a><span class="card-ver"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Checked Oct 2026</span></div>
 </article>
-<article class="listing-card">
+<article class="listing-card" data-name="svec farm" data-city="estelline" data-state="SD" data-breeds="heritage belted-galloway" data-finish="grass-finished" data-ships="none" data-pickup="true" >
 
 <div class="card-id"><div class="card-st">SD</div><div><h3><a href="/listings/svec-farm/">Svec Farm</a></h3><div class="card-loc">Estelline, SD <span class="card-breed">Heritage</span><span class="card-breed">Belted Galloway</span></div></div></div>
 <div class="card-mid"><div class="card-badges"><span class="card-badge badge-grass"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M3 14c0-4 1-7 3-9M8 14c0-5 0-8 0-11M13 14c0-4-1-7-3-9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Grass-finished</span><span class="card-badge badge-pick"><svg viewBox="0 0 16 16" class="icon" aria-hidden="true"><path d="M8 15s5-5 5-9A5 5 0 0 0 3 6c0 4 5 9 5 9z" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="8" cy="6" r="1.7" fill="currentColor"/></svg>Pickup only</span></div><p class="card-desc">Fifth-generation family farm in Eastern South Dakota raising heritage breed Belted Galloway cattle on tallgrass prairie. 100% grassfed and grass-finished with no corn, soy, or grains.</p><div class="card-sells"><b>Sells</b> steaks · roasts · ground · organ meats …</div></div>
@@ -98,5 +150,6 @@
             </p>
         </div>
     </footer>
+    <script src="/js/filter.js"></script>
 </body>
 </html>
