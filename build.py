@@ -376,7 +376,7 @@ def listing_card(listing: Dict[str, Any], show_full: bool = False, featured_badg
     # City, State - handle multi-state codes
     location = f"{listing['city']}, {listing['state']}"
     state_code = listing['state']
-    state_class = ' class="multi"' if '/' in state_code or len(state_code) > 2 else ''
+    state_class = 'card-st multi' if '/' in state_code or len(state_code) > 2 else 'card-st'
     
     # Format verified date
     verified_date = format_date(listing['last_checked'])
@@ -391,7 +391,7 @@ def listing_card(listing: Dict[str, Any], show_full: bool = False, featured_badg
     
     return f"""<article class="listing-card">
 {featured_html}
-<div class="card-id"><div{state_class} class="card-st">{html.escape(state_code)}</div><div><h3><a href="/listings/{listing['slug']}/">{html.escape(listing['name'])}</a></h3><div class="card-loc">{html.escape(location)} {breed_html}</div></div></div>
+<div class="card-id"><div class="{state_class}">{html.escape(state_code)}</div><div><h3><a href="/listings/{listing['slug']}/">{html.escape(listing['name'])}</a></h3><div class="card-loc">{html.escape(location)} {breed_html}</div></div></div>
 <div class="card-mid"><div class="card-badges">{badges_html}</div><p class="card-desc">{html.escape(first_sentence)}</p>{deal_html}<div class="card-sells"><b>Sells</b> {html.escape(products_list)}</div></div>
 <div class="card-act"><a href="{ranch_url}" target="_blank" rel="noopener" class="card-primary">Visit ranch →</a><a href="/listings/{listing['slug']}/" class="card-link">Details</a><span class="card-ver">{icons["check"]}Checked {verified_date}</span></div>
 </article>"""
