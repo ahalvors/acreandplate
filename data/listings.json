@@ -819,22 +819,23 @@
       "url": "https://yochadeheranch.com/",
       "state": "CA",
       "city": "Capay Valley / Brooks",
-      "genetics": "Ranch-raised Angus on tribal lands; 800 head of cattle on 20,000 acres of open rangeland in Capay Valley; sustainable grazing program; finished with oats, barley, and corn for 45-60 days",
+      "genetics": "Ranch-raised Angus on Yocha Dehe Wintun Nation lands in Capay Valley; herd of 800 cattle on the Tribe's 12,000 acres of rangeland; mostly grass-fed, not 100% grass-fed or grass-finished (hay and a finishing ration for a few months); never fed or injected with growth hormones",
       "breeds": [
         "angus"
       ],
       "products": [
         "steaks",
         "ground",
-        "patties",
-        "jerky",
-        "sticks"
+        "roasts",
+        "ribs",
+        "sausage",
+        "jerky"
       ],
-      "shipping": "Pickup only at Séka Hills Capay Valley Tasting Room (Brooks, CA); Beef Club delivers quarterly packages",
-      "phone": "530-796-2810",
-      "note": "Beef available exclusively through Séka Hills Beef Club (quarterly pickup-only packages at Capay Valley Tasting Room). Contact Club@sekahills.com for club inquiries or info@yochadehe.gov for general ranch questions. Marketed under Séka Hills brand alongside olive oil, wine, and honey from the Yocha Dehe Wintun Nation.",
-      "description": "Yocha Dehe Wintun Nation ranch raising premium Angus beef on tribal lands in California's Capay Valley. Cattle are raised on open pastures across 20,000 acres with sustainable grazing practices that reflect generations of land stewardship. Available through Séka Hills Beef Club with quarterly pickup at the tasting room in Brooks.",
-      "last_checked": "2026-10-14"
+      "shipping": "Ships frozen to the contiguous US, $25 flat rate (orders Mon–Thu by noon PT usually ship same day); Séka Hills Beef Club members can pick up at the Séka Hills tasting rooms or ship for $25",
+      "email": "help@yochadeheranch.com",
+      "note": "Beef Club has a one-time $35 enrollment fee including a starter mini bundle; memberships are limited with a waitlist; pickup at Séka Hills tasting rooms or $25 shipping. Beef hangs 14 days and is processed at USDA-inspected facilities; not certified organic; vaccines/antibiotics stopped at least 180 days before slaughter. Instagram: @yochadeheranch",
+      "description": "Yocha Dehe Wintun Nation ranch raising premium Angus beef on tribal lands in California's Capay Valley. Cattle are raised on open pastures across the Tribe's 12,000 acres of rangeland with sustainable grazing practices that reflect generations of land stewardship. Sold online with US shipping and through the Séka Hills Beef Club.",
+      "last_checked": "2026-10-17"
     },
     {
       "slug": "mariposa-ranch",
