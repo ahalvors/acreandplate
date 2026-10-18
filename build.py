@@ -1063,6 +1063,7 @@ def build_featured():
                             <li>✓ "Featured Partner" badge on your listing</li>
                             <li>✓ Priority placement in search results</li>
                             <li>✓ Monthly traffic reports</li>
+                            <li>✓ <strong>Your logo, on our apron:</strong> one co-branded apron in the Acre &amp; Plate shop, a $5 cut of every sale, and member pricing on crew and farm-store orders (ask us for a quote)</li>
                         </ul>
                     </div>
                     <div class="tier-cta">
@@ -1084,6 +1085,7 @@ def build_featured():
                             <li>✓ Spotlight section when deals are active</li>
                             <li>✓ Social media mentions (when available)</li>
                             <li>✓ Priority support for listing updates</li>
+                            <li>✓ <strong>Your logo, on our apron:</strong> up to 2 apron colors, a $10 cut of every sale, a free sample apron, and crew orders at our cost</li>
                         </ul>
                     </div>
                     <div class="tier-cta">
@@ -1108,6 +1110,17 @@ def build_featured():
                 <div class="faq-item">
                     <h3>How do I track results?</h3>
                     <p>We provide monthly traffic reports showing visits to your listing and clicks to your ranch website. All outbound links include UTM tracking so you can see Acre & Plate referrals in your own analytics.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Your logo, on our apron</h3>
+                    <img src="/assets/featured/apron-cobrand-sample.png" alt="Sample co-branded Acre &amp; Plate apron in forest green with a placeholder ranch logo on the chest and a small Acre &amp; Plate mark below it" width="600" height="600" loading="lazy" style="display:block; max-width:320px; width:100%; height:auto; margin:0 auto 1rem;">
+                    <p>Featured Ranches get a co-branded Acre &amp; Plate apron with their own logo on the chest, in heavy cotton twill in our forest green. We list it in the <a href="https://acreandplate.printful.me/" target="_blank" rel="noopener noreferrer">Acre &amp; Plate shop</a> so your customers can buy it, and you earn a cut of every sale. You can also order a batch for your crew or farm store at member pricing.</p>
+                    <ul>
+                        <li><strong>Standard:</strong> one apron listing in Dark Green, $5 to you per $50 sale, and member pricing on crew and farm-store orders (ask us for a quote).</li>
+                        <li><strong>Premium:</strong> up to 2 apron colors, $10 to you per sale, one free sample apron, and crew orders at our cost.</li>
+                    </ul>
+                    <p>No setup fee. We only print your logo with your written permission. Your share of sales is paid monthly, and amounts under $25 roll over to the next month. If you leave Featured Ranch, we take your apron listing down within 7 days. Sample shown uses a placeholder logo; shop orders ship within the US.</p>
                 </div>
                 
                 <div class="faq-item">
@@ -1977,6 +1990,13 @@ def main():
         "mississippi",
         lambda l: l.get('state') == 'MS',
         "Mississippi ranches raising 100% grass-fed and grass-finished beef with on-farm USDA processing and regenerative grazing practices. Fifth-generation family farms with nationwide shipping."
+    )
+    
+    build_hub_page(
+        "Maryland Ranches",
+        "maryland",
+        lambda l: l.get('state') == 'MD',
+        "Maryland ranches raising premium Black Angus beef with grain-finishing, farm stores, and nationwide shipping."
     )
     
     build_hub_page(
