@@ -741,7 +741,7 @@
       "phone": "707-878-2181",
       "note": "Address: 900 Cerini Road, Tomales, CA — visits by appointment only. Email: marincoastranch@gmail.com. All retail beef cuts currently sold out; beef shares available Spring 2027. Confirm current inventory on their store before ordering.",
       "description": "Sixth-generation Northern California family ranch in West Marin raising USDA Certified Grassfed, Certified Natural Angus beef on coastal pasture. Cattle are grass-fed and grass-finished with dry-aged, vacuum-sealed cuts. Also sells grass-fed lamb; offers ranch hikes, picnics, and tours.",
-      "last_checked": "2026-09-27"
+      "last_checked": "2026-10-17"
     },
     {
       "slug": "starwalker-organic-farms",
@@ -1020,7 +1020,7 @@
       "shipping": "Ships to all 50 states",
       "note": "Family ranch founded 2006 by Bill and Kelli Parker, now led by CEO Cloe Parker. Leases 400+ acres near Gunnison using holistic land management. Contact: info@parkerpastures.com. Cattle breed not specified on public site.",
       "description": "Family ranch in Gunnison Valley founded in 2006 by Bill and Kelli Parker, now led by daughter Cloe Parker as CEO. 100% grass-fed and grass-finished beef raised with regenerative agriculture practices on Colorado's high mesa.",
-      "last_checked": "2026-09-27"
+      "last_checked": "2026-10-17"
     },
     {
       "slug": "didier-ranch",
@@ -1557,6 +1557,32 @@
       "description": "Family Black Angus seedstock ranch in Fallon (Churchill County), Nevada, run by owner and operator Mark Hyde and re-established in 2020. Cattle are raised 18 to 24 months on alfalfa hay and irrigated Fallon pasture, processed USDA-inspected at Lahontan Valley Meats in Fallon, and dry-aged 14 to 21 days. Shares are billed on finished (take-home) weight, not hanging weight, and come as a set balanced mix of steaks, roasts and ground.",
       "note": "Finish: the beef page says both grass-finished and grain-finished are offered (ask which is available), while the homepage describes the beef as grass-raised and grain-finished. No added hormones per site. Shares sell out each season; deposits at checkout, balance on finished weight.",
       "last_checked": "2026-10-16"
+    },
+    {
+      "slug": "roseda-farm",
+      "name": "Roseda Farm (Roseda Black Angus)",
+      "url": "https://roseda.com/",
+      "state": "MD",
+      "city": "Monkton",
+      "genetics": "Black Angus (Aberdeen Angus) bred from bulls selected for marbling, tenderness and fat thickness; the farm references its Wye Line genetics and breeding program and says it tracks cattle from embryo to plate",
+      "breeds": [
+        "angus"
+      ],
+      "products": [
+        "steaks",
+        "roasts",
+        "dry-aged burgers and ground beef",
+        "all-beef hot dogs",
+        "bundles and samplers",
+        "freezer beef sides and quarters",
+        "jerky"
+      ],
+      "shipping": "Ships frozen on dry ice to the continental US, Alaska and Hawaii (FedEx Overnight or 2-Day; free shipping on orders over $100); farm stores in Monkton and Frederick, MD; weekday walk-up pickup at Old Line Custom Meat Co. in Baltimore; free freezer-beef delivery in the greater Baltimore area",
+      "phone": "410-472-2697",
+      "email": "roseda@roseda.com",
+      "description": "Family Black Angus farm in the hills of Monkton (Baltimore County), Maryland. Ed Burchell bought the farm in 1986 and founded Roseda in 1996 with cattle expert Dean Bryant; the farm lists about 350 acres and 600 head. Calves are weaned at seven months and graze pasture for most of their lives, then are finished on chopped corn plants and kernels, hay, alfalfa and soybean meal. All of the beef, including burgers and ground, is dry-aged 14 to 21 days. Rotational grazing, a gravity-fed water system that keeps runoff out of the Chesapeake Bay (1999 Baltimore County Soil Conservation District Cooperator of the Year), and a solar-powered farm and farm store.",
+      "note": "Grass-fed, grain-finished. No growth hormones; antibiotics only when medically necessary, per the farm. Natural, not organic. Cattle are raised with about 45 local partner farms and processed at Roseda's own plants in Baltimore City, and the beef is also sold at Giant Food and other Maryland grocers, so buy direct at shop.roseda.com or the farm stores. Monkton farm store open Tue-Sat; website customer service (410) 800-8035.",
+      "last_checked": "2026-10-17"
     }
   ]
 }

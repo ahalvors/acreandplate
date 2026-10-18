@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** October 16, 2026  
+**Last Updated:** October 17, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 71
+- **Total Ranches:** 72
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -21,6 +21,7 @@
 - **Iowa Ranches:** 1
 - **Kansas Ranches:** 2
 - **Kentucky Ranches:** 1
+- **Maryland Ranches:** 1
 - **Michigan Ranches:** 1
 - **Minnesota Ranches:** 1
 - **Missouri Ranches:** 1
@@ -44,7 +45,7 @@
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 114
+- **Total Pages:** 115
 
 ## Pages Built
 
@@ -67,6 +68,7 @@
 - ✅ Iowa hub (`/iowa/`) - 1 ranch
 - ✅ Kansas hub (`/kansas/`) - 2 ranches
 - ✅ Kentucky hub (`/kentucky/`) - 1 ranch
+- ✅ Maryland hub (`/maryland/`) - 1 ranch
 - ✅ Mississippi hub (`/mississippi/`) - 1 ranch
 - ✅ Missouri hub (`/missouri/`) - 1 ranch
 - ✅ Nevada hub (`/nevada/`) - 1 ranch
@@ -162,6 +164,7 @@
 - ✅ Stillwater Ranch (MT)
 - ✅ Home Place Pastures (MS)
 - ✅ Rafter 9 Ranch (NV)
+- ✅ Roseda Farm (MD)
 
 ## Known Gaps & Notes
 
@@ -283,6 +286,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 - 📅 **Oct 15, 2026:** Added **Sharp Farms & Cattle Co.** (Mariposa, CA) — 19th California ranch on directory: women-owned & operated family ranch established 2022 in the Sierra Foothills; run by Lacey & Alyssa Sharp; 100% grass-fed beef with no chemical dewormers and no vaccines—ever; regenerative grazing methods inspired by the Savory Institute, using frequent pasture moves; GMO-free, free range. Quarter beef $840 (~60 lb), Half $1,687.50 (~125 lb), Whole $3,125 (~250 lb), $12.50/lb custom cuts; Gourmet Ground Beef Box $165 (15 lb). Processed at USDA processor Sanders Meats, Turlock, CA. Personal delivery same day direct from processor to your door; no shipping. Phone: 979-229-3608; Email: lacey@sharpfarmscattleco.com; Instagram: @sharpfarmsandcattleco. California hub now shows 19 ranches (up from 18). Total: 69 ranches, 3 deals, 3 markets, 20 butchers, 110 pages.
 - 📅 **Oct 15, 2026 PT nightly ship:** Added **Home Place Pastures** (Como, MS) — first Mississippi ranch on directory: fifth-generation family farm (150+ years on the land) raising 100% grass-fed and grass-finished beef with regenerative grazing systems; one of the only farms in the country operating its own on-farm USDA slaughter and processing facility; no antibiotics, no hormones; ships nationwide frozen (free delivery across Southeast, small flat-rate charge outside Southeast); farm store and restaurant open Tuesday-Saturday; phone 662-426-6191; email info@homeplacepastures.com. Mississippi is the 33rd state represented in the directory. Added Mississippi state hub at `/mississippi/` wired into home page and navigation. Re-verified Lone Mountain Wagyu (NM) and Long Hill Wagyu (TX) — both operational, websites and shops active; updated last_checked to 2026-10-15. Re-verified all 3 active deals still live with visible sale pricing: Long Hill 15 lb ground at $180 (regular $195), Mossyrock WAGYU BBQ BOX at $395 (regular $475), Oreganic Crockpot Comfort Box at $199 (regular $229) — updated verified_at to 2026-10-15. No new deals found tonight. States still with no listings: AL, AK, CT, DE, HI, LA, ME, MD, MA, NV, NH, NJ, ND, RI, WV. Total: 70 ranches, 3 deals, 3 markets, 20 butchers, 113 pages.
 - 📅 **Oct 16, 2026 PT nightly ship:** Added **Rafter 9 Ranch** (Fallon, NV) — first Nevada ranch on directory: family Black Angus seedstock program (owner/operator Mark Hyde, re-established 2020) with a 100% Registered Black Angus herd, every cow AI-bred every year, and beef from the same cattle kept for its show and sale bulls (2026 Great Basin Bull Sale champion). Raised 18–24 months on alfalfa hay and irrigated Fallon pasture; USDA-inspected processing at Lahontan Valley Meats (Fallon); dry-aged 14–21 days; no added hormones per site. Sells 1/8, 1/4, 1/2 shares plus Sampler/Select boxes, billed on finished (take-home) weight. Local pickup in Fallon; delivery to Reno/Tahoe, Salt Lake City, Boise, June Lake, San Diego; UPS 2-day frozen elsewhere in CA/NV/OR/ID/UT/AZ. Phone 775-217-2325, email mark@rafter9.ag. Gap: finish wording differs (beef page says grass- and grain-finished both offered; homepage says grain-finished) — noted on listing. Nevada is the 30th state hub. State-count reconciliation: listings.json now covers 36 distinct states (earlier STATUS lines saying 33 undercounted); AR, NE, NM, SC, VA and VT have listings but no state hub yet, which is a ready backlog of hub pages. Added Nevada state hub at `/nevada/` wired into home page hub links. Re-checked **Circle H Ranch** (WY/ID) and **Koopmann Family Beef** (CA) — both sites live; set last_checked 2026-10-16. Koopmann phone corrected to (916) 208-1722 per its site (925-494-8063 no longer listed); its banner still says "Currently only taking bulk orders for 2025" (noted). Re-verified all 3 active deals still live with both prices visible: Long Hill 15 lb ground $180 (reg $195), Mossyrock WAGYU BBQ BOX $395 (reg $475), Oreganic Crockpot Comfort Box $199 (reg $229) — verified_at 2026-10-16. No new deals. States still with no listings: AL, AK, CT, DE, HI, LA, ME, MD, MA, NH, NJ, ND, RI, WV. Total: 71 ranches, 3 deals, 3 markets, 20 butchers, 114 pages.
+- 📅 **Oct 17, 2026 PT nightly ship:** Added **Roseda Farm (Roseda Black Angus)** (Monkton, MD) — first Maryland ranch on directory: family Black Angus farm in Baltimore County (Ed Burchell bought the farm in 1986; Roseda founded 1996 with cattle expert Dean Bryant; ~350 acres, ~600 head per site). Bulls selected for marbling/tenderness; site references Wye Line genetics. Weaned at 7 months, pasture most of life, then finished on chopped corn plants and kernels, hay, alfalfa and soybean meal (grass-fed, grain-finished); no growth hormones, antibiotics only when medically necessary; natural, not organic. All beef dry-aged 14–21 days. Rotational grazing, gravity-fed water keeping runoff out of the Chesapeake Bay (1999 Baltimore County SCD Cooperator of the Year), solar-powered farm. Ships frozen on dry ice to the continental US, AK and HI (FedEx; free over $100); farm stores in Monkton and Frederick; walk-up pickup at Old Line Custom Meat Co. (Baltimore); freezer-beef sides/quarters with free greater-Baltimore delivery. Phone 410-472-2697 (Monkton store), email roseda@roseda.com. Gaps/caveats: raised with ~45 local partner farms and processed at its own Baltimore plants, and also sold at Giant Food and other MD grocers (noted on listing); FAQ still mentions an upcoming e-commerce launch although shop.roseda.com is live. Added Maryland state hub at `/maryland/` wired into home page hub links (37 states, 31 state hubs). Regenerated HTML also picks up the Oct 17 White Oak Pastures (#108) and Yocha Dehe (#107) JSON updates that hadn't been rebuilt into their listing, Georgia and California pages. Re-checked **Marin Coast Ranch** (CA; 2026 beef sold out, shares Spring 2027, matches listing) and **Parker Pastures** (CO; live, still 100% grass-fed/finished, shipping) — last_checked 2026-10-17. 3 Calhoun Sisters site returned 403/bot check, so not re-checked. Re-verified all 3 active deals still live with both prices visible: Long Hill 15 lb ground $180 (reg $195), Mossyrock WAGYU BBQ BOX $395 (reg $475), Oreganic Crockpot Comfort Box $199 (reg $229) — verified_at 2026-10-17. No new deals. Skipped Black Leg Ranch (ND) because its meat shop says "Under New Ownership" with no clear owner. States still with no listings: AL, AK, CT, DE, HI, LA, ME, MA, NH, NJ, ND, RI, WV. Total: 72 ranches, 3 deals, 3 markets, 20 butchers, 115 pages.
 
 ### What We Record
 - ✅ Ranch name and location
