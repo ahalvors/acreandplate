@@ -128,7 +128,7 @@
       "shipping": "48 contiguous states",
       "phone": "801-215-9211",
       "description": "Raised on 600,000+ acres of Northern Rockies rangeland. Diamond grading system for marbling levels.",
-      "last_checked": "2026-09-28"
+      "last_checked": "2026-10-18"
     },
     {
       "slug": "prime-wagyu-farm",
@@ -492,7 +492,7 @@
       "phone": "925-216-0468",
       "note": "Contact Nancy Calhoun Mueller — call/text or email nancyjm1960@yahoo.com. Beef brand marketed as Circle H Beef; SOLD OUT for 2026 shares per ranch site. Distinct from Circle H Ranch Wagyu (WY/ID).",
       "description": "Fifth-generation Livermore Valley ranch (Nancy, Merry, Susie Calhoun) selling grass-fed grass-finished Angus as Circle H Beef with Audubon bird-friendly certification and regenerative practices.",
-      "last_checked": "2026-09-27"
+      "last_checked": "2026-10-18"
     },
     {
       "slug": "cross-creek-ranch",
@@ -1583,6 +1583,31 @@
       "description": "Family Black Angus farm in the hills of Monkton (Baltimore County), Maryland. Ed Burchell bought the farm in 1986 and founded Roseda in 1996 with cattle expert Dean Bryant; the farm lists about 350 acres and 600 head. Calves are weaned at seven months and graze pasture for most of their lives, then are finished on chopped corn plants and kernels, hay, alfalfa and soybean meal. All of the beef, including burgers and ground, is dry-aged 14 to 21 days. Rotational grazing, a gravity-fed water system that keeps runoff out of the Chesapeake Bay (1999 Baltimore County Soil Conservation District Cooperator of the Year), and a solar-powered farm and farm store.",
       "note": "Grass-fed, grain-finished. No growth hormones; antibiotics only when medically necessary, per the farm. Natural, not organic. Cattle are raised with about 45 local partner farms and processed at Roseda's own plants in Baltimore City, and the beef is also sold at Giant Food and other Maryland grocers, so buy direct at shop.roseda.com or the farm stores. Monkton farm store open Tue-Sat; website customer service (410) 800-8035.",
       "last_checked": "2026-10-17"
+    },
+    {
+      "slug": "triple-e-farms",
+      "name": "Triple E Farms",
+      "url": "https://tripleefarming.com/",
+      "state": "WV",
+      "city": "Romney",
+      "genetics": "Breed not named on the farm's public site; cattle are 100% grass-fed and grass-finished, rotated to a fresh paddock daily under management-intensive grazing",
+      "breeds": [],
+      "products": [
+        "steaks (ribeye, NY strip, filet mignon, T-bone, porterhouse, flat iron)",
+        "roasts",
+        "ground beef and ancestral blend (beef and organs)",
+        "burger patties",
+        "bones and organs",
+        "beef bacon, sausages and hot dogs",
+        "snack sticks and jerky",
+        "beef tallow",
+        "bundles and bulk deals"
+      ],
+      "shipping": "Ships frozen to the lower 48 states via UPS or FedEx on a weekly schedule ($75 minimum; 1-day ground $19.95, 2-day ground or air $30, free ground shipping over $150); local home delivery in the greater DC area; on-farm store in Romney (full store Thu-Sat) and pickup locations near Romney",
+      "phone": "304-790-2918",
+      "description": "Mennonite family farm in the mountains of Romney (Hampshire County), West Virginia, started in 2015 and now run by the founder, his wife Esta and their three kids. Beef cattle are 100% grass-fed and grass-finished, moved to fresh pasture usually every day with management-intensive grazing and a small amount of organic minerals; the farm describes its approach as regenerative. Also sells grass-fed raw dairy, pastured chicken, turkey, eggs and forest-raised pork.",
+      "note": "No antibiotics or hormones, GMO-free, corn- and soy-free, per the farm. Not certified organic. The farm says it has grown from one farm into a network of small farmers working under the same standards, so not every item is necessarily from the home farm. Product prices are shown only after creating a free account. Contact by phone or the site's contact form; no public email listed.",
+      "last_checked": "2026-10-18"
     }
   ]
 }
