@@ -439,6 +439,7 @@ def build_index():
                 <a href="/tennessee/" class="hub-link">Tennessee <span class="count">({len([l for l in listings if l.get('state') == 'TN'])})</span></a>
                 <a href="/utah/" class="hub-link">Utah <span class="count">({len([l for l in listings if l.get('state') == 'UT'])})</span></a>
                 <a href="/washington/" class="hub-link">Washington <span class="count">({len([l for l in listings if l['state'] == 'WA'])})</span></a>
+                <a href="/west-virginia/" class="hub-link">West Virginia <span class="count">({len([l for l in listings if l.get('state') == 'WV'])})</span></a>
                 <a href="/wyoming/" class="hub-link">Wyoming <span class="count">({len([l for l in listings if 'WY' in l.get('state', '')])})</span></a>
                 <a href="/guides/cattle-breeds/" class="hub-link">Cattle Breeds Guide →</a>
                 <a href="/guides/wagyu-vs-akaushi/" class="hub-link">Wagyu vs Akaushi →</a>
@@ -1699,6 +1700,13 @@ def main():
         "Maryland farms selling dry-aged Black Angus beef direct from the farm, with farm stores near Baltimore and Frederick and frozen shipping nationwide."
     )
     
+    build_hub_page(
+        "West Virginia Ranches",
+        "west-virginia",
+        lambda l: l.get('state') == 'WV',
+        "West Virginia farms selling 100% grass-fed, grass-finished beef direct from the farm, with an on-farm store in Romney and frozen shipping to the lower 48."
+    )
+    
     # Guide
     build_guide()
     
@@ -1723,7 +1731,7 @@ def main():
         build_news_story(item)
     
     print(f"\n✓ Built {len(listings)} listing pages")
-    print("✓ Built hub pages (wagyu, akaushi, heritage, arizona, indiana, iowa, kansas, kentucky, maryland, michigan, minnesota, mississippi, missouri, nevada, new-york, north-carolina, ohio, oklahoma, pennsylvania, south-dakota, tennessee, texas, utah, california, colorado, florida, georgia, idaho, montana, oregon, washington, wisconsin, wyoming)")
+    print("✓ Built hub pages (wagyu, akaushi, heritage, arizona, indiana, iowa, kansas, kentucky, maryland, michigan, minnesota, mississippi, missouri, nevada, new-york, north-carolina, ohio, oklahoma, pennsylvania, south-dakota, tennessee, texas, utah, california, colorado, florida, georgia, idaho, montana, oregon, washington, west-virginia, wisconsin, wyoming)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
     print(f"✓ Built markets page with {len(markets)} farmers markets and {len(butchers)} butcher shops")
