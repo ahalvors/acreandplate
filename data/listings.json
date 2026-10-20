@@ -43,7 +43,8 @@
       "shipping": "Continental US",
       "featured": true,
       "description": "Fifth generation ranch with the largest herd of Akaushi cattle in the country. All HeartBrand Certified Akaushi Beef is USDA Prime quality grade.",
-      "last_checked": "2026-09-29"
+      "last_checked": "2026-10-19",
+      "phone": "877-252-8744"
     },
     {
       "slug": "long-hill-wagyu",
@@ -1041,9 +1042,9 @@
         "steak burgers"
       ],
       "shipping": "Ships nationwide (frozen and insulated)",
-      "note": "Family-owned since 1902 (4th generation, founded by Pierre Didier from South France). Cattle born, raised, and finished on one family ranch in Oklahoma—never outsourced. Dry-aged 21-28 days. Email: Didierranch1902@gmail.com; Mailing: P.O. Box 808, Thomas, OK 73669. No public phone listed.",
+      "note": "Family-owned since 1902 (4th generation, founded by Pierre Didier from South France). Cattle born, raised, and finished on one family ranch in Oklahoma—never outsourced. Dry-aged 21-28 days. Email: Didierranch1902@gmail.com; Mailing: P.O. Box 808, Thomas, OK 73669. No public phone listed. As of Oct 19, 2026 most boxes showed sold out with 'back in stock soon'; the Steak Burger Box was still available.",
       "description": "Fourth-generation family ranch in Thomas, Oklahoma, founded in 1902 by Pierre Didier. Premium USDA Choice Black Angus beef, born, raised, and finished on one ranch. Grass-fed in their pastures and grain-finished on crops grown on the ranch. Dry-aged 21-28 days and shipped frozen nationwide.",
-      "last_checked": "2026-09-28"
+      "last_checked": "2026-10-19"
     },
     {
       "slug": "dry-creek-meats",
@@ -1608,6 +1609,31 @@
       "description": "Mennonite family farm in the mountains of Romney (Hampshire County), West Virginia, started in 2015 and now run by the founder, his wife Esta and their three kids. Beef cattle are 100% grass-fed and grass-finished, moved to fresh pasture usually every day with management-intensive grazing and a small amount of organic minerals; the farm describes its approach as regenerative. Also sells grass-fed raw dairy, pastured chicken, turkey, eggs and forest-raised pork.",
       "note": "No antibiotics or hormones, GMO-free, corn- and soy-free, per the farm. Not certified organic. The farm says it has grown from one farm into a network of small farmers working under the same standards, so not every item is necessarily from the home farm. Product prices are shown only after creating a free account. Contact by phone or the site's contact form; no public email listed.",
       "last_checked": "2026-10-18"
+    },
+    {
+      "slug": "apple-creek-farm",
+      "name": "Apple Creek Farm",
+      "url": "https://applecreekfarm.me/",
+      "state": "ME",
+      "city": "Bowdoinham",
+      "genetics": "Cow/calf herd with Angus, British White Park and Hereford genetics, bred by AI for calm temperament and doing well on pasture; 100% grass-fed and grass-finished, finished on pasture over two growing seasons at 24-28 months",
+      "breeds": [
+        "angus",
+        "hereford"
+      ],
+      "products": [
+        "steaks (rib eye, NY sirloin, hanger, skirt, sirloin tip, minute steaks)",
+        "roasts (chuck, tri tip, brisket)",
+        "organic grass-fed ground beef",
+        "oxtail, tongue and liver",
+        "beef bone broth",
+        "beef tallow balms"
+      ],
+      "shipping": "Pickup only, no meat shipping. Order online by Thursday 9 AM for pickup at the farm in Bowdoinham (Sundays 10:30-noon, closed the first Sunday of each month) or at Brunswick pickup spots (Brunswick Farmers Market, BTLT Market, Brunswick Winter Market and Vessel & Vine, by season); also sold in person at Brunswick farmers' markets",
+      "phone": "207-948-3022",
+      "description": "Organic, regenerative family farm in Bowdoinham, Maine, run by Abby Sadauckas and Jake Galle on the land Jake's parents settled in 1985. Beef cows graze fresh organic pasture in summer, moved to new grass daily, and eat organic dry hay and baleage in winter. No grain; calves are born in the fall and finished on grass at 24-28 months. Raised without antibiotics or chemical wormers using rotational grazing. Also sells organic pasture-raised chicken and eggs, goat and lamb.",
+      "note": "Not all beef is certified organic: the farm sells both grass-fed and certified organic beef and labels which products are certified organic. Beef is sold by the cut only (no halves or quarters); a Market Share CSA gives up to 10% off. Food is not shipped; only sheepskins, goat hides and merch ship nationwide. Email: info@applecreekfarm.me.",
+      "last_checked": "2026-10-19"
     }
   ]
 }
