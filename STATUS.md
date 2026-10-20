@@ -1,13 +1,13 @@
 # Acre & Plate - Status
 
-**Last Updated:** October 18, 2026  
+**Last Updated:** October 19, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 73
+- **Total Ranches:** 74
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
-- **Active Deals:** 3
+- **Active Deals:** 4
 - **Farmers Markets:** 3
 - **Butcher Shops:** 20
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
@@ -21,6 +21,7 @@
 - **Iowa Ranches:** 1
 - **Kansas Ranches:** 2
 - **Kentucky Ranches:** 1
+- **Maine Ranches:** 1
 - **Maryland Ranches:** 1
 - **Michigan Ranches:** 1
 - **Minnesota Ranches:** 1
@@ -46,14 +47,14 @@
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 116
+- **Total Pages:** 117
 
 ## Pages Built
 
 ### Core Pages
 - ✅ Home (`index.html`)
 - ✅ All Listings (`/listings/`)
-- ✅ Seasonal Deals (`/deals/`) - 3 active deals
+- ✅ Seasonal Deals (`/deals/`) - 4 active deals
 - ✅ Local Activity (`/markets/`) - 3 farmers markets + 19 butcher shops (UPDATED!)
 - ✅ Featured Ranch (`/featured/`) - monetization landing page
 - ✅ Featured Ranch Thanks (`/featured/thanks/`) - post-checkout page
@@ -69,6 +70,7 @@
 - ✅ Iowa hub (`/iowa/`) - 1 ranch
 - ✅ Kansas hub (`/kansas/`) - 2 ranches
 - ✅ Kentucky hub (`/kentucky/`) - 1 ranch
+- ✅ Maine hub (`/maine/`) - 1 ranch
 - ✅ Maryland hub (`/maryland/`) - 1 ranch
 - ✅ Mississippi hub (`/mississippi/`) - 1 ranch
 - ✅ Missouri hub (`/missouri/`) - 1 ranch
@@ -323,6 +325,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 1. Ranch owner subscribes via `/featured/` page
 2. Add entry to `data/featured.json` with listing_id, tier, start/end dates
 3. Rebuild site - featured ranch appears with badge on home, listings, and (if premium) deals
+- 📅 **Oct 19, 2026 PT nightly ship:** Added **Apple Creek Farm** (Bowdoinham, ME) — first Maine farm on directory: organic, regenerative family farm run by Abby Sadauckas and Jake Galle on land Jake's parents (Janet and Pete Galle) bought in 1985. Cow/calf herd with Angus, British White Park and Hereford genetics (AI-bred); beef is 100% grass-fed and grass-finished, moved to fresh pasture daily in summer, organic dry hay and baleage in winter, no grain, finished at 24–28 months; raised without antibiotics or chemical wormers, rotational grazing. Sold by the cut (no halves/quarters) with a Market Share CSA (up to 10% off). **Pickup only — no meat shipping**: order online by Thursday 9 AM for farm pickup in Bowdoinham (Sundays) or Brunswick pickup spots/farmers' markets. Phone 207-948-3022, email info@applecreekfarm.me. Caveat: not all beef is certified organic (farm sells both grass-fed and certified organic beef and labels which is which) — noted on listing; breeds tagged angus + hereford (British White Park mentioned in genetics text, not tagged as heritage). Added Maine state hub at `/maine/` wired into home page hub links (39 states, 33 state hubs). Re-checked **HeartBrand Beef** (TX; live, ships, added public phone 877-252-8744) and **Didier Ranch** (OK; live, ships nationwide, but most boxes showed sold out/"back in stock soon" — noted on listing) — last_checked 2026-10-19. **New deal:** HeartBrand Ultimate Tailgate Bundle $185 (reg $206), both prices on the product page, no end date shown. Re-verified the 3 existing deals still live with both prices visible: Long Hill 15 lb ground $180 (reg $195), Mossyrock WAGYU BBQ BOX $395 (reg $475), Oreganic Crockpot Comfort Box $199 (reg $229) — verified_at 2026-10-19. Hawks Hill (last_checked 2026-09-28) still the oldest unchecked listing. States still with no listings: AL, AK, CT, DE, HI, LA, MA, NH, NJ, ND, RI. Total: 74 ranches, 4 deals, 3 markets, 20 butchers, 117 pages.
 
 ## Build Process
 
