@@ -318,3 +318,44 @@ footer .tagline { font-size:1.6rem; font-weight:700; }
 @media(max-width:1000px) { .hero-layout{gap:2.5rem}.heritage-copy h1{font-size:clamp(3.5rem,7vw,5rem)}header nav{gap:1rem}.nav-links{gap:.8rem}.logo strong{font-size:1.25rem}.logo small{font-size:.48rem}.market-layout{gap:2.5rem}.shop-layout{gap:2rem}.state-directory .hub-links{grid-template-columns:repeat(4,minmax(0,1fr))} }
 @media(max-width:680px) { header nav{padding:1.2rem 0}.logo a{justify-content:center}.brand-star{font-size:2rem}.logo strong{font-size:1.5rem}.logo small{font-size:.5rem}.nav-links{margin-top:1.3rem;gap:.8rem;flex-wrap:wrap}.nav-links a{font-size:.62rem}.hero-layout{grid-template-columns:1fr;gap:2.5rem}.heritage-hero{padding-top:2.6rem}.heritage-copy h1{font-size:clamp(2.7rem,12vw,4.8rem)}.heritage-copy .eyebrow{font-size:.6rem}.hero-deck{font-size:1.25rem}.hero-description{font-size:.88rem}.heritage-copy .hero-actions{gap:1rem}.ranch-emblem{max-width:265px;justify-self:center;padding:1rem 1.2rem 1.5rem}.emblem-top{margin-top:1.3rem;font-size:.55rem}.emblem-bottom{font-size:.5rem}.hero-ledger{margin-top:2.8rem;padding:1rem 0;display:grid;grid-template-columns:1fr 1fr;gap:.6rem;font-size:.6rem}.hero-ledger span:last-child{grid-column:1/-1}.section-heading{display:block}.section-heading .text-link{margin-top:1rem}.section-note{display:block;text-align:left;margin-top:.8rem}.breed-paths{grid-template-columns:1fr}.breed-paths>a,.breed-paths>a:first-child{padding:1rem 0;border-right:0;border-bottom:1px solid #a8b09c}.breed-paths>a:last-child{border-bottom:0}.breed-paths h3{font-size:1.65rem;margin:.25rem 0}.breed-paths p{max-width:none}.path-number{display:none}.path-bottom{margin-top:.7rem}.state-directory summary span{display:block;margin:.3rem 0}.state-directory .hub-links{grid-template-columns:repeat(2,minmax(0,1fr))}.market-layout,.shop-layout,.guide-paths{grid-template-columns:1fr;gap:2rem}.ranch-finder,.heritage-featured,.heritage-how,.heritage-shop{padding:3rem 0}.guide-paths>a{padding-bottom:1rem}.heritage-shop h2{font-size:2.5rem}.listing-card .genetics{min-height:0}.hero-actions .text-link{font-size:.72rem} }
 @media(max-width:680px) { .nav-links{gap:.55rem}.nav-links a{font-size:.58rem;letter-spacing:.04em} }
+
+/* Directory usability: constrain grid children instead of hiding horizontal overflow. */
+.listings-grid > *, .listing-card > *, .actions > *, .filter-basics > * { min-width:0; }
+.listing-card { overflow-wrap:anywhere; }
+.listing-card .btn-primary,.listing-card .btn-secondary { max-width:100%; white-space:normal; }
+[hidden] { display:none !important; }
+.nav-links a[href*="printful"] { border-bottom:0; padding-bottom:0; }
+.nav-links a[aria-current="page"] { border-bottom:2px solid var(--rust); padding-bottom:.3rem; color:var(--rust-dark); }
+.location,.deal-verified,.eyebrow,.logo small,.section-note,.market-verified,.butcher-verified { font-size:.8rem; color:#555447; letter-spacing:.06em; }
+.eyebrow { color:var(--rust-dark); }
+.page-header .location { color:#434b3e; }
+.hero-ledger { font-size:.9rem; align-items:center; }
+.hero-ledger strong { font-size:1.05rem; }
+.hero-ledger span:first-child strong { font:700 2rem/1 Georgia,serif; vertical-align:middle; margin-right:.5rem; }
+.filter-bar { padding:1.5rem; margin-bottom:2rem; border:1px solid var(--line); border-top:3px solid var(--rust); background:var(--paper-deep); }
+.filter-basics { display:grid; grid-template-columns:2fr 1fr 1fr; gap:1rem; }
+.filter-label { display:block; font-size:.85rem; font-weight:700; margin-bottom:.4rem; color:var(--ink); }
+.filter-search,.filter-bar select { width:100%; min-width:0; min-height:46px; padding:.65rem; border:1px solid #8b8978; border-radius:0; background:var(--white); color:var(--ink); font:inherit; font-size:1rem; }
+.filter-search:focus-visible,.filter-bar select:focus-visible { outline:3px solid var(--rust); outline-offset:2px; }
+.filter-more { margin-top:1rem; }
+.filter-more summary { cursor:pointer; padding:.5rem 0; font-weight:650; }
+.filter-panel { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; margin-top:1rem; }
+.filter-chips { display:flex; flex-wrap:wrap; gap:.5rem; }
+.filter-chip,.filter-clear,.filter-clear-inline { min-height:44px; padding:.5rem .75rem; border:1px solid #8b8978; background:var(--paper); color:var(--ink); font:inherit; font-size:.85rem; cursor:pointer; }
+.filter-chip.active { background:var(--olive-900); color:var(--bone); border-color:var(--olive-900); }
+.filter-chip:focus-visible,.filter-clear:focus-visible,.filter-clear-inline:focus-visible { outline:3px solid var(--rust); outline-offset:2px; }
+.filter-summary { display:flex; gap:1rem; flex-wrap:wrap; align-items:center; justify-content:space-between; margin-top:1rem; padding-top:1rem; border-top:1px solid var(--line); }
+.filter-help { font-size:.85rem; margin-top:1rem; color:#555447; }
+.filter-empty { padding:1.5rem 0 .5rem; }
+@media(max-width:680px) {
+ .listings-grid { grid-template-columns:minmax(0,1fr); }
+ .filter-bar { padding:1rem; }
+ .filter-basics { grid-template-columns:repeat(2,minmax(0,1fr)); }
+ .filter-basics>.filter-group:first-child { grid-column:1/-1; }
+ .filter-panel { grid-template-columns:minmax(0,1fr); }
+ .hero-ledger { font-size:.85rem; }
+ .hero-ledger strong { font-size:.95rem; }
+ .heritage-copy .eyebrow,.nav-links a { font-size:.75rem; }
+ .logo small { font-size:.62rem; }
+ .hero-ledger span:first-child strong { font-size:2rem; }
+}

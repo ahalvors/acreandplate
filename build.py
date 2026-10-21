@@ -5,6 +5,8 @@ Generates all pages from data/listings.json and data/deals.json
 """
 
 import json
+import html as html_tools
+import re
 import os
 from pathlib import Path
 from typing import List, Dict, Any
@@ -50,6 +52,15 @@ def ensure_dir(path: str):
 def write_page(path: str, content: str):
     """Write HTML content to file"""
     ensure_dir(os.path.dirname(path))
+    route = '/' + path.removesuffix('index.html')
+    section = '/listings/' if route.startswith('/listings/') else None
+    if route != '/' and re.search(r'class="listings-section"', content):
+        section = '/listings/'
+    for prefix in ('/deals/', '/markets/', '/news/', '/guides/', '/about/'):
+        if route.startswith(prefix):
+            section = '/guides/wagyu-vs-akaushi/' if prefix == '/guides/' else prefix
+    if section:
+        content = content.replace(f'<li><a href="{section}">', f'<li><a href="{section}" aria-current="page">', 1)
     with open(path, 'w') as f:
         f.write(content)
     print(f"✓ {path}")
@@ -109,6 +120,7 @@ def base_template(title: str, content: str, meta_description: str = "", og_tags:
             </p>
         </div>
     </footer>
+    <script src="/assets/filter.js" defer></script>
 </body>
 </html>"""
 
@@ -234,6 +246,180 @@ def deal_card(deal: Dict[str, Any]) -> str:
         </div>
     </article>"""
 
+def filter_metadata(listing):
+    """Use current source text; do not import stale claims from the old preview."""
+    item = dict(listing)
+    text = ' '.join(str(listing.get(k, '')) for k in ('genetics', 'description', 'note')).lower()
+    shipping = listing.get('shipping', '').lower()
+    grass = bool(re.search(r'grass[- ]finished|grass[- ]fed (?:&|and) finished', text))
+    grain = bool(re.search(r'(?<!no )grain[- ]finish|fermented grain finish', text))
+    if grass and grain: item['finish'] = 'grass-or-grain'
+    elif grain: item['finish'] = 'grain-finished'
+    elif grass: item['finish'] = 'grass-finished'
+    # Explicit destination wording takes priority over local delivery mentions.
+    if re.search(r'continental|contiguous|lower.?48|48 contiguous', shipping): item['ships_scope'] = 'lower-48'
+    elif re.search(r'(?<!not )nationwide|all 50|throughout us|domestic usa', shipping): item['ships_scope'] = 'nationwide'
+    elif 'pickup only' in shipping or 'no shipping' in shipping or 'in-person pickup' in shipping or 'butcher pickup at' in shipping: item['ships_scope'] = 'none'
+    elif re.search(r'local delivery|regional|ships to wa|elsewhere in ca|across all of ohio|delivery to select|delivery between|florida only|delivery to nashville', shipping): item['ships_scope'] = 'regional'
+    elif 'ship' in shipping: item['ships_scope'] = 'available'
+    if 'pickup' in shipping and 'no pickup' not in shipping: item['pickup'] = True
+    certs = []
+    if 'audubon' in text and ('certified' in text or 'certification' in text): certs.append('Audubon Bird Friendly')
+    if re.search(r'certified (?:grassfed )?by (?:the )?american grassfed|american grassfed association certified|certified grassfed by american grassfed', text): certs.append('AGA Certified Grassfed')
+    if 'non-gmo verified' in text: certs.append('Non-GMO Verified')
+    item['certs'] = certs
+    item['pet_products'] = any(re.search(r'pet|dog food|dog treat', product.lower()) for product in listing.get('products', []))
+    return item
+
+def filter_bar(listings: List[Dict[str, Any]]) -> str:
+    """Generate filter bar HTML for a list of listings"""
+    import html
+    
+    listings = [filter_metadata(l) for l in listings]
+
+    # Collect unique values from this page's listings
+    finish_opts = {}
+    ships_opts = {}
+    pickup_count = 0
+    cert_opts = {}
+    pet_count = 0
+    
+    for listing in listings:
+        finish = listing.get('finish')
+        if finish:
+            finish_opts[finish] = finish_opts.get(finish, 0) + 1
+        
+        ships = listing.get('ships_scope')
+        if ships:
+            ships_opts[ships] = ships_opts.get(ships, 0) + 1
+        
+        if listing.get('pickup'):
+            pickup_count += 1
+        
+        certs = listing.get('certs', [])
+        for cert in certs:
+            cert_opts[cert] = cert_opts.get(cert, 0) + 1
+        
+        # Check for pet products
+        if listing.get('pet_products'):
+            pet_count += 1
+        else:
+            # Also check products array
+            products_text = ' '.join(listing.get('products', [])).lower()
+            if ('pet' in products_text or 'dog food' in products_text or 'dog treat' in products_text) and 'hot dog' not in products_text:
+                pet_count += 1
+    
+    # Build filter groups
+    filters_html = []
+    
+    # Free-text search
+    filters_html.append('''
+        <div class="filter-group">
+            <label class="filter-label" for="filter-search">Search ranches</label>
+            <input type="search" id="filter-search" class="filter-search" placeholder="Ranch name, town, state, or breed…">
+        </div>
+    ''')
+    
+    # Finish filter (only if there are options)
+    if finish_opts:
+        finish_labels = {
+            'grass-finished': 'Grass-finished',
+            'mostly-grass-fed': 'Mostly grass-fed',
+            'grain-finished': 'Grain-finished',
+            'grass-or-grain': 'Grass or grain'
+        }
+        chips = []
+        for val in sorted(finish_opts.keys()):
+            label = finish_labels.get(val, val.replace('-', ' ').title())
+            count = finish_opts[val]
+            chips.append(f'<button class="filter-chip" data-filter="finish" data-value="{html.escape(val)}">{html.escape(label)} <span class="count">({count})</span></button>')
+        
+        filters_html.append(f'''
+            <div class="filter-group">
+                <label class="filter-label">Finish</label>
+                <div class="filter-chips">{"".join(chips)}</div>
+            </div>
+        ''')
+    
+    # Shipping filter
+    if ships_opts:
+        ships_labels = {
+            'nationwide': 'Ships nationwide',
+            'lower-48': 'Ships lower 48',
+            'regional': 'Regional delivery / shipping',
+            'none': 'No shipping', 'available': 'Shipping available; area unspecified'
+        }
+        chips = []
+        for val in ['nationwide', 'lower-48', 'regional', 'available', 'none']:
+            if val in ships_opts:
+                label = ships_labels[val]
+                count = ships_opts[val]
+                chips.append(f'<button class="filter-chip" data-filter="ships" data-value="{html.escape(val)}">{html.escape(label)} <span class="count">({count})</span></button>')
+        
+        filters_html.append(f'''
+            <div class="filter-group">
+                <label class="filter-label">Shipping</label>
+                <div class="filter-chips">{"".join(chips)}</div>
+            </div>
+        ''')
+    
+    # Pickup filter
+    if pickup_count > 0:
+        filters_html.append(f'''
+            <div class="filter-group">
+                <label class="filter-label">Pickup</label>
+                <div class="filter-chips">
+                    <button class="filter-chip" data-filter="pickup" data-value="true">Local/ranch pickup <span class="count">({pickup_count})</span></button>
+                </div>
+            </div>
+        ''')
+    
+    # Certifications filter
+    if cert_opts:
+        chips = []
+        for cert in sorted(cert_opts.keys()):
+            count = cert_opts[cert]
+            # Shorten long cert names
+            short_cert = cert.replace('AGA Certified Grassfed', 'AGA Grassfed').replace('USDA Organic', 'Organic')
+            chips.append(f'<button class="filter-chip" data-filter="cert" data-value="{html.escape(cert)}">{html.escape(short_cert)} <span class="count">({count})</span></button>')
+        
+        filters_html.append(f'''
+            <div class="filter-group">
+                <label class="filter-label">Certifications</label>
+                <div class="filter-chips">{"".join(chips)}</div>
+            </div>
+        ''')
+    
+    # Pet products filter
+    if pet_count > 0:
+        filters_html.append(f'''
+            <div class="filter-group">
+                <label class="filter-label">Products</label>
+                <div class="filter-chips">
+                    <button class="filter-chip" data-filter="pet" data-value="true">Pet food & treats <span class="count">({pet_count})</span></button>
+                </div>
+            </div>
+        ''')
+    
+    total_count = len(listings)
+    
+    states = sorted({state for l in listings for state in l['state'].split('/') if state})
+    breeds = sorted({breed for l in listings for breed in l.get('breeds', [])})
+    state_options = ''.join(f'<option value="{html.escape(v)}">{html.escape(v)}</option>' for v in states)
+    breed_options = ''.join(f'<option value="{html.escape(v)}">{html.escape(v.replace("-", " ").title())}</option>' for v in breeds)
+    return f'''
+    <div class="filter-bar" hidden>
+        <div class="filter-basics">
+            {filters_html[0]}
+            <div class="filter-group"><label for="filter-state" class="filter-label">State</label><select id="filter-state"><option value="">All states</option>{state_options}</select></div>
+            <div class="filter-group"><label for="filter-breed" class="filter-label">Breed</label><select id="filter-breed"><option value="">All breeds</option>{breed_options}</select></div>
+        </div>
+        <details class="filter-more"><summary>More filters: finish, shipping & pickup</summary><div class="filter-panel">{"".join(filters_html[1:])}</div><p class="filter-help">Filters use details recorded in each ranch listing. Unspecified details are not treated as a match; confirm current options with the ranch.</p></details>
+        <div class="filter-summary"><span class="filter-count" role="status" aria-live="polite">Showing <strong id="shown-count">{total_count}</strong> of <strong id="total-count">{total_count}</strong> ranches</span><button type="button" class="filter-clear" hidden>Clear filters</button></div>
+        <div class="filter-empty" hidden><p>No ranches match your filters. <button type="button" class="filter-clear-inline">Clear filters</button> to see all listings.</p></div>
+    </div>
+    '''
+
 def listing_card(listing: Dict[str, Any], show_full: bool = False, featured_badge: bool = False) -> str:
     """Generate listing card HTML"""
     breeds_html = ''.join([breed_chip(b) for b in listing['breeds']])
@@ -257,7 +443,15 @@ def listing_card(listing: Dict[str, Any], show_full: bool = False, featured_badg
     
     ranch_url = add_utm_params(listing['url'], listing['slug'])
     
-    return f"""<article class="listing-card">
+    metadata = filter_metadata(listing)
+    attrs = {'name': listing['name'].lower(), 'city': listing['city'].lower(), 'state': listing['state'], 'breeds': ' '.join(listing.get('breeds', [])), 'search': ' '.join([listing['name'], listing['city'], listing['state'], listing.get('genetics', ''), *listing.get('breeds', [])]).lower()}
+    for key, field in [('finish','finish'), ('ships','ships_scope')]:
+        attrs[key] = metadata.get(field, '')
+    attrs['pickup'] = 'true' if metadata.get('pickup') else ''
+    attrs['pet'] = 'true' if metadata.get('pet_products') else ''
+    attrs['certs'] = '|'.join(metadata.get('certs', []))
+    data_attrs = ' '.join(f'data-{key}="{html_tools.escape(value, quote=True)}"' for key, value in attrs.items())
+    return f"""<article class="listing-card" {data_attrs}>
         {featured_html}
         <h3><a href="/listings/{listing['slug']}/">{listing['name']}</a></h3>
         <div class="location">{listing['city']}, {listing['state']}</div>
@@ -464,6 +658,7 @@ def build_listings_index():
     
     <section class="listings-section">
         <div class="container">
+            {filter_bar(listings)}
             <div class="listings-grid">
                 {all_cards}
             </div>
@@ -567,6 +762,7 @@ def build_hub_page(title: str, slug: str, filter_fn, intro: str):
     
     <section class="listings-section">
         <div class="container">
+            {filter_bar(filtered)}
             <div class="listings-grid">
                 {cards_html}
             </div>

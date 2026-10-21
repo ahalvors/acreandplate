@@ -20,7 +20,7 @@
                 </a>
             </div>
             <ul class="nav-links">
-                <li><a href="/listings/">Browse</a></li>
+                <li><a href="/listings/" aria-current="page">Browse</a></li>
                 <li><a href="/deals/">Deals</a></li>
                 <li><a href="/markets/">Markets</a></li>
                 <li><a href="/news/">News</a></li>
@@ -43,8 +43,35 @@
     
     <section class="listings-section">
         <div class="container">
+            
+    <div class="filter-bar" hidden>
+        <div class="filter-basics">
+            
+        <div class="filter-group">
+            <label class="filter-label" for="filter-search">Search ranches</label>
+            <input type="search" id="filter-search" class="filter-search" placeholder="Ranch name, town, state, or breed…">
+        </div>
+    
+            <div class="filter-group"><label for="filter-state" class="filter-label">State</label><select id="filter-state"><option value="">All states</option><option value="WA">WA</option></select></div>
+            <div class="filter-group"><label for="filter-breed" class="filter-label">Breed</label><select id="filter-breed"><option value="">All breeds</option><option value="angus">Angus</option><option value="wagyu">Wagyu</option></select></div>
+        </div>
+        <details class="filter-more"><summary>More filters: finish, shipping & pickup</summary><div class="filter-panel">
+            <div class="filter-group">
+                <label class="filter-label">Finish</label>
+                <div class="filter-chips"><button class="filter-chip" data-filter="finish" data-value="grass-or-grain">Grass or grain <span class="count">(1)</span></button></div>
+            </div>
+        
+            <div class="filter-group">
+                <label class="filter-label">Shipping</label>
+                <div class="filter-chips"><button class="filter-chip" data-filter="ships" data-value="nationwide">Ships nationwide <span class="count">(1)</span></button><button class="filter-chip" data-filter="ships" data-value="regional">Regional delivery / shipping <span class="count">(1)</span></button></div>
+            </div>
+        </div><p class="filter-help">Filters use details recorded in each ranch listing. Unspecified details are not treated as a match; confirm current options with the ranch.</p></details>
+        <div class="filter-summary"><span class="filter-count" role="status" aria-live="polite">Showing <strong id="shown-count">2</strong> of <strong id="total-count">2</strong> ranches</span><button type="button" class="filter-clear" hidden>Clear filters</button></div>
+        <div class="filter-empty" hidden><p>No ranches match your filters. <button type="button" class="filter-clear-inline">Clear filters</button> to see all listings.</p></div>
+    </div>
+    
             <div class="listings-grid">
-                <article class="listing-card">
+                <article class="listing-card" data-name="mossyrock wagyu" data-city="mossyrock" data-state="WA" data-breeds="wagyu" data-search="mossyrock wagyu mossyrock wa 100% fullblood japanese wagyu wagyu" data-finish="" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/mossyrock/">Mossyrock Wagyu</a></h3>
         <div class="location">Mossyrock, WA</div>
@@ -58,7 +85,7 @@
             <a href="https://www.mossyrockwagyu.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=mossyrock" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="lone crow ranch" data-city="eltopia" data-state="WA" data-breeds="wagyu angus" data-search="lone crow ranch eltopia wa wagyu and angus; pasture-raised with grain-finished and grass-finished options; no added hormones; diet formulated by certified animal nutritionist wagyu angus" data-finish="grass-or-grain" data-ships="regional" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/lone-crow-ranch/">Lone Crow Ranch</a></h3>
         <div class="location">Eltopia, WA</div>
@@ -91,5 +118,6 @@
             </p>
         </div>
     </footer>
+    <script src="/assets/filter.js" defer></script>
 </body>
 </html>

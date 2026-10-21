@@ -20,7 +20,7 @@
                 </a>
             </div>
             <ul class="nav-links">
-                <li><a href="/listings/">Browse</a></li>
+                <li><a href="/listings/" aria-current="page">Browse</a></li>
                 <li><a href="/deals/">Deals</a></li>
                 <li><a href="/markets/">Markets</a></li>
                 <li><a href="/news/">News</a></li>
@@ -42,8 +42,47 @@
     
     <section class="listings-section">
         <div class="container">
+            
+    <div class="filter-bar" hidden>
+        <div class="filter-basics">
+            
+        <div class="filter-group">
+            <label class="filter-label" for="filter-search">Search ranches</label>
+            <input type="search" id="filter-search" class="filter-search" placeholder="Ranch name, town, state, or breed…">
+        </div>
+    
+            <div class="filter-group"><label for="filter-state" class="filter-label">State</label><select id="filter-state"><option value="">All states</option><option value="AL">AL</option><option value="AR">AR</option><option value="AZ">AZ</option><option value="CA">CA</option><option value="CO">CO</option><option value="FL">FL</option><option value="GA">GA</option><option value="IA">IA</option><option value="ID">ID</option><option value="IL">IL</option><option value="IN">IN</option><option value="KS">KS</option><option value="KY">KY</option><option value="MD">MD</option><option value="ME">ME</option><option value="MI">MI</option><option value="MN">MN</option><option value="MO">MO</option><option value="MS">MS</option><option value="MT">MT</option><option value="NC">NC</option><option value="NE">NE</option><option value="NM">NM</option><option value="NV">NV</option><option value="NY">NY</option><option value="Northern Rockies">Northern Rockies</option><option value="OH">OH</option><option value="OK">OK</option><option value="OR">OR</option><option value="PA">PA</option><option value="SC">SC</option><option value="SD">SD</option><option value="TN">TN</option><option value="TX">TX</option><option value="UT">UT</option><option value="VA">VA</option><option value="VT">VT</option><option value="WA">WA</option><option value="WI">WI</option><option value="WV">WV</option><option value="WY">WY</option></select></div>
+            <div class="filter-group"><label for="filter-breed" class="filter-label">Breed</label><select id="filter-breed"><option value="">All breeds</option><option value="akaushi">Akaushi</option><option value="angus">Angus</option><option value="belted-galloway">Belted Galloway</option><option value="dexter">Dexter</option><option value="hereford">Hereford</option><option value="heritage">Heritage</option><option value="piedmontese">Piedmontese</option><option value="randall-lineback">Randall Lineback</option><option value="scottish-highland">Scottish Highland</option><option value="wagyu">Wagyu</option></select></div>
+        </div>
+        <details class="filter-more"><summary>More filters: finish, shipping & pickup</summary><div class="filter-panel">
+            <div class="filter-group">
+                <label class="filter-label">Finish</label>
+                <div class="filter-chips"><button class="filter-chip" data-filter="finish" data-value="grain-finished">Grain-finished <span class="count">(13)</span></button><button class="filter-chip" data-filter="finish" data-value="grass-finished">Grass-finished <span class="count">(31)</span></button><button class="filter-chip" data-filter="finish" data-value="grass-or-grain">Grass or grain <span class="count">(5)</span></button></div>
+            </div>
+        
+            <div class="filter-group">
+                <label class="filter-label">Shipping</label>
+                <div class="filter-chips"><button class="filter-chip" data-filter="ships" data-value="nationwide">Ships nationwide <span class="count">(31)</span></button><button class="filter-chip" data-filter="ships" data-value="lower-48">Ships lower 48 <span class="count">(19)</span></button><button class="filter-chip" data-filter="ships" data-value="regional">Regional delivery / shipping <span class="count">(9)</span></button><button class="filter-chip" data-filter="ships" data-value="available">Shipping available; area unspecified <span class="count">(2)</span></button><button class="filter-chip" data-filter="ships" data-value="none">No shipping <span class="count">(7)</span></button></div>
+            </div>
+        
+            <div class="filter-group">
+                <label class="filter-label">Pickup</label>
+                <div class="filter-chips">
+                    <button class="filter-chip" data-filter="pickup" data-value="true">Local/ranch pickup <span class="count">(33)</span></button>
+                </div>
+            </div>
+        
+            <div class="filter-group">
+                <label class="filter-label">Certifications</label>
+                <div class="filter-chips"><button class="filter-chip" data-filter="cert" data-value="AGA Certified Grassfed">AGA Grassfed <span class="count">(2)</span></button><button class="filter-chip" data-filter="cert" data-value="Audubon Bird Friendly">Audubon Bird Friendly <span class="count">(2)</span></button><button class="filter-chip" data-filter="cert" data-value="Non-GMO Verified">Non-GMO Verified <span class="count">(1)</span></button></div>
+            </div>
+        </div><p class="filter-help">Filters use details recorded in each ranch listing. Unspecified details are not treated as a match; confirm current options with the ranch.</p></details>
+        <div class="filter-summary"><span class="filter-count" role="status" aria-live="polite">Showing <strong id="shown-count">75</strong> of <strong id="total-count">75</strong> ranches</span><button type="button" class="filter-clear" hidden>Clear filters</button></div>
+        <div class="filter-empty" hidden><p>No ranches match your filters. <button type="button" class="filter-clear-inline">Clear filters</button> to see all listings.</p></div>
+    </div>
+    
             <div class="listings-grid">
-                <article class="listing-card">
+                <article class="listing-card" data-name="lone mountain wagyu" data-city="new mexico" data-state="NM" data-breeds="wagyu" data-search="lone mountain wagyu new mexico nm 100% fullblood wagyu; dna-certified japanese lineage wagyu" data-finish="" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/lone-mountain-wagyu/">Lone Mountain Wagyu</a></h3>
         <div class="location">New Mexico, NM</div>
@@ -57,7 +96,7 @@
             <a href="https://www.lonemountainwagyu.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=lone-mountain-wagyu" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="heartbrand beef" data-city="texas" data-state="TX" data-breeds="akaushi" data-search="heartbrand beef texas tx certified akaushi beef® - only company with this certification akaushi" data-finish="" data-ships="lower-48" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/heartbrand-beef/">HeartBrand Beef</a></h3>
         <div class="location">Texas, TX</div>
@@ -71,7 +110,7 @@
             <a href="https://heartbrandbeef.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=heartbrand-beef" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="long hill wagyu" data-city="luling" data-state="TX" data-breeds="wagyu" data-search="long hill wagyu luling tx 100% fullblood japanese black wagyu" data-finish="" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/long-hill-wagyu/">Long Hill Wagyu</a></h3>
         <div class="location">Luling, TX</div>
@@ -85,7 +124,7 @@
             <a href="https://www.longhillwagyu.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=long-hill-wagyu" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="circle h ranch" data-city="smoot, wy &amp; geneva, id" data-state="WY/ID" data-breeds="wagyu" data-search="circle h ranch smoot, wy &amp; geneva, id wy/id 100% fullblood wagyu wagyu" data-finish="grass-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/circle-h-ranch/">Circle H Ranch</a></h3>
         <div class="location">Smoot, WY & Geneva, ID, WY/ID</div>
@@ -99,7 +138,7 @@
             <a href="https://www.circlehranch.net/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=circle-h-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="hawks hill ranch" data-city="cody" data-state="WY" data-breeds="wagyu" data-search="hawks hill ranch cody wy 100% fullblood wagyu; dna-tested japanese lineage wagyu" data-finish="" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/hawks-hill/">Hawks Hill Ranch</a></h3>
         <div class="location">Cody, WY</div>
@@ -113,7 +152,7 @@
             <a href="https://hawkshillranchwagyu.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=hawks-hill" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="slickhorn ranch" data-city="logan, ut (business)" data-state="Northern Rockies" data-breeds="wagyu" data-search="slickhorn ranch logan, ut (business) northern rockies fullblood wagyu - 100% traceable japanese lineage wagyu" data-finish="" data-ships="lower-48" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/slickhorn/">Slickhorn Ranch</a></h3>
         <div class="location">Logan, UT (business), Northern Rockies</div>
@@ -127,7 +166,7 @@
             <a href="https://slickhornranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=slickhorn" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="pasture prime wagyu" data-city="oxford" data-state="FL" data-breeds="wagyu" data-search="pasture prime wagyu oxford fl 100% grass-fed &amp; finished wagyu wagyu" data-finish="grass-finished" data-ships="nationwide" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/prime-wagyu-farm/">Pasture Prime Wagyu</a></h3>
         <div class="location">Oxford, FL</div>
@@ -141,7 +180,7 @@
             <a href="https://www.pastureprimewagyu.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=prime-wagyu-farm" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="rutledge ryan ranch" data-city="whitesboro" data-state="TX" data-breeds="wagyu" data-search="rutledge ryan ranch whitesboro tx 100% fullblood wagyu; tracked genetic lineages from japan wagyu" data-finish="" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/rutledge-ryan/">Rutledge Ryan Ranch</a></h3>
         <div class="location">Whitesboro, TX</div>
@@ -155,7 +194,7 @@
             <a href="https://rutledgeryanranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=rutledge-ryan" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="mahan wagyu (ranch &amp; trail)" data-city="silverton (near palo duro canyon)" data-state="TX" data-breeds="wagyu" data-search="mahan wagyu (ranch &amp; trail) silverton (near palo duro canyon) tx 100% fullblood japanese wagyu; registered with american wagyu association wagyu" data-finish="grain-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/mahan/">Mahan Wagyu (Ranch & Trail)</a></h3>
         <div class="location">Silverton (near Palo Duro Canyon), TX</div>
@@ -169,7 +208,7 @@
             <a href="https://ranchandtrail.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=mahan" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="mossyrock wagyu" data-city="mossyrock" data-state="WA" data-breeds="wagyu" data-search="mossyrock wagyu mossyrock wa 100% fullblood japanese wagyu wagyu" data-finish="" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/mossyrock/">Mossyrock Wagyu</a></h3>
         <div class="location">Mossyrock, WA</div>
@@ -183,7 +222,7 @@
             <a href="https://www.mossyrockwagyu.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=mossyrock" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="grant cattle company" data-city="caney" data-state="KS" data-breeds="wagyu" data-search="grant cattle company caney ks fullblood wagyu and american wagyu (f1) wagyu" data-finish="" data-ships="" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/grant-cattle/">Grant Cattle Company</a></h3>
         <div class="location">Caney, KS</div>
@@ -197,7 +236,7 @@
             <a href="https://grantcattlecompany.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=grant-cattle" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="black wagyu beef co." data-city="micanopy" data-state="FL" data-breeds="wagyu" data-search="black wagyu beef co. micanopy fl american wagyu (minimum 83% wagyu) and fullblood japanese wagyu; dna-tested wagyu" data-finish="" data-ships="regional" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/black-wagyu-beef-co/">Black Wagyu Beef Co.</a></h3>
         <div class="location">Micanopy, FL</div>
@@ -211,7 +250,7 @@
             <a href="https://www.blackwagyubeef.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=black-wagyu-beef-co" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="quinn beef" data-city="weatherford" data-state="TX" data-breeds="akaushi" data-search="quinn beef weatherford tx dna-verified akaushi akaushi" data-finish="" data-ships="nationwide" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/quinn/">Quinn Beef</a></h3>
         <div class="location">Weatherford, TX</div>
@@ -225,7 +264,7 @@
             <a href="https://quinnbeef.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=quinn" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="sugar hill farm" data-city="st. marys" data-state="PA" data-breeds="heritage scottish-highland" data-search="sugar hill farm st. marys pa 100% grass-fed and grass-finished scottish highland cattle; heritage breed; no grain finishing ever; pasture-raised year-round on rotational grazing heritage scottish-highland" data-finish="grass-finished" data-ships="nationwide" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/sugar-hill-farm-pa/">Sugar Hill Farm</a></h3>
         <div class="location">St. Marys, PA</div>
@@ -239,7 +278,7 @@
             <a href="https://sugarhillfarmpa.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=sugar-hill-farm-pa" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="tribe ranch" data-city="hot springs / bonnerdale" data-state="AR" data-breeds="akaushi" data-search="tribe ranch hot springs / bonnerdale ar registered-certified japanese akaushi wagyu akaushi" data-finish="grain-finished" data-ships="lower-48" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/tribe/">Tribe Ranch</a></h3>
         <div class="location">Hot Springs / Bonnerdale, AR</div>
@@ -253,7 +292,7 @@
             <a href="https://triberanch.net/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=tribe" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="hook &amp; cleaver ranch" data-city="temecula &amp; murrieta, ca; lake havasu city, az" data-state="CA/AZ" data-breeds="akaushi" data-search="hook &amp; cleaver ranch temecula &amp; murrieta, ca; lake havasu city, az ca/az american akaushi wagyu; dna-tested and registered akaushi" data-finish="" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/hook-cleaver/">Hook & Cleaver Ranch</a></h3>
         <div class="location">Temecula & Murrieta, CA; Lake Havasu City, AZ, CA/AZ</div>
@@ -267,7 +306,7 @@
             <a href="https://hookandcleaverranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=hook-cleaver" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="chapel hill farm" data-city="berryville" data-state="VA" data-breeds="heritage randall-lineback" data-search="chapel hill farm berryville va critically endangered randall lineback heritage breed (genetics date to 1600s) heritage randall-lineback" data-finish="" data-ships="nationwide" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/chapel-hill/">Chapel Hill Farm</a></h3>
         <div class="location">Berryville, VA</div>
@@ -281,7 +320,7 @@
             <a href="https://randalllineback.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=chapel-hill" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="certified piedmontese" data-city="lincoln" data-state="NE" data-breeds="piedmontese" data-search="certified piedmontese lincoln ne piedmontese cattle (unique myostatin gene for lean, tender beef) piedmontese" data-finish="grass-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="Non-GMO Verified">
         
         <h3><a href="/listings/certified-piedmontese/">Certified Piedmontese</a></h3>
         <div class="location">Lincoln, NE</div>
@@ -295,7 +334,7 @@
             <a href="https://www.piedmontese.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=certified-piedmontese" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="mahanaim farms" data-city="salt lake city area" data-state="UT" data-breeds="heritage dexter" data-search="mahanaim farms salt lake city area ut heritage dexter cattle (rare, centuries-old breed) heritage dexter" data-finish="grass-finished" data-ships="none" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/mahanaim-dexter/">Mahanaim Farms</a></h3>
         <div class="location">Salt Lake City area, UT</div>
@@ -309,7 +348,7 @@
             <a href="https://www.mahanaimfarms.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=mahanaim-dexter" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="vermont wagyu" data-city="springfield" data-state="VT" data-breeds="wagyu" data-search="vermont wagyu springfield vt 100% fullblood wagyu; dna parent-verified by the american wagyu association; certified authentic wagyu beef label wagyu" data-finish="" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/vermont-wagyu/">Vermont Wagyu</a></h3>
         <div class="location">Springfield, VT</div>
@@ -323,7 +362,7 @@
             <a href="https://vermontwagyu.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=vermont-wagyu" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="caroland farms wagyu" data-city="landrum" data-state="SC" data-breeds="wagyu" data-search="caroland farms wagyu landrum sc 100% full blood wagyu; every animal certified with the american wagyu association; born, raised, and finished on farm; 100% pure japanese genetic heritage (never crossbred with angus) wagyu" data-finish="" data-ships="nationwide" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/caroland-farms-wagyu/">Caroland Farms Wagyu</a></h3>
         <div class="location">Landrum, SC</div>
@@ -337,7 +376,7 @@
             <a href="https://carolandfarmswagyu.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=caroland-farms-wagyu" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="koopmann family beef" data-city="sunol" data-state="CA" data-breeds="" data-search="koopmann family beef sunol ca all-natural pasture-raised; cattle spend over 90% of lives on bay area hills forage (grass); free of hormones and antibiotics; offers grass-fed and grass-raised grain-finished" data-finish="grain-finished" data-ships="lower-48" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/koopmann-family-beef/">Koopmann Family Beef</a></h3>
         <div class="location">Sunol, CA</div>
@@ -351,7 +390,7 @@
             <a href="https://koopmannfamilybeef.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=koopmann-family-beef" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="3 calhoun sisters&#x27; ranch (circle h beef)" data-city="livermore" data-state="CA" data-breeds="" data-search="3 calhoun sisters&#x27; ranch (circle h beef) livermore ca grass-fed &amp; grass-finished angus; audubon certified bird friendly (first cattle ranch in alameda county, may 2024); no hormones, antibiotic-free; regenerative grazing; five generations in livermore valley / mines road since 1900" data-finish="grass-finished" data-ships="" data-pickup="true" data-pet="" data-certs="Audubon Bird Friendly">
         
         <h3><a href="/listings/calhoun-sisters-ranch/">3 Calhoun Sisters' Ranch (Circle H Beef)</a></h3>
         <div class="location">Livermore, CA</div>
@@ -365,7 +404,7 @@
             <a href="https://www.3calhounsisters.com/grass-fed-beef/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=calhoun-sisters-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="cross creek ranch premium meats" data-city="hesperus" data-state="CO" data-breeds="wagyu" data-search="cross creek ranch premium meats hesperus co full blood wagyu (elite japanese genetics; mij-30 grading meeting or exceeding a4/a5) and american wagyu (wagyu × angus); born and raised on ranch wagyu" data-finish="" data-ships="lower-48" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/cross-creek-ranch/">Cross Creek Ranch Premium Meats</a></h3>
         <div class="location">Hesperus, CO</div>
@@ -379,7 +418,7 @@
             <a href="https://ccrpremiummeats.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=cross-creek-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="3z cattle co" data-city="morgan hill" data-state="CA" data-breeds="wagyu angus" data-search="3z cattle co morgan hill ca american wagyu f1-f4 (wagyu-angus cross) and fullblood angus; grass-finished and pre-order non-gmo grain-finished; born and raised on ranch; no antibiotics, vaccines, or growth hormones in market animals wagyu angus" data-finish="grass-or-grain" data-ships="" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/3z-cattle-co/">3Z Cattle Co</a></h3>
         <div class="location">Morgan Hill, CA</div>
@@ -393,7 +432,7 @@
             <a href="https://3zcattle.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=3z-cattle-co" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="nyland herefords" data-city="san juan bautista" data-state="CA" data-breeds="hereford" data-search="nyland herefords san juan bautista ca horned hereford; nearly a century raising exceptional cattle with care and stewardship; pasture-raised in picturesque green pastures hereford" data-finish="" data-ships="" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/nyland-herefords/">Nyland Herefords</a></h3>
         <div class="location">San Juan Bautista, CA</div>
@@ -407,7 +446,7 @@
             <a href="https://www.nylandherefords.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=nyland-herefords" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="morris grassfed" data-city="san juan bautista" data-state="CA" data-breeds="" data-search="morris grassfed san juan bautista ca 100% pasture-raised; certified organic diet of fresh grass and legumes; no synthetic hormones or feed antibiotics; american grassfed association member" data-finish="" data-ships="" data-pickup="" data-pet="" data-certs="Audubon Bird Friendly">
         
         <h3><a href="/listings/morris-grassfed/">Morris Grassfed</a></h3>
         <div class="location">San Juan Bautista, CA</div>
@@ -421,7 +460,7 @@
             <a href="https://morrisgrassfed.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=morris-grassfed" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="connolly ranch natural beef" data-city="tracy" data-state="CA" data-breeds="angus" data-search="connolly ranch natural beef tracy ca black angus; 100% grass-fed; no hormones, implants, antibiotics, or grain; born and raised on ranch in san joaquin and alameda counties angus" data-finish="" data-ships="none" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/connolly-ranch/">Connolly Ranch Natural Beef</a></h3>
         <div class="location">Tracy, CA</div>
@@ -435,7 +474,7 @@
             <a href="https://connollyranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=connolly-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="stemple creek ranch" data-city="tomales" data-state="CA" data-breeds="" data-search="stemple creek ranch tomales ca 100% grass-fed and grass-finished beef; no grain, soy, or other feed; variety of grasses and perennial plants" data-finish="grass-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/stemple-creek-ranch/">Stemple Creek Ranch</a></h3>
         <div class="location">Tomales, CA</div>
@@ -449,7 +488,7 @@
             <a href="https://stemplecreek.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=stemple-creek-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="the hufeisen-ranch (wyo wagyu)" data-city="weston" data-state="WY" data-breeds="wagyu" data-search="the hufeisen-ranch (wyo wagyu) weston wy 100% dna-verified fullblood japanese black wagyu wagyu" data-finish="grain-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/hufeisen-ranch/">The Hufeisen-Ranch (WYO Wagyu)</a></h3>
         <div class="location">Weston, WY</div>
@@ -463,7 +502,7 @@
             <a href="https://www.realwagyubeef.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=hufeisen-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="rascal ranch farms" data-city="yolo county" data-state="CA" data-breeds="akaushi wagyu" data-search="rascal ranch farms yolo county ca purebred akaushi (red wagyu) and american f1 akaushi; also specialty black wagyu; registered foundational genetics (e.g. d&amp;h rueshaw jr. and other listed fb-registered sires on genetics page) akaushi wagyu" data-finish="" data-ships="regional" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/rascal-ranch-farms/">Rascal Ranch Farms</a></h3>
         <div class="location">Yolo County, CA</div>
@@ -477,7 +516,7 @@
             <a href="https://www.rascalranchfarms.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=rascal-ranch-farms" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="ells cattle ranch" data-city="paicines" data-state="CA" data-breeds="angus" data-search="ells cattle ranch paicines ca 100% black angus; pasture-raised on oak-studded san benito county rangeland, grain-finished on barley, oats, and corn plus alfalfa; no hormones or antibiotics angus" data-finish="grain-finished" data-ships="none" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/ells-cattle-ranch/">Ells Cattle Ranch</a></h3>
         <div class="location">Paicines, CA</div>
@@ -491,7 +530,7 @@
             <a href="https://ellscattleranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=ells-cattle-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="kirk cattle company" data-city="gilroy" data-state="CA" data-breeds="" data-search="kirk cattle company gilroy ca certified natural beef; grass-fed or grain-finished options available" data-finish="grain-finished" data-ships="" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/kirk-cattle-company/">Kirk Cattle Company</a></h3>
         <div class="location">Gilroy, CA</div>
@@ -505,7 +544,7 @@
             <a href="https://santaclaracountycattlemens.org/cattlemen-resources/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=kirk-cattle-company" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="salmon creek ranch" data-city="bodega" data-state="CA" data-breeds="heritage" data-search="salmon creek ranch bodega ca british breeds including scottish highland cattle; 100% grass-fed and grass-finished on certified organic pasture; ranch sells only beef from their own cattle heritage" data-finish="grass-finished" data-ships="lower-48" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/salmon-creek-ranch/">Salmon Creek Ranch</a></h3>
         <div class="location">Bodega, CA</div>
@@ -519,7 +558,7 @@
             <a href="https://salmoncreekranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=salmon-creek-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="marin coast ranch" data-city="tomales" data-state="CA" data-breeds="angus" data-search="marin coast ranch tomales ca selectively angus herd; usda certified grassfed and certified natural; 100% grass-fed and grass-finished (no grain); regenerative family ranch angus" data-finish="grass-finished" data-ships="regional" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/marin-coast-ranch/">Marin Coast Ranch</a></h3>
         <div class="location">Tomales, CA</div>
@@ -533,7 +572,7 @@
             <a href="https://marincoastranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=marin-coast-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="starwalker organic farms" data-city="fort jones" data-state="CA" data-breeds="" data-search="starwalker organic farms fort jones ca regenerative organic certified® grass-fed and grass-finished beef; cattle on pasture 365 days; no feedlots, no grain, no confinement; ranch markets as first regenerative organic certified® beef and pork producers in america; usda/ccof organic" data-finish="grass-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/starwalker-organic-farms/">StarWalker Organic Farms</a></h3>
         <div class="location">Fort Jones, CA</div>
@@ -547,7 +586,7 @@
             <a href="https://starwalkerorganicfarms.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=starwalker-organic-farms" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="five marys ranch" data-city="fort jones" data-state="CA" data-breeds="angus" data-search="five marys ranch fort jones ca black angus; pasture-raised year-round on grasses and alfalfa; grass-and-barley finished (alfalfa, grain hay, steam-flaked barley) for 180+ days; no corn; gmo-free; 100% free from antibiotics, growth-hormones, and ionophores; whole carcass dry-aged 14-28 days; usda-inspected angus" data-finish="" data-ships="lower-48" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/five-marys-ranch/">Five Marys Ranch</a></h3>
         <div class="location">Fort Jones, CA</div>
@@ -561,7 +600,7 @@
             <a href="https://fivemarysmeats.com?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=five-marys-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="oreganic beef co. (rocker 3 ranch)" data-city="madras" data-state="OR" data-breeds="" data-search="oreganic beef co. (rocker 3 ranch) madras or usda certified organic; 100% grass-fed and grass-finished; gap4 (global animal partnership step 4); third-party verified; fully traceable herd logs (birth/harvest); oregon-grown organic forage; no synthetic hormones, pesticides, or gmo feed per ranch faq" data-finish="grass-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/oreganic-beef/">Oreganic Beef Co. (Rocker 3 Ranch)</a></h3>
         <div class="location">Madras, OR</div>
@@ -575,7 +614,7 @@
             <a href="https://oreganicbeef.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=oreganic-beef" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="yocha dehe ranch" data-city="capay valley / brooks" data-state="CA" data-breeds="angus" data-search="yocha dehe ranch capay valley / brooks ca ranch-raised angus on yocha dehe wintun nation lands in capay valley; herd of 800 cattle on the tribe&#x27;s 12,000 acres of rangeland; mostly grass-fed, not 100% grass-fed or grass-finished (hay and a finishing ration for a few months); never fed or injected with growth hormones angus" data-finish="grass-finished" data-ships="lower-48" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/yocha-dehe-ranch/">Yocha Dehe Ranch</a></h3>
         <div class="location">Capay Valley / Brooks, CA</div>
@@ -589,7 +628,7 @@
             <a href="https://yochadeheranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=yocha-dehe-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="mariposa ranch" data-city="mariposa" data-state="CA" data-breeds="" data-search="mariposa ranch mariposa ca 100% grass-fed and grass-finished beef; cattle grown and finished entirely on pasture; no hormones, no antibiotics, no grains; no herbicides, pesticides, or commercial fertilizers on pastures" data-finish="grass-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/mariposa-ranch/">Mariposa Ranch</a></h3>
         <div class="location">Mariposa, CA</div>
@@ -603,7 +642,7 @@
             <a href="https://mariposaranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=mariposa-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="lone crow ranch" data-city="eltopia" data-state="WA" data-breeds="wagyu angus" data-search="lone crow ranch eltopia wa wagyu and angus; pasture-raised with grain-finished and grass-finished options; no added hormones; diet formulated by certified animal nutritionist wagyu angus" data-finish="grass-or-grain" data-ships="regional" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/lone-crow-ranch/">Lone Crow Ranch</a></h3>
         <div class="location">Eltopia, WA</div>
@@ -617,7 +656,7 @@
             <a href="https://www.lonecrowranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=lone-crow-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="kauboi ranch" data-city="redmond" data-state="OR" data-breeds="wagyu angus" data-search="kauboi ranch redmond or grass-fed and grass-finished angus and american wagyu (cross between japanese wagyu and american breeds); carefully bred using elite wagyu-influenced genetics; raised without hormones; animals requiring antibiotics removed from program wagyu angus" data-finish="grass-finished" data-ships="available" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/kauboi-ranch/">Kauboi Ranch</a></h3>
         <div class="location">Redmond, OR</div>
@@ -631,7 +670,7 @@
             <a href="https://kauboiranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=kauboi-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="pacific rogue wagyu" data-city="gold beach" data-state="OR" data-breeds="wagyu" data-search="pacific rogue wagyu gold beach or 100% full-blood japanese wagyu and f1 wagyu (50% angus, 50% wagyu); pioneer american wagyu family herd since 1992/1993; full-blood animals finished on a 500+ day japanese-style grain ration after pasture raise; f1s grain-fed ~250-300 days wagyu" data-finish="grain-finished" data-ships="lower-48" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/pacific-rogue-wagyu/">Pacific Rogue Wagyu</a></h3>
         <div class="location">Gold Beach, OR</div>
@@ -645,7 +684,7 @@
             <a href="https://www.pacificroguewagyu.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=pacific-rogue-wagyu" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="alderspring ranch" data-city="may" data-state="ID" data-breeds="angus" data-search="alderspring ranch may id 100% grass-fed and grass-finished black angus; usda certified organic and real organic project certified; regeneratively raised on wild mountain pastures; no hormones, no gmos; antibiotics only for sick animals — those animals never sold as organic angus" data-finish="grass-finished" data-ships="lower-48" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/alderspring-ranch/">Alderspring Ranch</a></h3>
         <div class="location">May, ID</div>
@@ -659,7 +698,7 @@
             <a href="https://www.alderspring.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=alderspring-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="darlington ranch co." data-city="big sandy" data-state="MT" data-breeds="" data-search="darlington ranch co. big sandy mt pasture-raised with light grain finish using home-grown barley; cattle never see a feedlot or confined spaces; roam native grasslands and drink from spring-fed reservoirs; antibiotic-free and hormone-free" data-finish="grain-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/darlington-ranch/">Darlington Ranch Co.</a></h3>
         <div class="location">Big Sandy, MT</div>
@@ -673,7 +712,7 @@
             <a href="https://darlingtonranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=darlington-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="arizona grass raised beef" data-city="arizona" data-state="AZ" data-breeds="" data-search="arizona grass raised beef arizona az 100% grass-fed and grass-finished on millions of acres of arizona open range land; native grasses; no antibiotics, steroids, mrna, or added growth hormones" data-finish="grass-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/arizona-grass-raised-beef/">Arizona Grass Raised Beef</a></h3>
         <div class="location">Arizona, AZ</div>
@@ -687,7 +726,7 @@
             <a href="https://azgrassraisedbeef.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=arizona-grass-raised-beef" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="parker pastures" data-city="gunnison" data-state="CO" data-breeds="" data-search="parker pastures gunnison co 100% grass-fed and grass-finished; regeneratively grazed on colorado mountain pastures; no hormones, no antibiotics" data-finish="grass-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/parker-pastures/">Parker Pastures</a></h3>
         <div class="location">Gunnison, CO</div>
@@ -701,7 +740,7 @@
             <a href="https://parkerpastures.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=parker-pastures" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="didier ranch" data-city="thomas" data-state="OK" data-breeds="angus" data-search="didier ranch thomas ok usda choice black angus; grass-fed and grain-finished on crops grown on ranch; pasture-raised; no added hormones, no mrna vaccines angus" data-finish="grain-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/didier-ranch/">Didier Ranch</a></h3>
         <div class="location">Thomas, OK</div>
@@ -715,7 +754,7 @@
             <a href="https://didierranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=didier-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="dry creek meats" data-city="leedey" data-state="OK" data-breeds="" data-search="dry creek meats leedey ok 100% grass-fed and grass-finished; zero corn, soy, or grain by-products; regenerative ranching; cattle graze freely on a 23,000-acre ranch in new mexico then finish at the western oklahoma ranch; no antibiotics, no growth hormones; grazing acres never treated with chemical fertilizers or herbicides (site claims)" data-finish="grass-finished" data-ships="nationwide" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/dry-creek-meats/">Dry Creek Meats</a></h3>
         <div class="location">Leedey, OK</div>
@@ -729,7 +768,7 @@
             <a href="https://drycreekmeats.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=dry-creek-meats" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="wholly cow market" data-city="johnson city" data-state="KS" data-breeds="" data-search="wholly cow market johnson city ks 100% grass-fed and grass-finished; pasture rotation method; no hormones, no antibiotics, no grain; cattle raised on pastures free of chemicals and gmos" data-finish="grass-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/wholly-cow-market/">Wholly Cow Market</a></h3>
         <div class="location">Johnson City, KS</div>
@@ -743,7 +782,7 @@
             <a href="https://whollycowmarket.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=wholly-cow-market" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="sunset ridge beef" data-city="morris" data-state="NY" data-breeds="angus" data-search="sunset ridge beef morris ny all-natural premium angus; pasture-raised, free to roam with no confinement; fed native grasses only; no hormones or antibiotics; new york grown &amp; certified angus" data-finish="" data-ships="nationwide" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/sunset-ridge-beef/">Sunset Ridge Beef</a></h3>
         <div class="location">Morris, NY</div>
@@ -757,7 +796,7 @@
             <a href="https://sunsetridgebeef.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=sunset-ridge-beef" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="wagyu legacy" data-city="fairview" data-state="TN" data-breeds="wagyu" data-search="wagyu legacy fairview tn american wagyu; free-range, hormone-free, organically-fed; producing since 2015; distinct marbling, unsaturated fat, lower cholesterol wagyu" data-finish="" data-ships="nationwide" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/wagyu-legacy/">Wagyu Legacy</a></h3>
         <div class="location">Fairview, TN</div>
@@ -771,7 +810,7 @@
             <a href="https://wagyulegacy.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=wagyu-legacy" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="lewis livestock" data-city="lehi" data-state="UT" data-breeds="" data-search="lewis livestock lehi ut grass-fed and grain-finished; no unnecessary antibiotics or hormones" data-finish="grain-finished" data-ships="available" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/lewis-livestock/">Lewis Livestock</a></h3>
         <div class="location">Lehi, UT</div>
@@ -785,7 +824,7 @@
             <a href="https://www.lewislivestock.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=lewis-livestock" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="grand view beef" data-city="clarion" data-state="IA" data-breeds="" data-search="grand view beef clarion ia 100% grass-fed and grass-finished; aga third-party verified; regenerative rotational grazing; no grain, antibiotics, or added hormones ever; dry-aged 14 days" data-finish="grass-finished" data-ships="lower-48" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/grand-view-beef/">Grand View Beef</a></h3>
         <div class="location">Clarion, IA</div>
@@ -799,7 +838,7 @@
             <a href="https://www.grandviewbeef.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=grand-view-beef" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="whispering pines ranch" data-city="laingsburg" data-state="MI" data-breeds="wagyu" data-search="whispering pines ranch laingsburg mi full-blood wagyu; pasture-raised and pasture-finished on open michigan pastures; also raise belted galloway; optional grain finish available wagyu" data-finish="grain-finished" data-ships="regional" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/whispering-pines-ranch/">Whispering Pines Ranch</a></h3>
         <div class="location">Laingsburg, MI</div>
@@ -813,7 +852,7 @@
             <a href="https://whisperingpinesranchllc.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=whispering-pines-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="wisconsin meadows" data-city="viroqua" data-state="WI" data-breeds="" data-search="wisconsin meadows viroqua wi 100% grass-fed and grass-finished; wisconsin grass-fed beef cooperative of 230+ wisconsin family farms; rotational grazing; no antibiotics, growth hormones, gmos, or pesticides; breeds proven hearty on all-forage diet" data-finish="grass-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/wisconsin-meadows/">Wisconsin Meadows</a></h3>
         <div class="location">Viroqua, WI</div>
@@ -827,7 +866,7 @@
             <a href="https://wisconsinmeadows.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=wisconsin-meadows" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="the log cabin ranch" data-city="ina" data-state="IL" data-breeds="" data-search="the log cabin ranch ina il 100% grass-fed and grass-finished; regenerative rotational grazing (move cattle to new pasture several times a week, sometimes daily); no roundup, pesticides, or fungicides; non-gmo pastures; natural free-choice minerals; non-pasteurized apple cider vinegar as probiotic; late weaning (10+ months)" data-finish="grass-finished" data-ships="lower-48" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/log-cabin-ranch/">The Log Cabin Ranch</a></h3>
         <div class="location">Ina, IL</div>
@@ -841,7 +880,7 @@
             <a href="https://thelogcabinranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=log-cabin-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="flying b beef" data-city="catheys valley" data-state="CA" data-breeds="" data-search="flying b beef catheys valley ca angus-based commercial herd: all bulls registered angus; mostly angus cows with some brangus background, a few charolais and some red angus, all crossed with angus (not a purebred herd); bred, born, raised, grazed, and finished in california; 100% pasture-raised in the central california foothills with rotational grazing; all grass-fed, with beef boxes grain-finished (grain mix, alfalfa, oat hay ~130–145 days); grass-finished whole shares once a year (spring reservations, ready may–june)" data-finish="grass-or-grain" data-ships="regional" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/flying-b-beef/">Flying B Beef</a></h3>
         <div class="location">Catheys Valley, CA</div>
@@ -855,7 +894,7 @@
             <a href="https://flyingbbeef.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=flying-b-beef" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="fellers ranch" data-city="conger" data-state="MN" data-breeds="wagyu" data-search="fellers ranch conger mn american wagyu from japanese breed mixed with other breeds over 10,000 years; raised slow in low-stress environment with custom diet; no hormones or antibiotics wagyu" data-finish="" data-ships="lower-48" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/fellers-ranch/">Fellers Ranch</a></h3>
         <div class="location">Conger, MN</div>
@@ -869,7 +908,7 @@
             <a href="https://fellersranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=fellers-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="white oak pastures" data-city="bluffton" data-state="GA" data-breeds="" data-search="white oak pastures bluffton ga herd descends from the farm&#x27;s 1866 cracker/pineywoods cattle; no outside genetics brought in since about 2015 as they develop their own line; &#x27;angus based&#x27; per their faq; 100% grassfed, year-round pasture. certified grassfed by american grassfed association; no antibiotics, steroids, or added growth hormones" data-finish="grass-finished" data-ships="lower-48" data-pickup="true" data-pet="" data-certs="AGA Certified Grassfed">
         
         <h3><a href="/listings/white-oak-pastures/">White Oak Pastures</a></h3>
         <div class="location">Bluffton, GA</div>
@@ -883,7 +922,7 @@
             <a href="https://whiteoakpastures.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=white-oak-pastures" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="hiroshi ranch" data-city="kaiser" data-state="MO" data-breeds="wagyu" data-search="hiroshi ranch kaiser mo 100% fullblood wagyu; unique diet with organic cacao powder, flaxseed oil, and pirella oil for distinct flavor; free-range with pasture access wagyu" data-finish="" data-ships="lower-48" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/hiroshi-ranch/">Hiroshi Ranch</a></h3>
         <div class="location">Kaiser, MO</div>
@@ -897,7 +936,7 @@
             <a href="https://www.hiroshiranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=hiroshi-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="zoe farms" data-city="canton" data-state="OH" data-breeds="" data-search="zoe farms canton oh single-origin 100% grass-fed and grass-finished beef; regenerative rotational grazing on leased holmes county pastures; holistically managed farm ecosystem" data-finish="grass-finished" data-ships="regional" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/zoe-farms/">ZOE Farms</a></h3>
         <div class="location">Canton, OH</div>
@@ -911,7 +950,7 @@
             <a href="https://zoefarms.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=zoe-farms" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="shipley farms signature beef" data-city="vilas" data-state="NC" data-breeds="hereford angus" data-search="shipley farms signature beef vilas nc hereford &amp; angus cattle; pasture-raised on mountain pastures in the southern appalachians; supplemented with balanced vegetable-based feed; no added hormones; never treated with antibiotics except when medically necessary; dry-aged in-house for flavor and tenderness hereford angus" data-finish="" data-ships="nationwide" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/shipley-farms/">Shipley Farms Signature Beef</a></h3>
         <div class="location">Vilas, NC</div>
@@ -925,7 +964,7 @@
             <a href="https://shipleyfarmsbeef.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=shipley-farms" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="tyner pond farm" data-city="greenfield" data-state="IN" data-breeds="" data-search="tyner pond farm greenfield in south poll and corriente crosses; genetics developed for ultra-high-density grazing and grass finishing" data-finish="grass-finished" data-ships="lower-48" data-pickup="true" data-pet="" data-certs="AGA Certified Grassfed">
         
         <h3><a href="/listings/tyner-pond-farm/">Tyner Pond Farm</a></h3>
         <div class="location">Greenfield, IN</div>
@@ -939,7 +978,7 @@
             <a href="https://tynerpondfarm.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=tyner-pond-farm" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="england ranch" data-city="edmonton" data-state="KY" data-breeds="heritage dexter" data-search="england ranch edmonton ky adca registered heritage dexter cattle; documented lineage; 3 years to mature heritage dexter" data-finish="grass-finished" data-ships="regional" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/england-ranch/">England Ranch</a></h3>
         <div class="location">Edmonton, KY</div>
@@ -953,7 +992,7 @@
             <a href="https://www.englandranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=england-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="svec farm" data-city="estelline" data-state="SD" data-breeds="heritage belted-galloway" data-search="svec farm estelline sd heritage breed belted galloway cattle; grassfed and grass-finished on tallgrass prairie; never given corn, soy, or grains; no antibiotics, gmos, growth hormones, or mrna vaccines heritage belted-galloway" data-finish="grass-finished" data-ships="none" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/svec-farm/">Svec Farm</a></h3>
         <div class="location">Estelline, SD</div>
@@ -967,7 +1006,7 @@
             <a href="https://www.svecfarm.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=svec-farm" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="stillwater ranch" data-city="manhattan" data-state="MT" data-breeds="" data-search="stillwater ranch manhattan mt purebred, registered murray grey herd (american murray grey association); 70+ pairs on high elevation grass without creep; converted from commercial angus to regeneratively grazed murray grey grass-finished program in 2015" data-finish="grass-finished" data-ships="" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/stillwater-ranch/">Stillwater Ranch</a></h3>
         <div class="location">Manhattan, MT</div>
@@ -981,7 +1020,7 @@
             <a href="https://www.stillwatermurraygreys.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=stillwater-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="shining b cattle co." data-city="pleasanton" data-state="CA" data-breeds="" data-search="shining b cattle co. pleasanton ca naturally raised beef—grass-grazed, grain-finished; cattle graze pasture, supplemented with custom grain program developed with a beef nutritionist; hormone free, ethically raised" data-finish="grain-finished" data-ships="none" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/shining-b-cattle-co/">Shining B Cattle Co.</a></h3>
         <div class="location">Pleasanton, CA</div>
@@ -995,7 +1034,7 @@
             <a href="https://shiningbcattleco.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=shining-b-cattle-co" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="sharp farms &amp; cattle co." data-city="mariposa" data-state="CA" data-breeds="" data-search="sharp farms &amp; cattle co. mariposa ca women-owned &amp; operated in the sierra foothills; 100% grass-fed with no chemical dewormers and no vaccines—ever; regenerative grazing methods inspired by the savory institute, using frequent pasture moves; gmo-free, free range" data-finish="" data-ships="none" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/sharp-farms-cattle-co/">Sharp Farms & Cattle Co.</a></h3>
         <div class="location">Mariposa, CA</div>
@@ -1009,7 +1048,7 @@
             <a href="https://www.sharpfarmscattleco.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=sharp-farms-cattle-co" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="home place pastures" data-city="como" data-state="MS" data-breeds="" data-search="home place pastures como ms 100% grass-fed and grass-finished beef; regenerative grazing systems; no antibiotics, ever; no hormones; own usda-inspected slaughter and processing facility on-farm" data-finish="grass-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/home-place-pastures/">Home Place Pastures</a></h3>
         <div class="location">Como, MS</div>
@@ -1023,7 +1062,7 @@
             <a href="https://homeplacepastures.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=home-place-pastures" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="rafter 9 ranch" data-city="fallon" data-state="NV" data-breeds="angus" data-search="rafter 9 ranch fallon nv 100% registered black angus seedstock herd; every cow ai-bred every year; beef comes from the same cattle kept for the ranch&#x27;s show and sale bulls (2026 great basin bull sale champion) angus" data-finish="grass-or-grain" data-ships="regional" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/rafter-9-ranch/">Rafter 9 Ranch</a></h3>
         <div class="location">Fallon, NV</div>
@@ -1037,7 +1076,7 @@
             <a href="https://rafter9.ag/beef/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=rafter-9-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="roseda farm (roseda black angus)" data-city="monkton" data-state="MD" data-breeds="angus" data-search="roseda farm (roseda black angus) monkton md black angus (aberdeen angus) bred from bulls selected for marbling, tenderness and fat thickness; the farm references its wye line genetics and breeding program and says it tracks cattle from embryo to plate angus" data-finish="grain-finished" data-ships="lower-48" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/roseda-farm/">Roseda Farm (Roseda Black Angus)</a></h3>
         <div class="location">Monkton, MD</div>
@@ -1051,7 +1090,7 @@
             <a href="https://roseda.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=roseda-farm" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="triple e farms" data-city="romney" data-state="WV" data-breeds="" data-search="triple e farms romney wv breed not named on the farm&#x27;s public site; cattle are 100% grass-fed and grass-finished, rotated to a fresh paddock daily under management-intensive grazing" data-finish="grass-finished" data-ships="lower-48" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/triple-e-farms/">Triple E Farms</a></h3>
         <div class="location">Romney, WV</div>
@@ -1065,7 +1104,7 @@
             <a href="https://tripleefarming.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=triple-e-farms" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="apple creek farm" data-city="bowdoinham" data-state="ME" data-breeds="angus hereford" data-search="apple creek farm bowdoinham me cow/calf herd with angus, british white park and hereford genetics, bred by ai for calm temperament and doing well on pasture; 100% grass-fed and grass-finished, finished on pasture over two growing seasons at 24-28 months angus hereford" data-finish="grass-finished" data-ships="none" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/apple-creek-farm/">Apple Creek Farm</a></h3>
         <div class="location">Bowdoinham, ME</div>
@@ -1079,7 +1118,7 @@
             <a href="https://applecreekfarm.me/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=apple-creek-farm" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="diamond d ranch" data-city="ramer" data-state="AL" data-breeds="" data-search="diamond d ranch ramer al every animal born and raised on the family ranch in ramer; grass-fed, grain-finished: raised on unsprayed pasture their whole lives with free-choice access to non-gmo grain after weaning while still on grass, organic hay in fall and winter" data-finish="grass-or-grain" data-ships="lower-48" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/diamond-d-ranch/">Diamond D Ranch</a></h3>
         <div class="location">Ramer, AL</div>
@@ -1112,5 +1151,6 @@
             </p>
         </div>
     </footer>
+    <script src="/assets/filter.js" defer></script>
 </body>
 </html>
