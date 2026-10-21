@@ -105,10 +105,11 @@
         "hot dogs",
         "ribs"
       ],
-      "shipping": "Lower 48 states",
+      "shipping": "Ships frozen anywhere in the domestic USA via UPS 2nd Day Air (Mondays and Tuesdays)",
       "phone": "307-527-6006",
       "description": "Raised in the Greater Yellowstone Ecosystem since 2015. Dry-aged 14-18 days, USDA graded and certified.",
-      "last_checked": "2026-09-28"
+      "last_checked": "2026-10-20",
+      "note": "Phone not shown on the ranch's current website; contact via its online contact form. Also offers Wagyu Club Memberships with two collection deliveries a year."
     },
     {
       "slug": "slickhorn",
@@ -1000,7 +1001,7 @@
       "phone": "928-525-4441",
       "note": "USDA inspected facility in Arizona. Cattle spend their lives on open range land eating native grasses and flowers. Contact via phone or website.",
       "description": "Arizona ranch providing true ranch-to-plate 100% grass-fed and grass-finished beef raised on millions of acres of open range in Arizona. USDA inspected facility ensures quality and freshness. Ships frozen direct to your door.",
-      "last_checked": "2026-09-29"
+      "last_checked": "2026-10-20"
     },
     {
       "slug": "parker-pastures",
@@ -1634,6 +1635,29 @@
       "description": "Organic, regenerative family farm in Bowdoinham, Maine, run by Abby Sadauckas and Jake Galle on the land Jake's parents settled in 1985. Beef cows graze fresh organic pasture in summer, moved to new grass daily, and eat organic dry hay and baleage in winter. No grain; calves are born in the fall and finished on grass at 24-28 months. Raised without antibiotics or chemical wormers using rotational grazing. Also sells organic pasture-raised chicken and eggs, goat and lamb.",
       "note": "Not all beef is certified organic: the farm sells both grass-fed and certified organic beef and labels which products are certified organic. Beef is sold by the cut only (no halves or quarters); a Market Share CSA gives up to 10% off. Food is not shipped; only sheepskins, goat hides and merch ship nationwide. Email: info@applecreekfarm.me.",
       "last_checked": "2026-10-19"
+    },
+    {
+      "slug": "diamond-d-ranch",
+      "name": "Diamond D Ranch",
+      "url": "https://diamonddranch.online/",
+      "state": "AL",
+      "city": "Ramer",
+      "genetics": "Every animal born and raised on the family ranch in Ramer; grass-fed, grain-finished: raised on unsprayed pasture their whole lives with free-choice access to non-GMO grain after weaning while still on grass, organic hay in fall and winter",
+      "breeds": [],
+      "products": [
+        "individual cuts (ribeye, NY strip, sirloin, filet mignon, skirt and flank steak, brisket, short ribs, roasts, stew meat)",
+        "80/20 ground beef and burger patties",
+        "organs and marrow bones",
+        "curated beef bundles",
+        "bulk beef shares (1/8, quarter, half, whole; deposit, balance when processed)",
+        "Diamond D Meat Club subscription (every 1, 2 or 3 months)",
+        "beef tallow skincare"
+      ],
+      "shipping": "Ships frozen (dry ice) to the 48 contiguous states at a flat rate by delivery zone shown at checkout; beef ships Monday-Wednesday, most orders leave the ranch within a week; no Alaska or Hawaii. Free pickup of online orders at the Montgomery Curb Market (1004 Madison Ave, Montgomery) Saturdays 9 am-12 pm, plus walk-up sales at the stall",
+      "phone": "334-922-1328",
+      "description": "First-generation family cattle ranch in Ramer (Montgomery County), Alabama, run by Dalton and Sydney Dicks, who keep ownership of every animal from birth through processing. Cattle graze pasture the ranch never sprays, get free-choice non-GMO grain once weaned, and are raised without antibiotics, hormones or vaccines, cared for with homeopathy and low-stress handling. Processed at a local USDA-inspected processor about 90 minutes away; every cut dry aged up to 28 days (ground beef 21 days), then vacuum-sealed and flash frozen.",
+      "note": "Not certified organic (the ranch says it follows organic principles on unsprayed pasture). Grain-finished, not grass-finished. Breed not named on the ranch's website. Quarter, half and whole shares showed sold out on Oct 20, 2026 (1/8 share available). Email: theranchers@diamonddranch.online.",
+      "last_checked": "2026-10-20"
     }
   ]
 }

@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** October 19, 2026  
+**Last Updated:** October 20, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 74
+- **Total Ranches:** 75
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 4
 - **Farmers Markets:** 3
@@ -14,6 +14,7 @@
 - **Wagyu Ranches:** 25
 - **Akaushi Ranches:** 6
 - **Heritage Breeds:** 6
+- **Alabama Ranches:** 1
 - **Arizona Ranches:** 1
 - **Georgia Ranches:** 1
 - **Illinois Ranches:** 1
@@ -47,7 +48,7 @@
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 117
+- **Total Pages:** 118
 
 ## Pages Built
 
@@ -64,6 +65,7 @@
 - ✅ Wagyu hub (`/wagyu/`) - 16 ranches
 - ✅ Akaushi hub (`/akaushi/`) - 5 ranches
 - ✅ Heritage Breeds hub (`/heritage/`) - 5 ranches
+- ✅ Alabama hub (`/alabama/`) - 1 ranch
 - ✅ Arizona hub (`/arizona/`) - 1 ranch
 - ✅ Illinois hub (`/illinois/`) - 1 ranch
 - ✅ Indiana hub (`/indiana/`) - 1 ranch
@@ -170,6 +172,8 @@
 - ✅ Rafter 9 Ranch (NV)
 - ✅ Roseda Farm (MD)
 - ✅ Triple E Farms (WV)
+- ✅ Apple Creek Farm (ME)
+- ✅ Diamond D Ranch (AL)
 
 ## Known Gaps & Notes
 
@@ -326,6 +330,8 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 2. Add entry to `data/featured.json` with listing_id, tier, start/end dates
 3. Rebuild site - featured ranch appears with badge on home, listings, and (if premium) deals
 - 📅 **Oct 19, 2026 PT nightly ship:** Added **Apple Creek Farm** (Bowdoinham, ME) — first Maine farm on directory: organic, regenerative family farm run by Abby Sadauckas and Jake Galle on land Jake's parents (Janet and Pete Galle) bought in 1985. Cow/calf herd with Angus, British White Park and Hereford genetics (AI-bred); beef is 100% grass-fed and grass-finished, moved to fresh pasture daily in summer, organic dry hay and baleage in winter, no grain, finished at 24–28 months; raised without antibiotics or chemical wormers, rotational grazing. Sold by the cut (no halves/quarters) with a Market Share CSA (up to 10% off). **Pickup only — no meat shipping**: order online by Thursday 9 AM for farm pickup in Bowdoinham (Sundays) or Brunswick pickup spots/farmers' markets. Phone 207-948-3022, email info@applecreekfarm.me. Caveat: not all beef is certified organic (farm sells both grass-fed and certified organic beef and labels which is which) — noted on listing; breeds tagged angus + hereford (British White Park mentioned in genetics text, not tagged as heritage). Added Maine state hub at `/maine/` wired into home page hub links (39 states, 33 state hubs). Re-checked **HeartBrand Beef** (TX; live, ships, added public phone 877-252-8744) and **Didier Ranch** (OK; live, ships nationwide, but most boxes showed sold out/"back in stock soon" — noted on listing) — last_checked 2026-10-19. **New deal:** HeartBrand Ultimate Tailgate Bundle $185 (reg $206), both prices on the product page, no end date shown. Re-verified the 3 existing deals still live with both prices visible: Long Hill 15 lb ground $180 (reg $195), Mossyrock WAGYU BBQ BOX $395 (reg $475), Oreganic Crockpot Comfort Box $199 (reg $229) — verified_at 2026-10-19. Hawks Hill (last_checked 2026-09-28) still the oldest unchecked listing. States still with no listings: AL, AK, CT, DE, HI, LA, MA, NH, NJ, ND, RI. Total: 74 ranches, 4 deals, 3 markets, 20 butchers, 117 pages.
+
+- 📅 **Oct 20, 2026 PT nightly ship:** Added **Diamond D Ranch** (Ramer, AL) — first Alabama ranch on directory: first-generation family cattle ranch in Montgomery County run by Dalton and Sydney Dicks, who keep ownership of every animal from birth through processing. Cattle graze pasture the ranch never sprays and get free-choice non-GMO grain after weaning while still on grass (grass-fed, grain-finished), organic hay in fall/winter; no antibiotics, hormones or vaccines (homeopathy and low-stress handling). Local USDA-inspected processor ~90 min away; dry aged up to 28 days (ground 21), vacuum-sealed and flash frozen. Sells individual cuts, bundles, bulk shares (1/8, quarter, half, whole by deposit), a Meat Club subscription and tallow skincare. Ships frozen on dry ice to the 48 contiguous states at a zone flat rate (beef ships Mon–Wed; no AK/HI); free pickup at the Montgomery Curb Market Saturdays 9–12. Phone 334-922-1328, email theranchers@diamonddranch.online. Gaps/caveats: breed not named on site (breeds empty); not certified organic (says it follows organic principles); quarter/half/whole shares showed sold out tonight (1/8 available) — noted on listing. Added Alabama state hub at `/alabama/` wired into home page hub links (40 states, 34 state hubs). Re-checked **Hawks Hill Ranch** (WY; live, 100% Full Blood DNA-tested Wagyu confirmed, ships frozen anywhere in the domestic USA via UPS 2nd Day Air Mon/Tue — shipping text updated; phone still not shown on site, so a note now points to the contact form; listing phone left as previously sourced) and **Arizona Grass Raised Beef** (AZ; live, 100% grass fed/finished, ships nationwide, phone 928-525-4441 confirmed) — last_checked 2026-10-20. Re-verified all 4 active deals live with both prices: Long Hill 15 lb ground $180 (reg $195), Mossyrock WAGYU BBQ BOX $395 (reg $475), Oreganic Crockpot Comfort Box $199 (reg $229), HeartBrand Ultimate Tailgate Bundle $185 (reg $206) — verified_at 2026-10-20. No new deals. States with listings but no hub: AR, NE, NM, SC, VA, VT. States still with no listings: AK, CT, DE, HI, LA, MA, NH, NJ, ND, RI (NH leads seen: Yankee Farmer's Market, Warner — partners with other farms; Pelletier Farms, Litchfield — not yet verified). Total: 75 ranches, 4 deals, 3 markets, 20 butchers, 118 pages.
 
 ## Build Process
 
