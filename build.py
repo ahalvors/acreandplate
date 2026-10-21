@@ -71,12 +71,13 @@ def base_template(title: str, content: str, meta_description: str = "", og_tags:
     <link rel="stylesheet" href="/css/site.css">
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header>
         <nav class="container">
             <div class="logo">
                 <a href="/" aria-label="Acre & Plate home">
-                    <img src="/assets/brand/rocking-ap-mark.png" alt="" width="54" height="56">
-                    <span><strong>Acre & Plate</strong><small>Pasture to plate</small></span>
+                    <span class="brand-star" aria-hidden="true">✦</span>
+                    <span><strong>Acre & Plate</strong><small>Ranch direct · Rooted in good ground</small></span>
                 </a>
             </div>
             <ul class="nav-links">
@@ -91,7 +92,7 @@ def base_template(title: str, content: str, meta_description: str = "", og_tags:
         </nav>
     </header>
     
-    <main>
+    <main id="main-content">
         {content}
     </main>
     
@@ -313,7 +314,9 @@ def build_index():
         deals_html = f"""
     <section class="seasonal-deals">
         <div class="container">
-            <h2>Seasonal Deals & Overstock</h2>
+            <p class="eyebrow">Straight from the ranch</p>
+            <h2>Good beef. A better buy.</h2>
+            <p class="deals-subtitle">Seasonal deals & overstock</p>
             <p class="section-intro">The best current deals across ranches—sale, clearance, and overstock inventory verified from ranch websites.</p>
             <div class="deals-grid">
                 {deals_cards}
@@ -327,89 +330,41 @@ def build_index():
     """
     
     content = f"""
-    <section class="hero">
-        <div class="container">
-            <div class="hero-copy">
-                <p class="eyebrow">Pasture to plate</p>
-                <h1>Know the ranch<br>behind your beef.</h1>
-                <p class="tagline">Find exceptional ranch-direct beef from named herds with traceable genetics—from open pasture to your plate.</p>
+    <section class="heritage-hero">
+        <div class="container hero-layout">
+            <div class="heritage-copy">
+                <p class="eyebrow">From the pasture. For your table.</p>
+                <h1>Good food.<br><em>Good ground.</em></h1>
+                <p class="hero-deck">Know the ranch behind your beef.</p>
+                <p class="hero-description">Find exceptional ranch-direct beef from named herds with traceable genetics—from open pasture to your plate.</p>
                 <div class="hero-actions">
-                    <a href="/listings/" class="btn-primary">Find a Ranch</a>
-                    <a href="/deals/" class="btn-secondary">Shop Current Deals</a>
-                    <a href="https://acreandplate.printful.me/" target="_blank" rel="noopener noreferrer" class="btn-secondary">Shop Tees</a>
-                </div>
-                <div class="hero-proof" aria-label="Directory highlights">
-                    <span><strong>{len(listings)}</strong> verified ranches</span>
-                    <span><strong>3</strong> heritage categories</span>
-                    <span><strong>Direct</strong> from the source</span>
+                    <a href="/listings/" class="btn-primary">Find your ranch <span aria-hidden="true">↗</span></a>
+                    <a href="/guides/cattle-breeds/" class="text-link">Get to know your beef →</a>
                 </div>
             </div>
-            <div class="hero-mark" aria-hidden="true">
-                <img src="/assets/brand/rocking-ap-mark.png" alt="">
-                <p>Pasture to Plate</p>
+            <div class="ranch-emblem" aria-label="Acre and Plate ranch emblem">
+                <p class="emblem-top">Local food. Stronger tomorrows.</p>
+                <img src="/assets/brand/rocking-ap-mark.png" width="1224" height="1285" alt="Engraved cattle head above the Acre & Plate rocking AP brand" fetchpriority="high">
+                <p class="emblem-bottom">Named herds. Honest sourcing.</p>
+                <span class="emblem-star" aria-hidden="true">✦</span>
             </div>
         </div>
-    </section>
-    
-    {featured_ranch_html}
-    
-    {deals_html}
-    
-    <section class="markets-teaser">
-        <div class="container">
-            <h2>Local Activity</h2>
-            <p class="section-intro">Find farmers markets where local ranchers sell beef from named herds, plus butcher shops where Bay Area residents buy quality beef.</p>
-            <div class="markets-preview">
-                {''.join([f'<div class="market-preview-item"><strong>{m["name"]}</strong><span>{m["city"]}, {m["state"]} — {m["schedule"].split(",")[0]}</span></div>' for m in markets[:3]])}
-            </div>
-            <div class="view-all">
-                <a href="/markets/" class="btn-primary">View Markets & Butchers</a>
-            </div>
+        <div class="container hero-ledger">
+            <span><strong>{len(listings)}</strong> ranches to discover</span>
+            <span><strong>Real roots.</strong> Traceable bloodlines</span>
+            <span><strong>Ranch direct.</strong> From their land to your table</span>
         </div>
     </section>
-    
-    <section class="how-it-works">
+
+    <section class="ranch-finder" aria-labelledby="finder-title">
         <div class="container">
-            <h2>How It Works</h2>
-            <div class="steps">
-                <div class="step">
-                    <div class="step-number">1</div>
-                    <h3>Browse</h3>
-                    <p>Explore ranches with named, traceable herds—Fullblood Wagyu, Akaushi, heritage breeds.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">2</div>
-                    <h3>Verify</h3>
-                    <p>Each ranch lists their cattle's bloodlines, breed registrations, or DNA verification. Real sourcing, not marketing.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">3</div>
-                    <h3>Order Direct</h3>
-                    <p>Contact ranches directly. Most ship nationwide, some offer local pickup.</p>
-                </div>
+            <div class="section-heading"><div><p class="eyebrow">01 / The ranch directory</p><h2 id="finder-title">Find your kind of good.</h2></div><a href="/listings/" class="text-link">Explore all {len(listings)} ranches ↗</a></div>
+            <div class="breed-paths">
+                <a href="/wagyu/"><span class="path-number">01</span><h3>Wagyu</h3><p>Discover registered and DNA-verified Japanese bloodlines.</p><span class="path-bottom">{len([l for l in listings if 'wagyu' in l['breeds']])} ranches <b aria-hidden="true">↗</b></span></a>
+                <a href="/akaushi/"><span class="path-number">02</span><h3>Akaushi</h3><p>Explore Japanese Brown cattle with traceable heritage.</p><span class="path-bottom">{len([l for l in listings if 'akaushi' in l['breeds']])} ranches <b aria-hidden="true">↗</b></span></a>
+                <a href="/heritage/"><span class="path-number">03</span><h3>Heritage breeds</h3><p>Meet distinctive breeds and the ranches keeping them thriving.</p><span class="path-bottom">{len([l for l in listings if 'heritage' in l.get('breeds', [])])} ranches <b aria-hidden="true">↗</b></span></a>
             </div>
-        </div>
-    </section>
-    
-    <section class="featured">
-        <div class="container">
-            <h2>Featured Ranches</h2>
-            <div class="listings-grid">
-                {featured_html}
-            </div>
-            <div class="view-all">
-                <a href="/listings/" class="btn-primary">View All {len(listings)} Ranches</a>
-            </div>
-        </div>
-    </section>
-    
-    <section class="hubs">
-        <div class="container">
-            <h2>Browse by Breed or State</h2>
-            <div class="hub-links">
-                <a href="/wagyu/" class="hub-link">Wagyu <span class="count">({len([l for l in listings if 'wagyu' in l['breeds']])})</span></a>
-                <a href="/akaushi/" class="hub-link">Akaushi <span class="count">({len([l for l in listings if 'akaushi' in l['breeds']])})</span></a>
-                <a href="/heritage/" class="hub-link">Heritage Breeds <span class="count">({len([l for l in listings if 'heritage' in l.get('breeds', [])])})</span></a>
+            <details class="state-directory"><summary>Looking closer to home? <span>Browse by state +</span></summary><div class="hub-links">
                 <a href="/alabama/" class="hub-link">Alabama <span class="count">({len([l for l in listings if l.get('state') == 'AL'])})</span></a>
                 <a href="/arizona/" class="hub-link">Arizona <span class="count">({len([l for l in listings if l.get('state') == 'AZ'])})</span></a>
                 <a href="/illinois/" class="hub-link">Illinois <span class="count">({len([l for l in listings if l.get('state') == 'IL'])})</span></a>
@@ -443,14 +398,56 @@ def build_index():
                 <a href="/washington/" class="hub-link">Washington <span class="count">({len([l for l in listings if l['state'] == 'WA'])})</span></a>
                 <a href="/west-virginia/" class="hub-link">West Virginia <span class="count">({len([l for l in listings if l.get('state') == 'WV'])})</span></a>
                 <a href="/wyoming/" class="hub-link">Wyoming <span class="count">({len([l for l in listings if 'WY' in l.get('state', '')])})</span></a>
-                <a href="/guides/cattle-breeds/" class="hub-link">Cattle Breeds Guide →</a>
-                <a href="/guides/wagyu-vs-akaushi/" class="hub-link">Wagyu vs Akaushi →</a>
+            </div></details>
+        </div>
+    </section>
+
+    {featured_ranch_html}
+
+    <section class="featured heritage-featured">
+        <div class="container">
+            <div class="section-heading"><div><p class="eyebrow">Meet the people behind the pasture</p><h2>A few good places to start.</h2></div><span class="section-note">Featured ranches<br>Selected from the directory</span></div>
+            <div class="listings-grid">{featured_html}</div>
+            <div class="view-all"><a href="/listings/" class="text-link">View all {len(listings)} ranches →</a></div>
+        </div>
+    </section>
+
+    {deals_html}
+
+    <section class="markets-teaser heritage-markets">
+        <div class="container market-layout">
+            <div><p class="eyebrow">02 / Around your table</p><h2>Good food.<br>Closer to home.</h2><p class="section-intro">Find farmers markets where local ranchers sell beef from named herds, plus butcher shops where Bay Area residents buy quality beef.</p><a href="/markets/" class="btn-primary">Markets & butchers ↗</a></div>
+            <div class="markets-preview">
+                {''.join([f'<a class="market-preview-item" href="/markets/"><span class="market-index">0{i + 1}</span><div><strong>{m["name"]}</strong><span>{m["city"]}, {m["state"]} — {m["schedule"].split(",")[0]}</span></div><b aria-hidden="true">↗</b></a>' for i, m in enumerate(markets[:3])])}
             </div>
         </div>
     </section>
+
+    <section class="how-it-works heritage-how">
+        <div class="container"><p class="eyebrow">A shorter path from pasture to plate</p><h2>Know more. Eat well.</h2>
+            <div class="steps">
+                <div class="step"><div class="step-number">01</div><h3>Find your ranch.</h3><p>Explore ranches with named, traceable herds—Fullblood Wagyu, Akaushi, heritage breeds.</p></div>
+                <div class="step"><div class="step-number">02</div><h3>Know your source.</h3><p>Each ranch lists their cattle's bloodlines, breed registrations, or DNA verification. Real sourcing, not marketing.</p></div>
+                <div class="step"><div class="step-number">03</div><h3>Order direct.</h3><p>Contact ranches directly. Most ship nationwide, some offer local pickup.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="field-notes">
+        <div class="container"><div class="section-heading"><div><p class="eyebrow">03 / The field guide</p><h2>A little knowledge goes a long way.</h2></div></div>
+            <div class="guide-paths"><a href="/guides/cattle-breeds/"><span class="eyebrow">Start with the herd</span><h3>Get to know the breeds.</h3><p>A closer look at the cattle behind your beef.</p><span class="text-link">Read the breeds guide →</span></a><a href="/guides/wagyu-vs-akaushi/"><span class="eyebrow">Know the difference</span><h3>Wagyu & Akaushi, explained.</h3><p>Understand the bloodlines before you buy.</p><span class="text-link">Explore the guide →</span></a><a href="/news/"><span class="eyebrow">From the field</span><h3>The latest from ranch country.</h3><p>Follow the news, updates, and stories.</p><span class="text-link">Read the latest →</span></a></div>
+        </div>
+    </section>
+
+    <section class="heritage-shop">
+        <div class="container shop-layout">
+            <figure><img src="/assets/brand/heritage-ranchwear.webp" width="1536" height="1024" loading="lazy" alt="Acre & Plate heritage apparel concepts: cream ranch illustration sweatshirt and washed sage Western lettering sweatshirt"><figcaption>From the Acre & Plate design collection · Styles available in the shop may vary.</figcaption></figure>
+            <div class="shop-copy"><p class="eyebrow">04 / Wear your roots</p><h2>Good ground.<br>Good company.</h2><p>For the people who care where dinner came from. Take a little of that pasture-to-plate spirit with you.</p><a href="https://acreandplate.printful.me/" target="_blank" rel="noopener noreferrer" class="btn-primary">Visit the Acre & Plate shop ↗</a><span class="shop-signoff">Local food. Stronger tomorrows.</span></div>
+        </div>
+    </section>
     """
-    
-    html = base_template("Home", content)
+
+    html = base_template("Home", "\n".join(line.rstrip() for line in content.splitlines()))
     write_page('index.html', html)
 
 def build_listings_index():
