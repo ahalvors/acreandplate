@@ -20,7 +20,7 @@
                 </a>
             </div>
             <ul class="nav-links">
-                <li><a href="/listings/">Browse</a></li>
+                <li><a href="/listings/" aria-current="page">Browse</a></li>
                 <li><a href="/deals/">Deals</a></li>
                 <li><a href="/markets/">Markets</a></li>
                 <li><a href="/news/">News</a></li>
@@ -43,8 +43,42 @@
     
     <section class="listings-section">
         <div class="container">
+            
+    <div class="filter-bar" hidden>
+        <div class="filter-basics">
+            
+        <div class="filter-group">
+            <label class="filter-label" for="filter-search">Search ranches</label>
+            <input type="search" id="filter-search" class="filter-search" placeholder="Ranch name, town, state, or breed…">
+        </div>
+    
+            <div class="filter-group"><label for="filter-state" class="filter-label">State</label><select id="filter-state"><option value="">All states</option><option value="OR">OR</option></select></div>
+            <div class="filter-group"><label for="filter-breed" class="filter-label">Breed</label><select id="filter-breed"><option value="">All breeds</option><option value="angus">Angus</option><option value="wagyu">Wagyu</option></select></div>
+        </div>
+        <details class="filter-more"><summary>More filters: finish, shipping & pickup</summary><div class="filter-panel">
+            <div class="filter-group">
+                <label class="filter-label">Finish</label>
+                <div class="filter-chips"><button class="filter-chip" data-filter="finish" data-value="grain-finished">Grain-finished <span class="count">(1)</span></button><button class="filter-chip" data-filter="finish" data-value="grass-finished">Grass-finished <span class="count">(2)</span></button></div>
+            </div>
+        
+            <div class="filter-group">
+                <label class="filter-label">Shipping</label>
+                <div class="filter-chips"><button class="filter-chip" data-filter="ships" data-value="nationwide">Ships nationwide <span class="count">(1)</span></button><button class="filter-chip" data-filter="ships" data-value="lower-48">Ships lower 48 <span class="count">(1)</span></button><button class="filter-chip" data-filter="ships" data-value="available">Shipping available; area unspecified <span class="count">(1)</span></button></div>
+            </div>
+        
+            <div class="filter-group">
+                <label class="filter-label">Pickup</label>
+                <div class="filter-chips">
+                    <button class="filter-chip" data-filter="pickup" data-value="true">Local/ranch pickup <span class="count">(1)</span></button>
+                </div>
+            </div>
+        </div><p class="filter-help">Filters use details recorded in each ranch listing. Unspecified details are not treated as a match; confirm current options with the ranch.</p></details>
+        <div class="filter-summary"><span class="filter-count" role="status" aria-live="polite">Showing <strong id="shown-count">3</strong> of <strong id="total-count">3</strong> ranches</span><button type="button" class="filter-clear" hidden>Clear filters</button></div>
+        <div class="filter-empty" hidden><p>No ranches match your filters. <button type="button" class="filter-clear-inline">Clear filters</button> to see all listings.</p></div>
+    </div>
+    
             <div class="listings-grid">
-                <article class="listing-card">
+                <article class="listing-card" data-name="oreganic beef co. (rocker 3 ranch)" data-city="madras" data-state="OR" data-breeds="" data-search="oreganic beef co. (rocker 3 ranch) madras or usda certified organic; 100% grass-fed and grass-finished; gap4 (global animal partnership step 4); third-party verified; fully traceable herd logs (birth/harvest); oregon-grown organic forage; no synthetic hormones, pesticides, or gmo feed per ranch faq" data-finish="grass-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/oreganic-beef/">Oreganic Beef Co. (Rocker 3 Ranch)</a></h3>
         <div class="location">Madras, OR</div>
@@ -58,7 +92,7 @@
             <a href="https://oreganicbeef.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=oreganic-beef" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="kauboi ranch" data-city="redmond" data-state="OR" data-breeds="wagyu angus" data-search="kauboi ranch redmond or grass-fed and grass-finished angus and american wagyu (cross between japanese wagyu and american breeds); carefully bred using elite wagyu-influenced genetics; raised without hormones; animals requiring antibiotics removed from program wagyu angus" data-finish="grass-finished" data-ships="available" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/kauboi-ranch/">Kauboi Ranch</a></h3>
         <div class="location">Redmond, OR</div>
@@ -72,7 +106,7 @@
             <a href="https://kauboiranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=kauboi-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="pacific rogue wagyu" data-city="gold beach" data-state="OR" data-breeds="wagyu" data-search="pacific rogue wagyu gold beach or 100% full-blood japanese wagyu and f1 wagyu (50% angus, 50% wagyu); pioneer american wagyu family herd since 1992/1993; full-blood animals finished on a 500+ day japanese-style grain ration after pasture raise; f1s grain-fed ~250-300 days wagyu" data-finish="grain-finished" data-ships="lower-48" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/pacific-rogue-wagyu/">Pacific Rogue Wagyu</a></h3>
         <div class="location">Gold Beach, OR</div>
@@ -105,5 +139,6 @@
             </p>
         </div>
     </footer>
+    <script src="/assets/filter.js" defer></script>
 </body>
 </html>

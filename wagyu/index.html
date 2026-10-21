@@ -20,7 +20,7 @@
                 </a>
             </div>
             <ul class="nav-links">
-                <li><a href="/listings/">Browse</a></li>
+                <li><a href="/listings/" aria-current="page">Browse</a></li>
                 <li><a href="/deals/">Deals</a></li>
                 <li><a href="/markets/">Markets</a></li>
                 <li><a href="/news/">News</a></li>
@@ -43,8 +43,42 @@
     
     <section class="listings-section">
         <div class="container">
+            
+    <div class="filter-bar" hidden>
+        <div class="filter-basics">
+            
+        <div class="filter-group">
+            <label class="filter-label" for="filter-search">Search ranches</label>
+            <input type="search" id="filter-search" class="filter-search" placeholder="Ranch name, town, state, or breed…">
+        </div>
+    
+            <div class="filter-group"><label for="filter-state" class="filter-label">State</label><select id="filter-state"><option value="">All states</option><option value="CA">CA</option><option value="CO">CO</option><option value="FL">FL</option><option value="ID">ID</option><option value="KS">KS</option><option value="MI">MI</option><option value="MN">MN</option><option value="MO">MO</option><option value="NM">NM</option><option value="Northern Rockies">Northern Rockies</option><option value="OR">OR</option><option value="SC">SC</option><option value="TN">TN</option><option value="TX">TX</option><option value="VT">VT</option><option value="WA">WA</option><option value="WY">WY</option></select></div>
+            <div class="filter-group"><label for="filter-breed" class="filter-label">Breed</label><select id="filter-breed"><option value="">All breeds</option><option value="akaushi">Akaushi</option><option value="angus">Angus</option><option value="wagyu">Wagyu</option></select></div>
+        </div>
+        <details class="filter-more"><summary>More filters: finish, shipping & pickup</summary><div class="filter-panel">
+            <div class="filter-group">
+                <label class="filter-label">Finish</label>
+                <div class="filter-chips"><button class="filter-chip" data-filter="finish" data-value="grain-finished">Grain-finished <span class="count">(4)</span></button><button class="filter-chip" data-filter="finish" data-value="grass-finished">Grass-finished <span class="count">(3)</span></button><button class="filter-chip" data-filter="finish" data-value="grass-or-grain">Grass or grain <span class="count">(2)</span></button></div>
+            </div>
+        
+            <div class="filter-group">
+                <label class="filter-label">Shipping</label>
+                <div class="filter-chips"><button class="filter-chip" data-filter="ships" data-value="nationwide">Ships nationwide <span class="count">(12)</span></button><button class="filter-chip" data-filter="ships" data-value="lower-48">Ships lower 48 <span class="count">(5)</span></button><button class="filter-chip" data-filter="ships" data-value="regional">Regional delivery / shipping <span class="count">(4)</span></button><button class="filter-chip" data-filter="ships" data-value="available">Shipping available; area unspecified <span class="count">(1)</span></button></div>
+            </div>
+        
+            <div class="filter-group">
+                <label class="filter-label">Pickup</label>
+                <div class="filter-chips">
+                    <button class="filter-chip" data-filter="pickup" data-value="true">Local/ranch pickup <span class="count">(7)</span></button>
+                </div>
+            </div>
+        </div><p class="filter-help">Filters use details recorded in each ranch listing. Unspecified details are not treated as a match; confirm current options with the ranch.</p></details>
+        <div class="filter-summary"><span class="filter-count" role="status" aria-live="polite">Showing <strong id="shown-count">24</strong> of <strong id="total-count">24</strong> ranches</span><button type="button" class="filter-clear" hidden>Clear filters</button></div>
+        <div class="filter-empty" hidden><p>No ranches match your filters. <button type="button" class="filter-clear-inline">Clear filters</button> to see all listings.</p></div>
+    </div>
+    
             <div class="listings-grid">
-                <article class="listing-card">
+                <article class="listing-card" data-name="lone mountain wagyu" data-city="new mexico" data-state="NM" data-breeds="wagyu" data-search="lone mountain wagyu new mexico nm 100% fullblood wagyu; dna-certified japanese lineage wagyu" data-finish="" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/lone-mountain-wagyu/">Lone Mountain Wagyu</a></h3>
         <div class="location">New Mexico, NM</div>
@@ -58,7 +92,7 @@
             <a href="https://www.lonemountainwagyu.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=lone-mountain-wagyu" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="long hill wagyu" data-city="luling" data-state="TX" data-breeds="wagyu" data-search="long hill wagyu luling tx 100% fullblood japanese black wagyu" data-finish="" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/long-hill-wagyu/">Long Hill Wagyu</a></h3>
         <div class="location">Luling, TX</div>
@@ -72,7 +106,7 @@
             <a href="https://www.longhillwagyu.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=long-hill-wagyu" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="circle h ranch" data-city="smoot, wy &amp; geneva, id" data-state="WY/ID" data-breeds="wagyu" data-search="circle h ranch smoot, wy &amp; geneva, id wy/id 100% fullblood wagyu wagyu" data-finish="grass-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/circle-h-ranch/">Circle H Ranch</a></h3>
         <div class="location">Smoot, WY & Geneva, ID, WY/ID</div>
@@ -86,7 +120,7 @@
             <a href="https://www.circlehranch.net/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=circle-h-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="hawks hill ranch" data-city="cody" data-state="WY" data-breeds="wagyu" data-search="hawks hill ranch cody wy 100% fullblood wagyu; dna-tested japanese lineage wagyu" data-finish="" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/hawks-hill/">Hawks Hill Ranch</a></h3>
         <div class="location">Cody, WY</div>
@@ -100,7 +134,7 @@
             <a href="https://hawkshillranchwagyu.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=hawks-hill" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="slickhorn ranch" data-city="logan, ut (business)" data-state="Northern Rockies" data-breeds="wagyu" data-search="slickhorn ranch logan, ut (business) northern rockies fullblood wagyu - 100% traceable japanese lineage wagyu" data-finish="" data-ships="lower-48" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/slickhorn/">Slickhorn Ranch</a></h3>
         <div class="location">Logan, UT (business), Northern Rockies</div>
@@ -114,7 +148,7 @@
             <a href="https://slickhornranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=slickhorn" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="pasture prime wagyu" data-city="oxford" data-state="FL" data-breeds="wagyu" data-search="pasture prime wagyu oxford fl 100% grass-fed &amp; finished wagyu wagyu" data-finish="grass-finished" data-ships="nationwide" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/prime-wagyu-farm/">Pasture Prime Wagyu</a></h3>
         <div class="location">Oxford, FL</div>
@@ -128,7 +162,7 @@
             <a href="https://www.pastureprimewagyu.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=prime-wagyu-farm" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="rutledge ryan ranch" data-city="whitesboro" data-state="TX" data-breeds="wagyu" data-search="rutledge ryan ranch whitesboro tx 100% fullblood wagyu; tracked genetic lineages from japan wagyu" data-finish="" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/rutledge-ryan/">Rutledge Ryan Ranch</a></h3>
         <div class="location">Whitesboro, TX</div>
@@ -142,7 +176,7 @@
             <a href="https://rutledgeryanranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=rutledge-ryan" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="mahan wagyu (ranch &amp; trail)" data-city="silverton (near palo duro canyon)" data-state="TX" data-breeds="wagyu" data-search="mahan wagyu (ranch &amp; trail) silverton (near palo duro canyon) tx 100% fullblood japanese wagyu; registered with american wagyu association wagyu" data-finish="grain-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/mahan/">Mahan Wagyu (Ranch & Trail)</a></h3>
         <div class="location">Silverton (near Palo Duro Canyon), TX</div>
@@ -156,7 +190,7 @@
             <a href="https://ranchandtrail.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=mahan" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="mossyrock wagyu" data-city="mossyrock" data-state="WA" data-breeds="wagyu" data-search="mossyrock wagyu mossyrock wa 100% fullblood japanese wagyu wagyu" data-finish="" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/mossyrock/">Mossyrock Wagyu</a></h3>
         <div class="location">Mossyrock, WA</div>
@@ -170,7 +204,7 @@
             <a href="https://www.mossyrockwagyu.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=mossyrock" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="grant cattle company" data-city="caney" data-state="KS" data-breeds="wagyu" data-search="grant cattle company caney ks fullblood wagyu and american wagyu (f1) wagyu" data-finish="" data-ships="" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/grant-cattle/">Grant Cattle Company</a></h3>
         <div class="location">Caney, KS</div>
@@ -184,7 +218,7 @@
             <a href="https://grantcattlecompany.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=grant-cattle" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="black wagyu beef co." data-city="micanopy" data-state="FL" data-breeds="wagyu" data-search="black wagyu beef co. micanopy fl american wagyu (minimum 83% wagyu) and fullblood japanese wagyu; dna-tested wagyu" data-finish="" data-ships="regional" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/black-wagyu-beef-co/">Black Wagyu Beef Co.</a></h3>
         <div class="location">Micanopy, FL</div>
@@ -198,7 +232,7 @@
             <a href="https://www.blackwagyubeef.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=black-wagyu-beef-co" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="vermont wagyu" data-city="springfield" data-state="VT" data-breeds="wagyu" data-search="vermont wagyu springfield vt 100% fullblood wagyu; dna parent-verified by the american wagyu association; certified authentic wagyu beef label wagyu" data-finish="" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/vermont-wagyu/">Vermont Wagyu</a></h3>
         <div class="location">Springfield, VT</div>
@@ -212,7 +246,7 @@
             <a href="https://vermontwagyu.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=vermont-wagyu" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="caroland farms wagyu" data-city="landrum" data-state="SC" data-breeds="wagyu" data-search="caroland farms wagyu landrum sc 100% full blood wagyu; every animal certified with the american wagyu association; born, raised, and finished on farm; 100% pure japanese genetic heritage (never crossbred with angus) wagyu" data-finish="" data-ships="nationwide" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/caroland-farms-wagyu/">Caroland Farms Wagyu</a></h3>
         <div class="location">Landrum, SC</div>
@@ -226,7 +260,7 @@
             <a href="https://carolandfarmswagyu.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=caroland-farms-wagyu" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="cross creek ranch premium meats" data-city="hesperus" data-state="CO" data-breeds="wagyu" data-search="cross creek ranch premium meats hesperus co full blood wagyu (elite japanese genetics; mij-30 grading meeting or exceeding a4/a5) and american wagyu (wagyu × angus); born and raised on ranch wagyu" data-finish="" data-ships="lower-48" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/cross-creek-ranch/">Cross Creek Ranch Premium Meats</a></h3>
         <div class="location">Hesperus, CO</div>
@@ -240,7 +274,7 @@
             <a href="https://ccrpremiummeats.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=cross-creek-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="3z cattle co" data-city="morgan hill" data-state="CA" data-breeds="wagyu angus" data-search="3z cattle co morgan hill ca american wagyu f1-f4 (wagyu-angus cross) and fullblood angus; grass-finished and pre-order non-gmo grain-finished; born and raised on ranch; no antibiotics, vaccines, or growth hormones in market animals wagyu angus" data-finish="grass-or-grain" data-ships="" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/3z-cattle-co/">3Z Cattle Co</a></h3>
         <div class="location">Morgan Hill, CA</div>
@@ -254,7 +288,7 @@
             <a href="https://3zcattle.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=3z-cattle-co" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="the hufeisen-ranch (wyo wagyu)" data-city="weston" data-state="WY" data-breeds="wagyu" data-search="the hufeisen-ranch (wyo wagyu) weston wy 100% dna-verified fullblood japanese black wagyu wagyu" data-finish="grain-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/hufeisen-ranch/">The Hufeisen-Ranch (WYO Wagyu)</a></h3>
         <div class="location">Weston, WY</div>
@@ -268,7 +302,7 @@
             <a href="https://www.realwagyubeef.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=hufeisen-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="rascal ranch farms" data-city="yolo county" data-state="CA" data-breeds="akaushi wagyu" data-search="rascal ranch farms yolo county ca purebred akaushi (red wagyu) and american f1 akaushi; also specialty black wagyu; registered foundational genetics (e.g. d&amp;h rueshaw jr. and other listed fb-registered sires on genetics page) akaushi wagyu" data-finish="" data-ships="regional" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/rascal-ranch-farms/">Rascal Ranch Farms</a></h3>
         <div class="location">Yolo County, CA</div>
@@ -282,7 +316,7 @@
             <a href="https://www.rascalranchfarms.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=rascal-ranch-farms" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="lone crow ranch" data-city="eltopia" data-state="WA" data-breeds="wagyu angus" data-search="lone crow ranch eltopia wa wagyu and angus; pasture-raised with grain-finished and grass-finished options; no added hormones; diet formulated by certified animal nutritionist wagyu angus" data-finish="grass-or-grain" data-ships="regional" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/lone-crow-ranch/">Lone Crow Ranch</a></h3>
         <div class="location">Eltopia, WA</div>
@@ -296,7 +330,7 @@
             <a href="https://www.lonecrowranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=lone-crow-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="kauboi ranch" data-city="redmond" data-state="OR" data-breeds="wagyu angus" data-search="kauboi ranch redmond or grass-fed and grass-finished angus and american wagyu (cross between japanese wagyu and american breeds); carefully bred using elite wagyu-influenced genetics; raised without hormones; animals requiring antibiotics removed from program wagyu angus" data-finish="grass-finished" data-ships="available" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/kauboi-ranch/">Kauboi Ranch</a></h3>
         <div class="location">Redmond, OR</div>
@@ -310,7 +344,7 @@
             <a href="https://kauboiranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=kauboi-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="pacific rogue wagyu" data-city="gold beach" data-state="OR" data-breeds="wagyu" data-search="pacific rogue wagyu gold beach or 100% full-blood japanese wagyu and f1 wagyu (50% angus, 50% wagyu); pioneer american wagyu family herd since 1992/1993; full-blood animals finished on a 500+ day japanese-style grain ration after pasture raise; f1s grain-fed ~250-300 days wagyu" data-finish="grain-finished" data-ships="lower-48" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/pacific-rogue-wagyu/">Pacific Rogue Wagyu</a></h3>
         <div class="location">Gold Beach, OR</div>
@@ -324,7 +358,7 @@
             <a href="https://www.pacificroguewagyu.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=pacific-rogue-wagyu" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="wagyu legacy" data-city="fairview" data-state="TN" data-breeds="wagyu" data-search="wagyu legacy fairview tn american wagyu; free-range, hormone-free, organically-fed; producing since 2015; distinct marbling, unsaturated fat, lower cholesterol wagyu" data-finish="" data-ships="nationwide" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/wagyu-legacy/">Wagyu Legacy</a></h3>
         <div class="location">Fairview, TN</div>
@@ -338,7 +372,7 @@
             <a href="https://wagyulegacy.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=wagyu-legacy" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="whispering pines ranch" data-city="laingsburg" data-state="MI" data-breeds="wagyu" data-search="whispering pines ranch laingsburg mi full-blood wagyu; pasture-raised and pasture-finished on open michigan pastures; also raise belted galloway; optional grain finish available wagyu" data-finish="grain-finished" data-ships="regional" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/whispering-pines-ranch/">Whispering Pines Ranch</a></h3>
         <div class="location">Laingsburg, MI</div>
@@ -352,7 +386,7 @@
             <a href="https://whisperingpinesranchllc.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=whispering-pines-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="fellers ranch" data-city="conger" data-state="MN" data-breeds="wagyu" data-search="fellers ranch conger mn american wagyu from japanese breed mixed with other breeds over 10,000 years; raised slow in low-stress environment with custom diet; no hormones or antibiotics wagyu" data-finish="" data-ships="lower-48" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/fellers-ranch/">Fellers Ranch</a></h3>
         <div class="location">Conger, MN</div>
@@ -366,7 +400,7 @@
             <a href="https://fellersranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=fellers-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="hiroshi ranch" data-city="kaiser" data-state="MO" data-breeds="wagyu" data-search="hiroshi ranch kaiser mo 100% fullblood wagyu; unique diet with organic cacao powder, flaxseed oil, and pirella oil for distinct flavor; free-range with pasture access wagyu" data-finish="" data-ships="lower-48" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/hiroshi-ranch/">Hiroshi Ranch</a></h3>
         <div class="location">Kaiser, MO</div>
@@ -399,5 +433,6 @@
             </p>
         </div>
     </footer>
+    <script src="/assets/filter.js" defer></script>
 </body>
 </html>

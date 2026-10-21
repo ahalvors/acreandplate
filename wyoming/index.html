@@ -20,7 +20,7 @@
                 </a>
             </div>
             <ul class="nav-links">
-                <li><a href="/listings/">Browse</a></li>
+                <li><a href="/listings/" aria-current="page">Browse</a></li>
                 <li><a href="/deals/">Deals</a></li>
                 <li><a href="/markets/">Markets</a></li>
                 <li><a href="/news/">News</a></li>
@@ -43,8 +43,35 @@
     
     <section class="listings-section">
         <div class="container">
+            
+    <div class="filter-bar" hidden>
+        <div class="filter-basics">
+            
+        <div class="filter-group">
+            <label class="filter-label" for="filter-search">Search ranches</label>
+            <input type="search" id="filter-search" class="filter-search" placeholder="Ranch name, town, state, or breed…">
+        </div>
+    
+            <div class="filter-group"><label for="filter-state" class="filter-label">State</label><select id="filter-state"><option value="">All states</option><option value="ID">ID</option><option value="WY">WY</option></select></div>
+            <div class="filter-group"><label for="filter-breed" class="filter-label">Breed</label><select id="filter-breed"><option value="">All breeds</option><option value="wagyu">Wagyu</option></select></div>
+        </div>
+        <details class="filter-more"><summary>More filters: finish, shipping & pickup</summary><div class="filter-panel">
+            <div class="filter-group">
+                <label class="filter-label">Finish</label>
+                <div class="filter-chips"><button class="filter-chip" data-filter="finish" data-value="grain-finished">Grain-finished <span class="count">(1)</span></button><button class="filter-chip" data-filter="finish" data-value="grass-finished">Grass-finished <span class="count">(1)</span></button></div>
+            </div>
+        
+            <div class="filter-group">
+                <label class="filter-label">Shipping</label>
+                <div class="filter-chips"><button class="filter-chip" data-filter="ships" data-value="nationwide">Ships nationwide <span class="count">(3)</span></button></div>
+            </div>
+        </div><p class="filter-help">Filters use details recorded in each ranch listing. Unspecified details are not treated as a match; confirm current options with the ranch.</p></details>
+        <div class="filter-summary"><span class="filter-count" role="status" aria-live="polite">Showing <strong id="shown-count">3</strong> of <strong id="total-count">3</strong> ranches</span><button type="button" class="filter-clear" hidden>Clear filters</button></div>
+        <div class="filter-empty" hidden><p>No ranches match your filters. <button type="button" class="filter-clear-inline">Clear filters</button> to see all listings.</p></div>
+    </div>
+    
             <div class="listings-grid">
-                <article class="listing-card">
+                <article class="listing-card" data-name="circle h ranch" data-city="smoot, wy &amp; geneva, id" data-state="WY/ID" data-breeds="wagyu" data-search="circle h ranch smoot, wy &amp; geneva, id wy/id 100% fullblood wagyu wagyu" data-finish="grass-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/circle-h-ranch/">Circle H Ranch</a></h3>
         <div class="location">Smoot, WY & Geneva, ID, WY/ID</div>
@@ -58,7 +85,7 @@
             <a href="https://www.circlehranch.net/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=circle-h-ranch" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="hawks hill ranch" data-city="cody" data-state="WY" data-breeds="wagyu" data-search="hawks hill ranch cody wy 100% fullblood wagyu; dna-tested japanese lineage wagyu" data-finish="" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/hawks-hill/">Hawks Hill Ranch</a></h3>
         <div class="location">Cody, WY</div>
@@ -72,7 +99,7 @@
             <a href="https://hawkshillranchwagyu.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=hawks-hill" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="the hufeisen-ranch (wyo wagyu)" data-city="weston" data-state="WY" data-breeds="wagyu" data-search="the hufeisen-ranch (wyo wagyu) weston wy 100% dna-verified fullblood japanese black wagyu wagyu" data-finish="grain-finished" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/hufeisen-ranch/">The Hufeisen-Ranch (WYO Wagyu)</a></h3>
         <div class="location">Weston, WY</div>
@@ -105,5 +132,6 @@
             </p>
         </div>
     </footer>
+    <script src="/assets/filter.js" defer></script>
 </body>
 </html>

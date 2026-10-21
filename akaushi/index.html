@@ -20,7 +20,7 @@
                 </a>
             </div>
             <ul class="nav-links">
-                <li><a href="/listings/">Browse</a></li>
+                <li><a href="/listings/" aria-current="page">Browse</a></li>
                 <li><a href="/deals/">Deals</a></li>
                 <li><a href="/markets/">Markets</a></li>
                 <li><a href="/news/">News</a></li>
@@ -43,8 +43,42 @@
     
     <section class="listings-section">
         <div class="container">
+            
+    <div class="filter-bar" hidden>
+        <div class="filter-basics">
+            
+        <div class="filter-group">
+            <label class="filter-label" for="filter-search">Search ranches</label>
+            <input type="search" id="filter-search" class="filter-search" placeholder="Ranch name, town, state, or breed…">
+        </div>
+    
+            <div class="filter-group"><label for="filter-state" class="filter-label">State</label><select id="filter-state"><option value="">All states</option><option value="AR">AR</option><option value="AZ">AZ</option><option value="CA">CA</option><option value="TX">TX</option></select></div>
+            <div class="filter-group"><label for="filter-breed" class="filter-label">Breed</label><select id="filter-breed"><option value="">All breeds</option><option value="akaushi">Akaushi</option><option value="wagyu">Wagyu</option></select></div>
+        </div>
+        <details class="filter-more"><summary>More filters: finish, shipping & pickup</summary><div class="filter-panel">
+            <div class="filter-group">
+                <label class="filter-label">Finish</label>
+                <div class="filter-chips"><button class="filter-chip" data-filter="finish" data-value="grain-finished">Grain-finished <span class="count">(1)</span></button></div>
+            </div>
+        
+            <div class="filter-group">
+                <label class="filter-label">Shipping</label>
+                <div class="filter-chips"><button class="filter-chip" data-filter="ships" data-value="nationwide">Ships nationwide <span class="count">(2)</span></button><button class="filter-chip" data-filter="ships" data-value="lower-48">Ships lower 48 <span class="count">(2)</span></button><button class="filter-chip" data-filter="ships" data-value="regional">Regional delivery / shipping <span class="count">(1)</span></button></div>
+            </div>
+        
+            <div class="filter-group">
+                <label class="filter-label">Pickup</label>
+                <div class="filter-chips">
+                    <button class="filter-chip" data-filter="pickup" data-value="true">Local/ranch pickup <span class="count">(2)</span></button>
+                </div>
+            </div>
+        </div><p class="filter-help">Filters use details recorded in each ranch listing. Unspecified details are not treated as a match; confirm current options with the ranch.</p></details>
+        <div class="filter-summary"><span class="filter-count" role="status" aria-live="polite">Showing <strong id="shown-count">5</strong> of <strong id="total-count">5</strong> ranches</span><button type="button" class="filter-clear" hidden>Clear filters</button></div>
+        <div class="filter-empty" hidden><p>No ranches match your filters. <button type="button" class="filter-clear-inline">Clear filters</button> to see all listings.</p></div>
+    </div>
+    
             <div class="listings-grid">
-                <article class="listing-card">
+                <article class="listing-card" data-name="heartbrand beef" data-city="texas" data-state="TX" data-breeds="akaushi" data-search="heartbrand beef texas tx certified akaushi beef® - only company with this certification akaushi" data-finish="" data-ships="lower-48" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/heartbrand-beef/">HeartBrand Beef</a></h3>
         <div class="location">Texas, TX</div>
@@ -58,7 +92,7 @@
             <a href="https://heartbrandbeef.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=heartbrand-beef" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="quinn beef" data-city="weatherford" data-state="TX" data-breeds="akaushi" data-search="quinn beef weatherford tx dna-verified akaushi akaushi" data-finish="" data-ships="nationwide" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/quinn/">Quinn Beef</a></h3>
         <div class="location">Weatherford, TX</div>
@@ -72,7 +106,7 @@
             <a href="https://quinnbeef.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=quinn" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="tribe ranch" data-city="hot springs / bonnerdale" data-state="AR" data-breeds="akaushi" data-search="tribe ranch hot springs / bonnerdale ar registered-certified japanese akaushi wagyu akaushi" data-finish="grain-finished" data-ships="lower-48" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/tribe/">Tribe Ranch</a></h3>
         <div class="location">Hot Springs / Bonnerdale, AR</div>
@@ -86,7 +120,7 @@
             <a href="https://triberanch.net/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=tribe" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="hook &amp; cleaver ranch" data-city="temecula &amp; murrieta, ca; lake havasu city, az" data-state="CA/AZ" data-breeds="akaushi" data-search="hook &amp; cleaver ranch temecula &amp; murrieta, ca; lake havasu city, az ca/az american akaushi wagyu; dna-tested and registered akaushi" data-finish="" data-ships="nationwide" data-pickup="" data-pet="" data-certs="">
         
         <h3><a href="/listings/hook-cleaver/">Hook & Cleaver Ranch</a></h3>
         <div class="location">Temecula & Murrieta, CA; Lake Havasu City, AZ, CA/AZ</div>
@@ -100,7 +134,7 @@
             <a href="https://hookandcleaverranch.com/?utm_source=acreandplate&utm_medium=referral&utm_campaign=directory&utm_content=hook-cleaver" target="_blank" rel="noopener" class="btn-primary">Visit Ranch →</a>
         </div>
     </article>
-<article class="listing-card">
+<article class="listing-card" data-name="rascal ranch farms" data-city="yolo county" data-state="CA" data-breeds="akaushi wagyu" data-search="rascal ranch farms yolo county ca purebred akaushi (red wagyu) and american f1 akaushi; also specialty black wagyu; registered foundational genetics (e.g. d&amp;h rueshaw jr. and other listed fb-registered sires on genetics page) akaushi wagyu" data-finish="" data-ships="regional" data-pickup="true" data-pet="" data-certs="">
         
         <h3><a href="/listings/rascal-ranch-farms/">Rascal Ranch Farms</a></h3>
         <div class="location">Yolo County, CA</div>
@@ -133,5 +167,6 @@
             </p>
         </div>
     </footer>
+    <script src="/assets/filter.js" defer></script>
 </body>
 </html>
