@@ -539,7 +539,7 @@
       "shipping": "Direct to doorstep delivery",
       "phone": "408-646-2059",
       "description": "First-generation ranch in Coyote Valley raising American Wagyu and Angus. Dry-aged 14-21 days, vacuum-wrapped and flash-frozen. Regenerative ranching practices with rotational grazing.",
-      "last_checked": "2026-09-30"
+      "last_checked": "2026-10-21"
     },
     {
       "slug": "nyland-herefords",
@@ -1082,7 +1082,7 @@
         "subscription boxes",
         "pastured chicken"
       ],
-      "shipping": "Ships nationwide (meat ships Mondays and Tuesdays only); free shipping on orders over $175",
+      "shipping": "Ships nationwide (meat ships Mondays and Tuesdays only); free shipping on orders of $175+ to Colorado and Kansas",
       "phone": "620-353-8344",
       "note": "Fifth-generation family ranch (Matt and Michelle Canny) in Stanton County, rural Kansas. Regenerative ranching with pasture rotation. Also operates farm-to-table restaurant at 112 South Main Street. Contact: hello@whollycowmarket.com. Address: 303 South Main St. Johnson, KS 67855.",
       "description": "Fifth-generation Kansas family ranch raising 100% grass-fed and grass-finished beef with regenerative practices. Cattle never given hormones, antibiotics, or grain. Ships nationwide from Johnson City with farm-to-table transparency.",
@@ -1657,6 +1657,30 @@
       "description": "First-generation family cattle ranch in Ramer (Montgomery County), Alabama, run by Dalton and Sydney Dicks, who keep ownership of every animal from birth through processing. Cattle graze pasture the ranch never sprays, get free-choice non-GMO grain once weaned, and are raised without antibiotics, hormones or vaccines, cared for with homeopathy and low-stress handling. Processed at a local USDA-inspected processor about 90 minutes away; every cut dry aged up to 28 days (ground beef 21 days), then vacuum-sealed and flash frozen.",
       "note": "Not certified organic (the ranch says it follows organic principles on unsprayed pasture). Grain-finished, not grass-finished. Breed not named on the ranch's website. Quarter, half and whole shares showed sold out on Oct 20, 2026 (1/8 share available). Email: theranchers@diamonddranch.online.",
       "last_checked": "2026-10-20"
+    },
+    {
+      "slug": "brookshire-farm",
+      "name": "Brookshire Farm",
+      "url": "https://brookshirefarm.com/",
+      "state": "LA",
+      "city": "Abbeville",
+      "genetics": "Calves born on the farm and raised at their mothers' sides; 100% grass-fed and pasture-finished on native and selected cultivated forages, never supplemented with grain; cows selected for calves that grass-finish well and have easy-going dispositions",
+      "breeds": [],
+      "products": [
+        "steaks (ribeye, NY strip, filet mignon, sirloin, hanger, skirt, flank, bavette)",
+        "roasts (rib, ribeye, tenderloin, chuck, rump)",
+        "ground beef and stew meat",
+        "short ribs, oxtail, osso buco and marrow bones",
+        "organ meats, including assorted organs for pet food",
+        "bulk stock bones",
+        "beef shares (ground-beef packs, 1/4, 1/2, whole by deposit)",
+        "pastured pork and chicken"
+      ],
+      "shipping": "No shipping shown on the farm's site. Order online, then pick up on a scheduled date at the farm in Abbeville or at a pickup location near you (bring an ice chest); the site also offers home delivery in some ZIP codes",
+      "phone": "337-893-5115",
+      "description": "Family farm in Abbeville (Vermilion Parish), Louisiana, selling grass-fed, pasture-finished beef direct through its own online store. Cattle spend their whole lives on forage on rotationally managed pastures, are never supplemented with grain, and are raised with no growth stimulants, antibiotics or other synthetic additives. Beef is dry aged 14 to 21 days in a temperature-controlled cooler.",
+      "note": "Breed not named on the farm's website. 2026 beef shares are sold out (newsletter list for the next presale), and many individual cuts showed sold out on Oct 21, 2026. Pickup-location list loads by ZIP code on the site, so specific towns aren't listed here. Contact form on the site; no public email.",
+      "last_checked": "2026-10-21"
     }
   ]
 }

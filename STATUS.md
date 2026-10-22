@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** October 20, 2026  
+**Last Updated:** October 21, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 75
+- **Total Ranches:** 76
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 4
 - **Farmers Markets:** 3
@@ -22,6 +22,7 @@
 - **Iowa Ranches:** 1
 - **Kansas Ranches:** 2
 - **Kentucky Ranches:** 1
+- **Louisiana Ranches:** 1
 - **Maine Ranches:** 1
 - **Maryland Ranches:** 1
 - **Michigan Ranches:** 1
@@ -48,7 +49,7 @@
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 118
+- **Total Pages:** 119
 
 ## Pages Built
 
@@ -72,6 +73,7 @@
 - ✅ Iowa hub (`/iowa/`) - 1 ranch
 - ✅ Kansas hub (`/kansas/`) - 2 ranches
 - ✅ Kentucky hub (`/kentucky/`) - 1 ranch
+- ✅ Louisiana hub (`/louisiana/`) - 1 ranch
 - ✅ Maine hub (`/maine/`) - 1 ranch
 - ✅ Maryland hub (`/maryland/`) - 1 ranch
 - ✅ Mississippi hub (`/mississippi/`) - 1 ranch
@@ -342,6 +344,7 @@ python3 build.py
 **Output:** 30 static HTML pages + CSS
 
 **Publish Directory:** Root (all HTML files in root and subdirectories)
+- 📅 **Oct 21, 2026 PT nightly ship:** Added **Brookshire Farm** (Abbeville, LA) — first Louisiana ranch on directory: family farm in Vermilion Parish selling grass-fed, pasture-finished beef through its own online store. Calves born on the farm and raised at their mothers' sides; cattle live on native and cultivated forages, never supplemented with grain, with no growth stimulants, antibiotics or synthetic additives; dry aged 14–21 days. Order online and pick up on a scheduled date at the farm or a pickup location (home delivery in some ZIPs); no shipping shown. Also sells beef shares, organ meats for pet food, pastured pork and chicken. Phone 337-893-5115 (contact form, no public email). Gaps/caveats: breed not named (breeds empty); 2026 beef shares sold out and many cuts sold out tonight; pickup-location list loads by ZIP so towns not listed; family-generation history only seen on LocalHarvest, so left off. Added Louisiana state hub at `/louisiana/` wired into home page hub links (41 states, 35 state hubs). Re-checked **3Z Cattle Co** (CA; live, phone 408-646-2059 confirmed) — last_checked 2026-10-21. **Wholly Cow Market** (KS) site live; free-shipping line now reads $175+ to CO and KS only (shipping text updated), but phone 620-353-8344 wasn't shown on its homepage/contact page, so last_checked left at 2026-09-29. Re-verified all 4 active deals live with both prices: Long Hill 15 lb ground $180 (reg $195), Mossyrock WAGYU BBQ BOX $395 (reg $475), Oreganic Crockpot Comfort Box $199 (reg $229), HeartBrand Ultimate Tailgate Bundle $185 (reg $206) — verified_at 2026-10-21. No new deals. States with listings but no hub: AR, NE, NM, SC, VA, VT. States still with no listings: AK, CT, DE, HI, MA, NH, NJ, ND, RI (ND leads seen: Nourished By Nature/Brown's Ranch, Bismarck; Wild Prairie Beef — not yet verified on their own sites). Total: 76 ranches, 4 deals, 3 markets, 20 butchers, 119 pages.
 
 ## Next Steps / Future Enhancements
 
