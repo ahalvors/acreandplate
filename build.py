@@ -566,6 +566,7 @@ def build_index():
                 <a href="/iowa/" class="hub-link">Iowa <span class="count">({len([l for l in listings if l.get('state') == 'IA'])})</span></a>
                 <a href="/kansas/" class="hub-link">Kansas <span class="count">({len([l for l in listings if l.get('state') == 'KS'])})</span></a>
                 <a href="/kentucky/" class="hub-link">Kentucky <span class="count">({len([l for l in listings if l.get('state') == 'KY'])})</span></a>
+                <a href="/louisiana/" class="hub-link">Louisiana <span class="count">({len([l for l in listings if l.get('state') == 'LA'])})</span></a>
                 <a href="/maine/" class="hub-link">Maine <span class="count">({len([l for l in listings if l.get('state') == 'ME'])})</span></a>
                 <a href="/maryland/" class="hub-link">Maryland <span class="count">({len([l for l in listings if l.get('state') == 'MD'])})</span></a>
                 <a href="/michigan/" class="hub-link">Michigan <span class="count">({len([l for l in listings if l.get('state') == 'MI'])})</span></a>
@@ -1875,6 +1876,13 @@ def main():
     )
     
     build_hub_page(
+        "Louisiana Ranches",
+        "louisiana",
+        lambda l: l.get('state') == 'LA',
+        "Louisiana farms selling grass-fed, pasture-finished, dry-aged beef direct from the farm, ordered online and picked up at the farm or a local pickup spot."
+    )
+    
+    build_hub_page(
         "Mississippi Ranches",
         "mississippi",
         lambda l: l.get('state') == 'MS',
@@ -1940,7 +1948,7 @@ def main():
         build_news_story(item)
     
     print(f"\n✓ Built {len(listings)} listing pages")
-    print("✓ Built hub pages (wagyu, akaushi, heritage, alabama, arizona, indiana, iowa, kansas, kentucky, maine, maryland, michigan, minnesota, mississippi, missouri, nevada, new-york, north-carolina, ohio, oklahoma, pennsylvania, south-dakota, tennessee, texas, utah, california, colorado, florida, georgia, idaho, montana, oregon, washington, west-virginia, wisconsin, wyoming)")
+    print("✓ Built hub pages (wagyu, akaushi, heritage, alabama, arizona, indiana, iowa, kansas, kentucky, louisiana, maine, maryland, michigan, minnesota, mississippi, missouri, nevada, new-york, north-carolina, ohio, oklahoma, pennsylvania, south-dakota, tennessee, texas, utah, california, colorado, florida, georgia, idaho, montana, oregon, washington, west-virginia, wisconsin, wyoming)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
     print(f"✓ Built markets page with {len(markets)} farmers markets and {len(butchers)} butcher shops")
