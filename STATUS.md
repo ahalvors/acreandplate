@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** October 21, 2026  
+**Last Updated:** October 22, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 76
+- **Total Ranches:** 77
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 4
 - **Farmers Markets:** 3
@@ -29,6 +29,7 @@
 - **Minnesota Ranches:** 1
 - **Missouri Ranches:** 1
 - **North Carolina Ranches:** 1
+- **North Dakota Ranches:** 1
 - **South Dakota Ranches:** 1
 - **Texas Ranches:** 6
 - **California Ranches:** 19
@@ -49,7 +50,7 @@
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 119
+- **Total Pages:** 120
 
 ## Pages Built
 
@@ -88,6 +89,7 @@
 - ✅ Montana hub (`/montana/`) - 2 ranches
 - ✅ New York hub (`/new-york/`) - 1 ranch
 - ✅ North Carolina hub (`/north-carolina/`) - 1 ranch
+- ✅ North Dakota hub (`/north-dakota/`) - 1 ranch
 - ✅ Oklahoma hub (`/oklahoma/`) - 2 ranches
 - ✅ Oregon hub (`/oregon/`) - 3 ranches
 - ✅ Pennsylvania hub (`/pennsylvania/`) - 1 ranch
@@ -176,6 +178,8 @@
 - ✅ Triple E Farms (WV)
 - ✅ Apple Creek Farm (ME)
 - ✅ Diamond D Ranch (AL)
+- ✅ Brookshire Farm (LA)
+- ✅ Nourished By Nature (Brown's Ranch) (ND)
 
 ## Known Gaps & Notes
 
@@ -345,6 +349,8 @@ python3 build.py
 
 **Publish Directory:** Root (all HTML files in root and subdirectories)
 - 📅 **Oct 21, 2026 PT nightly ship:** Added **Brookshire Farm** (Abbeville, LA) — first Louisiana ranch on directory: family farm in Vermilion Parish selling grass-fed, pasture-finished beef through its own online store. Calves born on the farm and raised at their mothers' sides; cattle live on native and cultivated forages, never supplemented with grain, with no growth stimulants, antibiotics or synthetic additives; dry aged 14–21 days. Order online and pick up on a scheduled date at the farm or a pickup location (home delivery in some ZIPs); no shipping shown. Also sells beef shares, organ meats for pet food, pastured pork and chicken. Phone 337-893-5115 (contact form, no public email). Gaps/caveats: breed not named (breeds empty); 2026 beef shares sold out and many cuts sold out tonight; pickup-location list loads by ZIP so towns not listed; family-generation history only seen on LocalHarvest, so left off. Added Louisiana state hub at `/louisiana/` wired into home page hub links (41 states, 35 state hubs). Re-checked **3Z Cattle Co** (CA; live, phone 408-646-2059 confirmed) — last_checked 2026-10-21. **Wholly Cow Market** (KS) site live; free-shipping line now reads $175+ to CO and KS only (shipping text updated), but phone 620-353-8344 wasn't shown on its homepage/contact page, so last_checked left at 2026-09-29. Re-verified all 4 active deals live with both prices: Long Hill 15 lb ground $180 (reg $195), Mossyrock WAGYU BBQ BOX $395 (reg $475), Oreganic Crockpot Comfort Box $199 (reg $229), HeartBrand Ultimate Tailgate Bundle $185 (reg $206) — verified_at 2026-10-21. No new deals. States with listings but no hub: AR, NE, NM, SC, VA, VT. States still with no listings: AK, CT, DE, HI, MA, NH, NJ, ND, RI (ND leads seen: Nourished By Nature/Brown's Ranch, Bismarck; Wild Prairie Beef — not yet verified on their own sites). Total: 76 ranches, 4 deals, 3 markets, 20 butchers, 119 pages.
+
+- 📅 **Oct 22, 2026 PT nightly ship:** Added **Nourished By Nature (Brown's Ranch)** (Bismarck, ND) — first North Dakota ranch on directory: regenerative family ranch just east of Bismarck run by Paul and Jazmin Brown (Gabe and Shelly Brown bought the ranch in 1991; Gabe is the well-known soil-health teacher). All beef born and raised on the ranch (no outsourcing), 100% grass-fed and grass-finished on grass and forbs, no grain ever, on pasture year-round; no vaccines, dewormers, antibiotics, hormones or GMOs per the ranch; Tier 5 Regenified certified per the ranch; ~360-day pasture recovery, no-till since 1993 (brownsranch.us), no synthetic fertilizer since 2009; beef wet-aged 30 days. Home delivery to the lower 48 (ships frozen Mondays; SpeeDee in the upper Midwest, UPS elsewhere; $175 minimum, $25 fee, free over $199), weekly farm pickup at 3752 106th St NE and Bismarck pickup spots. Also sells bulk beef bundles (1/16 to whole), beef pet food, pastured pork/chicken/turkey/lamb and eggs. Phone 701-805-8870; email jaz@nourishedbynature.us (farm-pickup contact). Gaps: breed not named (breeds empty); prices only visible after account sign-up, so no deal considered; Regenified/drug-free claims are the ranch's own. Added North Dakota state hub at `/north-dakota/` wired into home page hub links (42 states, 36 state hubs). Re-checked **Alderspring Ranch** (ID; live, certified organic 100% grass-fed confirmed, FAQ confirms Western flat $29 under $250 / free over $250, lower 48 only; shop now says orders ship the following Monday — shipping text updated from "every other Monday") and **Black Wagyu Beef Co.** (FL; live, ≥83% American Wagyu + Fullblood DNA-tested, still Florida-only, phone (813) 212-2333 confirmed; free delivery within 100 miles is on orders over $250 — shipping text corrected) — last_checked 2026-10-22. Re-verified all 4 active deals live and in stock with both prices: Long Hill 15 lb ground $180 (reg $195), Mossyrock WAGYU BBQ BOX $395 (reg $475), Oreganic Crockpot Comfort Box $199 (reg $229), HeartBrand Ultimate Tailgate Bundle $185 (reg $206) — verified_at 2026-10-22. No new deals. Other ND leads seen but not added: Wild Prairie Beef (site returned empty to direct fetch; not verified tonight), Meadowlark Beef (Medora; beef sticks, no beef checkout seen), Lazy EY Ranch (Marmarth; waitlist only). States with listings but no hub: AR, NE, NM, SC, VA, VT. States still with no listings: AK, CT, DE, HI, MA, NH, NJ, RI. Wholly Cow phone (620-353-8344) still unconfirmed on its site. Total: 77 ranches, 4 deals, 3 markets, 20 butchers, 120 pages.
 
 ## Next Steps / Future Enhancements
 

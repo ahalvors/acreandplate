@@ -249,11 +249,11 @@
         "ground",
         "roasts"
       ],
-      "shipping": "Florida only (free delivery within 100 miles of ranch; free pickup at ranch)",
+      "shipping": "Florida only (free delivery on orders over $250 within 100 miles of the ranch, including Jacksonville, Orlando and Tampa areas; free local pickup at the ranch)",
       "phone": "813-212-2333",
       "note": "Florida-only shipping at this time (beta testing)",
       "description": "Multi-family operation on 130 acres in horse country between Ocala and Gainesville. Cattle live entire lives on pasture.",
-      "last_checked": "2026-10-01"
+      "last_checked": "2026-10-22"
     },
     {
       "slug": "quinn",
@@ -955,10 +955,10 @@
         "sixteenths",
         "sausage"
       ],
-      "shipping": "Ships frozen via UPS to 48 contiguous states (no AK/HI); Western orders under $250 flat $29, over $250 free ground; Eastern/Midwest higher live UPS rates; ships every other Monday from Salmon, ID warehouse",
+      "shipping": "Ships frozen via UPS to 48 contiguous states (no AK/HI); Western orders under $250 flat $29, over $250 free ground; Eastern/Midwest higher live UPS rates; ships on Mondays from central Idaho (shop says orders placed by Sunday ship the following Monday)",
       "note": "Family ranch (Glenn & Caryl Elzinga and daughters) in Pahsimeroi Valley, May, ID 83253 (7073 Custer Road). Online store: https://shopalderspring.com/. Email: help@alderspring.com. Phone intentionally not published on ranch site (request callback by email). Also sells organic lamb, pastured poultry/pork, dairy seasonally — directory focus is ranch-direct beef. Confirm current inventory and pricing on shop before ordering.",
       "description": "Family ranch in Idaho's Pahsimeroi Valley raising certified organic, 100% grass-fed and grass-finished Black Angus on wild mountain pastures and home-ranch forage. Ranch-direct since 2005; ships frozen organic beef nationwide (lower 48).",
-      "last_checked": "2026-09-30"
+      "last_checked": "2026-10-22"
     },
     {
       "slug": "darlington-ranch",
@@ -1681,6 +1681,32 @@
       "description": "Family farm in Abbeville (Vermilion Parish), Louisiana, selling grass-fed, pasture-finished beef direct through its own online store. Cattle spend their whole lives on forage on rotationally managed pastures, are never supplemented with grain, and are raised with no growth stimulants, antibiotics or other synthetic additives. Beef is dry aged 14 to 21 days in a temperature-controlled cooler.",
       "note": "Breed not named on the farm's website. 2026 beef shares are sold out (newsletter list for the next presale), and many individual cuts showed sold out on Oct 21, 2026. Pickup-location list loads by ZIP code on the site, so specific towns aren't listed here. Contact form on the site; no public email.",
       "last_checked": "2026-10-21"
+    },
+    {
+      "slug": "nourished-by-nature-browns-ranch",
+      "name": "Nourished By Nature (Brown's Ranch)",
+      "url": "https://nourishedbynature.us/",
+      "state": "ND",
+      "city": "Bismarck",
+      "genetics": "All beef born and raised on the family's own ranch east of Bismarck (no outsourcing from other ranches); 100% grass-fed and grass-finished on a diverse diet of grass and forbs, no grain ever; on pasture year-round; Tier 5 Regenified certified per the farm",
+      "breeds": [],
+      "products": [
+        "steaks (ribeye, NY strip, tenderloin filet, hanger, flat-iron, flank, coulotte, teres major, sirloin)",
+        "roasts (prime rib, chuck, rump, arm, sirloin tip, tri tip) and brisket",
+        "ground beef (several lean ratios) and patties",
+        "short ribs, oxtail, shanks, marrow and soup bones",
+        "organ meats, tallow, suet and bone broth",
+        "beef snack sticks, summer sausage, beef bacon and hot dogs",
+        "beef pet food",
+        "bulk beef bundles (1/16, 1/8, 1/4, 1/2, whole) and ranch boxes",
+        "pastured pork, chicken, turkey, lamb and eggs"
+      ],
+      "shipping": "Home delivery to the lower 48 states, shipped frozen on Mondays for Tuesday-Thursday delivery (SpeeDee in ND, SD, MN, IA, WI and parts of NE and IL; UPS elsewhere); $175 order minimum, $25 delivery fee, free shipping over $199. Weekly pickup at the farm (3752 106th St NE, Bismarck) and Bismarck pickup spots, plus farmers markets",
+      "phone": "701-805-8870",
+      "email": "jaz@nourishedbynature.us",
+      "description": "Regenerative family ranch just east of Bismarck, North Dakota, run by Paul and Jazmin Brown on the ranch Gabe and Shelly Brown bought in 1991. The beef is born and raised on the ranch, 100% grass-fed and grass-finished, and raised with no vaccines, dewormers, antibiotics, hormones or GMOs. Pastures get about 360 days of recovery between grazings, and the ranch has used no-till farming since 1993 and no synthetic fertilizer since 2009. Beef is wet-aged 30 days.",
+      "note": "Cattle breed not named on the ranch's website. Prices show only after creating an account. The Regenified and drug-free claims are the ranch's own. Email listed is the farm pickup contact (Jazmin Brown); the site also has a contact form.",
+      "last_checked": "2026-10-22"
     }
   ]
 }
