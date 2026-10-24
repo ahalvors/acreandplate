@@ -150,7 +150,7 @@
       "phone": "352-266-9504",
       "note": "Family farm since 1976, also offers Berkshire pork and pastured poultry",
       "description": "Among a handful of farms producing 100% grass-fed & finished Wagyu. Saturday pickups available at the farm.",
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-23"
     },
     {
       "slug": "rutledge-ryan",
@@ -451,7 +451,7 @@
       "phone": "864-747-8458",
       "description": "Family farm in South Carolina raising 100% Full Blood Wagyu pasture-raised and finished on a proprietary feeding program. No hormones; antibiotics only as necessary. AWA-certified herd. DNA-verified products available.",
       "featured": false,
-      "last_checked": "2026-10-01"
+      "last_checked": "2026-10-23"
     },
     {
       "slug": "koopmann-family-beef",
@@ -1707,6 +1707,31 @@
       "description": "Regenerative family ranch just east of Bismarck, North Dakota, run by Paul and Jazmin Brown on the ranch Gabe and Shelly Brown bought in 1991. The beef is born and raised on the ranch, 100% grass-fed and grass-finished, and raised with no vaccines, dewormers, antibiotics, hormones or GMOs. Pastures get about 360 days of recovery between grazings, and the ranch has used no-till farming since 1993 and no synthetic fertilizer since 2009. Beef is wet-aged 30 days.",
       "note": "Cattle breed not named on the ranch's website. Prices show only after creating an account. The Regenified and drug-free claims are the ranch's own. Email listed is the farm pickup contact (Jazmin Brown); the site also has a contact form.",
       "last_checked": "2026-10-22"
+    },
+    {
+      "slug": "sugar-hill-farmstead",
+      "name": "Sugar Hill Farmstead",
+      "url": "https://sugarhillfarmstead.com/",
+      "state": "HI",
+      "city": "Pepeekeo",
+      "genetics": "100% grass-fed and grass-finished beef raised on the family's own pasture on the Hamakua Coast of Hawaii Island; rotational grazing, no added growth hormones, antibiotics or vaccines per the farm",
+      "breeds": [],
+      "products": [
+        "beef shares (1/16, 1/8, 1/4, 1/2 and whole, plus low-histamine half and whole shares)",
+        "beef boxes and bundles (Family Farm Beef Box, Favorites Box, Slow Cooker Sampler, Beef Roast Sampler, ground beef bundles)",
+        "ground beef and Primal Ground (dry-aged ground beef blended with liver and heart)",
+        "roasts, brisket, stew beef, oxtail and beef tongue",
+        "marrow bones, bone broth bundles and beef tallow",
+        "grass-fed raw beef pet food",
+        "pastured pork, chicken, lamb, goat, rabbit and eggs",
+        "wild-caught Alaskan seafood and a monthly CSA subscription"
+      ],
+      "shipping": "Ships frozen by FedEx within Hawaii only (Hawaii Island, Oahu, Maui, Kauai and Molokai); shipping starts at a 20 lb order and beef shares can take up to 2 weeks to ship. Farm pickup and local delivery on Hawaii Island. No mainland shipping",
+      "phone": "808-987-7110",
+      "email": "brittany@sugarhillfarmstead.com",
+      "description": "Family farm on the Hamakua Coast of Hawaii Island run by Bodhi and Brittany Anderson; Bodhi is a sixth-generation kama'aina carrying on his great-grandfather's farming legacy there. They rebuilt former sweet potato and ginger land with rotational grazing for cattle, sheep, pigs and chickens, and were named Hamakua District Farmer/Rancher of the Year by the USDA in 2023. The beef is 100% grass-fed and grass-finished and harvested by the family, and the farm runs fully off-grid on solar and wind with rainwater catchment.",
+      "note": "Cattle breed not named on the farm's website. Ships only within Hawaii. Many individual cuts showed sold out tonight; beef shares and boxes were available. The hormone-, antibiotic- and vaccine-free claims are the farm's own.",
+      "last_checked": "2026-10-23"
     }
   ]
 }
