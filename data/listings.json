@@ -158,21 +158,22 @@
       "url": "https://rutledgeryanranch.com/",
       "state": "TX",
       "city": "Whitesboro",
-      "genetics": "100% Fullblood Wagyu; tracked genetic lineages from Japan",
+      "genetics": "Fullblood Wagyu and F1 Reserve Wagyu from elite Japanese Black Wagyu foundation-sire genetics; DNA-parentage verified per the ranch",
       "breeds": [
         "wagyu"
       ],
       "products": [
         "steaks",
-        "ground",
+        "ground and burger patties",
+        "beef bacon",
         "hot dogs",
         "jerky",
-        "whole/half/quarter beef"
+        "1/8, 1/4, 1/2 and whole beef"
       ],
-      "shipping": "Ships nationwide",
+      "shipping": "Ships frozen; for beef shares the ranch delivers within 100 miles of Whitesboro or offers ranch pickup, and arranges shipping beyond that at the customer's cost",
       "phone": "903-647-3006",
       "description": "Dry-aged for peak flavor. No steroids, growth hormones, or unnecessary antibiotics.",
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-24"
     },
     {
       "slug": "mahan",
@@ -1150,7 +1151,7 @@
       "phone": "801-913-0016",
       "note": "Family farm since 1908 with over three generations of experience. Custom cuts prepared by USDA-certified butcher. Dry-aged 14-21 days. Location: 1212 W. 400 N., Lehi, UT 84043. Contact: info@lewislivestock.com",
       "description": "Family farm in Lehi, Utah producing locally raised beef since 1908. Grass-fed and grain-finished cattle raised with care, without unnecessary antibiotics or hormones. Custom cuts prepared and vacuum-sealed by a USDA-certified butcher, dry-aged for 14-21 days for superior tenderness and flavor.",
-      "last_checked": "2026-10-02"
+      "last_checked": "2026-10-24"
     },
     {
       "slug": "grand-view-beef",
@@ -1732,6 +1733,29 @@
       "description": "Family farm on the Hamakua Coast of Hawaii Island run by Bodhi and Brittany Anderson; Bodhi is a sixth-generation kama'aina carrying on his great-grandfather's farming legacy there. They rebuilt former sweet potato and ginger land with rotational grazing for cattle, sheep, pigs and chickens, and were named Hamakua District Farmer/Rancher of the Year by the USDA in 2023. The beef is 100% grass-fed and grass-finished and harvested by the family, and the farm runs fully off-grid on solar and wind with rainwater catchment.",
       "note": "Cattle breed not named on the farm's website. Ships only within Hawaii. Many individual cuts showed sold out tonight; beef shares and boxes were available. The hormone-, antibiotic- and vaccine-free claims are the farm's own.",
       "last_checked": "2026-10-23"
+    },
+    {
+      "slug": "maple-hill-farm",
+      "name": "Maple Hill Farm",
+      "url": "https://maplehillbeef.com/",
+      "state": "MA",
+      "city": "Hardwick",
+      "genetics": "Angus cattle raised 100% grass-fed on pasture, without antibiotics, hormones or GMOs per the farm",
+      "breeds": [
+        "angus"
+      ],
+      "products": [
+        "steaks (rib eye, NY sirloin, tenderloin, flat iron, flank, skirt, hanger, chuck, top round)",
+        "roasts (chuck, eye round, bottom and top round, shoulder, ribeye) and brisket",
+        "ground beef, 6 oz patties, stew meat, kabob meat and steak tips",
+        "short ribs, oxtail, shanks, marrow and knuckle bones",
+        "heart, liver, tongue, suet and tendon",
+        "1/4, 1/2 and whole cow (by email)"
+      ],
+      "shipping": "Ships frozen to Massachusetts, Connecticut, Maine, New Hampshire, New Jersey, New York and Vermont ($25 for up to 30 lb, rising $25 per additional 30 lb). Also farm pickup at 1278 Prouty Road, Hardwick, and local delivery by ZIP code",
+      "description": "Grass-fed beef farm on a hill in Hardwick, in central Massachusetts, selling directly to families and restaurants in central and western Massachusetts. The 280-acre farm (70 acres of pasture, 60 of hay and the rest forest) was first settled in the 1730s, with a farmhouse dating to 1752 and an 1896 chestnut-beam barn from its days as a leading local dairy. Most of the land is now held in permanent conservation restrictions by The Trustees of Reservations and the East Quabbin Land Trust. Beef is processed at Adams Farm in Athol.",
+      "note": "No phone number or email shown on the farm's current website; reach the farm through its <a href=\"https://maplehillbeef.com/contact/\" target=\"_blank\" rel=\"noopener\">online contact form</a>. Orders go through the farm's Barn2Door online store; many cuts showed low inventory tonight. Grass-fed and no-antibiotics/hormones claims are the farm's own.",
+      "last_checked": "2026-10-24"
     }
   ]
 }
