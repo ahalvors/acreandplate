@@ -3,6 +3,18 @@
   publish = "."
 
 [[redirects]]
+  from = "/listings/midori-ranch/*"
+  to = "/listings/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/listings/midori-ranch"
+  to = "/listings/"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 404
