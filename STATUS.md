@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** October 24, 2026  
+**Last Updated:** October 25, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 79
+- **Total Ranches:** 80
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 5
 - **Farmers Markets:** 3
@@ -13,7 +13,7 @@
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
 - **Wagyu Ranches:** 25
 - **Akaushi Ranches:** 6
-- **Heritage Breeds:** 6
+- **Heritage Breeds:** 7
 - **Alabama Ranches:** 1
 - **Arizona Ranches:** 1
 - **Georgia Ranches:** 1
@@ -40,6 +40,7 @@
 - **Idaho Ranches:** 2
 - **Mississippi Ranches:** 1
 - **Nevada Ranches:** 1
+- **New Hampshire Ranches:** 1
 - **Montana Ranches:** 2
 - **New York Ranches:** 1
 - **Oklahoma Ranches:** 2
@@ -52,7 +53,7 @@
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 122
+- **Total Pages:** 123
 
 ## Pages Built
 
@@ -72,6 +73,7 @@
 - ✅ Alabama hub (`/alabama/`) - 1 ranch
 - ✅ Hawaii hub (`/hawaii/`) - 1 ranch
 - ✅ Massachusetts hub (`/massachusetts/`) - 1 ranch
+- ✅ New Hampshire hub (`/new-hampshire/`) - 1 ranch
 - ✅ Arizona hub (`/arizona/`) - 1 ranch
 - ✅ Illinois hub (`/illinois/`) - 1 ranch
 - ✅ Indiana hub (`/indiana/`) - 1 ranch
@@ -184,6 +186,7 @@
 - ✅ Diamond D Ranch (AL)
 - ✅ Brookshire Farm (LA)
 - ✅ Nourished By Nature (Brown's Ranch) (ND)
+- ✅ Yankee Farmer's Market (Pitcher Mountain Farm) (NH)
 
 ## Known Gaps & Notes
 
@@ -359,6 +362,8 @@ python3 build.py
 - 📅 **Oct 23, 2026 PT nightly ship:** Added **Sugar Hill Farmstead** (Pepeekeo, HI) — first Hawaii ranch on directory: family farm on the Hamakua Coast of Hawaii Island run by Bodhi and Brittany Anderson (Bodhi is a sixth-generation kama'aina continuing his great-grandfather's farming there). Rebuilt former sweet potato/ginger land with rotational grazing; USDA Hamakua District Farmer/Rancher of the Year 2023 per the farm; fully off-grid (solar + wind), rainwater catchment. Beef is 100% grass-fed and grass-finished, harvested by the family; no added hormones, antibiotics or vaccines per the farm. Sells beef shares (1/16 to whole, plus low-histamine shares), beef boxes and bundles, Primal Ground (with liver and heart), roasts, organ/bone items, tallow, raw beef pet food, plus pork, chicken, lamb, goat, rabbit, eggs, Alaskan seafood and a CSA. Ships frozen by FedEx within Hawaii only (Hawaii Island, Oahu, Maui, Kauai, Molokai; 20 lb minimum; shares up to 2 weeks to ship), farm pickup and local delivery; no mainland shipping. Phone 808-987-7110 and email brittany@sugarhillfarmstead.com (from the store's contact-information policy page). Gaps: breed not named (breeds empty); many individual cuts sold out tonight. Added Hawaii state hub at `/hawaii/` wired into home page hub links (43 states, 37 state hubs). **New deal:** Sugar Hill Family Farm Beef Box (20 lb) $260 (reg $280), in stock, no end date, Hawaii-only shipping (noted as gap). Re-checked **Caroland Farms Wagyu** (SC; live, 100% Full Blood Wagyu, phone 864-747-8458 confirmed) and **Pasture Prime Wagyu** (FL; live, 100% grass-fed Wagyu, ships throughout US, phone 352-266-9504 confirmed on contact page) — last_checked 2026-10-23. Wholly Cow phone (620-353-8344) still not on its homepage, last_checked left at 2026-09-29. Re-verified the 4 existing deals live and in stock: Long Hill 15 lb ground $180 (reg $195), Mossyrock WAGYU BBQ BOX $395 (reg $475), Oreganic Crockpot Comfort Box $199 (reg $229), HeartBrand Ultimate Tailgate Bundle $185 (regular price now shows $209, up from $206 — updated) — verified_at 2026-10-23. States with listings but no hub: AR, NE, NM, SC, VA, VT. States still with no listings: AK, CT, DE, MA, NH, NJ, RI (MA leads seen: Maple Hill Farm, Hardwick; Crooked Trail Farm, Orange; Promised Land Grassfed, Belchertown — not yet verified). Total: 78 ranches, 5 deals, 3 markets, 20 butchers, 121 pages.
 
 - 📅 **Oct 24, 2026 PT nightly ship:** Added **Maple Hill Farm** (Hardwick, MA) — first Massachusetts ranch on directory: grass-fed beef farm on a hill in central Massachusetts selling direct to families and restaurants. Angus cattle raised 100% grass-fed on pasture without antibiotics, hormones or GMOs (per the farm's products page). 280 acres (70 pasture, 60 hay, rest forest); land first settled in the 1730s, farmhouse 1752, 1896 chestnut-beam barn from its dairy days; most acreage in permanent conservation restrictions held by The Trustees of Reservations and East Quabbin Land Trust. Processed at Adams Farm, Athol. Barn2Door online store with ~40 beef items (steaks, roasts, ground/patties, organ meats, bones, suet/tendon; 1/4, 1/2 and whole cow by email). Fulfillment verified in the store: farm pickup at 1278 Prouty Road, local delivery by ZIP, and frozen shipping to MA, CT, ME, NH, NJ, NY and VT ($25 per 30 lb tier). Gaps: no phone or email on the farm's current website (phone (413) 477-0232 and maplehillbeef@gmail.com appear only in third-party listings / an old cached page, so left off — contact form only); "grass-finished" wording, USDA grade and owner name not on the current site, so not claimed; delivery radius not stated. Added Massachusetts state hub at `/massachusetts/` wired into home page hub links (44 states, 38 state hubs). Re-checked **Rutledge Ryan Ranch** (TX; live, phone 903-647-3006 confirmed; site sells both Fullblood Wagyu and F1 Reserve Wagyu, DNA-parentage verified — genetics corrected from "100% Fullblood"; "Ships nationwide" replaced with what the site actually says: delivery within 100 miles or ranch pickup for shares, other shipping arranged at customer cost; products updated) and **Lewis Livestock** (UT; live, family farm since 1908, grass-fed/grain-finished, dry-aged 14–21 days, phone 801-913-0016 and info@lewislivestock.com confirmed) — last_checked 2026-10-24. Re-verified all 5 deals live with both prices: Long Hill 15 lb ground $180 (reg $195), Mossyrock WAGYU BBQ BOX $395 (reg $475), Oreganic Crockpot Comfort Box $199 (reg $229), HeartBrand Ultimate Tailgate Bundle $185 (reg $209), Sugar Hill Family Farm Beef Box $260 (reg $280) — verified_at 2026-10-24. No deal changes. Other MA leads not added: Crooked Trail Farm (Orange; mixed-livestock farm where beef is a small share per CISA; pickup at the farm or Amherst), Promised Land Grassfed (Belchertown; not vetted). States with listings but no hub: AR, NE, NM, SC, VA, VT. States still with no listings: AK, CT, DE, NH, NJ, RI. Wholly Cow phone still unconfirmed (last_checked 2026-09-29). Total: 79 ranches, 5 deals, 3 markets, 20 butchers, 122 pages.
+
+- 📅 **Oct 25, 2026 PT nightly ship:** Added **Yankee Farmer's Market (Pitcher Mountain Farm)** (Warner, NH) — first New Hampshire ranch on directory: family-run meat farm started in 1998 by Keira and Brian Farmer (first five buffalo bought by selling their car). Now raises bison, Scottish Highland cattle and pastured pigs across three farm locations; beef is 100% grass-fed and grass-finished on open pasture at Pitcher Mountain Farm, USDA inspected, no hormones/antibiotics (farm's claims). Shopify store with ~25 beef items (steaks, tips, ground/burgers, roasts, brisket, ribs, osso buco; 1/4, 1/2 and whole beef packages, Beef Freezer Teaser, Beef Bundle). Ships frozen by UPS to the continental U.S. (Mon–Wed, arrives in 2 days or less); farm store pickup at 360 Route 103 E, Warner. Phone 603-456-2833 and info@yankeefarmersmarket.com from the farm's own site. Gaps/caveats: the farm says it also partners with local farms for selection, so not every beef cut is guaranteed to be from its own Highland herd (stated on the listing); acreage and processor not named. Tagged heritage + scottish-highland. Bulk package markdowns (e.g. whole beef $3,870 vs $4,300) look like standing tier pricing, not a sale, so not added as deals. Added New Hampshire state hub at `/new-hampshire/` wired into home page hub links (45 states, 39 state hubs). Re-verified all 5 deals live at the same prices (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229, HeartBrand $185/$209, Sugar Hill Farmstead $260/$280). Remaining uncovered states: AK, CT, DE, NJ, RI; C&F Farms (NH delivery) noted but its farm location wasn't confirmed tonight.
 
 ## Next Steps / Future Enhancements
 
