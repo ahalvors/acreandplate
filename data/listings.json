@@ -1756,6 +1756,30 @@
       "description": "Grass-fed beef farm on a hill in Hardwick, in central Massachusetts, selling directly to families and restaurants in central and western Massachusetts. The 280-acre farm (70 acres of pasture, 60 of hay and the rest forest) was first settled in the 1730s, with a farmhouse dating to 1752 and an 1896 chestnut-beam barn from its days as a leading local dairy. Most of the land is now held in permanent conservation restrictions by The Trustees of Reservations and the East Quabbin Land Trust. Beef is processed at Adams Farm in Athol.",
       "note": "No phone number or email shown on the farm's current website; reach the farm through its <a href=\"https://maplehillbeef.com/contact/\" target=\"_blank\" rel=\"noopener\">online contact form</a>. Orders go through the farm's Barn2Door online store; many cuts showed low inventory tonight. Grass-fed and no-antibiotics/hormones claims are the farm's own.",
       "last_checked": "2026-10-24"
+    },
+    {
+      "slug": "yankee-farmers-market",
+      "name": "Yankee Farmer's Market (Pitcher Mountain Farm)",
+      "url": "https://yankeefarmersmarket.com/",
+      "state": "NH",
+      "city": "Warner",
+      "genetics": "Scottish Highland cattle raised 100% grass-fed and grass-finished on open pasture at Pitcher Mountain Farm, with no hormones or antibiotics per the farm; some beef comes from partner local farms",
+      "breeds": [
+        "heritage",
+        "scottish-highland"
+      ],
+      "products": [
+        "steaks (ribeye, bone-in ribeye, NY strip, sirloin, tenderloin)",
+        "steak tips, kabobs, shaved steak and stew meat",
+        "ground beef and burgers",
+        "roasts, brisket, short ribs, back ribs and osso buco",
+        "1/4, 1/2 and whole beef packages, plus a Beef Freezer Teaser and Beef Bundle",
+        "pasture-raised bison (buffalo), the farm's original herd"
+      ],
+      "shipping": "Ships frozen by UPS anywhere in the continental U.S. (orders go out Monday to Wednesday and arrive in 2 days or less); nationwide shipping on most bulk packages. Also pickup at the farm store, 360 Route 103 E, Warner",
+      "description": "Family-run New Hampshire meat farm started in 1998 by Keira and Brian Farmer, who sold their car to buy their first five buffalo. They now raise bison, Scottish Highland cattle and pastured pigs across three farm locations, with the cattle on pasture at Pitcher Mountain Farm, and run a year-round farm store in Warner. Cattle graze rotated pastures, and the meat is USDA inspected.",
+      "note": "Phone 603-456-2833, info@yankeefarmersmarket.com. The farm says it also partners with trusted local farms for more selection, so not every beef cut is necessarily from its own Highland herd. Grass-finished and no-hormones/antibiotics claims are the farm's own. Farm store open Monday to Thursday 10 to 5 and Saturday 9 to 4.",
+      "last_checked": "2026-10-25"
     }
   ]
 }
