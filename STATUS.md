@@ -1,13 +1,13 @@
 # Acre & Plate - Status
 
-**Last Updated:** October 25, 2026  
+**Last Updated:** October 26, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 80
+- **Total Ranches:** 81
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
-- **Active Deals:** 5
+- **Active Deals:** 4
 - **Farmers Markets:** 3
 - **Butcher Shops:** 20
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
@@ -36,6 +36,7 @@
 - **Texas Ranches:** 6
 - **California Ranches:** 19
 - **Colorado Ranches:** 2
+- **Connecticut Ranches:** 1
 - **Florida Ranches:** 2
 - **Idaho Ranches:** 2
 - **Mississippi Ranches:** 1
@@ -53,14 +54,14 @@
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 123
+- **Total Pages:** 124
 
 ## Pages Built
 
 ### Core Pages
 - ✅ Home (`index.html`)
 - ✅ All Listings (`/listings/`)
-- ✅ Seasonal Deals (`/deals/`) - 5 active deals
+- ✅ Seasonal Deals (`/deals/`) - 4 active deals
 - ✅ Local Activity (`/markets/`) - 3 farmers markets + 19 butcher shops (UPDATED!)
 - ✅ Featured Ranch (`/featured/`) - monetization landing page
 - ✅ Featured Ranch Thanks (`/featured/thanks/`) - post-checkout page
@@ -74,6 +75,7 @@
 - ✅ Hawaii hub (`/hawaii/`) - 1 ranch
 - ✅ Massachusetts hub (`/massachusetts/`) - 1 ranch
 - ✅ New Hampshire hub (`/new-hampshire/`) - 1 ranch
+- ✅ Connecticut hub (`/connecticut/`) - 1 ranch
 - ✅ Arizona hub (`/arizona/`) - 1 ranch
 - ✅ Illinois hub (`/illinois/`) - 1 ranch
 - ✅ Indiana hub (`/indiana/`) - 1 ranch
@@ -187,6 +189,7 @@
 - ✅ Brookshire Farm (LA)
 - ✅ Nourished By Nature (Brown's Ranch) (ND)
 - ✅ Yankee Farmer's Market (Pitcher Mountain Farm) (NH)
+- ✅ Devon Point Farm (CT)
 
 ## Known Gaps & Notes
 
@@ -364,6 +367,8 @@ python3 build.py
 - 📅 **Oct 24, 2026 PT nightly ship:** Added **Maple Hill Farm** (Hardwick, MA) — first Massachusetts ranch on directory: grass-fed beef farm on a hill in central Massachusetts selling direct to families and restaurants. Angus cattle raised 100% grass-fed on pasture without antibiotics, hormones or GMOs (per the farm's products page). 280 acres (70 pasture, 60 hay, rest forest); land first settled in the 1730s, farmhouse 1752, 1896 chestnut-beam barn from its dairy days; most acreage in permanent conservation restrictions held by The Trustees of Reservations and East Quabbin Land Trust. Processed at Adams Farm, Athol. Barn2Door online store with ~40 beef items (steaks, roasts, ground/patties, organ meats, bones, suet/tendon; 1/4, 1/2 and whole cow by email). Fulfillment verified in the store: farm pickup at 1278 Prouty Road, local delivery by ZIP, and frozen shipping to MA, CT, ME, NH, NJ, NY and VT ($25 per 30 lb tier). Gaps: no phone or email on the farm's current website (phone (413) 477-0232 and maplehillbeef@gmail.com appear only in third-party listings / an old cached page, so left off — contact form only); "grass-finished" wording, USDA grade and owner name not on the current site, so not claimed; delivery radius not stated. Added Massachusetts state hub at `/massachusetts/` wired into home page hub links (44 states, 38 state hubs). Re-checked **Rutledge Ryan Ranch** (TX; live, phone 903-647-3006 confirmed; site sells both Fullblood Wagyu and F1 Reserve Wagyu, DNA-parentage verified — genetics corrected from "100% Fullblood"; "Ships nationwide" replaced with what the site actually says: delivery within 100 miles or ranch pickup for shares, other shipping arranged at customer cost; products updated) and **Lewis Livestock** (UT; live, family farm since 1908, grass-fed/grain-finished, dry-aged 14–21 days, phone 801-913-0016 and info@lewislivestock.com confirmed) — last_checked 2026-10-24. Re-verified all 5 deals live with both prices: Long Hill 15 lb ground $180 (reg $195), Mossyrock WAGYU BBQ BOX $395 (reg $475), Oreganic Crockpot Comfort Box $199 (reg $229), HeartBrand Ultimate Tailgate Bundle $185 (reg $209), Sugar Hill Family Farm Beef Box $260 (reg $280) — verified_at 2026-10-24. No deal changes. Other MA leads not added: Crooked Trail Farm (Orange; mixed-livestock farm where beef is a small share per CISA; pickup at the farm or Amherst), Promised Land Grassfed (Belchertown; not vetted). States with listings but no hub: AR, NE, NM, SC, VA, VT. States still with no listings: AK, CT, DE, NH, NJ, RI. Wholly Cow phone still unconfirmed (last_checked 2026-09-29). Total: 79 ranches, 5 deals, 3 markets, 20 butchers, 122 pages.
 
 - 📅 **Oct 25, 2026 PT nightly ship:** Added **Yankee Farmer's Market (Pitcher Mountain Farm)** (Warner, NH) — first New Hampshire ranch on directory: family-run meat farm started in 1998 by Keira and Brian Farmer (first five buffalo bought by selling their car). Now raises bison, Scottish Highland cattle and pastured pigs across three farm locations; beef is 100% grass-fed and grass-finished on open pasture at Pitcher Mountain Farm, USDA inspected, no hormones/antibiotics (farm's claims). Shopify store with ~25 beef items (steaks, tips, ground/burgers, roasts, brisket, ribs, osso buco; 1/4, 1/2 and whole beef packages, Beef Freezer Teaser, Beef Bundle). Ships frozen by UPS to the continental U.S. (Mon–Wed, arrives in 2 days or less); farm store pickup at 360 Route 103 E, Warner. Phone 603-456-2833 and info@yankeefarmersmarket.com from the farm's own site. Gaps/caveats: the farm says it also partners with local farms for selection, so not every beef cut is guaranteed to be from its own Highland herd (stated on the listing); acreage and processor not named. Tagged heritage + scottish-highland. Bulk package markdowns (e.g. whole beef $3,870 vs $4,300) look like standing tier pricing, not a sale, so not added as deals. Added New Hampshire state hub at `/new-hampshire/` wired into home page hub links (45 states, 39 state hubs). Re-verified all 5 deals live at the same prices (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229, HeartBrand $185/$209, Sugar Hill Farmstead $260/$280). Remaining uncovered states: AK, CT, DE, NJ, RI; C&F Farms (NH delivery) noted but its farm location wasn't confirmed tonight.
+
+- 📅 **Oct 26, 2026 PT nightly ship:** Added **Devon Point Farm** (North Stonington, CT) — first Connecticut ranch on directory: family farm run by Patty and Erick Taylor, who have raised American Milking Devons together since 2000 and are Livestock Conservancy members. Beef is 100% grass-fed and grass-finished, never grain, rotationally grazed with hay in winter; no hormones, vaccines or antibiotics (farm's claims); butchered monthly year-round under USDA inspection in a Temple Grandin-designed facility; dry aged 10 days to two weeks. Sells individual cuts, ground/patties, roasts, organs, 35 lb sampler boxes ($475) and quarter/half beef by hanging weight ($8.05/$7.85 per lb), plus heritage pork. No shipping shown: pickup by appointment (North Stonington; bulk also Woodstock) and delivery by special arrangement on routes around New Haven, Hartford, Providence, Worcester and Boston. Phone 860-942-6292, devonpointfarm@gmail.com. Gaps/caveats: farm calls itself "organic" but no certification shown, so not claimed as certified; beef breed not stated (the farm's Devons are sold as breeding stock), so breeds left empty. Added Connecticut state hub at `/connecticut/` wired into home page hub links (46 states, 40 state hubs). Deals: **dropped HeartBrand Ultimate Tailgate Bundle** (product now unavailable/sold out on HeartBrand's store); re-verified the other 4 live at the same prices (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229, Sugar Hill Farmstead $260/$280). Remaining uncovered states: AK, DE, NJ, RI. Total: 81 ranches, 4 deals, 124 pages.
 
 ## Next Steps / Future Enhancements
 
