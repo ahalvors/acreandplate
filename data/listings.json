@@ -1801,6 +1801,28 @@
       "description": "Family farm in North Stonington, Connecticut run by Patty and Erick Taylor, who have raised American Milking Devons together since 2000 (the first calf was their first purchase as a couple). They sell 100% grass-fed, grass-finished beef and heritage pork direct, butcher monthly year-round under USDA inspection, dry-age beef 10 days to two weeks, and follow Temple Grandin's low-stress handling methods.",
       "note": "Phone 860-942-6292, devonpointfarm@gmail.com, 54 Jeremy Hill Road (open by appointment only). The farm describes itself as an organic farm, but no organic certification is shown on its site, so it is not listed as certified. Grass-finished and no-hormones/antibiotics/vaccines claims are the farm's own. Bulk prices tonight: half $7.85/lb and quarter $8.05/lb hanging weight.",
       "last_checked": "2026-10-26"
+    },
+    {
+      "slug": "aquidneck-farms",
+      "name": "Aquidneck Farms",
+      "url": "https://aquidneckfarms.com/",
+      "state": "RI",
+      "city": "Portsmouth",
+      "genetics": "100% grass-fed and grass-finished beef, never finished on grain; cattle are born on the farm, raised on mother's milk, naturally weaned and rotationally grazed, with farm-grown hay and silage through the winter. No hormones or prophylactic antibiotics in feed, and pastures are fertilized with the farm's own manure and compost (per the farm). The herd is selected for genetics suited to a grass-based system; the breed is not named",
+      "breeds": [],
+      "products": [
+        "steaks (NY strip, sirloin, rib steak, tenderloin, flat iron, hanger, skirt, flank, teres major, steak tips)",
+        "ground beef, patties and meatball mix",
+        "roasts (chuck, rib, eye of round, top and bottom round, London broil), brisket, short ribs and stew beef",
+        "beef sausage, hot dogs and kielbasa",
+        "oxtail, shank, bones, cheek, tongue, heart, kidney and liver",
+        "20 lb mixed-cut freezer boxes (pre-order)",
+        "pastured poultry"
+      ],
+      "shipping": "No shipping shown. Farm store at 333 Wapping Road, Portsmouth (Mon-Sat 11-5) with curbside pickup, plus local delivery on Thursdays and Fridays through the online store (fee based on location); the cuts page says orders over $350 are delivered",
+      "description": "Family farm in Portsmouth, Rhode Island on Aquidneck Island, raising 100% grass-fed, grass-finished beef from cattle born on the farm. Beef is processed in USDA facilities in nearby southern Massachusetts, sold frozen and cryo-wrapped at the on-farm store and online, and also supplied wholesale to local restaurants and grocers.",
+      "note": "Phone (401) 849-0337, info@aquidneckfarms.com. Grass-finished and no-hormones claims are the farm's own; no organic or third-party certification is claimed. The farm notes its management plan is NRCS-approved and reviewed by Rhode Island DEM. Online store prices weren't readable tonight, so no prices are listed.",
+      "last_checked": "2026-10-27"
     }
   ]
 }
