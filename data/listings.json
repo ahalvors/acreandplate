@@ -1823,6 +1823,32 @@
       "description": "Family farm in Portsmouth, Rhode Island on Aquidneck Island, raising 100% grass-fed, grass-finished beef from cattle born on the farm. Beef is processed in USDA facilities in nearby southern Massachusetts, sold frozen and cryo-wrapped at the on-farm store and online, and also supplied wholesale to local restaurants and grocers.",
       "note": "Phone (401) 849-0337, info@aquidneckfarms.com. Grass-finished and no-hormones claims are the farm's own; no organic or third-party certification is claimed. The farm notes its management plan is NRCS-approved and reviewed by Rhode Island DEM. Online store prices weren't readable tonight, so no prices are listed.",
       "last_checked": "2026-10-27"
+    },
+    {
+      "slug": "beaver-brook-ranch",
+      "name": "Beaver Brook Ranch",
+      "url": "https://beaverbrookranch.com/",
+      "state": "NJ",
+      "city": "Hope",
+      "genetics": "100% grass-fed and grass-finished Black Angus beef, never grain-fed or feedlot-finished. Cattle are born, raised and grazed on the ranch's 600+ acres across 8 nearby Warren County locations, rotated May-November through 15 pesticide- and herbicide-free pastures and fed only farm-grown hay in winter, then finished on grass to 24-28 months. No antibiotic treatments or hormone implants; every carcass dry-aged 14 days (per the ranch)",
+      "breeds": [
+        "angus"
+      ],
+      "products": [
+        "individual cuts (build your own order): steaks, roasts and ground beef",
+        "Grillin' Beef Sampler and Grillin' Combo Sampler (beef + pork) boxes",
+        "bulk beef shares: whole (about 400 lb), half (about 200 lb) and quarter (about 100 lb), pre-order with custom cuts",
+        "organs, marrow bones, suet and rendered tallow",
+        "grass-fed beef snack sticks",
+        "pasture- and woodland-raised pork shares, plus chicken and wild salmon",
+        "Rancher's Render tallow skin balms"
+      ],
+      "shipping": "Ships frozen from the ranch every Monday afternoon (order by 9am Monday), typically arriving in 1-2 days; free shipping over $250 to NJ, NY, PA, CT, MA, VT, DE, MD, RI, ME, NH, VA, NC, SC, GA, TN, KY, OH, MI, IL and WV, UPS 2nd Day Air (fee at checkout) to other states, no shipping to Alaska or Hawaii. Farm store pickup at 341 Johnsonburg Road (Fri 9-3, Mon and Sat 9-12, otherwise by appointment) saves 10-20% versus shipping",
+      "description": "Third-generation family farm in Hope, New Jersey (Warren County, off I-80 exit 12) raising 100% grass-fed, grass-finished Black Angus beef and pasture-raised pork, sold direct to families across the tri-state area by the cut, in sampler boxes and in bulk shares. Owners Stefan, Lorena and Juliet answer customer questions directly.",
+      "phone": "908-509-7102",
+      "note": "Call or text (908) 509-7102. The ranch's email address is hidden behind a spam filter on its site, so it isn't listed here. The site gives the farm store address as both Hope and Blairstown, NJ (341 Johnsonburg Road, 07825). Grass-finished, no-antibiotics and no-hormones claims are the ranch's own; no organic or third-party certification is claimed. Bulk shares are pre-order with limited availability.",
+      "featured": false,
+      "last_checked": "2026-10-28"
     }
   ]
 }
