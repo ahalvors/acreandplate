@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** October 27, 2026  
+**Last Updated:** October 28, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 82
+- **Total Ranches:** 83
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 4
 - **Farmers Markets:** 3
@@ -42,6 +42,7 @@
 - **Mississippi Ranches:** 1
 - **Nevada Ranches:** 1
 - **New Hampshire Ranches:** 1
+- **New Jersey Ranches:** 1
 - **Montana Ranches:** 2
 - **New York Ranches:** 1
 - **Oklahoma Ranches:** 2
@@ -55,7 +56,7 @@
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 125
+- **Total Pages:** 126
 
 ## Pages Built
 
@@ -78,6 +79,7 @@
 - ✅ New Hampshire hub (`/new-hampshire/`) - 1 ranch
 - ✅ Connecticut hub (`/connecticut/`) - 1 ranch
 - ✅ Rhode Island hub (`/rhode-island/`) - 1 ranch
+- ✅ New Jersey hub (`/new-jersey/`) - 1 ranch
 - ✅ Arizona hub (`/arizona/`) - 1 ranch
 - ✅ Illinois hub (`/illinois/`) - 1 ranch
 - ✅ Indiana hub (`/indiana/`) - 1 ranch
@@ -373,6 +375,8 @@ python3 build.py
 - 📅 **Oct 26, 2026 PT nightly ship:** Added **Devon Point Farm** (North Stonington, CT) — first Connecticut ranch on directory: family farm run by Patty and Erick Taylor, who have raised American Milking Devons together since 2000 and are Livestock Conservancy members. Beef is 100% grass-fed and grass-finished, never grain, rotationally grazed with hay in winter; no hormones, vaccines or antibiotics (farm's claims); butchered monthly year-round under USDA inspection in a Temple Grandin-designed facility; dry aged 10 days to two weeks. Sells individual cuts, ground/patties, roasts, organs, 35 lb sampler boxes ($475) and quarter/half beef by hanging weight ($8.05/$7.85 per lb), plus heritage pork. No shipping shown: pickup by appointment (North Stonington; bulk also Woodstock) and delivery by special arrangement on routes around New Haven, Hartford, Providence, Worcester and Boston. Phone 860-942-6292, devonpointfarm@gmail.com. Gaps/caveats: farm calls itself "organic" but no certification shown, so not claimed as certified; beef breed not stated (the farm's Devons are sold as breeding stock), so breeds left empty. Added Connecticut state hub at `/connecticut/` wired into home page hub links (46 states, 40 state hubs). Deals: **dropped HeartBrand Ultimate Tailgate Bundle** (product now unavailable/sold out on HeartBrand's store); re-verified the other 4 live at the same prices (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229, Sugar Hill Farmstead $260/$280). Remaining uncovered states: AK, DE, NJ, RI. Total: 81 ranches, 4 deals, 124 pages.
 
 - 📅 **Oct 27, 2026 PT nightly ship:** Added **Aquidneck Farms** (Portsmouth, RI) — first Rhode Island ranch on directory: Aquidneck Island family farm whose cattle are born on the farm, raised on mother's milk and rotationally grazed; beef is 100% grass-fed and grass-finished, never grain-finished, with farm-grown hay and silage in winter; no hormones or prophylactic antibiotics (farm's claims). Processed in USDA facilities in southern Massachusetts, sold frozen and cryo-wrapped: full cut list (steaks, roasts, ground, sausage/hot dogs/kielbasa, organs) plus pre-order 20 lb mixed freezer boxes; pastured poultry too. No shipping shown: farm store at 333 Wapping Road (Mon-Sat 11-5) with curbside pickup, local delivery Thursdays/Fridays via the Barn2Door online store; cuts page says orders over $350 are delivered. Phone (401) 849-0337, info@aquidneckfarms.com. Gaps/caveats: breed not named (breeds left empty); online store is JavaScript-only so no prices captured; no certifications claimed. Added Rhode Island state hub at `/rhode-island/` wired into home page hub links (47 states, 41 state hubs). Deals: re-verified all 4 live at the same prices (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229, Sugar Hill Farmstead $260/$280). Remaining uncovered states: AK, DE, NJ. Other RI leads seen but not vetted: Sanford Farm (Exeter, pickup only), White Rock Farm (Little Compton), New England Grass Fed (Hope Valley), Pat's Pastured (East Greenwich). Total: 82 ranches, 4 deals, 125 pages.
+
+- 📅 **Oct 28, 2026 PT nightly ship:** Added **Beaver Brook Ranch** (Hope, NJ) — first New Jersey ranch on directory: third-generation family farm in Warren County (off I-80 exit 12) raising 100% grass-fed and grass-finished Black Angus beef on 600+ acres across 8 nearby locations; rotated May-November through 15 pesticide/herbicide-free pastures, farm-grown hay in winter, finished on grass to 24-28 months; no antibiotic treatments or hormone implants; every carcass dry-aged 14 days (ranch's claims). Sells individual cuts, Grillin' Beef and Combo samplers, whole/half/quarter beef shares (pre-order, ~400/200/100 lb), organs, bones, suet/tallow, snack sticks, plus pastured pork, chicken and wild salmon. Ships frozen every Monday (1-2 day delivery); free over $250 to 21 eastern/midwestern states, UPS 2nd Day Air elsewhere, no AK/HI; farm store pickup at 341 Johnsonburg Road saves 10-20%. Phone/text (908) 509-7102. Gaps/caveats: email is obfuscated on the site so not listed; the site gives the address as both Hope and Blairstown (07825); no certifications claimed. Added New Jersey state hub at `/new-jersey/` wired into home page hub links (48 states, 42 state hubs). Deals: re-verified all 4 live at the same prices (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229, Sugar Hill Farmstead $260/$280, in stock per Shopify). Remaining uncovered states: AK, DE. Other NJ leads seen but not vetted: Vitality Pastures (southern NJ), Cotton Cattle Company (Kash Valley Farm Store, Asbury). Total: 83 ranches, 4 deals, 126 pages.
 
 ## Next Steps / Future Enhancements
 
