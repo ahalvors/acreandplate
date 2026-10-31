@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** October 28, 2026  
+**Last Updated:** October 30, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 83
+- **Total Ranches:** 85
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 4
 - **Farmers Markets:** 3
@@ -15,6 +15,7 @@
 - **Akaushi Ranches:** 6
 - **Heritage Breeds:** 7
 - **Alabama Ranches:** 1
+- **Alaska Ranches:** 1
 - **Arizona Ranches:** 1
 - **Georgia Ranches:** 1
 - **Hawaii Ranches:** 1
@@ -37,6 +38,7 @@
 - **California Ranches:** 19
 - **Colorado Ranches:** 2
 - **Connecticut Ranches:** 1
+- **Delaware Ranches:** 1
 - **Florida Ranches:** 2
 - **Idaho Ranches:** 2
 - **Mississippi Ranches:** 1
@@ -56,7 +58,7 @@
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 126
+- **Total Pages:** 128
 
 ## Pages Built
 
@@ -74,6 +76,7 @@
 - ✅ Akaushi hub (`/akaushi/`) - 5 ranches
 - ✅ Heritage Breeds hub (`/heritage/`) - 5 ranches
 - ✅ Alabama hub (`/alabama/`) - 1 ranch
+- ✅ Alaska hub (`/alaska/`) - 1 ranch
 - ✅ Hawaii hub (`/hawaii/`) - 1 ranch
 - ✅ Massachusetts hub (`/massachusetts/`) - 1 ranch
 - ✅ New Hampshire hub (`/new-hampshire/`) - 1 ranch
@@ -194,6 +197,8 @@
 - ✅ Nourished By Nature (Brown's Ranch) (ND)
 - ✅ Yankee Farmer's Market (Pitcher Mountain Farm) (NH)
 - ✅ Devon Point Farm (CT)
+- ✅ Currey Farms (DE)
+- ✅ Alaska Natural Foods (Blue Creek Livestock) (AK)
 
 ## Known Gaps & Notes
 
@@ -379,6 +384,7 @@ python3 build.py
 - 📅 **Oct 28, 2026 PT nightly ship:** Added **Beaver Brook Ranch** (Hope, NJ) — first New Jersey ranch on directory: third-generation family farm in Warren County (off I-80 exit 12) raising 100% grass-fed and grass-finished Black Angus beef on 600+ acres across 8 nearby locations; rotated May-November through 15 pesticide/herbicide-free pastures, farm-grown hay in winter, finished on grass to 24-28 months; no antibiotic treatments or hormone implants; every carcass dry-aged 14 days (ranch's claims). Sells individual cuts, Grillin' Beef and Combo samplers, whole/half/quarter beef shares (pre-order, ~400/200/100 lb), organs, bones, suet/tallow, snack sticks, plus pastured pork, chicken and wild salmon. Ships frozen every Monday (1-2 day delivery); free over $250 to 21 eastern/midwestern states, UPS 2nd Day Air elsewhere, no AK/HI; farm store pickup at 341 Johnsonburg Road saves 10-20%. Phone/text (908) 509-7102. Gaps/caveats: email is obfuscated on the site so not listed; the site gives the address as both Hope and Blairstown (07825); no certifications claimed. Added New Jersey state hub at `/new-jersey/` wired into home page hub links (48 states, 42 state hubs). Deals: re-verified all 4 live at the same prices (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229, Sugar Hill Farmstead $260/$280, in stock per Shopify). Remaining uncovered states: AK, DE. Other NJ leads seen but not vetted: Vitality Pastures (southern NJ), Cotton Cattle Company (Kash Valley Farm Store, Asbury). Total: 83 ranches, 4 deals, 126 pages.
 
 - 📅 **Oct 29, 2026 PT nightly ship:** Added **Currey Farms** (Harrington, DE) — first Delaware ranch on directory: fourth-generation family farm founded in 1942 by William Thomas Sr. and Jr., now owned and run by Will and Molly Currey, who breed their own cattle and sell beef direct from the farm. Grass-fed, grain-finished: cattle graze pasture most of their lives on farm-grown hay and forages, finished with non-GMO grain the farm grinds itself; no antibiotics, growth hormones, GMOs or steroids (farm's claims). Sells ~25 individual cuts priced per lb (ground $6, ribeye $16, NY strip $17, filet $20), organs and soup bones, a 10 lb ground package ($54), a $400 Freezer Filler package, and quarter/half/whole beef at $5.25/lb dress weight; also hay and Priefert equipment. No shipping: order via the form on the beef page, then pickup at 712 Flat Iron Rd (Thu/Fri 12-5, Sat 8-12). Phone 302-245-3464, curreyfarms@gmail.com. Gaps/caveats: breed not named (breeds empty); grain-finished (not grass-finished), stated on the listing; processor not named; no certifications claimed. Added Delaware state hub at `/delaware/` wired into home page hub links (49 states, 43 state hubs). Other DE leads seen but not added: Bullock Farms (Harrington; online store with pickup and $8 delivery within 30 miles, processed at Haass's in Dover, but no raising/feed details or phone on the site), Pine Acre Farm (Millsboro; grass-fed beef by the package, Saturday farm hours, not fully vetted). Deals: re-verified all 4 live at the same prices (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229, Sugar Hill Farmstead $260/$280). Remaining uncovered state: AK. Total: 84 ranches, 4 deals, 127 pages.
+- 📅 **Oct 30, 2026 PT nightly ship:** Added **Alaska Natural Foods (Blue Creek Livestock)** (Delta Junction, AK) — first Alaska ranch on directory, completing all 50 states: family ranch run by Tangy and Matt Bates, who moved their Idaho herd to Delta Junction in 2016. Angus and Simmental lines being bred up with Murray Grey; all cattle born, raised and finished on the ranch. Beef shares are grass-fed and barley-finished (sprouted-barley fodder, ranch hay and local chopped barley in winter); 100% grass-fed by request only. Regenerative soil practices per the ranch. Sells quarter/half/whole shares at $11.00/lb hanging weight ($250 deposit), 1/16-share Cowboy's Choice and Premium Butcher Cuts boxes ($544), Alaska Rugged Ground Box ($352-$1,376), hamburger shares, a 12-month meat CSA, plus bison, pork and lamb. No shipping: delivery to North Pole, Fairbanks, Palmer and Anchorage; farm store temporarily closed. Phone (208) 390-5904 per contact page; no public email. Gaps/caveats: homepage says "grass fed and finished" but product page says barley-finished (listing follows product page); processor not named; no certifications claimed; tagged angus only (Murray Grey/Simmental in genetics text). Added Alaska state hub at `/alaska/` wired into home page hub links (50 states, 44 state hubs). Other AK leads seen but not added: Palmer Farms Beef (Palmer; online shop with local pickup, not vetted tonight), Alaska Meat Company (Sitkinak Island/Kodiak; homepage items sold out), Burris Ranch (Point MacKenzie; sold through Mat Valley Meats, not its own site). Deals: re-verified all 4 live and in stock at the same prices (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229, Sugar Hill Farmstead $260/$280). Every state now has at least one listing; next growth is second listings in thin states and hubs for AR, NE, NM, SC, VA, VT if still missing. Total: 85 ranches, 4 deals, 128 pages.
 
 ## Next Steps / Future Enhancements
 

@@ -1872,6 +1872,30 @@
       "note": "Phone 302-245-3464, curreyfarms@gmail.com. Beef is grain-finished on farm-ground non-GMO grain, not grass-finished. No-antibiotics, no-hormones and non-GMO claims are the farm's own; no organic or third-party certification is claimed. Breed isn't named on the site. Prices shown are from the farm's beef page on Oct 29, 2026 and may change.",
       "featured": false,
       "last_checked": "2026-10-29"
+    },
+    {
+      "slug": "alaska-natural-foods",
+      "name": "Alaska Natural Foods (Blue Creek Livestock)",
+      "url": "https://www.alaskanaturalfoods.com/",
+      "state": "AK",
+      "city": "Delta Junction",
+      "genetics": "Angus and Simmental lines being bred up with Murray Grey (an Australian Angus-Shorthorn cross the ranch picked for Delta Junction's cold). All cattle born, raised and finished on the ranch. Beef shares are grass-fed and barley-finished, with sprouted-barley fodder, ranch hay and local chopped barley in winter; 100% grass-fed beef is available on request in limited amounts (per the ranch)",
+      "breeds": [
+        "angus"
+      ],
+      "products": [
+        "quarter, half and whole beef shares at $11.00 per lb hanging weight ($250 deposit)",
+        "Cowboy's Choice Box and Premium Butcher Cuts box (1/16 beef share, 32-34 lb, $544)",
+        "Alaska Rugged Ground Box (1/16 to 1/4 share of ground beef, $352-$1,376)",
+        "quarter, half and whole hamburger beef shares",
+        "12-month meat CSA, plus bison, pork and lamb"
+      ],
+      "shipping": "No shipping. Boxes are delivered to North Pole, Fairbanks, Palmer and Anchorage (the ranch calls or emails with a delivery date and time); beef share pricing covers delivery from Homer and Anchorage to Fairbanks and surrounding communities. The farm store in Delta Junction is temporarily closed",
+      "description": "Family ranch in Delta Junction, Alaska, run by Tangy and Matt Bates, who moved their Idaho herd north in 2016 as Blue Creek Livestock and sell beef from cattle born and raised on the ranch as farm shares and boxes delivered around Interior and Southcentral Alaska.",
+      "phone": "208-390-5904",
+      "note": "Phone (208) 390-5904 per the ranch's contact page; no public email (contact form). Beef shares are grass-fed and barley-finished per the product page, though the homepage says grass fed and finished; 100% grass-fed is by request only. Regenerative soil practices are the ranch's own description; no certifications claimed. Processor not named. Prices from the ranch's shop on Oct 30, 2026 and may change.",
+      "featured": false,
+      "last_checked": "2026-10-30"
     }
   ]
 }
