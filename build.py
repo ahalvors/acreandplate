@@ -562,6 +562,7 @@ def build_index():
                 <a href="/alabama/" class="hub-link">Alabama <span class="count">({len([l for l in listings if l.get('state') == 'AL'])})</span></a>
                 <a href="/alaska/" class="hub-link">Alaska <span class="count">({len([l for l in listings if l.get('state') == 'AK'])})</span></a>
                 <a href="/arizona/" class="hub-link">Arizona <span class="count">({len([l for l in listings if l.get('state') == 'AZ'])})</span></a>
+                <a href="/arkansas/" class="hub-link">Arkansas <span class="count">({len([l for l in listings if l.get('state') == 'AR'])})</span></a>
                 <a href="/illinois/" class="hub-link">Illinois <span class="count">({len([l for l in listings if l.get('state') == 'IL'])})</span></a>
                 <a href="/indiana/" class="hub-link">Indiana <span class="count">({len([l for l in listings if l.get('state') == 'IN'])})</span></a>
                 <a href="/iowa/" class="hub-link">Iowa <span class="count">({len([l for l in listings if l.get('state') == 'IA'])})</span></a>
@@ -1969,6 +1970,13 @@ def main():
     )
     
     build_hub_page(
+        "Arkansas Ranches",
+        "arkansas",
+        lambda l: l.get('state') == 'AR',
+        "Arkansas ranches selling beef direct, from registered Akaushi near Hot Springs shipped frozen nationwide to 100% grass-finished beef from a fourth-generation Fayetteville family farm with local delivery and pickup."
+    )
+    
+    build_hub_page(
         "Alaska Ranches",
         "alaska",
         lambda l: l.get('state') == 'AK',
@@ -2020,7 +2028,7 @@ def main():
         build_news_story(item)
     
     print(f"\n✓ Built {len(listings)} listing pages")
-    print("✓ Built hub pages (wagyu, akaushi, heritage, alabama, alaska, arizona, connecticut, delaware, indiana, iowa, kansas, kentucky, louisiana, maine, maryland, massachusetts, michigan, minnesota, mississippi, missouri, nevada, new-hampshire, new-jersey, new-york, north-carolina, north-dakota, ohio, oklahoma, pennsylvania, rhode-island, south-dakota, tennessee, texas, utah, california, colorado, florida, georgia, hawaii, idaho, montana, oregon, washington, west-virginia, wisconsin, wyoming)")
+    print("✓ Built hub pages (wagyu, akaushi, heritage, alabama, alaska, arizona, arkansas, connecticut, delaware, indiana, iowa, kansas, kentucky, louisiana, maine, maryland, massachusetts, michigan, minnesota, mississippi, missouri, nevada, new-hampshire, new-jersey, new-york, north-carolina, north-dakota, ohio, oklahoma, pennsylvania, rhode-island, south-dakota, tennessee, texas, utah, california, colorado, florida, georgia, hawaii, idaho, montana, oregon, washington, west-virginia, wisconsin, wyoming)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
     print(f"✓ Built markets page with {len(markets)} farmers markets and {len(butchers)} butcher shops")

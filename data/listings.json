@@ -317,9 +317,11 @@
         "bundles",
         "quarter cow"
       ],
-      "shipping": "48 contiguous states (free shipping on orders $300+); local delivery within 100 miles",
+      "shipping": "Ships frozen to the 48 contiguous states by UPS (2nd Day Air to Arkansas and neighboring TX, OK, MO, TN, MS, LA; Next Day Air elsewhere; ships Mon-Wed); free shipping on orders $300+ to AR, TX, OK, MO, TN, MS and LA; local delivery within 100 miles of the ranch",
       "description": "Grass-fed, grain-finished. All-natural with no hormones. Registered with American Akaushi Association.",
-      "last_checked": "2026-10-06"
+      "last_checked": "2026-10-31",
+      "phone": "501-547-6731",
+      "note": "Phone 501-547-6731 and contact@triberanch.net per the ranch's site footer; ranch address 7885 Airport Rd, Bonnerdale, AR. Free-shipping threshold applies only to AR and its neighboring states per the site's cart banner (Oct 31, 2026). Some items (e.g., Wagyu Ground Beef Bundle, Cowboy Package) showed sold out on Oct 31, 2026."
     },
     {
       "slug": "hook-cleaver",
@@ -1896,6 +1898,32 @@
       "note": "Phone (208) 390-5904 per the ranch's contact page; no public email (contact form). Beef shares are grass-fed and barley-finished per the product page, though the homepage says grass fed and finished; 100% grass-fed is by request only. Regenerative soil practices are the ranch's own description; no certifications claimed. Processor not named. Prices from the ranch's shop on Oct 30, 2026 and may change.",
       "featured": false,
       "last_checked": "2026-10-30"
+    },
+    {
+      "slug": "osage-creek-farms",
+      "name": "Osage Creek Farms",
+      "url": "https://osagecreekfarms.com/",
+      "state": "AR",
+      "city": "Fayetteville",
+      "genetics": "Angus-based herd of about 200 head (per the farm), with cattle genetics managed on the farm; 100% grass-fed and grass-finished, never fed grain, on a 1,700-acre rotationally grazed family farm",
+      "breeds": [
+        "angus"
+      ],
+      "products": [
+        "ground beef",
+        "steaks",
+        "roasts and brisket",
+        "sausage and brats",
+        "steak bundles",
+        "quarter beef ($1,400 incl. processing, $700 deposit), half beef ($2,350) and whole beef ($4,200), December 2026 pre-order",
+        "pasture-raised pork and grass-fed lamb"
+      ],
+      "shipping": "No shipping listed. Local home delivery by zip code and scheduled pickup locations (sign up on the farm's store to see what serves your area); bulk beef is picked up. Also at the Fayetteville Farmers Market on Saturdays, April through November",
+      "phone": "479-208-6609",
+      "description": "Fourth-generation Fry family farm in the Osage Valley near Fayetteville, Arkansas, farming the land for about 80 years and selling 100% grass-fed, grass-finished beef locally since 2015, raised with rotational grazing, spring-fed water tanks and no antibiotics or hormones.",
+      "note": "Phone (479) 208-6609 and address 2853 N Stanton Ave, Fayetteville, AR 72703 per the farm's site; no public email (contact form). Regenerative practices are the farm's own description; no certifications claimed. Processor not named. Bulk prices from the farm's store on Oct 31, 2026 and may change.",
+      "featured": false,
+      "last_checked": "2026-10-31"
     }
   ]
 }
