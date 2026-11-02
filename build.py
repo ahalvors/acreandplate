@@ -576,6 +576,7 @@ def build_index():
                 <a href="/minnesota/" class="hub-link">Minnesota <span class="count">({len([l for l in listings if l.get('state') == 'MN'])})</span></a>
                 <a href="/mississippi/" class="hub-link">Mississippi <span class="count">({len([l for l in listings if l.get('state') == 'MS'])})</span></a>
                 <a href="/missouri/" class="hub-link">Missouri <span class="count">({len([l for l in listings if l.get('state') == 'MO'])})</span></a>
+                <a href="/nebraska/" class="hub-link">Nebraska <span class="count">({len([l for l in listings if l.get('state') == 'NE'])})</span></a>
                 <a href="/nevada/" class="hub-link">Nevada <span class="count">({len([l for l in listings if l.get('state') == 'NV'])})</span></a>
                 <a href="/new-hampshire/" class="hub-link">New Hampshire <span class="count">({len([l for l in listings if l.get('state') == 'NH'])})</span></a>
                 <a href="/new-jersey/" class="hub-link">New Jersey <span class="count">({len([l for l in listings if l.get('state') == 'NJ'])})</span></a>
@@ -1970,6 +1971,13 @@ def main():
     )
     
     build_hub_page(
+        "Nebraska Ranches",
+        "nebraska",
+        lambda l: l.get('state') == 'NE',
+        "Nebraska beef sold direct, from Piedmontese raised on Midwest family ranches to DNA-tested, dry-aged beef from a fifth-generation West Point family shipped frozen to all 50 states."
+    )
+    
+    build_hub_page(
         "Arkansas Ranches",
         "arkansas",
         lambda l: l.get('state') == 'AR',
@@ -2028,7 +2036,7 @@ def main():
         build_news_story(item)
     
     print(f"\n✓ Built {len(listings)} listing pages")
-    print("✓ Built hub pages (wagyu, akaushi, heritage, alabama, alaska, arizona, arkansas, connecticut, delaware, indiana, iowa, kansas, kentucky, louisiana, maine, maryland, massachusetts, michigan, minnesota, mississippi, missouri, nevada, new-hampshire, new-jersey, new-york, north-carolina, north-dakota, ohio, oklahoma, pennsylvania, rhode-island, south-dakota, tennessee, texas, utah, california, colorado, florida, georgia, hawaii, idaho, montana, oregon, washington, west-virginia, wisconsin, wyoming)")
+    print("✓ Built hub pages (wagyu, akaushi, heritage, alabama, alaska, arizona, arkansas, connecticut, delaware, indiana, iowa, kansas, kentucky, louisiana, maine, maryland, massachusetts, michigan, minnesota, mississippi, missouri, nebraska, nevada, new-hampshire, new-jersey, new-york, north-carolina, north-dakota, ohio, oklahoma, pennsylvania, rhode-island, south-dakota, tennessee, texas, utah, california, colorado, florida, georgia, hawaii, idaho, montana, oregon, washington, west-virginia, wisconsin, wyoming)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
     print(f"✓ Built markets page with {len(markets)} farmers markets and {len(butchers)} butcher shops")
