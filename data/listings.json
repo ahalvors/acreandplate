@@ -359,11 +359,12 @@
         "ground",
         "roasts"
       ],
-      "shipping": "Ships nationwide; local pickup in DC/MD/VA",
+      "shipping": "Ships frozen nationwide by UPS 2-day on Tuesdays ($100 minimum for shipped orders; rates by delivery zone); also sold through vendors at DC, Alexandria and Northern Virginia farmers markets and local stores",
       "phone": "540-227-4450",
       "featured": true,
       "description": "100% pasture-based. Deep, rich flavor without heavy intramuscular fat. Mission to save critically endangered Randall Lineback breed.",
-      "last_checked": "2026-10-03"
+      "last_checked": "2026-11-01",
+      "note": "Phone 540-227-4450 and address 300 Chapel Hill Lane, Berryville, VA per the farm's contact page; order issues go to Orders@RandallLineback.com. Shipping terms per the farm's shipping page (Nov 1, 2026); market vendors carry a selection of products, some preorder only."
     },
     {
       "slug": "certified-piedmontese",
@@ -1924,6 +1925,31 @@
       "note": "Phone (479) 208-6609 and address 2853 N Stanton Ave, Fayetteville, AR 72703 per the farm's site; no public email (contact form). Regenerative practices are the farm's own description; no certifications claimed. Processor not named. Bulk prices from the farm's store on Oct 31, 2026 and may change.",
       "featured": false,
       "last_checked": "2026-10-31"
+    },
+    {
+      "slug": "oak-barn-beef",
+      "name": "Oak Barn Beef",
+      "url": "https://oakbarnbeef.com/",
+      "state": "NE",
+      "city": "West Point",
+      "genetics": "Fifth-generation family cattle operation; cattle are DNA tested for marbling and tenderness before entering the beef program (breed not named on the site). Grass-fed on pasture, then grain (corn) finished on a nutritionist-designed diet; dry aged by a small-town USDA-inspected butcher",
+      "breeds": [],
+      "products": [
+        "dry-aged steaks (ribeye, NY strip, sirloin, filet and more)",
+        "ground beef and patties",
+        "roasts and tri tip",
+        "bundles and Beef Box Club subscription",
+        "Quarter of Beef Package (shippable)",
+        "quarter, half and whole beef shares (estimated $1,275 / $2,465 / $4,760 all-in, by hanging weight)",
+        "beef jerky and sticks"
+      ],
+      "shipping": "Ships frozen to all 50 states from West Point, NE: UPS Ground in the continental US, UPS Next Day Air to Alaska and Hawaii; ships weekly on Mondays; calculated shipping rates; no international or P.O. Box delivery. Beef shares are not shipped (pickup at ASC Locker or in West Point, or $100 delivery within 60 miles); storefront at 706 S. Lincoln St., West Point, open Thu-Fri 12:30-5:30 and Sat 9-12",
+      "phone": "402-512-3643",
+      "email": "hannah@oakbarnbeef.com",
+      "description": "Family beef company founded about 8 years ago by fifth-generation cattle producer Hannah, now run by Hannah and Eric from West Point, Nebraska, selling DNA-tested, grass-fed and grain-finished, dry-aged Nebraska beef online and from their storefront, with low-stress handling and rotational grazing.",
+      "note": "Phone 402-512-3643 and hannah@oakbarnbeef.com per the site's contact page. Grass-fed, grain (corn) finished per the site, not grass-finished. Breed not named; 'superior genetics' refers to the company's DNA testing. Processor named as USDA-inspected ASC Locker in West Point for beef shares. No certifications claimed. Share prices are the site's estimates and include processing; prices from the site on Nov 1, 2026 and may change.",
+      "featured": false,
+      "last_checked": "2026-11-01"
     }
   ]
 }
