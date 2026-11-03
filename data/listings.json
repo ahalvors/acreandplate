@@ -1086,11 +1086,11 @@
         "subscription boxes",
         "pastured chicken"
       ],
-      "shipping": "Ships nationwide (meat ships Mondays and Tuesdays only); free shipping on orders of $175+ to Colorado and Kansas",
+      "shipping": "Ships within the US except Alaska and Hawaii; meat ships frozen from the Kansas ranch on Mondays and Tuesdays only and typically arrives within 3 business days",
       "phone": "620-353-8344",
-      "note": "Fifth-generation family ranch (Matt and Michelle Canny) in Stanton County, rural Kansas. Regenerative ranching with pasture rotation. Also operates farm-to-table restaurant at 112 South Main Street. Contact: hello@whollycowmarket.com. Address: 303 South Main St. Johnson, KS 67855.",
+      "note": "Fifth-generation family ranch (Matt and Michelle Canny) in Stanton County, rural Kansas. Regenerative ranching with pasture rotation. Also operates farm-to-table restaurant at 112 South Main Street. Contact: hello@whollycowmarket.com. Address: 303 South Main St. Johnson, KS 67855. Shipping terms per the site's shipping policy (Nov 2, 2026); an earlier free-shipping threshold could not be re-confirmed and was removed.",
       "description": "Fifth-generation Kansas family ranch raising 100% grass-fed and grass-finished beef with regenerative practices. Cattle never given hormones, antibiotics, or grain. Ships nationwide from Johnson City with farm-to-table transparency.",
-      "last_checked": "2026-09-29"
+      "last_checked": "2026-11-02"
     },
     {
       "slug": "sunset-ridge-beef",
@@ -1174,9 +1174,9 @@
         "beef sticks",
         "pastured chicken"
       ],
-      "shipping": "Ships nationwide Tuesdays via UPS frozen with dry ice; flat-rate $20–$59 continental US, $120 AK/HI",
-      "description": "Fifth-generation family farm (Knute & Amanda Severson) in Clarion, Iowa raising 100% grass-fed and grass-finished beef since 2017. American Grassfed Association third-party verified. Dry-aged 14 days. Regenerative farming with intensive rotational grazing builds soil health, captures carbon, and restores wildlife habitat.",
-      "last_checked": "2026-10-02"
+      "shipping": "Ships nationwide every Tuesday via UPS 1-2 day, frozen in a compostable cooler with dry ice; flat-rate shipping by region, $24-$69 in the continental US and $120 to Alaska/Hawaii (does not increase with order weight)",
+      "description": "Fifth-generation family farm (Knute & Amanda Severson) in Clarion, Iowa; the family has farmed there since 1914 and has sold 100% grass-fed and grass-finished beef since the fifth generation returned in 2017. American Grassfed Association third-party verified. Dry-aged 14 days. Intensive rotational grazing and cover crops, with no herbicides, insecticides or fungicides.",
+      "last_checked": "2026-11-02"
     },
     {
       "slug": "whispering-pines-ranch",
@@ -1950,6 +1950,29 @@
       "note": "Phone 402-512-3643 and hannah@oakbarnbeef.com per the site's contact page. Grass-fed, grain (corn) finished per the site, not grass-finished. Breed not named; 'superior genetics' refers to the company's DNA testing. Processor named as USDA-inspected ASC Locker in West Point for beef shares. No certifications claimed. Share prices are the site's estimates and include processing; prices from the site on Nov 1, 2026 and may change.",
       "featured": false,
       "last_checked": "2026-11-01"
+    },
+    {
+      "slug": "polyface-farm",
+      "name": "Polyface Farm",
+      "url": "https://polyfacefarm.com/",
+      "state": "VA",
+      "city": "Swoope",
+      "genetics": "100% grass-fed beef; cattle moved daily on fresh pasture with portable electric fencing (the farm's \"salad bar beef\"); no vaccines or antibiotics per the farm; not USDA certified organic (the farm describes itself as \"Beyond Organic\"); breed not named on the site",
+      "breeds": [],
+      "products": [
+        "100% grass-fed beef",
+        "pastured pork",
+        "pastured chicken and turkey",
+        "eggs, dairy and pantry items",
+        "Subscribe & Save (5% off)"
+      ],
+      "shipping": "Ships frozen via UPS to the contiguous US every week: UPS 1-2 day Ground ($25 delivery fee, free over $175, $50 minimum) or UPS 2-Day Air ($35 fee, $50 minimum); also on-farm store and pickup locations/neighborhood delivery clubs across the region (pickup has no minimum and the lowest prices). Prices vary by delivery method and are shown after creating a free account",
+      "phone": "540-885-3590",
+      "email": "Wendy@polyfacefarm.com",
+      "featured": false,
+      "description": "Salatin family farm in Virginia's Shenandoah Valley near Staunton, bought by William and Lucille Salatin in 1961 and now worked by three generations. Regenerative, grass-based farming with daily cow moves, compost and no synthetic fertilizers, pesticides or GMOs; visitors welcome any time.",
+      "note": "Address 43 Pure Meadows Ln, Swoope, VA 24479; phone 540-885-3590 and Wendy@polyfacefarm.com per the site footer. Shipping terms per the site's How to Buy page (Nov 2, 2026). The farm says some products come from nearby partner farms and are labeled as such. Beef prices are not public (account required), so none are listed. No breed or third-party certification claimed.",
+      "last_checked": "2026-11-02"
     }
   ]
 }

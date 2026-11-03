@@ -601,6 +601,7 @@ def build_index():
                 <a href="/south-dakota/" class="hub-link">South Dakota <span class="count">({len([l for l in listings if l.get('state') == 'SD'])})</span></a>
                 <a href="/tennessee/" class="hub-link">Tennessee <span class="count">({len([l for l in listings if l.get('state') == 'TN'])})</span></a>
                 <a href="/utah/" class="hub-link">Utah <span class="count">({len([l for l in listings if l.get('state') == 'UT'])})</span></a>
+                <a href="/virginia/" class="hub-link">Virginia <span class="count">({len([l for l in listings if l.get('state') == 'VA'])})</span></a>
                 <a href="/washington/" class="hub-link">Washington <span class="count">({len([l for l in listings if l['state'] == 'WA'])})</span></a>
                 <a href="/west-virginia/" class="hub-link">West Virginia <span class="count">({len([l for l in listings if l.get('state') == 'WV'])})</span></a>
                 <a href="/wyoming/" class="hub-link">Wyoming <span class="count">({len([l for l in listings if 'WY' in l.get('state', '')])})</span></a>
@@ -1971,6 +1972,13 @@ def main():
     )
     
     build_hub_page(
+        "Virginia Ranches",
+        "virginia",
+        lambda l: l.get('state') == 'VA',
+        "Virginia beef sold direct from the farm, from critically endangered Randall Lineback cattle in Berryville to 100% grass-fed beef from the Salatin family's Polyface Farm in the Shenandoah Valley, shipped frozen by UPS."
+    )
+    
+    build_hub_page(
         "Nebraska Ranches",
         "nebraska",
         lambda l: l.get('state') == 'NE',
@@ -2036,7 +2044,7 @@ def main():
         build_news_story(item)
     
     print(f"\n✓ Built {len(listings)} listing pages")
-    print("✓ Built hub pages (wagyu, akaushi, heritage, alabama, alaska, arizona, arkansas, connecticut, delaware, indiana, iowa, kansas, kentucky, louisiana, maine, maryland, massachusetts, michigan, minnesota, mississippi, missouri, nebraska, nevada, new-hampshire, new-jersey, new-york, north-carolina, north-dakota, ohio, oklahoma, pennsylvania, rhode-island, south-dakota, tennessee, texas, utah, california, colorado, florida, georgia, hawaii, idaho, montana, oregon, washington, west-virginia, wisconsin, wyoming)")
+    print("✓ Built hub pages (wagyu, akaushi, heritage, alabama, alaska, arizona, arkansas, connecticut, delaware, indiana, iowa, kansas, kentucky, louisiana, maine, maryland, massachusetts, michigan, minnesota, mississippi, missouri, nebraska, nevada, new-hampshire, new-jersey, new-york, north-carolina, north-dakota, ohio, oklahoma, pennsylvania, rhode-island, south-dakota, tennessee, texas, utah, virginia, california, colorado, florida, georgia, hawaii, idaho, montana, oregon, washington, west-virginia, wisconsin, wyoming)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
     print(f"✓ Built markets page with {len(markets)} farmers markets and {len(butchers)} butcher shops")
