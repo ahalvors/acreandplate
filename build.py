@@ -1052,6 +1052,121 @@ def build_featured():
     html = base_template("Featured Ranch Placement", content, "Get premium placement for your ranch on Acre & Plate. Featured Ranch drives traffic to ranches raising traceable Wagyu, Akaushi, and heritage beef.")
     write_page('featured/index.html', html)
 
+def build_list_your_ranch():
+    """Build Free vs Premium Profile vs Featured Ranch comparison page (DRAFT: Premium Profile is waitlist-only)"""
+    n_ranches = len(listings)
+    waitlist = 'mailto:ranches@acreandplate.com?subject=Premium%20Profile%20waitlist&body=Ranch%20name%3A%0AListing%20URL%3A%0A'
+    featured_cta = '<a href="/featured/" class="btn-primary">See Featured Ranch</a>'
+    content = f"""
+    <section class="hero">
+        <div class="container">
+            <h1>List Your Ranch</h1>
+            <p class="tagline">Free, verified listings for ranches that sell beef direct. No commission, ever. You keep 100% of every sale.</p>
+        </div>
+    </section>
+
+    <section class="featured-info">
+        <div class="container">
+            <div class="featured-intro">
+                <h2>Free stays free</h2>
+                <p>Acre &amp; Plate lists {n_ranches} verified ranches across all 50 states. Every listing is free and verified by hand. We never touch the meat or the money: buyers click through and buy from you on your own site, by phone, or at your farm.</p>
+                <p>If you want more visibility, there are optional paid upgrades. Your free listing stays live whether or not you use them.</p>
+            </div>
+
+            <div class="pricing-tiers">
+                <div class="tier tier-standard">
+                    <div class="tier-header">
+                        <h3>Free Listing</h3>
+                        <div class="price">$0 forever</div>
+                    </div>
+                    <div class="tier-features">
+                        <h4>What's included:</h4>
+                        <ul>
+                            <li>✓ Verified listing in the directory</li>
+                            <li>✓ Your ranch on your state page and breed pages</li>
+                            <li>✓ Direct links to your website, phone, and email</li>
+                            <li>✓ No commission and no transaction fees</li>
+                            <li>✓ Free updates when your shipping or prices change</li>
+                        </ul>
+                    </div>
+                    <div class="tier-cta">
+                        <a href="mailto:ranches@acreandplate.com?subject=List%20my%20ranch" class="btn-primary">Ask to Be Listed</a>
+                    </div>
+                </div>
+
+                <div class="tier tier-premium">
+                    <div class="tier-header">
+                        <div class="popular-badge">Coming Soon</div>
+                        <h3>Premium Profile</h3>
+                        <div class="price">$199/yr</div>
+                    </div>
+                    <div class="tier-features">
+                        <h4>Everything in Free, plus:</h4>
+                        <ul>
+                            <li>✓ A ranch video on your listing</li>
+                            <li>✓ Your herd names and where they came from</li>
+                            <li>✓ Your grazing practices, in your words</li>
+                            <li>✓ A downloadable cut sheet (PDF)</li>
+                            <li>✓ Your booking or ordering calendar, embedded</li>
+                            <li>✓ More photos</li>
+                            <li>✓ One Story Post about your ranch, shared to our newsletter and Instagram</li>
+                        </ul>
+                    </div>
+                    <div class="tier-cta">
+                        <a href="{waitlist}" class="btn-primary">Join the Waitlist</a>
+                    </div>
+                </div>
+
+                <div class="tier tier-standard">
+                    <div class="tier-header">
+                        <h3>Featured Ranch</h3>
+                        <div class="price">from {stripe_config['standard_price_display']}</div>
+                    </div>
+                    <div class="tier-features">
+                        <h4>Top placement:</h4>
+                        <ul>
+                            <li>✓ Featured on the home page and in listings browse</li>
+                            <li>✓ "Featured Partner" badge</li>
+                            <li>✓ Monthly traffic reports</li>
+                            <li>✓ Your logo on a co-branded Acre &amp; Plate apron, with a cut of every sale</li>
+                            <li>✓ Standard {stripe_config['standard_price_display']} or Premium {stripe_config['premium_price_display']}, cancel anytime</li>
+                        </ul>
+                    </div>
+                    <div class="tier-cta">
+                        {featured_cta}
+                    </div>
+                </div>
+            </div>
+
+            <div class="featured-faq">
+                <h2>Questions</h2>
+                <div class="faq-item">
+                    <h3>Do you take a cut of my beef sales?</h3>
+                    <p>No. Not on any tier. Buyers pay you directly, and you keep 100% of every sale.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What does "verified" mean?</h3>
+                    <p>We check that you raise the cattle and sell beef direct to buyers, and we confirm your contact details and how you sell before your listing goes live. We recheck listings on a regular cycle.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>When does Premium Profile launch?</h3>
+                    <p>We're opening it to a small group of listed ranches first. Join the waitlist and we'll email you before it opens. Nothing is charged to join the waitlist.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I combine Premium Profile and Featured Ranch?</h3>
+                    <p>Yes. Premium Profile makes your listing richer. Featured Ranch puts it in front of more buyers. They work on their own or together.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Questions?</h3>
+                    <p>Email <a href="mailto:ranches@acreandplate.com">ranches@acreandplate.com</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    """
+    html = base_template("List Your Ranch: Free vs Premium Profile", content, "List your ranch on Acre & Plate for free. Verified listings, no commission, you keep 100% of every sale. Optional Premium Profile and Featured Ranch upgrades.")
+    write_page('list-your-ranch/index.html', html)
+
 def build_featured_thanks():
     """Build Featured Ranch thank you page"""
     content = """
@@ -2026,6 +2141,7 @@ def main():
     # Featured Ranch pages
     build_featured()
     build_featured_thanks()
+    build_list_your_ranch()
     
     # About
     build_about()
