@@ -28,7 +28,8 @@
                     <span><strong>Acre & Plate</strong><small>Ranch direct · Rooted in good ground</small></span>
                 </a>
             </div>
-            <ul class="nav-links">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu" onclick="var h=this.closest('header'),o=h.classList.toggle('nav-open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu')"><span></span><span></span><span></span></button>
+            <ul class="nav-links" id="site-nav">
                 <li><a href="/listings/">Browse</a></li>
                 <li><a href="/deals/">Deals</a></li>
                 <li><a href="/markets/">Markets</a></li>

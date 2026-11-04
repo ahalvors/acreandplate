@@ -359,3 +359,46 @@ footer .tagline { font-size:1.6rem; font-weight:700; }
  .logo small { font-size:.62rem; }
  .hero-ledger span:first-child strong { font-size:2rem; }
 }
+/* Mobile polish (Nov 2026): compact header + menu, scaled hero, stacked CTAs, tap targets */
+.nav-toggle { display:none; }
+@media(max-width:680px) {
+ header nav { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; min-height:0; padding:.7rem 0; gap:0; }
+ .logo a { justify-content:flex-start; gap:.5rem; }
+ .brand-star { font-size:1.5rem; }
+ .logo strong { font-size:1.2rem; }
+ .logo small { font-size:.55rem; }
+ .nav-toggle { display:inline-flex; flex-direction:column; justify-content:center; gap:5px; width:44px; height:44px; padding:10px; background:transparent; border:1px solid var(--line); color:inherit; cursor:pointer; }
+ .nav-toggle span { display:block; height:2px; background:currentColor; transition:transform .2s, opacity .2s; }
+ header.nav-open .nav-toggle span:nth-child(1) { transform:translateY(7px) rotate(45deg); }
+ header.nav-open .nav-toggle span:nth-child(2) { opacity:0; }
+ header.nav-open .nav-toggle span:nth-child(3) { transform:translateY(-7px) rotate(-45deg); }
+ .nav-links { display:none; flex-basis:100%; flex-direction:column; flex-wrap:nowrap; gap:0; margin:.7rem 0 0; padding:0; border-top:1px solid var(--line); max-width:none; }
+ header.nav-open .nav-links { display:flex; }
+ .nav-links { align-items:stretch; text-align:left; }
+ .nav-links li { display:block; width:100%; border-bottom:1px solid var(--line); }
+ .nav-links li + li::before { display:none; }
+ .nav-links a { display:flex; align-items:center; justify-content:flex-start; width:100%; min-height:48px; font-size:.85rem; letter-spacing:.08em; }
+ .hero { padding:2.5rem 0 2rem; }
+ .hero h1 { font-size:clamp(2.2rem,10vw,3rem); line-height:1.05; }
+ .heritage-hero { padding-top:1.6rem; }
+ .heritage-copy h1 { font-size:clamp(2.3rem,11vw,3.1rem); line-height:1; margin-bottom:.8rem; }
+ .heritage-copy .eyebrow { font-size:.68rem; margin-bottom:.6rem; }
+ .hero-deck { font-size:1.1rem; margin-bottom:.5rem; }
+ .hero-description { font-size:.95rem; margin-bottom:1.1rem; }
+ .hero-actions,.heritage-copy .hero-actions,.cta-buttons,.tier-cta { flex-direction:column; align-items:stretch; gap:.75rem; }
+ .hero-actions .btn-primary,.hero-actions .btn-secondary,.cta-buttons a,.tier-cta a { display:flex; justify-content:center; align-items:center; width:100%; min-height:48px; text-align:center; }
+ .hero-actions .text-link { display:flex; justify-content:center; align-items:center; min-height:44px; font-size:.85rem; }
+ .hero-layout { gap:1.5rem; }
+ .ranch-emblem { width:100%; max-width:180px; margin:0 auto; padding:.8rem 1rem 1.2rem; box-sizing:border-box; }
+ .ranch-emblem img { width:100%; height:auto; }
+ .hero-ledger { margin-top:1.6rem; }
+ section { padding:2.5rem 0; }
+ h2 { overflow-wrap:anywhere; }
+ .actions { flex-direction:column; }
+ .actions a { width:100%; min-height:44px; display:flex; justify-content:center; align-items:center; }
+ footer .links { display:flex; flex-wrap:wrap; justify-content:center; gap:0 .25rem; }
+ footer .links a { display:inline-flex; align-items:center; min-height:44px; padding:0 .35rem; }
+ .featured-intro,.tier,.thanks-box,.detail-main,.detail-sidebar { padding:1.25rem; }
+ img,video,iframe,table { max-width:100%; }
+ table { display:block; overflow-x:auto; }
+}
