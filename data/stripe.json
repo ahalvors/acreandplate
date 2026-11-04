@@ -5,5 +5,7 @@
   "currency": "usd",
   "standard_price_display": "$49/mo",
   "premium_price_display": "$99/mo",
-  "stripe_account": "Andrew Halvorsen"
+  "stripe_account": "Andrew Halvorsen",
+  "standard_label": "Standard",
+  "premium_label": "Ultra"
 }

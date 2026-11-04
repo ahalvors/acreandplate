@@ -5,14 +5,14 @@
 ## Pricing Tiers
 
 - **Standard** — $49/mo — Featured on home page + all listings browse
-- **Premium** — $99/mo — Home + listings + seasonal deals hub spotlight
+- **Ultra** — $99/mo — Home + listings + seasonal deals hub spotlight
 
 ## How It Works
 
 ### For Ranch Owners
 
 1. Visit [acreandplate.com/featured/](https://acreandplate.com/featured/)
-2. Choose Standard or Premium tier
+2. Choose Standard or Ultra tier
 3. Subscribe via Stripe Payment Link (monthly recurring)
 4. Placement activated within 24 hours
 
@@ -23,7 +23,7 @@
 1. Create Stripe Payment Links:
    - Log into Stripe Dashboard
    - Create Product: "Featured Ranch - Standard" ($49/mo recurring)
-   - Create Product: "Featured Ranch - Premium" ($99/mo recurring)
+   - Create Product: "Featured Ranch - Ultra" ($99/mo recurring)
    - Generate Payment Links for each
    - Set success URL to `https://acreandplate.com/featured/thanks/`
 
@@ -78,9 +78,9 @@ When a ranch subscribes:
 - Shown in Featured Ranch section on home page (up to 4 displayed)
 - Priority in listings browse
 
-**Premium Tier:**
+**Ultra Tier (internal key `premium`):**
 - Everything in Standard, plus:
-- Top placement in Featured Ranch section (premium shown first)
+- Top placement in Featured Ranch section (Ultra shown first)
 - Spotlight section on `/deals/` page (up to 2 displayed)
 
 **Both tiers:**

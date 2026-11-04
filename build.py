@@ -488,7 +488,7 @@ def build_index():
     <section class="featured-ranch-section">
         <div class="container">
             <h2>Featured Ranch Partners</h2>
-            <p class="section-intro">Premium ranch placements—ranches committed to traceable bloodlines and transparent sourcing. <a href="/featured/">Learn about Featured Ranch placement</a></p>
+            <p class="section-intro">Featured ranch placements—ranches committed to traceable bloodlines and transparent sourcing. <a href="/featured/">Learn about Featured Ranch placement</a></p>
             <div class="listings-grid">
                 {''.join(featured_cards[:4])}
             </div>
@@ -853,7 +853,7 @@ def build_deals_page():
         featured_ranch_html = f"""
         <div class="featured-ranch-spotlight">
             <h2>Featured Ranch Spotlight</h2>
-            <p class="spotlight-intro">Premium ranch partners committed to traceable bloodlines and transparent sourcing.</p>
+            <p class="spotlight-intro">Ultra ranch partners committed to traceable bloodlines and transparent sourcing.</p>
             <div class="listings-grid">
                 {''.join(featured_cards)}
             </div>
@@ -931,10 +931,10 @@ def build_featured():
     
     if stripe_config['standard_payment_link'] == 'REPLACE_ME':
         standard_cta = '<a href="mailto:info@acreandplate.com?subject=Featured Ranch - Standard" class="btn-primary">Contact Us (Checkout Coming Soon)</a>'
-        premium_cta = '<a href="mailto:info@acreandplate.com?subject=Featured Ranch - Premium" class="btn-primary">Contact Us (Checkout Coming Soon)</a>'
+        premium_cta = '<a href="mailto:info@acreandplate.com?subject=Featured Ranch - Ultra" class="btn-primary">Contact Us (Checkout Coming Soon)</a>'
     else:
         standard_cta = f'<a href="{stripe_config["standard_payment_link"]}" class="btn-primary">Get Featured - Standard</a>'
-        premium_cta = f'<a href="{stripe_config["premium_payment_link"]}" class="btn-primary">Get Featured - Premium</a>'
+        premium_cta = f'<a href="{stripe_config["premium_payment_link"]}" class="btn-primary">Get Featured - Ultra</a>'
     
     content = f"""
     <section class="hero">
@@ -980,7 +980,7 @@ def build_featured():
                 <div class="tier tier-premium">
                     <div class="tier-header">
                         <div class="popular-badge">Most Visible</div>
-                        <h3>Premium</h3>
+                        <h3>Ultra</h3>
                         <div class="price">{stripe_config['premium_price_display']}</div>
                     </div>
                     <div class="tier-features">
@@ -1024,7 +1024,7 @@ def build_featured():
                     <p>Featured Ranches get a co-branded Acre &amp; Plate apron with their own logo on the chest, in heavy cotton twill in our forest green. We list it in the <a href="https://acreandplate.printful.me/" target="_blank" rel="noopener noreferrer">Acre &amp; Plate shop</a> so your customers can buy it, and you earn a cut of every sale. You can also order a batch for your crew or farm store at member pricing.</p>
                     <ul>
                         <li><strong>Standard:</strong> one apron listing in Dark Green, $5 to you per $50 sale, and member pricing on crew and farm-store orders (ask us for a quote).</li>
-                        <li><strong>Premium:</strong> up to 2 apron colors, $10 to you per sale, one free sample apron, and crew orders at our cost.</li>
+                        <li><strong>Ultra:</strong> up to 2 apron colors, $10 to you per sale, one free sample apron, and crew orders at our cost.</li>
                     </ul>
                     <p>No setup fee. We only print your logo with your written permission. Your share of sales is paid monthly, and amounts under $25 roll over to the next month. If you leave Featured Ranch, we take your apron listing down within 7 days. Sample shown uses a placeholder logo; shop orders ship within the US.</p>
                 </div>
@@ -1133,7 +1133,7 @@ def build_list_your_ranch():
                             <li>✓ "Featured Partner" badge</li>
                             <li>✓ Monthly traffic reports</li>
                             <li>✓ Your logo on a co-branded Acre &amp; Plate apron, with a cut of every sale</li>
-                            <li>✓ Standard {stripe_config['standard_price_display']} or Premium {stripe_config['premium_price_display']}, cancel anytime</li>
+                            <li>✓ Standard {stripe_config['standard_price_display']} or Ultra {stripe_config['premium_price_display']}, cancel anytime</li>
                         </ul>
                     </div>
                     <div class="tier-cta">
