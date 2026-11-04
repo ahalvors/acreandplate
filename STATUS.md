@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 2, 2026  
+**Last Updated:** November 3, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 88
+- **Total Ranches:** 89
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 4
 - **Farmers Markets:** 3
@@ -36,6 +36,7 @@
 - **North Dakota Ranches:** 1
 - **South Dakota Ranches:** 1
 - **Texas Ranches:** 6
+- **South Carolina Ranches:** 2
 - **California Ranches:** 19
 - **Colorado Ranches:** 2
 - **Connecticut Ranches:** 1
@@ -61,7 +62,7 @@
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 131
+- **Total Pages:** 132
 
 ## Pages Built
 
@@ -395,6 +396,8 @@ python3 build.py
 - 📅 **Oct 31, 2026 PT nightly ship:** Added **Osage Creek Farms** (Fayetteville, AR) — second Arkansas listing: fourth-generation Fry family farm (about 80 years on the land; grass-finishing and selling locally since 2015) running an Angus-based herd of about 200 head on 1,700 rotationally grazed acres. 100% grass-fed and grass-finished, never grain; no antibiotics or hormones. Sells ground, steaks, roasts/brisket, sausage and brats, steak bundles, plus December 2026 pre-order quarter ($1,400 incl. processing, $700 deposit), half ($2,350) and whole ($4,200) beef; also pork and lamb. No shipping listed: local home delivery by zip code and pickup locations; Fayetteville Farmers Market Saturdays Apr–Nov. Phone (479) 208-6609; no public email (contact form). Gaps: no certifications claimed; regenerative is the farm's own description; processor not named. Re-checked **Tribe Ranch** (AR): added phone 501-547-6731 from site footer; corrected shipping — still ships to 48 contiguous states, but free shipping on $300+ applies only to AR, TX, OK, MO, TN, MS, LA; some items sold out. Added **Arkansas state hub** at `/arkansas/` (2 ranches) wired into home page hub links (45 state hubs). Other AR leads seen, not added: Seven Sons AR delivery page (Indiana-based, partner farms), Myers Farms (Bentonville; halves by live weight, processor pickup), Hillside Beef (Elkins; grass-fed grain-finished, farm store), Chadwick Meadows (NWA; 80/20 grass/grain, processor pickup). Deals: re-verified all 4 live at same prices (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229, Sugar Hill $260/$280). Next: hubs for NE, NM, SC, VA, VT, then second listings in thin states. Total: 86 ranches, 4 deals, 129 pages.
 - 📅 **Nov 1, 2026 PT nightly ship:** Added **Oak Barn Beef** (West Point, NE) — second Nebraska listing: family beef company founded about 8 years ago by fifth-generation cattle producer Hannah (with husband Eric; moved from her parents' Unadilla farm to West Point in 2021, storefront/warehouse since 2022). Cattle DNA-tested for marbling and tenderness; grass-fed, then grain (corn) finished on a nutritionist-designed diet; dry aged by a small-town USDA-inspected butcher (beef shares processed at ASC Locker, West Point). Sells dry-aged steaks, ground and patties, roasts, bundles, Beef Box Club subscription, a shippable Quarter of Beef Package ($1,179.99 on Nov 1), and quarter/half/whole shares (estimated $1,275 / $2,465 / $4,760 all-in by hanging weight; pickup or $100 delivery within 60 mi, not shipped). Ships frozen to all 50 states (UPS Ground in continental US, Next Day Air to AK/HI; Mondays). Storefront 706 S. Lincoln St., Thu-Fri 12:30-5:30, Sat 9-12. Phone 402-512-3643, hannah@oakbarnbeef.com. Gaps: breed not named (breeds empty); grain-finished (stated); no certifications claimed. Added **Nebraska state hub** at `/nebraska/` (2 ranches) wired into home page hub links (46 state hubs). Re-checked **Chapel Hill Farm** (VA): phone 540-227-4450 confirmed; shipping updated to the farm's terms (UPS 2-day, ships Tuesdays, $100 minimum, zone-based rates) plus DC/Northern VA farmers market vendors. Spot-checked Certified Piedmontese phone (800) 414-3487 on homepage (shipping page not re-verified). Other NE leads seen, not added: Twogood Farm (100% grass-fed Black Angus, shares $5.50/lb hanging; ships Mondays), Pasture 104 (Norfolk; grass-finished, local delivery only), 7M Ranch (Culbertson; grass-finished, half share sold out), Preston's Family Beef (state not confirmed). Deals: re-verified all 4 live at same prices (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229, Sugar Hill $260/$280). Footer month rolled to November 2026 across pages. Next: hubs for NM, SC, VA, VT, then second listings in thin states. Total: 87 ranches, 4 deals, 130 pages.
 - 📅 **Nov 2, 2026 PT nightly ship:** Added **Polyface Farm** (Swoope, VA) — second Virginia listing, plus new **/virginia/ hub** (Chapel Hill Farm + Polyface). Salatin family farm in the Shenandoah Valley near Staunton, bought by William and Lucille Salatin in 1961, now three generations. 100% grass-fed beef ("salad bar beef", cows moved daily with portable electric fencing); no vaccines or antibiotics, no synthetic fertilizers, pesticides or GMOs; not USDA certified organic (calls itself "Beyond Organic"). Also pastured pork, chicken/turkey, eggs. Ships frozen weekly via UPS to the contiguous US (Ground $25 fee, free over $175, $50 min; 2-Day Air $35 fee, $50 min), plus on-farm store, pickup locations and neighborhood delivery clubs. Phone 540-885-3590, Wendy@polyfacefarm.com (site footer). Gaps: breed not named; beef prices hidden behind a free account (none listed); some products come from labeled partner farms. Re-checked **Grand View Beef** (IA): flat-rate shipping now $24-$69 continental US ($120 AK/HI), was $20-$59; added 'since 1914' history. Re-checked **Wholly Cow Market** (KS): shipping policy now says no AK/HI shipping, meat ships Mon/Tue, ~3 business days; old $175 CO/KS free-shipping line not re-confirmed so removed. All 4 deals re-verified unchanged (Long Hill $180, Mossyrock $395, Oreganic $199, Sugar Hill $260). States with listings but no hub left: NM, SC, VT (1 ranch each).
+
+- 📅 **Nov 3, 2026 PT nightly ship:** Added **Watson Farms** (Chester, SC) — second South Carolina listing, plus new **/south-carolina/ hub** (Caroland Farms Wagyu + Watson Farms). Multi-generation family farm in the SC Piedmont run by Matt and Kelly Watson. 100% grass-fed and grass-finished beef, zero grain, daily mob-grazing moves on ~300 acres; no feedlots, growth hormones or routine antibiotics per the farm. Calves (all US-born) are bought young from local producers and regional sales and finished at least 365 days (often up to 15 months) on the farm, so not born on the farm (stated in the note). Also pastured pork and chicken, bundles, 1/8 beef, Pasture Picks subscription. Ships frozen with dry ice to the contiguous US Mon-Wed ($125 minimum; $12.95 flat, $15 express zone, free over $199); free farm pickup at 713 Colony Rd, Chester. Phone 803-581-8926, info@watsonfarmsbeef.com. Gaps: breed not named for the whole herd (a recent batch was Red Angus; breeds left empty); no certifications claimed. Re-checked **Mahan Wagyu (Ranch & Trail)** (TX): live, 100% Full-Blood Kuroge Washu; site banner now shows free shipping over $99 (added). **Whispering Pines Ranch** (MI) homepage live but sparse; phone not re-confirmed, last_checked left at 2026-10-03. Deals: all 4 re-verified live and in stock at the same prices (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229, Sugar Hill $260/$280). States with listings but no hub left: NM, VT (1 ranch each). Total: 89 ranches, 4 deals, 132 pages.
 
 ## Next Steps / Future Enhancements
 

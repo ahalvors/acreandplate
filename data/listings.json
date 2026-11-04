@@ -190,9 +190,9 @@
         "roasts",
         "ground"
       ],
-      "shipping": "Ships nationwide (2-4 business days)",
+      "shipping": "Ships nationwide (2-4 business days); free shipping on orders over $99 per the site banner (Nov 3, 2026)",
       "description": "2,500-acre ranch at the edge of Palo Duro Canyon. Grass-fed, grain-finished, dry-aged 14-21 days.",
-      "last_checked": "2026-10-04"
+      "last_checked": "2026-11-03"
     },
     {
       "slug": "mossyrock",
@@ -1973,6 +1973,29 @@
       "description": "Salatin family farm in Virginia's Shenandoah Valley near Staunton, bought by William and Lucille Salatin in 1961 and now worked by three generations. Regenerative, grass-based farming with daily cow moves, compost and no synthetic fertilizers, pesticides or GMOs; visitors welcome any time.",
       "note": "Address 43 Pure Meadows Ln, Swoope, VA 24479; phone 540-885-3590 and Wendy@polyfacefarm.com per the site footer. Shipping terms per the site's How to Buy page (Nov 2, 2026). The farm says some products come from nearby partner farms and are labeled as such. Beef prices are not public (account required), so none are listed. No breed or third-party certification claimed.",
       "last_checked": "2026-11-02"
+    },
+    {
+      "slug": "watson-farms",
+      "name": "Watson Farms",
+      "url": "https://watsonfarmsbeef.com/",
+      "state": "SC",
+      "city": "Chester",
+      "genetics": "100% grass-fed and grass-finished beef, zero grain; calves (all US-born) bought young from local producers and regional sales, then finished at least 365 days (often up to 15 months) on the farm's ~300 acres with daily mob-grazing moves; no feedlots, growth hormones or routine antibiotics per the farm; breed not specified for the whole herd",
+      "breeds": [],
+      "products": [
+        "100% grass-fed beef cuts (60+ items)",
+        "ground beef bundles",
+        "1/8 beef and bulk bundles",
+        "Pasture Picks subscription box",
+        "pastured pork and chicken"
+      ],
+      "shipping": "Ships frozen with dry ice to the contiguous US, Mon-Wed (1-2 days in transit, ground or express by zone); $125 minimum order, flat $12.95 shipping ($15 express zone) under $199, free over $199; free farm pickup at the Chester farm store",
+      "phone": "803-581-8926",
+      "email": "info@watsonfarmsbeef.com",
+      "featured": false,
+      "description": "Multi-generation family farm in the South Carolina Piedmont run by Matt and Kelly Watson, who moved from selling calves into the commodity pipeline to finishing beef on grass and selling it direct. Regenerative rotational grazing, with pastured pork and chicken alongside the beef and an on-farm store in Chester.",
+      "note": "Farm store and pickup at 713 Colony Road, Chester, SC 29706 (Mon, Tue, Thu, Fri 10-6; Sat 10-2). Phone 803-581-8926 and info@watsonfarmsbeef.com per the site footer. Shipping terms per the site's /ship/ page and Nov 1, 2026 farm newsletter. The farm says it sources calves from local producers and regional auction rings and finishes them on its own pasture for at least a year, so cattle are not born on the farm. No third-party certification claimed.",
+      "last_checked": "2026-11-03"
     }
   ]
 }
