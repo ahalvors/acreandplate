@@ -350,7 +350,7 @@ All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified f
 **Status:** Live, ready for first subscribers  
 **Pricing:** 
 - Standard: $49/mo - featured on home + listings
-- Premium: $99/mo - home + listings + deals hub spotlight
+- Ultra: $99/mo - home + listings + deals hub spotlight
 
 **Implementation:**
 - Payment via Stripe Payment Links (placeholders in `data/stripe.json` until real URLs added)
