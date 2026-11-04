@@ -56,7 +56,7 @@ def write_page(path: str, content: str):
     section = '/listings/' if route.startswith('/listings/') else None
     if route != '/' and re.search(r'class="listings-section"', content):
         section = '/listings/'
-    for prefix in ('/deals/', '/markets/', '/news/', '/guides/', '/about/'):
+    for prefix in ('/deals/', '/markets/', '/beyond-beef/', '/news/', '/guides/', '/about/'):
         if route.startswith(prefix):
             section = '/guides/wagyu-vs-akaushi/' if prefix == '/guides/' else prefix
     if section:
@@ -95,6 +95,7 @@ def base_template(title: str, content: str, meta_description: str = "", og_tags:
                 <li><a href="/listings/">Browse</a></li>
                 <li><a href="/deals/">Deals</a></li>
                 <li><a href="/markets/">Markets</a></li>
+                <li><a href="/beyond-beef/">Beyond Beef</a></li>
                 <li><a href="/news/">News</a></li>
                 <li><a href="https://acreandplate.printful.me/" target="_blank" rel="noopener noreferrer">Shop</a></li>
                 <li><a href="/guides/wagyu-vs-akaushi/">Guide</a></li>
@@ -114,6 +115,7 @@ def base_template(title: str, content: str, meta_description: str = "", og_tags:
             <p class="links">
                 <a href="/about/">About This Directory</a> · 
                 <a href="/listings/">All Ranches</a> · 
+                <a href="/beyond-beef/">Beyond Beef</a> · 
                 <a href="https://acreandplate.printful.me/" target="_blank" rel="noopener noreferrer">Shop</a> · 
                 <a href="mailto:hello@acreandplate.com">Contact</a> · 
                 <a href="https://www.instagram.com/acreandplate/" target="_blank" rel="noopener">Instagram</a>
@@ -1167,6 +1169,46 @@ def build_list_your_ranch():
     html = base_template("List Your Ranch: Free vs Premium Profile", content, "List your ranch on Acre & Plate for free. Verified listings, no commission, you keep 100% of every sale. Optional Premium Profile and Featured Ranch upgrades.")
     write_page('list-your-ranch/index.html', html)
 
+def build_beyond_beef():
+    """Build Beyond Beef hub: verified pasture-raised non-beef farms (kept out of ranch counts and state hubs)"""
+    with open('data/beyond-beef.json') as f:
+        farms = json.load(f)['farms']
+    e = html_tools.escape
+    cards = []
+    for farm in farms:
+        items = ''.join(f'<li>{e(p)}</li>' for p in farm['products'])
+        note = f'<p class="note">{e(farm["note"])}</p>' if farm.get('note') else ''
+        cards.append(f"""<article class="listing-card" id="{farm['slug']}">
+        <h3>{e(farm['name'])}</h3>
+        <div class="location">{e(farm['city'])}, {e(farm['state'])}</div>
+        <div class="breeds">{''.join(f'<span class="breed-chip">{e(c)}</span>' for c in farm['categories'])}</div>
+        <p class="genetics">{e(farm['summary'])}</p>
+        <p class="products"><strong>Products:</strong></p><ul>{items}</ul>
+        <p class="shipping limited"><strong>How to buy:</strong> {e(farm['access'])}</p>
+        <p><strong>Contact:</strong> {e(farm['operator'])} · <a href="tel:{farm['phone']}">{e(farm['phone'])}</a> · <a href="mailto:{farm['email']}">{e(farm['email'])}</a></p>
+        {note}
+        <p class="note">Verified from the farm's website on {e(farm['verified'])}.</p>
+        <div class="actions"><a href="{add_utm_params(farm['url'], farm['slug'])}" target="_blank" rel="noopener" class="btn-primary">Visit Farm →</a></div>
+    </article>""")
+    content = f"""
+    <section class="hero">
+        <div class="container">
+            <h1>Beyond Beef</h1>
+            <p class="tagline">Verified pasture-raised farms selling chicken, eggs, and pork direct. Same rules as our ranches: checked by hand, free to list, no commission.</p>
+        </div>
+    </section>
+    <section class="listings-section">
+        <div class="container">
+            <p class="section-intro">{len(farms)} verified farm{'s' if len(farms) != 1 else ''} so far. These farms are listed separately from our beef ranch directory. Know a farm we should check? Email <a href="mailto:ranches@acreandplate.com">ranches@acreandplate.com</a>.</p>
+            <div class="listings-grid">
+                {''.join(cards)}
+            </div>
+        </div>
+    </section>
+    """
+    html = base_template("Beyond Beef: Pasture-Raised Chicken, Eggs & Pork Direct From Farms", content, "Verified pasture-raised farms selling chicken, eggs, and pork direct. No commission. Starting with Grandad Farms in Emmett, Idaho.")
+    write_page('beyond-beef/index.html', html)
+
 def build_featured_thanks():
     """Build Featured Ranch thank you page"""
     content = """
@@ -2141,6 +2183,7 @@ def main():
     # Featured Ranch pages
     build_featured()
     build_featured_thanks()
+    build_beyond_beef()
     build_list_your_ranch()
     
     # About

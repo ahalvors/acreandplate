@@ -1,0 +1,24 @@
+{
+  "farms": [
+    {
+      "slug": "grandad-farms",
+      "name": "Grandad Farms",
+      "city": "Emmett",
+      "state": "ID",
+      "url": "https://www.grandadfarms.com/",
+      "operator": "Mark Ellison and family",
+      "categories": ["Pasture chicken", "Pasture eggs", "Animal feed"],
+      "summary": "Regenerative family farm raising Freedom Ranger broilers moved to fresh pasture 7 days a week, plus laying hens raised with Saint John's Organic Farm in Emmett. No medications, vaccines, hormones, or antibiotics; non-GMO, corn-free, soy-free feed. Chickens processed at a local USDA-inspected facility.",
+      "products": [
+        "Whole pasture chicken, listed at $7/lb (10% off 40 lb+)",
+        "Pasture eggs, unwashed and ungraded, 1 dozen every 2 weeks for $9 (subscription; the farm's site labels them organic, no certification listed)",
+        "Non-GMO, corn-free, soy-free poultry and pig feed, oyster shells, alfalfa pellets"
+      ],
+      "access": "Pickup in Emmett or in Meridian at The Karlfeldt Center. Friday delivery in the Treasure Valley for $20, free over $250. No shipping listed.",
+      "phone": "(208) 207-4292",
+      "email": "mark@grandadfarms.com",
+      "verified": "2026-11-03",
+      "note": "Chicken and eggs showed out of stock when checked."
+    }
+  ]
+}
