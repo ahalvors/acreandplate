@@ -1996,6 +1996,34 @@
       "description": "Multi-generation family farm in the South Carolina Piedmont run by Matt and Kelly Watson, who moved from selling calves into the commodity pipeline to finishing beef on grass and selling it direct. Regenerative rotational grazing, with pastured pork and chicken alongside the beef and an on-farm store in Chester.",
       "note": "Farm store and pickup at 713 Colony Road, Chester, SC 29706 (Mon, Tue, Thu, Fri 10-6; Sat 10-2). Phone 803-581-8926 and info@watsonfarmsbeef.com per the site footer. Shipping terms per the site's /ship/ page and Nov 1, 2026 farm newsletter. The farm says it sources calves from local producers and regional auction rings and finishes them on its own pasture for at least a year, so cattle are not born on the farm. No third-party certification claimed.",
       "last_checked": "2026-11-03"
+    },
+    {
+      "slug": "north-hollow-farm",
+      "name": "North Hollow Farm",
+      "url": "https://vermontgrassfedbeef.com/",
+      "state": "VT",
+      "city": "Rochester",
+      "genetics": "100% grass-fed since 2003; cattle bred, born and raised on the farm from Angus, Hereford and Charolais cross cows bred to Red Devon and British White bulls; grazed on grass and clover pasture spring through fall and fed and finished through winter on the farm's own silage and hay; no growth hormone implants, digestive stimulants or antibiotics per the farm; beef locally butchered and dry-aged two weeks",
+      "breeds": [
+        "red-devon",
+        "british-white",
+        "angus",
+        "hereford",
+        "charolais"
+      ],
+      "products": [
+        "100% grass-fed beef by the cut",
+        "beef sides",
+        "natural pork (nitrate-free bacon, sausage, kielbasa, hot dogs)",
+        "Vermont maple syrup"
+      ],
+      "shipping": "Online store and on-farm store pickup in Rochester, VT; the current online store does not state shipping terms, so ask the farm about shipping before ordering",
+      "phone": "802-767-4255",
+      "email": "orders@vermontgrassfedbeef.com",
+      "featured": false,
+      "description": "Family farm in central Vermont, just north of Rochester Village near the Green Mountain National Forest, raising its own herd on management-intensive rotational grazing. Everything the cattle eat is grown on the farm, and the farm store also carries pork, maple syrup, eggs and seasonal maple creemees.",
+      "note": "Farm store at 1831 Vermont Route 100 North, Rochester, VT 05767 (normally Mon-Sat 10-6, Sun 12-5; family-run and sometimes closed unexpectedly), with fresh meat restocked Wednesdays. Phone 802-767-4255 (home; cell 802-730-2621) and orders@vermontgrassfedbeef.com per the site. Genetics, feeding and dry-aging per the site's About Our Products page. No third-party certification claimed. An older legacy store page mentions Wednesday dry-ice shipping, but the current Shopify store lists no shipping policy, so shipping is not listed as confirmed.",
+      "last_checked": "2026-11-04"
     }
   ]
 }

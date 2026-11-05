@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 3, 2026  
+**Last Updated:** November 4, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 89
+- **Total Ranches:** 90
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 4
 - **Farmers Markets:** 3
@@ -56,13 +56,14 @@
 - **Rhode Island Ranches:** 1
 - **Tennessee Ranches:** 1
 - **Utah Ranches:** 2
+- **Vermont Ranches:** 2
 - **Virginia Ranches:** 2
 - **Washington Ranches:** 2
 - **West Virginia Ranches:** 1
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 132
+- **Total Pages:** 133
 
 ## Pages Built
 
@@ -147,6 +148,7 @@
 - ✅ Certified Piedmontese (NE)
 - ✅ Mahanaim Farms (UT)
 - ✅ Vermont Wagyu (VT)
+- ✅ North Hollow Farm (Rochester, VT)
 - ✅ Caroland Farms Wagyu (SC)
 - ✅ Koopmann Family Beef (CA)
 - ✅ 3 Calhoun Sisters' Ranch (CA)
@@ -398,6 +400,7 @@ python3 build.py
 - 📅 **Nov 2, 2026 PT nightly ship:** Added **Polyface Farm** (Swoope, VA) — second Virginia listing, plus new **/virginia/ hub** (Chapel Hill Farm + Polyface). Salatin family farm in the Shenandoah Valley near Staunton, bought by William and Lucille Salatin in 1961, now three generations. 100% grass-fed beef ("salad bar beef", cows moved daily with portable electric fencing); no vaccines or antibiotics, no synthetic fertilizers, pesticides or GMOs; not USDA certified organic (calls itself "Beyond Organic"). Also pastured pork, chicken/turkey, eggs. Ships frozen weekly via UPS to the contiguous US (Ground $25 fee, free over $175, $50 min; 2-Day Air $35 fee, $50 min), plus on-farm store, pickup locations and neighborhood delivery clubs. Phone 540-885-3590, Wendy@polyfacefarm.com (site footer). Gaps: breed not named; beef prices hidden behind a free account (none listed); some products come from labeled partner farms. Re-checked **Grand View Beef** (IA): flat-rate shipping now $24-$69 continental US ($120 AK/HI), was $20-$59; added 'since 1914' history. Re-checked **Wholly Cow Market** (KS): shipping policy now says no AK/HI shipping, meat ships Mon/Tue, ~3 business days; old $175 CO/KS free-shipping line not re-confirmed so removed. All 4 deals re-verified unchanged (Long Hill $180, Mossyrock $395, Oreganic $199, Sugar Hill $260). States with listings but no hub left: NM, SC, VT (1 ranch each).
 
 - 📅 **Nov 3, 2026 PT nightly ship:** Added **Watson Farms** (Chester, SC) — second South Carolina listing, plus new **/south-carolina/ hub** (Caroland Farms Wagyu + Watson Farms). Multi-generation family farm in the SC Piedmont run by Matt and Kelly Watson. 100% grass-fed and grass-finished beef, zero grain, daily mob-grazing moves on ~300 acres; no feedlots, growth hormones or routine antibiotics per the farm. Calves (all US-born) are bought young from local producers and regional sales and finished at least 365 days (often up to 15 months) on the farm, so not born on the farm (stated in the note). Also pastured pork and chicken, bundles, 1/8 beef, Pasture Picks subscription. Ships frozen with dry ice to the contiguous US Mon-Wed ($125 minimum; $12.95 flat, $15 express zone, free over $199); free farm pickup at 713 Colony Rd, Chester. Phone 803-581-8926, info@watsonfarmsbeef.com. Gaps: breed not named for the whole herd (a recent batch was Red Angus; breeds left empty); no certifications claimed. Re-checked **Mahan Wagyu (Ranch & Trail)** (TX): live, 100% Full-Blood Kuroge Washu; site banner now shows free shipping over $99 (added). **Whispering Pines Ranch** (MI) homepage live but sparse; phone not re-confirmed, last_checked left at 2026-10-03. Deals: all 4 re-verified live and in stock at the same prices (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229, Sugar Hill $260/$280). States with listings but no hub left: NM, VT (1 ranch each). Total: 89 ranches, 4 deals, 132 pages.
+- 📅 **Nov 4, 2026 PT nightly ship:** Added **North Hollow Farm** (Rochester, VT) — family farm 100% grass-fed since 2003, cattle bred, born and raised on the farm (Angus/Hereford/Charolais cross cows x Red Devon and British White bulls), winter-finished on the farm's own silage and hay, no hormone implants or antibiotics per the farm, dry-aged two weeks; on-farm store at 1831 VT Route 100 N; phone 802-767-4255, orders@vermontgrassfedbeef.com. Plus new **/vermont/ hub** (2 ranches). Gaps: current online store states no shipping policy (legacy store mentions Wednesday dry-ice shipping, not treated as confirmed); prices not listed on directory. Re-verified all 4 deals unchanged (Long Hill $180, Mossyrock $395, Oreganic $199, Sugar Hill $260). Directory: 90 ranches, 49 state hubs, 133 pages. Remaining states with a ranch but no hub: New Mexico (Lone Mountain Wagyu).
 
 ## Next Steps / Future Enhancements
 
