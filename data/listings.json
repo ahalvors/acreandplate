@@ -2024,6 +2024,27 @@
       "description": "Family farm in central Vermont, just north of Rochester Village near the Green Mountain National Forest, raising its own herd on management-intensive rotational grazing. Everything the cattle eat is grown on the farm, and the farm store also carries pork, maple syrup, eggs and seasonal maple creemees.",
       "note": "Farm store at 1831 Vermont Route 100 North, Rochester, VT 05767 (normally Mon-Sat 10-6, Sun 12-5; family-run and sometimes closed unexpectedly), with fresh meat restocked Wednesdays. Phone 802-767-4255 (home; cell 802-730-2621) and orders@vermontgrassfedbeef.com per the site. Genetics, feeding and dry-aging per the site's About Our Products page. No third-party certification claimed. An older legacy store page mentions Wednesday dry-ice shipping, but the current Shopify store lists no shipping policy, so shipping is not listed as confirmed.",
       "last_checked": "2026-11-04"
+    },
+    {
+      "slug": "rw-livestock",
+      "name": "R&W Livestock",
+      "url": "https://rwlivestock.com/",
+      "state": "CA",
+      "city": "Rio Vista",
+      "genetics": "Raised on native grasses and high-quality hay for the majority of their lives, with spent brewer's grain added in the final feeding stage (the ranch notes this is not traditional corn/grain feeding); all beef born, raised and finished locally per the ranch",
+      "breeds": [],
+      "products": [
+        "half and whole beef shares (non-refundable deposit, balance due at harvest on hanging weight)",
+        "curated beef boxes",
+        "beef à la carte (steaks, roasts, brisket, prime rib, organs, bones, suet)"
+      ],
+      "shipping": "Beef is delivered to your door in a temperature-controlled refrigerated vehicle per the ranch; delivery area and fees aren't stated, so ask the ranch. Ranch visits by appointment only.",
+      "phone": "707-685-2667",
+      "email": "rwlivestockco@gmail.com",
+      "featured": false,
+      "description": "Family ranch in Rio Vista (Solano County) founded by Joanna & Aaron Wilson, selling ranch-direct beef shares, curated boxes and individual cuts. Boxes are hand-picked, with a build-your-own option.",
+      "note": "Operations address 2772 Olsen Rd, Rio Vista, CA 94571 (visits by appointment only). Phone 707-685-2667, 9am-5pm. Half/whole shares start with a Request Quote form; share buyers choose cuts with the processor. Breed and certifications not stated on the site; cattle are not strictly grass-finished (brewer's grain finish). Email rwlivestockco@gmail.com per site footer.",
+      "last_checked": "2026-11-04"
     }
   ]
 }
