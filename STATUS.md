@@ -1,13 +1,13 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 4, 2026  
+**Last Updated:** November 5, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 90
+- **Total Ranches:** 92
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
-- **Active Deals:** 4
+- **Active Deals:** 3
 - **Farmers Markets:** 3
 - **Butcher Shops:** 20
 - **Featured Ranch Placements:** 0 (feature ready, awaiting first subscribers)
@@ -47,6 +47,7 @@
 - **Nevada Ranches:** 1
 - **New Hampshire Ranches:** 1
 - **New Jersey Ranches:** 1
+- **New Mexico Ranches:** 2
 - **Montana Ranches:** 2
 - **Nebraska Ranches:** 2
 - **New York Ranches:** 1
@@ -63,14 +64,14 @@
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 133
+- **Total Pages:** 135
 
 ## Pages Built
 
 ### Core Pages
 - ✅ Home (`index.html`)
 - ✅ All Listings (`/listings/`)
-- ✅ Seasonal Deals (`/deals/`) - 4 active deals
+- ✅ Seasonal Deals (`/deals/`) - 3 active deals
 - ✅ Local Activity (`/markets/`) - 3 farmers markets + 19 butcher shops (UPDATED!)
 - ✅ Featured Ranch (`/featured/`) - monetization landing page
 - ✅ Featured Ranch Thanks (`/featured/thanks/`) - post-checkout page
@@ -88,6 +89,7 @@
 - ✅ Connecticut hub (`/connecticut/`) - 1 ranch
 - ✅ Rhode Island hub (`/rhode-island/`) - 1 ranch
 - ✅ New Jersey hub (`/new-jersey/`) - 1 ranch
+- ✅ New Mexico hub (`/new-mexico/`) - 2 ranches
 - ✅ Arizona hub (`/arizona/`) - 1 ranch
 - ✅ Arkansas hub (`/arkansas/`) - 2 ranches
 - ✅ Nebraska hub (`/nebraska/`) - 2 ranches
@@ -130,6 +132,7 @@
 
 ### Listing Pages (50 ranches)
 - ✅ Lone Mountain Wagyu (NM)
+- ✅ Sol Ranch (Wagon Mound, NM)
 - ✅ HeartBrand Beef (TX)
 - ✅ Long Hill Wagyu (TX)
 - ✅ Circle H Ranch (WY/ID)
@@ -268,14 +271,14 @@ Organized by county across the Bay Area:
 ## Data Quality
 
 ### Verified Information
-All 28 ranch listings and 3 farmers markets on Acre & Plate have been verified from:
+All ranch listings and 3 farmers markets on Acre & Plate have been verified from:
 - Public ranch websites
 - Direct product pages
 - Contact information pages
 - Shipping policy pages
 
 ### Deals & Pricing
-- ✅ **4 active deals** verified from ranch websites (as of Sept 19, 2026)
+- ✅ **3 active deals** verified from ranch websites
 - ✅ Sale prices confirmed from ranch sales/clearance pages
 - ✅ Regular prices included when shown by ranch
 - ⚠️ Deals updated periodically—users should confirm current pricing on ranch sites
@@ -402,6 +405,7 @@ python3 build.py
 - 📅 **Nov 3, 2026 PT nightly ship:** Added **Watson Farms** (Chester, SC) — second South Carolina listing, plus new **/south-carolina/ hub** (Caroland Farms Wagyu + Watson Farms). Multi-generation family farm in the SC Piedmont run by Matt and Kelly Watson. 100% grass-fed and grass-finished beef, zero grain, daily mob-grazing moves on ~300 acres; no feedlots, growth hormones or routine antibiotics per the farm. Calves (all US-born) are bought young from local producers and regional sales and finished at least 365 days (often up to 15 months) on the farm, so not born on the farm (stated in the note). Also pastured pork and chicken, bundles, 1/8 beef, Pasture Picks subscription. Ships frozen with dry ice to the contiguous US Mon-Wed ($125 minimum; $12.95 flat, $15 express zone, free over $199); free farm pickup at 713 Colony Rd, Chester. Phone 803-581-8926, info@watsonfarmsbeef.com. Gaps: breed not named for the whole herd (a recent batch was Red Angus; breeds left empty); no certifications claimed. Re-checked **Mahan Wagyu (Ranch & Trail)** (TX): live, 100% Full-Blood Kuroge Washu; site banner now shows free shipping over $99 (added). **Whispering Pines Ranch** (MI) homepage live but sparse; phone not re-confirmed, last_checked left at 2026-10-03. Deals: all 4 re-verified live and in stock at the same prices (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229, Sugar Hill $260/$280). States with listings but no hub left: NM, VT (1 ranch each). Total: 89 ranches, 4 deals, 132 pages.
 - 📅 **Nov 4, 2026 PT nightly ship:** Added **North Hollow Farm** (Rochester, VT) — family farm 100% grass-fed since 2003, cattle bred, born and raised on the farm (Angus/Hereford/Charolais cross cows x Red Devon and British White bulls), winter-finished on the farm's own silage and hay, no hormone implants or antibiotics per the farm, dry-aged two weeks; on-farm store at 1831 VT Route 100 N; phone 802-767-4255, orders@vermontgrassfedbeef.com. Plus new **/vermont/ hub** (2 ranches). Gaps: current online store states no shipping policy (legacy store mentions Wednesday dry-ice shipping, not treated as confirmed); prices not listed on directory. Re-verified all 4 deals unchanged (Long Hill $180, Mossyrock $395, Oreganic $199, Sugar Hill $260). Directory: 90 ranches, 49 state hubs, 133 pages. Remaining states with a ranch but no hub: New Mexico (Lone Mountain Wagyu).
 - 📅 **Nov 4, 2026 PT extra ship (Andy-approved):** Added **R&W Livestock** (Rio Vista, CA, Solano County) — Joanna & Aaron Wilson's ranch; cattle on native grasses and hay most of their lives, finished with spent brewer's grain; born, raised and finished locally per the ranch. Half/whole shares (deposit, balance at harvest), curated boxes, à la carte. Refrigerated delivery to the door per site (area/fees not stated). Phone 707-685-2667, rwlivestockco@gmail.com. Gaps: breed and certifications not stated; prices not listed on directory. Directory: 91 ranches, 134 pages.
+- 📅 **Nov 5, 2026 PT nightly ship:** Added **Sol Ranch** (Wagon Mound, NM) — grassfed and grass-finished dry-aged beef raised with adaptive ranching practices in northeastern New Mexico; local delivery across New Mexico (Albuquerque, Santa Fe, Cedar Crest, Taos, Las Vegas, Watrous, Springer, Raton) plus Trinidad, CO; email beefsales@solranchnm.com. New Mexico is now the 50th state hub at `/new-mexico/` with 2 ranches (Lone Mountain Wagyu + Sol Ranch). Re-verified all 3 active deals (Long Hill $180, Mossyrock $395, Oreganic $199); **dropped Sugar Hill Farmstead Family Farm Beef Box** (sold out at product page). Also sells lamb. Gaps: breed not named, no public phone. Backlog: second listings in thin-state hubs. Directory: 92 ranches, 3 deals, 50 state hubs (all 50 states complete), 135 pages.
 
 ## Next Steps / Future Enhancements
 

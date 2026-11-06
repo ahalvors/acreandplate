@@ -20,7 +20,7 @@
       "shipping": "Ships nationwide",
       "featured": true,
       "description": "Full-blood wagyu beef raised at our New Mexico cattle ranch. Hormone and antibiotic-free, with exceptional marbling and flavor.",
-      "last_checked": "2026-10-15"
+      "last_checked": "2026-11-05"
     },
     {
       "slug": "heartbrand-beef",
@@ -2045,6 +2045,29 @@
       "description": "Family ranch in Rio Vista (Solano County) founded by Joanna & Aaron Wilson, selling ranch-direct beef shares, curated boxes and individual cuts. Boxes are hand-picked, with a build-your-own option.",
       "note": "Operations address 2772 Olsen Rd, Rio Vista, CA 94571 (visits by appointment only). Phone 707-685-2667, 9am-5pm. Half/whole shares start with a Request Quote form; share buyers choose cuts with the processor. Breed and certifications not stated on the site; cattle are not strictly grass-finished (brewer's grain finish). Email rwlivestockco@gmail.com per site footer.",
       "last_checked": "2026-11-04"
+    },
+    {
+      "slug": "sol-ranch",
+      "name": "Sol Ranch",
+      "url": "https://www.solranchnm.com/",
+      "state": "NM",
+      "city": "Wagon Mound",
+      "genetics": "Grassfed and grass-finished; cattle spend their entire lives on pasture in northeastern New Mexico; dry-aged; raised, finished, and processed in New Mexico per the ranch",
+      "breeds": [],
+      "products": [
+        "half beef share (deposit)",
+        "bulk beef from 1/16th to whole",
+        "ground beef",
+        "mixed steak bundles",
+        "slow-cookin' beef bundles",
+        "organ meats, tongue, oxtail, bones"
+      ],
+      "shipping": "Local delivery in New Mexico to Albuquerque, Santa Fe, Cedar Crest, Taos, Las Vegas, Watrous, Springer, and Raton, plus Trinidad, CO (about once a month); free Wagon Mound delivery on a pre-scheduled basis. Delivery rates on the ranch purchase page. No nationwide shipping stated.",
+      "email": "beefsales@solranchnm.com",
+      "featured": false,
+      "description": "Sol Ranch LLC in Wagon Mound raises grassfed and finished dry-aged beef where the plains meet the mountains in northeastern New Mexico, using adaptive ranching practices aimed at soil health and watershed resiliency.",
+      "note": "No public phone on the site (emails beefsales@solranchnm.com and solranchnm@gmail.com; hours Sat 8am–5pm). Breed not named (breeds empty). Also sells lamb. Short ribs special was sold out on the purchase page when checked 2026-11-05. Site lists retail partners in NM/CO; this directory listing is for ranch-direct DTC.",
+      "last_checked": "2026-11-05"
     }
   ]
 }

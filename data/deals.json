@@ -14,7 +14,7 @@
       "unit": "15 lb bundle",
       "season_label": "Bulk Deal",
       "reason": "100% Fullblood Wagyu ground beef bulk pricing",
-      "verified_at": "2026-11-04",
+      "verified_at": "2026-11-05",
       "gaps": null
     },
     {
@@ -31,7 +31,7 @@
       "unit": "box",
       "season_label": "Sale",
       "reason": "100% Fullblood Wagyu BBQ bundle on sale",
-      "verified_at": "2026-11-04",
+      "verified_at": "2026-11-05",
       "gaps": null
     },
     {
@@ -48,25 +48,8 @@
       "unit": "18+ lb box",
       "season_label": "Sale",
       "reason": "Crockpot comfort box on sale (2× bone-in chuck roast 3+ lb, 6 packs short ribs, 4 packs beef shanks)",
-      "verified_at": "2026-11-04",
+      "verified_at": "2026-11-05",
       "gaps": null
-    },
-    {
-      "id": "sugarhill-family-farm-beef-box",
-      "listing_id": "sugar-hill-farmstead",
-      "ranch_name": "Sugar Hill Farmstead",
-      "website": "https://sugarhillfarmstead.com/",
-      "product_url": "https://sugarhillfarmstead.com/products/family-farm-beef-box",
-      "cut": "mixed",
-      "product_name": "Family Farm Beef Box",
-      "regular_price": 280,
-      "sale_price": 260,
-      "currency": "USD",
-      "unit": "20 lb box",
-      "season_label": "Sale",
-      "reason": "20 lb box of 100% grass-fed, grass-finished Hawaii Island beef (stew, roasts, ground and family steaks) on sale",
-      "verified_at": "2026-11-04",
-      "gaps": "Ships only within Hawaii (or farm pickup/local delivery on Hawaii Island); no sale end date shown"
     }
   ]
 }
