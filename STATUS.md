@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 6, 2026  
+**Last Updated:** November 7, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 93
+- **Total Ranches:** 94
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -18,7 +18,7 @@
 - **Alaska Ranches:** 1
 - **Arizona Ranches:** 1
 - **Arkansas Ranches:** 2
-- **Georgia Ranches:** 1
+- **Georgia Ranches:** 2
 - **Hawaii Ranches:** 1
 - **Illinois Ranches:** 1
 - **Indiana Ranches:** 1
@@ -64,7 +64,7 @@
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 136
+- **Total Pages:** 137
 
 ## Pages Built
 
@@ -408,6 +408,8 @@ python3 build.py
 - 📅 **Nov 4, 2026 PT nightly ship:** Added **North Hollow Farm** (Rochester, VT) — family farm 100% grass-fed since 2003, cattle bred, born and raised on the farm (Angus/Hereford/Charolais cross cows x Red Devon and British White bulls), winter-finished on the farm's own silage and hay, no hormone implants or antibiotics per the farm, dry-aged two weeks; on-farm store at 1831 VT Route 100 N; phone 802-767-4255, orders@vermontgrassfedbeef.com. Plus new **/vermont/ hub** (2 ranches). Gaps: current online store states no shipping policy (legacy store mentions Wednesday dry-ice shipping, not treated as confirmed); prices not listed on directory. Re-verified all 4 deals unchanged (Long Hill $180, Mossyrock $395, Oreganic $199, Sugar Hill $260). Directory: 90 ranches, 49 state hubs, 133 pages. Remaining states with a ranch but no hub: New Mexico (Lone Mountain Wagyu).
 - 📅 **Nov 4, 2026 PT extra ship (Andy-approved):** Added **R&W Livestock** (Rio Vista, CA, Solano County) — Joanna & Aaron Wilson's ranch; cattle on native grasses and hay most of their lives, finished with spent brewer's grain; born, raised and finished locally per the ranch. Half/whole shares (deposit, balance at harvest), curated boxes, à la carte. Refrigerated delivery to the door per site (area/fees not stated). Phone 707-685-2667, rwlivestockco@gmail.com. Gaps: breed and certifications not stated; prices not listed on directory. Directory: 91 ranches, 134 pages.
 - 📅 **Nov 5, 2026 PT nightly ship:** Added **Sol Ranch** (Wagon Mound, NM) — grassfed and grass-finished dry-aged beef raised with adaptive ranching practices in northeastern New Mexico; local delivery across New Mexico (Albuquerque, Santa Fe, Cedar Crest, Taos, Las Vegas, Watrous, Springer, Raton) plus Trinidad, CO; email beefsales@solranchnm.com. New Mexico is now the 50th state hub at `/new-mexico/` with 2 ranches (Lone Mountain Wagyu + Sol Ranch). Re-verified all 3 active deals (Long Hill $180, Mossyrock $395, Oreganic $199); **dropped Sugar Hill Farmstead Family Farm Beef Box** (sold out at product page). Also sells lamb. Gaps: breed not named, no public phone. Backlog: second listings in thin-state hubs. Directory: 92 ranches, 3 deals, 50 state hubs (all 50 states complete), 135 pages.
+
+- 📅 **Nov 7, 2026 PT nightly ship:** Added **Big Oak Beef (Nix Family Farm)** (Gainesville, GA) — second Georgia listing. Nix family farm in north Georgia since 1969 (Larry Nix bought the first 40 acres after military service). Small Hereford cow herd crossed with an Aberdeen Angus bull for Black Baldy calves; grass-fed and grass-finished on fescue, Bermuda, orchard and rye grasses, hay in winter; no hormones, steroids or antibiotics per the farm. Sells whole, half and quarter beef plus cuts by the box; processed at a local family-owned USDA-inspected butcher. Local delivery within 50 miles of Gainesville (no shipping listed). Phone 470-716-4079, BigOakBeefGA@gmail.com; Official Georgia Grown producer. Gaps: no prices listed, no certifications claimed. Georgia hub copy broadened (it previously described only White Oak Pastures' on-farm processing). Re-verified all 3 deals unchanged (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Other GA lead seen, not added: Eden Pure Beef (Stephens; 100% grass-fed, 36-40 month cattle) — no public phone, email, prices or shipping on its homepage. Total: 94 ranches, 3 deals, 50 state hubs, 137 pages.
 
 ## Next Steps / Future Enhancements
 
