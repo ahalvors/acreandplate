@@ -1877,7 +1877,7 @@ def main():
         "Georgia Ranches",
         "georgia",
         lambda l: l.get('state') == 'GA',
-        "Georgia ranches raising grass-fed and grass-finished beef with regenerative land management and on-farm USDA processing."
+        "Georgia family farms raising grass-fed and grass-finished beef, from regenerative land management and on-farm USDA processing in Bluffton to local delivery around Gainesville in north Georgia."
     )
     
     build_hub_page(

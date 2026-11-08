@@ -2092,6 +2092,31 @@
       "description": "A four-generation family farm in the hills of East Tennessee, run by the Turner and Weems families, raising grass-fed and grass-finished, dry-aged beef processed with regional partners and sold direct from the farm.",
       "note": "Breed not named on the site (breeds empty). Also sells tallow soap, raw honey, eggs, seasonal vegetables, and log cabin farm stays. Prices from the farm's beef shop page when checked 2026-11-06; confirm current pricing with the farm.",
       "last_checked": "2026-11-06"
+    },
+    {
+      "slug": "big-oak-beef",
+      "name": "Big Oak Beef (Nix Family Farm)",
+      "url": "https://bigoakbeef.com/",
+      "state": "GA",
+      "city": "Gainesville",
+      "genetics": "Grass-fed and grass-finished Black Baldy cattle (Hereford cows crossed with an Aberdeen Angus bull), raised on mother's milk then pasture forage (fescue, Bermuda, orchard and rye grasses) with hay in winter; no hormones, steroids or antibiotics per the farm",
+      "breeds": [
+        "Hereford",
+        "Angus"
+      ],
+      "products": [
+        "whole beef",
+        "half beef",
+        "quarter beef",
+        "selection of cuts by the box"
+      ],
+      "shipping": "Local delivery within 50 miles of Gainesville, GA per the farm. No shipping listed. Processed at a local, family-owned USDA-inspected butcher; vacuum-sealed and frozen.",
+      "email": "BigOakBeefGA@gmail.com",
+      "phone": "470-716-4079",
+      "featured": false,
+      "description": "The Nix family has raised cattle in north Georgia since 1969, when Larry Nix bought the first 40 acres after military service. A small Hereford herd crossed with an Angus bull produces grass-fed, grass-finished Black Baldy beef sold by the whole, half, quarter or box.",
+      "note": "Official Georgia Grown producer per the site. Farm address 3776 Anglin Drive, Gainesville, GA 30507. Prices not listed on the site; no certifications claimed. Checked 2026-11-07.",
+      "last_checked": "2026-11-07"
     }
   ]
 }
