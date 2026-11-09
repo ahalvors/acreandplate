@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 7, 2026  
+**Last Updated:** November 8, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 94
+- **Total Ranches:** 95
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -24,7 +24,7 @@
 - **Indiana Ranches:** 1
 - **Iowa Ranches:** 1
 - **Kansas Ranches:** 2
-- **Kentucky Ranches:** 1
+- **Kentucky Ranches:** 2
 - **Louisiana Ranches:** 1
 - **Maine Ranches:** 1
 - **Maryland Ranches:** 1
@@ -64,7 +64,7 @@
 - **Wisconsin Ranches:** 1
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 137
+- **Total Pages:** 138
 
 ## Pages Built
 
@@ -410,6 +410,8 @@ python3 build.py
 - 📅 **Nov 5, 2026 PT nightly ship:** Added **Sol Ranch** (Wagon Mound, NM) — grassfed and grass-finished dry-aged beef raised with adaptive ranching practices in northeastern New Mexico; local delivery across New Mexico (Albuquerque, Santa Fe, Cedar Crest, Taos, Las Vegas, Watrous, Springer, Raton) plus Trinidad, CO; email beefsales@solranchnm.com. New Mexico is now the 50th state hub at `/new-mexico/` with 2 ranches (Lone Mountain Wagyu + Sol Ranch). Re-verified all 3 active deals (Long Hill $180, Mossyrock $395, Oreganic $199); **dropped Sugar Hill Farmstead Family Farm Beef Box** (sold out at product page). Also sells lamb. Gaps: breed not named, no public phone. Backlog: second listings in thin-state hubs. Directory: 92 ranches, 3 deals, 50 state hubs (all 50 states complete), 135 pages.
 
 - 📅 **Nov 7, 2026 PT nightly ship:** Added **Big Oak Beef (Nix Family Farm)** (Gainesville, GA) — second Georgia listing. Nix family farm in north Georgia since 1969 (Larry Nix bought the first 40 acres after military service). Small Hereford cow herd crossed with an Aberdeen Angus bull for Black Baldy calves; grass-fed and grass-finished on fescue, Bermuda, orchard and rye grasses, hay in winter; no hormones, steroids or antibiotics per the farm. Sells whole, half and quarter beef plus cuts by the box; processed at a local family-owned USDA-inspected butcher. Local delivery within 50 miles of Gainesville (no shipping listed). Phone 470-716-4079, BigOakBeefGA@gmail.com; Official Georgia Grown producer. Gaps: no prices listed, no certifications claimed. Georgia hub copy broadened (it previously described only White Oak Pastures' on-farm processing). Re-verified all 3 deals unchanged (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Other GA lead seen, not added: Eden Pure Beef (Stephens; 100% grass-fed, 36-40 month cattle) — no public phone, email, prices or shipping on its homepage. Total: 94 ranches, 3 deals, 50 state hubs, 137 pages.
+
+- 📅 **Nov 8, 2026 PT nightly ship:** Added **Foxhollow Farm** (Crestwood, KY) — second Kentucky listing. 1,300-acre family farm stewarded by the same family for 65+ years (Janey Newton, 3rd generation; daughter Maggie Keith, 4th), farmed biodynamically since 2005; 720 acres of pasture the farm says is Demeter Certified Biodynamic. Closed herd of ~550 cattle (about 2/3 Red Angus, 1/3 Jersey, some Corriente and Barzona), all born on the farm; 100% grass-fed and grass-finished (mainly alfalfa and orchard grass), rotational grazing, no growth hormones or grain, antibiotics only as a last resort; processed locally at a USDA-inspected facility. Sells cuts, boxes/bundles, subscriptions and 1/8 ($775), 1/4 ($1,400), 1/2 ($2,750) and whole ($5,250) beef shares. Ships frozen with dry ice via UPS on Wednesdays to 17 eastern/nearby states only (AL, DE, FL, GA, IL, IN, KY, MD, NJ, NY, NC, OH, PA, SC, TN, VA, WV); local van delivery and pickup at the on-farm Foxhollow Market. Phone 502-797-0005, grassfedbeef@foxhollow.com. Caveats: homepage says "AGA Certified" while the beef page says AGA member, so stated as the farm's claim (no cert filter tag); also sells pork, chicken, bison, lamb and seafood that may not all be farm-raised. Kentucky hub copy broadened (it previously described only England Ranch's Dexters). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Total: 95 ranches, 3 deals, 50 state hubs, 138 pages.
 
 ## Next Steps / Future Enhancements
 

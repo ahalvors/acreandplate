@@ -2094,7 +2094,7 @@ def main():
         "Kentucky Ranches",
         "kentucky",
         lambda l: l.get('state') == 'KY',
-        "Kentucky ranches raising ADCA Registered Heritage Dexter cattle with documented lineage, 100% grass-fed and grass-finished, and regional direct delivery."
+        "Kentucky family farms raising 100% grass-fed and grass-finished beef, from registered Heritage Dexter cattle in Edmonton to a biodynamic closed herd in Crestwood, with regional delivery and East Coast shipping."
     )
     
     build_hub_page(
