@@ -1905,7 +1905,7 @@ def main():
         "Wisconsin Ranches",
         "wisconsin",
         lambda l: l['state'] == 'WI',
-        "Wisconsin ranches offering 100% grass-fed and grass-finished beef from farmer-owned cooperatives. Ranch-direct shipping available."
+        "Wisconsin grass-fed beef, from a farmer-owned cooperative of 230+ family farms to a first-generation family farm in Mondovi with daily rotational grazing, on-farm Burger Nights, and Midwest shipping."
     )
     
     build_hub_page(
