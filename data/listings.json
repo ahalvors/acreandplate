@@ -2145,6 +2145,36 @@
       "description": "Foxhollow Farm is a 1,300-acre family farm in Crestwood, Kentucky, stewarded by the same family for more than 65 years and farmed with biodynamic methods since 2005. Its closed herd grazes 720 acres of pasture the farm says is Demeter Certified Biodynamic, and the beef is 100% grass-fed and grass-finished, processed locally at a USDA-inspected facility.",
       "note": "The farm calls its beef AGA Certified 100% grassfed on its homepage and an American Grassfed Association member on its beef page; pastures are Demeter Certified Biodynamic per the farm. Foxhollow Market (8905 Highway 329, Crestwood, KY 40014) is self-serve daily dawn to dusk and staffed Thu-Fri 10-5 and Sat 10-1. Also sells pork, chicken, bison, lamb and seafood (not all raised on the farm, so check the product). Beef shares listed at $775 (1/8) to $5,250 (whole) on Nov 8, 2026. Checked 2026-11-08.",
       "last_checked": "2026-11-08"
+    },
+    {
+      "slug": "together-farms",
+      "name": "Together Farms",
+      "url": "https://togetherfarms.com/",
+      "state": "WI",
+      "city": "Mondovi",
+      "genetics": "100% grass-fed and grass-finished beef raised on the farm's own pastures with intensive rotational grazing (moved to new pasture daily); winter diet is stockpiled pasture and hay bought from local farms, with no corn silage, oats or grain; free-choice minerals and salt plus apple cider vinegar in the water; no added hormones, antibiotics or vaccines per the farm",
+      "breeds": [],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground beef",
+        "burger patties",
+        "brisket",
+        "short ribs",
+        "organ meats",
+        "bone broth and tallow",
+        "beef snack sticks and sausages",
+        "bundles",
+        "1/8 beef bundle",
+        "subscribe and save"
+      ],
+      "shipping": "Local delivery Mondays (Menomonie area Wednesdays) to parts of Eau Claire, Chippewa, Trempealeau and Dunn counties ($39 minimum; $15, free over $199). 1-day Spee-Dee/UPS shipping to the rest of Wisconsin and select nearby states such as IA, IL and MN ($59 minimum; $24.99 under $199). 2-day UPS to states including IN, KS, KY, MI, MO, MT, NE, ND, OH and SD ($99 minimum; $49.99 under $249, free over $249). Pickup at the on-farm store in Mondovi.",
+      "phone": "715-210-4740",
+      "email": "steph@togetherfarms.com",
+      "featured": false,
+      "description": "Together Farms is a first-generation, pasture-based family farm in Mondovi, Wisconsin, raising 100% grass-fed and grass-finished beef with intensive rotational grazing and no grain ever. Beef is processed at an Animal Welfare Approved butcher, sold through the on-farm store, local delivery and Midwest shipping, and served at the farm's seasonal Burger Nights.",
+      "note": "Farm address W93 Norden Rd, Mondovi, WI 54755. The farm says it raises animals organically but shows no organic certification, so none is claimed; the Animal Welfare Approved label refers to the butcher, not a farm certification. Breed not stated. Also sells lamb, pastured pork and other local foods. Beef bundles on the site run from $69 to $599 (Premium 1/8 Beef Bundle) on Nov 9, 2026. Burger Night runs about May to early October. Checked 2026-11-09.",
+      "last_checked": "2026-11-09"
     }
   ]
 }

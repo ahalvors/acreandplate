@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 8, 2026  
+**Last Updated:** November 9, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 95
+- **Total Ranches:** 96
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -61,10 +61,10 @@
 - **Virginia Ranches:** 2
 - **Washington Ranches:** 2
 - **West Virginia Ranches:** 1
-- **Wisconsin Ranches:** 1
+- **Wisconsin Ranches:** 2
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 138
+- **Total Pages:** 139
 
 ## Pages Built
 
@@ -412,6 +412,8 @@ python3 build.py
 - 📅 **Nov 7, 2026 PT nightly ship:** Added **Big Oak Beef (Nix Family Farm)** (Gainesville, GA) — second Georgia listing. Nix family farm in north Georgia since 1969 (Larry Nix bought the first 40 acres after military service). Small Hereford cow herd crossed with an Aberdeen Angus bull for Black Baldy calves; grass-fed and grass-finished on fescue, Bermuda, orchard and rye grasses, hay in winter; no hormones, steroids or antibiotics per the farm. Sells whole, half and quarter beef plus cuts by the box; processed at a local family-owned USDA-inspected butcher. Local delivery within 50 miles of Gainesville (no shipping listed). Phone 470-716-4079, BigOakBeefGA@gmail.com; Official Georgia Grown producer. Gaps: no prices listed, no certifications claimed. Georgia hub copy broadened (it previously described only White Oak Pastures' on-farm processing). Re-verified all 3 deals unchanged (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Other GA lead seen, not added: Eden Pure Beef (Stephens; 100% grass-fed, 36-40 month cattle) — no public phone, email, prices or shipping on its homepage. Total: 94 ranches, 3 deals, 50 state hubs, 137 pages.
 
 - 📅 **Nov 8, 2026 PT nightly ship:** Added **Foxhollow Farm** (Crestwood, KY) — second Kentucky listing. 1,300-acre family farm stewarded by the same family for 65+ years (Janey Newton, 3rd generation; daughter Maggie Keith, 4th), farmed biodynamically since 2005; 720 acres of pasture the farm says is Demeter Certified Biodynamic. Closed herd of ~550 cattle (about 2/3 Red Angus, 1/3 Jersey, some Corriente and Barzona), all born on the farm; 100% grass-fed and grass-finished (mainly alfalfa and orchard grass), rotational grazing, no growth hormones or grain, antibiotics only as a last resort; processed locally at a USDA-inspected facility. Sells cuts, boxes/bundles, subscriptions and 1/8 ($775), 1/4 ($1,400), 1/2 ($2,750) and whole ($5,250) beef shares. Ships frozen with dry ice via UPS on Wednesdays to 17 eastern/nearby states only (AL, DE, FL, GA, IL, IN, KY, MD, NJ, NY, NC, OH, PA, SC, TN, VA, WV); local van delivery and pickup at the on-farm Foxhollow Market. Phone 502-797-0005, grassfedbeef@foxhollow.com. Caveats: homepage says "AGA Certified" while the beef page says AGA member, so stated as the farm's claim (no cert filter tag); also sells pork, chicken, bison, lamb and seafood that may not all be farm-raised. Kentucky hub copy broadened (it previously described only England Ranch's Dexters). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Total: 95 ranches, 3 deals, 50 state hubs, 138 pages.
+
+- 📅 **Nov 9, 2026 PT nightly ship:** Added **Together Farms** (Mondovi, WI) — second Wisconsin listing. First-generation, pasture-based family farm (W93 Norden Rd). 100% grass-fed and grass-finished beef with intensive rotational grazing (moved to new pasture daily); winter feed is stockpiled pasture and locally bought hay, no corn silage, oats or grain; free-choice minerals, salt and apple cider vinegar; no added hormones, antibiotics or vaccines per the farm. Processed at an Animal Welfare Approved butcher. Sells cuts, ground/patties, organs, broth/tallow, snack sticks/sausages, bundles ($69-$599 incl. Premium 1/8 Beef Bundle $599) and subscribe & save. Local delivery in Eau Claire/Chippewa/Trempealeau/Dunn counties; 1-day shipping to rest of WI and select nearby states (IA, IL, MN etc.); 2-day UPS to IN, KS, KY, MI, MO, MT, NE, ND, OH, SD (free over $249); on-farm store pickup; seasonal Burger Nights May-early Oct. Phone 715-210-4740, steph@togetherfarms.com. Gaps/caveats: breed not stated; farm says raised "organically" but no certification shown, so none claimed; AWA label refers to the butcher. Site's state lists include a typo ("NB") and ND/SD in both tiers, so the listing names only clear states. Wisconsin hub copy broadened (it previously described only the Wisconsin Meadows co-op). Re-verified all 3 deals unchanged (Long Hill $180/$195 in stock, Mossyrock $395/$475, Oreganic $199/$229 in stock). Total: 96 ranches, 3 deals, 50 state hubs, 139 pages.
 
 ## Next Steps / Future Enhancements
 
