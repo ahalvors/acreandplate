@@ -2175,6 +2175,36 @@
       "description": "Together Farms is a first-generation, pasture-based family farm in Mondovi, Wisconsin, raising 100% grass-fed and grass-finished beef with intensive rotational grazing and no grain ever. Beef is processed at an Animal Welfare Approved butcher, sold through the on-farm store, local delivery and Midwest shipping, and served at the farm's seasonal Burger Nights.",
       "note": "Farm address W93 Norden Rd, Mondovi, WI 54755. The farm says it raises animals organically but shows no organic certification, so none is claimed; the Animal Welfare Approved label refers to the butcher, not a farm certification. Breed not stated. Also sells lamb, pastured pork and other local foods. Beef bundles on the site run from $69 to $599 (Premium 1/8 Beef Bundle) on Nov 9, 2026. Burger Night runs about May to early October. Checked 2026-11-09.",
       "last_checked": "2026-11-09"
+    },
+    {
+      "slug": "hidden-stream-farm",
+      "name": "Hidden Stream Farm",
+      "url": "https://hiddenstreamfarm.com/",
+      "state": "MN",
+      "city": "Elgin",
+      "genetics": "100% grass-fed beef: cattle live outdoors year round on biodiverse pasture in the warmer months and dry pasture and stored forages in winter, and never receive grain; no drugs, antibiotics, hormones or steroids per the farm, with regenerative, rotational grazing practices",
+      "breeds": [],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground beef",
+        "burger patties",
+        "brisket",
+        "brats and sausages",
+        "summer sausage",
+        "snack sticks and jerky",
+        "bones and organs",
+        "bulk and bundles",
+        "gift boxes",
+        "subscribe and save"
+      ],
+      "shipping": "Weekly home delivery to all lower 48 states: Rochester-area and Twin Cities delivery by the farm van, regional delivery via Spee-Dee (free over $99), and FedEx/UPS Ground or 2nd Day Air nationally (free over $199). Orders are due by Sunday midnight for delivery the following week. Also sold at farmers markets and area retail stores.",
+      "phone": "(507) 876-2304",
+      "email": "sales@hiddenstreamfarm.com",
+      "featured": false,
+      "description": "Hidden Stream Farm is a fourth-generation Klein family farm in Elgin, Minnesota, farming since the 1960s and selling direct since 1999. Its beef is 100% grass-fed with no grain, drugs or hormones, delivered weekly in compostable packaging by farm van around Rochester and the Twin Cities and shipped across the lower 48.",
+      "note": "Farm address 27079 County Road 25, Elgin, MN 55932. Run by Eric and Lisa Klein and their six kids. The farm became certified organic in 2018 per its story page, but the beef pages do not carry an organic label, so no organic beef claim is made here. The farm also acts as a local food hub, reselling foods from partner farms in Minnesota and Wisconsin, and sells pork, chicken, lamb, Katy's Eggs and more. Breed not stated. Prices require a free store account. Checked 2026-11-10.",
+      "last_checked": "2026-11-10"
     }
   ]
 }

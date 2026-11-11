@@ -1975,7 +1975,7 @@ def main():
         "Minnesota Ranches",
         "minnesota",
         lambda l: l.get('state') == 'MN',
-        "Minnesota ranches raising American Wagyu with artisan butcher shop processing and nationwide shipping."
+        "Minnesota beef, from American Wagyu dry-aged at a family butcher shop in Conger to 100% grass-fed beef from a fourth-generation family farm in Elgin with weekly home delivery. Both ship to the lower 48."
     )
     
     build_hub_page(

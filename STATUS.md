@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 9, 2026  
+**Last Updated:** November 10, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 96
+- **Total Ranches:** 97
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -30,7 +30,7 @@
 - **Maryland Ranches:** 1
 - **Massachusetts Ranches:** 1
 - **Michigan Ranches:** 1
-- **Minnesota Ranches:** 1
+- **Minnesota Ranches:** 2
 - **Missouri Ranches:** 1
 - **North Carolina Ranches:** 1
 - **North Dakota Ranches:** 1
@@ -64,7 +64,7 @@
 - **Wisconsin Ranches:** 2
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 1
-- **Total Pages:** 139
+- **Total Pages:** 140
 
 ## Pages Built
 
@@ -414,6 +414,8 @@ python3 build.py
 - 📅 **Nov 8, 2026 PT nightly ship:** Added **Foxhollow Farm** (Crestwood, KY) — second Kentucky listing. 1,300-acre family farm stewarded by the same family for 65+ years (Janey Newton, 3rd generation; daughter Maggie Keith, 4th), farmed biodynamically since 2005; 720 acres of pasture the farm says is Demeter Certified Biodynamic. Closed herd of ~550 cattle (about 2/3 Red Angus, 1/3 Jersey, some Corriente and Barzona), all born on the farm; 100% grass-fed and grass-finished (mainly alfalfa and orchard grass), rotational grazing, no growth hormones or grain, antibiotics only as a last resort; processed locally at a USDA-inspected facility. Sells cuts, boxes/bundles, subscriptions and 1/8 ($775), 1/4 ($1,400), 1/2 ($2,750) and whole ($5,250) beef shares. Ships frozen with dry ice via UPS on Wednesdays to 17 eastern/nearby states only (AL, DE, FL, GA, IL, IN, KY, MD, NJ, NY, NC, OH, PA, SC, TN, VA, WV); local van delivery and pickup at the on-farm Foxhollow Market. Phone 502-797-0005, grassfedbeef@foxhollow.com. Caveats: homepage says "AGA Certified" while the beef page says AGA member, so stated as the farm's claim (no cert filter tag); also sells pork, chicken, bison, lamb and seafood that may not all be farm-raised. Kentucky hub copy broadened (it previously described only England Ranch's Dexters). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Total: 95 ranches, 3 deals, 50 state hubs, 138 pages.
 
 - 📅 **Nov 9, 2026 PT nightly ship:** Added **Together Farms** (Mondovi, WI) — second Wisconsin listing. First-generation, pasture-based family farm (W93 Norden Rd). 100% grass-fed and grass-finished beef with intensive rotational grazing (moved to new pasture daily); winter feed is stockpiled pasture and locally bought hay, no corn silage, oats or grain; free-choice minerals, salt and apple cider vinegar; no added hormones, antibiotics or vaccines per the farm. Processed at an Animal Welfare Approved butcher. Sells cuts, ground/patties, organs, broth/tallow, snack sticks/sausages, bundles ($69-$599 incl. Premium 1/8 Beef Bundle $599) and subscribe & save. Local delivery in Eau Claire/Chippewa/Trempealeau/Dunn counties; 1-day shipping to rest of WI and select nearby states (IA, IL, MN etc.); 2-day UPS to IN, KS, KY, MI, MO, MT, NE, ND, OH, SD (free over $249); on-farm store pickup; seasonal Burger Nights May-early Oct. Phone 715-210-4740, steph@togetherfarms.com. Gaps/caveats: breed not stated; farm says raised "organically" but no certification shown, so none claimed; AWA label refers to the butcher. Site's state lists include a typo ("NB") and ND/SD in both tiers, so the listing names only clear states. Wisconsin hub copy broadened (it previously described only the Wisconsin Meadows co-op). Re-verified all 3 deals unchanged (Long Hill $180/$195 in stock, Mossyrock $395/$475, Oreganic $199/$229 in stock). Total: 96 ranches, 3 deals, 50 state hubs, 139 pages.
+
+- 📅 **Nov 10, 2026 PT nightly ship:** Added **Hidden Stream Farm** (Elgin, MN) — second Minnesota listing. Fourth-generation Klein family farm (27079 County Road 25), farming since the 1950s-60s; Everett Koenig moved to beef, rotational grazing and fewer chemicals in the 1970s-90s; Eric and Lisa Klein took over in 1997 and have sold direct since 1999. 100% grass-fed beef: outdoors year round, pasture in summer and stored forages in winter, never any grain; no drugs, antibiotics, hormones or steroids per the farm. Sells steaks, roasts, ground/patties, brisket, brats/sausages, snack sticks/jerky, bones and organs, bundles, gift boxes and subscribe & save. Weekly home delivery: farm van in Rochester and Twin Cities, Spee-Dee regional (free over $99), FedEx/UPS Ground or 2nd Day Air to the lower 48 (free over $199); also farmers markets and retail stores. Phone (507) 876-2304, sales@hiddenstreamfarm.com. Gaps/caveats: breed not stated; prices hidden behind a free store account; the farm says it became certified organic in 2018 but beef pages carry no organic label, so no organic beef claim is made; the farm also resells partner-farm foods (MN/WI) as a food hub. Minnesota hub copy broadened (it previously described only Fellers Ranch). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Total: 97 ranches, 3 deals, 50 state hubs, 140 pages.
 
 ## Next Steps / Future Enhancements
 
