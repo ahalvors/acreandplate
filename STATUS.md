@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 10, 2026  
+**Last Updated:** November 11, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 97
+- **Total Ranches:** 98
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -63,7 +63,7 @@
 - **West Virginia Ranches:** 1
 - **Wisconsin Ranches:** 2
 - **Wyoming Ranches:** 3
-- **Ohio Ranches:** 1
+- **Ohio Ranches:** 2
 - **Total Pages:** 140
 
 ## Pages Built
@@ -416,6 +416,8 @@ python3 build.py
 - 📅 **Nov 9, 2026 PT nightly ship:** Added **Together Farms** (Mondovi, WI) — second Wisconsin listing. First-generation, pasture-based family farm (W93 Norden Rd). 100% grass-fed and grass-finished beef with intensive rotational grazing (moved to new pasture daily); winter feed is stockpiled pasture and locally bought hay, no corn silage, oats or grain; free-choice minerals, salt and apple cider vinegar; no added hormones, antibiotics or vaccines per the farm. Processed at an Animal Welfare Approved butcher. Sells cuts, ground/patties, organs, broth/tallow, snack sticks/sausages, bundles ($69-$599 incl. Premium 1/8 Beef Bundle $599) and subscribe & save. Local delivery in Eau Claire/Chippewa/Trempealeau/Dunn counties; 1-day shipping to rest of WI and select nearby states (IA, IL, MN etc.); 2-day UPS to IN, KS, KY, MI, MO, MT, NE, ND, OH, SD (free over $249); on-farm store pickup; seasonal Burger Nights May-early Oct. Phone 715-210-4740, steph@togetherfarms.com. Gaps/caveats: breed not stated; farm says raised "organically" but no certification shown, so none claimed; AWA label refers to the butcher. Site's state lists include a typo ("NB") and ND/SD in both tiers, so the listing names only clear states. Wisconsin hub copy broadened (it previously described only the Wisconsin Meadows co-op). Re-verified all 3 deals unchanged (Long Hill $180/$195 in stock, Mossyrock $395/$475, Oreganic $199/$229 in stock). Total: 96 ranches, 3 deals, 50 state hubs, 139 pages.
 
 - 📅 **Nov 10, 2026 PT nightly ship:** Added **Hidden Stream Farm** (Elgin, MN) — second Minnesota listing. Fourth-generation Klein family farm (27079 County Road 25), farming since the 1950s-60s; Everett Koenig moved to beef, rotational grazing and fewer chemicals in the 1970s-90s; Eric and Lisa Klein took over in 1997 and have sold direct since 1999. 100% grass-fed beef: outdoors year round, pasture in summer and stored forages in winter, never any grain; no drugs, antibiotics, hormones or steroids per the farm. Sells steaks, roasts, ground/patties, brisket, brats/sausages, snack sticks/jerky, bones and organs, bundles, gift boxes and subscribe & save. Weekly home delivery: farm van in Rochester and Twin Cities, Spee-Dee regional (free over $99), FedEx/UPS Ground or 2nd Day Air to the lower 48 (free over $199); also farmers markets and retail stores. Phone (507) 876-2304, sales@hiddenstreamfarm.com. Gaps/caveats: breed not stated; prices hidden behind a free store account; the farm says it became certified organic in 2018 but beef pages carry no organic label, so no organic beef claim is made; the farm also resells partner-farm foods (MN/WI) as a food hub. Minnesota hub copy broadened (it previously described only Fellers Ranch). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Total: 97 ranches, 3 deals, 50 state hubs, 140 pages.
+
+- 📅 **Nov 11, 2026 PT nightly ship:** Added **Fancy Farm Wife** (Raymond, OH) — second Ohio listing. Russ and Amanda's family farm (The Fancy Farm Wife Mercantile, 22193 Herd Mcilroy Road), started with one Highland cow in 2019; mostly Scottish Highland cattle plus some Angus, grass-only diet, 100% grass-fed/pasture-raised per the farm. Sells individual cuts (Highland ribeye $26.50, NY strip $42.25, ground, stew, patties), carnivore bundles, monthly Farmer's Choice boxes ($165-$520/mo) and quarter/half/whole freezer beef by hanging weight ($300 quarter deposit; ~$1.10/lb processing paid to a state-inspected processor). Free Ohio home delivery on $200+ orders, delivered by the farmers (no UPS/USPS); farm pickup by appointment. Phone/text 937-578-3387, TheFancyFarmWife@outlook.com; bulk: Russ (937) 209-5177. Gaps/caveats: no shipping outside Ohio; the "Certified Quality Highland Beef (QHB), verified by the American Highland Cattle Association" claim is the farm's own and not independently checked, so it is noted, not tagged; per-lb hanging-weight prices not captured. Ohio hub copy broadened (it previously described only ZOE Farms). Skipped Buckeye Highlands (Lisbon OH; website down), Laughlin Highlands (Gavers OH; beef limited to ground beef) and Ayers Valley Farm (beef partly sourced from a South Dakota partner farm). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Total: 98 ranches, 3 deals, 50 state hubs, 141 pages.
 
 ## Next Steps / Future Enhancements
 

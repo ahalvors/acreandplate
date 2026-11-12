@@ -2080,7 +2080,7 @@ def main():
         "Ohio Ranches",
         "ohio",
         lambda l: l.get('state') == 'OH',
-        "Ohio ranches raising single-origin 100% grass-fed and grass-finished beef with regenerative rotational grazing practices and next-day Ohio delivery."
+        "Ohio ranches and family farms raising 100% grass-fed beef, from regenerative grass-finished herds in Holmes County to Highland cattle in Union County, with home delivery across Ohio."
     )
     
     build_hub_page(

@@ -2205,6 +2205,36 @@
       "description": "Hidden Stream Farm is a fourth-generation Klein family farm in Elgin, Minnesota, farming since the 1960s and selling direct since 1999. Its beef is 100% grass-fed with no grain, drugs or hormones, delivered weekly in compostable packaging by farm van around Rochester and the Twin Cities and shipped across the lower 48.",
       "note": "Farm address 27079 County Road 25, Elgin, MN 55932. Run by Eric and Lisa Klein and their six kids. The farm became certified organic in 2018 per its story page, but the beef pages do not carry an organic label, so no organic beef claim is made here. The farm also acts as a local food hub, reselling foods from partner farms in Minnesota and Wisconsin, and sells pork, chicken, lamb, Katy's Eggs and more. Breed not stated. Prices require a free store account. Checked 2026-11-10.",
       "last_checked": "2026-11-10"
+    },
+    {
+      "slug": "fancy-farm-wife",
+      "name": "Fancy Farm Wife",
+      "url": "https://www.fancyfarmwife.com/",
+      "state": "OH",
+      "city": "Raymond",
+      "genetics": "Mostly Scottish Highland cattle with some Angus, kept on a grass-only diet; the farm describes its beef as 100% grass-fed, pasture-raised and grass-finished from slow-grown heritage cattle, never from a feedlot",
+      "breeds": [
+        "Highland",
+        "Angus"
+      ],
+      "products": [
+        "ribeye, strip, T-bone, Delmonico, Denver, sirloin and tenderloin steaks",
+        "ground beef",
+        "stew meat",
+        "patties and chopped steak",
+        "fajita strips",
+        "shredded pre-cooked beef",
+        "carnivore diet bundles",
+        "monthly Farmer's Choice boxes",
+        "quarter, half and whole freezer beef"
+      ],
+      "shipping": "Local delivery only: free home delivery in Ohio on orders of $200+, delivered personally by the farmers rather than by UPS/USPS. Farm pickup in Raymond, Ohio (call ahead).",
+      "phone": "937-578-3387",
+      "email": "TheFancyFarmWife@outlook.com",
+      "featured": false,
+      "description": "Fancy Farm Wife is Russ and Amanda's family farm in Raymond, Ohio, which began with one Highland cow in 2019. It raises mostly Scottish Highland cattle, plus some Angus, on grass only, and sells individual cuts, monthly boxes and freezer beef with free home delivery across Ohio on larger orders.",
+      "note": "Farm store: The Fancy Farm Wife Mercantile, 22193 Herd Mcilroy Road, Raymond, OH 43067; pickup Mon-Fri 5:30-7 PM and Sun 1-4:30 PM, call ahead. Bulk beef questions: Russ at (937) 209-5177. Public prices seen 2026-11-11 include Highland ribeye $26.50, NY strip $42.25 and Farmer's Choice boxes from $165/month (10 lb); freezer beef is priced by hanging weight with a deposit (quarter share deposit $300) plus about $1.10/lb hanging weight paid to a state-inspected processor. The farm says its beef is Certified Quality Highland Beef (QHB) verified by the American Highland Cattle Association; that is the farm's own claim and has not been independently checked. Also sells Berkshire-cross pork, free-range eggs, farm apparel and livestock hauling. Checked 2026-11-11.",
+      "last_checked": "2026-11-11"
     }
   ]
 }
