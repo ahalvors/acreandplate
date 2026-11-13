@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 11, 2026  
+**Last Updated:** November 12, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 98
+- **Total Ranches:** 99
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -20,7 +20,7 @@
 - **Arkansas Ranches:** 2
 - **Georgia Ranches:** 2
 - **Hawaii Ranches:** 1
-- **Illinois Ranches:** 1
+- **Illinois Ranches:** 2
 - **Indiana Ranches:** 1
 - **Iowa Ranches:** 1
 - **Kansas Ranches:** 2
@@ -64,7 +64,7 @@
 - **Wisconsin Ranches:** 2
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 2
-- **Total Pages:** 140
+- **Total Pages:** 142
 
 ## Pages Built
 
@@ -93,7 +93,7 @@
 - ✅ Arizona hub (`/arizona/`) - 1 ranch
 - ✅ Arkansas hub (`/arkansas/`) - 2 ranches
 - ✅ Nebraska hub (`/nebraska/`) - 2 ranches
-- ✅ Illinois hub (`/illinois/`) - 1 ranch
+- ✅ Illinois hub (`/illinois/`) - 2 ranches
 - ✅ Indiana hub (`/indiana/`) - 1 ranch
 - ✅ Iowa hub (`/iowa/`) - 1 ranch
 - ✅ Kansas hub (`/kansas/`) - 2 ranches
@@ -418,6 +418,8 @@ python3 build.py
 - 📅 **Nov 10, 2026 PT nightly ship:** Added **Hidden Stream Farm** (Elgin, MN) — second Minnesota listing. Fourth-generation Klein family farm (27079 County Road 25), farming since the 1950s-60s; Everett Koenig moved to beef, rotational grazing and fewer chemicals in the 1970s-90s; Eric and Lisa Klein took over in 1997 and have sold direct since 1999. 100% grass-fed beef: outdoors year round, pasture in summer and stored forages in winter, never any grain; no drugs, antibiotics, hormones or steroids per the farm. Sells steaks, roasts, ground/patties, brisket, brats/sausages, snack sticks/jerky, bones and organs, bundles, gift boxes and subscribe & save. Weekly home delivery: farm van in Rochester and Twin Cities, Spee-Dee regional (free over $99), FedEx/UPS Ground or 2nd Day Air to the lower 48 (free over $199); also farmers markets and retail stores. Phone (507) 876-2304, sales@hiddenstreamfarm.com. Gaps/caveats: breed not stated; prices hidden behind a free store account; the farm says it became certified organic in 2018 but beef pages carry no organic label, so no organic beef claim is made; the farm also resells partner-farm foods (MN/WI) as a food hub. Minnesota hub copy broadened (it previously described only Fellers Ranch). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Total: 97 ranches, 3 deals, 50 state hubs, 140 pages.
 
 - 📅 **Nov 11, 2026 PT nightly ship:** Added **Fancy Farm Wife** (Raymond, OH) — second Ohio listing. Russ and Amanda's family farm (The Fancy Farm Wife Mercantile, 22193 Herd Mcilroy Road), started with one Highland cow in 2019; mostly Scottish Highland cattle plus some Angus, grass-only diet, 100% grass-fed/pasture-raised per the farm. Sells individual cuts (Highland ribeye $26.50, NY strip $42.25, ground, stew, patties), carnivore bundles, monthly Farmer's Choice boxes ($165-$520/mo) and quarter/half/whole freezer beef by hanging weight ($300 quarter deposit; ~$1.10/lb processing paid to a state-inspected processor). Free Ohio home delivery on $200+ orders, delivered by the farmers (no UPS/USPS); farm pickup by appointment. Phone/text 937-578-3387, TheFancyFarmWife@outlook.com; bulk: Russ (937) 209-5177. Gaps/caveats: no shipping outside Ohio; the "Certified Quality Highland Beef (QHB), verified by the American Highland Cattle Association" claim is the farm's own and not independently checked, so it is noted, not tagged; per-lb hanging-weight prices not captured. Ohio hub copy broadened (it previously described only ZOE Farms). Skipped Buckeye Highlands (Lisbon OH; website down), Laughlin Highlands (Gavers OH; beef limited to ground beef) and Ayers Valley Farm (beef partly sourced from a South Dakota partner farm). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Total: 98 ranches, 3 deals, 50 state hubs, 141 pages.
+
+- 📅 **Nov 12, 2026 PT nightly ship:** Added **Mint Creek Farm** (Stelle, IL; mailing address 1693 East 3800N Road, Cabery, IL 60919) — second Illinois listing. Organic, pasture-based livestock farm founded by the Carr family in 1992. Small herd (under 60 head) of Black and Red Angus cattle raised from birth on 220 acres of organic perennial pasture; 100% grass-fed and grass-finished, organically approved mineral mix, no grain, growth hormones or antibiotics per the farm; barn shelter and certified-organic hay in winter. Sells a full range of steaks and roasts (ribeye from $30, NY strip $28, ground beef $17/lb, 6-steak specialty bundle $166), ground beef with liver, short ribs, oxtail, summer sausage/snack sticks, bulk packs and monthly meat CSA shares. Farm-van home delivery every Wednesday in Chicago, Oak Park and Evanston ($9, no minimum); UPS shipping beyond that from $25 (UPS/FedEx quoted on request); pickup at Chicago-area farmers markets and curbside points. Phone (815) 953-5682, mintcreekfarm@gmail.com. Gaps/caveats: the farm calls its pastures organic and its hay certified organic, but no organic certification is shown on the beef, so none is claimed; quarter-cow pricing not public; also sells pork, lamb, goat, turkey and eggs. Illinois hub copy broadened (it previously described only The Log Cabin Ranch). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Remaining single-listing states (thin-state backlog): AL, AK, AZ, CT, DE, HI, IN, IA, LA, ME, MD, MA, MI, MS, MO, NV, NH, NJ, NY, NC, ND, PA, RI, SD, WV. Total: 99 ranches, 3 deals, 50 state hubs, 142 pages.
 
 ## Next Steps / Future Enhancements
 
