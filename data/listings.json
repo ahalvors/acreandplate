@@ -2235,6 +2235,33 @@
       "description": "Fancy Farm Wife is Russ and Amanda's family farm in Raymond, Ohio, which began with one Highland cow in 2019. It raises mostly Scottish Highland cattle, plus some Angus, on grass only, and sells individual cuts, monthly boxes and freezer beef with free home delivery across Ohio on larger orders.",
       "note": "Farm store: The Fancy Farm Wife Mercantile, 22193 Herd Mcilroy Road, Raymond, OH 43067; pickup Mon-Fri 5:30-7 PM and Sun 1-4:30 PM, call ahead. Bulk beef questions: Russ at (937) 209-5177. Public prices seen 2026-11-11 include Highland ribeye $26.50, NY strip $42.25 and Farmer's Choice boxes from $165/month (10 lb); freezer beef is priced by hanging weight with a deposit (quarter share deposit $300) plus about $1.10/lb hanging weight paid to a state-inspected processor. The farm says its beef is Certified Quality Highland Beef (QHB) verified by the American Highland Cattle Association; that is the farm's own claim and has not been independently checked. Also sells Berkshire-cross pork, free-range eggs, farm apparel and livestock hauling. Checked 2026-11-11.",
       "last_checked": "2026-11-11"
+    },
+    {
+      "slug": "mint-creek-farm",
+      "name": "Mint Creek Farm",
+      "url": "https://www.mintcreekfarm.com/",
+      "state": "IL",
+      "city": "Stelle",
+      "genetics": "Small herd (under 60 head) of Black and Red Angus cattle raised from birth on the farm's 220 acres of organic perennial pasture; 100% grass-fed and grass-finished with an organically approved mineral mix, no grain, no growth hormones and no antibiotics per the farm; barn shelter and certified-organic hay in winter",
+      "breeds": [
+        "angus"
+      ],
+      "products": [
+        "ribeye, NY strip, filet mignon, T-bone, sirloin, hanger, skirt, flank and flat iron steaks",
+        "chuck, rump and eye of round roasts, tri-tip and brisket",
+        "ground beef, ground beef with liver and burger patties",
+        "short ribs, oxtail, osso buco shank, kabob and stew meat",
+        "summer sausage and snack sticks",
+        "steak bundles and bulk ground beef packs",
+        "monthly meat CSA shares"
+      ],
+      "shipping": "Farm-van home delivery every Wednesday in Chicago, Oak Park and Evanston ($9 per delivery, no minimum). UPS shipping outside that area starts at $25 per delivery (UPS/FedEx costs quoted on request). Pickup at Chicago-area farmers markets and curbside pickup points.",
+      "phone": "(815) 953-5682",
+      "email": "mintcreekfarm@gmail.com",
+      "featured": false,
+      "description": "Mint Creek Farm is an organic, pasture-based livestock farm near Stelle, Illinois, founded by the Carr family in 1992. Its small herd of Black and Red Angus cattle is raised from birth on 220 acres of perennial pasture and is 100% grass-fed and grass-finished, with weekly home delivery and farmers market pickup across the Chicago area.",
+      "note": "Mailing address: 1693 East 3800N Road, Cabery, IL 60919. Order by Tuesday noon for Wednesday home delivery or that weekend's market pickup; bulk orders such as quarter cows and CSA shares can take 3-6 weeks. Public prices seen 2026-11-12 include ground beef $17/lb, NY strip $28, ribeye from $30 and a 6-steak specialty bundle $166. The farm describes its pastures as organic and its winter hay as certified organic; no organic certification is shown on the beef itself, so none is claimed here. Also sells pork, lamb, goat, pastured turkeys and eggs, and hosts farm dinners and tours. Checked 2026-11-12.",
+      "last_checked": "2026-11-12"
     }
   ]
 }

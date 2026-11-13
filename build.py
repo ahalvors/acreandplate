@@ -1954,7 +1954,7 @@ def main():
         "Illinois Ranches",
         "illinois",
         lambda l: l.get('state') == 'IL',
-        "Illinois ranches raising 100% grass-fed and grass-finished beef with regenerative practices and nationwide shipping."
+        "Illinois ranches and family farms raising 100% grass-fed and grass-finished beef, from a regenerative Southern Illinois ranch with nationwide shipping to an organic-pasture Angus herd delivering across the Chicago area."
     )
     
     build_hub_page(
