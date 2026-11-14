@@ -1947,7 +1947,7 @@ def main():
         "Iowa Ranches",
         "iowa",
         lambda l: l.get('state') == 'IA',
-        "Iowa ranches raising 100% grass-fed and grass-finished beef with regenerative farming practices and nationwide shipping."
+        "Iowa family farms raising 100% grass-fed and grass-finished beef, from a fifth-generation regenerative farm in Clarion shipping nationwide to a Red Angus herd in Carroll shipping across 28 states."
     )
     
     build_hub_page(

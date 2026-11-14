@@ -2262,6 +2262,31 @@
       "description": "Mint Creek Farm is an organic, pasture-based livestock farm near Stelle, Illinois, founded by the Carr family in 1992. Its small herd of Black and Red Angus cattle is raised from birth on 220 acres of perennial pasture and is 100% grass-fed and grass-finished, with weekly home delivery and farmers market pickup across the Chicago area.",
       "note": "Mailing address: 1693 East 3800N Road, Cabery, IL 60919. Order by Tuesday noon for Wednesday home delivery or that weekend's market pickup; bulk orders such as quarter cows and CSA shares can take 3-6 weeks. Public prices seen 2026-11-12 include ground beef $17/lb, NY strip $28, ribeye from $30 and a 6-steak specialty bundle $166. The farm describes its pastures as organic and its winter hay as certified organic; no organic certification is shown on the beef itself, so none is claimed here. Also sells pork, lamb, goat, pastured turkeys and eggs, and hosts farm dinners and tours. Checked 2026-11-12.",
       "last_checked": "2026-11-12"
+    },
+    {
+      "slug": "crossroads-beef",
+      "name": "Crossroads Beef",
+      "url": "https://crossroadsbeef.com/",
+      "state": "IA",
+      "city": "Carroll",
+      "genetics": "Red Angus herd raised on pasture its entire life; 100% grass-fed and grass-finished with adaptive rotational grazing onto new pasture daily, a planted mix of perennial grasses and legumes, and minerals plus baled grasses in winter. Never in a feedlot, no growth hormones, no GMO feed and no mRNA vaccines per the farm",
+      "breeds": [
+        "angus"
+      ],
+      "products": [
+        "ribeye, NY strip, tenderloin filet, top sirloin, sirloin tip, chuck eye and hanger steaks",
+        "chuck blade roasts and short ribs",
+        "single-source ground beef, burger patties, skinless beef brats and all-beef hot dogs",
+        "fajita/stir-fry strips, stew meat and NY strip sandwich slices",
+        "liver and other organ meats, marrow bones, cross-cut shank and suet/tallow",
+        "Family Essentials 10 lb and 20 lb collections and Daily Grind 16 lb and 30 lb ground beef boxes",
+        "custom quarter, half and whole beef shares (pickup at the processor)"
+      ],
+      "shipping": "Ships frozen with dry ice on Mondays or Tuesdays (1-3 day arrival) to 28 states: AL, AR, CO, GA, IA, IL, IN, KS, KY, MI, MN, MO, MS, NC, ND, NE, NJ, NY, OH, OK, PA, SD, TN, TX, VA, VT, WI, WV; other continental US states by arrangement. $100 minimum for shipped orders; shipping $16.95-$35 by zone under $225, free at $225+. Farm pickup by appointment (no minimum).",
+      "featured": false,
+      "description": "Crossroads Beef is a family farm in Carroll, Iowa, where a 130-year-old row-crop operation switched to raising 100% grass-fed and grass-finished Red Angus beef. The herd is moved to fresh pasture daily, never sees a feedlot, and the dry-aged beef ships direct from the farm to 28 states.",
+      "note": "Contact is through the farm's website contact form only; no public phone or email is listed. The farm says it follows organic practices but is not USDA-certified organic, so no organic claim is made here. Beef is processed at a USDA-inspected facility; cuts are mostly wrapped in plastic and butcher paper (some vacuum-sealed). Public prices seen 2026-11-13 include ribeye from $24.87, NY strip from $20.17, ground beef from $12 and the Family Essentials 10 lb collection from $133.31. Beef share pricing is set per order. Checked 2026-11-13.",
+      "last_checked": "2026-11-13"
     }
   ]
 }
