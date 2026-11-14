@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 12, 2026  
+**Last Updated:** November 13, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 99
+- **Total Ranches:** 100
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -22,7 +22,7 @@
 - **Hawaii Ranches:** 1
 - **Illinois Ranches:** 2
 - **Indiana Ranches:** 1
-- **Iowa Ranches:** 1
+- **Iowa Ranches:** 2
 - **Kansas Ranches:** 2
 - **Kentucky Ranches:** 2
 - **Louisiana Ranches:** 1
@@ -64,7 +64,7 @@
 - **Wisconsin Ranches:** 2
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 2
-- **Total Pages:** 142
+- **Total Pages:** 143
 
 ## Pages Built
 
@@ -95,7 +95,7 @@
 - ✅ Nebraska hub (`/nebraska/`) - 2 ranches
 - ✅ Illinois hub (`/illinois/`) - 2 ranches
 - ✅ Indiana hub (`/indiana/`) - 1 ranch
-- ✅ Iowa hub (`/iowa/`) - 1 ranch
+- ✅ Iowa hub (`/iowa/`) - 2 ranches
 - ✅ Kansas hub (`/kansas/`) - 2 ranches
 - ✅ Kentucky hub (`/kentucky/`) - 1 ranch
 - ✅ Louisiana hub (`/louisiana/`) - 1 ranch
@@ -420,6 +420,8 @@ python3 build.py
 - 📅 **Nov 11, 2026 PT nightly ship:** Added **Fancy Farm Wife** (Raymond, OH) — second Ohio listing. Russ and Amanda's family farm (The Fancy Farm Wife Mercantile, 22193 Herd Mcilroy Road), started with one Highland cow in 2019; mostly Scottish Highland cattle plus some Angus, grass-only diet, 100% grass-fed/pasture-raised per the farm. Sells individual cuts (Highland ribeye $26.50, NY strip $42.25, ground, stew, patties), carnivore bundles, monthly Farmer's Choice boxes ($165-$520/mo) and quarter/half/whole freezer beef by hanging weight ($300 quarter deposit; ~$1.10/lb processing paid to a state-inspected processor). Free Ohio home delivery on $200+ orders, delivered by the farmers (no UPS/USPS); farm pickup by appointment. Phone/text 937-578-3387, TheFancyFarmWife@outlook.com; bulk: Russ (937) 209-5177. Gaps/caveats: no shipping outside Ohio; the "Certified Quality Highland Beef (QHB), verified by the American Highland Cattle Association" claim is the farm's own and not independently checked, so it is noted, not tagged; per-lb hanging-weight prices not captured. Ohio hub copy broadened (it previously described only ZOE Farms). Skipped Buckeye Highlands (Lisbon OH; website down), Laughlin Highlands (Gavers OH; beef limited to ground beef) and Ayers Valley Farm (beef partly sourced from a South Dakota partner farm). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Total: 98 ranches, 3 deals, 50 state hubs, 141 pages.
 
 - 📅 **Nov 12, 2026 PT nightly ship:** Added **Mint Creek Farm** (Stelle, IL; mailing address 1693 East 3800N Road, Cabery, IL 60919) — second Illinois listing. Organic, pasture-based livestock farm founded by the Carr family in 1992. Small herd (under 60 head) of Black and Red Angus cattle raised from birth on 220 acres of organic perennial pasture; 100% grass-fed and grass-finished, organically approved mineral mix, no grain, growth hormones or antibiotics per the farm; barn shelter and certified-organic hay in winter. Sells a full range of steaks and roasts (ribeye from $30, NY strip $28, ground beef $17/lb, 6-steak specialty bundle $166), ground beef with liver, short ribs, oxtail, summer sausage/snack sticks, bulk packs and monthly meat CSA shares. Farm-van home delivery every Wednesday in Chicago, Oak Park and Evanston ($9, no minimum); UPS shipping beyond that from $25 (UPS/FedEx quoted on request); pickup at Chicago-area farmers markets and curbside points. Phone (815) 953-5682, mintcreekfarm@gmail.com. Gaps/caveats: the farm calls its pastures organic and its hay certified organic, but no organic certification is shown on the beef, so none is claimed; quarter-cow pricing not public; also sells pork, lamb, goat, turkey and eggs. Illinois hub copy broadened (it previously described only The Log Cabin Ranch). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Remaining single-listing states (thin-state backlog): AL, AK, AZ, CT, DE, HI, IN, IA, LA, ME, MD, MA, MI, MS, MO, NV, NH, NJ, NY, NC, ND, PA, RI, SD, WV. Total: 99 ranches, 3 deals, 50 state hubs, 142 pages.
+
+- 📅 **Nov 13, 2026 PT nightly ship:** Added **Crossroads Beef** (Carroll, IA) — second Iowa listing and the directory's 100th ranch. Family farm that converted a 130-year-old row-crop operation to grass-based cattle. Red Angus herd on pasture its entire life; 100% grass-fed and grass-finished, adaptive rotational grazing onto new pasture daily, planted perennial grass/legume mix, minerals and baled grasses in winter; never in a feedlot, no growth hormones, no GMO feed, no mRNA vaccines per the farm. Dry-aged retail cuts (ribeye from $24.87, NY strip from $20.17, ground beef from $12), single-source ground beef, brats, hot dogs, organs/bones/tallow, Family Essentials 10/20 lb and Daily Grind 16/30 lb boxes, custom quarter/half/whole shares (pickup at processor). Ships frozen Mon/Tue to 28 states ($100 minimum; $16.95-$35 by zone, free at $225+), other continental states by arrangement; farm pickup by appointment. Gaps/caveats: no public phone or email (website contact form only); the farm says it follows organic practices but is not USDA-certified organic, so no organic claim; share pricing not public. Iowa hub copy broadened (it previously described only Grand View Beef). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Remaining single-listing states (thin-state backlog): AL, AK, AZ, CT, DE, HI, IN, LA, ME, MD, MA, MI, MS, MO, NV, NH, NJ, NY, NC, ND, PA, RI, SD, WV. Next leads: Ebersole Cattle Co (Southern IA, if a third Iowa listing is wanted), Michigan/Indiana second listings. Total: 100 ranches, 3 deals, 50 state hubs, 143 pages.
 
 ## Next Steps / Future Enhancements
 
