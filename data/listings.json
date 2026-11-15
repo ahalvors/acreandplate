@@ -2287,6 +2287,29 @@
       "description": "Crossroads Beef is a family farm in Carroll, Iowa, where a 130-year-old row-crop operation switched to raising 100% grass-fed and grass-finished Red Angus beef. The herd is moved to fresh pasture daily, never sees a feedlot, and the dry-aged beef ships direct from the farm to 28 states.",
       "note": "Contact is through the farm's website contact form only; no public phone or email is listed. The farm says it follows organic practices but is not USDA-certified organic, so no organic claim is made here. Beef is processed at a USDA-inspected facility; cuts are mostly wrapped in plastic and butcher paper (some vacuum-sealed). Public prices seen 2026-11-13 include ribeye from $24.87, NY strip from $20.17, ground beef from $12 and the Family Essentials 10 lb collection from $133.31. Beef share pricing is set per order. Checked 2026-11-13.",
       "last_checked": "2026-11-13"
+    },
+    {
+      "slug": "kinderhook-farm",
+      "name": "Kinderhook Farm",
+      "url": "https://kinderhookfarm.square.site/",
+      "state": "NY",
+      "city": "Valatie",
+      "genetics": "100% grass-fed and grass-finished cattle raised exclusively on diverse pasture forages and hay, with rotational grazing on preserved Hudson Valley farmland that was converted from a conventional dairy to pasture-based beef in 2004 per the farm",
+      "breeds": [],
+      "products": [
+        "Quarter Cow package (~75 lb: ribeye, T-bone, NY strip, sirloin, flat iron, Denver, coulotte, flap, flank/skirt, tri-tip and chuck eye steaks, brisket or chuck roast, short ribs, osso buco, rolled roast, kielbasa, hot dogs, burger patties, stew meat, ground beef and soup bones)",
+        "half and whole beef, custom cut to your cutsheet",
+        "grass-fed beef soup bones, suet and beef bone broth",
+        "year-round whole-farm MeatShare CSA (beef, pork, lamb, chicken and eggs)",
+        "farm store cuts sold in person, with holiday roasts by reservation"
+      ],
+      "shipping": "Pickup only at the farm store, 1958 County Route 21, Valatie, NY (open 7 days, 9am-5pm). The farm says bulk boxes cannot be delivered.",
+      "phone": "(518) 218-6648",
+      "email": "store@kinderhookfarm.com",
+      "featured": false,
+      "description": "Kinderhook Farm is a Hudson Valley livestock farm in Columbia County, New York, where a former conventional dairy was restored to pasture in 2004. Its beef is 100% grass-fed and grass-finished, sold by the cut at an on-farm store open seven days a week and in quarter, half and whole shares for pickup.",
+      "note": "Public prices seen 2026-11-14: Quarter Cow $955 (~75 lb, about 8 weeks' prep); half beef $7.25/lb and whole beef $7/lb hanging weight (average half about $2,356) with a $200/$400 deposit; MeatShare $650/year or $350/half year (2026 sign-ups currently show out of stock). Bulk beef is processed at a USDA-inspected facility the farm describes as Animal Welfare Approved, and the farm calls its MeatShare meats Animal Welfare Approved; that is the farm's own claim. Cattle breed is not stated on the farm's site. Also sells grass-fed lamb, pastured pork, chicken and eggs, and runs an on-farm Farm Stay. Call or text the farm store number for orders. Checked 2026-11-14.",
+      "last_checked": "2026-11-14"
     }
   ]
 }

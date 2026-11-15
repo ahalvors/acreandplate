@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 13, 2026  
+**Last Updated:** November 14, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 100
+- **Total Ranches:** 101
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -50,7 +50,7 @@
 - **New Mexico Ranches:** 2
 - **Montana Ranches:** 2
 - **Nebraska Ranches:** 2
-- **New York Ranches:** 1
+- **New York Ranches:** 2
 - **Oklahoma Ranches:** 2
 - **Oregon Ranches:** 3
 - **Pennsylvania Ranches:** 1
@@ -64,7 +64,7 @@
 - **Wisconsin Ranches:** 2
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 2
-- **Total Pages:** 143
+- **Total Pages:** 144
 
 ## Pages Built
 
@@ -111,7 +111,7 @@
 - ✅ Georgia hub (`/georgia/`) - 1 ranch
 - ✅ Idaho hub (`/idaho/`) - 2 ranches
 - ✅ Montana hub (`/montana/`) - 2 ranches
-- ✅ New York hub (`/new-york/`) - 1 ranch
+- ✅ New York hub (`/new-york/`) - 2 ranches
 - ✅ North Carolina hub (`/north-carolina/`) - 1 ranch
 - ✅ North Dakota hub (`/north-dakota/`) - 1 ranch
 - ✅ Oklahoma hub (`/oklahoma/`) - 2 ranches
@@ -422,6 +422,8 @@ python3 build.py
 - 📅 **Nov 12, 2026 PT nightly ship:** Added **Mint Creek Farm** (Stelle, IL; mailing address 1693 East 3800N Road, Cabery, IL 60919) — second Illinois listing. Organic, pasture-based livestock farm founded by the Carr family in 1992. Small herd (under 60 head) of Black and Red Angus cattle raised from birth on 220 acres of organic perennial pasture; 100% grass-fed and grass-finished, organically approved mineral mix, no grain, growth hormones or antibiotics per the farm; barn shelter and certified-organic hay in winter. Sells a full range of steaks and roasts (ribeye from $30, NY strip $28, ground beef $17/lb, 6-steak specialty bundle $166), ground beef with liver, short ribs, oxtail, summer sausage/snack sticks, bulk packs and monthly meat CSA shares. Farm-van home delivery every Wednesday in Chicago, Oak Park and Evanston ($9, no minimum); UPS shipping beyond that from $25 (UPS/FedEx quoted on request); pickup at Chicago-area farmers markets and curbside points. Phone (815) 953-5682, mintcreekfarm@gmail.com. Gaps/caveats: the farm calls its pastures organic and its hay certified organic, but no organic certification is shown on the beef, so none is claimed; quarter-cow pricing not public; also sells pork, lamb, goat, turkey and eggs. Illinois hub copy broadened (it previously described only The Log Cabin Ranch). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Remaining single-listing states (thin-state backlog): AL, AK, AZ, CT, DE, HI, IN, IA, LA, ME, MD, MA, MI, MS, MO, NV, NH, NJ, NY, NC, ND, PA, RI, SD, WV. Total: 99 ranches, 3 deals, 50 state hubs, 142 pages.
 
 - 📅 **Nov 13, 2026 PT nightly ship:** Added **Crossroads Beef** (Carroll, IA) — second Iowa listing and the directory's 100th ranch. Family farm that converted a 130-year-old row-crop operation to grass-based cattle. Red Angus herd on pasture its entire life; 100% grass-fed and grass-finished, adaptive rotational grazing onto new pasture daily, planted perennial grass/legume mix, minerals and baled grasses in winter; never in a feedlot, no growth hormones, no GMO feed, no mRNA vaccines per the farm. Dry-aged retail cuts (ribeye from $24.87, NY strip from $20.17, ground beef from $12), single-source ground beef, brats, hot dogs, organs/bones/tallow, Family Essentials 10/20 lb and Daily Grind 16/30 lb boxes, custom quarter/half/whole shares (pickup at processor). Ships frozen Mon/Tue to 28 states ($100 minimum; $16.95-$35 by zone, free at $225+), other continental states by arrangement; farm pickup by appointment. Gaps/caveats: no public phone or email (website contact form only); the farm says it follows organic practices but is not USDA-certified organic, so no organic claim; share pricing not public. Iowa hub copy broadened (it previously described only Grand View Beef). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Remaining single-listing states (thin-state backlog): AL, AK, AZ, CT, DE, HI, IN, LA, ME, MD, MA, MI, MS, MO, NV, NH, NJ, NY, NC, ND, PA, RI, SD, WV. Next leads: Ebersole Cattle Co (Southern IA, if a third Iowa listing is wanted), Michigan/Indiana second listings. Total: 100 ranches, 3 deals, 50 state hubs, 143 pages.
+
+- 📅 **Nov 14, 2026 PT nightly ship:** Added **Kinderhook Farm** (Valatie, NY; Columbia County, Hudson Valley) — second New York listing. Former conventional dairy restored to pasture in 2004 (Clearman and Ranney families); beef is 100% grass-fed and grass-finished on diverse pasture forages and hay with rotational grazing per the farm. Sells a ~75 lb Quarter Cow package ($955, ~8 weeks' prep), custom-cut half/whole beef ($7.25/lb and $7/lb hanging weight, $200/$400 deposit), beef soup bones, suet, bone broth, a year-round whole-farm MeatShare CSA ($650/yr, $350/half; 2026 sign-ups show out of stock) and farm-store cuts. Pickup only at the farm store (1958 County Route 21, Valatie; open 7 days 9am-5pm); no delivery or shipping. Phone (518) 218-6648, store@kinderhookfarm.com. Gaps/caveats: cattle breed not stated (breeds left empty); "Animal Welfare Approved" shown only as the farm's own claim (meats and processor); no organic claim; per-cut retail prices are on an in-store menu, not listed. Also sells lamb, pork, chicken, eggs and a Farm Stay. New York hub copy broadened (it previously described only Sunset Ridge Beef). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Remaining single-listing states (thin-state backlog): AL, AK, AZ, CT, DE, HI, IN, LA, ME, MD, MA, MI, MS, MO, NV, NH, NJ, NC, ND, PA, RI, SD, WV. Next leads: Michigan/Indiana/Pennsylvania second listings (single-farm, ranch-direct). Total: 101 ranches, 3 deals, 50 state hubs, 144 pages.
 
 ## Next Steps / Future Enhancements
 
