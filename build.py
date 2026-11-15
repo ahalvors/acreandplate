@@ -2031,7 +2031,7 @@ def main():
         "New York Ranches",
         "new-york",
         lambda l: l.get('state') == 'NY',
-        "New York ranches raising all-natural, pasture-raised Angus beef with USDA Certification and nationwide shipping."
+        "New York family farms raising pasture-raised beef, from an all-natural Angus ranch in the Butternut Valley that ships nationwide to a 100% grass-fed Hudson Valley farm in Valatie with an on-farm store and bulk beef for pickup."
     )
     
     build_hub_page(
