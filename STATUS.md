@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 14, 2026  
+**Last Updated:** November 15, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 101
+- **Total Ranches:** 102
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -53,7 +53,7 @@
 - **New York Ranches:** 2
 - **Oklahoma Ranches:** 2
 - **Oregon Ranches:** 3
-- **Pennsylvania Ranches:** 1
+- **Pennsylvania Ranches:** 2
 - **Rhode Island Ranches:** 1
 - **Tennessee Ranches:** 2
 - **Utah Ranches:** 2
@@ -64,7 +64,7 @@
 - **Wisconsin Ranches:** 2
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 2
-- **Total Pages:** 144
+- **Total Pages:** 145
 
 ## Pages Built
 
@@ -116,7 +116,7 @@
 - ✅ North Dakota hub (`/north-dakota/`) - 1 ranch
 - ✅ Oklahoma hub (`/oklahoma/`) - 2 ranches
 - ✅ Oregon hub (`/oregon/`) - 3 ranches
-- ✅ Pennsylvania hub (`/pennsylvania/`) - 1 ranch
+- ✅ Pennsylvania hub (`/pennsylvania/`) - 2 ranches
 - ✅ South Dakota hub (`/south-dakota/`) - 1 ranch
 - ✅ Tennessee hub (`/tennessee/`) - 1 ranch
 - ✅ Utah hub (`/utah/`) - 2 ranches
@@ -424,6 +424,8 @@ python3 build.py
 - 📅 **Nov 13, 2026 PT nightly ship:** Added **Crossroads Beef** (Carroll, IA) — second Iowa listing and the directory's 100th ranch. Family farm that converted a 130-year-old row-crop operation to grass-based cattle. Red Angus herd on pasture its entire life; 100% grass-fed and grass-finished, adaptive rotational grazing onto new pasture daily, planted perennial grass/legume mix, minerals and baled grasses in winter; never in a feedlot, no growth hormones, no GMO feed, no mRNA vaccines per the farm. Dry-aged retail cuts (ribeye from $24.87, NY strip from $20.17, ground beef from $12), single-source ground beef, brats, hot dogs, organs/bones/tallow, Family Essentials 10/20 lb and Daily Grind 16/30 lb boxes, custom quarter/half/whole shares (pickup at processor). Ships frozen Mon/Tue to 28 states ($100 minimum; $16.95-$35 by zone, free at $225+), other continental states by arrangement; farm pickup by appointment. Gaps/caveats: no public phone or email (website contact form only); the farm says it follows organic practices but is not USDA-certified organic, so no organic claim; share pricing not public. Iowa hub copy broadened (it previously described only Grand View Beef). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Remaining single-listing states (thin-state backlog): AL, AK, AZ, CT, DE, HI, IN, LA, ME, MD, MA, MI, MS, MO, NV, NH, NJ, NY, NC, ND, PA, RI, SD, WV. Next leads: Ebersole Cattle Co (Southern IA, if a third Iowa listing is wanted), Michigan/Indiana second listings. Total: 100 ranches, 3 deals, 50 state hubs, 143 pages.
 
 - 📅 **Nov 14, 2026 PT nightly ship:** Added **Kinderhook Farm** (Valatie, NY; Columbia County, Hudson Valley) — second New York listing. Former conventional dairy restored to pasture in 2004 (Clearman and Ranney families); beef is 100% grass-fed and grass-finished on diverse pasture forages and hay with rotational grazing per the farm. Sells a ~75 lb Quarter Cow package ($955, ~8 weeks' prep), custom-cut half/whole beef ($7.25/lb and $7/lb hanging weight, $200/$400 deposit), beef soup bones, suet, bone broth, a year-round whole-farm MeatShare CSA ($650/yr, $350/half; 2026 sign-ups show out of stock) and farm-store cuts. Pickup only at the farm store (1958 County Route 21, Valatie; open 7 days 9am-5pm); no delivery or shipping. Phone (518) 218-6648, store@kinderhookfarm.com. Gaps/caveats: cattle breed not stated (breeds left empty); "Animal Welfare Approved" shown only as the farm's own claim (meats and processor); no organic claim; per-cut retail prices are on an in-store menu, not listed. Also sells lamb, pork, chicken, eggs and a Farm Stay. New York hub copy broadened (it previously described only Sunset Ridge Beef). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Remaining single-listing states (thin-state backlog): AL, AK, AZ, CT, DE, HI, IN, LA, ME, MD, MA, MI, MS, MO, NV, NH, NJ, NC, ND, PA, RI, SD, WV. Next leads: Michigan/Indiana/Pennsylvania second listings (single-farm, ranch-direct). Total: 101 ranches, 3 deals, 50 state hubs, 144 pages.
+
+- 📅 **Nov 15, 2026 PT nightly ship:** Added **Hershberger Heritage Farm (Berger Box)** (Sellersville, PA; Bucks County) — second Pennsylvania listing. Family-owned farm founded in 2014 by Air Force veteran Nathan Layton (grandson of a south-central PA dairy farmer). Beef is grass-fed and grass-finished, rotationally grazed on pasture 100% of the time, no pesticides, herbicides, GMOs or artificial fertilizers per the farm. Sells steaks (ribeye from $49.50, NY strip from $38.70, filet, sirloin, tri-tip, flat iron/bavette/picanha/skirt/Denver), ground beef ($13/lb), patties, chipped steak, roasts, brisket, short ribs, 10 lb ground box ($168.99), 1/4 beef ($1,590, ~100 lb; limited-time free chest freezer), beef tallow, and Berger Box subscriptions (Farmer's Choice $165 regular / $305 large, or custom boxes with $165 minimum; weekly to bi-monthly). Ships frozen to the Northeastern US via USPS/UPS/FedEx ($15 shipping shown on all orders); farm store at 1614 Ridge Road, Sellersville (Mon, Wed 9-5; Fri-Sat 9-6; Sun 10-5). Email hershbergerbox@gmail.com (from the shipping policy). Gaps/caveats: no public phone number (contact form + email); cattle breed not stated (breeds empty); the farm's 2023 blog says Certified Organic but no certificate is shown, so it is noted as the farm's claim only and not tagged; also sells pastured pork, chicken and eggs. Pennsylvania hub copy broadened (it previously described only Sugar Hill Farm). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Site-wide gap noticed: listing pages render phone but never the email field. Remaining single-listing states (thin-state backlog): AL, AK, AZ, CT, DE, HI, IN, LA, ME, MD, MA, MI, MS, MO, NV, NH, NJ, NC, ND, RI, SD, WV. Next leads: Michigan/Indiana second listings (single-farm, ranch-direct; avoid Seven Sons, C&F Farms-style multi-state delivery pages). Total: 102 ranches, 3 deals, 50 state hubs, 145 pages.
 
 ## Next Steps / Future Enhancements
 

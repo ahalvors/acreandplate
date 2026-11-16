@@ -2310,6 +2310,29 @@
       "description": "Kinderhook Farm is a Hudson Valley livestock farm in Columbia County, New York, where a former conventional dairy was restored to pasture in 2004. Its beef is 100% grass-fed and grass-finished, sold by the cut at an on-farm store open seven days a week and in quarter, half and whole shares for pickup.",
       "note": "Public prices seen 2026-11-14: Quarter Cow $955 (~75 lb, about 8 weeks' prep); half beef $7.25/lb and whole beef $7/lb hanging weight (average half about $2,356) with a $200/$400 deposit; MeatShare $650/year or $350/half year (2026 sign-ups currently show out of stock). Bulk beef is processed at a USDA-inspected facility the farm describes as Animal Welfare Approved, and the farm calls its MeatShare meats Animal Welfare Approved; that is the farm's own claim. Cattle breed is not stated on the farm's site. Also sells grass-fed lamb, pastured pork, chicken and eggs, and runs an on-farm Farm Stay. Call or text the farm store number for orders. Checked 2026-11-14.",
       "last_checked": "2026-11-14"
+    },
+    {
+      "slug": "hershberger-heritage-farm",
+      "name": "Hershberger Heritage Farm (Berger Box)",
+      "url": "https://www.bergerbox.farm/",
+      "state": "PA",
+      "city": "Sellersville",
+      "genetics": "Grass-fed and grass-finished beef, rotationally grazed on pasture 100% of the time with no pesticides, herbicides, GMOs or artificial fertilizers, on a Bucks County family farm founded in 2014 per the farm",
+      "breeds": [],
+      "products": [
+        "steaks: ribeye, New York strip, filet mignon, sirloin, tri-tip and 'rare' cuts (flat iron, bavette, flank, picanha, skirt, Denver)",
+        "80/20 ground beef, burger patties, chipped steak and beef cubes, plus 10 lb and 13 lb ground beef boxes",
+        "roasts: chuck roast, London broil, brisket and short ribs",
+        "1/4 grass-fed beef (about 100 lb of mixed cuts)",
+        "Berger Box subscriptions: Farmer's Choice boxes (all beef, all chicken, all pork or mixes) or a custom-cut box, weekly to every two months",
+        "grass-fed beef tallow"
+      ],
+      "shipping": "Ships frozen in insulated packaging to the Northeastern United States via USPS, UPS or FedEx; the site shows $15 shipping on all orders and a $165 minimum for custom boxes. In-person shopping and pickup at the farm store, 1614 Ridge Road, Sellersville, PA (Mon, Wed 9am-5pm; Fri-Sat 9am-6pm; Sun 10am-5pm; closed Tue/Thu).",
+      "email": "hershbergerbox@gmail.com",
+      "featured": false,
+      "description": "Hershberger Heritage Farm is a family-owned regenerative farm in Bucks County, Pennsylvania, founded in 2014 by Air Force veteran Nathan Layton. Its grass-fed and grass-finished beef is rotationally grazed and sold at an on-farm store in Sellersville and through the Berger Box, a customizable subscription that ships frozen across the Northeast.",
+      "note": "Public prices seen 2026-11-15: ribeye from $49.50 (1.1 lb), NY strip from $38.70, ground beef $13/lb, 10 lb ground beef box $168.99 (no subscription), Farmer's Choice boxes $165 (regular) and $305 (large), 1/4 beef $1,590 (about 100 lb; the farm currently adds a free 5 cu ft chest freezer for a limited time). The farm's 2023 blog describes its livestock as Certified Organic; no certificate is shown on the site, so that is the farm's own claim and is not tagged here. Cattle breed is not stated. No public phone number; use the email or the site's contact form. Also sells pastured pork, pasture-raised chicken and eggs. Checked 2026-11-15.",
+      "last_checked": "2026-11-15"
     }
   ]
 }
