@@ -2066,7 +2066,7 @@ def main():
         "Pennsylvania Ranches",
         "pennsylvania",
         lambda l: l.get('state') == 'PA',
-        "Pennsylvania ranches raising 100% grass-fed and grass-finished Scottish Highland cattle with heritage breed genetics and nationwide shipping."
+        "Pennsylvania family farms raising grass-fed, grass-finished beef, from a Scottish Highland herd in St. Marys that ships nationwide to a regenerative Bucks County farm in Sellersville with an on-farm store and Berger Box subscriptions shipped across the Northeast."
     )
     
     build_hub_page(
