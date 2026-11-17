@@ -1968,7 +1968,7 @@ def main():
         "Michigan Ranches",
         "michigan",
         lambda l: l.get('state') == 'MI',
-        "Michigan ranches raising Full-blood Wagyu on open pastures with USDA-processed beef shares and local delivery."
+        "Michigan family farms selling beef direct, from Full-blood Wagyu beef shares with local delivery near Laingsburg to grass-fed, grass-finished cuts and bundles from a Millington farm in the Thumb that ships frozen across much of the U.S."
     )
     
     build_hub_page(
