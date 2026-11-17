@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 15, 2026  
+**Last Updated:** November 16, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 102
+- **Total Ranches:** 103
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -29,7 +29,7 @@
 - **Maine Ranches:** 1
 - **Maryland Ranches:** 1
 - **Massachusetts Ranches:** 1
-- **Michigan Ranches:** 1
+- **Michigan Ranches:** 2
 - **Minnesota Ranches:** 2
 - **Missouri Ranches:** 1
 - **North Carolina Ranches:** 1
@@ -64,7 +64,7 @@
 - **Wisconsin Ranches:** 2
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 2
-- **Total Pages:** 145
+- **Total Pages:** 146
 
 ## Pages Built
 
@@ -212,6 +212,7 @@
 - ✅ Currey Farms (DE)
 - ✅ Alaska Natural Foods (Blue Creek Livestock) (AK)
 - ✅ Polyface Farm (VA)
+- ✅ John Henry's Meats (Millington, MI)
 
 ## Known Gaps & Notes
 
@@ -426,6 +427,7 @@ python3 build.py
 - 📅 **Nov 14, 2026 PT nightly ship:** Added **Kinderhook Farm** (Valatie, NY; Columbia County, Hudson Valley) — second New York listing. Former conventional dairy restored to pasture in 2004 (Clearman and Ranney families); beef is 100% grass-fed and grass-finished on diverse pasture forages and hay with rotational grazing per the farm. Sells a ~75 lb Quarter Cow package ($955, ~8 weeks' prep), custom-cut half/whole beef ($7.25/lb and $7/lb hanging weight, $200/$400 deposit), beef soup bones, suet, bone broth, a year-round whole-farm MeatShare CSA ($650/yr, $350/half; 2026 sign-ups show out of stock) and farm-store cuts. Pickup only at the farm store (1958 County Route 21, Valatie; open 7 days 9am-5pm); no delivery or shipping. Phone (518) 218-6648, store@kinderhookfarm.com. Gaps/caveats: cattle breed not stated (breeds left empty); "Animal Welfare Approved" shown only as the farm's own claim (meats and processor); no organic claim; per-cut retail prices are on an in-store menu, not listed. Also sells lamb, pork, chicken, eggs and a Farm Stay. New York hub copy broadened (it previously described only Sunset Ridge Beef). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Remaining single-listing states (thin-state backlog): AL, AK, AZ, CT, DE, HI, IN, LA, ME, MD, MA, MI, MS, MO, NV, NH, NJ, NC, ND, PA, RI, SD, WV. Next leads: Michigan/Indiana/Pennsylvania second listings (single-farm, ranch-direct). Total: 101 ranches, 3 deals, 50 state hubs, 144 pages.
 
 - 📅 **Nov 15, 2026 PT nightly ship:** Added **Hershberger Heritage Farm (Berger Box)** (Sellersville, PA; Bucks County) — second Pennsylvania listing. Family-owned farm founded in 2014 by Air Force veteran Nathan Layton (grandson of a south-central PA dairy farmer). Beef is grass-fed and grass-finished, rotationally grazed on pasture 100% of the time, no pesticides, herbicides, GMOs or artificial fertilizers per the farm. Sells steaks (ribeye from $49.50, NY strip from $38.70, filet, sirloin, tri-tip, flat iron/bavette/picanha/skirt/Denver), ground beef ($13/lb), patties, chipped steak, roasts, brisket, short ribs, 10 lb ground box ($168.99), 1/4 beef ($1,590, ~100 lb; limited-time free chest freezer), beef tallow, and Berger Box subscriptions (Farmer's Choice $165 regular / $305 large, or custom boxes with $165 minimum; weekly to bi-monthly). Ships frozen to the Northeastern US via USPS/UPS/FedEx ($15 shipping shown on all orders); farm store at 1614 Ridge Road, Sellersville (Mon, Wed 9-5; Fri-Sat 9-6; Sun 10-5). Email hershbergerbox@gmail.com (from the shipping policy). Gaps/caveats: no public phone number (contact form + email); cattle breed not stated (breeds empty); the farm's 2023 blog says Certified Organic but no certificate is shown, so it is noted as the farm's claim only and not tagged; also sells pastured pork, chicken and eggs. Pennsylvania hub copy broadened (it previously described only Sugar Hill Farm). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Site-wide gap noticed: listing pages render phone but never the email field. Remaining single-listing states (thin-state backlog): AL, AK, AZ, CT, DE, HI, IN, LA, ME, MD, MA, MI, MS, MO, NV, NH, NJ, NC, ND, RI, SD, WV. Next leads: Michigan/Indiana second listings (single-farm, ranch-direct; avoid Seven Sons, C&F Farms-style multi-state delivery pages). Total: 102 ranches, 3 deals, 50 state hubs, 145 pages.
+- 📅 **Nov 16, 2026 PT nightly ship:** Added **John Henry's Meats** (Millington, MI; Tuscola County, the Thumb) — second Michigan listing. Family-owned farm selling grass-fed beef at farmers' markets since 2007; per the farm, cattle are 100% grass-fed and grass-finished (pasture when available, hay and fermented silage in winter), no antibiotics or hormones; also raises pastured pork and poultry. Sells boneless ribeye ($37.49/14 oz), NY strip ($23.49/10 oz), filet ($13.99/4 oz), ground chuck ($12.49/lb) and other grinds, roasts, brisket, organ meats, 10 lb bulk grinds ($125.99), quarter beef ($1,272.93, ~175 lb hanging at $7.27/lb, ~88 lb take-home), half ($2,670.48) and whole ($5,267.99) bundles, plus boxes, subscriptions and a Farmshare membership. Ships frozen via UPS to 1-3 day zones from Michigan (no AK/HI; some West Coast/rural addresses excluded; tiered rates, flat $49.99 to CA/OR/ID/UT/NV/AZ/WY/WA); local delivery routes; free pickup at The Grazing Table, 4509 Park Dr, Millington. Phone 989-302-3366, customerservice@johnhenrys.net. Gaps/caveats: breed not stated (breeds empty); no certifications claimed; the store also resells items like wild-caught seafood and dairy (listing is based on the farm's own beef). Michigan hub copy broadened (previously described only Whispering Pines' Wagyu). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Still open: listing pages render phone but not the email field. Remaining single-listing states: AL, AK, AZ, CT, DE, HI, IN, LA, ME, MD, MA, MS, MO, NV, NH, NJ, NC, ND, RI, SD, WV. Next leads: Indiana/Missouri second listings; Apsey Farms (Reed City, MI) noted as a possible future MI lead. Total: 103 ranches, 3 deals, 50 state hubs, 146 pages.
 
 ## Next Steps / Future Enhancements
 
