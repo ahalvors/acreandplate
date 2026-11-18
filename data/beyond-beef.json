@@ -7,7 +7,11 @@
       "state": "ID",
       "url": "https://www.grandadfarms.com/",
       "operator": "Mark Ellison and family",
-      "categories": ["Pasture chicken", "Pasture eggs", "Animal feed"],
+      "categories": [
+        "Pasture chicken",
+        "Pasture eggs",
+        "Animal feed"
+      ],
       "summary": "Regenerative family farm raising Freedom Ranger broilers moved to fresh pasture 7 days a week, plus laying hens raised with Saint John's Organic Farm in Emmett. No medications, vaccines, hormones, or antibiotics; non-GMO, corn-free, soy-free feed. Chickens processed at a local USDA-inspected facility.",
       "products": [
         "Whole pasture chicken, listed at $7/lb (10% off 40 lb+)",
@@ -19,6 +23,32 @@
       "email": "mark@grandadfarms.com",
       "verified": "2026-11-03",
       "note": "Chicken and eggs showed out of stock when checked."
+    },
+    {
+      "slug": "fafo-farms-tx",
+      "name": "FAFO Farms TX",
+      "city": "Purmela",
+      "state": "TX",
+      "url": "https://www.fafofarmstx.com/",
+      "categories": [
+        "Pasture eggs",
+        "Raw dairy",
+        "Goat milk soap"
+      ],
+      "summary": "Central Texas farm in Purmela (Coryell County), founded in 2023 and run on Joel Salatin's model. Pasture-raised and rotationally grazed with mob grazing; the farm says its animals are soy-free, GMO-free, and not vaccinated. Sells eggs from free-range, corn- and soy-free chickens, plus raw milk, raw cream, butter, and goat milk soap. No beef for sale was listed. Also on X as @FAFOFarmsTX.",
+      "products": [
+        "Regenerative raised eggs, corn- and soy-free, $8/dozen (listed as members only; out of stock when checked)",
+        "2% raw cow's milk, 1 gallon, $10, farm share only (out of stock when checked)",
+        "Cream-on-top raw cow's milk, 1 gallon, $16, farm share only (out of stock when checked)",
+        "Raw cream, 16 oz, $10, farm share only (out of stock when checked)",
+        "Raw butter, 1 lb, $20, farm share only (out of stock when checked)",
+        "Goat milk soap, generally $10 per bar as listed on the soaps page (one citrus bar on sale from $14; some scents out of stock or on pre-order)"
+      ],
+      "access": "Farm share and farm pickup at 1140 County Road 106, Purmela, TX 76566. Dairy is farm-share only; the farm says the share is currently at max capacity and keeps a waitlist (email TeamRarey@proton.me). Texas allows raw milk sales only on the farm, so dairy is farm pickup only. The contact page lists visit hours Monday–Friday 9am–5pm and Saturday 10am–5pm. No shipping listed.",
+      "phone": "(512) 221-3245",
+      "email": "TeamRarey@proton.me",
+      "verified": "2026-11-17",
+      "note": "Eggs and all dairy products showed out of stock when checked. The about page still describes farm tours and educational programs as coming soon, though the homepage mentions tours, workshops, and a CSA. A second contact email, crarey@fafofarmstx.com, appears on the contact form. No chicken meat or beef products were listed for sale."
     }
   ]
 }
