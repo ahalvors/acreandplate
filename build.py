@@ -1182,6 +1182,14 @@ def build_beyond_beef():
     for farm in farms:
         items = ''.join(f'<li>{e(p)}</li>' for p in farm['products'])
         note = f'<p class="note">{e(farm["note"])}</p>' if farm.get('note') else ''
+        contact_bits = []
+        if farm.get('operator'):
+            contact_bits.append(e(farm['operator']))
+        if farm.get('phone'):
+            contact_bits.append(f'<a href="tel:{farm["phone"]}">{e(farm["phone"])}</a>')
+        if farm.get('email'):
+            contact_bits.append(f'<a href="mailto:{farm["email"]}">{e(farm["email"])}</a>')
+        contact = ' · '.join(contact_bits)
         cards.append(f"""<article class="listing-card" id="{farm['slug']}">
         <h3>{e(farm['name'])}</h3>
         <div class="location">{e(farm['city'])}, {e(farm['state'])}</div>
@@ -1189,7 +1197,7 @@ def build_beyond_beef():
         <p class="genetics">{e(farm['summary'])}</p>
         <p class="products"><strong>Products:</strong></p><ul>{items}</ul>
         <p class="shipping limited"><strong>How to buy:</strong> {e(farm['access'])}</p>
-        <p><strong>Contact:</strong> {e(farm['operator'])} · <a href="tel:{farm['phone']}">{e(farm['phone'])}</a> · <a href="mailto:{farm['email']}">{e(farm['email'])}</a></p>
+        <p><strong>Contact:</strong> {contact}</p>
         {note}
         <p class="note">Verified from the farm's website on {e(farm['verified'])}.</p>
         <div class="actions"><a href="{add_utm_params(farm['url'], farm['slug'])}" target="_blank" rel="noopener" class="btn-primary">Visit Farm →</a></div>
@@ -1198,7 +1206,7 @@ def build_beyond_beef():
     <section class="hero">
         <div class="container">
             <h1>Beyond Beef</h1>
-            <p class="tagline">Verified pasture-raised farms selling chicken, eggs, and pork direct. Same rules as our ranches: checked by hand, free to list, no commission.</p>
+            <p class="tagline">Verified pasture-raised farms selling chicken, eggs, dairy, and pork direct. Same rules as our ranches: checked by hand, free to list, no commission.</p>
         </div>
     </section>
     <section class="listings-section">
@@ -1210,7 +1218,7 @@ def build_beyond_beef():
         </div>
     </section>
     """
-    html = base_template("Beyond Beef: Pasture-Raised Chicken, Eggs & Pork Direct From Farms", content, "Verified pasture-raised farms selling chicken, eggs, and pork direct. No commission. Starting with Grandad Farms in Emmett, Idaho.")
+    html = base_template("Beyond Beef: Pasture-Raised Chicken, Eggs, Dairy & Pork Direct From Farms", content, "Verified pasture-raised farms selling chicken, eggs, dairy, and pork direct. No commission.")
     write_page('beyond-beef/index.html', html)
 
 def build_featured_thanks():
