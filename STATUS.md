@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 16, 2026  
+**Last Updated:** November 17, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 103
+- **Total Ranches:** 104
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
 - **Farmers Markets:** 3
@@ -21,7 +21,7 @@
 - **Georgia Ranches:** 2
 - **Hawaii Ranches:** 1
 - **Illinois Ranches:** 2
-- **Indiana Ranches:** 1
+- **Indiana Ranches:** 2
 - **Iowa Ranches:** 2
 - **Kansas Ranches:** 2
 - **Kentucky Ranches:** 2
@@ -64,7 +64,7 @@
 - **Wisconsin Ranches:** 2
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 2
-- **Total Pages:** 146
+- **Total Pages:** 147
 
 ## Pages Built
 
@@ -213,6 +213,7 @@
 - ✅ Alaska Natural Foods (Blue Creek Livestock) (AK)
 - ✅ Polyface Farm (VA)
 - ✅ John Henry's Meats (Millington, MI)
+- ✅ Farmer's Provisions (Middletown, IN)
 
 ## Known Gaps & Notes
 
@@ -428,6 +429,7 @@ python3 build.py
 
 - 📅 **Nov 15, 2026 PT nightly ship:** Added **Hershberger Heritage Farm (Berger Box)** (Sellersville, PA; Bucks County) — second Pennsylvania listing. Family-owned farm founded in 2014 by Air Force veteran Nathan Layton (grandson of a south-central PA dairy farmer). Beef is grass-fed and grass-finished, rotationally grazed on pasture 100% of the time, no pesticides, herbicides, GMOs or artificial fertilizers per the farm. Sells steaks (ribeye from $49.50, NY strip from $38.70, filet, sirloin, tri-tip, flat iron/bavette/picanha/skirt/Denver), ground beef ($13/lb), patties, chipped steak, roasts, brisket, short ribs, 10 lb ground box ($168.99), 1/4 beef ($1,590, ~100 lb; limited-time free chest freezer), beef tallow, and Berger Box subscriptions (Farmer's Choice $165 regular / $305 large, or custom boxes with $165 minimum; weekly to bi-monthly). Ships frozen to the Northeastern US via USPS/UPS/FedEx ($15 shipping shown on all orders); farm store at 1614 Ridge Road, Sellersville (Mon, Wed 9-5; Fri-Sat 9-6; Sun 10-5). Email hershbergerbox@gmail.com (from the shipping policy). Gaps/caveats: no public phone number (contact form + email); cattle breed not stated (breeds empty); the farm's 2023 blog says Certified Organic but no certificate is shown, so it is noted as the farm's claim only and not tagged; also sells pastured pork, chicken and eggs. Pennsylvania hub copy broadened (it previously described only Sugar Hill Farm). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Site-wide gap noticed: listing pages render phone but never the email field. Remaining single-listing states (thin-state backlog): AL, AK, AZ, CT, DE, HI, IN, LA, ME, MD, MA, MI, MS, MO, NV, NH, NJ, NC, ND, RI, SD, WV. Next leads: Michigan/Indiana second listings (single-farm, ranch-direct; avoid Seven Sons, C&F Farms-style multi-state delivery pages). Total: 102 ranches, 3 deals, 50 state hubs, 145 pages.
 - 📅 **Nov 16, 2026 PT nightly ship:** Added **John Henry's Meats** (Millington, MI; Tuscola County, the Thumb) — second Michigan listing. Family-owned farm selling grass-fed beef at farmers' markets since 2007; per the farm, cattle are 100% grass-fed and grass-finished (pasture when available, hay and fermented silage in winter), no antibiotics or hormones; also raises pastured pork and poultry. Sells boneless ribeye ($37.49/14 oz), NY strip ($23.49/10 oz), filet ($13.99/4 oz), ground chuck ($12.49/lb) and other grinds, roasts, brisket, organ meats, 10 lb bulk grinds ($125.99), quarter beef ($1,272.93, ~175 lb hanging at $7.27/lb, ~88 lb take-home), half ($2,670.48) and whole ($5,267.99) bundles, plus boxes, subscriptions and a Farmshare membership. Ships frozen via UPS to 1-3 day zones from Michigan (no AK/HI; some West Coast/rural addresses excluded; tiered rates, flat $49.99 to CA/OR/ID/UT/NV/AZ/WY/WA); local delivery routes; free pickup at The Grazing Table, 4509 Park Dr, Millington. Phone 989-302-3366, customerservice@johnhenrys.net. Gaps/caveats: breed not stated (breeds empty); no certifications claimed; the store also resells items like wild-caught seafood and dairy (listing is based on the farm's own beef). Michigan hub copy broadened (previously described only Whispering Pines' Wagyu). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Still open: listing pages render phone but not the email field. Remaining single-listing states: AL, AK, AZ, CT, DE, HI, IN, LA, ME, MD, MA, MS, MO, NV, NH, NJ, NC, ND, RI, SD, WV. Next leads: Indiana/Missouri second listings; Apsey Farms (Reed City, MI) noted as a possible future MI lead. Total: 103 ranches, 3 deals, 50 state hubs, 146 pages.
+- 📅 **Nov 17, 2026 PT nightly ship:** Added **Farmer's Provisions** (Middletown, IN; a short drive from Indianapolis) — second Indiana listing. Howell family farm raising livestock, vegetables and commodities in Indiana for more than 50 years across two generations. Beef is 100% grass-fed and grass-finished (grasses, legumes and brassicas only; never grain or grain by-products), with daily rotational grazing on pasture and cover crops, no added hormones, and dry-aged; processed at a local family-owned USDA-inspected butcher. Sells boneless ribeye ($27.88, avg. 12 oz), NY strip ($21.95, avg. 10 oz), filet ($20.45), premium ground ($11.25/lb), a 24 lb ground bundle ($256.50), Family and Simple Provisions bundles, plus steaks, roasts, brisket, bacon, tallow and organs. Freezer beef by deposit: 1/8 (~50 lb) $150+$550, 1/4 (~100 lb) $250+$1,100, 1/2 (~200 lb) $500+$2,050 (all three sold out on 2026-11-17; next delivery January 2027); custom whole beef by phone; Beef of the Month Club ($375/3 months, $750/6, $1,500/12) closes Dec 31, 2026. Ships frozen to the lower 48 on Wednesdays via overnight or two-day express (free $150+ to 27 states + DC; calculated shipping elsewhere); free farm pickup in Middletown (12261 S County Road 600 W). Phone (765) 623-7949, beef@farmersprovisions.com. Gaps/caveats: breed described only as "Angus based" (breeds left empty); no certifications claimed; 1/8, 1/4 and 1/2 bundles were sold out at check. Indiana hub copy broadened (it previously described only Tyner Pond Farm). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Still open: listing pages render phone but not the email field. Remaining single-listing states: AL, AK, AZ, CT, DE, HI, LA, ME, MD, MA, MS, MO, NV, NH, NJ, NC, ND, RI, SD, WV. Next leads: Missouri second listings (single-farm, ranch-direct; Rain Crow Ranch in Doniphan, MO has AGA/GAP claims and a public phone but no online store or prices on its site; Cox Family Farm and Diamond H Ranch are possible leads). Total: 104 ranches, 3 deals, 50 state hubs, 147 pages.
 
 ## Next Steps / Future Enhancements
 
