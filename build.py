@@ -2087,7 +2087,7 @@ def main():
         "Indiana Ranches",
         "indiana",
         lambda l: l.get('state') == 'IN',
-        "Indiana ranches raising 100% grass-fed and grass-finished beef with American Grassfed Association certification, regenerative grazing practices, and nationwide shipping."
+        "Indiana family farms raising 100% grass-fed and grass-finished beef, from an American Grassfed Association certified South Poll and Corriente herd in Greenfield to an Angus-based Middletown herd whose dry-aged beef ships frozen across the lower 48 with free farm pickup."
     )
     
     build_hub_page(
