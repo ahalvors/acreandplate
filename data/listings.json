@@ -2379,6 +2379,29 @@
       "description": "Farmer's Provisions is the Howell family's farm a short drive from Indianapolis, where the family has raised livestock and crops for more than 50 years across two generations. Its Angus-based cattle are 100% grass-fed and grass-finished with daily rotational grazing on pasture and cover crops, and the dry-aged beef is processed at a local family-owned USDA-inspected butcher and shipped frozen from the farm.",
       "note": "Public prices seen 2026-11-17: boneless ribeye $27.88 (avg. 12 oz), NY strip $21.95 (avg. 10 oz), filet mignon $20.45, premium ground beef $11.25/lb, 24 lb Premium Ground Bundle $256.50, Family Provisions Bundle $289.44 (avg. 21 lb), Simple Provisions Bundle $217.12. Freezer beef by deposit: 1/8 beef (about 50 lb) $150 deposit + $550, 1/4 beef (about 100 lb) $250 + $1,100, 1/2 beef (about 200 lb) $500 + $2,050; all three showed sold out on 2026-11-17, with the next delivery listed as January 2027. Beef of the Month Club ($375/3 months, $750/6, $1,500/12) closes Dec 31, 2026. Breed is described only as \"Angus based\"; no certifications are claimed. Checked 2026-11-17.",
       "last_checked": "2026-11-17"
+    },
+    {
+      "slug": "cox-family-farm",
+      "name": "Cox Family Farm",
+      "url": "https://www.coxfamilyfarmmo.com/",
+      "state": "MO",
+      "city": "Rocheport",
+      "genetics": "100% grass-fed and grass-finished beef raised by Jordan and Ashley Cox in Rocheport, Missouri; per the farm, cattle are humanely raised on open pastures and rotationally grazed, never fed grain, with no growth hormones or antibiotics; the site also says no mRNA and no GMOs; all vacuum sealed",
+      "breeds": [],
+      "products": [
+        "ribeye steaks (2 boneless steaks per package, about 1 lb average), vacuum sealed",
+        "ground beef and a 25 lb Ground Beef Package",
+        "Farm Sampler Box (10 lb ground, about 10 lb roasts, about 5 lb steaks)",
+        "50 Pound Beef Package",
+        "quarter beef, half beef and whole beef (half and whole cut to your specs)"
+      ],
+      "shipping": "",
+      "phone": "(573) 424-8676",
+      "email": "CoxFamilyFarmMO@gmail.com",
+      "featured": false,
+      "description": "Cox Family Farm is a family-operated farm in Rocheport, Missouri, run by Jordan and Ashley Cox and their eight children, who actively participate in daily operations. The beef is humanely raised on open pastures with rotational grazing and regenerative practices, 100% grass-fed and grass-finished, and sold vacuum sealed for pickup at the farm.",
+      "note": "Public prices seen 2026-11-18 on https://www.coxfamilyfarmmo.com/beef: ribeye steaks $45 (2 boneless steaks/pkg, about 1 lb avg), ground beef $13/lb, 25 lb Ground Beef Package $300, Farm Sampler Box $375 (10 lb ground, about 10 lb roasts, about 5 lb steaks), 50 Pound Beef Package $675 (sold out when checked), Quarter Beef $1,450 (50 lb ground, about 30 lb roasts, about 20 lb steaks, vacuum sealed and frozen), Half Beef $2,750 (about 210 lb cut to your specs), Whole Beef $5,200 (about 420 lb cut to your specs). Half and whole are priced off hanging weight plus processing, and pounds vary by animal size. Address: 10475 W Graham Rd, Rocheport, MO 65279 (Boone County, near Columbia). Farm pickup and the farm store in Rocheport; the site does not state shipping or delivery. Breed is not stated. No certifications are shown; the site's mention of organic farming techniques is the farm's own wording and is not tagged. The family began farming in 2021 (Columbia Missourian, Aug. 8, 2024). Also raises goats, chickens, pigs and dairy cows, runs a farm store, and welcomes farm visitors. The farm describes faith, family and farming as its values. Checked 2026-11-18.",
+      "last_checked": "2026-11-18"
     }
   ]
 }
