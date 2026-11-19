@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 17, 2026  
+**Last Updated:** November 18, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 104
+- **Total Ranches:** 105
 - **Beyond Beef Farms:** 2 (kept out of the ranch count and state hubs)
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
@@ -32,7 +32,7 @@
 - **Massachusetts Ranches:** 1
 - **Michigan Ranches:** 2
 - **Minnesota Ranches:** 2
-- **Missouri Ranches:** 1
+- **Missouri Ranches:** 2
 - **North Carolina Ranches:** 1
 - **North Dakota Ranches:** 1
 - **South Dakota Ranches:** 1
@@ -65,7 +65,7 @@
 - **Wisconsin Ranches:** 2
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 2
-- **Total Pages:** 147
+- **Total Pages:** 148
 
 ## Pages Built
 
@@ -104,7 +104,7 @@
 - ✅ Maine hub (`/maine/`) - 1 ranch
 - ✅ Maryland hub (`/maryland/`) - 1 ranch
 - ✅ Mississippi hub (`/mississippi/`) - 1 ranch
-- ✅ Missouri hub (`/missouri/`) - 1 ranch
+- ✅ Missouri hub (`/missouri/`) - 2 ranches
 - ✅ Nevada hub (`/nevada/`) - 1 ranch
 - ✅ Texas hub (`/texas/`) - 6 ranches
 - ✅ California hub (`/california/`) - 19 ranches
@@ -216,6 +216,7 @@
 - ✅ Polyface Farm (VA)
 - ✅ John Henry's Meats (Millington, MI)
 - ✅ Farmer's Provisions (Middletown, IN)
+- ✅ Cox Family Farm (Rocheport, MO)
 
 ## Known Gaps & Notes
 
@@ -434,6 +435,8 @@ python3 build.py
 - 📅 **Nov 17, 2026 PT nightly ship:** Added **Farmer's Provisions** (Middletown, IN; a short drive from Indianapolis) — second Indiana listing. Howell family farm raising livestock, vegetables and commodities in Indiana for more than 50 years across two generations. Beef is 100% grass-fed and grass-finished (grasses, legumes and brassicas only; never grain or grain by-products), with daily rotational grazing on pasture and cover crops, no added hormones, and dry-aged; processed at a local family-owned USDA-inspected butcher. Sells boneless ribeye ($27.88, avg. 12 oz), NY strip ($21.95, avg. 10 oz), filet ($20.45), premium ground ($11.25/lb), a 24 lb ground bundle ($256.50), Family and Simple Provisions bundles, plus steaks, roasts, brisket, bacon, tallow and organs. Freezer beef by deposit: 1/8 (~50 lb) $150+$550, 1/4 (~100 lb) $250+$1,100, 1/2 (~200 lb) $500+$2,050 (all three sold out on 2026-11-17; next delivery January 2027); custom whole beef by phone; Beef of the Month Club ($375/3 months, $750/6, $1,500/12) closes Dec 31, 2026. Ships frozen to the lower 48 on Wednesdays via overnight or two-day express (free $150+ to 27 states + DC; calculated shipping elsewhere); free farm pickup in Middletown (12261 S County Road 600 W). Phone (765) 623-7949, beef@farmersprovisions.com. Gaps/caveats: breed described only as "Angus based" (breeds left empty); no certifications claimed; 1/8, 1/4 and 1/2 bundles were sold out at check. Indiana hub copy broadened (it previously described only Tyner Pond Farm). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Still open: listing pages render phone but not the email field. Remaining single-listing states: AL, AK, AZ, CT, DE, HI, LA, ME, MD, MA, MS, MO, NV, NH, NJ, NC, ND, RI, SD, WV. Next leads: Missouri second listings (single-farm, ranch-direct; Rain Crow Ranch in Doniphan, MO has AGA/GAP claims and a public phone but no online store or prices on its site; Cox Family Farm and Diamond H Ranch are possible leads). Total: 104 ranches, 3 deals, 50 state hubs, 147 pages.
 
 - 📅 **Nov 17, 2026 PT:** Added **FAFO Farms TX** (Purmela, TX; 1140 County Road 106, Purmela TX 76566) to **Beyond Beef** as an eggs-and-raw-dairy farm, kept out of the beef ranch count and the Texas hub. Founded in 2023 on Joel Salatin's model; pasture-raised and rotationally grazed with mob grazing; the farm says its animals are soy-free, GMO-free and not vaccinated. Sells corn- and soy-free regenerative eggs at $8/dozen (listed as members only), farm-share-only raw dairy (2% milk $10/gal, cream-on-top milk $16/gal, raw cream 16 oz $10, raw butter 1 lb $20), and goat milk soap generally $10/bar (one citrus bar on sale from $14). Farm share is currently at max capacity with a waitlist. Texas allows raw milk sales only on the farm, so dairy is farm pickup only. Visit hours on the contact page: Monday–Friday 9am–5pm and Saturday 10am–5pm. Phone (512) 221-3245, email TeamRarey@proton.me; also on X as @FAFOFarmsTX. Gaps/caveats: eggs and all dairy products were out of stock when checked; the about page still describes farm tours and educational programs as coming soon, though the homepage mentions tours, workshops and a CSA; a second contact email, crarey@fafofarmstx.com, appears on the contact form; no beef or chicken meat was listed for sale. Beyond Beef now has 2 farms (Grandad Farms + FAFO Farms TX). Totals unchanged: 104 ranches, 3 deals, 50 state hubs, 147 pages.
+
+- 📅 **Nov 18, 2026 PT nightly ship:** Added **Cox Family Farm** (Rocheport, MO; 10475 W Graham Rd, Rocheport, MO 65279; Boone County, near Columbia) — second Missouri listing. Family-operated farm run by Jordan and Ashley Cox and their eight children, who actively participate in daily operations. The family began farming in 2021 (Columbia Missourian, Aug. 8, 2024). Beef is humanely raised on open pastures and rotationally grazed; 100% grass-fed and grass-finished, never grain; no growth hormones or antibiotics (the site also says no mRNA and no GMOs); all vacuum sealed. The site describes regenerative practices and rotational grazing. Also raises goats, chickens, pigs and dairy cows, runs a farm store, welcomes farm visitors, and describes faith, family and farming as its values. Sells ribeye steaks $45 (2 boneless steaks/pkg, about 1 lb avg), ground beef $13/lb, 25 lb Ground Beef Package $300, Farm Sampler Box $375 (10 lb ground, about 10 lb roasts, about 5 lb steaks), 50 Pound Beef Package $675 (sold out when checked), Quarter Beef $1,450 (50 lb ground, about 30 lb roasts, about 20 lb steaks, vacuum sealed and frozen), Half Beef $2,750 (about 210 lb cut to your specs), Whole Beef $5,200 (about 420 lb cut to your specs). Half and whole are priced off hanging weight plus processing, and pounds vary by animal size. Farm pickup and the farm store in Rocheport; the site does not state shipping or delivery, so shipping is left empty. Phone (573) 424-8676, CoxFamilyFarmMO@gmail.com. Gaps/caveats: breed not stated (breeds empty); no certifications (the site's "organic farming techniques" is the farm's own wording and is not tagged); the 50 lb package was sold out at check; shipping and delivery are not stated. Missouri hub copy broadened (it previously described only Hiroshi Ranch). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Still open: listing pages render phone but not the email field. Remaining single-listing states: AL, AK, AZ, CT, DE, HI, LA, ME, MD, MA, MS, NV, NH, NJ, NC, ND, RI, SD, WV. Next leads: remaining single-listing states (single-farm, ranch-direct); Diamond H Ranch was noted earlier as a possible later Missouri listing. Total: 105 ranches, 3 deals, 50 state hubs, 148 pages.
 
 ## Next Steps / Future Enhancements
 

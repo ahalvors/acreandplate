@@ -1990,7 +1990,7 @@ def main():
         "Missouri Ranches",
         "missouri",
         lambda l: l.get('state') == 'MO',
-        "Missouri ranches raising 100% Fullblood Wagyu with unique feeding programs and nationwide shipping."
+        "Missouri ranches selling beef direct, from a Fullblood Wagyu farm in Kaiser with a unique feeding program and nationwide shipping to a Rocheport family farm raising 100% grass-fed, grass-finished beef for farm pickup."
     )
     
     build_hub_page(
