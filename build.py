@@ -2130,7 +2130,7 @@ def main():
         "Maryland Ranches",
         "maryland",
         lambda l: l.get('state') == 'MD',
-        "Maryland farms selling dry-aged Black Angus beef direct from the farm, with farm stores near Baltimore and Frederick and frozen shipping nationwide."
+        "Two Maryland farms selling Black Angus beef direct: dry-aged beef with farm stores near Baltimore and Frederick and frozen shipping nationwide, and 100% grass-fed beef from a family farm near Buckeystown, sold by the share for pickup in Adamstown and Potomac."
     )
     
     build_hub_page(
