@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 18, 2026  
+**Last Updated:** November 19, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 105
+- **Total Ranches:** 106
 - **Beyond Beef Farms:** 2 (kept out of the ranch count and state hubs)
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
@@ -28,7 +28,7 @@
 - **Kentucky Ranches:** 2
 - **Louisiana Ranches:** 1
 - **Maine Ranches:** 1
-- **Maryland Ranches:** 1
+- **Maryland Ranches:** 2
 - **Massachusetts Ranches:** 1
 - **Michigan Ranches:** 2
 - **Minnesota Ranches:** 2
@@ -65,7 +65,7 @@
 - **Wisconsin Ranches:** 2
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 2
-- **Total Pages:** 148
+- **Total Pages:** 149
 
 ## Pages Built
 
@@ -102,7 +102,7 @@
 - ✅ Kentucky hub (`/kentucky/`) - 1 ranch
 - ✅ Louisiana hub (`/louisiana/`) - 1 ranch
 - ✅ Maine hub (`/maine/`) - 1 ranch
-- ✅ Maryland hub (`/maryland/`) - 1 ranch
+- ✅ Maryland hub (`/maryland/`) - 2 ranches
 - ✅ Mississippi hub (`/mississippi/`) - 1 ranch
 - ✅ Missouri hub (`/missouri/`) - 2 ranches
 - ✅ Nevada hub (`/nevada/`) - 1 ranch
@@ -217,6 +217,7 @@
 - ✅ John Henry's Meats (Millington, MI)
 - ✅ Farmer's Provisions (Middletown, IN)
 - ✅ Cox Family Farm (Rocheport, MO)
+- ✅ Nick's Organic Farm (Adamstown, MD)
 
 ## Known Gaps & Notes
 
@@ -437,6 +438,8 @@ python3 build.py
 - 📅 **Nov 17, 2026 PT:** Added **FAFO Farms TX** (Purmela, TX; 1140 County Road 106, Purmela TX 76566) to **Beyond Beef** as an eggs-and-raw-dairy farm, kept out of the beef ranch count and the Texas hub. Founded in 2023 on Joel Salatin's model; pasture-raised and rotationally grazed with mob grazing; the farm says its animals are soy-free, GMO-free and not vaccinated. Sells corn- and soy-free regenerative eggs at $8/dozen (listed as members only), farm-share-only raw dairy (2% milk $10/gal, cream-on-top milk $16/gal, raw cream 16 oz $10, raw butter 1 lb $20), and goat milk soap generally $10/bar (one citrus bar on sale from $14). Farm share is currently at max capacity with a waitlist. Texas allows raw milk sales only on the farm, so dairy is farm pickup only. Visit hours on the contact page: Monday–Friday 9am–5pm and Saturday 10am–5pm. Phone (512) 221-3245, email TeamRarey@proton.me; also on X as @FAFOFarmsTX. Gaps/caveats: eggs and all dairy products were out of stock when checked; the about page still describes farm tours and educational programs as coming soon, though the homepage mentions tours, workshops and a CSA; a second contact email, crarey@fafofarmstx.com, appears on the contact form; no beef or chicken meat was listed for sale. Beyond Beef now has 2 farms (Grandad Farms + FAFO Farms TX). Totals unchanged: 104 ranches, 3 deals, 50 state hubs, 147 pages.
 
 - 📅 **Nov 18, 2026 PT nightly ship:** Added **Cox Family Farm** (Rocheport, MO; 10475 W Graham Rd, Rocheport, MO 65279; Boone County, near Columbia) — second Missouri listing. Family-operated farm run by Jordan and Ashley Cox and their eight children, who actively participate in daily operations. The family began farming in 2021 (Columbia Missourian, Aug. 8, 2024). Beef is humanely raised on open pastures and rotationally grazed; 100% grass-fed and grass-finished, never grain; no growth hormones or antibiotics (the site also says no mRNA and no GMOs); all vacuum sealed. The site describes regenerative practices and rotational grazing. Also raises goats, chickens, pigs and dairy cows, runs a farm store, welcomes farm visitors, and describes faith, family and farming as its values. Sells ribeye steaks $45 (2 boneless steaks/pkg, about 1 lb avg), ground beef $13/lb, 25 lb Ground Beef Package $300, Farm Sampler Box $375 (10 lb ground, about 10 lb roasts, about 5 lb steaks), 50 Pound Beef Package $675 (sold out when checked), Quarter Beef $1,450 (50 lb ground, about 30 lb roasts, about 20 lb steaks, vacuum sealed and frozen), Half Beef $2,750 (about 210 lb cut to your specs), Whole Beef $5,200 (about 420 lb cut to your specs). Half and whole are priced off hanging weight plus processing, and pounds vary by animal size. Farm pickup and the farm store in Rocheport; the site does not state shipping or delivery, so shipping is left empty. Phone (573) 424-8676, CoxFamilyFarmMO@gmail.com. Gaps/caveats: breed not stated (breeds empty); no certifications (the site's "organic farming techniques" is the farm's own wording and is not tagged); the 50 lb package was sold out at check; shipping and delivery are not stated. Missouri hub copy broadened (it previously described only Hiroshi Ranch). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Still open: listing pages render phone but not the email field. Remaining single-listing states: AL, AK, AZ, CT, DE, HI, LA, ME, MD, MA, MS, NV, NH, NJ, NC, ND, RI, SD, WV. Next leads: remaining single-listing states (single-farm, ranch-direct); Diamond H Ranch was noted earlier as a possible later Missouri listing. Total: 105 ranches, 3 deals, 50 state hubs, 148 pages.
+
+- 📅 **Nov 19, 2026 PT nightly ship:** Added **Nick's Organic Farm** (Adamstown, MD; farm pickup at 2733 Buckeystown Pike, Adamstown, MD 21710, near Buckeystown in the Frederick Valley; also pickup at 8565 Horseshoe Lane, Potomac, MD 20854) — second Maryland listing. Family farm started commercially by Nick Maravell in 1979; he bought the 175-acre farm in 1997. The farm says the land is in a Maryland Agricultural Land Preservation easement. Black Angus cattle the farm says are 100% grass-fed their entire lives, never fed grain, on pasture all day every day and never housed indoors, then fed the farm's hay and baleage, well water, and mineral salts mixed with sea kelp, with no hormones, GMOs, antibiotics, or animal products. Beef is sold frozen by advance order (forms in May and September) as whole, half, quarter, and eighth shares by hanging weight, plus ground, organs, bones, sausage, and jerky. The farm says beef is dry-aged to its specifications at a USDA-inspected family-run processor (not named). No shipping shown. Phone 301-983-2167, fax (301) 983-0290, nicksorganicfarm@comcast.net. The Fall 2026 order form (revised 8/26/26, still linked on the homepage) had a cutoff of October 8, 2026 and pickup on November 7-8, 2026, so that window was closed on this check. The form says the next order form goes out in May 2027 for mid-July 2027 pickup. Hanging-weight prices on the form's table: eighth $8.00/lb, quarter $7.50/lb, half $7.00/lb, whole $6.75/lb (the whole-beef checkbox on the same form prints $6.50/lb; both figures left as printed). Additional lean ground $10.75/lb, hanger steak $16/lb, jerky $13 per 4 oz. Gaps/caveats: the form's claims of Maryland Department of Agriculture organic certification, Real Organic Project certification, and a top Cornucopia Institute rating are the farm's own and were not independently checked. The same form says the beef is no longer certified organic after processing because Maryland has no certified organic beef processor; the farm still calls the beef all natural and 100% grass-fed. The about page says an 8-12 year rotation; the order form says 12 years. Orders are not taken by phone, text, or fax. Thanksgiving 2026 turkeys were sold out (waitlist open). Maryland hub copy broadened (it previously described only Roseda Farm). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Still open: listing pages render phone but not the email field. Remaining single-listing states: AL, AK, AZ, CT, DE, HI, LA, ME, MA, MS, NV, NH, NJ, NC, ND, RI, SD, WV. Total: 106 ranches, 3 deals, 50 state hubs, 149 pages.
 
 ## Next Steps / Future Enhancements
 
