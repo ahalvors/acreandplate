@@ -2081,7 +2081,7 @@ def main():
         "South Dakota Ranches",
         "south-dakota",
         lambda l: l.get('state') == 'SD',
-        "South Dakota ranches raising heritage breed Belted Galloway cattle on tallgrass prairie with 100% grassfed and grass-finished beef."
+        "Two South Dakota ranches selling beef direct: heritage breed Belted Galloway cattle grassfed and grass-finished on tallgrass prairie in Estelline, sold for pickup at the farm and in Brookings, Sioux Falls, and Watertown, and 100% grass-finished beef from a family farm near Platte that ships frozen across the lower 48."
     )
     
     build_hub_page(
