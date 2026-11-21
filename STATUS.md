@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 19, 2026  
+**Last Updated:** November 20, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 106
+- **Total Ranches:** 107
 - **Beyond Beef Farms:** 2 (kept out of the ranch count and state hubs)
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
@@ -35,7 +35,7 @@
 - **Missouri Ranches:** 2
 - **North Carolina Ranches:** 1
 - **North Dakota Ranches:** 1
-- **South Dakota Ranches:** 1
+- **South Dakota Ranches:** 2
 - **Texas Ranches:** 6
 - **South Carolina Ranches:** 2
 - **California Ranches:** 19
@@ -65,7 +65,7 @@
 - **Wisconsin Ranches:** 2
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 2
-- **Total Pages:** 149
+- **Total Pages:** 150
 
 ## Pages Built
 
@@ -119,7 +119,7 @@
 - ✅ Oklahoma hub (`/oklahoma/`) - 2 ranches
 - ✅ Oregon hub (`/oregon/`) - 3 ranches
 - ✅ Pennsylvania hub (`/pennsylvania/`) - 2 ranches
-- ✅ South Dakota hub (`/south-dakota/`) - 1 ranch
+- ✅ South Dakota hub (`/south-dakota/`) - 2 ranches
 - ✅ Tennessee hub (`/tennessee/`) - 1 ranch
 - ✅ Utah hub (`/utah/`) - 2 ranches
 - ✅ Virginia hub (`/virginia/`) - 2 ranches
@@ -218,6 +218,7 @@
 - ✅ Farmer's Provisions (Middletown, IN)
 - ✅ Cox Family Farm (Rocheport, MO)
 - ✅ Nick's Organic Farm (Adamstown, MD)
+- ✅ Dakota Bluffs (SD)
 
 ## Known Gaps & Notes
 
@@ -440,6 +441,8 @@ python3 build.py
 - 📅 **Nov 18, 2026 PT nightly ship:** Added **Cox Family Farm** (Rocheport, MO; 10475 W Graham Rd, Rocheport, MO 65279; Boone County, near Columbia) — second Missouri listing. Family-operated farm run by Jordan and Ashley Cox and their eight children, who actively participate in daily operations. The family began farming in 2021 (Columbia Missourian, Aug. 8, 2024). Beef is humanely raised on open pastures and rotationally grazed; 100% grass-fed and grass-finished, never grain; no growth hormones or antibiotics (the site also says no mRNA and no GMOs); all vacuum sealed. The site describes regenerative practices and rotational grazing. Also raises goats, chickens, pigs and dairy cows, runs a farm store, welcomes farm visitors, and describes faith, family and farming as its values. Sells ribeye steaks $45 (2 boneless steaks/pkg, about 1 lb avg), ground beef $13/lb, 25 lb Ground Beef Package $300, Farm Sampler Box $375 (10 lb ground, about 10 lb roasts, about 5 lb steaks), 50 Pound Beef Package $675 (sold out when checked), Quarter Beef $1,450 (50 lb ground, about 30 lb roasts, about 20 lb steaks, vacuum sealed and frozen), Half Beef $2,750 (about 210 lb cut to your specs), Whole Beef $5,200 (about 420 lb cut to your specs). Half and whole are priced off hanging weight plus processing, and pounds vary by animal size. Farm pickup and the farm store in Rocheport; the site does not state shipping or delivery, so shipping is left empty. Phone (573) 424-8676, CoxFamilyFarmMO@gmail.com. Gaps/caveats: breed not stated (breeds empty); no certifications (the site's "organic farming techniques" is the farm's own wording and is not tagged); the 50 lb package was sold out at check; shipping and delivery are not stated. Missouri hub copy broadened (it previously described only Hiroshi Ranch). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Still open: listing pages render phone but not the email field. Remaining single-listing states: AL, AK, AZ, CT, DE, HI, LA, ME, MD, MA, MS, NV, NH, NJ, NC, ND, RI, SD, WV. Next leads: remaining single-listing states (single-farm, ranch-direct); Diamond H Ranch was noted earlier as a possible later Missouri listing. Total: 105 ranches, 3 deals, 50 state hubs, 148 pages.
 
 - 📅 **Nov 19, 2026 PT nightly ship:** Added **Nick's Organic Farm** (Adamstown, MD; farm pickup at 2733 Buckeystown Pike, Adamstown, MD 21710, near Buckeystown in the Frederick Valley; also pickup at 8565 Horseshoe Lane, Potomac, MD 20854) — second Maryland listing. Family farm started commercially by Nick Maravell in 1979; he bought the 175-acre farm in 1997. The farm says the land is in a Maryland Agricultural Land Preservation easement. Black Angus cattle the farm says are 100% grass-fed their entire lives, never fed grain, on pasture all day every day and never housed indoors, then fed the farm's hay and baleage, well water, and mineral salts mixed with sea kelp, with no hormones, GMOs, antibiotics, or animal products. Beef is sold frozen by advance order (forms in May and September) as whole, half, quarter, and eighth shares by hanging weight, plus ground, organs, bones, sausage, and jerky. The farm says beef is dry-aged to its specifications at a USDA-inspected family-run processor (not named). No shipping shown. Phone 301-983-2167, fax (301) 983-0290, nicksorganicfarm@comcast.net. The Fall 2026 order form (revised 8/26/26, still linked on the homepage) had a cutoff of October 8, 2026 and pickup on November 7-8, 2026, so that window was closed on this check. The form says the next order form goes out in May 2027 for mid-July 2027 pickup. Hanging-weight prices on the form's table: eighth $8.00/lb, quarter $7.50/lb, half $7.00/lb, whole $6.75/lb (the whole-beef checkbox on the same form prints $6.50/lb; both figures left as printed). Additional lean ground $10.75/lb, hanger steak $16/lb, jerky $13 per 4 oz. Gaps/caveats: the form's claims of Maryland Department of Agriculture organic certification, Real Organic Project certification, and a top Cornucopia Institute rating are the farm's own and were not independently checked. The same form says the beef is no longer certified organic after processing because Maryland has no certified organic beef processor; the farm still calls the beef all natural and 100% grass-fed. The about page says an 8-12 year rotation; the order form says 12 years. Orders are not taken by phone, text, or fax. Thanksgiving 2026 turkeys were sold out (waitlist open). Maryland hub copy broadened (it previously described only Roseda Farm). Re-verified all 3 deals unchanged and in stock (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Still open: listing pages render phone but not the email field. Remaining single-listing states: AL, AK, AZ, CT, DE, HI, LA, ME, MA, MS, NV, NH, NJ, NC, ND, RI, SD, WV. Total: 106 ranches, 3 deals, 50 state hubs, 149 pages.
+
+- 📅 **Nov 20, 2026 PT nightly ship:** Added **Dakota Bluffs** (Platte, SD) — second South Dakota listing. Doug and Cindy Lucas's family farm near Platte, on prairie grassland at the foot of the Bijou Hills a few miles from the Missouri River. They moved to the farm in 2016 and say it is the original homestead, in the family for five generations. Beef is 100% grass-finished and never grain-fed (pasture all summer, hay over winter, finished back on spring grass), with regenerative grazing, low-stress handling, no feedlots, no unnecessary antibiotics, and no synthetic hormones, per the ranch. Sold direct and shipped from the farm. Buy One, Give One: each beef sold helps a school overseas buy a cow from a local farmer, from Cindy's years teaching in West Africa. Sells bulk shares by hanging weight (eighth and quarter $9.25/lb, half and whole $9/lb; deposits $100/$200/$300/$600; about 40% ground, the rest steaks, roasts, and ribs; dry-aged at least 10-14 days), Pure Pasture ground bundles in 1 lb packs (10 lb $110 + $19.99 shipping, 20 lb $215, 45 lb $475, 90 lb $950), Taste of the Prairie 20 lb sampler $380 (first-order Welcome Pack $317), The Mini sampler $152, and Meals that Matter pantry donation packs ($160 for 20 lb, $320 for 40 lb). Ships frozen anywhere in the lower 48 (not Alaska or Hawaii). Shares and most bundles ship free; the 10 lb ground bundle adds $19.99. Whole-beef buyers who pick up at the ranch save $1,000. Shares are harvested in the fall (usually September to November). Gaps/caveats: no phone or email on the ranch's own site (third-party directories list some; not used); breed and certifications not stated (breeds left empty); bulk share pages say "Deposits opening soon!", so share deposits may not be open yet; processor described only as a family-owned USDA processor, not named; share prices are per lb of hanging weight and the balance is invoiced before shipping; packaged meat is typically about 60% of hanging weight. South Dakota hub copy broadened (it previously described only Svec Farm). No new deals added; the 3 existing deals were left as last verified on 2026-11-19 (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Remaining single-listing states: AL, AK, AZ, CT, DE, HI, LA, ME, MA, MS, NV, NH, NJ, NC, ND, RI, WV. Total: 107 ranches, 3 deals, 50 state hubs, 150 pages.
 
 ## Next Steps / Future Enhancements
 
