@@ -2046,7 +2046,7 @@ def main():
         "North Carolina Ranches",
         "north-carolina",
         lambda l: l.get('state') == 'NC',
-        "North Carolina ranches raising pasture-raised Hereford & Angus beef in the Appalachian Mountains with dry-aging and nationwide shipping."
+        "Two North Carolina ranches selling beef direct: pasture-raised Hereford and Angus, dry-aged on a fifth-generation farm in Vilas and shipped frozen nationwide, and grass-fed, grass-finished beef from a family ranch in Tobaccoville, sold by the share with free North Carolina delivery and a shipped quarter to the lower 48."
     )
     
     build_hub_page(
