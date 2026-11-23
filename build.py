@@ -2116,7 +2116,7 @@ def main():
         "Mississippi Ranches",
         "mississippi",
         lambda l: l.get('state') == 'MS',
-        "Mississippi ranches raising 100% grass-fed and grass-finished beef with on-farm USDA processing and regenerative grazing practices. Fifth-generation family farms with nationwide shipping."
+        "Two Mississippi ranches selling beef direct: 100% grass-fed and grass-finished beef from a fifth-generation family farm in Como, with on-farm USDA processing and nationwide frozen shipping, and 100% grass-finished beef from Etta Hills Farm in Etta, on pasture from birth through the last day, with farm pickup, free local delivery near Etta, and continental frozen shipping the site still marks as coming soon."
     )
     
     build_hub_page(

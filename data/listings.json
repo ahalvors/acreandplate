@@ -2471,6 +2471,29 @@
       "description": "Rivas Ranch is the Rivas family's ranch in Tobaccoville, North Carolina, run by April Rivas, a food safety educator and inspector who cooked professionally before raising cattle. They raise grass-fed, grass-finished beef, plus lamb, goat, pork, and chicken on pasture, and sell beef by the share, in set-price boxes, and as one shipped quarter.",
       "note": "Checked 2026-11-21 on rivasranch.com, https://rivasranch.com/pages/shop-beef, and https://rivasranch.com/pages/contact. Beef by the pound of hanging weight: quarter $9.25/lb (about 150-175 lb hanging, about $1,390-$1,620, $500 deposit), half $8.75/lb (about 300-325 lb hanging, about $2,630-$2,840, $950 deposit), whole $8.25/lb (about 600-650 lb hanging, about $4,950-$5,360, $1,200 deposit). Deposits are not refundable and come off the final invoice. The balance is invoiced from the processor's hanging weight, plus a 2% NC food tax, and is due within 3 days. Take-home weight is about 55-65% of hanging weight (a quarter is about 80-115 lb packaged). Set-Price Box: quarter $1,399 (at least 75 lb) and half $2,699 (at least 150 lb); pay in full, or half now and half at processing. Shipped Quarter: 70 lb for $1,500 with shipping included to the lower 48 and DC; shipping is not refundable. Ground beef boxes: 10 lb $90 and 40 lb $340. Next beef processing date shown: Dec 15, 2026, with 1 quarter share left on that date. Beef is ready about 3 weeks after processing. Address: 6981 Doral Dr, Tobaccoville, NC 27050. Text the ranch: 336-747-3070. Email: hello@rivasranch.com. The homepage lists freezer space as about 5 cu ft for a quarter, 10 for a half, and 20 for a whole; the shop-beef page says about 3-4 cu ft for a by-the-pound quarter, about 3 cu ft for a Set-Price quarter, about 8-10 for a half, and a full-size chest freezer or two for a whole. The homepage says Greensboro Curb Market; the shop-beef page says Greensboro Farmers Curb Market. Pork also ships frozen, with shipping billed when it ships. Skincare and pet treats ship within 3 business days. Halal is available for beef, lamb, goat, and chicken; beef bacon and beef sausage are not available halal. Breed is not stated. No certifications are claimed. The processor is not named.",
       "last_checked": "2026-11-21"
+    },
+    {
+      "slug": "etta-hills-farm",
+      "name": "Etta Hills Farm",
+      "url": "https://ettahillsfarm.com/",
+      "state": "MS",
+      "city": "Etta",
+      "genetics": "Breed not stated. The farm says the beef is 100% grass-finished, on pasture from birth through the last day, with rotational grazing and no hormones, antibiotics, or grain finishing. The farm says every protein is sent to an independent lab for phytonutrient-density testing",
+      "breeds": [],
+      "products": [
+        "steaks",
+        "roasts",
+        "ground",
+        "beef shares (quarter, half, and whole)",
+        "pastured pork, poultry, and grass-finished lamb"
+      ],
+      "shipping": "Farm pickup by appointment and free local delivery near Etta (Tue/Fri routes); continental-US frozen shipping (free over $399) is described on the site but marked 'coming soon' — confirm with the farm.",
+      "phone": "(662) 351-3882",
+      "email": "chris@ettahillsfarm.com",
+      "featured": false,
+      "description": "Etta Hills Farm is in Etta, Mississippi, about 20 minutes south of Oxford. Established in 2021 on about 800 acres of degraded north Mississippi farmland the farm says it has taken back and regenerated. Co-founder Dr. Allen Williams is a sixth-generation farmer and Ph.D. animal scientist who co-founded Understanding Ag, Soil Health Academy, and Regenified. Chris Williams is co-owner and director of operations. The beef is 100% grass-finished and kept on pasture from birth through the last day. The farm also raises pastured pork, poultry, eggs, and grass-finished lamb.",
+      "note": "Public prices seen 2026-11-22: ribeye steak $34, NY strip $30, ground beef $12 (1 lb), flat iron $11, beef patties $15.50, brisket $145. Beef shares are fixed total prices, reserved by a deposit online with the balance due before pickup or delivery: quarter share $1,495 (about 100-120 lb packaged, standardized, not customizable), half share $2,895 (about 200-240 lb, custom cut), whole $5,595 (about 400-480 lb, custom cut). The deposit amount is not stated. Address: 90 Co Rd 253, Etta, MS 38627. Hours: Mon-Fri 9-4, Sat 8-1. Phone (662) 351-3882. Email chris@ettahillsfarm.com; hello@ettahillsfarm.com also appears on product pages. The farm says bare soil is down from 40%+ to under 5% and that 160+ plant species have been reintroduced; those are the farm's figures. Breed is not stated. No certifications are stated. Farm pickup is by appointment, and local delivery near Etta is free on Tuesday and Friday routes. Product pages say free shipping over $399, and the shipping page describes frozen dry-ice FedEx shipping to the continental US (not AK/HI), but the same shipping page also says 'Shipping Coming Soon' — confirm with the farm. Checked 2026-11-22.",
+      "last_checked": "2026-11-22"
     }
   ]
 }
