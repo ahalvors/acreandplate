@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 21, 2026  
+**Last Updated:** November 22, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 108
+- **Total Ranches:** 109
 - **Beyond Beef Farms:** 2 (kept out of the ranch count and state hubs)
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
@@ -44,7 +44,7 @@
 - **Delaware Ranches:** 1
 - **Florida Ranches:** 2
 - **Idaho Ranches:** 2
-- **Mississippi Ranches:** 1
+- **Mississippi Ranches:** 2
 - **Nevada Ranches:** 1
 - **New Hampshire Ranches:** 1
 - **New Jersey Ranches:** 1
@@ -65,7 +65,7 @@
 - **Wisconsin Ranches:** 2
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 2
-- **Total Pages:** 151
+- **Total Pages:** 198 public URLs in `sitemap.xml`
 
 ## Pages Built
 
@@ -103,7 +103,7 @@
 - ✅ Louisiana hub (`/louisiana/`) - 1 ranch
 - ✅ Maine hub (`/maine/`) - 1 ranch
 - ✅ Maryland hub (`/maryland/`) - 2 ranches
-- ✅ Mississippi hub (`/mississippi/`) - 1 ranch
+- ✅ Mississippi hub (`/mississippi/`) - 2 ranches
 - ✅ Missouri hub (`/missouri/`) - 2 ranches
 - ✅ Nevada hub (`/nevada/`) - 1 ranch
 - ✅ Texas hub (`/texas/`) - 6 ranches
@@ -220,6 +220,7 @@
 - ✅ Nick's Organic Farm (Adamstown, MD)
 - ✅ Dakota Bluffs (SD)
 - ✅ Rivas Ranch (Tobaccoville, NC)
+- ✅ Etta Hills Farm (Etta, MS)
 
 ## Known Gaps & Notes
 
@@ -446,6 +447,8 @@ python3 build.py
 - 📅 **Nov 20, 2026 PT nightly ship:** Added **Dakota Bluffs** (Platte, SD) — second South Dakota listing. Doug and Cindy Lucas's family farm near Platte, on prairie grassland at the foot of the Bijou Hills a few miles from the Missouri River. They moved to the farm in 2016 and say it is the original homestead, in the family for five generations. Beef is 100% grass-finished and never grain-fed (pasture all summer, hay over winter, finished back on spring grass), with regenerative grazing, low-stress handling, no feedlots, no unnecessary antibiotics, and no synthetic hormones, per the ranch. Sold direct and shipped from the farm. Buy One, Give One: each beef sold helps a school overseas buy a cow from a local farmer, from Cindy's years teaching in West Africa. Sells bulk shares by hanging weight (eighth and quarter $9.25/lb, half and whole $9/lb; deposits $100/$200/$300/$600; about 40% ground, the rest steaks, roasts, and ribs; dry-aged at least 10-14 days), Pure Pasture ground bundles in 1 lb packs (10 lb $110 + $19.99 shipping, 20 lb $215, 45 lb $475, 90 lb $950), Taste of the Prairie 20 lb sampler $380 (first-order Welcome Pack $317), The Mini sampler $152, and Meals that Matter pantry donation packs ($160 for 20 lb, $320 for 40 lb). Ships frozen anywhere in the lower 48 (not Alaska or Hawaii). Shares and most bundles ship free; the 10 lb ground bundle adds $19.99. Whole-beef buyers who pick up at the ranch save $1,000. Shares are harvested in the fall (usually September to November). Gaps/caveats: no phone or email on the ranch's own site (third-party directories list some; not used); breed and certifications not stated (breeds left empty); bulk share pages say "Deposits opening soon!", so share deposits may not be open yet; processor described only as a family-owned USDA processor, not named; share prices are per lb of hanging weight and the balance is invoiced before shipping; packaged meat is typically about 60% of hanging weight. South Dakota hub copy broadened (it previously described only Svec Farm). No new deals added; the 3 existing deals were left as last verified on 2026-11-19 (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Remaining single-listing states: AL, AK, AZ, CT, DE, HI, LA, ME, MA, MS, NV, NH, NJ, NC, ND, RI, WV. Total: 107 ranches, 3 deals, 50 state hubs, 150 pages.
 
 - 📅 **Nov 21, 2026 PT nightly ship:** Added **Rivas Ranch** (Tobaccoville, NC; 6981 Doral Dr, Tobaccoville, NC 27050) — second North Carolina listing. Family ranch run by the Rivas family; April Rivas is a food safety educator and inspector and a former professional cook. Beef is grass-fed and grass-finished, with no grain lot at the end, per the ranch. Every share is from one animal and never co-mingled, processed one animal at a time at a local, family-owned USDA-inspected plant (not named). Also raises lamb, goat, pork, and chicken on pasture; halal processing is available on request for beef, lamb, goat, and chicken (beef bacon and beef sausage are not available halal); tallow skincare is made on the ranch; Two Barking Dogs freeze-dried pet snacks. Sells quarter, half, and whole beef by hanging weight ($9.25 / $8.75 / $8.25 per lb; about 150-175 / 300-325 / 600-650 lb hanging; about $1,390-$1,620 / $2,630-$2,840 / $4,950-$5,360; deposits $500 / $950 / $1,200, not refundable), Set-Price Boxes (quarter $1,399, at least 75 lb; half $2,699, at least 150 lb; Family, Grill, or Rancher + Chef), a Shipped Quarter (70 lb for $1,500 including shipping to the lower 48 and DC), and ground beef boxes (10 lb $90, 40 lb $340). By-the-pound balance is invoiced from hanging weight plus 2% NC food tax, due within 3 days. Only the Shipped Quarter ships; by-the-pound shares are pickup or delivery. Free door delivery anywhere in North Carolina on the monthly run (third week of the month). Free pickup at the farm by appointment (5-7 PM daily), the Greensboro Farmers Curb Market (homepage: Greensboro Curb Market), or a Ranch Route stop (the route also stops in parts of VA, MD, PA, NY, SC, and GA). Text the ranch: 336-747-3070. Email: hello@rivasranch.com. Next beef date shown: Dec 15, 2026, with 1 quarter share left. North Carolina hub copy rewritten so it covers Shipley Farms (Vilas; pasture-raised Hereford and Angus, dry-aged, ships nationwide) and Rivas Ranch, instead of Shipley alone. Re-verified all 3 deals unchanged and still on sale: Long Hill 15 lb ground $180 (regular $195), Mossyrock WAGYU BBQ BOX $395 (regular $475), Oreganic Crockpot Comfort Box $199 (regular $229); verified_at set to 2026-11-21. Gaps/caveats: breed not stated (breeds left empty); no certifications claimed; processor not named; the number is labeled "Text the ranch" on the contact page, so the listing marks it as text rather than a confirmed voice line; freezer-space figures differ between the homepage (about 5 / 10 / 20 cu ft) and the shop-beef page (about 3-4 cu ft for a by-the-pound quarter, about 8-10 for a half); the Dec 15 share count will change; listing pages still render phone but not the email field. Remaining single-listing states: AL, AK, AZ, CT, DE, HI, LA, ME, MA, MS, NV, NH, NJ, ND, RI, WV. Total: 108 ranches, 3 deals, 50 state hubs, 151 pages.
+
+- 📅 **Nov 22, 2026 PT nightly ship:** Added **Etta Hills Farm** (Etta, MS; 90 Co Rd 253, Etta, MS 38627, about 20 minutes south of Oxford) — second Mississippi listing, next to Home Place Pastures in Como. Established in 2021 on about 800 acres of degraded north Mississippi farmland the farm says it has taken back and regenerated. Co-founder Dr. Allen Williams is a sixth-generation farmer, Ph.D. animal scientist, and regenerative agriculture leader who co-founded Understanding Ag, Soil Health Academy, and Regenified. Chris Williams is co-owner and director of operations. Beef is 100% grass-finished, on pasture from birth through the last day, with rotational grazing and no hormones, antibiotics, or grain finishing, per the farm. The farm says every protein is sent to an independent lab for phytonutrient-density testing, and that bare soil is down from 40%+ to under 5% with 160+ plant species reintroduced (the farm's figures). Also raises pastured pork, poultry, eggs, and grass-finished lamb. Public prices: ribeye steak $34, NY strip $30, ground beef $12 (1 lb), flat iron $11, beef patties $15.50, brisket $145. Beef shares are fixed totals, reserved by deposit online with the balance due before pickup or delivery: quarter $1,495 (about 100-120 lb packaged, standardized, not customizable), half $2,895 (about 200-240 lb, custom cut), whole $5,595 (about 400-480 lb, custom cut). Farm pickup by appointment; free local delivery near Etta on Tuesday and Friday routes. Phone (662) 351-3882. Email chris@ettahillsfarm.com; hello@ettahillsfarm.com also appears on product pages. Hours Mon-Fri 9-4, Sat 8-1. Mississippi hub copy now covers both Como (fifth-generation, on-farm USDA processing, nationwide frozen shipping) and Etta. `data/deals.json` was not changed; the 3 deals stay as last verified on 2026-11-21 (Long Hill 15 lb ground $180, regular $195; Mossyrock WAGYU BBQ BOX $395, regular $475; Oreganic Crockpot Comfort Box $199, regular $229). Gaps/caveats: breed not stated (breeds left empty); no certifications stated; the deposit amount is not stated; cut weights are not stated except ground beef at 1 lb; product pages say free shipping over $399 and the shipping page describes frozen dry-ice FedEx to the continental US (not AK/HI), but that same page also says "Shipping Coming Soon" — confirm with the farm; listing pages still render phone but not the email field. Remaining single-listing states: AL, AK, AZ, CT, DE, HI, LA, ME, MA, NV, NH, NJ, ND, RI, WV. Page count: `build.py` prints 152 (109 listings + 25 news stories + 18). The sitemap this build writes lists 198 public URLs, up from 197 (`featured/thanks` is generated and left out of the sitemap). Total: 109 ranches, 3 deals, 50 state hubs, 198 public pages.
 
 ## Next Steps / Future Enhancements
 
