@@ -2193,7 +2193,7 @@ def main():
         "Alabama Ranches",
         "alabama",
         lambda l: l.get('state') == 'AL',
-        "Alabama ranches selling dry-aged beef direct from the family ranch, with free Saturday pickup at the Montgomery Curb Market and frozen shipping to the contiguous U.S."
+        "Two Alabama ranches selling beef direct: dry-aged, grass-fed grain-finished beef from Diamond D Ranch in Ramer, with free Saturday pickup at the Montgomery Curb Market and frozen shipping to the contiguous U.S., and 100% grass-fed, grass-finished beef from Purely Pastured Farm in Foley, with farm pickup by appointment in Baldwin County, home delivery within 22 miles for Subscribe & Save customers, and no shipping."
     )
     
     build_hub_page(
