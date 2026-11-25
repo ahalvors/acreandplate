@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 23, 2026  
+**Last Updated:** November 24, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 110
+- **Total Ranches:** 111
 - **Beyond Beef Farms:** 2 (kept out of the ranch count and state hubs)
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
@@ -61,11 +61,11 @@
 - **Vermont Ranches:** 2
 - **Virginia Ranches:** 2
 - **Washington Ranches:** 2
-- **West Virginia Ranches:** 1
+- **West Virginia Ranches:** 2
 - **Wisconsin Ranches:** 2
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 2
-- **Total Pages:** 199 public URLs in `sitemap.xml`
+- **Total Pages:** 200 public URLs in `sitemap.xml`
 
 ## Pages Built
 
@@ -124,7 +124,7 @@
 - ✅ Utah hub (`/utah/`) - 2 ranches
 - ✅ Virginia hub (`/virginia/`) - 2 ranches
 - ✅ Washington hub (`/washington/`) - 2 ranches
-- ✅ West Virginia hub (`/west-virginia/`) - 1 ranch
+- ✅ West Virginia hub (`/west-virginia/`) - 2 ranches
 - ✅ Wisconsin hub (`/wisconsin/`) - 1 ranch
 - ✅ Wyoming hub (`/wyoming/`) - 3 ranches
 - ✅ Ohio hub (`/ohio/`) - 1 ranch
@@ -222,6 +222,7 @@
 - ✅ Rivas Ranch (Tobaccoville, NC)
 - ✅ Etta Hills Farm (Etta, MS)
 - ✅ Purely Pastured Farm (Foley, AL)
+- ✅ Graystone Acres (Mannington, WV)
 
 ## Known Gaps & Notes
 
@@ -452,6 +453,8 @@ python3 build.py
 - 📅 **Nov 22, 2026 PT nightly ship:** Added **Etta Hills Farm** (Etta, MS; 90 Co Rd 253, Etta, MS 38627, about 20 minutes south of Oxford) — second Mississippi listing, next to Home Place Pastures in Como. Established in 2021 on about 800 acres of degraded north Mississippi farmland the farm says it has taken back and regenerated. Co-founder Dr. Allen Williams is a sixth-generation farmer, Ph.D. animal scientist, and regenerative agriculture leader who co-founded Understanding Ag, Soil Health Academy, and Regenified. Chris Williams is co-owner and director of operations. Beef is 100% grass-finished, on pasture from birth through the last day, with rotational grazing and no hormones, antibiotics, or grain finishing, per the farm. The farm says every protein is sent to an independent lab for phytonutrient-density testing, and that bare soil is down from 40%+ to under 5% with 160+ plant species reintroduced (the farm's figures). Also raises pastured pork, poultry, eggs, and grass-finished lamb. Public prices: ribeye steak $34, NY strip $30, ground beef $12 (1 lb), flat iron $11, beef patties $15.50, brisket $145. Beef shares are fixed totals, reserved by deposit online with the balance due before pickup or delivery: quarter $1,495 (about 100-120 lb packaged, standardized, not customizable), half $2,895 (about 200-240 lb, custom cut), whole $5,595 (about 400-480 lb, custom cut). Farm pickup by appointment; free local delivery near Etta on Tuesday and Friday routes. Phone (662) 351-3882. Email chris@ettahillsfarm.com; hello@ettahillsfarm.com also appears on product pages. Hours Mon-Fri 9-4, Sat 8-1. Mississippi hub copy now covers both Como (fifth-generation, on-farm USDA processing, nationwide frozen shipping) and Etta. `data/deals.json` was not changed; the 3 deals stay as last verified on 2026-11-21 (Long Hill 15 lb ground $180, regular $195; Mossyrock WAGYU BBQ BOX $395, regular $475; Oreganic Crockpot Comfort Box $199, regular $229). Gaps/caveats: breed not stated (breeds left empty); no certifications stated; the deposit amount is not stated; cut weights are not stated except ground beef at 1 lb; product pages say free shipping over $399 and the shipping page describes frozen dry-ice FedEx to the continental US (not AK/HI), but that same page also says "Shipping Coming Soon" — confirm with the farm; listing pages still render phone but not the email field. Remaining single-listing states: AL, AK, AZ, CT, DE, HI, LA, ME, MA, NV, NH, NJ, ND, RI, WV. Page count: `build.py` prints 152 (109 listings + 25 news stories + 18). The sitemap this build writes lists 198 public URLs, up from 197 (`featured/thanks` is generated and left out of the sitemap). Total: 109 ranches, 3 deals, 50 state hubs, 198 public pages.
 
 - 📅 **Nov 23, 2026 PT nightly ship:** Added **Purely Pastured Farm** (Foley, AL; 14190 Joe Norris Lane, Foley, AL 36535, Baldwin County) — second Alabama listing, next to Diamond D Ranch in Ramer. Family farm of Robert (Rob) and Maegen Benford and their three boys. The farm says its beef is 100% grass-fed and grass-finished, rotationally grazed, and never given antibiotics, hormones, mRNA, or other vaccinations. Also raises pastured pork, chicken, and eggs. Cuts sold by the pound: filet steak (2") $46.50/lb, chuck eye steak $19/lb, picanha $18/lb, chuck roast $13.25/lb, brisket $12.75/lb. Steak & Burger Box small (6-8 lb) $125 (regular $150), large (12-14 lb) $229 (regular $250). Quarter, half, and whole shares are reserved by deposit for January processing. A 1/4 share is a $375 deposit at $7.75/lb hanging weight (the farm estimates about 192 lb hanging, about 130-145 lb take-home, about $1,488 for the beef plus about $225 processing paid to the processor). A 3.5% fee applies to credit cards. No shipping. Farm pickup by appointment in Baldwin County plus select local pickup locations; home delivery within a 22-mile radius for Subscribe & Save customers ($200 minimum, first Monday monthly). The farm says it serves South Alabama and Northwest Florida (Mobile, Pensacola, Fairhope, Daphne, Gulf Shores, Orange Beach area). Shares are farm pickup. Phone 251-233-9407. Email purelypasturedfarm@gmail.com. Alabama hub copy now covers both Ramer (Diamond D Ranch: dry-aged, grass-fed grain-finished, Montgomery Curb Market pickup, frozen shipping to the contiguous U.S.) and Foley. Re-verified all 3 deals unchanged and in stock: Long Hill 15 lb ground $180 (regular $195), Mossyrock WAGYU BBQ BOX $395 (regular $475), Oreganic Crockpot Comfort Box $199 (regular $229); verified_at set to 2026-11-23. No other deal fields changed. Gaps/caveats: breed not stated (breeds left empty); no certifications stated; half and whole deposit amounts are not stated; select local pickup locations are not named; no shipping; listing pages still render phone but not the email field. A.W. Cox Farm (Centreville/Brent, AL; Hereford, grass-finished) was skipped tonight because its site would not load. Remaining single-listing states (multi-state labels ignored): AK, AZ, CT, DE, HI, ID, LA, ME, MA, NV, NH, NJ, ND, RI, WV. Page count: `build.py` prints 153 (110 listings + 25 news stories + 18). The sitemap this build writes lists 199 public URLs, up from 198 (`featured/thanks` is generated and left out of the sitemap). Total: 110 ranches, 3 deals, 50 state hubs, 199 public pages.
+
+- 📅 **Nov 24, 2026 nightly ship:** Added **Graystone Acres** (Mannington/Plum Run, WV; 487 Plum Run Rd, Mannington, WV 26582) — second West Virginia listing. Veteran- and family-owned beef farm established in 1968 by Tom Fluharty, in an area his family has farmed for ten generations; grandson David Fluharty took over operations in 2020 after leaving the Army, and David and Hope Fluharty run it today. The farm says its cattle are 100% grass-fed and grass-finished, pasture-raised, and rotationally grazed in north-central West Virginia. Also raises pasture-raised chicken. Sells individual cuts, ground beef (80/20), subscription and mix boxes, and bulk beef (quarter, half, and whole, by deposit). No shipping stated. Pickup one Saturday a month at set pickup locations and home delivery one Saturday a month to Fairmont and Morgantown (dates shown in the online store). Bulk quarter, half, and whole orders are picked up from the butcher. Email dave.fluharty@graystoneacres.com; no public phone. Sells through a Barn2Door online store (https://app.barn2door.com/graystoneacres/all); store prices could not be read, so none are listed. Mailing address 487 Plum Run Rd, Mannington, WV 26582; the farm is a private residence and does not allow visits. Breed not stated. No certifications stated; the farm says it takes part in West Virginia Grown, Homegrown by Heroes, and Farmer Veteran Coalition (farm's own statement). West Virginia hub copy still covers both Romney (Triple E Farms: on-farm store, frozen shipping to the lower 48) and now Mannington/Plum Run. Re-verified all 3 deals unchanged and in stock: Long Hill 15 lb ground $180 (regular $195), Mossyrock WAGYU BBQ BOX $395 (regular $475), Oreganic Crockpot Comfort Box $199 (regular $229); verified_at set to 2026-11-24. Gaps/caveats: breed not stated (breeds left empty); no certifications claimed; no public phone; store prices (Barn2Door, JS-only) were not readable; no shipping stated; bulk deposit amounts are on the store but were not read. Remaining single-listing states (multi-state labels ignored): AK, AZ, CT, DE, HI, ID, LA, ME, MA, NV, NH, NJ, ND, RI. Page count: `build.py` prints 154 (111 listings + 25 news stories + 18). The sitemap this build writes lists 200 public URLs, up from 199 (`featured/thanks` is generated and left out of the sitemap). Total: 111 ranches, 3 deals, 50 state hubs, 200 public pages.
 
 ## Next Steps / Future Enhancements
 
