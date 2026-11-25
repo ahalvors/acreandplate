@@ -61,14 +61,50 @@ def write_page(path: str, content: str):
             section = '/guides/wagyu-vs-akaushi/' if prefix == '/guides/' else prefix
     if section:
         content = content.replace(f'<li><a href="{section}">', f'<li><a href="{section}" aria-current="page">', 1)
+    content = content.replace('__PAGE_URL__', 'https://acreandplate.com' + route)
     with open(path, 'w') as f:
         f.write(content)
     print(f"✓ {path}")
+
+DEFAULT_OG_IMAGE = 'https://acreandplate.com/assets/og-news-default.png'
+
+def default_social_tags(title: str, meta_description: str, existing: str = "") -> str:
+    """Site-wide Open Graph + Twitter card defaults; skips anything a page already sets.
+    __PAGE_URL__ is filled in by write_page() with the page's canonical URL."""
+    import html as _html
+    def attr(v):
+        return _html.escape(_html.unescape(v), quote=True)
+    full_title = attr(f"{title} | Acre & Plate")
+    desc = attr(meta_description)
+    tags = []
+    if 'rel="canonical"' not in existing:
+        tags.append('<link rel="canonical" href="__PAGE_URL__">')
+    if 'property="og:title"' not in existing:
+        tags += [
+            '<meta property="og:type" content="website">',
+            '<meta property="og:site_name" content="Acre &amp; Plate">',
+            f'<meta property="og:title" content="{full_title}">',
+            f'<meta property="og:description" content="{desc}">',
+            '<meta property="og:url" content="__PAGE_URL__">',
+            f'<meta property="og:image" content="{DEFAULT_OG_IMAGE}">',
+            '<meta property="og:image:width" content="1200">',
+            '<meta property="og:image:height" content="630">',
+            '<meta property="og:image:alt" content="Acre &amp; Plate: ranch-direct beef from named herds">',
+        ]
+    if 'name="twitter:card"' not in existing:
+        tags += [
+            '<meta name="twitter:card" content="summary_large_image">',
+            f'<meta name="twitter:title" content="{full_title}">',
+            f'<meta name="twitter:description" content="{desc}">',
+            f'<meta name="twitter:image" content="{DEFAULT_OG_IMAGE}">',
+        ]
+    return ("\n    " + "\n    ".join(tags)) if tags else ""
 
 def base_template(title: str, content: str, meta_description: str = "", og_tags: str = "") -> str:
     """Base HTML template for all pages"""
     if not meta_description:
         meta_description = "Find local, sustainable, ranch-direct beef—Fullblood Wagyu, Akaushi, Japanese Black, and rare heritage breeds from ranches you can trace."
+    og_tags = og_tags + default_social_tags(title, meta_description, og_tags)
     
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -119,7 +155,9 @@ def base_template(title: str, content: str, meta_description: str = "", og_tags:
                 <a href="/beyond-beef/">Beyond Beef</a> · 
                 <a href="https://acreandplate.printful.me/" target="_blank" rel="noopener noreferrer">Shop</a> · 
                 <a href="mailto:hello@acreandplate.com">Contact</a> · 
-                <a href="https://www.instagram.com/acreandplate/" target="_blank" rel="noopener">Instagram</a>
+                <a href="https://www.instagram.com/acreandplate/" target="_blank" rel="noopener">Instagram</a> · 
+                <a href="/privacy/">Privacy</a> · 
+                <a href="/terms/">Terms</a>
             </p>
         </div>
     </footer>
@@ -1739,6 +1777,54 @@ def build_about():
     html = base_template("About", content, "How Acre & Plate works and what makes it different from grocery store 'Wagyu' marketing.")
     write_page('about/index.html', html)
 
+def legal_page(slug: str, title: str, description: str, sections) -> None:
+    """Plain legal page (privacy / terms) in the site's about-page layout"""
+    body = "\n".join(
+        f"                <h2>{h}</h2>\n" + "\n".join(f"                <p>{p}</p>" for p in ps)
+        for h, ps in sections)
+    content = f"""
+    <section class="page-header">
+        <div class="container">
+            <h1>{title}</h1>
+        </div>
+    </section>
+    
+    <section class="about-content">
+        <div class="container">
+            <article class="about">
+                <p class="disclaimer">Last updated November 24, 2026</p>
+{body}
+            </article>
+        </div>
+    </section>
+    """
+    write_page(f'{slug}/index.html', base_template(title, content, description))
+
+def build_legal_pages():
+    """Build /privacy/ and /terms/"""
+    hello = '<a href="mailto:hello@acreandplate.com">hello@acreandplate.com</a>'
+    legal_page('privacy', 'Privacy Policy', "How Acre & Plate handles information when you browse the directory, email us, or buy a Featured Ranch placement.", [
+        ("Who we are", [f"Acre &amp; Plate (acreandplate.com) is an independent directory of ranches that sell beef direct to consumers. Questions about this policy can be sent to {hello}."]),
+        ("Browsing the site", ["This site does not use analytics or advertising cookies. Like most websites, our host, Netlify, processes standard technical request data such as IP address, browser type, and the pages requested in order to serve and secure the site.",
+                               "Links to ranch websites include tracking parameters (such as utm_source=acreandplate) so ranches can see that a visit came from Acre &amp; Plate. These parameters do not contain personal information about you."]),
+        ("When you contact us", ["If you email us, for example to update a ranch listing or ask a question, we receive your email address and whatever you include in your message. We use it to reply and to keep the directory accurate. We do not sell your personal information."]),
+        ("Featured Ranch purchases", ['Featured Ranch placements are paid through Stripe. Stripe collects the payment details needed to complete the purchase and shares the order details with us; we do not see or store full card numbers. See <a href="https://stripe.com/privacy" rel="noopener">Stripe&#8217;s privacy policy</a>.']),
+        ("Shop and other sites", ["Our merchandise shop at acreandplate.printful.me is run on Printful, and ranch websites we link to are run by the ranches. Their own privacy policies apply when you visit them."]),
+        ("Retention and your rights", [f"We keep emails and purchase records only as long as we need them for the purposes above or as required by law. You can ask what information we hold about you, or ask us to correct or delete it, by emailing {hello}."]),
+        ("Children", ["This site is not directed to children under 13, and we do not knowingly collect their personal information."]),
+        ("Changes", ["We may update this policy. The date at the top shows when it last changed."]),
+    ])
+    legal_page('terms', 'Terms of Use', "The terms that apply when you use the Acre & Plate ranch directory.", [
+        ("Agreement", [f"By using acreandplate.com you agree to these terms. Questions can be sent to {hello}."]),
+        ("A directory, not a store", ["Acre &amp; Plate does not sell beef. Any purchase you make from a ranch is between you and that ranch, under the ranch&#8217;s own terms, prices, and shipping policies."]),
+        ("Accuracy", ["Listings, breed claims, prices, and deals are gathered from ranches&#8217; public websites and may be incomplete or out of date. Please confirm current details, availability, and pricing with the ranch before you order."]),
+        ("Featured placements", ["Some listings are paid Featured Ranch placements and are labeled as featured. A featured placement is not an endorsement or a guarantee of any ranch&#8217;s products."]),
+        ("Use of the site", ["Please do not misuse the site, including by attempting to disrupt it, scraping it at a rate that degrades service, or republishing the directory as your own. You are welcome to share links."]),
+        ("Third-party sites", ["We link to ranch websites and other services we do not control and are not responsible for their content or practices."]),
+        ("No warranty; limitation of liability", ["The site is provided &#8220;as is&#8221; without warranties of any kind. To the fullest extent permitted by law, Acre &amp; Plate is not liable for any indirect or consequential damages arising from your use of the site or from dealings with any ranch."]),
+        ("Changes", ["We may update these terms. The date at the top shows when they last changed."]),
+    ])
+
 def prune_orphaned_listings():
     """Remove orphaned listing directories not in listings.json"""
     import os
@@ -2221,6 +2307,7 @@ def main():
     
     # About
     build_about()
+    build_legal_pages()
     
     # Deals page
     build_deals_page()
