@@ -2137,7 +2137,7 @@ def main():
         "West Virginia Ranches",
         "west-virginia",
         lambda l: l.get('state') == 'WV',
-        "West Virginia farms selling 100% grass-fed, grass-finished beef direct from the farm, with an on-farm store in Romney and frozen shipping to the lower 48."
+        "West Virginia farms selling 100% grass-fed, grass-finished beef direct from the farm, from an on-farm store in Romney with frozen shipping to the lower 48, to monthly pickup and delivery around Fairmont and Morgantown."
     )
     
     build_hub_page(
