@@ -1,0 +1,2575 @@
+{
+ "retail": {
+  "report_date": "2026-11-20",
+  "ad_period": {
+   "start": "2026-11-14",
+   "end": "2026-11-26"
+  },
+  "usda_note": "Bone-in ribeye roasts averaged $12.95 per pound compared to $12.84 per pound in 2025.",
+  "prime_rib_dinner": {
+   "servings": "4-10",
+   "pct_stores": 11.05,
+   "low": 89.99,
+   "high": 309.99,
+   "avg": 180.03
+  },
+  "national": [
+   {
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "ABF, Grass Fed",
+    "cond": "Fresh",
+    "cw": null,
+    "pw": null,
+    "py": {
+     "stores": 311,
+     "avg": 12.99
+    }
+   },
+   {
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "cw": {
+     "stores": 11266,
+     "avg": 12.95
+    },
+    "pw": {
+     "stores": 4363,
+     "avg": 9.87
+    },
+    "py": {
+     "stores": 9494,
+     "avg": 12.84
+    }
+   },
+   {
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Frozen",
+    "cw": null,
+    "pw": {
+     "stores": 7,
+     "avg": 16.99
+    },
+    "py": null
+   },
+   {
+    "cut": "Bone-In",
+    "tier": "Value",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "cw": {
+     "stores": 549,
+     "avg": 10.54
+    },
+    "pw": {
+     "stores": 223,
+     "avg": 11.25
+    },
+    "py": null
+   },
+   {
+    "cut": "Boneless",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "cw": {
+     "stores": 461,
+     "avg": 15.46
+    },
+    "pw": {
+     "stores": 267,
+     "avg": 12.53
+    },
+    "py": {
+     "stores": 1437,
+     "avg": 11.58
+    }
+   },
+   {
+    "cut": "Boneless",
+    "tier": "Value",
+    "env": "ABF, Grass Fed",
+    "cond": "Fresh",
+    "cw": {
+     "stores": 84,
+     "avg": 9.99
+    },
+    "pw": null,
+    "py": null
+   }
+  ],
+  "regional": [
+   {
+    "region": "Northeast",
+    "grade": "Branded - Choice",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 313,
+    "low": 13.99,
+    "high": 15.99,
+    "avg": 15.08
+   },
+   {
+    "region": "Northeast",
+    "grade": "Branded - Prime",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 105,
+    "low": 20.99,
+    "high": 20.99,
+    "avg": 20.99
+   },
+   {
+    "region": "Northeast",
+    "grade": "Choice",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 96,
+    "low": 12.99,
+    "high": 15.99,
+    "avg": 15.3
+   },
+   {
+    "region": "Northeast",
+    "grade": "Choice",
+    "cut": "Bone-In",
+    "tier": "Value",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 157,
+    "low": 9.99,
+    "high": 9.99,
+    "avg": 9.99
+   },
+   {
+    "region": "Northeast",
+    "grade": "Select",
+    "cut": "Boneless",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 54,
+    "low": 15.99,
+    "high": 15.99,
+    "avg": 15.99
+   },
+   {
+    "region": "Northeast",
+    "grade": "Ungraded/Other",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 220,
+    "low": 7.99,
+    "high": 14.99,
+    "avg": 9.09
+   },
+   {
+    "region": "Northeast",
+    "grade": "Ungraded/Other",
+    "cut": "Bone-In",
+    "tier": "Value",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 146,
+    "low": 12.99,
+    "high": 12.99,
+    "avg": 12.99
+   },
+   {
+    "region": "Southeast",
+    "grade": "Branded - Choice",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 86,
+    "low": 15.99,
+    "high": 16.99,
+    "avg": 16.97
+   },
+   {
+    "region": "Southeast",
+    "grade": "Branded - Prime",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 2,
+    "low": 20.99,
+    "high": 20.99,
+    "avg": 20.99
+   },
+   {
+    "region": "Southeast",
+    "grade": "Choice",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 3762,
+    "low": 9.98,
+    "high": 15.99,
+    "avg": 13.26
+   },
+   {
+    "region": "Southeast",
+    "grade": "Prime",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 14,
+    "low": 15.99,
+    "high": 15.99,
+    "avg": 15.99
+   },
+   {
+    "region": "Southeast",
+    "grade": "Select",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 84,
+    "low": 16.99,
+    "high": 16.99,
+    "avg": 16.99
+   },
+   {
+    "region": "Southeast",
+    "grade": "Select",
+    "cut": "Boneless",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 17,
+    "low": 15.99,
+    "high": 15.99,
+    "avg": 15.99
+   },
+   {
+    "region": "Southeast",
+    "grade": "Ungraded/Other",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 668,
+    "low": 7.88,
+    "high": 14.99,
+    "avg": 10.34
+   },
+   {
+    "region": "Southeast",
+    "grade": "Ungraded/Other",
+    "cut": "Boneless",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 28,
+    "low": 7.98,
+    "high": 7.98,
+    "avg": 7.98
+   },
+   {
+    "region": "Southeast",
+    "grade": "Ungraded/Other",
+    "cut": "Boneless",
+    "tier": "Value",
+    "env": "ABF, Grass Fed",
+    "cond": "Fresh",
+    "stores": 84,
+    "low": 9.99,
+    "high": 9.99,
+    "avg": 9.99
+   },
+   {
+    "region": "Midwest",
+    "grade": "Branded - Choice",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 581,
+    "low": 9.99,
+    "high": 17.99,
+    "avg": 15.03
+   },
+   {
+    "region": "Midwest",
+    "grade": "Branded - Choice",
+    "cut": "Boneless",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 106,
+    "low": 15.97,
+    "high": 19.99,
+    "avg": 17.47
+   },
+   {
+    "region": "Midwest",
+    "grade": "Branded - Prime",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 113,
+    "low": 20.99,
+    "high": 20.99,
+    "avg": 20.99
+   },
+   {
+    "region": "Midwest",
+    "grade": "Choice",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 805,
+    "low": 9.99,
+    "high": 15.99,
+    "avg": 12.8
+   },
+   {
+    "region": "Midwest",
+    "grade": "Choice",
+    "cut": "Boneless",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 95,
+    "low": 14.99,
+    "high": 14.99,
+    "avg": 14.99
+   },
+   {
+    "region": "Midwest",
+    "grade": "Select",
+    "cut": "Boneless",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 1,
+    "low": 15.99,
+    "high": 15.99,
+    "avg": 15.99
+   },
+   {
+    "region": "Midwest",
+    "grade": "Ungraded/Other",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 566,
+    "low": 6.99,
+    "high": 14.99,
+    "avg": 7.93
+   },
+   {
+    "region": "Midwest",
+    "grade": "Ungraded/Other",
+    "cut": "Boneless",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 55,
+    "low": 7.98,
+    "high": 7.98,
+    "avg": 7.98
+   },
+   {
+    "region": "South Central",
+    "grade": "Branded - Choice",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 61,
+    "low": 11.77,
+    "high": 18.99,
+    "avg": 18.36
+   },
+   {
+    "region": "South Central",
+    "grade": "Branded - Choice",
+    "cut": "Boneless",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 71,
+    "low": 16.79,
+    "high": 16.79,
+    "avg": 16.79
+   },
+   {
+    "region": "South Central",
+    "grade": "Choice",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 645,
+    "low": 9.99,
+    "high": 15.99,
+    "avg": 12.4
+   },
+   {
+    "region": "South Central",
+    "grade": "Prime",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 62,
+    "low": 15.99,
+    "high": 15.99,
+    "avg": 15.99
+   },
+   {
+    "region": "South Central",
+    "grade": "Select",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 52,
+    "low": 8.47,
+    "high": 8.47,
+    "avg": 8.47
+   },
+   {
+    "region": "South Central",
+    "grade": "Ungraded/Other",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 139,
+    "low": 6.99,
+    "high": 14.99,
+    "avg": 7.93
+   },
+   {
+    "region": "Southwest",
+    "grade": "Branded - Choice",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 88,
+    "low": 11.77,
+    "high": 18.99,
+    "avg": 16.87
+   },
+   {
+    "region": "Southwest",
+    "grade": "Branded - Prime",
+    "cut": "Boneless",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 31,
+    "low": 24.99,
+    "high": 24.99,
+    "avg": 24.99
+   },
+   {
+    "region": "Southwest",
+    "grade": "Choice",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 1333,
+    "low": 8.99,
+    "high": 16.99,
+    "avg": 13.0
+   },
+   {
+    "region": "Southwest",
+    "grade": "Select",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 11,
+    "low": 14.99,
+    "high": 14.99,
+    "avg": 14.99
+   },
+   {
+    "region": "Southwest",
+    "grade": "Ungraded/Other",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 472,
+    "low": 6.99,
+    "high": 14.99,
+    "avg": 10.56
+   },
+   {
+    "region": "Southwest",
+    "grade": "Ungraded/Other",
+    "cut": "Bone-In",
+    "tier": "Value",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 243,
+    "low": 7.99,
+    "high": 9.99,
+    "avg": 9.38
+   },
+   {
+    "region": "Northwest",
+    "grade": "Branded - Choice",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 75,
+    "low": 11.77,
+    "high": 18.99,
+    "avg": 14.68
+   },
+   {
+    "region": "Northwest",
+    "grade": "Branded - Prime",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 1,
+    "low": 17.99,
+    "high": 17.99,
+    "avg": 17.99
+   },
+   {
+    "region": "Northwest",
+    "grade": "Choice",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 603,
+    "low": 9.99,
+    "high": 16.99,
+    "avg": 14.49
+   },
+   {
+    "region": "Northwest",
+    "grade": "Prime",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 11,
+    "low": 14.99,
+    "high": 14.99,
+    "avg": 14.99
+   },
+   {
+    "region": "Northwest",
+    "grade": "Select",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 22,
+    "low": 14.99,
+    "high": 14.99,
+    "avg": 14.99
+   },
+   {
+    "region": "Northwest",
+    "grade": "Ungraded/Other",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 116,
+    "low": 10.99,
+    "high": 10.99,
+    "avg": 10.99
+   },
+   {
+    "region": "Alaska",
+    "grade": "Branded - Choice",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 38,
+    "low": 16.99,
+    "high": 16.99,
+    "avg": 16.99
+   },
+   {
+    "region": "Alaska",
+    "grade": "Branded - Prime",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 14,
+    "low": 17.99,
+    "high": 17.99,
+    "avg": 17.99
+   },
+   {
+    "region": "Alaska",
+    "grade": "Choice",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 22,
+    "low": 15.99,
+    "high": 17.99,
+    "avg": 16.9
+   },
+   {
+    "region": "Alaska",
+    "grade": "Ungraded/Other",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 28,
+    "low": 10.99,
+    "high": 13.58,
+    "avg": 11.27
+   },
+   {
+    "region": "Alaska",
+    "grade": "Ungraded/Other",
+    "cut": "Bone-In",
+    "tier": "Value",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 3,
+    "low": 14.28,
+    "high": 14.28,
+    "avg": 14.28
+   },
+   {
+    "region": "Hawaii",
+    "grade": "Branded - Prime",
+    "cut": "Boneless",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 3,
+    "low": 22.99,
+    "high": 22.99,
+    "avg": 22.99
+   },
+   {
+    "region": "Hawaii",
+    "grade": "Choice",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 51,
+    "low": 13.99,
+    "high": 15.99,
+    "avg": 15.04
+   },
+   {
+    "region": "Hawaii",
+    "grade": "Ungraded/Other",
+    "cut": "Bone-In",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 7,
+    "low": 17.99,
+    "high": 17.99,
+    "avg": 17.99
+   }
+  ],
+  "source": "USDA AMS Market News, Weekly Grocery Store Beef Feature Activity (National Retail Report - Beef)",
+  "url": "https://mymarketnews.ams.usda.gov/viewReport/3228",
+  "pdf": "https://www.ams.usda.gov/mnreports/ams_3228.pdf"
+ },
+ "wholesale": {
+  "daily": {
+   "report_date": "2026-11-25",
+   "session": "afternoon",
+   "id": "LM_XB403",
+   "primal_rib_choice_cwt": 686.89,
+   "primal_rib_select_cwt": 639.81,
+   "ribeye_lipon_bonein_choice": {
+    "trades": 47,
+    "pounds": 532710,
+    "low_cwt": 1398.95,
+    "high_cwt": 1488.95,
+    "avg_cwt": 1405.32
+   },
+   "source": "USDA AMS Market News, National Daily Boxed Beef Cutout and Cuts - Negotiated Sales (LM_XB403)",
+   "url": "https://mymarketnews.ams.usda.gov/viewReport/2453",
+   "pdf": "https://www.ams.usda.gov/mnreports/ams_2453.pdf"
+  },
+  "prime": {
+   "report_date": "2026-11-23",
+   "id": "LM_XB456",
+   "ribeye_lipon_bonein_prime": {
+    "trades": 111,
+    "pounds": 176107,
+    "low_cwt": 1413.0,
+    "high_cwt": 1906.0,
+    "avg_cwt": 1627.97
+   },
+   "source": "USDA AMS Market News, National Weekly Boxed Beef Cuts for Prime Product - Negotiated Sales (LM_XB456)",
+   "url": "https://mymarketnews.ams.usda.gov/viewReport/2460",
+   "pdf": "https://www.ams.usda.gov/mnreports/ams_2460.pdf"
+  }
+ },
+ "ranches": [
+  {
+   "slug": "john-henrys-meats",
+   "name": "John Henry's Meats",
+   "state": "MI",
+   "product": "Prime Rib - Bone-In",
+   "cut": "Bone-in",
+   "url": "https://johnhenrys.net/products/prime-rib-bone-in",
+   "available": true,
+   "variants": [
+    {
+     "title": "4 lbs",
+     "price": 159.99,
+     "available": true,
+     "lb_low": 4.0,
+     "lb_high": 4.0,
+     "per_lb_low": 40.0,
+     "per_lb_high": 40.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "5 lbs",
+     "price": 199.99,
+     "available": true,
+     "lb_low": 5.0,
+     "lb_high": 5.0,
+     "per_lb_low": 40.0,
+     "per_lb_high": 40.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "6 lbs",
+     "price": 239.99,
+     "available": true,
+     "lb_low": 6.0,
+     "lb_high": 6.0,
+     "per_lb_low": 40.0,
+     "per_lb_high": 40.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "7 lbs",
+     "price": 279.99,
+     "available": true,
+     "lb_low": 7.0,
+     "lb_high": 7.0,
+     "per_lb_low": 40.0,
+     "per_lb_high": 40.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "8 lbs",
+     "price": 319.99,
+     "available": true,
+     "lb_low": 8.0,
+     "lb_high": 8.0,
+     "per_lb_low": 40.0,
+     "per_lb_high": 40.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "9 lbs",
+     "price": 359.99,
+     "available": true,
+     "lb_low": 9.0,
+     "lb_high": 9.0,
+     "per_lb_low": 40.0,
+     "per_lb_high": 40.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "10 lbs",
+     "price": 399.99,
+     "available": true,
+     "lb_low": 10.0,
+     "lb_high": 10.0,
+     "per_lb_low": 40.0,
+     "per_lb_high": 40.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "11 lbs",
+     "price": 439.99,
+     "available": true,
+     "lb_low": 11.0,
+     "lb_high": 11.0,
+     "per_lb_low": 40.0,
+     "per_lb_high": 40.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "12 lbs",
+     "price": 479.99,
+     "available": true,
+     "lb_low": 12.0,
+     "lb_high": 12.0,
+     "per_lb_low": 40.0,
+     "per_lb_high": 40.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "13 lbs",
+     "price": 519.99,
+     "available": true,
+     "lb_low": 13.0,
+     "lb_high": 13.0,
+     "per_lb_low": 40.0,
+     "per_lb_high": 40.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "14 lbs",
+     "price": 559.99,
+     "available": true,
+     "lb_low": 14.0,
+     "lb_high": 14.0,
+     "per_lb_low": 40.0,
+     "per_lb_high": 40.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "15 lbs",
+     "price": 599.99,
+     "available": true,
+     "lb_low": 15.0,
+     "lb_high": 15.0,
+     "per_lb_low": 40.0,
+     "per_lb_high": 40.0,
+     "approx": false,
+     "basis": "variant title"
+    }
+   ],
+   "price_note": null,
+   "checked": "2026-11-26"
+  },
+  {
+   "slug": "john-henrys-meats",
+   "name": "John Henry's Meats",
+   "state": "MI",
+   "product": "Prime Rib - Boneless",
+   "cut": "Boneless",
+   "url": "https://johnhenrys.net/products/prime-rib-boneless",
+   "available": true,
+   "variants": [
+    {
+     "title": "4 lbs",
+     "price": 163.99,
+     "available": true,
+     "lb_low": 4.0,
+     "lb_high": 4.0,
+     "per_lb_low": 41.0,
+     "per_lb_high": 41.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "5 lbs",
+     "price": 204.99,
+     "available": true,
+     "lb_low": 5.0,
+     "lb_high": 5.0,
+     "per_lb_low": 41.0,
+     "per_lb_high": 41.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "6 lbs",
+     "price": 245.99,
+     "available": true,
+     "lb_low": 6.0,
+     "lb_high": 6.0,
+     "per_lb_low": 41.0,
+     "per_lb_high": 41.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "7 lbs",
+     "price": 286.99,
+     "available": true,
+     "lb_low": 7.0,
+     "lb_high": 7.0,
+     "per_lb_low": 41.0,
+     "per_lb_high": 41.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "8 lbs",
+     "price": 327.99,
+     "available": true,
+     "lb_low": 8.0,
+     "lb_high": 8.0,
+     "per_lb_low": 41.0,
+     "per_lb_high": 41.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "9 lbs",
+     "price": 368.99,
+     "available": true,
+     "lb_low": 9.0,
+     "lb_high": 9.0,
+     "per_lb_low": 41.0,
+     "per_lb_high": 41.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "10 lbs",
+     "price": 409.99,
+     "available": true,
+     "lb_low": 10.0,
+     "lb_high": 10.0,
+     "per_lb_low": 41.0,
+     "per_lb_high": 41.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "11 lbs",
+     "price": 450.99,
+     "available": true,
+     "lb_low": 11.0,
+     "lb_high": 11.0,
+     "per_lb_low": 41.0,
+     "per_lb_high": 41.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "12 lbs",
+     "price": 491.99,
+     "available": true,
+     "lb_low": 12.0,
+     "lb_high": 12.0,
+     "per_lb_low": 41.0,
+     "per_lb_high": 41.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "13 lbs",
+     "price": 532.99,
+     "available": true,
+     "lb_low": 13.0,
+     "lb_high": 13.0,
+     "per_lb_low": 41.0,
+     "per_lb_high": 41.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "14 lbs",
+     "price": 573.99,
+     "available": true,
+     "lb_low": 14.0,
+     "lb_high": 14.0,
+     "per_lb_low": 41.0,
+     "per_lb_high": 41.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "15 lbs",
+     "price": 614.99,
+     "available": true,
+     "lb_low": 15.0,
+     "lb_high": 15.0,
+     "per_lb_low": 41.0,
+     "per_lb_high": 41.0,
+     "approx": false,
+     "basis": "variant title"
+    }
+   ],
+   "price_note": null,
+   "checked": "2026-11-26"
+  },
+  {
+   "slug": "pacific-rogue-wagyu",
+   "name": "Pacific Rogue Wagyu",
+   "state": "OR",
+   "product": "Prime Rib Roast",
+   "cut": null,
+   "url": "https://www.pacificroguewagyu.com/products/prime-rib-roast",
+   "available": true,
+   "variants": [
+    {
+     "title": "Small  9.25 lb",
+     "price": 550.0,
+     "available": false,
+     "lb_low": 9.25,
+     "lb_high": 9.25,
+     "per_lb_low": 59.46,
+     "per_lb_high": 59.46,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "Medium 10.00 lb",
+     "price": 600.0,
+     "available": true,
+     "lb_low": 10.0,
+     "lb_high": 10.0,
+     "per_lb_low": 60.0,
+     "per_lb_high": 60.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "Large - 14.50 lb",
+     "price": 870.0,
+     "available": true,
+     "lb_low": 14.5,
+     "lb_high": 14.5,
+     "per_lb_low": 60.0,
+     "per_lb_high": 60.0,
+     "approx": false,
+     "basis": "variant title"
+    }
+   ],
+   "price_note": null,
+   "checked": "2026-11-26"
+  },
+  {
+   "slug": "five-marys-ranch",
+   "name": "Five Marys Ranch",
+   "state": "CA",
+   "product": "Half Prime Rib",
+   "cut": null,
+   "url": "https://fivemarysmeats.com/products/waitlist-4-pr",
+   "available": true,
+   "variants": [
+    {
+     "title": "LARGE / November 16-18th",
+     "price": 525.0,
+     "available": false,
+     "lb_low": 7.0,
+     "lb_high": 9.0,
+     "per_lb_low": 58.33,
+     "per_lb_high": 75.0,
+     "approx": false,
+     "basis": "product page: Large : 7-9 lbs | $525"
+    },
+    {
+     "title": "LARGE / November 23-24th",
+     "price": 525.0,
+     "available": false,
+     "lb_low": 7.0,
+     "lb_high": 9.0,
+     "per_lb_low": 58.33,
+     "per_lb_high": 75.0,
+     "approx": false,
+     "basis": "product page: Large : 7-9 lbs | $525"
+    },
+    {
+     "title": "LARGE / November 30-December 2nd",
+     "price": 525.0,
+     "available": true,
+     "lb_low": 7.0,
+     "lb_high": 9.0,
+     "per_lb_low": 58.33,
+     "per_lb_high": 75.0,
+     "approx": false,
+     "basis": "product page: Large : 7-9 lbs | $525"
+    },
+    {
+     "title": "LARGE / December 7-9th",
+     "price": 525.0,
+     "available": true,
+     "lb_low": 7.0,
+     "lb_high": 9.0,
+     "per_lb_low": 58.33,
+     "per_lb_high": 75.0,
+     "approx": false,
+     "basis": "product page: Large : 7-9 lbs | $525"
+    },
+    {
+     "title": "LARGE / December 14-16th",
+     "price": 525.0,
+     "available": true,
+     "lb_low": 7.0,
+     "lb_high": 9.0,
+     "per_lb_low": 58.33,
+     "per_lb_high": 75.0,
+     "approx": false,
+     "basis": "product page: Large : 7-9 lbs | $525"
+    },
+    {
+     "title": "LARGE / December 21-22nd",
+     "price": 525.0,
+     "available": true,
+     "lb_low": 7.0,
+     "lb_high": 9.0,
+     "per_lb_low": 58.33,
+     "per_lb_high": 75.0,
+     "approx": false,
+     "basis": "product page: Large : 7-9 lbs | $525"
+    },
+    {
+     "title": "LARGE / December 28-29th",
+     "price": 525.0,
+     "available": true,
+     "lb_low": 7.0,
+     "lb_high": 9.0,
+     "per_lb_low": 58.33,
+     "per_lb_high": 75.0,
+     "approx": false,
+     "basis": "product page: Large : 7-9 lbs | $525"
+    }
+   ],
+   "price_note": null,
+   "checked": "2026-11-26"
+  },
+  {
+   "slug": "five-marys-ranch",
+   "name": "Five Marys Ranch",
+   "state": "CA",
+   "product": "Full Prime Rib",
+   "cut": null,
+   "url": "https://fivemarysmeats.com/products/waitlist-pr",
+   "available": true,
+   "variants": [
+    {
+     "title": "GRAND / November 16-18th",
+     "price": 850.0,
+     "available": false,
+     "lb_low": 15.0,
+     "lb_high": 18.0,
+     "per_lb_low": 47.22,
+     "per_lb_high": 56.67,
+     "approx": false,
+     "basis": "product page: Grand : 15-18 lbs | $850"
+    },
+    {
+     "title": "GRAND / November 23-24th",
+     "price": 850.0,
+     "available": false,
+     "lb_low": 15.0,
+     "lb_high": 18.0,
+     "per_lb_low": 47.22,
+     "per_lb_high": 56.67,
+     "approx": false,
+     "basis": "product page: Grand : 15-18 lbs | $850"
+    },
+    {
+     "title": "GRAND / November 30th-December 2nd",
+     "price": 850.0,
+     "available": true,
+     "lb_low": 15.0,
+     "lb_high": 18.0,
+     "per_lb_low": 47.22,
+     "per_lb_high": 56.67,
+     "approx": false,
+     "basis": "product page: Grand : 15-18 lbs | $850"
+    },
+    {
+     "title": "GRAND / December 7-9th",
+     "price": 850.0,
+     "available": true,
+     "lb_low": 15.0,
+     "lb_high": 18.0,
+     "per_lb_low": 47.22,
+     "per_lb_high": 56.67,
+     "approx": false,
+     "basis": "product page: Grand : 15-18 lbs | $850"
+    },
+    {
+     "title": "GRAND / December 14-16th",
+     "price": 850.0,
+     "available": true,
+     "lb_low": 15.0,
+     "lb_high": 18.0,
+     "per_lb_low": 47.22,
+     "per_lb_high": 56.67,
+     "approx": false,
+     "basis": "product page: Grand : 15-18 lbs | $850"
+    },
+    {
+     "title": "GRAND / December 21-22th",
+     "price": 850.0,
+     "available": true,
+     "lb_low": 15.0,
+     "lb_high": 18.0,
+     "per_lb_low": 47.22,
+     "per_lb_high": 56.67,
+     "approx": false,
+     "basis": "product page: Grand : 15-18 lbs | $850"
+    },
+    {
+     "title": "GRAND / December 28-29th",
+     "price": 850.0,
+     "available": true,
+     "lb_low": 15.0,
+     "lb_high": 18.0,
+     "per_lb_low": 47.22,
+     "per_lb_high": 56.67,
+     "approx": false,
+     "basis": "product page: Grand : 15-18 lbs | $850"
+    }
+   ],
+   "price_note": null,
+   "checked": "2026-11-26"
+  },
+  {
+   "slug": "grand-view-beef",
+   "name": "Grand View Beef",
+   "state": "IA",
+   "product": "Grass Fed Prime Rib (Bone In OR Boneless) PRE-ORDER ONLY - READ PRODUCT DESCRIPTION",
+   "cut": null,
+   "url": "https://www.grandviewbeef.com/products/grass-fed-prime-rib-boneless",
+   "available": true,
+   "variants": [
+    {
+     "title": "Half Boneless Rib Loin DEPOSIT",
+     "price": 100.0,
+     "available": true,
+     "lb_low": null,
+     "lb_high": null,
+     "per_lb_low": 45.0,
+     "per_lb_high": 45.0,
+     "approx": false,
+     "basis": "product page: Price: $45/lb boneless"
+    },
+    {
+     "title": "Full Boneless Rib Loin DEPOSIT",
+     "price": 100.0,
+     "available": true,
+     "lb_low": null,
+     "lb_high": null,
+     "per_lb_low": 45.0,
+     "per_lb_high": 45.0,
+     "approx": false,
+     "basis": "product page: Price: $45/lb boneless"
+    },
+    {
+     "title": "11.4 Bone-In",
+     "price": 456.0,
+     "available": true,
+     "lb_low": null,
+     "lb_high": null,
+     "per_lb_low": null,
+     "per_lb_high": null,
+     "approx": false,
+     "basis": null
+    }
+   ],
+   "price_note": "Pre-order: the listing is a $100 deposit; the ranch sets the final price by weighing each roast.",
+   "checked": "2026-11-26"
+  },
+  {
+   "slug": "oak-barn-beef",
+   "name": "Oak Barn Beef",
+   "state": "NE",
+   "product": "Boneless Prime Rib Roast",
+   "cut": "Boneless",
+   "url": "https://oakbarnbeef.com/products/boneless-prime-rib-roast",
+   "available": true,
+   "variants": [
+    {
+     "title": "5.9-6 pounds",
+     "price": 196.29,
+     "available": true,
+     "lb_low": 5.9,
+     "lb_high": 6.0,
+     "per_lb_low": 32.71,
+     "per_lb_high": 33.27,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "6-6.25 pounds",
+     "price": 203.54,
+     "available": true,
+     "lb_low": 6.0,
+     "lb_high": 6.25,
+     "per_lb_low": 32.57,
+     "per_lb_high": 33.92,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "6.57 pounds",
+     "price": 216.74,
+     "available": false,
+     "lb_low": 6.57,
+     "lb_high": 6.57,
+     "per_lb_low": 32.99,
+     "per_lb_high": 32.99,
+     "approx": false,
+     "basis": "variant title"
+    }
+   ],
+   "price_note": null,
+   "checked": "2026-11-26"
+  },
+  {
+   "slug": "heartbrand-beef",
+   "name": "HeartBrand Beef",
+   "state": "TX",
+   "product": "Boneless Prime Rib Roast",
+   "cut": "Boneless",
+   "url": "https://heartbrandbeef.com/products/boneless-prime-rib-roast",
+   "available": true,
+   "variants": [
+    {
+     "title": "Default Title",
+     "price": 196.0,
+     "available": true,
+     "lb_low": 4.0,
+     "lb_high": 4.0,
+     "per_lb_low": 49.0,
+     "per_lb_high": 49.0,
+     "approx": true,
+     "basis": "product page: Each package averages 4 pounds"
+    }
+   ],
+   "price_note": null,
+   "checked": "2026-11-26"
+  },
+  {
+   "slug": "hawks-hill",
+   "name": "Hawks Hill Ranch",
+   "state": "WY",
+   "product": "100% Full Blood Wagyu Boneless Prime Rib",
+   "cut": "Boneless",
+   "url": "https://hawkshillranchwagyu.com/products/100-full-blood-wagyu-boneless-prime-rib",
+   "available": true,
+   "variants": [
+    {
+     "title": "4.51lb",
+     "price": 676.5,
+     "available": false,
+     "lb_low": 4.51,
+     "lb_high": 4.51,
+     "per_lb_low": 150.0,
+     "per_lb_high": 150.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "4.72lb",
+     "price": 708.0,
+     "available": false,
+     "lb_low": 4.72,
+     "lb_high": 4.72,
+     "per_lb_low": 150.0,
+     "per_lb_high": 150.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "2.72lb",
+     "price": 408.0,
+     "available": true,
+     "lb_low": 2.72,
+     "lb_high": 2.72,
+     "per_lb_low": 150.0,
+     "per_lb_high": 150.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "2.94lb",
+     "price": 441.0,
+     "available": true,
+     "lb_low": 2.94,
+     "lb_high": 2.94,
+     "per_lb_low": 150.0,
+     "per_lb_high": 150.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "3.07lb",
+     "price": 460.5,
+     "available": true,
+     "lb_low": 3.07,
+     "lb_high": 3.07,
+     "per_lb_low": 150.0,
+     "per_lb_high": 150.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "3.14lb",
+     "price": 471.0,
+     "available": true,
+     "lb_low": 3.14,
+     "lb_high": 3.14,
+     "per_lb_low": 150.0,
+     "per_lb_high": 150.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "3.31lb",
+     "price": 496.5,
+     "available": true,
+     "lb_low": 3.31,
+     "lb_high": 3.31,
+     "per_lb_low": 150.0,
+     "per_lb_high": 150.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "3.65lb",
+     "price": 547.5,
+     "available": true,
+     "lb_low": 3.65,
+     "lb_high": 3.65,
+     "per_lb_low": 150.0,
+     "per_lb_high": 150.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "3.79lb",
+     "price": 568.5,
+     "available": true,
+     "lb_low": 3.79,
+     "lb_high": 3.79,
+     "per_lb_low": 150.0,
+     "per_lb_high": 150.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "3.99lb",
+     "price": 598.5,
+     "available": false,
+     "lb_low": 3.99,
+     "lb_high": 3.99,
+     "per_lb_low": 150.0,
+     "per_lb_high": 150.0,
+     "approx": false,
+     "basis": "variant title"
+    }
+   ],
+   "price_note": null,
+   "checked": "2026-11-26"
+  },
+  {
+   "slug": "hawks-hill",
+   "name": "Hawks Hill Ranch",
+   "state": "WY",
+   "product": "100% Full Blood Wagyu Bone-In Prime Rib",
+   "cut": "Bone-in",
+   "url": "https://hawkshillranchwagyu.com/products/100-full-blood-wagyu-bone-in-prime-rib",
+   "available": true,
+   "variants": [
+    {
+     "title": "5.64lb",
+     "price": 733.2,
+     "available": false,
+     "lb_low": 5.64,
+     "lb_high": 5.64,
+     "per_lb_low": 130.0,
+     "per_lb_high": 130.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "5.75lb",
+     "price": 747.5,
+     "available": false,
+     "lb_low": 5.75,
+     "lb_high": 5.75,
+     "per_lb_low": 130.0,
+     "per_lb_high": 130.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "5.87lb",
+     "price": 763.1,
+     "available": true,
+     "lb_low": 5.87,
+     "lb_high": 5.87,
+     "per_lb_low": 130.0,
+     "per_lb_high": 130.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "6.11lb",
+     "price": 794.3,
+     "available": true,
+     "lb_low": 6.11,
+     "lb_high": 6.11,
+     "per_lb_low": 130.0,
+     "per_lb_high": 130.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "6.84lb",
+     "price": 889.2,
+     "available": true,
+     "lb_low": 6.84,
+     "lb_high": 6.84,
+     "per_lb_low": 130.0,
+     "per_lb_high": 130.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "4.87lb",
+     "price": 633.1,
+     "available": false,
+     "lb_low": 4.87,
+     "lb_high": 4.87,
+     "per_lb_low": 130.0,
+     "per_lb_high": 130.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "5.19lb",
+     "price": 674.7,
+     "available": false,
+     "lb_low": 5.19,
+     "lb_high": 5.19,
+     "per_lb_low": 130.0,
+     "per_lb_high": 130.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "3.60lb",
+     "price": 468.0,
+     "available": true,
+     "lb_low": 3.6,
+     "lb_high": 3.6,
+     "per_lb_low": 130.0,
+     "per_lb_high": 130.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "3.22lb",
+     "price": 418.6,
+     "available": true,
+     "lb_low": 3.22,
+     "lb_high": 3.22,
+     "per_lb_low": 130.0,
+     "per_lb_high": 130.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "3.50lb",
+     "price": 455.0,
+     "available": true,
+     "lb_low": 3.5,
+     "lb_high": 3.5,
+     "per_lb_low": 130.0,
+     "per_lb_high": 130.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "3.57lb",
+     "price": 464.1,
+     "available": true,
+     "lb_low": 3.57,
+     "lb_high": 3.57,
+     "per_lb_low": 130.0,
+     "per_lb_high": 130.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "3.79lb",
+     "price": 492.7,
+     "available": false,
+     "lb_low": 3.79,
+     "lb_high": 3.79,
+     "per_lb_low": 130.0,
+     "per_lb_high": 130.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "3.82lb",
+     "price": 496.6,
+     "available": true,
+     "lb_low": 3.82,
+     "lb_high": 3.82,
+     "per_lb_low": 130.0,
+     "per_lb_high": 130.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "3.83lb",
+     "price": 497.9,
+     "available": true,
+     "lb_low": 3.83,
+     "lb_high": 3.83,
+     "per_lb_low": 130.0,
+     "per_lb_high": 130.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "3.95lb",
+     "price": 513.5,
+     "available": true,
+     "lb_low": 3.95,
+     "lb_high": 3.95,
+     "per_lb_low": 130.0,
+     "per_lb_high": 130.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "4.22lb",
+     "price": 548.6,
+     "available": true,
+     "lb_low": 4.22,
+     "lb_high": 4.22,
+     "per_lb_low": 130.0,
+     "per_lb_high": 130.0,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "4.25lb",
+     "price": 552.5,
+     "available": true,
+     "lb_low": 4.25,
+     "lb_high": 4.25,
+     "per_lb_low": 130.0,
+     "per_lb_high": 130.0,
+     "approx": false,
+     "basis": "variant title"
+    }
+   ],
+   "price_note": null,
+   "checked": "2026-11-26"
+  },
+  {
+   "slug": "stemple-creek-ranch",
+   "name": "Stemple Creek Ranch",
+   "state": "CA",
+   "product": "Beef Prime Rib Roast",
+   "cut": null,
+   "url": "https://stemplecreek.com/products/beef-prime-rib-roast",
+   "available": true,
+   "variants": [
+    {
+     "title": "3-Bone Prime Rib Roast (Ship ASAP)",
+     "price": 249.0,
+     "available": true,
+     "lb_low": 6.0,
+     "lb_high": 7.0,
+     "per_lb_low": 35.57,
+     "per_lb_high": 41.5,
+     "approx": false,
+     "basis": "product page: 3-Bone Roast (6-7 lbs)"
+    },
+    {
+     "title": "4-Bone Prime Rib Roast (Ship ASAP)",
+     "price": 299.0,
+     "available": true,
+     "lb_low": 8.0,
+     "lb_high": 9.0,
+     "per_lb_low": 33.22,
+     "per_lb_high": 37.38,
+     "approx": false,
+     "basis": "product page: 4-Bone Roast (8-9 lbs)"
+    },
+    {
+     "title": "7-Bone Prime Rib Roast Medium (Ship ASAP)",
+     "price": 469.0,
+     "available": true,
+     "lb_low": null,
+     "lb_high": null,
+     "per_lb_low": null,
+     "per_lb_high": null,
+     "approx": false,
+     "basis": null
+    },
+    {
+     "title": "7-Bone Prime Rib Roast Large (Ship ASAP)",
+     "price": 509.0,
+     "available": true,
+     "lb_low": null,
+     "lb_high": null,
+     "per_lb_low": null,
+     "per_lb_high": null,
+     "approx": false,
+     "basis": null
+    },
+    {
+     "title": "3-Bone Prime Rib Roast (Pre-Order / Ships Dec 15th)",
+     "price": 249.0,
+     "available": true,
+     "lb_low": 6.0,
+     "lb_high": 7.0,
+     "per_lb_low": 35.57,
+     "per_lb_high": 41.5,
+     "approx": false,
+     "basis": "product page: 3-Bone Roast (6-7 lbs)"
+    },
+    {
+     "title": "4-Bone Prime Rib Roast (Pre-Order / Ships Dec 15th)",
+     "price": 299.0,
+     "available": true,
+     "lb_low": 8.0,
+     "lb_high": 9.0,
+     "per_lb_low": 33.22,
+     "per_lb_high": 37.38,
+     "approx": false,
+     "basis": "product page: 4-Bone Roast (8-9 lbs)"
+    },
+    {
+     "title": "7-Bone Prime Rib Roast Medium (Pre-Order / Ships Dec 15th)",
+     "price": 469.0,
+     "available": true,
+     "lb_low": null,
+     "lb_high": null,
+     "per_lb_low": null,
+     "per_lb_high": null,
+     "approx": false,
+     "basis": null
+    },
+    {
+     "title": "7-Bone Prime Rib Roast Large (Pre-Order / Ships Dec 15th)",
+     "price": 509.0,
+     "available": true,
+     "lb_low": null,
+     "lb_high": null,
+     "per_lb_low": null,
+     "per_lb_high": null,
+     "approx": false,
+     "basis": null
+    }
+   ],
+   "price_note": null,
+   "checked": "2026-11-26"
+  },
+  {
+   "slug": "starwalker-organic-farms",
+   "name": "StarWalker Organic Farms",
+   "state": "CA",
+   "product": "Prime Rib Roast",
+   "cut": null,
+   "url": "https://starwalkerorganicfarms.com/products/prime-rib-roast",
+   "available": true,
+   "variants": [
+    {
+     "title": "3-Rib Roast (Approx. 8 lb) / Week of Nov 23, 2026",
+     "price": 349.0,
+     "available": true,
+     "lb_low": 8.0,
+     "lb_high": 8.0,
+     "per_lb_low": 43.62,
+     "per_lb_high": 43.62,
+     "approx": true,
+     "basis": "variant title"
+    },
+    {
+     "title": "3-Rib Roast (Approx. 8 lb) / Week of Nov 30, 2026",
+     "price": 349.0,
+     "available": true,
+     "lb_low": 8.0,
+     "lb_high": 8.0,
+     "per_lb_low": 43.62,
+     "per_lb_high": 43.62,
+     "approx": true,
+     "basis": "variant title"
+    },
+    {
+     "title": "3-Rib Roast (Approx. 8 lb) / Week of Dec 7, 2026",
+     "price": 349.0,
+     "available": true,
+     "lb_low": 8.0,
+     "lb_high": 8.0,
+     "per_lb_low": 43.62,
+     "per_lb_high": 43.62,
+     "approx": true,
+     "basis": "variant title"
+    },
+    {
+     "title": "3-Rib Roast (Approx. 8 lb) / Week of Dec 14, 2026",
+     "price": 349.0,
+     "available": true,
+     "lb_low": 8.0,
+     "lb_high": 8.0,
+     "per_lb_low": 43.62,
+     "per_lb_high": 43.62,
+     "approx": true,
+     "basis": "variant title"
+    },
+    {
+     "title": "3-Rib Roast (Approx. 8 lb) / Week of Dec 21, 2026",
+     "price": 349.0,
+     "available": true,
+     "lb_low": 8.0,
+     "lb_high": 8.0,
+     "per_lb_low": 43.62,
+     "per_lb_high": 43.62,
+     "approx": true,
+     "basis": "variant title"
+    },
+    {
+     "title": "3-Rib Roast (Approx. 8 lb) / Week of Dec 28, 2026",
+     "price": 349.0,
+     "available": true,
+     "lb_low": 8.0,
+     "lb_high": 8.0,
+     "per_lb_low": 43.62,
+     "per_lb_high": 43.62,
+     "approx": true,
+     "basis": "variant title"
+    },
+    {
+     "title": "4-Rib Roast (Approx. 9 lb) / Week of Nov 23, 2026",
+     "price": 399.0,
+     "available": true,
+     "lb_low": 9.0,
+     "lb_high": 9.0,
+     "per_lb_low": 44.33,
+     "per_lb_high": 44.33,
+     "approx": true,
+     "basis": "variant title"
+    },
+    {
+     "title": "4-Rib Roast (Approx. 9 lb) / Week of Nov 30, 2026",
+     "price": 399.0,
+     "available": true,
+     "lb_low": 9.0,
+     "lb_high": 9.0,
+     "per_lb_low": 44.33,
+     "per_lb_high": 44.33,
+     "approx": true,
+     "basis": "variant title"
+    },
+    {
+     "title": "4-Rib Roast (Approx. 9 lb) / Week of Dec 7, 2026",
+     "price": 399.0,
+     "available": true,
+     "lb_low": 9.0,
+     "lb_high": 9.0,
+     "per_lb_low": 44.33,
+     "per_lb_high": 44.33,
+     "approx": true,
+     "basis": "variant title"
+    },
+    {
+     "title": "4-Rib Roast (Approx. 9 lb) / Week of Dec 14, 2026",
+     "price": 399.0,
+     "available": true,
+     "lb_low": 9.0,
+     "lb_high": 9.0,
+     "per_lb_low": 44.33,
+     "per_lb_high": 44.33,
+     "approx": true,
+     "basis": "variant title"
+    },
+    {
+     "title": "4-Rib Roast (Approx. 9 lb) / Week of Dec 21, 2026",
+     "price": 399.0,
+     "available": true,
+     "lb_low": 9.0,
+     "lb_high": 9.0,
+     "per_lb_low": 44.33,
+     "per_lb_high": 44.33,
+     "approx": true,
+     "basis": "variant title"
+    },
+    {
+     "title": "4-Rib Roast (Approx. 9 lb) / Week of Dec 28, 2026",
+     "price": 399.0,
+     "available": true,
+     "lb_low": 9.0,
+     "lb_high": 9.0,
+     "per_lb_low": 44.33,
+     "per_lb_high": 44.33,
+     "approx": true,
+     "basis": "variant title"
+    },
+    {
+     "title": "7-Rib Roast (Approx. 17 lb) / Week of Nov 23, 2026",
+     "price": 700.0,
+     "available": false,
+     "lb_low": 17.0,
+     "lb_high": 17.0,
+     "per_lb_low": 41.18,
+     "per_lb_high": 41.18,
+     "approx": true,
+     "basis": "variant title"
+    },
+    {
+     "title": "7-Rib Roast (Approx. 17 lb) / Week of Nov 30, 2026",
+     "price": 700.0,
+     "available": false,
+     "lb_low": 17.0,
+     "lb_high": 17.0,
+     "per_lb_low": 41.18,
+     "per_lb_high": 41.18,
+     "approx": true,
+     "basis": "variant title"
+    },
+    {
+     "title": "7-Rib Roast (Approx. 17 lb) / Week of Dec 7, 2026",
+     "price": 700.0,
+     "available": false,
+     "lb_low": 17.0,
+     "lb_high": 17.0,
+     "per_lb_low": 41.18,
+     "per_lb_high": 41.18,
+     "approx": true,
+     "basis": "variant title"
+    },
+    {
+     "title": "7-Rib Roast (Approx. 17 lb) / Week of Dec 14, 2026",
+     "price": 700.0,
+     "available": false,
+     "lb_low": 17.0,
+     "lb_high": 17.0,
+     "per_lb_low": 41.18,
+     "per_lb_high": 41.18,
+     "approx": true,
+     "basis": "variant title"
+    },
+    {
+     "title": "7-Rib Roast (Approx. 17 lb) / Week of Dec 21, 2026",
+     "price": 700.0,
+     "available": false,
+     "lb_low": 17.0,
+     "lb_high": 17.0,
+     "per_lb_low": 41.18,
+     "per_lb_high": 41.18,
+     "approx": true,
+     "basis": "variant title"
+    },
+    {
+     "title": "7-Rib Roast (Approx. 17 lb) / Week of Dec 28, 2026",
+     "price": 700.0,
+     "available": false,
+     "lb_low": 17.0,
+     "lb_high": 17.0,
+     "per_lb_low": 41.18,
+     "per_lb_high": 41.18,
+     "approx": true,
+     "basis": "variant title"
+    }
+   ],
+   "price_note": null,
+   "checked": "2026-11-26"
+  },
+  {
+   "slug": "mariposa-ranch",
+   "name": "Mariposa Ranch",
+   "state": "CA",
+   "product": "Grass Fed, Grass Finished Prime Rib Roast (3 or 4 Bone) (Seasonal)",
+   "cut": null,
+   "url": "https://mariposaranch.com/products/prime-rib-roast",
+   "available": true,
+   "variants": [
+    {
+     "title": "4.40 pounds",
+     "price": 135.92,
+     "available": true,
+     "lb_low": 4.4,
+     "lb_high": 4.4,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "4.65 pounds",
+     "price": 143.64,
+     "available": true,
+     "lb_low": 4.65,
+     "lb_high": 4.65,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "5.00 pounds",
+     "price": 154.45,
+     "available": true,
+     "lb_low": 5.0,
+     "lb_high": 5.0,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "5.25 pounds",
+     "price": 162.17,
+     "available": true,
+     "lb_low": 5.25,
+     "lb_high": 5.25,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "5.55 pounds",
+     "price": 171.44,
+     "available": true,
+     "lb_low": 5.55,
+     "lb_high": 5.55,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "5.80 pounds",
+     "price": 179.16,
+     "available": true,
+     "lb_low": 5.8,
+     "lb_high": 5.8,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "6.05 pounds",
+     "price": 186.88,
+     "available": false,
+     "lb_low": 6.05,
+     "lb_high": 6.05,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "6.20 pounds",
+     "price": 191.52,
+     "available": true,
+     "lb_low": 6.2,
+     "lb_high": 6.2,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "6.35 pounds",
+     "price": 196.15,
+     "available": true,
+     "lb_low": 6.35,
+     "lb_high": 6.35,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "6.55 pounds",
+     "price": 202.33,
+     "available": true,
+     "lb_low": 6.55,
+     "lb_high": 6.55,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "6.75 pounds",
+     "price": 208.51,
+     "available": true,
+     "lb_low": 6.75,
+     "lb_high": 6.75,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "7.05 pounds",
+     "price": 217.77,
+     "available": true,
+     "lb_low": 7.05,
+     "lb_high": 7.05,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "7.20 pounds",
+     "price": 222.41,
+     "available": true,
+     "lb_low": 7.2,
+     "lb_high": 7.2,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "7.40 pounds",
+     "price": 228.59,
+     "available": true,
+     "lb_low": 7.4,
+     "lb_high": 7.4,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "7.65 pounds",
+     "price": 236.31,
+     "available": true,
+     "lb_low": 7.65,
+     "lb_high": 7.65,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "7.80 Pounds",
+     "price": 240.94,
+     "available": true,
+     "lb_low": 7.8,
+     "lb_high": 7.8,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "8.00 pounds",
+     "price": 247.12,
+     "available": true,
+     "lb_low": 8.0,
+     "lb_high": 8.0,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "8.10 pounds",
+     "price": 250.21,
+     "available": true,
+     "lb_low": 8.1,
+     "lb_high": 8.1,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "8.25 pounds",
+     "price": 254.84,
+     "available": true,
+     "lb_low": 8.25,
+     "lb_high": 8.25,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "8.35 pounds",
+     "price": 257.93,
+     "available": true,
+     "lb_low": 8.35,
+     "lb_high": 8.35,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "8.50 pounds",
+     "price": 262.57,
+     "available": true,
+     "lb_low": 8.5,
+     "lb_high": 8.5,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "8.70 Pounds",
+     "price": 268.74,
+     "available": true,
+     "lb_low": 8.7,
+     "lb_high": 8.7,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "8.80 pounds",
+     "price": 271.83,
+     "available": true,
+     "lb_low": 8.8,
+     "lb_high": 8.8,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "8.90 pounds",
+     "price": 274.92,
+     "available": true,
+     "lb_low": 8.9,
+     "lb_high": 8.9,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "9.00 pounds",
+     "price": 278.01,
+     "available": true,
+     "lb_low": 9.0,
+     "lb_high": 9.0,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "9.30 pounds",
+     "price": 287.28,
+     "available": true,
+     "lb_low": 9.3,
+     "lb_high": 9.3,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "9.50 pounds",
+     "price": 293.46,
+     "available": true,
+     "lb_low": 9.5,
+     "lb_high": 9.5,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "9.70 pounds",
+     "price": 299.63,
+     "available": true,
+     "lb_low": 9.7,
+     "lb_high": 9.7,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "9.80 pounds",
+     "price": 302.72,
+     "available": true,
+     "lb_low": 9.8,
+     "lb_high": 9.8,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "9.90 pounds",
+     "price": 305.81,
+     "available": true,
+     "lb_low": 9.9,
+     "lb_high": 9.9,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "10.10 pounds",
+     "price": 311.99,
+     "available": true,
+     "lb_low": 10.1,
+     "lb_high": 10.1,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "10.25 pounds",
+     "price": 316.62,
+     "available": true,
+     "lb_low": 10.25,
+     "lb_high": 10.25,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "10.90 pounds",
+     "price": 336.7,
+     "available": true,
+     "lb_low": 10.9,
+     "lb_high": 10.9,
+     "per_lb_low": 30.89,
+     "per_lb_high": 30.89,
+     "approx": false,
+     "basis": "variant title"
+    }
+   ],
+   "price_note": null,
+   "checked": "2026-11-26"
+  },
+  {
+   "slug": "sunset-ridge-beef",
+   "name": "Sunset Ridge Beef",
+   "state": "NY",
+   "product": "Holiday Prime Rib Bone-in",
+   "cut": "Bone-in",
+   "url": "https://sunsetridgebeef.com/products/holiday-prime-rib-bone-in",
+   "available": false,
+   "variants": [
+    {
+     "title": "5 lbs",
+     "price": 99.75,
+     "available": false,
+     "lb_low": 5.0,
+     "lb_high": 5.0,
+     "per_lb_low": 19.95,
+     "per_lb_high": 19.95,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "10 lbs",
+     "price": 199.5,
+     "available": false,
+     "lb_low": 10.0,
+     "lb_high": 10.0,
+     "per_lb_low": 19.95,
+     "per_lb_high": 19.95,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "15 lbs",
+     "price": 299.25,
+     "available": false,
+     "lb_low": 15.0,
+     "lb_high": 15.0,
+     "per_lb_low": 19.95,
+     "per_lb_high": 19.95,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "20 lbs",
+     "price": 399.0,
+     "available": false,
+     "lb_low": 20.0,
+     "lb_high": 20.0,
+     "per_lb_low": 19.95,
+     "per_lb_high": 19.95,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "25 lbs",
+     "price": 498.75,
+     "available": false,
+     "lb_low": 25.0,
+     "lb_high": 25.0,
+     "per_lb_low": 19.95,
+     "per_lb_high": 19.95,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "30 lbs",
+     "price": 598.5,
+     "available": false,
+     "lb_low": 30.0,
+     "lb_high": 30.0,
+     "per_lb_low": 19.95,
+     "per_lb_high": 19.95,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "35 lbs",
+     "price": 698.25,
+     "available": false,
+     "lb_low": 35.0,
+     "lb_high": 35.0,
+     "per_lb_low": 19.95,
+     "per_lb_high": 19.95,
+     "approx": false,
+     "basis": "variant title"
+    },
+    {
+     "title": "40 lbs",
+     "price": 798.0,
+     "available": false,
+     "lb_low": 40.0,
+     "lb_high": 40.0,
+     "per_lb_low": 19.95,
+     "per_lb_high": 19.95,
+     "approx": false,
+     "basis": "variant title"
+    }
+   ],
+   "price_note": null,
+   "checked": "2026-11-26"
+  },
+  {
+   "slug": "home-place-pastures",
+   "name": "Home Place Pastures",
+   "state": "MS",
+   "product": "Beef Rib Roast Bone-In | 5 lbs",
+   "cut": "Bone-in",
+   "url": "https://homeplacepastures.com/products/beef-rib-roast-bone-in",
+   "available": true,
+   "variants": [
+    {
+     "title": "Default Title",
+     "price": 159.0,
+     "available": true,
+     "lb_low": 5.0,
+     "lb_high": 5.0,
+     "per_lb_low": 31.8,
+     "per_lb_high": 31.8,
+     "approx": false,
+     "basis": "product page: Beef Rib Roast Bone-In | 5 lbs"
+    }
+   ],
+   "price_note": null,
+   "checked": "2026-11-26"
+  },
+  {
+   "slug": "koopmann-family-beef",
+   "name": "Koopmann Family Beef",
+   "state": "CA",
+   "product": "Prime rib roast PRE ORDER",
+   "cut": null,
+   "url": "https://koopmannfamilybeef.com/products/prime-rib-roast",
+   "available": false,
+   "variants": [
+    {
+     "title": "Default Title",
+     "price": 50.0,
+     "available": false,
+     "lb_low": null,
+     "lb_high": null,
+     "per_lb_low": null,
+     "per_lb_high": null,
+     "approx": false,
+     "basis": null
+    }
+   ],
+   "price_note": null,
+   "checked": "2026-11-26"
+  },
+  {
+   "slug": "parker-pastures",
+   "name": "Parker Pastures",
+   "state": "CO",
+   "product": "Whole Prime Rib Roast",
+   "cut": null,
+   "url": "https://parkerpastures.com/products/whole-prime-rib-roast",
+   "available": false,
+   "variants": [
+    {
+     "title": "Dec. 3",
+     "price": 359.0,
+     "available": false,
+     "lb_low": null,
+     "lb_high": null,
+     "per_lb_low": null,
+     "per_lb_high": null,
+     "approx": false,
+     "basis": null
+    },
+    {
+     "title": "Dec. 10",
+     "price": 359.0,
+     "available": false,
+     "lb_low": null,
+     "lb_high": null,
+     "per_lb_low": null,
+     "per_lb_high": null,
+     "approx": false,
+     "basis": null
+    }
+   ],
+   "price_note": null,
+   "checked": "2026-11-26"
+  }
+ ],
+ "generated_at": "2026-11-26T15:00:43-08:00",
+ "errors": []
+}

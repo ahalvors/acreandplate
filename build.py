@@ -565,6 +565,7 @@ def build_index():
     """
     
     content = f"""
+    {prime_rib_home_banner()}
     <section class="heritage-hero">
         <div class="container hero-layout">
             <div class="heritage-copy">
@@ -880,6 +881,372 @@ def build_guide():
     
     html = base_template("Wagyu vs Akaushi Guide", content, "Understand the difference between Wagyu and Akaushi beef, and what to look for when buying ranch-direct.")
     write_page('guides/wagyu-vs-akaushi/index.html', html)
+
+# ---------------------------------------------------------------------------
+# Prime rib price board (holiday page + reusable ticker)
+# Data: data/prime_rib.json, written by scripts/update_prime_rib.py. Every figure carries its source and as-of date.
+# ---------------------------------------------------------------------------
+PRIME_RIB_JSON = 'data/prime_rib.json'
+PRIME_RIB_URL = '/prime-rib-price/'
+
+
+def load_prime_rib():
+    """Return the prime rib dataset, or None if it is missing/unusable (page and banner are then skipped)."""
+    try:
+        with open(PRIME_RIB_JSON, 'r') as f:
+            d = json.load(f)
+    except (OSError, ValueError):
+        return None
+    retail = d.get('retail') or {}
+    nat = [r for r in retail.get('national', []) if r['cut'] == 'Bone-In' and r['tier'] == 'Regular'
+           and r['env'] == 'Conventional' and r['cond'] == 'Fresh' and r.get('cw')]
+    if not nat:
+        return None
+    d['_headline'] = nat[0]
+    return d
+
+
+def _money(v, nd=2):
+    return f"${v:,.{nd}f}"
+
+
+def _fmt_date(iso: str) -> str:
+    from datetime import date as _d
+    try:
+        dt = _d.fromisoformat(iso)
+    except (TypeError, ValueError):
+        return iso or ''
+    return f"{dt.strftime('%b')} {dt.day}, {dt.year}"
+
+
+def _fmt_md(iso: str) -> str:
+    from datetime import date as _d
+    dt = _d.fromisoformat(iso)
+    return f"{dt.month}/{dt.day}"
+
+
+def prime_rib_season_active() -> bool:
+    """Holiday-roast season (Nov 15 - Dec 27): the homepage ticker shows only inside this window."""
+    from datetime import date as _d
+    t = _d.today()
+    return (t.month == 11 and t.day >= 15) or (t.month == 12 and t.day <= 27)
+
+
+def _ranch_rows(pr):
+    """One row per listed-ranch product that is in stock AND states its weight (so $/lb is not guessed)."""
+    rows = []
+    for r in pr.get('ranches', []):
+        vs = [v for v in r.get('variants', []) if v.get('available') and v.get('per_lb_low') is not None]
+        if not r.get('available') or not vs:
+            continue
+        per_lo = min(v['per_lb_low'] for v in vs)
+        per_hi = max(v['per_lb_high'] for v in vs)
+        lbs = [x for v in vs for x in (v.get('lb_low'), v.get('lb_high')) if x]
+        rows.append({'r': r, 'per_lo': per_lo, 'per_hi': per_hi,
+                     'lb_lo': min(lbs) if lbs else None, 'lb_hi': max(lbs) if lbs else None,
+                     'p_lo': min(v['price'] for v in vs), 'p_hi': max(v['price'] for v in vs),
+                     'approx': any(v.get('approx') for v in vs), 'stale': r.get('stale', False)})
+    rows.sort(key=lambda x: (x['per_lo'], x['r']['name']))
+    return rows
+
+
+def _per_lb_text(lo, hi):
+    return _money(lo) if abs(hi - lo) < 0.005 else f"{_money(lo)}–{_money(hi)}"
+
+
+def prime_rib_ticker_items(pr, compact=False):
+    """Ticker entries as (label, value, source/as-of). All values come straight from the dataset."""
+    retail = pr['retail']
+    h = pr['_headline']['cw']['avg']
+    items = []
+    items.append(('Bone-in rib roast · retail ad average', f"{_money(h)}/lb",
+                  f"USDA, ads {_fmt_md(retail['ad_period']['start'])}–{_fmt_md(retail['ad_period']['end'])}" if retail.get('ad_period') else f"USDA, {_fmt_date(retail['report_date'])}"))
+    bl = next((r for r in retail['national'] if r['cut'] == 'Boneless' and r['tier'] == 'Regular' and r['env'] == 'Conventional' and r['cond'] == 'Fresh' and r.get('cw')), None)
+    if bl:
+        items.append(('Boneless rib roast · retail ad average', f"{_money(bl['cw']['avg'])}/lb", f"USDA, {_fmt_date(retail['report_date'])}"))
+    py = pr['_headline'].get('py')
+    if py:
+        items.append(('Same item a year ago', f"{_money(py['avg'])}/lb", 'USDA'))
+    w = pr.get('wholesale', {})
+    d = w.get('daily')
+    if d and d.get('ribeye_lipon_bonein_choice'):
+        items.append(('Wholesale Choice bone-in rib', f"{_money(d['ribeye_lipon_bonein_choice']['avg_cwt'] / 100)}/lb", f"USDA, {_fmt_date(d['report_date'])}"))
+    p = w.get('prime')
+    if p and p.get('ribeye_lipon_bonein_prime'):
+        items.append(('Wholesale Prime bone-in rib', f"{_money(p['ribeye_lipon_bonein_prime']['avg_cwt'] / 100)}/lb", f"USDA, week of {_fmt_date(p['report_date'])}"))
+    rows = _ranch_rows(pr)
+    if rows:
+        lo = min(x['per_lo'] for x in rows)
+        items.append((f"Ranch-direct, {len(rows)} listed offers", f"from {_money(lo)}/lb", f"checked {_fmt_date(max(x['r']['checked'] for x in rows))}"))
+    return items
+
+
+def prime_rib_ticker(pr, compact=False, label_id='prime-rib-ticker'):
+    """Scrolling strip. Reduced-motion visitors get a static, scrollable row instead."""
+    import html as _h
+    items = prime_rib_ticker_items(pr, compact)
+    def one(hidden):
+        cells = ''.join(
+            f'<li><span class="pr-t-label">{_h.escape(l)}</span> <strong>{_h.escape(v)}</strong> <span class="pr-t-src">{_h.escape(s)}</span></li>'
+            for l, v, s in items)
+        attr = ' aria-hidden="true"' if hidden else ''
+        return f'<ul class="pr-ticker-list"{attr}>{cells}</ul>'
+    return f"""<div class="pr-ticker{' pr-ticker-compact' if compact else ''}" role="region" aria-label="Prime rib price ticker">
+        <a class="pr-ticker-tag" href="{PRIME_RIB_URL}"><span aria-hidden="true">✦</span> Prime rib watch</a>
+        <div class="pr-ticker-viewport"><div class="pr-ticker-track">{one(False)}{one(True)}</div></div>
+        <a class="pr-ticker-more" href="{PRIME_RIB_URL}">Full price board →</a>
+    </div>"""
+
+
+def prime_rib_home_banner():
+    pr = load_prime_rib()
+    if not pr or not prime_rib_season_active():
+        return ''
+    return f'<section class="pr-home-banner" aria-label="Holiday prime rib prices">{prime_rib_ticker(pr, compact=True)}</section>'
+
+
+def _snow_html(n=26):
+    flakes = []
+    for i in range(n):
+        left = (i * 37) % 100
+        size = 4 + (i * 5) % 7
+        delay = -((i * 1.7) % 14)
+        dur = 11 + (i * 3) % 9
+        drift = ((i * 13) % 40) - 20
+        flakes.append(f'<i style="left:{left}%;--s:{size}px;--d:{dur}s;--dl:{delay:.1f}s;--x:{drift}px"></i>')
+    return '<div class="pr-snow" aria-hidden="true">' + ''.join(flakes) + '</div>'
+
+
+def build_prime_rib_page():
+    """Holiday-themed prime rib market price board."""
+    import html as _h
+    from datetime import date as _d
+    pr = load_prime_rib()
+    if not pr:
+        print("! prime rib data missing, skipped /prime-rib-price/")
+        return
+    E = _h.escape
+    retail = pr['retail']
+    head = pr['_headline']
+    cw, pw, py = head['cw'], head.get('pw'), head.get('py')
+    reg = [r for r in retail['regional'] if r['cut'] == 'Bone-In' and r['tier'] == 'Regular' and r['env'] == 'Conventional' and r['cond'] == 'Fresh']
+    low = min(r['low'] for r in reg)
+    high = max(r['high'] for r in reg)
+    report_iso = retail['report_date']
+    age_days = (_d.today() - _d.fromisoformat(report_iso)).days
+    ad = retail.get('ad_period')
+    period_txt = f"ads running {_fmt_date(ad['start'])} – {_fmt_date(ad['end'])}" if ad else f"report dated {_fmt_date(report_iso)}"
+    stale_html = ''
+    if age_days > 10:
+        stale_html = f'<p class="note pr-stale">The USDA retail report behind this page is {age_days} days old. A newer one may be out; check the source links below.</p>'
+
+    # --- change vs last week / last year (USDA's own columns)
+    def delta(prev):
+        if not prev:
+            return ''
+        diff = cw['avg'] - prev['avg']
+        sign = '+' if diff >= 0 else '−'
+        return f"{sign}{_money(abs(diff))}"
+    chips = []
+    if py:
+        chips.append(f'<li><span>A year ago</span><strong>{_money(py["avg"])}/lb</strong><em>{delta(py)} · {py["stores"]:,} stores</em></li>')
+    if pw:
+        chips.append(f'<li><span>Last week</span><strong>{_money(pw["avg"])}/lb</strong><em>{delta(pw)} · only {pw["stores"]:,} stores advertised it</em></li>')
+    chips.append(f'<li><span>This week</span><strong>{_money(cw["avg"])}/lb</strong><em>{cw["stores"]:,} stores advertised it</em></li>')
+    chips_html = ''.join(chips)
+
+    # --- by-grade store-weighted average (computed from USDA's regional rows)
+    grade_order = ['Choice', 'Prime', 'Select', 'Ungraded/Other', 'Branded - Choice', 'Branded - Prime']
+    grade_label = {'Choice': 'USDA Choice', 'Prime': 'USDA Prime', 'Select': 'USDA Select', 'Ungraded/Other': 'No grade stated',
+                   'Branded - Choice': 'Branded Choice', 'Branded - Prime': 'Branded Prime'}
+    grade_avgs = {}
+    for g in grade_order:
+        rs = [r for r in reg if r['grade'] == g]
+        st = sum(r['stores'] for r in rs)
+        if st:
+            grade_avgs[g] = (sum(r['avg'] * r['stores'] for r in rs) / st, st, min(r['low'] for r in rs), max(r['high'] for r in rs))
+    grade_cards = ''.join(
+        f'<li><span>{grade_label[g]}</span><strong>{_money(a)}/lb</strong><em>{_money(lo)}–{_money(hi)} · {st:,} stores</em></li>'
+        for g, (a, st, lo, hi) in grade_avgs.items())
+
+    # --- region x grade matrix
+    regions = []
+    for r in reg:
+        if r['region'] not in regions:
+            regions.append(r['region'])
+    region_note = {'Northeast': 'CT DE MA MD ME NH NJ NY PA RI VT', 'Southeast': 'AL FL GA MS NC SC TN VA WV',
+                   'Midwest': 'IA IL IN KY MI MN ND NE OH SD WI', 'South Central': 'AR CO KS LA MO NM OK TX',
+                   'Southwest': 'AZ CA NV UT', 'Northwest': 'ID MT OR WA WY', 'Alaska': 'AK', 'Hawaii': 'HI'}
+    cols = [g for g in grade_order if g in grade_avgs]
+    head_row = '<th scope="col">Region</th>' + ''.join(f'<th scope="col">{grade_label[g]}</th>' for g in cols)
+    body_rows = ''
+    for rg in regions:
+        tds = ''
+        for g in cols:
+            m = next((r for r in reg if r['region'] == rg and r['grade'] == g), None)
+            tds += (f'<td><strong>{_money(m["avg"])}</strong><small>{_money(m["low"])}–{_money(m["high"])} · {m["stores"]:,}</small></td>' if m else '<td class="pr-none">—</td>')
+        body_rows += f'<tr><th scope="row">{E(rg)}<small>{region_note.get(rg, "")}</small></th>{tds}</tr>'
+
+    # --- other retail items
+    other = []
+    for r in retail['national']:
+        if not r.get('cw') or (r['env'] != 'Conventional' or r['cond'] != 'Fresh'):
+            continue
+        if (r['cut'], r['tier']) == ('Bone-In', 'Regular'):
+            continue
+        other.append(r)
+    other_rows = ''.join(
+        f"<tr><th scope=\"row\">{r['cut']} rib roast, {'value-priced' if r['tier'] == 'Value' else 'regular'}</th><td><strong>{_money(r['cw']['avg'])}/lb</strong></td><td>{r['cw']['stores']:,}</td>"
+        f"<td>{_money(r['pw']['avg']) + '/lb' if r.get('pw') else '—'}</td><td>{_money(r['py']['avg']) + '/lb' if r.get('py') else '—'}</td></tr>"
+        for r in other)
+    dinner = retail.get('prime_rib_dinner')
+    dinner_html = ''
+    if dinner:
+        dinner_html = (f'<p class="pr-fine">Not cooking? USDA also tracked fully cooked prime rib dinners (serves {dinner["servings"]}): '
+                       f'average {_money(dinner["avg"])}, advertised from {_money(dinner["low"])} to {_money(dinner["high"])}'
+                       + (f', at {dinner["pct_stores"]}% of surveyed stores' if dinner.get('pct_stores') else '') + '.</p>')
+
+    # --- wholesale
+    wh = pr.get('wholesale', {})
+    wcards = ''
+    d = wh.get('daily')
+    if d:
+        c = d['ribeye_lipon_bonein_choice']
+        wcards += (f'<li><span>Choice bone-in rib (IMPS 109E), 0–21 day delivery</span><strong>{_money(c["avg_cwt"] / 100)}/lb</strong>'
+                   f'<em>{_money(c["low_cwt"] / 100)}–{_money(c["high_cwt"] / 100)} · {c["trades"]} trades · {c["pounds"]:,} lb · {_fmt_date(d["report_date"])} {d.get("session") or ""}</em></li>')
+        wcards += (f'<li><span>Primal rib value, Choice / Select</span><strong>{_money(d["primal_rib_choice_cwt"] / 100)} / {_money(d["primal_rib_select_cwt"] / 100)} per lb</strong>'
+                   f'<em>Whole rib primal, USDA cutout · {_fmt_date(d["report_date"])}</em></li>')
+    p = wh.get('prime')
+    if p:
+        c = p['ribeye_lipon_bonein_prime']
+        wcards += (f'<li><span>Prime bone-in rib (IMPS 109E), weekly</span><strong>{_money(c["avg_cwt"] / 100)}/lb</strong>'
+                   f'<em>{_money(c["low_cwt"] / 100)}–{_money(c["high_cwt"] / 100)} · {c["trades"]} trades · week reported {_fmt_date(p["report_date"])}</em></li>')
+
+    # --- ranch-direct
+    rrows = _ranch_rows(pr)
+    listed = {l['slug'] for l in listings}
+    ranch_html = ''
+    for x in rrows:
+        r = x['r']
+        name = E(r['name'])
+        name_html = f'<a href="/listings/{r["slug"]}/">{name}</a>' if r['slug'] in listed else name
+        size = ''
+        if x['lb_lo']:
+            size = (f"{x['lb_lo']:g} lb" if x['lb_lo'] == x['lb_hi'] else f"{x['lb_lo']:g}–{x['lb_hi']:g} lb")
+            if x['approx']:
+                size = '≈ ' + size
+        price = _money(x['p_lo']) if abs(x['p_hi'] - x['p_lo']) < 0.005 else f"{_money(x['p_lo'])}–{_money(x['p_hi'])}"
+        if r.get('price_note') and x['p_lo'] <= 100 and not size:
+            price = 'deposit ' + price
+        note = f'<small>{E(r["price_note"])}</small>' if r.get('price_note') else ''
+        ranch_html += (f'<tr><th scope="row">{name_html}<small>{E(r.get("state") or "")}</small></th>'
+                       f'<td><a href="{E(r["url"])}?utm_source=acreandplate&amp;utm_medium=referral&amp;utm_campaign=prime-rib-board&amp;utm_content={r["slug"]}" target="_blank" rel="noopener">{E(r["product"])}</a>{note}</td>'
+                       f'<td>{size or "—"}</td><td><strong>{_per_lb_text(x["per_lo"], x["per_hi"])}</strong>{"<small>approx.</small>" if x["approx"] else ""}</td>'
+                       f'<td>{price}</td><td>{_fmt_date(r["checked"])}{"<small>stale: last check failed</small>" if x["stale"] else ""}</td></tr>')
+    ranch_checked = max((x['r']['checked'] for x in rrows), default=None)
+    if rrows:
+        cheapest = min(rrows, key=lambda x: x['per_lo'])
+        n_ranches = len({x['r']['slug'] for x in rrows})
+    ranch_intro = ''
+    if rrows:
+        ranch_intro = (f'<p class="section-intro">{n_ranches} listed ranches have a rib roast in stock right now with a stated weight, from '
+                       f'{_money(cheapest["per_lo"])}/lb at {E(cheapest["r"]["name"])} up to {_money(max(x["per_hi"] for x in rrows))}/lb. '
+                       f'These are named-herd, ranch-raised roasts, mostly frozen and shipped, so shipping is extra and the comparison with grocery ads is loose.</p>')
+
+    # --- sources
+    srcs = [
+        (retail['source'], retail['url'], f"Report dated {_fmt_date(report_iso)}; {period_txt}", 'Retail advertised prices (the headline numbers)'),
+    ]
+    if d:
+        srcs.append((d['source'], d['url'], f"{_fmt_date(d['report_date'])} ({d.get('session') or ''})", 'Wholesale Choice rib price and primal rib value'))
+    if p:
+        srcs.append((p['source'], p['url'], f"Week reported {_fmt_date(p['report_date'])}", 'Wholesale Prime rib price'))
+    if rrows:
+        srcs.append(('Ranch websites (product pages linked in the table)', '/listings/', f"Checked {_fmt_date(ranch_checked)}", 'Ranch-direct prices; $/lb only where the ranch states the weight'))
+    def ext(u):
+        return '' if u.startswith('/') else ' target="_blank" rel="noopener"'
+    src_rows = ''.join(
+        f'<tr><th scope="row"><a href="{E(u)}"{ext(u)}>{E(n)}</a></th><td>{E(a)}</td><td>{E(w)}</td></tr>' for n, u, a, w in srcs)
+
+    week_note = ''
+    if pw and pw['stores'] < cw['stores']:
+        week_note = (f"Last week's {_money(pw['avg'])} came from far fewer advertising stores ({pw['stores']:,} vs {cw['stores']:,}), "
+                     "so part of the week-over-week jump reflects which stores were running ads, not only price changes.")
+    ticker = prime_rib_ticker(pr)
+    usda_note = retail.get('usda_note')
+    content = f"""
+    <section class="page-header pr-hero">
+        {_snow_html()}
+        <div class="pr-garland" aria-hidden="true"></div>
+        <div class="container pr-hero-inner">
+            <p class="breadcrumb"><a href="/">Home</a> / <a href="/deals/">Deals</a> / Prime rib price board</p>
+            <p class="pr-eyebrow"><span aria-hidden="true">✦</span> Holiday roast season <span aria-hidden="true">✦</span></p>
+            <h1>What a prime rib roast costs right now.</h1>
+            <p class="pr-deck">Standing rib roast, bone-in rib roast, prime rib: same holiday centerpiece, three names. Here is the current market price per pound, straight from USDA reports and ranch shops, with the source and date on every number.</p>
+        </div>
+        <div class="pr-ribbon" aria-hidden="true"><span></span></div>
+    </section>
+    {ticker}
+    <section class="pr-board">
+        <div class="container">
+            {stale_html}
+            <div class="pr-headline">
+                <div class="pr-headline-main">
+                    <p class="pr-kicker">National retail ad average · bone-in rib roast</p>
+                    <p class="pr-big" aria-label="{_money(cw['avg'])} per pound">{_money(cw['avg'])}<small>/lb</small></p>
+                    <p class="pr-range">Advertised from <strong>{_money(low)}</strong> to <strong>{_money(high)}</strong> per lb across all grades, brands and regions</p>
+                    <p class="pr-src">Source: <a href="{E(retail['url'])}" target="_blank" rel="noopener">USDA AMS Market News, Weekly Grocery Store Beef Feature Activity</a> · report dated {_fmt_date(report_iso)} · {period_txt}.</p>
+                </div>
+                <ul class="pr-chips" aria-label="Comparison to last week and last year">{chips_html}</ul>
+            </div>
+            <p class="pr-fine">This is the average advertised price for conventional, fresh, regular-priced bone-in ribeye (rib) roasts at grocery stores USDA surveys, weighted by the number of stores running the ad. {E(usda_note) if usda_note else ''} {week_note}</p>
+
+            <h2 class="pr-h2">By grade</h2>
+            <p class="section-intro">Store-weighted averages calculated by Acre &amp; Plate from USDA's regional rows (bone-in, regular-priced, conventional, fresh). Range is the lowest and highest advertised price.</p>
+            <ul class="pr-cards">{grade_cards}</ul>
+
+            <h2 class="pr-h2">By region</h2>
+            <p class="section-intro">Average advertised price per lb, with the low–high range and number of stores below each figure. A dash means USDA recorded no ads in that group.</p>
+            <div class="pr-table-wrap"><table class="pr-table"><thead><tr>{head_row}</tr></thead><tbody>{body_rows}</tbody></table></div>
+
+            <h2 class="pr-h2">Other rib roasts at the grocery store</h2>
+            <div class="pr-table-wrap"><table class="pr-table pr-table-narrow"><thead><tr><th scope="col">Item</th><th scope="col">This week</th><th scope="col">Stores</th><th scope="col">Last week</th><th scope="col">Last year</th></tr></thead><tbody>{other_rows}</tbody></table></div>
+            {dinner_html}
+        </div>
+    </section>
+
+    <section class="pr-wholesale">
+        <div class="container">
+            <p class="pr-eyebrow pr-eyebrow-dark">Wholesale reference</p>
+            <h2 class="pr-h2">What the rib costs before it reaches the case</h2>
+            <p class="section-intro"><strong>Wholesale, not retail.</strong> These are negotiated packer prices, FOB plant, for an uncut bone-in rib (lip-on ribeye). They are not what you pay at a counter, and the store still trims, cuts and packages the roast. Advertised grocery prices are promotional, which is why they can sit below the wholesale box price.</p>
+            <ul class="pr-cards">{wcards}</ul>
+        </div>
+    </section>
+
+    <section class="pr-ranches">
+        <div class="container">
+            <p class="pr-eyebrow pr-eyebrow-dark">Ranch-direct</p>
+            <h2 class="pr-h2">Prime rib from ranches in our directory</h2>
+            {ranch_intro}
+            <div class="pr-table-wrap"><table class="pr-table pr-table-ranch"><thead><tr><th scope="col">Ranch</th><th scope="col">Roast (ranch's product page)</th><th scope="col">Size</th><th scope="col">Price / lb</th><th scope="col">Price</th><th scope="col">Checked</th></tr></thead><tbody>{ranch_html}</tbody></table></div>
+            <p class="pr-fine">Only in-stock roasts where the ranch states the weight or a per-pound price are shown. Many are pre-orders with ship weeks in December; shipping and final weights vary, so confirm on the ranch's page before you order. Grass-fed, Akaushi and Wagyu roasts are not the same product as a commodity Choice roast. <a href="/listings/">Browse every ranch →</a> · <a href="/deals/">Current deals →</a></p>
+        </div>
+    </section>
+
+    <section class="pr-sources">
+        <div class="container">
+            <h2 class="pr-h2">Sources and as-of dates</h2>
+            <div class="pr-table-wrap"><table class="pr-table pr-table-narrow"><thead><tr><th scope="col">Source</th><th scope="col">As of</th><th scope="col">Used for</th></tr></thead><tbody>{src_rows}</tbody></table></div>
+            <p class="pr-fine">Each number above is read from the source and date shown here; run <code>scripts/update_prime_rib.py</code> to re-read them. They are reports, not offers: store ads, wholesale trades and ranch prices change, so always confirm at the seller. Acre &amp; Plate does not sell beef. Page data updated {_fmt_date(pr['generated_at'][:10])}.</p>
+        </div>
+    </section>
+    """
+    meta = (f"Current prime rib (standing rib roast) price per pound: {_money(cw['avg'])}/lb average in grocery ads, "
+            f"from USDA, plus wholesale and ranch-direct prices. Updated {_fmt_date(report_iso)}.")
+    html = base_template("Prime Rib Price Today", content, meta)
+    write_page('prime-rib-price/index.html', html)
+
 
 def build_deals_page():
     """Build deals hub page"""
@@ -2311,6 +2678,9 @@ def main():
     
     # Deals page
     build_deals_page()
+
+    # Holiday prime rib price board
+    build_prime_rib_page()
     
     # Markets page
     build_markets_page()
@@ -2326,6 +2696,7 @@ def main():
     print("✓ Built hub pages (wagyu, akaushi, heritage, alabama, alaska, arizona, arkansas, connecticut, delaware, indiana, iowa, kansas, kentucky, louisiana, maine, maryland, massachusetts, michigan, minnesota, mississippi, missouri, nebraska, nevada, new-hampshire, new-jersey, new-mexico, new-york, north-carolina, north-dakota, ohio, oklahoma, pennsylvania, rhode-island, south-carolina, south-dakota, tennessee, texas, utah, vermont, virginia, california, colorado, florida, georgia, hawaii, idaho, montana, oregon, washington, west-virginia, wisconsin, wyoming)")
     print("✓ Built guide and about pages")
     print(f"✓ Built deals page with {len(deals)} deals")
+    print("✓ Built prime rib price board")
     print(f"✓ Built markets page with {len(markets)} farmers markets and {len(butchers)} butcher shops")
     print(f"✓ Built news page with {len(news_items)} updates")
     print(f"✓ Built {len(news_items)} individual news story pages")
