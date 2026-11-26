@@ -60,6 +60,7 @@ Add a new entry to the `listings` array:
 - **shipping** (required): Shipping details
 - **description** (optional but recommended): Brief ranch description
 - **phone** (optional): Public phone number
+- **instagram** (optional): Public Instagram profile URL
 - **note** (optional): Important limitations or gaps
 - **featured** (optional): Set to `true` for homepage feature (max 3-4)
 
