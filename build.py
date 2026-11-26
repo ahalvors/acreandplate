@@ -2293,7 +2293,7 @@ def main():
         "Massachusetts Ranches",
         "massachusetts",
         lambda l: l.get('state') == 'MA',
-        "Massachusetts farms selling 100% grass-fed Angus beef by the cut from conserved central Massachusetts farmland, with farm pickup and frozen shipping around New England, New York and New Jersey."
+        "Massachusetts farms selling grass-fed beef direct, from Angus cuts on conserved central Massachusetts farmland with frozen shipping around New England, New York and New Jersey, to certified grassfed Hereford beef on the South Coast with delivery around Boston and Providence."
     )
     
     # Guide

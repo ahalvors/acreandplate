@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 24, 2026  
+**Last Updated:** November 25, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 111
+- **Total Ranches:** 112
 - **Beyond Beef Farms:** 2 (kept out of the ranch count and state hubs)
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
@@ -29,7 +29,7 @@
 - **Louisiana Ranches:** 1
 - **Maine Ranches:** 1
 - **Maryland Ranches:** 2
-- **Massachusetts Ranches:** 1
+- **Massachusetts Ranches:** 2
 - **Michigan Ranches:** 2
 - **Minnesota Ranches:** 2
 - **Missouri Ranches:** 2
@@ -65,7 +65,7 @@
 - **Wisconsin Ranches:** 2
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 2
-- **Total Pages:** 200 public URLs in `sitemap.xml`
+- **Total Pages:** 203 public URLs in `sitemap.xml`
 
 ## Pages Built
 
@@ -86,7 +86,7 @@
 - ✅ Alabama hub (`/alabama/`) - 2 ranches
 - ✅ Alaska hub (`/alaska/`) - 1 ranch
 - ✅ Hawaii hub (`/hawaii/`) - 1 ranch
-- ✅ Massachusetts hub (`/massachusetts/`) - 1 ranch
+- ✅ Massachusetts hub (`/massachusetts/`) - 2 ranches
 - ✅ New Hampshire hub (`/new-hampshire/`) - 1 ranch
 - ✅ Connecticut hub (`/connecticut/`) - 1 ranch
 - ✅ Rhode Island hub (`/rhode-island/`) - 1 ranch
@@ -455,6 +455,7 @@ python3 build.py
 - 📅 **Nov 23, 2026 PT nightly ship:** Added **Purely Pastured Farm** (Foley, AL; 14190 Joe Norris Lane, Foley, AL 36535, Baldwin County) — second Alabama listing, next to Diamond D Ranch in Ramer. Family farm of Robert (Rob) and Maegen Benford and their three boys. The farm says its beef is 100% grass-fed and grass-finished, rotationally grazed, and never given antibiotics, hormones, mRNA, or other vaccinations. Also raises pastured pork, chicken, and eggs. Cuts sold by the pound: filet steak (2") $46.50/lb, chuck eye steak $19/lb, picanha $18/lb, chuck roast $13.25/lb, brisket $12.75/lb. Steak & Burger Box small (6-8 lb) $125 (regular $150), large (12-14 lb) $229 (regular $250). Quarter, half, and whole shares are reserved by deposit for January processing. A 1/4 share is a $375 deposit at $7.75/lb hanging weight (the farm estimates about 192 lb hanging, about 130-145 lb take-home, about $1,488 for the beef plus about $225 processing paid to the processor). A 3.5% fee applies to credit cards. No shipping. Farm pickup by appointment in Baldwin County plus select local pickup locations; home delivery within a 22-mile radius for Subscribe & Save customers ($200 minimum, first Monday monthly). The farm says it serves South Alabama and Northwest Florida (Mobile, Pensacola, Fairhope, Daphne, Gulf Shores, Orange Beach area). Shares are farm pickup. Phone 251-233-9407. Email purelypasturedfarm@gmail.com. Alabama hub copy now covers both Ramer (Diamond D Ranch: dry-aged, grass-fed grain-finished, Montgomery Curb Market pickup, frozen shipping to the contiguous U.S.) and Foley. Re-verified all 3 deals unchanged and in stock: Long Hill 15 lb ground $180 (regular $195), Mossyrock WAGYU BBQ BOX $395 (regular $475), Oreganic Crockpot Comfort Box $199 (regular $229); verified_at set to 2026-11-23. No other deal fields changed. Gaps/caveats: breed not stated (breeds left empty); no certifications stated; half and whole deposit amounts are not stated; select local pickup locations are not named; no shipping; listing pages still render phone but not the email field. A.W. Cox Farm (Centreville/Brent, AL; Hereford, grass-finished) was skipped tonight because its site would not load. Remaining single-listing states (multi-state labels ignored): AK, AZ, CT, DE, HI, ID, LA, ME, MA, NV, NH, NJ, ND, RI, WV. Page count: `build.py` prints 153 (110 listings + 25 news stories + 18). The sitemap this build writes lists 199 public URLs, up from 198 (`featured/thanks` is generated and left out of the sitemap). Total: 110 ranches, 3 deals, 50 state hubs, 199 public pages.
 
 - 📅 **Nov 24, 2026 nightly ship:** Added **Graystone Acres** (Mannington/Plum Run, WV; 487 Plum Run Rd, Mannington, WV 26582) — second West Virginia listing. Veteran- and family-owned beef farm established in 1968 by Tom Fluharty, in an area his family has farmed for ten generations; grandson David Fluharty took over operations in 2020 after leaving the Army, and David and Hope Fluharty run it today. The farm says its cattle are 100% grass-fed and grass-finished, pasture-raised, and rotationally grazed in north-central West Virginia. Also raises pasture-raised chicken. Sells individual cuts, ground beef (80/20), subscription and mix boxes, and bulk beef (quarter, half, and whole, by deposit). No shipping stated. Pickup one Saturday a month at set pickup locations and home delivery one Saturday a month to Fairmont and Morgantown (dates shown in the online store). Bulk quarter, half, and whole orders are picked up from the butcher. Email dave.fluharty@graystoneacres.com; no public phone. Sells through a Barn2Door online store (https://app.barn2door.com/graystoneacres/all); store prices could not be read, so none are listed. Mailing address 487 Plum Run Rd, Mannington, WV 26582; the farm is a private residence and does not allow visits. Breed not stated. No certifications stated; the farm says it takes part in West Virginia Grown, Homegrown by Heroes, and Farmer Veteran Coalition (farm's own statement). West Virginia hub copy still covers both Romney (Triple E Farms: on-farm store, frozen shipping to the lower 48) and now Mannington/Plum Run. Re-verified all 3 deals unchanged and in stock: Long Hill 15 lb ground $180 (regular $195), Mossyrock WAGYU BBQ BOX $395 (regular $475), Oreganic Crockpot Comfort Box $199 (regular $229); verified_at set to 2026-11-24. Gaps/caveats: breed not stated (breeds left empty); no certifications claimed; no public phone; store prices (Barn2Door, JS-only) were not readable; no shipping stated; bulk deposit amounts are on the store but were not read. Remaining single-listing states (multi-state labels ignored): AK, AZ, CT, DE, HI, ID, LA, ME, MA, NV, NH, NJ, ND, RI. Page count: `build.py` prints 154 (111 listings + 25 news stories + 18). The sitemap this build writes lists 200 public URLs, up from 199 (`featured/thanks` is generated and left out of the sitemap). Total: 111 ranches, 3 deals, 50 state hubs, 200 public pages.
+- 📅 **Nov 25, 2026 PT nightly ship:** Added **Jordan Farm** (South Dartmouth, MA, South Coast) — second Massachusetts listing, next to Maple Hill Farm in Hardwick. Family-run farm with a closed Hereford cow/calf herd, all born and raised in South Dartmouth, rotationally grazed on about 70 acres of clover and grass pasture with locally grown winter hay; no-till field rotation and seaweed licks; no growth hormones, antibiotics or chemical de-wormers, per the farm. Certified Grassfed and Animal Welfare Approved by A Greener World and Regenified Tier 3 (farm's statement); not certified organic (farm expects fields 2026, animals 2027). Bulk: whole ~387 lb ~$12.75/lb (~$4,931), half ~193 lb ~$13.00/lb (~$2,509), quarter ~100 lb ~$13.50/lb (~$1,350); cuts by the pound (ground $10, NY strip $18, tenderloin $26). Order by request form with a quote; delivery in Greater Boston and Greater Providence plus local pickup; also at Davoll's General Store and Coastal Foodshed. orders@jordanfarm.com; no public phone; no shipping stated. Massachusetts hub intro broadened to cover both farms. Re-verified all 3 deals unchanged (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Backlog: second listings for AZ, NV, ME, LA, ND, HI, NH, CT, RI, NJ, DE, AK. Total: 112 ranches, 3 deals, 50 state hubs, 203 sitemap URLs.
 
 ## Next Steps / Future Enhancements
 
