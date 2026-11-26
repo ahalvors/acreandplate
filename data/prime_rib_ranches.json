@@ -1,0 +1,206 @@
+{
+ "_comment": "Listed ranches whose own Shopify product feed is checked for prime rib / rib roast prices by scripts/update_prime_rib.py. $/lb is computed only when the variant title states the weight.",
+ "ranches": [
+  {
+   "slug": "john-henrys-meats",
+   "name": "John Henry's Meats",
+   "state": "MI",
+   "shop": "https://johnhenrys.net",
+   "handle": "prime-rib-bone-in",
+   "cut": "Bone-in"
+  },
+  {
+   "slug": "john-henrys-meats",
+   "name": "John Henry's Meats",
+   "state": "MI",
+   "shop": "https://johnhenrys.net",
+   "handle": "prime-rib-boneless",
+   "cut": "Boneless"
+  },
+  {
+   "slug": "pacific-rogue-wagyu",
+   "name": "Pacific Rogue Wagyu",
+   "state": "OR",
+   "shop": "https://www.pacificroguewagyu.com",
+   "handle": "prime-rib-roast",
+   "cut": null
+  },
+  {
+   "slug": "five-marys-ranch",
+   "name": "Five Marys Ranch",
+   "state": "CA",
+   "shop": "https://fivemarysmeats.com",
+   "handle": "waitlist-4-pr",
+   "cut": null,
+   "weights": [
+    {
+     "match": "LARGE",
+     "text": "Large : 7-9 lbs | $525",
+     "lb_low": 7,
+     "lb_high": 9
+    }
+   ]
+  },
+  {
+   "slug": "five-marys-ranch",
+   "name": "Five Marys Ranch",
+   "state": "CA",
+   "shop": "https://fivemarysmeats.com",
+   "handle": "waitlist-pr",
+   "cut": null,
+   "weights": [
+    {
+     "match": "GRAND",
+     "text": "Grand : 15-18 lbs | $850",
+     "lb_low": 15,
+     "lb_high": 18
+    }
+   ]
+  },
+  {
+   "slug": "grand-view-beef",
+   "name": "Grand View Beef",
+   "state": "IA",
+   "shop": "https://www.grandviewbeef.com",
+   "handle": "grass-fed-prime-rib-boneless",
+   "cut": null,
+   "stated_per_lb": {
+    "match": "Boneless",
+    "text": "Price: $45/lb boneless",
+    "value": 45.0
+   },
+   "price_note": "Pre-order: the listing is a $100 deposit; the ranch sets the final price by weighing each roast."
+  },
+  {
+   "slug": "oak-barn-beef",
+   "name": "Oak Barn Beef",
+   "state": "NE",
+   "shop": "https://oakbarnbeef.com",
+   "handle": "boneless-prime-rib-roast",
+   "cut": "Boneless"
+  },
+  {
+   "slug": "heartbrand-beef",
+   "name": "HeartBrand Beef",
+   "state": "TX",
+   "shop": "https://heartbrandbeef.com",
+   "handle": "boneless-prime-rib-roast",
+   "cut": "Boneless",
+   "weights": [
+    {
+     "match": "Default",
+     "text": "Each package averages 4 pounds",
+     "lb_low": 4,
+     "lb_high": 4,
+     "approx": true
+    }
+   ]
+  },
+  {
+   "slug": "hawks-hill",
+   "name": "Hawks Hill Ranch",
+   "state": "WY",
+   "shop": "https://hawkshillranchwagyu.com",
+   "handle": "100-full-blood-wagyu-boneless-prime-rib",
+   "cut": "Boneless"
+  },
+  {
+   "slug": "hawks-hill",
+   "name": "Hawks Hill Ranch",
+   "state": "WY",
+   "shop": "https://hawkshillranchwagyu.com",
+   "handle": "100-full-blood-wagyu-bone-in-prime-rib",
+   "cut": "Bone-in"
+  },
+  {
+   "slug": "stemple-creek-ranch",
+   "name": "Stemple Creek Ranch",
+   "state": "CA",
+   "shop": "https://stemplecreek.com",
+   "handle": "beef-prime-rib-roast",
+   "cut": null,
+   "weights": [
+    {
+     "match": "3-Bone",
+     "text": "3-Bone Roast (6-7 lbs)",
+     "lb_low": 6,
+     "lb_high": 7
+    },
+    {
+     "match": "4-Bone",
+     "text": "4-Bone Roast (8-9 lbs)",
+     "lb_low": 8,
+     "lb_high": 9
+    },
+    {
+     "match": "7-Bone Roast Medium",
+     "text": "7-Bone Roast Medium (13-14 lbs)",
+     "lb_low": 13,
+     "lb_high": 14
+    },
+    {
+     "match": "7-Bone Roast Large",
+     "text": "7-Bone Roast Large (14-15 lbs)",
+     "lb_low": 14,
+     "lb_high": 15
+    }
+   ]
+  },
+  {
+   "slug": "starwalker-organic-farms",
+   "name": "StarWalker Organic Farms",
+   "state": "CA",
+   "shop": "https://starwalkerorganicfarms.com",
+   "handle": "prime-rib-roast",
+   "cut": null
+  },
+  {
+   "slug": "mariposa-ranch",
+   "name": "Mariposa Ranch",
+   "state": "CA",
+   "shop": "https://mariposaranch.com",
+   "handle": "prime-rib-roast",
+   "cut": null
+  },
+  {
+   "slug": "sunset-ridge-beef",
+   "name": "Sunset Ridge Beef",
+   "state": "NY",
+   "shop": "https://sunsetridgebeef.com",
+   "handle": "holiday-prime-rib-bone-in",
+   "cut": "Bone-in"
+  },
+  {
+   "slug": "home-place-pastures",
+   "name": "Home Place Pastures",
+   "state": "MS",
+   "shop": "https://homeplacepastures.com",
+   "handle": "beef-rib-roast-bone-in",
+   "cut": "Bone-in",
+   "weights": [
+    {
+     "match": "Default",
+     "text": "Beef Rib Roast Bone-In | 5 lbs",
+     "lb_low": 5,
+     "lb_high": 5
+    }
+   ]
+  },
+  {
+   "slug": "koopmann-family-beef",
+   "name": "Koopmann Family Beef",
+   "state": "CA",
+   "shop": "https://koopmannfamilybeef.com",
+   "handle": "prime-rib-roast",
+   "cut": null
+  },
+  {
+   "slug": "parker-pastures",
+   "name": "Parker Pastures",
+   "state": "CO",
+   "shop": "https://parkerpastures.com",
+   "handle": "whole-prime-rib-roast",
+   "cut": null
+  }
+ ]
+}
