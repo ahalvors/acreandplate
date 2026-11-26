@@ -523,3 +523,20 @@ footer .tagline { font-size:1.6rem; font-weight:700; }
 .pr-hero h1 { text-wrap:balance; }
 .pr-table-ranch td:nth-child(n+3) { white-space:nowrap; }
 .pr-table td small { white-space:nowrap; }
+
+/* prime rib cross-links, guide, FAQ */
+.pr-callout-wrap { padding:0; }
+.pr-callout { margin:1.2rem 0 0; padding:.8rem 1rem; color:#173626; background:#eef0e4; border:1px solid #c9cdb8; border-left:4px solid #9b1c2e; border-radius:var(--radius); font-size:.9rem; }
+.pr-callout span { color:#9b1c2e; margin-right:.3rem; }
+.pr-callout-wrap + section { padding-top:2.4rem; }
+.guide .pr-callout { margin-top:1.6rem; }
+.detail-main .pr-callout-ranch { margin:1.6rem 0; padding:1rem 1.2rem; background:#eef0e4; border:1px solid #c9cdb8; border-left:4px solid #9b1c2e; border-radius:var(--radius); }
+.pr-callout-ranch h2 { font-size:1.25rem; margin-bottom:.4rem; }
+.pr-callout-ranch ul { margin:0 0 .6rem 1.1rem; }
+.pr-callout-ranch p { margin:0; }
+.pr-guide { background:#efe6d3; border-top:1px solid var(--line); padding:3.2rem 0; }
+.pr-guide .pr-h2,.pr-faq .pr-h2 { margin-top:0; }
+.pr-faq { background:var(--paper); padding:3rem 0 2.4rem; }
+.pr-q { margin-top:.7rem; max-width:860px; background:var(--white); border:1px solid var(--line); border-radius:var(--radius); }
+.pr-q summary { cursor:pointer; padding:.9rem 1.1rem; font:600 1.02rem/1.35 var(--serif); color:var(--olive-900); }
+.pr-q p { padding:0 1.1rem 1rem; color:#3c4036; font-size:.92rem; }

@@ -152,7 +152,7 @@ def base_template(title: str, content: str, meta_description: str = "", og_tags:
             <p class="links">
                 <a href="/about/">About This Directory</a> · 
                 <a href="/listings/">All Ranches</a> · 
-                <a href="/beyond-beef/">Beyond Beef</a> · 
+                <a href="/beyond-beef/">Beyond Beef</a> · {footer_prime_rib()}
                 <a href="https://acreandplate.printful.me/" target="_blank" rel="noopener noreferrer">Shop</a> · 
                 <a href="mailto:hello@acreandplate.com">Contact</a> · 
                 <a href="https://www.instagram.com/acreandplate/" target="_blank" rel="noopener">Instagram</a> · 
@@ -164,6 +164,10 @@ def base_template(title: str, content: str, meta_description: str = "", og_tags:
     <script src="/assets/filter.js" defer></script>
 </body>
 </html>"""
+
+def footer_prime_rib() -> str:
+    """Footer link to the holiday price board, shown only in season and only if its data loads."""
+    return '<a href="/prime-rib-price/">Prime Rib Prices</a> · ' if (prime_rib_season_active() and prime_rib_cached()) else ''
 
 def get_build_date() -> str:
     """Get current date for footer"""
@@ -714,6 +718,7 @@ def build_listings_index():
         </div>
     </section>
     
+    {prime_rib_callout('general')}
     <section class="listings-section">
         <div class="container">
             {filter_bar(listings)}
@@ -769,6 +774,8 @@ def build_listing_detail(listing: Dict[str, Any]):
                     <li>{products_list}</li>
                 </ul>
                 
+                {prime_rib_callout('ranch', slug=listing['slug'])}
+                
                 <h2>Shipping</h2>
                 <p>{listing['shipping']}</p>
                 
@@ -818,6 +825,7 @@ def build_hub_page(title: str, slug: str, filter_fn, intro: str):
         </div>
     </section>
     
+    {prime_rib_callout('hub', hub_slugs=[l['slug'] for l in filtered])}
     <section class="listings-section">
         <div class="container">
             {filter_bar(filtered)}
@@ -874,11 +882,15 @@ def build_guide():
                     <a href="/akaushi/" class="btn-primary">Browse Akaushi Ranches</a>
                     <a href="/guides/cattle-breeds/" class="btn-secondary">Cattle Breeds Overview</a>
                 </div>
+                __PR_GUIDE_NOTE__
             </article>
         </div>
     </section>
     """
     
+    _note = prime_rib_callout('general')
+    _note = re.sub(r'</?section[^>]*>|</?div[^>]*>', '', _note) if _note else ''
+    content = content.replace('__PR_GUIDE_NOTE__', _note)
     html = base_template("Wagyu vs Akaushi Guide", content, "Understand the difference between Wagyu and Akaushi beef, and what to look for when buying ranch-direct.")
     write_page('guides/wagyu-vs-akaushi/index.html', html)
 
@@ -926,10 +938,10 @@ def _fmt_md(iso: str) -> str:
 
 
 def prime_rib_season_active() -> bool:
-    """Holiday-roast season (Nov 15 - Dec 27): the homepage ticker shows only inside this window."""
+    """Holiday-roast season (Nov 15 - Dec 31): the homepage ticker and cross-links show only inside this window."""
     from datetime import date as _d
     t = _d.today()
-    return (t.month == 11 and t.day >= 15) or (t.month == 12 and t.day <= 27)
+    return (t.month == 11 and t.day >= 15) or t.month == 12
 
 
 def _ranch_rows(pr):
@@ -1015,6 +1027,58 @@ def _snow_html(n=26):
         drift = ((i * 13) % 40) - 20
         flakes.append(f'<i style="left:{left}%;--s:{size}px;--d:{dur}s;--dl:{delay:.1f}s;--x:{drift}px"></i>')
     return '<div class="pr-snow" aria-hidden="true">' + ''.join(flakes) + '</div>'
+
+
+_PR_CACHE = {}
+
+
+def prime_rib_cached():
+    if 'd' not in _PR_CACHE:
+        _PR_CACHE['d'] = load_prime_rib()
+    return _PR_CACHE['d']
+
+
+def prime_rib_ranch_slugs():
+    """Slugs of listed ranches with an in-stock rib roast that states its weight (from data/prime_rib.json)."""
+    pr = prime_rib_cached()
+    return {x['r']['slug'] for x in _ranch_rows(pr)} if pr else set()
+
+
+def prime_rib_callout(kind='general', slug=None, hub_slugs=None):
+    """Small cross-link to the price board. Always built from data/prime_rib.json; season-gated except on ranch pages."""
+    import html as _h
+    pr = prime_rib_cached()
+    if not pr:
+        return ''
+    h = pr['_headline']['cw']['avg']
+    rd = pr['retail']['report_date']
+    if kind == 'ranch':
+        rows = [x for x in _ranch_rows(pr) if x['r']['slug'] == slug]
+        if not rows:
+            return ''
+        parts = []
+        for x in rows:
+            nm = _h.escape(x['r']['product'])
+            parts.append(f"<li><a href=\"{_h.escape(x['r']['url'])}?utm_source=acreandplate&amp;utm_medium=referral&amp;utm_campaign=directory&amp;utm_content={slug}\" target=\"_blank\" rel=\"noopener\">{nm}</a>: <strong>{_per_lb_text(x['per_lo'], x['per_hi'])}/lb</strong>{' (approx.)' if x['approx'] else ''}, checked {_fmt_date(x['r']['checked'])}</li>")
+        return (f'<div class="pr-callout pr-callout-ranch"><h2>Holiday rib roast</h2><ul>{"".join(parts)}</ul>'
+                f'<p>Grocery ads averaged <strong>{_money(h)}/lb</strong> for bone-in rib roasts in USDA\'s report dated {_fmt_date(rd)}. '
+                f'<a href="{PRIME_RIB_URL}">See the full prime rib price board →</a></p></div>')
+    if not prime_rib_season_active():
+        return ''
+    if kind == 'hub':
+        n = len(set(hub_slugs or []) & prime_rib_ranch_slugs())
+        if not n:
+            return ''
+        text = (f'<strong>{n} ranch{"es" if n != 1 else ""} on this page {"have" if n != 1 else "has"} a rib roast in stock right now.</strong> '
+                f'Compare their price per pound with grocery ads ({_money(h)}/lb average, USDA).')
+    elif kind == 'deals':
+        text = (f'<strong>Holiday roast shopping?</strong> Bone-in rib roasts are averaging <strong>{_money(h)}/lb</strong> in grocery ads '
+                f'(USDA, report dated {_fmt_date(rd)}). See how that compares with wholesale and ranch-direct prices.')
+    else:
+        text = (f'<strong>Prime Rib Watch:</strong> grocery ads for bone-in rib roasts average <strong>{_money(h)}/lb</strong> '
+                f'(USDA, report dated {_fmt_date(rd)}).')
+    return (f'<section class="pr-callout-wrap"><div class="container"><p class="pr-callout"><span aria-hidden="true">✦</span> {text} '
+            f'<a href="{PRIME_RIB_URL}">Prime rib price board →</a></p></div></section>')
 
 
 def build_prime_rib_page():
@@ -1168,6 +1232,88 @@ def build_prime_rib_page():
     src_rows = ''.join(
         f'<tr><th scope="row"><a href="{E(u)}"{ext(u)}>{E(n)}</a></th><td>{E(a)}</td><td>{E(w)}</td></tr>' for n, u, a, w in srcs)
 
+    # --- buying guide: portions x price (plain arithmetic on the sourced numbers above)
+    import statistics as _st
+    guide_html = ''
+    faq = []
+    price_cols = [('Grocery ad average', cw['avg'], f"USDA, report dated {_fmt_date(report_iso)}")]
+    if 'Prime' in grade_avgs:
+        price_cols.append(('Grocery USDA Prime ad average', grade_avgs['Prime'][0], 'USDA regional rows, store-weighted'))
+    if rrows:
+        price_cols.append(('Ranch-direct, lowest listed', min(x['per_lo'] for x in rrows), f"ranch sites, checked {_fmt_date(ranch_checked)}"))
+        price_cols.append(('Ranch-direct, middle of listed offers', _st.median([x['per_lo'] for x in rrows]), f"ranch sites, checked {_fmt_date(ranch_checked)}"))
+    th = ''.join(f'<th scope="col">{E(n)}<small>{_money(p)}/lb</small></th>' for n, p, _ in price_cols)
+    trs = ''
+    for g in (4, 6, 8, 10, 12):
+        tds = ''.join(f'<td><strong>{_money(g * p, 0)}</strong></td>' for _, p, _ in price_cols)
+        trs += f'<tr><th scope="row">{g} guests<small>about {g} lb bone-in</small></th>{tds}</tr>'
+    guide_html = f"""
+    <section class="pr-guide" id="how-much-prime-rib">
+        <div class="container">
+            <p class="pr-eyebrow pr-eyebrow-dark">Plan the table</p>
+            <h2 class="pr-h2">How much prime rib per person, and what it costs</h2>
+            <p class="section-intro">A common rule of thumb is about 1 lb of bone-in roast per person (roughly one rib for every two guests), or about ½ to ¾ lb per person for boneless. Multiply by the price per pound below. This is simple arithmetic on the prices above, before shipping, tax and trimming, not a quote.</p>
+            <div class="pr-table-wrap"><table class="pr-table"><thead><tr><th scope="col">Table size</th>{th}</tr></thead><tbody>{trs}</tbody></table></div>
+            <p class="pr-fine">Ranch-direct roasts are often grass-fed, Akaushi or Wagyu and ship frozen, so they are a different product from a commodity grocery roast. Prices shown are the sourced per-pound figures above; the "lowest" and "middle" ranch figures use the low end of each in-stock offer's per-lb range.</p>
+        </div>
+    </section>
+    """
+    lowest = min((x['per_lo'] for x in rrows), default=None)
+    faq = [
+        ("How much does prime rib cost per pound right now?",
+         f"In USDA's weekly grocery feature report dated {_fmt_date(report_iso)} ({period_txt}), bone-in rib roasts advertised at grocery stores averaged {_money(cw['avg'])} per pound, with advertised prices from {_money(low)} to {_money(high)}. "
+         + (f"Ranch-direct prime rib from ranches in the Acre & Plate directory starts at {_money(lowest)} per pound." if lowest else "")),
+        ("What is the difference between prime rib, standing rib roast and rib roast?",
+         "They are the same bone-in beef rib roast, cut from the rib primal. 'Standing rib roast' describes it roasted standing on its ribs. 'Prime rib' names the cut and is not the same as the USDA Prime quality grade; a prime rib can be USDA Choice, Prime or Select, or ungraded."),
+        ("How much prime rib do I need per person?",
+         "A common rule of thumb is about 1 pound of bone-in roast per person, roughly one rib for every two guests, or about half to three-quarters of a pound per person for boneless."),
+        ("Is the wholesale price what I will pay?",
+         "No. The USDA boxed beef figures are packer prices for an uncut rib, FOB plant. Stores trim, cut and package the roast and set their own prices, and grocery ads are promotional."),
+        ("Why is ranch-direct prime rib priced higher than grocery ads?",
+         "Grocery ads are promotional prices, mostly on commodity beef. Ranch-direct roasts are often grass-fed, Akaushi or Wagyu, are sold by the ranch rather than a chain, and usually ship frozen with shipping extra. Check each ranch's page for the exact weight and final price."),
+    ]
+    faq_html = '<section class="pr-faq"><div class="container"><h2 class="pr-h2">Prime rib price FAQ</h2>' + ''.join(
+        f'<details class="pr-q"><summary>{E(q)}</summary><p>{E(a)}</p></details>' for q, a in faq) + '</div></section>'
+
+    # --- structured data (everything from the sourced dataset)
+    import json as _json
+    page_url = 'https://acreandplate.com' + PRIME_RIB_URL
+    og_img = 'https://acreandplate.com/social/prime-rib/prime-rib-og-1200x630.png'
+    updated = pr['generated_at'][:10]
+    sources_ld = [retail['url']] + [w['url'] for w in (wh.get('daily'), wh.get('prime')) if w]
+    ld = [
+        {"@context": "https://schema.org", "@type": "WebPage", "@id": page_url, "url": page_url,
+         "name": f"Prime Rib Price Per Pound Today: {_money(cw['avg'])}/lb average (USDA)",
+         "description": f"Current prime rib (standing rib roast) price per pound from USDA grocery ad data, wholesale cutout and ranch-direct prices.",
+         "datePublished": "2026-11-26", "dateModified": updated, "inLanguage": "en-US",
+         "isPartOf": {"@type": "WebSite", "name": "Acre & Plate", "url": "https://acreandplate.com/"},
+         "primaryImageOfPage": {"@type": "ImageObject", "url": og_img, "width": 1200, "height": 630},
+         "breadcrumb": {"@id": page_url + "#breadcrumb"}},
+        {"@context": "https://schema.org", "@type": "BreadcrumbList", "@id": page_url + "#breadcrumb", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://acreandplate.com/"},
+            {"@type": "ListItem", "position": 2, "name": "Deals", "item": "https://acreandplate.com/deals/"},
+            {"@type": "ListItem", "position": 3, "name": "Prime rib price board", "item": page_url}]},
+        {"@context": "https://schema.org", "@type": "Dataset", "name": "Prime rib (bone-in rib roast) price per pound, United States",
+         "description": f"Average advertised grocery price for bone-in rib roasts ({_money(cw['avg'])}/lb, USDA report dated {report_iso}), USDA wholesale boxed beef rib prices, and ranch-direct prices from ranches listed on Acre & Plate.",
+         "url": page_url, "dateModified": updated, "creator": {"@type": "Organization", "name": "Acre & Plate", "url": "https://acreandplate.com/"},
+         "isBasedOn": sources_ld, "measurementTechnique": "Compiled from USDA AMS Market News reports and ranch product pages; each figure is shown with its source and as-of date.",
+         "variableMeasured": [{"@type": "PropertyValue", "name": "Bone-in rib roast, average advertised grocery price", "value": cw['avg'], "unitText": "USD per lb"}],
+         "temporalCoverage": f"{ad['start']}/{ad['end']}" if ad else report_iso, "spatialCoverage": "United States"},
+        {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]},
+    ]
+    ld_html = ''.join(f'<script type="application/ld+json">{_json.dumps(x, ensure_ascii=False).replace("</", "<\\/")}</script>\n    ' for x in ld)
+    title_txt = f"Prime Rib Price Per Pound Today: {_money(cw['avg'])}/lb Avg"
+    meta_txt = (f"Prime rib price per pound: {_money(cw['avg'])}/lb average in grocery ads (USDA, {_fmt_date(report_iso)}), "
+                f"plus wholesale" + (f" and ranch-direct from {_money(lowest)}/lb." if lowest else "."))
+    og = (f'<link rel="canonical" href="{page_url}">\n    <meta property="og:type" content="article">\n    <meta property="og:site_name" content="Acre &amp; Plate">\n'
+          f'    <meta property="og:title" content="{E(title_txt)} | Acre &amp; Plate">\n    <meta property="og:description" content="{E(meta_txt)}">\n'
+          f'    <meta property="og:url" content="{page_url}">\n    <meta property="og:image" content="{og_img}">\n    <meta property="og:image:width" content="1200">\n    <meta property="og:image:height" content="630">\n'
+          f'    <meta property="og:image:alt" content="Prime Rib Watch: bone-in rib roast averages {_money(cw["avg"])} per pound in grocery ads, USDA">\n'
+          f'    <meta name="twitter:card" content="summary_large_image">\n    <meta name="twitter:title" content="{E(title_txt)} | Acre &amp; Plate">\n'
+          f'    <meta name="twitter:description" content="{E(meta_txt)}">\n    <meta name="twitter:image" content="{og_img}">\n'
+          f'    <meta name="robots" content="index, follow, max-image-preview:large">\n    ' + ld_html)
+
     week_note = ''
     if pw and pw['stores'] < cw['stores']:
         week_note = (f"Last week's {_money(pw['avg'])} came from far fewer advertising stores ({pw['stores']:,} vs {cw['stores']:,}), "
@@ -1234,6 +1380,9 @@ def build_prime_rib_page():
         </div>
     </section>
 
+    {guide_html}
+    {faq_html}
+
     <section class="pr-sources">
         <div class="container">
             <h2 class="pr-h2">Sources and as-of dates</h2>
@@ -1242,9 +1391,7 @@ def build_prime_rib_page():
         </div>
     </section>
     """
-    meta = (f"Current prime rib (standing rib roast) price per pound: {_money(cw['avg'])}/lb average in grocery ads, "
-            f"from USDA, plus wholesale and ranch-direct prices. Updated {_fmt_date(report_iso)}.")
-    html = base_template("Prime Rib Price Today", content, meta)
+    html = base_template(title_txt, content, meta_txt, og)
     write_page('prime-rib-price/index.html', html)
 
 
@@ -1305,6 +1452,7 @@ def build_deals_page():
         </div>
     </section>
     
+    {prime_rib_callout('deals')}
     <section class="deals-section">
         <div class="container">
             {featured_ranch_html}
