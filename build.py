@@ -741,6 +741,14 @@ def build_listing_detail(listing: Dict[str, Any]):
     phone_html = ''
     if 'phone' in listing:
         phone_html = f'<p><strong>Phone:</strong> {listing["phone"]}</p>'
+
+    instagram_html = ''
+    if listing.get('instagram'):
+        instagram_html = (
+            '\n                    '
+            f'<p><strong>Instagram:</strong> '
+            f'<a href="{listing["instagram"]}" target="_blank" rel="noopener">Instagram</a></p>'
+        )
     
     note_html = ''
     if 'note' in listing:
@@ -782,7 +790,7 @@ def build_listing_detail(listing: Dict[str, Any]):
                 <div class="contact-info">
                     <h2>Contact</h2>
                     <p><strong>Website:</strong> <a href="{listing['url']}" target="_blank" rel="noopener">{listing['url']}</a></p>
-                    {phone_html}
+                    {phone_html}{instagram_html}
                 </div>
                 
                 <div class="cta">
