@@ -6,7 +6,9 @@ Holiday-themed market price page plus a reusable scrolling ticker. Every figure 
 
 - `scripts/update_prime_rib.py` reads the sources and writes `data/prime_rib.json`.
 - `data/prime_rib_ranches.json` lists the directory ranches whose own Shopify product feed is checked for a rib roast (slug, shop URL, product handle).
-- `build.py` (`build_prime_rib_page`, `prime_rib_ticker`, `prime_rib_home_banner`) renders `/prime-rib-price/` and the homepage ticker. The ticker only shows on the homepage Nov 15 – Dec 27; the page itself stays up all year.
+- `build.py` (`build_prime_rib_page`, `prime_rib_ticker`, `prime_rib_home_banner`) renders `/prime-rib-price/` and the homepage ticker. The ticker and the cross-links (site footer, deals page, listings index, state/breed hubs, ranch pages with a rib roast in stock, Wagyu vs Akaushi guide) only show Nov 15 – Dec 31 (`prime_rib_season_active()`); the page itself stays up all year.
+- SEO: `build_prime_rib_page` sets the title, meta description, canonical, OG/Twitter tags (card at `social/prime-rib/prime-rib-og-1200x630.png`) and four JSON-LD blocks (WebPage, BreadcrumbList, Dataset, FAQPage). Figures in the title, description and FAQ come from `data/prime_rib.json`, so they update on rebuild.
+- Social card images for posts live in `social/prime-rib/` (1200x630, 1080x1350, 1080x1920).
 - Styles: the `.pr-*` block at the end of `css/site.css`. Snowfall, ticker scroll and garland respect `prefers-reduced-motion`.
 
 ## Sources

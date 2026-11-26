@@ -1,6 +1,19 @@
 {
   "news": [
     {
+      "id": "prime-rib-price-board",
+      "published_at": "2026-11-26T15:20:00-08:00",
+      "headline": "New: Holiday Prime Rib Price Board, grocery avg $12.95/lb",
+      "body": "<p>Acre & Plate now has a live <a href=\"/prime-rib-price/\">Prime Rib Price Board</a> for the holidays. It shows the national grocery-ad average for a bone-in rib roast: <strong>$12.95/lb</strong> across 11,266 stores, with advertised prices from $6.99 to $20.99 per lb (a year ago: $12.84). Source: the USDA Agricultural Marketing Service weekly grocery beef feature report dated Nov 20, 2026, covering ads for Nov 14 to Nov 26.</p><p>Next to it: the USDA wholesale Choice 109E rib at $14.05/lb (Nov 25 report), and what 14 in-stock roasts from 11 ranches in the directory cost direct, <strong>$30.89 to $150 per lb</strong> as listed on each ranch's own site on Nov 26. The board also has a quick guide to how much prime rib to buy per guest.</p><p>Ranch-direct roasts usually ship frozen, and several ranches have last-ship dates before Christmas, so order early. See the board at <a href=\"/prime-rib-price/\">acreandplate.com/prime-rib-price</a> or browse <a href=\"/deals/\">holiday deals</a> and <a href=\"/listings/\">all ranches</a>. The board refreshes through Dec 31.</p>",
+      "icon": "🎄",
+      "tags": [
+        "prime-rib",
+        "holiday",
+        "prices"
+      ],
+      "image": "/social/prime-rib/prime-rib-og-1200x630.png"
+    },
+    {
       "id": "directory-milestone-62-ranches",
       "published_at": "2026-10-12T09:01:00-07:00",
       "headline": "Directory now lists 62 verified ranches",
