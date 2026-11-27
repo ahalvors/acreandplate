@@ -2669,7 +2669,7 @@ def main():
         "Tennessee Ranches",
         "tennessee",
         lambda l: l.get('state') == 'TN',
-        "Tennessee ranches raising American Wagyu beef with free-range, hormone-free practices and nationwide shipping."
+        "Tennessee ranches selling beef direct: American Wagyu from Wagyu Legacy in Fairview, with nationwide shipping and Middle Tennessee pickup and delivery; grass-fed and grass-finished, dry-aged beef from The Farm at Spring Creek in Greeneville, shipped almost anywhere in the U.S. or picked up locally; and Fullblood and F1 Wagyu from K5 Wagyu in Doyle, with farm pickup in Middle Tennessee or delivery within Tennessee only."
     )
     
     build_hub_page(
