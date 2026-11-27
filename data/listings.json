@@ -2591,6 +2591,32 @@
       "description": "Fassona Beef is a California ranch raising Fassona (Piedmontese) cattle and selling beef direct to consumers. The farm traces its family's roots to Piedmont, Italy, and describes Fassona as a lean, tender Italian beef breed. Shares are harvested, processed, and butchered under USDA inspection, then vacuum-sealed and flash frozen.",
       "note": "Checked 2026-11-26 from fassonabeef.com (home, About Us, Our Cattle, Purchasing & Delivery, Contact, privacy policy, and product pages for the 1/4 and 1/8 deposits and the Butcher's Box). Bulk pricing per the farm: 1/4 share deposit $500, 1/8 share deposit $300 (deposits are non-refundable and applied to the final balance); both shares are $25/lb yield weight after harvest (the farm estimates a 1/4 at about 200 lb / $5,000 and a 1/8 at about 100 lb / $2,500). Butcher's Box is 25 lb for $625 (about $25/lb). The product page also lists a club-member promo of $450; club signup details are not explained on the public pages checked. Email sales@fassonabeef.com from the privacy policy; no public phone. The farm's site describes a California ranch but says the exact ranch location and regional delivery area are still being finalized, so no street address is listed. City is listed as Red Bluff based on a December 30, 2025 PBS KVIE / Abridged interview with owner Diego Barison (photographs courtesy of Fassona), which places the ranch outside Red Bluff in Tehama County, with summer pasture near Mount Shasta. No certifications are claimed beyond USDA-inspected processing (farm's own statement). Hormone- and antibiotic-free is the farm's own claim.",
       "last_checked": "2026-11-26"
+    },
+    {
+      "slug": "prairie-soul-meats",
+      "name": "Prairie Soul Meats (Sand Ranch)",
+      "url": "https://sandranch-prairiesoulmeats.com/",
+      "state": "ND",
+      "city": "Ashley",
+      "genetics": "Home-raised, grass-finished cattle managed with regenerative grazing; no antibiotics, no added hormones, and no chemicals used on the cattle or the land they graze",
+      "breeds": [],
+      "products": [
+        "steaks (ribeye, NY strip, sirloin, tenderloin, round, hanger, flank, skirt, tri-tip)",
+        "roasts (chuck, arm, sirloin tip, round)",
+        "ground beef, including 30 lb and 60 lb bundles",
+        "brisket, short ribs, osso buco and oxtail",
+        "organ meats, suet and marrow bones",
+        "beef bundles (1/8, 1/4 and 1/2)",
+        "ready-to-eat beef (hot dogs, summer sausage, beef sticks, jerky)",
+        "grass-fed lamb and pastured pork"
+      ],
+      "shipping": "No shipping shown on the ranch's site. Order through the online store; the site also lists farmers markets and retail stores",
+      "featured": false,
+      "phone": "701-535-1052",
+      "email": "sands@drtel.net",
+      "description": "Cody and Deanna Sand's family ranch near Ashley, North Dakota, about 30 miles from the nearest town, selling home-raised, grass-finished beef direct through its own online store as Prairie Soul Meats. The store lists retail cuts, ground beef bundles and 1/8, 1/4 and 1/2 beef bundles.",
+      "note": "Breed not named on the ranch's website. Market and retail-store lists did not load on Nov 26, 2026, so specific locations aren't listed here. Shipping and delivery terms aren't stated.",
+      "last_checked": "2026-11-26"
     }
   ]
 }

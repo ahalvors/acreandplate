@@ -2662,7 +2662,7 @@ def main():
         "North Dakota Ranches",
         "north-dakota",
         lambda l: l.get('state') == 'ND',
-        "North Dakota ranches raising regenerative, 100% grass-fed and grass-finished beef born on the ranch, with home delivery to the lower 48 and Bismarck-area pickup."
+        "Two North Dakota ranches selling beef direct: regenerative, 100% grass-fed and grass-finished beef born on the ranch, with home delivery to the lower 48 and Bismarck-area pickup, and home-raised, grass-finished beef from a family ranch near Ashley sold through its own online store."
     )
     
     build_hub_page(
