@@ -5,7 +5,7 @@
 
 ## Site Statistics
 
-- **Total Ranches:** 112
+- **Total Ranches:** 113
 - **Beyond Beef Farms:** 2 (kept out of the ranch count and state hubs)
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
@@ -38,7 +38,7 @@
 - **South Dakota Ranches:** 2
 - **Texas Ranches:** 6
 - **South Carolina Ranches:** 2
-- **California Ranches:** 19
+- **California Ranches:** 22
 - **Colorado Ranches:** 2
 - **Connecticut Ranches:** 1
 - **Delaware Ranches:** 1
@@ -65,7 +65,7 @@
 - **Wisconsin Ranches:** 2
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 2
-- **Total Pages:** 203 public URLs in `sitemap.xml`
+- **Total Pages:** 206 public URLs in `sitemap.xml`
 
 ## Pages Built
 
@@ -107,7 +107,7 @@
 - ✅ Missouri hub (`/missouri/`) - 2 ranches
 - ✅ Nevada hub (`/nevada/`) - 1 ranch
 - ✅ Texas hub (`/texas/`) - 6 ranches
-- ✅ California hub (`/california/`) - 19 ranches
+- ✅ California hub (`/california/`) - 22 ranches
 - ✅ Colorado hub (`/colorado/`) - 2 ranches
 - ✅ Florida hub (`/florida/`) - 2 ranches
 - ✅ Georgia hub (`/georgia/`) - 1 ranch
@@ -223,6 +223,8 @@
 - ✅ Etta Hills Farm (Etta, MS)
 - ✅ Purely Pastured Farm (Foley, AL)
 - ✅ Graystone Acres (Mannington, WV)
+- ✅ Jordan Farm (South Dartmouth, MA)
+- ✅ Fassona Beef (Red Bluff, CA)
 
 ## Known Gaps & Notes
 
@@ -458,6 +460,8 @@ python3 build.py
 - 📅 **Nov 25, 2026 PT nightly ship:** Added **Jordan Farm** (South Dartmouth, MA, South Coast) — second Massachusetts listing, next to Maple Hill Farm in Hardwick. Family-run farm with a closed Hereford cow/calf herd, all born and raised in South Dartmouth, rotationally grazed on about 70 acres of clover and grass pasture with locally grown winter hay; no-till field rotation and seaweed licks; no growth hormones, antibiotics or chemical de-wormers, per the farm. Certified Grassfed and Animal Welfare Approved by A Greener World and Regenified Tier 3 (farm's statement); not certified organic (farm expects fields 2026, animals 2027). Bulk: whole ~387 lb ~$12.75/lb (~$4,931), half ~193 lb ~$13.00/lb (~$2,509), quarter ~100 lb ~$13.50/lb (~$1,350); cuts by the pound (ground $10, NY strip $18, tenderloin $26). Order by request form with a quote; delivery in Greater Boston and Greater Providence plus local pickup; also at Davoll's General Store and Coastal Foodshed. orders@jordanfarm.com; no public phone; no shipping stated. Massachusetts hub intro broadened to cover both farms. Re-verified all 3 deals unchanged (Long Hill $180/$195, Mossyrock $395/$475, Oreganic $199/$229). Backlog: second listings for AZ, NV, ME, LA, ND, HI, NH, CT, RI, NJ, DE, AK. Total: 112 ranches, 3 deals, 50 state hubs, 203 sitemap URLs.
 - 📅 **Nov 26, 2026 (Thanksgiving) - Prime rib price board:** Shipped `/prime-rib-price/`, a holiday-themed market price page with a scrolling ticker (also shown as a slim banner on the homepage Nov 15 – Dec 27). Headline: USDA AMS weekly grocery feature report (slug 3228, report dated Nov 20, 2026, ads Nov 14–26) shows bone-in rib roasts averaging $12.95/lb across 11,266 stores, advertised from $6.99 to $20.99/lb (last year $12.84, last week $9.87 on only 4,363 stores). Also by grade and region, boneless and value roasts, and wholesale references from USDA boxed beef (Choice 109E bone-in rib $14.05/lb on Nov 25; Prime $16.28/lb week of Nov 23; labeled wholesale). Ranch-direct panel: 11 listed ranches with a rib roast in stock and a stated weight ($30.89 to $150/lb). Data: `data/prime_rib.json`, written by `scripts/update_prime_rib.py` (config `data/prime_rib_ranches.json`); see `PRIME_RIB.md`. build.py page count prints 155; sitemap 204 URLs.
 - 📅 **Nov 26, 2026 (Thanksgiving) - Prime rib price board SEO and promotion:** Updated `/prime-rib-price/` title ("Prime Rib Price Per Pound Today: $12.95/lb Avg"), meta description, canonical, OG/Twitter tags with a new 1200x630 card, and JSON-LD (WebPage, BreadcrumbList, Dataset, FAQPage). Added a "how much prime rib per guest" table and FAQ. Season window is now Nov 15 – Dec 31 and adds season-gated links from the site footer, deals page, listings index, hub pages, ranch pages with a rib roast in stock, and the Wagyu vs Akaushi guide. Added news story `/news/prime-rib-price-board/`. Social card images in `social/prime-rib/`. Details in `PRIME_RIB.md`.
+- 📅 **Nov 26, 2026 PT:** Added **Fassona Beef** (Red Bluff, CA) — California ranch raising Fassona (Piedmontese) cattle and selling beef direct at fassonabeef.com. The farm traces its family's roots to Piedmont, Italy, and says the beef is produced without added hormones or antibiotics; finishing method is not stated. Shares are harvested, processed, and butchered under USDA inspection (farm's statement), then vacuum-sealed and flash frozen. Bulk: 1/4 share $500 deposit and 1/8 share $300 deposit (non-refundable, applied to the final balance), both $25/lb yield weight after harvest (farm estimates a 1/4 at about 200 lb / $5,000 and a 1/8 at about 100 lb / $2,500). Butcher's Box is 25 lb for $625. Ships nationwide via FedEx, frozen in insulated boxes; regional delivery may be available within about 100 miles of the ranch, and pickup from the ranch or a designated point may be arranged when available. Email sales@fassonabeef.com (privacy policy); no public phone. The farm's site describes a California ranch but says the exact ranch location is still being finalized, so no street address is listed. City is listed as Red Bluff based on a December 30, 2025 PBS KVIE / Abridged interview with owner Diego Barison (photographs courtesy of Fassona), which places the ranch outside Red Bluff in Tehama County, with summer pasture near Mount Shasta. Distinct from Certified Piedmontese (Lincoln, NE). California hub already existed; intro left as the existing general California copy. California hub count is 22 (including Hook & Cleaver, labeled CA/AZ). Total: 113 ranches, 3 deals, 50 state hubs, 206 sitemap URLs.
+
 
 ## Next Steps / Future Enhancements
 

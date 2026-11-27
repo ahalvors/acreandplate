@@ -2568,6 +2568,29 @@
       "description": "Jordan Farm is a family-run grassfed beef farm in South Dartmouth, on the South Coast of Massachusetts. Its closed Hereford herd is rotationally grazed on about 70 acres of clover and grass pasture, with winter hay grown in local fields, and the farm practices no-till field rotation and offers seaweed licks. The farm says it uses no growth hormones, antibiotics, or chemical de-wormers, and no pesticides, herbicides, or non-organic fertilizers. It is Certified Grassfed and Animal Welfare Approved by A Greener World, and certified Tier 3 regenerative by Regenified.",
       "note": "Checked 2026-11-25 from jordanfarm.com (home, About, Bulk, Cuts). Bulk prices from the farm's Bulk page: whole cow about 387 lb at about $12.75/lb (about $4,931), half about 193 lb at about $13.00/lb (about $2,509), quarter about 100 lb at about $13.50/lb (about $1,350); totals vary by animal. Cuts are priced per pound (for example ground beef $10/lb, NY strip $18/lb, tenderloin $26/lb). Orders are placed by request form and the farm replies with a quote and payment details. Certifications (A Greener World Certified Grassfed and Animal Welfare Approved; Regenified Tier 3) are as stated by the farm. Not certified organic: the farm says it follows organic practices and expects field certification in 2026 and animal certification in 2027. Email orders@jordanfarm.com; no public phone.",
       "last_checked": "2026-11-25"
+    },
+    {
+      "slug": "fassona-beef",
+      "name": "Fassona Beef",
+      "url": "https://www.fassonabeef.com/",
+      "state": "CA",
+      "city": "Red Bluff",
+      "genetics": "Fassona cattle, a Piedmontese breed native to Piedmont, Italy, per the farm. The farm says the beef is produced without added hormones or antibiotics. Finishing method is not stated.",
+      "breeds": [
+        "piedmontese"
+      ],
+      "products": [
+        "1/4 beef shares (deposit)",
+        "1/8 beef shares (deposit)",
+        "Butcher's Box (25 lb)"
+      ],
+      "shipping": "Ships nationwide via FedEx; orders are cryovac sealed, packed in insulated boxes, and shipped frozen. Regional delivery may be available within about 100 miles of the ranch (the farm says its delivery area is still being finalized). Pickup from the ranch or a designated pickup point may also be arranged when available.",
+      "phone": "",
+      "email": "sales@fassonabeef.com",
+      "featured": false,
+      "description": "Fassona Beef is a California ranch raising Fassona (Piedmontese) cattle and selling beef direct to consumers. The farm traces its family's roots to Piedmont, Italy, and describes Fassona as a lean, tender Italian beef breed. Shares are harvested, processed, and butchered under USDA inspection, then vacuum-sealed and flash frozen.",
+      "note": "Checked 2026-11-26 from fassonabeef.com (home, About Us, Our Cattle, Purchasing & Delivery, Contact, privacy policy, and product pages for the 1/4 and 1/8 deposits and the Butcher's Box). Bulk pricing per the farm: 1/4 share deposit $500, 1/8 share deposit $300 (deposits are non-refundable and applied to the final balance); both shares are $25/lb yield weight after harvest (the farm estimates a 1/4 at about 200 lb / $5,000 and a 1/8 at about 100 lb / $2,500). Butcher's Box is 25 lb for $625 (about $25/lb). The product page also lists a club-member promo of $450; club signup details are not explained on the public pages checked. Email sales@fassonabeef.com from the privacy policy; no public phone. The farm's site describes a California ranch but says the exact ranch location and regional delivery area are still being finalized, so no street address is listed. City is listed as Red Bluff based on a December 30, 2025 PBS KVIE / Abridged interview with owner Diego Barison (photographs courtesy of Fassona), which places the ranch outside Red Bluff in Tehama County, with summer pasture near Mount Shasta. No certifications are claimed beyond USDA-inspected processing (farm's own statement). Hormone- and antibiotic-free is the farm's own claim.",
+      "last_checked": "2026-11-26"
     }
   ]
 }
