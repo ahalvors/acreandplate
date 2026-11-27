@@ -2617,6 +2617,31 @@
       "description": "Cody and Deanna Sand's family ranch near Ashley, North Dakota, about 30 miles from the nearest town, selling home-raised, grass-finished beef direct through its own online store as Prairie Soul Meats. The store lists retail cuts, ground beef bundles and 1/8, 1/4 and 1/2 beef bundles.",
       "note": "Breed not named on the ranch's website. Market and retail-store lists did not load on Nov 26, 2026, so specific locations aren't listed here. Shipping and delivery terms aren't stated.",
       "last_checked": "2026-11-26"
+    },
+    {
+      "slug": "k5-wagyu",
+      "name": "K5 Wagyu",
+      "url": "https://kolstercattle.com/",
+      "state": "TN",
+      "city": "Doyle",
+      "genetics": "Registered Fullblood Black Wagyu (the ranch says 100% Wagyu genetics, registered and traceable to Japanese bloodlines) and F1 Wagyu (the ranch describes F1 as a first-generation cross of a purebred Wagyu sire and a high-quality Angus or other British breed dam). Cattle graze Tennessee pasture. Finishing method is not stated.",
+      "breeds": [
+        "wagyu"
+      ],
+      "products": [
+        "steaks (filet mignon, ribeye, Delmonico, NY strip, picanha, Denver)",
+        "ribs and roasts (center cut ribs, chuck ribs, picanha roast)",
+        "ground Wagyu, fajita strips, shaved steak, kabobs, primal blend, burger patties",
+        "quarter, half, and whole-animal packages"
+      ],
+      "shipping": "Local pickup at the farm in Middle Tennessee, or delivery within Tennessee. The ranch says it does not ship outside Tennessee at this time. Orders are vacuum-sealed, frozen, and labeled by cut and weight. No online cart; order by call, text, or inquiry.",
+      "phone": "931-254-3540",
+      "email": "jkolster@kolstercattle.com",
+      "instagram": "https://www.instagram.com/kolster_cattle_co",
+      "featured": false,
+      "description": "K5 Wagyu is the beef brand of Kolster Cattle Company, a family-owned ranch in Middle Tennessee raising Fullblood Black Wagyu and F1 Wagyu and selling beef direct by the cut, by the pound, or by the package. The ranch says it was founded by two United States Marine Corps veterans and remains entirely family-owned and operated.",
+      "note": "Checked 2026-11-26 from kolstercattle.com (home, The Ranch, Wagyu Guide, How to Order, Contact, and the Wagyu Selection / menu page). Also known as Kolster Cattle Company. Fall 2026 Harvest menu prices, which the ranch says to confirm for current stock: The Wagyu Selection — Filet Mignon $7.50/oz, Ribeye $4.50/oz, Delmonico $4.00/oz, NY Strip $3.50/oz, Picanha Steak $2.50/oz, Denver Steak $2.50/oz, Center Cut Ribs $50/lb, Chuck Ribs $40/lb, Picanha Roast $35/lb, Ground Wagyu $13.50/lb; Cattleman's Collection — Fajita Strips $24/lb, Shaved Steak $22/lb, Kabobs $18/lb, Primal Blend $15/lb, Wagyu Patties (3pk) $15/lb. The menu page heading says both collections are Full Blood Black Wagyu; the How to Order page refers to a full selection of Fullblood and F1 Wagyu cuts on the menu. Quarter, half, and whole-animal packages are offered at preferred pricing, with amounts not stated. A military and first responder discount is offered; the amount is not stated. Contact: ranch founder (931) 254-3540, jkolster@kolstercattle.com; ranch manager (931) 254-1416, nkolster@kolstercattle.com. Instagram @kolster_cattle_co. The ranch site places the farm in Middle Tennessee and does not name a town. City is listed as Doyle based on Jeffrey Kolster's LinkedIn profile (Wagyu cattle rancher, K5 Wagyu, Doyle, Tennessee, from March 2020) and the Creatures.com breeder directory entry for Kolster Cattle Co. No street address is listed. Finishing method is not stated (a headline reads \"Finished to Perfection,\" but the pages checked describe pasture grazing only). Lineage documentation on request is the ranch's own claim; no third-party certifications were listed on the pages checked.",
+      "last_checked": "2026-11-26"
     }
   ]
 }
