@@ -5,7 +5,7 @@
 
 ## Site Statistics
 
-- **Total Ranches:** 114
+- **Total Ranches:** 115
 - **Beyond Beef Farms:** 2 (kept out of the ranch count and state hubs)
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
@@ -56,7 +56,7 @@
 - **Oregon Ranches:** 3
 - **Pennsylvania Ranches:** 2
 - **Rhode Island Ranches:** 1
-- **Tennessee Ranches:** 2
+- **Tennessee Ranches:** 3
 - **Utah Ranches:** 2
 - **Vermont Ranches:** 2
 - **Virginia Ranches:** 2
@@ -65,7 +65,7 @@
 - **Wisconsin Ranches:** 2
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 2
-- **Total Pages:** 207 public URLs in `sitemap.xml`
+- **Total Pages:** 208 public URLs in `sitemap.xml`
 
 ## Pages Built
 
@@ -120,7 +120,7 @@
 - ✅ Oregon hub (`/oregon/`) - 3 ranches
 - ✅ Pennsylvania hub (`/pennsylvania/`) - 2 ranches
 - ✅ South Dakota hub (`/south-dakota/`) - 2 ranches
-- ✅ Tennessee hub (`/tennessee/`) - 1 ranch
+- ✅ Tennessee hub (`/tennessee/`) - 3 ranches
 - ✅ Utah hub (`/utah/`) - 2 ranches
 - ✅ Virginia hub (`/virginia/`) - 2 ranches
 - ✅ Washington hub (`/washington/`) - 2 ranches
@@ -225,6 +225,8 @@
 - ✅ Graystone Acres (Mannington, WV)
 - ✅ Jordan Farm (South Dartmouth, MA)
 - ✅ Fassona Beef (Red Bluff, CA)
+- ✅ Prairie Soul Meats (Sand Ranch) (Ashley, ND)
+- ✅ K5 Wagyu (Doyle, TN)
 
 ## Known Gaps & Notes
 
@@ -462,6 +464,7 @@ python3 build.py
 - 📅 **Nov 26, 2026 (Thanksgiving) - Prime rib price board SEO and promotion:** Updated `/prime-rib-price/` title ("Prime Rib Price Per Pound Today: $12.95/lb Avg"), meta description, canonical, OG/Twitter tags with a new 1200x630 card, and JSON-LD (WebPage, BreadcrumbList, Dataset, FAQPage). Added a "how much prime rib per guest" table and FAQ. Season window is now Nov 15 – Dec 31 and adds season-gated links from the site footer, deals page, listings index, hub pages, ranch pages with a rib roast in stock, and the Wagyu vs Akaushi guide. Added news story `/news/prime-rib-price-board/`. Social card images in `social/prime-rib/`. Details in `PRIME_RIB.md`.
 - 📅 **Nov 26, 2026 PT:** Added **Fassona Beef** (Red Bluff, CA) — California ranch raising Fassona (Piedmontese) cattle and selling beef direct at fassonabeef.com. The farm traces its family's roots to Piedmont, Italy, and says the beef is produced without added hormones or antibiotics; finishing method is not stated. Shares are harvested, processed, and butchered under USDA inspection (farm's statement), then vacuum-sealed and flash frozen. Bulk: 1/4 share $500 deposit and 1/8 share $300 deposit (non-refundable, applied to the final balance), both $25/lb yield weight after harvest (farm estimates a 1/4 at about 200 lb / $5,000 and a 1/8 at about 100 lb / $2,500). Butcher's Box is 25 lb for $625. Ships nationwide via FedEx, frozen in insulated boxes; regional delivery may be available within about 100 miles of the ranch, and pickup from the ranch or a designated point may be arranged when available. Email sales@fassonabeef.com (privacy policy); no public phone. The farm's site describes a California ranch but says the exact ranch location is still being finalized, so no street address is listed. City is listed as Red Bluff based on a December 30, 2025 PBS KVIE / Abridged interview with owner Diego Barison (photographs courtesy of Fassona), which places the ranch outside Red Bluff in Tehama County, with summer pasture near Mount Shasta. Distinct from Certified Piedmontese (Lincoln, NE). California hub already existed; intro left as the existing general California copy. California hub count is 22 (including Hook & Cleaver, labeled CA/AZ). Total: 113 ranches, 3 deals, 50 state hubs, 206 sitemap URLs.
 - 📅 **Nov 26, 2026 PT nightly ship:** Added **Prairie Soul Meats (Sand Ranch)** (Ashley, ND) — second North Dakota listing. Cody and Deanna Sand's family ranch, about 30 miles from town, selling home-raised, grass-finished beef through its own online store (retail cuts, 30/60 lb ground bundles, 1/8, 1/4 and 1/2 bundles, ready-to-eat beef, plus lamb and pork). Per the ranch: no antibiotics, no added hormones, no chemicals on cattle or land, regenerative grazing. Phone 701-535-1052; email sands@drtel.net. Gaps: breed not named; shipping/delivery terms not stated; market and retail-store lists did not load; no deal considered. North Dakota hub now shows 2 ranches. Re-verified all 3 active deals live with both prices (Long Hill 15 lb ground $180 reg $195, Mossyrock WAGYU BBQ BOX $395 reg $475, Oreganic Crockpot Comfort Box $199 reg $229), verified_at 2026-11-26. Prime rib board refreshed via `scripts/update_prime_rib.py` (0 source errors; USDA retail bone-in ribeye roast avg $12.95/lb, report date 2026-11-20). Total: 114 ranches, 3 deals, 207 sitemap URLs.
+- 📅 **Nov 26, 2026 PT:** Added **K5 Wagyu** (Kolster Cattle Company; Doyle, TN) — family-owned Middle Tennessee ranch raising registered Fullblood Black Wagyu and F1 Wagyu and selling beef direct at kolstercattle.com, by the cut, by the pound, or by the package. The ranch says it was founded by two U.S. Marine Corps veterans and remains entirely family-owned and operated. Cattle graze Tennessee pasture; finishing method is not stated. Fall 2026 Harvest menu prices (confirm current stock with the ranch): The Wagyu Selection — Filet Mignon $7.50/oz, Ribeye $4.50/oz, Delmonico $4.00/oz, NY Strip $3.50/oz, Picanha Steak $2.50/oz, Denver Steak $2.50/oz, Center Cut Ribs $50/lb, Chuck Ribs $40/lb, Picanha Roast $35/lb, Ground Wagyu $13.50/lb; Cattleman's Collection — Fajita Strips $24/lb, Shaved Steak $22/lb, Kabobs $18/lb, Primal Blend $15/lb, Wagyu Patties (3pk) $15/lb. Quarter, half, and whole-animal packages at preferred pricing (amounts not stated). Military and first responder discount offered (amount not stated). No online cart; order by call, text, or inquiry. Local pickup at the farm in Middle Tennessee or delivery within Tennessee only; the ranch says it does not ship outside Tennessee at this time. Orders are vacuum-sealed and frozen. Contact: ranch founder (931) 254-3540, jkolster@kolstercattle.com; ranch manager (931) 254-1416, nkolster@kolstercattle.com. Instagram @kolster_cattle_co. The ranch site says Middle Tennessee and does not name a town; city is listed as Doyle based on Jeffrey Kolster's LinkedIn profile (K5 Wagyu, Doyle, Tennessee, from March 2020) and the Creatures.com breeder directory entry for Kolster Cattle Co. No street address. Lineage documentation on request is the ranch's own claim; no third-party certifications listed on the pages checked. Tennessee hub already existed; intro left unchanged because it does not name specific farms (the existing copy still describes American Wagyu with free-range, hormone-free practices and nationwide shipping, which does not cover all three TN listings). Total: 115 ranches, 3 deals, 50 state hubs, 208 sitemap URLs.
 
 
 ## Next Steps / Future Enhancements
