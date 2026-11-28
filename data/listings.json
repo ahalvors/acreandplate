@@ -2642,6 +2642,29 @@
       "description": "K5 Wagyu is the beef brand of Kolster Cattle Company, a family-owned ranch in Middle Tennessee raising Fullblood Black Wagyu and F1 Wagyu and selling beef direct by the cut, by the pound, or by the package. The ranch says it was founded by two United States Marine Corps veterans and remains entirely family-owned and operated.",
       "note": "Checked 2026-11-26 from kolstercattle.com (home, The Ranch, Wagyu Guide, How to Order, Contact, and the Wagyu Selection / menu page). Also known as Kolster Cattle Company. Fall 2026 Harvest menu prices, which the ranch says to confirm for current stock: The Wagyu Selection — Filet Mignon $7.50/oz, Ribeye $4.50/oz, Delmonico $4.00/oz, NY Strip $3.50/oz, Picanha Steak $2.50/oz, Denver Steak $2.50/oz, Center Cut Ribs $50/lb, Chuck Ribs $40/lb, Picanha Roast $35/lb, Ground Wagyu $13.50/lb; Cattleman's Collection — Fajita Strips $24/lb, Shaved Steak $22/lb, Kabobs $18/lb, Primal Blend $15/lb, Wagyu Patties (3pk) $15/lb. The menu page heading says both collections are Full Blood Black Wagyu; the How to Order page refers to a full selection of Fullblood and F1 Wagyu cuts on the menu. Quarter, half, and whole-animal packages are offered at preferred pricing, with amounts not stated. A military and first responder discount is offered; the amount is not stated. Contact: ranch founder (931) 254-3540, jkolster@kolstercattle.com; ranch manager (931) 254-1416, nkolster@kolstercattle.com. Instagram @kolster_cattle_co. The ranch site places the farm in Middle Tennessee and does not name a town. City is listed as Doyle based on Jeffrey Kolster's LinkedIn profile (Wagyu cattle rancher, K5 Wagyu, Doyle, Tennessee, from March 2020) and the Creatures.com breeder directory entry for Kolster Cattle Co. No street address is listed. Finishing method is not stated (a headline reads \"Finished to Perfection,\" but the pages checked describe pasture grazing only). Lineage documentation on request is the ranch's own claim; no third-party certifications were listed on the pages checked.",
       "last_checked": "2026-11-26"
+    },
+    {
+      "slug": "pure-akaushi",
+      "name": "Pure Akaushi",
+      "url": "https://pureakaushi.com/",
+      "state": "ID",
+      "city": "Boise",
+      "genetics": "The ranch describes its cattle as 100% Pure Akaushi genetics with no crossbreeding. 100% Fullblood Akaushi Wagyu, pasture-raised and grass-fed on regenerative Idaho pastures. The ranch says cattle are raised without hormones, antibiotics, or GMOs, with humane treatment certification and USDA certification.",
+      "breeds": [
+        "akaushi"
+      ],
+      "products": [
+        "steaks",
+        "ground",
+        "roasts"
+      ],
+      "shipping": "Ships direct with free shipping on orders over $150. The ranch says it offers online ordering through its shop.",
+      "phone": "208-340-6664",
+      "email": "hello@pureakaushi.com",
+      "featured": false,
+      "description": "Pure Akaushi is a family-run ranch in Boise, Idaho, raising 100% Fullblood Akaushi Wagyu cattle on regenerative pastures. The ranch emphasizes purity (no crossbreeding), integrity (no hormones or antibiotics), sustainability (regenerative practices), and limited-quantity harvests with hands-on stewardship.",
+      "note": "Checked 2026-11-27 from pureakaushi.com (home, about, shop pages). The ranch says it raises cattle grass-fed and pasture-raised from start to finish with a limited herd. USDA certified, non-GMO, and humane treatment certified. Specific cuts and pricing are shown on the shop page; product details were not fully accessible during verification. The ranch mentions high levels of heart-healthy oleic acid and omega-3s. Located at 404 South 8th Street, Boise, Idaho 83702.",
+      "last_checked": "2026-11-27"
     }
   ]
 }
