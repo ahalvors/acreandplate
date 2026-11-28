@@ -1,11 +1,11 @@
 # Acre & Plate - Status
 
-**Last Updated:** November 26, 2026  
+**Last Updated:** November 27, 2026  
 **Build Status:** ✅ Passing
 
 ## Site Statistics
 
-- **Total Ranches:** 115
+- **Total Ranches:** 116
 - **Beyond Beef Farms:** 2 (kept out of the ranch count and state hubs)
 - **Ranch Contact Sheet:** 28 of 38 have public business emails (74%)
 - **Active Deals:** 3
@@ -65,7 +65,7 @@
 - **Wisconsin Ranches:** 2
 - **Wyoming Ranches:** 3
 - **Ohio Ranches:** 2
-- **Total Pages:** 208 public URLs in `sitemap.xml`
+- **Total Pages:** 209 public URLs in `sitemap.xml`
 
 ## Pages Built
 
@@ -177,6 +177,7 @@
 - ✅ Kauboi Ranch (OR)
 - ✅ Pacific Rogue Wagyu (OR)
 - ✅ Alderspring Ranch (ID)
+- ✅ Pure Akaushi (ID)
 - ✅ Darlington Ranch Co. (MT)
 - ✅ Arizona Grass Raised Beef (AZ)
 - ✅ Parker Pastures (CO)
@@ -465,6 +466,7 @@ python3 build.py
 - 📅 **Nov 26, 2026 PT:** Added **Fassona Beef** (Red Bluff, CA) — California ranch raising Fassona (Piedmontese) cattle and selling beef direct at fassonabeef.com. The farm traces its family's roots to Piedmont, Italy, and says the beef is produced without added hormones or antibiotics; finishing method is not stated. Shares are harvested, processed, and butchered under USDA inspection (farm's statement), then vacuum-sealed and flash frozen. Bulk: 1/4 share $500 deposit and 1/8 share $300 deposit (non-refundable, applied to the final balance), both $25/lb yield weight after harvest (farm estimates a 1/4 at about 200 lb / $5,000 and a 1/8 at about 100 lb / $2,500). Butcher's Box is 25 lb for $625. Ships nationwide via FedEx, frozen in insulated boxes; regional delivery may be available within about 100 miles of the ranch, and pickup from the ranch or a designated point may be arranged when available. Email sales@fassonabeef.com (privacy policy); no public phone. The farm's site describes a California ranch but says the exact ranch location is still being finalized, so no street address is listed. City is listed as Red Bluff based on a December 30, 2025 PBS KVIE / Abridged interview with owner Diego Barison (photographs courtesy of Fassona), which places the ranch outside Red Bluff in Tehama County, with summer pasture near Mount Shasta. Distinct from Certified Piedmontese (Lincoln, NE). California hub already existed; intro left as the existing general California copy. California hub count is 22 (including Hook & Cleaver, labeled CA/AZ). Total: 113 ranches, 3 deals, 50 state hubs, 206 sitemap URLs.
 - 📅 **Nov 26, 2026 PT nightly ship:** Added **Prairie Soul Meats (Sand Ranch)** (Ashley, ND) — second North Dakota listing. Cody and Deanna Sand's family ranch, about 30 miles from town, selling home-raised, grass-finished beef through its own online store (retail cuts, 30/60 lb ground bundles, 1/8, 1/4 and 1/2 bundles, ready-to-eat beef, plus lamb and pork). Per the ranch: no antibiotics, no added hormones, no chemicals on cattle or land, regenerative grazing. Phone 701-535-1052; email sands@drtel.net. Gaps: breed not named; shipping/delivery terms not stated; market and retail-store lists did not load; no deal considered. North Dakota hub now shows 2 ranches. Re-verified all 3 active deals live with both prices (Long Hill 15 lb ground $180 reg $195, Mossyrock WAGYU BBQ BOX $395 reg $475, Oreganic Crockpot Comfort Box $199 reg $229), verified_at 2026-11-26. Prime rib board refreshed via `scripts/update_prime_rib.py` (0 source errors; USDA retail bone-in ribeye roast avg $12.95/lb, report date 2026-11-20). Total: 114 ranches, 3 deals, 207 sitemap URLs.
 - 📅 **Nov 26, 2026 PT:** Added **K5 Wagyu** (Kolster Cattle Company; Doyle, TN) — family-owned Middle Tennessee ranch raising registered Fullblood Black Wagyu and F1 Wagyu and selling beef direct at kolstercattle.com, by the cut, by the pound, or by the package. The ranch says it was founded by two U.S. Marine Corps veterans and remains entirely family-owned and operated. Cattle graze Tennessee pasture; finishing method is not stated. Fall 2026 Harvest menu prices (confirm current stock with the ranch): The Wagyu Selection — Filet Mignon $7.50/oz, Ribeye $4.50/oz, Delmonico $4.00/oz, NY Strip $3.50/oz, Picanha Steak $2.50/oz, Denver Steak $2.50/oz, Center Cut Ribs $50/lb, Chuck Ribs $40/lb, Picanha Roast $35/lb, Ground Wagyu $13.50/lb; Cattleman's Collection — Fajita Strips $24/lb, Shaved Steak $22/lb, Kabobs $18/lb, Primal Blend $15/lb, Wagyu Patties (3pk) $15/lb. Quarter, half, and whole-animal packages at preferred pricing (amounts not stated). Military and first responder discount offered (amount not stated). No online cart; order by call, text, or inquiry. Local pickup at the farm in Middle Tennessee or delivery within Tennessee only; the ranch says it does not ship outside Tennessee at this time. Orders are vacuum-sealed and frozen. Contact: ranch founder (931) 254-3540, jkolster@kolstercattle.com; ranch manager (931) 254-1416, nkolster@kolstercattle.com. Instagram @kolster_cattle_co. The ranch site says Middle Tennessee and does not name a town; city is listed as Doyle based on Jeffrey Kolster's LinkedIn profile (K5 Wagyu, Doyle, Tennessee, from March 2020) and the Creatures.com breeder directory entry for Kolster Cattle Co. No street address. Lineage documentation on request is the ranch's own claim; no third-party certifications listed on the pages checked. Tennessee hub already existed; intro left unchanged because it does not name specific farms (the existing copy still describes American Wagyu with free-range, hormone-free practices and nationwide shipping, which does not cover all three TN listings). Total: 115 ranches, 3 deals, 50 state hubs, 208 sitemap URLs.
+- 📅 **Nov 27, 2026 PT nightly ship:** Added **Pure Akaushi** (Boise, ID) — second Idaho listing. Family-run Boise ranch raising 100% Pure Akaushi (the ranch describes its cattle as 100% Pure Akaushi genetics with no crossbreeding, 100% Fullblood Akaushi Wagyu). Pasture-raised and grass-fed on regenerative Idaho pastures with hands-on stewardship and limited-quantity harvests. The ranch says cattle are raised without hormones, antibiotics, or GMOs, with humane treatment certification and USDA certification. Online shop at pureakaushi.com with free shipping on orders over $150. Phone 208-340-6664, hello@pureakaushi.com. Located at 404 South 8th Street, Boise, Idaho 83702. The ranch emphasizes high levels of heart-healthy oleic acid and omega-3s. Gaps: specific cuts and pricing were not fully accessible during verification; finishing method not stated. Idaho hub already existed; now shows 2 ranches (Alderspring Ranch + Pure Akaushi). Re-verified all 3 active deals live with both prices (Long Hill 15 lb ground $180 reg $195, Mossyrock WAGYU BBQ BOX $395 reg $475, Oreganic Crockpot Comfort Box $199 reg $229), verified_at 2026-11-27. Prime rib board refreshed via `scripts/update_prime_rib.py` (0 source errors; USDA retail bone-in ribeye roast avg $12.91/lb, report date 2026-11-27). Total: 116 ranches, 3 deals, 50 state hubs, 209 sitemap URLs.
 
 
 ## Next Steps / Future Enhancements

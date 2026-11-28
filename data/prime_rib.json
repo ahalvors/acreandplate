@@ -1,11 +1,8 @@
 {
  "retail": {
-  "report_date": "2026-11-20",
-  "ad_period": {
-   "start": "2026-11-14",
-   "end": "2026-11-26"
-  },
-  "usda_note": "Bone-in ribeye roasts averaged $12.95 per pound compared to $12.84 per pound in 2025.",
+  "report_date": "2026-11-27",
+  "ad_period": null,
+  "usda_note": null,
   "prime_rib_dinner": {
    "servings": "4-10",
    "pct_stores": 11.05,
@@ -17,44 +14,20 @@
    {
     "cut": "Bone-In",
     "tier": "Regular",
-    "env": "ABF, Grass Fed",
-    "cond": "Fresh",
-    "cw": null,
-    "pw": null,
-    "py": {
-     "stores": 311,
-     "avg": 12.99
-    }
-   },
-   {
-    "cut": "Bone-In",
-    "tier": "Regular",
     "env": "Conventional",
     "cond": "Fresh",
     "cw": {
+     "stores": 8226,
+     "avg": 12.91
+    },
+    "pw": {
      "stores": 11266,
      "avg": 12.95
     },
-    "pw": {
-     "stores": 4363,
-     "avg": 9.87
-    },
     "py": {
-     "stores": 9494,
-     "avg": 12.84
+     "stores": 7440,
+     "avg": 13.21
     }
-   },
-   {
-    "cut": "Bone-In",
-    "tier": "Regular",
-    "env": "Conventional",
-    "cond": "Frozen",
-    "cw": null,
-    "pw": {
-     "stores": 7,
-     "avg": 16.99
-    },
-    "py": null
    },
    {
     "cut": "Bone-In",
@@ -62,12 +35,12 @@
     "env": "Conventional",
     "cond": "Fresh",
     "cw": {
-     "stores": 549,
-     "avg": 10.54
+     "stores": 172,
+     "avg": 10.06
     },
     "pw": {
-     "stores": 223,
-     "avg": 11.25
+     "stores": 549,
+     "avg": 10.54
     },
     "py": null
    },
@@ -77,16 +50,16 @@
     "env": "Conventional",
     "cond": "Fresh",
     "cw": {
+     "stores": 432,
+     "avg": 13.93
+    },
+    "pw": {
      "stores": 461,
      "avg": 15.46
     },
-    "pw": {
-     "stores": 267,
-     "avg": 12.53
-    },
     "py": {
-     "stores": 1437,
-     "avg": 11.58
+     "stores": 1506,
+     "avg": 11.57
     }
    },
    {
@@ -98,7 +71,10 @@
      "stores": 84,
      "avg": 9.99
     },
-    "pw": null,
+    "pw": {
+     "stores": 84,
+     "avg": 9.99
+    },
     "py": null
    }
   ],
@@ -110,10 +86,10 @@
     "tier": "Regular",
     "env": "Conventional",
     "cond": "Fresh",
-    "stores": 313,
-    "low": 13.99,
-    "high": 15.99,
-    "avg": 15.08
+    "stores": 367,
+    "low": 14.99,
+    "high": 17.99,
+    "avg": 16.35
    },
    {
     "region": "Northeast",
@@ -141,51 +117,15 @@
    },
    {
     "region": "Northeast",
-    "grade": "Choice",
-    "cut": "Bone-In",
-    "tier": "Value",
-    "env": "Conventional",
-    "cond": "Fresh",
-    "stores": 157,
-    "low": 9.99,
-    "high": 9.99,
-    "avg": 9.99
-   },
-   {
-    "region": "Northeast",
-    "grade": "Select",
-    "cut": "Boneless",
-    "tier": "Regular",
-    "env": "Conventional",
-    "cond": "Fresh",
-    "stores": 54,
-    "low": 15.99,
-    "high": 15.99,
-    "avg": 15.99
-   },
-   {
-    "region": "Northeast",
     "grade": "Ungraded/Other",
     "cut": "Bone-In",
     "tier": "Regular",
     "env": "Conventional",
     "cond": "Fresh",
-    "stores": 220,
+    "stores": 176,
     "low": 7.99,
     "high": 14.99,
-    "avg": 9.09
-   },
-   {
-    "region": "Northeast",
-    "grade": "Ungraded/Other",
-    "cut": "Bone-In",
-    "tier": "Value",
-    "env": "Conventional",
-    "cond": "Fresh",
-    "stores": 146,
-    "low": 12.99,
-    "high": 12.99,
-    "avg": 12.99
+    "avg": 9.12
    },
    {
     "region": "Southeast",
@@ -218,10 +158,10 @@
     "tier": "Regular",
     "env": "Conventional",
     "cond": "Fresh",
-    "stores": 3762,
+    "stores": 893,
     "low": 9.98,
     "high": 15.99,
-    "avg": 13.26
+    "avg": 12.48
    },
    {
     "region": "Southeast",
@@ -246,18 +186,6 @@
     "low": 16.99,
     "high": 16.99,
     "avg": 16.99
-   },
-   {
-    "region": "Southeast",
-    "grade": "Select",
-    "cut": "Boneless",
-    "tier": "Regular",
-    "env": "Conventional",
-    "cond": "Fresh",
-    "stores": 17,
-    "low": 15.99,
-    "high": 15.99,
-    "avg": 15.99
    },
    {
     "region": "Southeast",
@@ -314,10 +242,10 @@
     "tier": "Regular",
     "env": "Conventional",
     "cond": "Fresh",
-    "stores": 106,
+    "stores": 75,
     "low": 15.97,
-    "high": 19.99,
-    "avg": 17.47
+    "high": 16.79,
+    "avg": 16.43
    },
    {
     "region": "Midwest",
@@ -338,10 +266,10 @@
     "tier": "Regular",
     "env": "Conventional",
     "cond": "Fresh",
-    "stores": 805,
+    "stores": 773,
     "low": 9.99,
     "high": 15.99,
-    "avg": 12.8
+    "avg": 12.75
    },
    {
     "region": "Midwest",
@@ -354,18 +282,6 @@
     "low": 14.99,
     "high": 14.99,
     "avg": 14.99
-   },
-   {
-    "region": "Midwest",
-    "grade": "Select",
-    "cut": "Boneless",
-    "tier": "Regular",
-    "env": "Conventional",
-    "cond": "Fresh",
-    "stores": 1,
-    "low": 15.99,
-    "high": 15.99,
-    "avg": 15.99
    },
    {
     "region": "Midwest",
@@ -422,10 +338,10 @@
     "tier": "Regular",
     "env": "Conventional",
     "cond": "Fresh",
-    "stores": 645,
+    "stores": 644,
     "low": 9.99,
     "high": 15.99,
-    "avg": 12.4
+    "avg": 12.39
    },
    {
     "region": "South Central",
@@ -458,10 +374,10 @@
     "tier": "Regular",
     "env": "Conventional",
     "cond": "Fresh",
-    "stores": 139,
+    "stores": 136,
     "low": 6.99,
     "high": 14.99,
-    "avg": 7.93
+    "avg": 7.95
    },
    {
     "region": "Southwest",
@@ -518,10 +434,10 @@
     "tier": "Regular",
     "env": "Conventional",
     "cond": "Fresh",
-    "stores": 472,
-    "low": 6.99,
+    "stores": 342,
+    "low": 7.99,
     "high": 14.99,
-    "avg": 10.56
+    "avg": 11.33
    },
    {
     "region": "Southwest",
@@ -530,10 +446,22 @@
     "tier": "Value",
     "env": "Conventional",
     "cond": "Fresh",
-    "stores": 243,
-    "low": 7.99,
+    "stores": 169,
+    "low": 9.99,
     "high": 9.99,
-    "avg": 9.38
+    "avg": 9.99
+   },
+   {
+    "region": "Southwest",
+    "grade": "Ungraded/Other",
+    "cut": "Boneless",
+    "tier": "Regular",
+    "env": "Conventional",
+    "cond": "Fresh",
+    "stores": 74,
+    "low": 8.99,
+    "high": 8.99,
+    "avg": 8.99
    },
    {
     "region": "Northwest",
@@ -549,27 +477,15 @@
    },
    {
     "region": "Northwest",
-    "grade": "Branded - Prime",
-    "cut": "Bone-In",
-    "tier": "Regular",
-    "env": "Conventional",
-    "cond": "Fresh",
-    "stores": 1,
-    "low": 17.99,
-    "high": 17.99,
-    "avg": 17.99
-   },
-   {
-    "region": "Northwest",
     "grade": "Choice",
     "cut": "Bone-In",
     "tier": "Regular",
     "env": "Conventional",
     "cond": "Fresh",
-    "stores": 603,
-    "low": 9.99,
+    "stores": 604,
+    "low": 7.99,
     "high": 16.99,
-    "avg": 14.49
+    "avg": 14.48
    },
    {
     "region": "Northwest",
@@ -602,7 +518,7 @@
     "tier": "Regular",
     "env": "Conventional",
     "cond": "Fresh",
-    "stores": 116,
+    "stores": 115,
     "low": 10.99,
     "high": 10.99,
     "avg": 10.99
@@ -621,27 +537,15 @@
    },
    {
     "region": "Alaska",
-    "grade": "Branded - Prime",
-    "cut": "Bone-In",
-    "tier": "Regular",
-    "env": "Conventional",
-    "cond": "Fresh",
-    "stores": 14,
-    "low": 17.99,
-    "high": 17.99,
-    "avg": 17.99
-   },
-   {
-    "region": "Alaska",
     "grade": "Choice",
     "cut": "Bone-In",
     "tier": "Regular",
     "env": "Conventional",
     "cond": "Fresh",
-    "stores": 22,
-    "low": 15.99,
+    "stores": 36,
+    "low": 7.99,
     "high": 17.99,
-    "avg": 16.9
+    "avg": 13.43
    },
    {
     "region": "Alaska",
@@ -650,10 +554,10 @@
     "tier": "Regular",
     "env": "Conventional",
     "cond": "Fresh",
-    "stores": 28,
+    "stores": 14,
     "low": 10.99,
     "high": 13.58,
-    "avg": 11.27
+    "avg": 11.55
    },
    {
     "region": "Alaska",
@@ -710,17 +614,17 @@
  },
  "wholesale": {
   "daily": {
-   "report_date": "2026-11-25",
+   "report_date": "2026-11-27",
    "session": "afternoon",
    "id": "LM_XB403",
-   "primal_rib_choice_cwt": 686.89,
-   "primal_rib_select_cwt": 639.81,
+   "primal_rib_choice_cwt": 689.54,
+   "primal_rib_select_cwt": 642.9,
    "ribeye_lipon_bonein_choice": {
-    "trades": 47,
-    "pounds": 532710,
-    "low_cwt": 1398.95,
-    "high_cwt": 1488.95,
-    "avg_cwt": 1405.32
+    "trades": 4,
+    "pounds": 41636,
+    "low_cwt": 1451.17,
+    "high_cwt": 1555.0,
+    "avg_cwt": 1452.18
    },
    "source": "USDA AMS Market News, National Daily Boxed Beef Cutout and Cuts - Negotiated Sales (LM_XB403)",
    "url": "https://mymarketnews.ams.usda.gov/viewReport/2453",
@@ -885,7 +789,7 @@
     }
    ],
    "price_note": null,
-   "checked": "2026-11-26"
+   "checked": "2026-11-28"
   },
   {
    "slug": "john-henrys-meats",
@@ -1030,7 +934,7 @@
     }
    ],
    "price_note": null,
-   "checked": "2026-11-26"
+   "checked": "2026-11-28"
   },
   {
    "slug": "pacific-rogue-wagyu",
@@ -1076,7 +980,7 @@
     }
    ],
    "price_note": null,
-   "checked": "2026-11-26"
+   "checked": "2026-11-28"
   },
   {
    "slug": "five-marys-ranch",
@@ -1166,7 +1070,7 @@
     }
    ],
    "price_note": null,
-   "checked": "2026-11-26"
+   "checked": "2026-11-28"
   },
   {
    "slug": "five-marys-ranch",
@@ -1256,7 +1160,7 @@
     }
    ],
    "price_note": null,
-   "checked": "2026-11-26"
+   "checked": "2026-11-28"
   },
   {
    "slug": "grand-view-beef",
@@ -1302,7 +1206,7 @@
     }
    ],
    "price_note": "Pre-order: the listing is a $100 deposit; the ranch sets the final price by weighing each roast.",
-   "checked": "2026-11-26"
+   "checked": "2026-11-28"
   },
   {
    "slug": "oak-barn-beef",
@@ -1348,7 +1252,7 @@
     }
    ],
    "price_note": null,
-   "checked": "2026-11-26"
+   "checked": "2026-11-28"
   },
   {
    "slug": "heartbrand-beef",
@@ -1372,7 +1276,7 @@
     }
    ],
    "price_note": null,
-   "checked": "2026-11-26"
+   "checked": "2026-11-28"
   },
   {
    "slug": "hawks-hill",
@@ -1495,7 +1399,7 @@
     }
    ],
    "price_note": null,
-   "checked": "2026-11-26"
+   "checked": "2026-11-28"
   },
   {
    "slug": "hawks-hill",
@@ -1695,7 +1599,7 @@
     }
    ],
    "price_note": null,
-   "checked": "2026-11-26"
+   "checked": "2026-11-28"
   },
   {
    "slug": "stemple-creek-ranch",
@@ -1796,7 +1700,7 @@
     }
    ],
    "price_note": null,
-   "checked": "2026-11-26"
+   "checked": "2026-11-28"
   },
   {
    "slug": "starwalker-organic-farms",
@@ -2007,7 +1911,7 @@
     }
    ],
    "price_note": null,
-   "checked": "2026-11-26"
+   "checked": "2026-11-28"
   },
   {
    "slug": "mariposa-ranch",
@@ -2021,7 +1925,7 @@
     {
      "title": "4.40 pounds",
      "price": 135.92,
-     "available": true,
+     "available": false,
      "lb_low": 4.4,
      "lb_high": 4.4,
      "per_lb_low": 30.89,
@@ -2032,7 +1936,7 @@
     {
      "title": "4.65 pounds",
      "price": 143.64,
-     "available": true,
+     "available": false,
      "lb_low": 4.65,
      "lb_high": 4.65,
      "per_lb_low": 30.89,
@@ -2043,7 +1947,7 @@
     {
      "title": "5.00 pounds",
      "price": 154.45,
-     "available": true,
+     "available": false,
      "lb_low": 5.0,
      "lb_high": 5.0,
      "per_lb_low": 30.89,
@@ -2054,7 +1958,7 @@
     {
      "title": "5.25 pounds",
      "price": 162.17,
-     "available": true,
+     "available": false,
      "lb_low": 5.25,
      "lb_high": 5.25,
      "per_lb_low": 30.89,
@@ -2065,7 +1969,7 @@
     {
      "title": "5.55 pounds",
      "price": 171.44,
-     "available": true,
+     "available": false,
      "lb_low": 5.55,
      "lb_high": 5.55,
      "per_lb_low": 30.89,
@@ -2076,7 +1980,7 @@
     {
      "title": "5.80 pounds",
      "price": 179.16,
-     "available": true,
+     "available": false,
      "lb_low": 5.8,
      "lb_high": 5.8,
      "per_lb_low": 30.89,
@@ -2373,7 +2277,7 @@
     {
      "title": "10.90 pounds",
      "price": 336.7,
-     "available": true,
+     "available": false,
      "lb_low": 10.9,
      "lb_high": 10.9,
      "per_lb_low": 30.89,
@@ -2383,7 +2287,7 @@
     }
    ],
    "price_note": null,
-   "checked": "2026-11-26"
+   "checked": "2026-11-28"
   },
   {
    "slug": "sunset-ridge-beef",
@@ -2484,7 +2388,7 @@
     }
    ],
    "price_note": null,
-   "checked": "2026-11-26"
+   "checked": "2026-11-28"
   },
   {
    "slug": "home-place-pastures",
@@ -2508,7 +2412,7 @@
     }
    ],
    "price_note": null,
-   "checked": "2026-11-26"
+   "checked": "2026-11-28"
   },
   {
    "slug": "koopmann-family-beef",
@@ -2532,7 +2436,7 @@
     }
    ],
    "price_note": null,
-   "checked": "2026-11-26"
+   "checked": "2026-11-28"
   },
   {
    "slug": "parker-pastures",
@@ -2567,9 +2471,9 @@
     }
    ],
    "price_note": null,
-   "checked": "2026-11-26"
+   "checked": "2026-11-28"
   }
  ],
- "generated_at": "2026-11-26T20:28:20-08:00",
+ "generated_at": "2026-11-28T04:31:22+00:00",
  "errors": []
 }
